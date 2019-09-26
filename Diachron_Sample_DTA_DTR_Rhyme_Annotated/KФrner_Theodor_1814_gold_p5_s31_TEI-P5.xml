@@ -1,0 +1,731 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+                         <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+                                                  <fileDesc>
+                                                  <titleStmt>
+                                                  <title type="main">Leyer und Schwerdt</title>
+                                                  <author>
+                                                  <persName ref="http://d-nb.info/gnd/118713507">
+                                                  <surname>Körner</surname>
+                                                  <forename>Theodor</forename>
+                                                  </persName>
+                                                  </author>
+                                                  <editor corresp="#DTACorpusPublisher">
+                                                  <persName ref="http://d-nb.info/gnd/115266127">
+                                                  <surname>Geyken</surname>
+                                                  <forename>Alexander</forename>
+                                                  </persName>
+                                                  </editor>
+                                                  <editor corresp="#DTACorpusPublisher">
+                                                  <persName ref="http://d-nb.info/gnd/1018099549">
+                                                  <surname>Haaf</surname>
+                                                  <forename>Susanne</forename>
+                                                  </persName>
+                                                  </editor>
+                                                  <editor corresp="#DTACorpusPublisher">
+                                                  <persName ref="http://d-nb.info/gnd/1019062681">
+                                                  <surname>Jurish</surname>
+                                                  <forename>Bryan</forename>
+                                                  </persName>
+                                                  </editor>
+                                                  <editor corresp="#DTACorpusPublisher">
+                                                  <persName>
+                                                  <surname>Schulz</surname>
+                                                  <forename>Matthias</forename>
+                                                  </persName>
+                                                  </editor>
+                                                  <editor corresp="#DTACorpusPublisher">
+                                                  <persName>
+                                                  <surname>Steinmann</surname>
+                                                  <forename>Jakob</forename>
+                                                  </persName>
+                                                  </editor>
+                                                  <editor corresp="#DTACorpusPublisher">
+                                                  <persName>
+                                                  <surname>Thomas</surname>
+                                                  <forename>Christian</forename>
+                                                  </persName>
+                                                  </editor>
+                                                  <editor corresp="#DTACorpusPublisher">
+                                                  <persName>
+                                                  <surname>Wiegand</surname>
+                                                  <forename>Frank</forename>
+                                                  </persName>
+                                                  </editor>
+                                                  <respStmt>
+                                                  <orgName ref="http://www.clarin-d.de"
+                                                  >CLARIN-D</orgName>
+                                                  <resp>
+                                                  <note type="remarkResponsibility">Langfristige
+                                                  Bereitstellung der DTA-Ausgabe</note>
+                                                  <ref target="http://fedora.dwds.de"/>
+                                                  </resp>
+                                                  </respStmt>
+                                                  </titleStmt>
+                                                  <editionStmt>
+                                                  <edition>Vollständige digitalisierte
+                                                  Ausgabe.</edition>
+                                                  </editionStmt>
+                                                  <extent>
+                                                  <measure type="images">103</measure>
+                                                  <measure type="tokens">8176</measure>
+                                                  <measure type="types">2670</measure>
+                                                  <measure type="characters">54412</measure>
+                                                  </extent>
+                                                  <publicationStmt>
+                                                  <publisher xml:id="DTACorpusPublisher">
+                                                  <email>dta@bbaw.de</email>
+                                                  <orgName role="project">Deutsches
+                                                  Textarchiv</orgName>
+                                                  <orgName role="hostingInstitution" xml:lang="en"
+                                                  >Berlin-Brandenburg Academy of Sciences and
+                                                  Humanities</orgName>
+                                                  <orgName role="hostingInstitution" xml:lang="de"
+                                                  >Berlin-Brandenburgische Akademie der
+                                                  Wissenschaften (BBAW)</orgName>
+                                                  <address>
+                                                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                                                  <country>Germany</country>
+                                                  </address>
+                                                  </publisher>
+                                                  <pubPlace>Berlin</pubPlace>
+                                                  <date type="publication"
+                                                  >2014-08-25T11:47:26Z</date>
+                                                  <availability>
+                                                  <licence
+                                                  target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+                                                  <p>Distributed under the Creative Commons
+                                                  Attribution-NonCommercial 3.0 Unported
+                                                  License.</p>
+                                                  </licence>
+                                                  </availability>
+                                                  <idno>
+                                                  <idno type="URLWeb"
+                                                  >http://www.deutschestextarchiv.de/koerner_leyer_1814</idno>
+                                                  <idno type="URLXML"
+                                                  >http://www.deutschestextarchiv.de/book/download_xml/koerner_leyer_1814</idno>
+                                                  <idno type="URLHTML"
+                                                  >http://www.deutschestextarchiv.de/book/download_html/koerner_leyer_1814</idno>
+                                                  <idno type="URLText"
+                                                  >http://www.deutschestextarchiv.de/book/download_text/koerner_leyer_1814</idno>
+                                                  <idno type="DTADirName">koerner_leyer_1814</idno>
+                                                  <idno type="DTAID">16410</idno>
+                                                  <idno type="URN"
+                                                  >urn:nbn:de:kobv:b4-200905193258</idno>
+                                                  </idno>
+                                                  </publicationStmt>
+                                                  <sourceDesc>
+                                                  <bibl type="M">Körner, Theodor: Leyer und
+                                                  Schwerdt. Berlin, 1814.</bibl>
+                                                  <biblFull>
+                                                  <titleStmt>
+                                                  <title level="m" type="main">Leyer und
+                                                  Schwerdt</title>
+                                                  <author>
+                                                  <persName ref="http://d-nb.info/gnd/118713507">
+                                                  <surname>Körner</surname>
+                                                  <forename>Theodor</forename>
+                                                  </persName>
+                                                  </author>
+                                                  </titleStmt>
+                                                  <editionStmt>
+                                                  <edition n="1"/>
+                                                  </editionStmt>
+                                                  <extent>
+                                                  <measure type="pages">[3] Bl., 88 S.</measure>
+                                                  </extent>
+                                                  <publicationStmt>
+                                                  <publisher><name>Nicolai</name></publisher>
+                                                  <pubPlace>Berlin</pubPlace>
+                                                  <date type="publication">1814</date>
+                                                  </publicationStmt>
+                                                  </biblFull>
+                                                  <msDesc>
+                                                  <msIdentifier>
+                                                  <repository>Zentral- und Landesbibliothek
+                                                  Berlin</repository>
+                                                  <idno>
+                                                  <idno type="shelfmark">Berlin ZLB, o III
+                                                  42908</idno>
+                                                  </idno>
+                                                  </msIdentifier>
+                                                  <physDesc>
+                                                  <typeDesc>
+                                                  <p>Fraktur</p>
+                                                  </typeDesc>
+                                                  </physDesc>
+                                                  </msDesc>
+                                                  </sourceDesc>
+                                                  </fileDesc>
+                                                  <encodingDesc>
+                                                  <editorialDecl>
+                                                  <p>Dieses Werk wurde von OCR-Software automatisch
+                                                  erfasst und anschließend gemäß den <ref
+                                                  target="http://www.deutschestextarchiv.de/doku/richtlinien"
+                                                  >DTA-Transkriptionsrichtlinien</ref> von
+                                                  Muttersprachlern nachkontrolliert. Es wurde gemäß
+                                                  dem <ref
+                                                  target="http://www.deutschestextarchiv.de/doku/basisformat"
+                                                  >DTA-Basisformat</ref> in XML/TEI P5 kodiert.</p>
+                                                  </editorialDecl>
+                                                  </encodingDesc>
+                                                  <profileDesc>
+                                                  <langUsage>
+                                                  <language ident="deu">German</language>
+                                                  </langUsage>
+                                                  <textClass>
+                                                  <classCode
+                                                  scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtamain"
+                                                  >Belletristik</classCode>
+                                                  <classCode
+                                                  scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtasub"
+                                                  >Lyrik</classCode>
+                                                  <classCode
+                                                  scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+                                                  >Belletristik</classCode>
+                                                  <classCode
+                                                  scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+                                                  >Lyrik</classCode>
+                                                  <classCode
+                                                  scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+                                                  >core</classCode>
+                                                  <classCode
+                                                  scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+                                                  >ready</classCode>
+                                                  <classCode
+                                                  scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+                                                  >ocr</classCode>
+                                                  </textClass>
+                                                  </profileDesc>
+                         </teiHeader>
+                         <text>
+                                                  <body>
+                                                  <div n="1">
+                                                  <lg type="poem">
+                                                  <lg n="1" type="stanza" rhyme="abba">
+                                                  <l rendition="#et">
+                                                  <hi rendition="#in">S</hi>chlacht, du brichſt
+                                                  an!</l>
+                                                  <lb/>
+                                                  <l>Gruͤßt ſie in freudigem Kreiſe,</l>
+                                                  <lb/>
+                                                  <l>Laut nach germaniſcher Weiſe.</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Bruͤder heran!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="2" type="stanza" rhyme="abba">
+                                                  <l rendition="#et">Noch perlt der Wein;</l>
+                                                  <lb/>
+                                                  <l>Eh' die Poſaunen erdroͤhnen,</l>
+                                                  <lb/>
+                                                  <l>Laßt uns das Leben verſoͤhnen.</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Bruͤder ſchenkt ein.</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="3" type="stanza" rhyme="abba">
+                                                  <l rendition="#et">Gott Vater hoͤrt,</l>
+                                                  <lb/>
+                                                  <l>Was an des Grabes Thoren</l>
+                                                  <lb/>
+                                                  <l>Vaterlands Soͤhne geſchworen,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Bruͤder, ihr ſchwoͤrt.</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="4" type="stanza" rhyme="abba">
+                                                  <l rendition="#et">Vaterlands Hort,</l>
+                                                  <lb/>
+                                                  <l>Woll'n wir's aus gluͤhenden Ketten</l>
+                                                  <lb/>
+                                                  <l>Todt oder ſiegend erretten. —</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Handſchlag und Wort!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <pb n="83" facs="#f0095"/>
+                                                  <lg n="5" type="stanza" rhyme="abba">
+                                                  <l rendition="#et">Hoͤrt ihr ſie nahn!</l>
+                                                  <lb/>
+                                                  <l>Liebe und Freuden und Leiden,</l>
+                                                  <lb/>
+                                                  <l>Tod! du kannſt uns nicht ſcheiden!</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Bruͤder ſtoßt an!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="6" type="stanza" rhyme="abba">
+                                                  <l rendition="#et">Schlacht ruft! hinaus!</l>
+                                                  <lb/>
+                                                  <l>Horch, die Trompeten werben.</l>
+                                                  <lb/>
+                                                  <l>Vorwaͤrts auf Leben und Sterben!</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Bruͤder trinkt aus!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  </lg>
+                                                  </div>
+
+                                                  <div n="2">
+                                                  <lg type="poem">
+                                                  <lg n="1" type="stanza" rhyme="abababcc">
+                                                  <l>Und ihr habt beſtanden! — Unter allen</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Gruͤnt ihr friſch und kuͤhn mit
+                                                  ſtarkem Muth.</l>
+                                                  <lb/>
+                                                  <l>Wohl kein Pilger wird voruͤber wallen,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Der in euerm Schatten nicht
+                                                  geruht.</l>
+                                                  <lb/>
+                                                  <l>Und wenn herbſtlich eure Blaͤtter fallen,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Todt auch ſind ſie euch ein
+                                                  koͤſtlich Gut,</l>
+                                                  <lb/>
+                                                  <l>Denn verweſend werden eure Kinder</l>
+                                                  <lb/>
+                                                  <l>Eurer naͤchſten Fruͤhlingspracht
+                                                  Begruͤnder.</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="2" type="stanza" rhyme="abababcc">
+                                                  <l>Schoͤnes Bild von alter deutſcher Treue,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Wie ſie beſſ're Zeiten
+                                                  angeſchaut;</l>
+                                                  <lb/>
+                                                  <l>Wo in freudig kuͤhner Todesweihe,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Buͤrger ihre Staaten
+                                                  feſtgebaut. —</l>
+                                                  <lb/>
+                                                  <l>Ach was hilft's, daß ich den Schmerz
+                                                  erneue?</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Sind doch alle dieſem Schmerz
+                                                  vertraut!</l>
+                                                  <lb/>
+                                                  <l>Deutſches Volk, du herrlichſtes vor allen,</l>
+                                                  <lb/>
+                                                  <l>
+                                                  <hi rendition="#g">Deine Eichen ſtehn</hi>, <hi
+                                                  rendition="#g">du biſt gefallen</hi>!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  </lg>
+                                                  </div>
+
+                                                  <div n="3">
+                                                  <lg type="poem">
+                                                  <lg n="1" type="stanza" rhyme="abbbaa">
+                                                  <l>
+                                                  <hi rendition="#in">W</hi>o iſt des Saͤngers
+                                                  Vaterland? —</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Wo edler Geiſter Funken
+                                                  ſpruͤhten,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Wo Kraͤnze fuͤr das Schoͤne
+                                                  bluͤhten,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Wo ſtarke Herzen freudig
+                                                  gluͤhten,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Fuͤr alles Heilige
+                                                  entbrannt,</l>
+                                                  <lb/>
+                                                  <l>Da war mein Vaterland!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="2" type="stanza" rhyme="abbbaa">
+                                                  <l>Wie heißt des Saͤngers Vaterland? —</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Jetzt uͤber ſeiner Soͤhne
+                                                  Leichen,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Jetzt weint es unter fremden
+                                                  Streichen,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Sonſt hieß es nur das Land der
+                                                  Eichen,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Das freie Land, das deutſche
+                                                  Land!</l>
+                                                  <lb/>
+                                                  <l>So hieß mein Vaterland!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="3" type="stanza" rhyme="abbbaa">
+                                                  <l>Was weint des Saͤngers Vaterland? —</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Daß vor des Wuͤthrichs
+                                                  Ungewittern,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Die Fuͤrſten ſeiner Voͤlker
+                                                  zittern,</l>
+                                                  <lb/>
+                                                  <pb n="24" facs="#f0036"/>
+                                                  <l rendition="#et">Daß ihre heil'gen Worte
+                                                  ſplittern,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Und daß ſein Ruf kein Hoͤren
+                                                  fand,</l>
+                                                  <lb/>
+                                                  <l>Drum weint mein Vaterland!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="4" type="stanza" rhyme="abbbaa">
+                                                  <l>Wem ruft des Saͤngers Vaterland? —</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Es ruft nach den verſtummten
+                                                  Goͤttern,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Mit der Verzweiflung
+                                                  Donnerwettern,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Nach ſeiner Freiheit, ſeinen
+                                                  Rettern,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Nach der Vergeltung
+                                                  Raͤcherhand.</l>
+                                                  <lb/>
+                                                  <l>Der ruft mein Vaterland!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="5" type="stanza" rhyme="abbbaa">
+                                                  <l>Was will des Saͤngers Vaterland? —</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Die Knechte will es
+                                                  niederſchlagen,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Den Bluthund aus den Graͤnzen
+                                                  jagen,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Und frei die freien Soͤhne
+                                                  tragen,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Oder, frei ſie betten unterm
+                                                  Sand.</l>
+                                                  <lb/>
+                                                  <l>Das will mein Vaterland!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="6" type="stanza" rhyme="abbbaa">
+                                                  <l>Und hofft des Saͤngers Vaterland? —</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Es hofft auf die gerechte
+                                                  Sache,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Hofft, daß ſein treues Volk
+                                                  erwache,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Hofft auf des großen Gottes
+                                                  Rache,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Und hat den Raͤcher nicht
+                                                  verkannt.</l>
+                                                  <lb/>
+                                                  <l>Drauf hofft mein Vaterland!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  </lg>
+                                                  </div>
+
+                                                  <div n="4">
+                                                  <lg type="poem">
+                                                  <lg n="1" type="stanza" rhyme="aa">
+                                                  <l>
+                                                  <hi rendition="#in">E</hi>s ſchweigt die Nacht,
+                                                  die Erde traͤumt</l>
+                                                  <lb/>
+                                                  <l>Und bleich der Mond die Wolken ſaͤumt. —</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="2" type="stanza" rhyme="aabbccdedde">
+                                                  <l rendition="#et">Was biſt du Welt ſo ſtill, ſo
+                                                  leer!</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Was lauerſt du wie ein falſches
+                                                  Meer? —</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Es ſauſt ſo oͤde durch dein
+                                                  Reich</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Und Schauder faßt die Seele
+                                                  gleich,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Als wollteſt du mit leiſem
+                                                  Beben</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Des Morgens blut'gen Schleyer
+                                                  heben. —</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Noch ſchlummerts tief in Lagers
+                                                  Raum,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Die Sterne ſteigen, auf und
+                                                  nieder;</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Die Todtenſtille regt ſich
+                                                  kaum! —</l>
+                                                  <lb/>
+                                                  <l rendition="#et">O laß der Welt den ſchoͤnen
+                                                  Traum,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Der nahe Tag verſcheucht ihn
+                                                  wieder! —</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <pb n="15" facs="#f0027"/>
+                                                  <lg n="3" type="stanza" rhyme="aa">
+                                                  <l>In Oſten graut's, es ſinkt die Nacht. —</l>
+                                                  <lb/>
+                                                  <l>Gottlob! der Morgen iſt erwacht! —</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="4" type="stanza" rhyme="aabbccdd">
+                                                  <l rendition="#et">Gottlob, der neue Tag bricht
+                                                  an! —</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Seht euch nochmal die Sonne
+                                                  an.</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Wohl viele, die jetzt ruͤſtig
+                                                  ſtehn,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Sehn ſie nie wieder
+                                                  untergehn.</l>
+                                                  <lb/>
+                                                  <l rendition="#et">In manchen Herzen pocht das
+                                                  Blut,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Nach raſchen Streites
+                                                  Uebermuth,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Und eh die naͤchſten Stunden
+                                                  tagen,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Hat manches Herz ſchon
+                                                  ausgeſchlagen!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="5" type="stanza" rhyme="aa">
+                                                  <l>Die Sonne kommt, der Nebel reißt‚</l>
+                                                  <lb/>
+                                                  <l>Ein ſtumm Gebet den Vater preißt.</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="6" type="stanza" rhyme="aabbccddeeff">
+                                                  <l rendition="#et">Nun lebt und regt ſich alle
+                                                  Welt‚</l>
+                                                  <lb/>
+                                                  <l rendition="#et">In blanken Waffen glaͤnzt das
+                                                  Feld.</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Der Juͤngling ſchreitet kuͤhn
+                                                  hinaus‚</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Er ſchaut hinauf ins
+                                                  Vaterhaus,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Und leiſe Ahndung fuͤllt ſein
+                                                  Herz,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Und zieht ihn daͤmmernd
+                                                  himmelwaͤrts.</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Da traͤgt der tiefbewegte
+                                                  Sinn</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Die Traͤume zu der Liebſten
+                                                  hin.</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Sie weinte, als er ſcheiden
+                                                  mußt',</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Und Wehmuth haucht in ſeine
+                                                  Bruſt,</l>
+                                                  <lb/>
+                                                  <pb n="16" facs="#f0028"/>
+                                                  <l rendition="#et">Und er gedenkt der ſchoͤnen
+                                                  Zeiten! —</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Er fuͤhlt's, es war ein ewig
+                                                  Scheiden! —</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="7" type="stanza" rhyme="aa">
+                                                  <l>Die Sonne ſteigt, der Laͤrmſchuß kracht,</l>
+                                                  <lb/>
+                                                  <l>Laut jubelnd zieht das Heer zur Schlacht.</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="8" type="stanza" rhyme="aabbcc">
+                                                  <l rendition="#et">„Seht ihr den Stephan
+                                                  heruͤberwinken,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">„Und dort die Fraͤnk'ſchen
+                                                  Adler blinken?</l>
+                                                  <lb/>
+                                                  <l rendition="#et">„Auf Bruͤder, ſtuͤrzt euch
+                                                  muthig drein',</l>
+                                                  <lb/>
+                                                  <l rendition="#et">„Die Adler muͤſſen unſer ſeyn.
+                                                  —</l>
+                                                  <lb/>
+                                                  <l rendition="#et">„Lebt wohl, lebt wohl, ihr
+                                                  meine Lieben,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">„Weint nicht, ich wollt euch
+                                                  nicht betruͤben!“</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="9" type="stanza" rhyme="aa">
+                                                  <l>Es wogt der Kampf, es bruͤllt der Tod,</l>
+                                                  <lb/>
+                                                  <l>Die Wunden klaffen blutigroth! —</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="10" type="stanza" rhyme="aabbccddeeff">
+                                                  <l rendition="#et">„Mir nach! mir nach! dort iſt
+                                                  der Ruhm,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">„Ihr kaͤmpft fuͤr euer
+                                                  Heiligthum!“</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Und neben ihm und unter ihm</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Wuͤrgt raſch des Todes
+                                                  Ungeſtuͤm,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Und Mann und Roß
+                                                  zuſammenbrach</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Er aber jauchzt: „mir nach! mir
+                                                  nach!“</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Da pfeift eine Kugel durch
+                                                  ſeine Bruſt,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Daß gleich das Auge brechen
+                                                  mußt',</l>
+                                                  <lb/>
+                                                  <pb n="17" facs="#f0029"/>
+                                                  <l rendition="#et">Doch hat er mit der letzten
+                                                  Kraft</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Den letzten Athem
+                                                  zuſammengerafft</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Und ruft und ſtuͤrzt zu Boden
+                                                  gleich:</l>
+                                                  <lb/>
+                                                  <l rendition="#et">„Hoch lebe das Haus
+                                                  Oeſterreich! —“</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="11" type="stanza" rhyme="aa">
+                                                  <l>Der Adler ſinkt, die Fahne fliegt,</l>
+                                                  <lb/>
+                                                  <l>Heil dir mein Volk, du haſt geſiegt!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  </lg>
+                                                  </div>
+
+                                                  <div n="5">
+                                                  <lg type="poem">
+                                                  <lg n="1" type="stanza" rhyme="abbaa">
+                                                  <l rendition="#et">
+                                                  <hi rendition="#in">V</hi>ater, ich rufe dich!</l>
+                                                  <lb/>
+                                                  <l>Bruͤllend umwoͤlkt mich der Dampf der
+                                                  Geſchuͤtze,</l>
+                                                  <lb/>
+                                                  <l>Spruͤhend umzucken mich raſſelnde Blitze.</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Lenker der Schlachten, ich rufe
+                                                  dich!</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Vater du, fuͤhre mich!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="2" type="stanza" rhyme="abbaa">
+                                                  <l rendition="#et">Vater du, fuͤhre mich!</l>
+                                                  <lb/>
+                                                  <l>Fuͤhr' mich zum Sieg, fuͤhr mich zum Tode,</l>
+                                                  <lb/>
+                                                  <l>Herr, ich erkenne deine Gebote,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Herr, wie du willſt, ſo fuͤhre
+                                                  mich,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Gott, ich erkenne dich!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="3" type="stanza" rhyme="abbaa">
+                                                  <l rendition="#et">Gott, ich erkenne dich!</l>
+                                                  <lb/>
+                                                  <l>So im herbſtlichen Rauſchen der Blaͤtter</l>
+                                                  <lb/>
+                                                  <l>Als im Schlachtendonnerwetter</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Urquell der Gnade, erkenn' ich
+                                                  dich.</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Vater du, ſegne mich!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <pb n="56" facs="#f0068"/>
+                                                  <lg n="4" type="stanza" rhyme="abbaa">
+                                                  <l rendition="#et">Vater du, ſegne mich!</l>
+                                                  <lb/>
+                                                  <l>In deine Hand befehl' ich mein Leben,</l>
+                                                  <lb/>
+                                                  <l>Du kannſt es nehmen, du haſt es gegeben,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Zum Leben, zum Sterben ſegne
+                                                  mich.</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Vater, ich preiſe dich!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="5" type="stanza" rhyme="abbaa">
+                                                  <l rendition="#et">Vater, ich preiſe dich!</l>
+                                                  <lb/>
+                                                  <l>S'iſt ja kein Kampf fuͤr die Guͤter der
+                                                  Erde;</l>
+                                                  <lb/>
+                                                  <l>Das Heiligſte ſchuͤtzen wir mit dem
+                                                  Schwerdte,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Drum fallend und ſiegend preis'
+                                                  ich dich,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Gott, dir ergeb' ich mich!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  <lg n="6" type="stanza" rhyme="abcaa">
+                                                  <l rendition="#et">Gott, dir ergeb' ich mich!</l>
+                                                  <lb/>
+                                                  <l>Wenn mich die Donner des Todes begruͤßen,</l>
+                                                  <lb/>
+                                                  <l>Wenn meine Adern geoͤffnet fließen,</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Dir, mein Gott, dir ergeb' ich
+                                                  mich!</l>
+                                                  <lb/>
+                                                  <l rendition="#et">Vater, ich rufe dich!</l>
+                                                  <lb/>
+                                                  </lg>
+                                                  </lg>
+                                                  </div>
+
+                                                  </body>
+                         </text>
+</TEI>

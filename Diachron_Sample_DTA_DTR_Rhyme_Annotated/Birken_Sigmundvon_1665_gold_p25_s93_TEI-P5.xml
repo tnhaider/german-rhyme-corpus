@@ -1,0 +1,2074 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Pegnesische Gesprächspiel-Gesellschaft von Nymfen und Hirten</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/118511270">
+            <surname>Birken</surname>
+            <forename>Sigmund von</forename>
+          </persName>
+        </author>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/115266127">
+            <surname>Geyken</surname>
+            <forename>Alexander</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1018099549">
+            <surname>Haaf</surname>
+            <forename>Susanne</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1019062681">
+            <surname>Jurish</surname>
+            <forename>Bryan</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Boenig</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Thomas</surname>
+            <forename>Christian</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Wiegand</surname>
+            <forename>Frank</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <orgName ref="http://www.clarin-d.de">CLARIN-D</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="http://fedora.dwds.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Vollständige digitalisierte Ausgabe.</edition>
+      </editionStmt>
+      <extent>
+        <measure type="images">155</measure>
+        <measure type="tokens">18130</measure>
+        <measure type="types">5372</measure>
+        <measure type="characters">127006</measure>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2016-10-10T13:02:42Z</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+            <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported
+              License.</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="URLWeb">http://www.deutschestextarchiv.de/birken_gespraechspiel_1665</idno>
+          <idno type="URLXML"
+            >http://www.deutschestextarchiv.de/book/download_xml/birken_gespraechspiel_1665</idno>
+          <idno type="URLHTML"
+            >http://www.deutschestextarchiv.de/book/download_html/birken_gespraechspiel_1665</idno>
+          <idno type="URLText"
+            >http://www.deutschestextarchiv.de/book/download_text/birken_gespraechspiel_1665</idno>
+          <idno type="DTADirName">birken_gespraechspiel_1665</idno>
+          <idno type="DTAID">20042</idno>
+          <idno type="URN">urn:nbn:de:kobv:b4-200905198447</idno>
+        </idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="M">Birken, Sigmund von: Pegnesische Gesprächspiel-Gesellschaft von Nymfen und
+          Hirten. Nürnberg, 1665.</bibl>
+        <biblFull>
+          <titleStmt>
+            <title level="m" type="main">Pegnesische Gesprächspiel-Gesellschaft von Nymfen und
+              Hirten</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/118511270">
+                <surname>Birken</surname>
+                <forename>Sigmund von</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <extent>
+            <measure type="pages">[1] gef., [2] Bl., 136 S. : 1 Ill. (Kupferst.)</measure>
+          </extent>
+          <publicationStmt>
+            <publisher><name>Endter</name></publisher>
+            <pubPlace>Nürnberg</pubPlace>
+            <date type="publication">1665</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <repository>HAB Wolfenbüttel</repository>
+            <idno>
+              <idno type="shelfmark">HAB Wolfenbüttel, Xb 5809</idno>
+              <idno type="URLCatalogue">Dig: http://diglib.hab.de/drucke/xb-5809/start.htm</idno>
+            </idno>
+          </msIdentifier>
+          <physDesc>
+            <typeDesc>
+              <p>Fraktur</p>
+            </typeDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Dieses Werk wurde gemäß den <ref
+            target="http://www.deutschestextarchiv.de/doku/richtlinien"
+            >DTA-Transkriptionsrichtlinien</ref> im Double-Keying-Verfahren von
+          Nicht-Muttersprachlern erfasst und in XML/TEI P5 nach <ref
+            target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat</ref>
+          kodiert.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="rendition-aq">font-family:sans-serif</rendition>
+        <rendition scheme="css" xml:id="rendition-b">font-weight:bold</rendition>
+        <rendition scheme="css" xml:id="rendition-blue">color:blue</rendition>
+        <rendition scheme="css" xml:id="rendition-c">display:block; text-align:center</rendition>
+        <rendition scheme="css" xml:id="rendition-et">display:block; margin-left:2em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-et2">display:block; margin-left:4em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-et3">display:block; margin-left:6em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-f">border:1px dotted silver</rendition>
+        <rendition scheme="css" xml:id="rendition-fr">border:1px dotted silver</rendition>
+        <rendition scheme="css" xml:id="rendition-g">letter-spacing:0.125em</rendition>
+        <rendition scheme="css" xml:id="rendition-i">font-style:italic</rendition>
+        <rendition scheme="css" xml:id="rendition-in">font-size:150%</rendition>
+        <rendition scheme="css" xml:id="rendition-k">font-variant:small-caps</rendition>
+        <rendition scheme="css" xml:id="rendition-larger">font-size:larger</rendition>
+        <rendition scheme="css" xml:id="rendition-red">color:red</rendition>
+        <rendition scheme="css" xml:id="rendition-right">display:block; text-align:right</rendition>
+        <rendition scheme="css" xml:id="rendition-s">text-decoration:line-through</rendition>
+        <rendition scheme="css" xml:id="rendition-smaller">font-size:smaller</rendition>
+        <rendition scheme="css" xml:id="rendition-sub">vertical-align:sub;
+          font-size:.7em</rendition>
+        <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+          font-size:.7em</rendition>
+        <rendition scheme="css" xml:id="rendition-u">text-decoration:underline</rendition>
+        <rendition scheme="css" xml:id="rendition-uu">border-bottom:double 3px #000</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">German</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtamain"
+          >Belletristik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Lyrik;
+          Prosa</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+          >Belletristik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Lyrik;
+          Prosa</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >core</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >ready</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >china</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababcc">
+            <l>Der Wunderleib/ iſt zwar in etwas abge-<lb/>
+              <hi rendition="#et">bildt.</hi></l>
+            <lb/>
+            <l>Die innerliche Zier kan doch kein Pinſel<lb/>
+              <hi rendition="#et">mahlen.</hi></l>
+            <lb/>
+            <l>Sie iſt mit Stand/ Verſtand/ und allem<lb/>
+              <hi rendition="#et">Wunſch/ erfuͤllt.</hi></l>
+            <lb/>
+            <l>Sie prangt ſo Tugend-voll/ als reich an<lb/>
+              <hi rendition="#et">Schoͤnheit-ſtrahlen.</hi></l>
+            <lb/>
+            <l>Der Leib iſt Goͤttlich-ſchoͤn: dem Geiſt auch<lb/>
+              <hi rendition="#et">nichtes gleicht.</hi></l>
+            <lb/>
+            <l>Kurtz: Alls iſt ſie allein. Kein Lob ihr Lob<lb/>
+              <hi rendition="#et">erreicht.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="2">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Wer nit lebet/ wie die Todten/</l>
+            <lb/>
+            <l>dem ſey dieſe Schwell verboten.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="3">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Mir iſt nit heiß:</l>
+            <lb/>
+            <l>ich brauch kein Eis.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="4">
+        <lg type="poem">
+          <head><hi rendition="#fr">Die Guͤldene Zeit.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="aabb">
+            <l>Die Erſte iſt die Guͤldne Zeit auf Erd:</l>
+            <lb/>
+            <l>Da Treu und Recht war ungebotten wehrt.</l>
+            <lb/>
+            <l>Man wuſte noch von Furcht un̄ Straffe nicht.</l>
+            <lb/>
+            <l>Der Unſchuld war kein Kerker zugericht.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabb">
+            <l>Kein Menſch erſchrack vor eines Richters<lb/>
+              <hi rendition="#et">Hand:</hi></l>
+            <lb/>
+            <l>ohn Richter/ ward vermieden Suͤnd und<lb/>
+              <hi rendition="#et">Schand.</hi></l>
+            <lb/>
+            <l>Es war auch noch die Fichte nicht gefaͤllt/</l>
+            <lb/>
+            <l>zu ſchiffen hin in eine andre Welt.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="aabb">
+            <l>Es kennte nur ein jeder ſeinen Heerd:</l>
+            <lb/>
+            <l>kein fremder Rauch zu ſehen ward begehrt.</l>
+            <lb/>
+            <l>Ein jeder fand/ was er geſucht/ zuhaus.</l>
+            <lb/>
+            <l>Man reiſte nicht nach fremden Laſtern aus.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="aabb">
+            <l>Die Furcht hatt noch uͤmmauret keine Stadt.</l>
+            <lb/>
+            <l>Der Zorn kein Schwerd und keinen Helm<lb/>
+              <hi rendition="#et">noch hatt.</hi></l>
+            <lb/>
+            <fw type="catch" place="bottom">Das</fw>
+            <lb/>
+            <pb n="13" facs="#f0025"/>
+            <fw type="header" place="top"><hi rendition="#fr">Der Fruͤling.</hi></fw>
+            <lb/>
+            <l>Das hole Erz blieſ auch noch nicht zum<lb/>
+              <hi rendition="#et">Streit.</hi></l>
+            <l xml:id="schluss" prev="vers">(breit.</l>
+            <lb/>
+            <l xml:id="vers" next="schluss">Nichts war/ als Ruh und Friede/ weit und</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="aabb">
+            <l>Die Erd/ noch nicht verwundet von dem<lb/>
+              <hi rendition="#et">Pflug/</hi></l>
+            <lb/>
+            <l>und unbepflanzt/ die baͤſten Fruͤchte trug.</l>
+            <lb/>
+            <l>Man war vergnuͤgt mit ſelbſtgewachſner<lb/>
+              <hi rendition="#et">Speis/</hi></l>
+            <lb/>
+            <l>und was gebar ein gruͤnes Baͤume-Reis.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="aabb">
+            <l>Die Erdbeer man pflag aufzuleſen auch/</l>
+            <lb/>
+            <l>und manche Beer ſonſt mehr von manchem<lb/>
+              <hi rendition="#et">Strauch.</hi></l>
+            <lb/>
+            <l>Es ſchmeckten gar die bittren Eicheln ſuͤß/</l>
+            <lb/>
+            <l>die Dodons Hayn von Aeſten fallen ließ.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="aabb">
+            <l>Es waͤhrte ſtaͤts die ſchoͤne Fruͤlingszeit.</l>
+            <lb/>
+            <l>Der ſuͤſſe Weſt blieſ durch die Blumen-heid:</l>
+            <lb/>
+            <l>Kein Nordes-grim̄/ ein Tod der Kraͤuter war.</l>
+            <lb/>
+            <l>Und ungebaut/ die Erde Frucht gebar.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="aabb">
+            <l>Im Feld ſtund ſtaͤts der Aehrē ſchweres Gold.</l>
+            <lb/>
+            <l>Man fand allzeit/ wz jeder wuͤnſcht’ un̄ wolt.</l>
+            <lb/>
+            <l>Es floſſ der Strom/ mit Milch und Nectar-<lb/>
+              <hi rendition="#et">Wein</hi></l>
+            <lb/>
+            <l>Es ſchenkten auch die Baͤume Honig ein.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="5">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <l>Gruͤnt/ wie ihr thut/ ihr Blaͤtter!</l>
+            <lb/>
+            <l>zu kroͤnen dieſe Goͤtter.</l>
+            <lb/>
+            <l>Ihr hohe: Tugend-Wehrt/</l>
+            <lb/>
+            <l>ſey ſtets durch euch beehrt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="6">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Im Himmel ſoll erhoͤher werden/</l>
+            <lb/>
+            <l>wer ſich ernidrig<supplied>t</supplied> hier auf Erden.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="7">
+        <lg type="poem">
+          <head><hi rendition="#fr">Threnende Augen.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="aabccb">
+            <head>1.</head>
+            <l>Edle Hirtinn! deine Zaͤhren/</l>
+            <lb/>
+            <l>die du oft pflegſt zuverroͤhren</l>
+            <lb/>
+            <l>aus den lieben Aeugelein/</l>
+            <lb/>
+            <l>kan ich unberedt nit laſſen/</l>
+            <lb/>
+            <l>ich muß meine Feder faſſen/</l>
+            <lb/>
+            <l>ſie in Threnen tunken ein.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">2. Deine</fw>
+          <lb/>
+          <pb n="121" facs="#f0133"/>
+          <fw type="header" place="top"><hi rendition="#fr">Die Threnenden Augen.</hi></fw>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabccb">
+            <head>2.</head>
+            <l>Deine Schwanenweiſſe Wangen/</l>
+            <lb/>
+            <l>wann daran die Zehrlein hangen/</l>
+            <lb/>
+            <l>ſind den Perlen Muſcheln gleich,</l>
+            <lb/>
+            <l>Perle! du laͤſſt Perlen rinnen:</l>
+            <lb/>
+            <l>fangt ſie auf/ ihr Nereinnen!</l>
+            <lb/>
+            <l>ſolches Weinen machet reich.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="aabccb">
+            <head>3. </head>
+            <l>Diamanten/ die zerfloſſen/</l>
+            <lb/>
+            <l>kommen Backen-ab geſchoſſen.</l>
+            <lb/>
+            <l>Deine Augen/ ſihet man</l>
+            <lb/>
+            <l>viel Kryſtallen-tropfen ballen.</l>
+            <lb/>
+            <l>Ach! daß ich nit dieſes Wallen/</l>
+            <lb/>
+            <l>dieſe Threnen/ ſtopfen kan!</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="aabccb">
+            <head>4.</head>
+            <l>Ja/ ſie flieſſen mir zu Herzen:</l>
+            <lb/>
+            <l>die gewißlich nicht ohn Schmerzen</l>
+            <lb/>
+            <l>aus dem Herzen flieſſen dir.</l>
+            <lb/>
+            <l>Sag doch/ mein! was fuͤr Urſachen</l>
+            <lb/>
+            <l>moͤgen dich wohl weinend machen?</l>
+            <lb/>
+            <l>Ich rah<supplied>t</supplied>: oder ſag es mir!</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="aabccb">
+            <head>5.</head>
+            <l>Sind dann deine Aeuglein Bronnen?</l>
+            <lb/>
+            <l>die man ſehend haͤlt vor Sonnen?</l>
+            <lb/>
+            <l>Feur und Waſſer reimt ſich nicht.</l>
+            <lb/>
+            <l>Es wird ſtrahlen nicht ſo helle/</l>
+            <lb/>
+            <l>wann es ſeyn will eine Quelle/</l>
+            <lb/>
+            <l>deiner Augenliechter Liecht.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="aabccb">
+            <head>6.</head>
+            <l>Schoͤne Sonnen! ihr ſolt ſcheinen/</l>
+            <lb/>
+            <l>nicht betruͤbte Threnen weinen.</l>
+            <lb/>
+            <l>Euer Himmel/ da ihr ſteht/</l>
+            <lb/>
+            <fw type="sig" place="bottom">F v</fw>
+            <fw type="catch" place="bottom">dieſes</fw>
+            <lb/>
+            <pb n="122" facs="#f0134"/>
+            <fw type="header" place="top"><hi rendition="#fr">Die Threnenden Augen.</hi></fw>
+            <lb/>
+            <l>dieſes himmliſch’ Angeſichte/</l>
+            <lb/>
+            <l>ſiht viel ſchoͤner/ wann es liechte/</l>
+            <lb/>
+            <l>als wann es truͤb uͤbergeht.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="aabccb">
+            <head>7.</head>
+            <l>Zwar/ mein Urtheil beyzulegen:</l>
+            <lb/>
+            <l>ihr ſeit Sonne/ ſeit auch Regen.</l>
+            <lb/>
+            <l>Weil ihr Herzen zuͤndet an/</l>
+            <lb/>
+            <l>liebe Aeuglein! muß ingleichen</l>
+            <lb/>
+            <l>eure Quelle Loͤſchung reichen/</l>
+            <lb/>
+            <l>gieſſen manchen friſchen Thran.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="aabccb">
+            <head>8.</head>
+            <l>Ihr beweinet itzt die Schmerzen/</l>
+            <lb/>
+            <l>die einmal Verliebten Herzen</l>
+            <lb/>
+            <l>eure Schoͤnheit machen wird.</l>
+            <lb/>
+            <l>Die viel Weinens noch ſoll machen/</l>
+            <lb/>
+            <l>weiner billig/ die ins Lachen</l>
+            <lb/>
+            <l>kuͤnftig eine Theurung fuͤhrt.</l>
+          </lg>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="aabccb">
+            <head>9.</head>
+            <l> Selbſt die Liebe/ recht zuſagen/</l>
+            <lb/>
+            <l>hat hier Wohnung aufgeſchlagen.</l>
+            <lb/>
+            <l>Herzen/ die der Augen Glut</l>
+            <lb/>
+            <l>nicht zerſchmelzet/ Stein und Eichen/</l>
+            <lb/>
+            <l>ſoll bezwingen und aufweichen</l>
+            <lb/>
+            <l>eben dieſer Augen Flut.</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="aabccb">
+            <head>10.</head>
+            <l>Oder/ wie die Thau-Kryſtallen</l>
+            <lb/>
+            <l>laͤſſet Frau Aurora fallen</l>
+            <lb/>
+            <l>auf der Blumen buntes Beet:</l>
+            <lb/>
+            <l>alſo laͤſſt auch Tropfen ſchieſſen/</l>
+            <lb/>
+            <l>auf die Wangenblumen flieſſen/</l>
+            <lb/>
+            <l>deiner Aeuglein Morgenroͤt.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">11. Ja/</fw>
+          <lb/>
+          <pb n="123" facs="#f0135"/>
+          <fw type="header" place="top"><hi rendition="#fr">Die Threnenden Augen.</hi></fw>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="aabccb">
+            <head>11.</head>
+            <l>Ja/ es ſind/ auf deinen Wangen/</l>
+            <lb/>
+            <l>Liljen/ Roſen/ aufgegangen.</l>
+            <lb/>
+            <l>Gern woltſt du noch ſchoͤner ſeyn:</l>
+            <lb/>
+            <l>daruͤm/ daß ſie wachſen moͤgen/</l>
+            <lb/>
+            <l>gieſſen deine Aeuglein Regen</l>
+            <lb/>
+            <l>auf ſie/ und auch Sonneſchein.</l>
+          </lg>
+          <lb/>
+          <lg n="12" type="stanza" rhyme="aabccb">
+            <head>12.</head>
+            <l>Ey ſo werde ſchoͤner/ weine!</l>
+            <lb/>
+            <l>ſo beregne und beſcheine:</l>
+            <lb/>
+            <l>deiner Wangen Liljenfeld:</l>
+            <lb/>
+            <l>daß daſelbſt auch Roſen gluͤhen;</l>
+            <lb/>
+            <l>daß die Baͤcklein roͤhter bluͤhen/</l>
+            <lb/>
+            <l>die man ſchier vor bleiche haͤlt.</l>
+          </lg>
+          <lb/>
+          <lg n="13" type="stanza" rhyme="aabccb">
+            <head>13.</head>
+            <l>Doch ſo weine nicht ſo ſehre!</l>
+            <lb/>
+            <l>dieſe naſſe Threnen Meere/</l>
+            <lb/>
+            <l>loͤſchen deins Schoͤnheit aus.</l>
+            <lb/>
+            <l>Wirſt du/ vor das Weinen/ lachen:</l>
+            <lb/>
+            <l>wirſt du dich viel ſchoͤner machen.</l>
+            <lb/>
+            <l>Lachen/ iſt der Schoͤnheit Haus.</l>
+          </lg>
+          <lb/>
+          <lg n="14" type="stanza" rhyme="aabccb">
+            <head>14.</head>
+            <l>An die falſchen Weiber-zehren/</l>
+            <lb/>
+            <l>ſagt man/ ſoll ſich niemand kehren.</l>
+            <lb/>
+            <l>An des feuchten Nilus Rand/</l>
+            <lb/>
+            <l>weinen auch die Krokodilen/</l>
+            <lb/>
+            <l>wann ſie auf die Menſchen zielen/</l>
+            <lb/>
+            <l>ſie zu toͤdten/ wie bekandt.</l>
+          </lg>
+          <lb/>
+          <lg n="15" type="stanza" rhyme="aabccb">
+            <head>15.</head>
+            <l>Weine nicht! man doͤrfte waͤhnen/</l>
+            <lb/>
+            <l>daß du auch zu ſolchen Threnen</l>
+            <lb/>
+            <l>deine Augen richteſt ab.</l>
+            <lb/>
+            <fw type="sig" place="bottom">F vj</fw>
+            <fw type="catch" place="bottom">Wann</fw>
+            <lb/>
+            <pb n="124" facs="#f0136"/>
+            <fw type="header" place="top"><hi rendition="#fr">Die Threnenden Augen.</hi></fw>
+            <lb/>
+            <l>Wann man dacht/ die Son̄en ſcheinen:</l>
+            <lb/>
+            <l>ſaͤh man truͤbe Wolken weinen/</l>
+            <lb/>
+            <l>alle Freude gieng zu Grab.</l>
+          </lg>
+          <lb/>
+          <lg n="16" type="stanza" rhyme="aabccb">
+            <head>16.</head>
+            <l>Doch/ wer wolt von dir das glaͤuben?</l>
+            <lb/>
+            <l>Recht dein Weinen zubeſchreiben:</l>
+            <lb/>
+            <l>Treue Augen weinen gern.</l>
+            <lb/>
+            <l>Dieſes helle Threnen-rinnen/</l>
+            <lb/>
+            <l>iſt ein Spiegel deiner Sinnen/</l>
+            <lb/>
+            <l>O du klarer Tugend Stern!</l>
+          </lg>
+          <lb/>
+          <lg n="17" type="stanza" rhyme="aabccb">
+            <head>17.</head>
+            <l>Zwar/ wann ich es recht erreiche:</l>
+            <lb/>
+            <l>Feige Herzen/ die ſind weiche/</l>
+            <lb/>
+            <l>weichen bald und ſchmelzen hiñ/</l>
+            <lb/>
+            <l>wann ein ſchwuͤlligs Windlein wehet;</l>
+            <lb/>
+            <l>ſind von Wachs das nicht beſtehet.</l>
+            <lb/>
+            <l>So wird ja nit ſeyn dein Sinn?</l>
+          </lg>
+          <lb/>
+          <lg n="18" type="stanza" rhyme="aabccb">
+            <head>18.</head>
+            <l>Nein/ nein! einen Muht dir faſſe:</l>
+            <lb/>
+            <l>blaſſes Leid laß dich nit naſſe/</l>
+            <lb/>
+            <l>laß es dich nit machen bloͤd.</l>
+            <lb/>
+            <l>Bey der Schoͤnheit/ wie die deine/</l>
+            <lb/>
+            <l>ſteht ein groſſer Muht gar feine/</l>
+            <lb/>
+            <l>der in Ungluͤck faͤſte ſteht.</l>
+          </lg>
+          <lb/>
+          <lg n="19" type="stanza" rhyme="aabccb">
+            <head>19.</head>
+            <l>Eines noch! kein Zorn-erbitzen</l>
+            <lb/>
+            <l>wird dich ja nit machen ſchwitzen</l>
+            <lb/>
+            <l>dieſe Threnen/ die man ſiht?</l>
+            <lb/>
+            <l>Nein/ nein! dieſer Augen Regen/</l>
+            <lb/>
+            <l>wittert nicht mit Blitz und Schlaͤgen;</l>
+            <lb/>
+            <l>dieſe Quell gieſt lauter Fried.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">20. Nach</fw>
+          <lb/>
+          <pb n="125" facs="#f0137"/>
+          <fw type="header" place="top"><hi rendition="#fr">Braut-Schenkungen.</hi></fw>
+          <lb/>
+          <lg n="20" type="stanza" rhyme="aabccb">
+            <head>20.</head>
+            <l>Nach dem Regen ſcheint die Sonne.</l>
+            <lb/>
+            <l>Auf das Weh/ folgt Wohl und Wonne.</l>
+            <lb/>
+            <l>Edle Hirrinn wein’ und!</l>
+            <lb/>
+            <l>Gluͤck/ wird dich noch froͤlich machen:</l>
+            <lb/>
+            <l>daß wir ſuͤſſe ſehen lachen/</l>
+            <lb/>
+            <l>deinen ſchoͤnen Roſenmund.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="8">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>In ſtiller Einſamkeit/ mit frommer<lb/>
+              <hi rendition="#et">Unſchuld/ leben/</hi></l>
+            <lb/>
+            <l>iſt baͤſſer/ als mit Schuld uͤm loſe Leu-<lb/>
+              <hi rendition="#et">te ſchweben.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="9">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="aabccbddefef">
+            <head>1.</head>
+            <l>Prinz gelehrter Leyer-Lieder/</l>
+            <lb/>
+            <l>Herzog deiner Sternenbruͤder!</l>
+            <lb/>
+            <l>laß mir deinen Einfluß flieſſen!</l>
+            <lb/>
+            <l>Ach! wer itzt in Aganippen</l>
+            <lb/>
+            <l>moͤchte baden ſeine Lippen/</l>
+            <lb/>
+            <l>an Parnaſſens naſſen Fuͤſſen!</l>
+            <lb/>
+            <l>Kaͤmen doch/ die Pegas-brunnen/</l>
+            <lb/>
+            <l>mit der Pegnitz itzt gerunnen/</l>
+            <lb/>
+            <l>die da Geiſter gieſſen ein!</l>
+            <lb/>
+            <l>ach! da wolt ich trunken werden!</l>
+            <lb/>
+            <l>da ſolt recht beſungen ſeyn</l>
+            <lb/>
+            <l>Dafne/ unſre Zier der Erden.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabccbddefef">
+            <head>2.</head>
+            <l>Zwar/ ob Foͤbus nit will ſcheinen:</l>
+            <lb/>
+            <l>Ich weiß hier der Foͤben einen/</l>
+            <lb/>
+            <l>der auch Geiſtern gibet Feuer;</l>
+            <lb/>
+            <l>deſſen Ruhm-Liecht Sonne-ſtrahlet/</l>
+            <lb/>
+            <l>und ſein Stam̄haus Himmel-mahlet;</l>
+            <lb/>
+            <fw type="catch" place="bottom">der</fw>
+            <lb/>
+            <pb n="71" facs="#f0083"/>
+            <fw type="header" place="top"><hi rendition="#fr">Dafnis und Dafne.</hi></fw>
+            <lb/>
+            <l>der auch ſpielt auf Foͤbus Leyer.</l>
+            <lb/>
+            <l>Und es kan/ in Schaͤfer-gruͤnden/</l>
+            <lb/>
+            <l>ſeine Gunſt/ den Geiſt entzuͤnden/</l>
+            <lb/>
+            <l>ſtaͤrker/ als der Helikon.</l>
+            <lb/>
+            <l>Eine Dafne wir auch kennen/</l>
+            <lb/>
+            <l>die/ wie Hyperions Sohn/</l>
+            <lb/>
+            <l>er anſchauet mit Entbrennen.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="aabccbddefef">
+            <head>3.</head>
+            <l>Spielt mir nun/ ihr Muſen-Traͤume!</l>
+            <lb/>
+            <l>was zeigt/ hier der Prinz der Baͤume?</l>
+            <lb/>
+            <l>was blickt von der Lorbeer-Laͤube?</l>
+            <lb/>
+            <l>Iſts das Bildnis von Evadne?</l>
+            <lb/>
+            <l>Cadmus-Schweſter? Ariadne?</l>
+            <lb/>
+            <l>Iſts Oenone/ wie ich glaͤube?</l>
+            <lb/>
+            <l>Eine ſolche Zier anſtuͤnde/</l>
+            <lb/>
+            <l>Cepheus/ deinem Wunder-Kinde!</l>
+            <lb/>
+            <l>ob es Tyndaris auch iſt?</l>
+            <lb/>
+            <l>Nein! in dieſe ſchoͤnſt-geſchaffne/</l>
+            <lb/>
+            <l>alle Zier zuſammen flieſt:</l>
+            <lb/>
+            <l>Es iſt/ unſres Dafnis Dafne.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="aabccbddefef">
+            <head>4.</head>
+            <l>Preiſt/ ihr Saͤnger bey den Heerden!</l>
+            <lb/>
+            <l>dieſen Himmel dieſer Erden.</l>
+            <lb/>
+            <l>Seht ein Goͤttlichs Angeſichte!</l>
+            <lb/>
+            <l>wo ſich Ernſt und Huld vermaͤhlen/</l>
+            <lb/>
+            <l>und ſie ſonder Red’ empfehlen.</l>
+            <lb/>
+            <l>Hier iſt Inhalt zum Gedichte!</l>
+            <lb/>
+            <l>hier ſich Amor ſelbſt ergetzet/</l>
+            <lb/>
+            <l>und ihm auf die Stirne ſetzet</l>
+            <lb/>
+            <l>einen Thron von Helfenbein.</l>
+            <lb/>
+            <fw type="sig" place="bottom">D iiij</fw>
+            <fw type="catch" place="bottom">Dort</fw>
+            <lb/>
+            <pb n="72" facs="#f0084"/>
+            <fw type="header" place="top"><hi rendition="#fr">Dafnis und Dafne.</hi></fw>
+            <lb/>
+            <l>Dort er Pfeile pflegt zuſpitzen/</l>
+            <lb/>
+            <l>auch der Augen Blick und Schein:</l>
+            <lb/>
+            <l>unſren Dafnis wund zuritzen.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="aabccbddefef">
+            <head>5.</head>
+            <l>Sind wol diß der Flora Wangen?</l>
+            <lb/>
+            <l>ſeht den Schnee der Liljen prangen/</l>
+            <lb/>
+            <l>eingemaͤngt in Roſenblaͤtter!</l>
+            <lb/>
+            <l>der Rubinen-Mund/ im Lachen/</l>
+            <lb/>
+            <l>Perlen ſichtbar pflegt zumachen:</l>
+            <lb/>
+            <l>zeigt ein Kleinod vor die Goͤtter.</l>
+            <lb/>
+            <l>Zwiſchen blanker Locken Seide/</l>
+            <lb/>
+            <l>blinket dieſe Augenweide/</l>
+            <lb/>
+            <l>wie Aurora/ wann von ihr</l>
+            <lb/>
+            <l>wird der weiſſe Tag gebohren.</l>
+            <lb/>
+            <l>Unſrem Dafnis/ ſolche Zier/</l>
+            <lb/>
+            <l>die Natur hat zuerkohren.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="aabccbddefef">
+            <head>6.</head>
+            <l>Lebends Marmor/ das man ſchauet/</l>
+            <lb/>
+            <l>eine Schoͤnheit-Seul’ hier bauet/</l>
+            <lb/>
+            <l>eingeaͤdert mit Saffiren:</l>
+            <lb/>
+            <l>Hals und Nacken ſchnur-recht windet/</l>
+            <lb/>
+            <l>und den Buſen doppelruͤndet;</l>
+            <lb/>
+            <l>einen Wunder-bau zufuͤhren.</l>
+            <lb/>
+            <l>Haͤnd’ und Arme ziert Alpaſter/</l>
+            <lb/>
+            <l>macht die Schoͤnheit noch verfaſſter.</l>
+            <lb/>
+            <l>Und/ das mehr! ein groſſer Geiſt</l>
+            <lb/>
+            <l>blickt aus aller dieſer Zierde;</l>
+            <lb/>
+            <l>die ein’ Edle Herberg heiſt</l>
+            <lb/>
+            <l>dieſes Gaſts von gleicher Wuͤrde.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">7. Sie</fw>
+          <lb/>
+          <pb n="73" facs="#f0085"/>
+          <fw type="header" place="top"><hi rendition="#fr">Dafnis und Dafne.</hi></fw>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="aabccbddefef">
+            <head>7.</head>
+            <l>Sie iſt/ in ſo zarter Jugend/</l>
+            <lb/>
+            <l>reif ſchon an Verſtand und Tugend/</l>
+            <lb/>
+            <l>zeigt zugleich die Fruͤcht und Bluͤte.</l>
+            <lb/>
+            <l>Von des Mundes lieben Lippen/</l>
+            <lb/>
+            <l>aus den ſchoͤnſten Purpurklippen/</l>
+            <lb/>
+            <l>ſchallt ein himmliſches Gemuͤte.</l>
+            <lb/>
+            <l>Suͤſſes Sehen/ freundlichs Lachen/</l>
+            <lb/>
+            <l>dieſe Schoͤnheit ſchoͤner machen.</l>
+            <lb/>
+            <l>Alſo ſichs von Goͤttern ſtammt:</l>
+            <lb/>
+            <l>in der theuren Fuͤrſtinn Kinde/</l>
+            <lb/>
+            <l>ſolche Mutter-flamme ſtammt/</l>
+            <lb/>
+            <l>die ein ſolches Herz entzuͤnde.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="aabccbddefef">
+            <head>8.</head>
+            <l>Solt ein Foͤbus nicht entbrennen?</l>
+            <lb/>
+            <l>ſolt er lieben nicht/ nur kennen/</l>
+            <lb/>
+            <l>ſo ein B<supplied>i</supplied>ld von aller Schoͤne?</l>
+            <lb/>
+            <l>Dafnis/ dieſe ſoviel Gaben/</l>
+            <lb/>
+            <l>Dafnis ſoll die Dafne haben:</l>
+            <lb/>
+            <l>daß Sie ſein Haus Lorbeer-kroͤne.</l>
+            <lb/>
+            <l>Alle ihres Hauſes Zierden/</l>
+            <lb/>
+            <l>alle hohe Ankunft-Wuͤrden/</l>
+            <lb/>
+            <l>Dafne bringt dem Dafnis mit.</l>
+            <lb/>
+            <l>Ehr ſie bringet und wird finden.</l>
+            <lb/>
+            <l>Palm- und Lorbeer-Laub/ man ſiht</l>
+            <lb/>
+            <l>ſich in Einen Kranz verbinden.</l>
+          </lg>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="aabccbddefef">
+            <head>9.</head>
+            <l>Dafne/ nun/ du Zier der Erden!</l>
+            <lb/>
+            <l>du ſolſt/ was du heiſeſt/ werden.</l>
+            <lb/>
+            <l>Eingepfropft dem Palmen-Stam̄en/</l>
+            <lb/>
+            <fw type="sig" place="bottom">D v</fw>
+            <fw type="catch" place="bottom">mach</fw>
+            <lb/>
+            <pb n="74" facs="#f0086"/>
+            <fw type="header" place="top"><hi rendition="#fr">Dafnis und Dafne.</hi></fw>
+            <lb/>
+            <l>mach Ihn ewig gruͤnen/ zweigen/</l>
+            <lb/>
+            <l>und ſtaͤts Lorbeer-Kronen zeugen.</l>
+            <lb/>
+            <l>Dafnis! Dafne! wachſt zuſammen!</l>
+            <lb/>
+            <l>Himmels-Waͤrm’ und Erden-Fette/</l>
+            <lb/>
+            <l>ſegne allzeit eure Staͤtte/</l>
+            <lb/>
+            <l>wo ihr mit der Wurzel geht.</l>
+            <lb/>
+            <l>Wachſt/ hin zu den Sternenfeldern!</l>
+            <lb/>
+            <l>Bis Ihr endlich herrlich ſteht/</l>
+            <lb/>
+            <l>dort in den Elyſer-Waͤldern.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="10">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Ob ich ſchon finſter ſitz’/ in dieſer Hoͤle<lb/>
+              <hi rendition="#et">Schranken:</hi></l>
+            <lb/>
+            <l>Jedoch drey Sonnen mir aushellen die<lb/>
+              <hi rendition="#et">Gedanken.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="11">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Wann kein Leid die Augen fuͤllet/</l>
+            <lb/>
+            <l>wird das Herze leicht geſtillet.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="12">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabccbddeffe">
+            <l>Iſt <hi rendition="#fr">Sylvia</hi> nicht unſre Kron und <hi rendition="#fr"
+                >Sonne</hi>?</l>
+            <lb/>
+            <l>Von <hi rendition="#fr">Galathee</hi>/ ſcheint <hi rendition="#fr">Blumen</hi>-ſchoͤne<lb/>
+              <hi rendition="#et">Wonne.</hi></l>
+            <lb/>
+            <fw type="catch" place="bottom">Und</fw>
+            <lb/>
+            <pb n="84" facs="#f0096"/>
+            <fw type="header" place="top"><hi rendition="#fr">Die erwaͤhlte Einſamkeit.</hi></fw>
+            <lb/>
+            <l>Und <hi rendition="#fr">Dorilis</hi>/ gieſt ſuͤſſen Worte-<hi rendition="#fr"
+                >Thau</hi>.</l>
+            <lb/>
+            <l>Seht <hi rendition="#fr">Floridan</hi>/ gleich <hi rendition="#fr">Baͤumen/
+                Bluͤte</hi><lb/>
+              <hi rendition="#et">bringen!</hi></l>
+            <lb/>
+            <l><hi rendition="#fr">Myrrillen</hi> hoͤrt/ als eine <hi rendition="#fr">Lerche</hi>/
+              ſingen!</l>
+            <lb/>
+            <l><hi rendition="#fr">Palaͤmon</hi> gruͤnt/ wie <hi rendition="#fr">Graͤslein</hi> auf der<lb/>
+              <hi rendition="#et">Au.</hi></l>
+            <lb/>
+            <l>Vom <hi rendition="#fr">Cleodor</hi> die Red/ als <hi rendition="#fr">Baͤche</hi>/
+              flieſſet.</l>
+            <lb/>
+            <l><hi rendition="#fr">Ferrandens</hi> Fleiß/ als wie die <hi rendition="#fr">Saat</hi>/ er-<lb/>
+              <hi rendition="#et">ſprieſſet.</hi></l>
+            <lb/>
+            <l>Gern miſchte ſich mit in den Fruͤling ein/</l>
+            <lb/>
+            <l>der <hi rendition="#fr">Alcidor</hi>/ mit ſeinem Schnee der Haare.</l>
+            <lb/>
+            <l>Doch/ daß bey euch erjungen ſeine Jahre:</l>
+            <lb/>
+            <l>ſo laſſet ihn den truͤben <hi rendition="#fr">Regen</hi> ſeyn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="13">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="ababcc">
+            <l>Kanſt du dann mein Buhl nit werden/</l>
+            <lb/>
+            <l>Dafne/ O du harter Sinn!</l>
+            <lb/>
+            <l>ey ſo ſolſt du doch/ auf Erden/</l>
+            <lb/>
+            <l>du ſolſt ſeyn mein Baum forthin.</l>
+            <lb/>
+            <l>Meine Pfeile/ Kron der Schoͤnen!</l>
+            <lb/>
+            <l>Haar’ und Cyther/ ſolſt du kroͤnen.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Wann</fw>
+          <lb/>
+          <pb n="67" facs="#f0079"/>
+          <fw type="header" place="top"><hi rendition="#fr">Die verwandelte Dafne.</hi></fw>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababcc">
+            <l>Wann ſiegprangend widerkehren</l>
+            <lb/>
+            <l>meine Helden von dem Streit:</l>
+            <lb/>
+            <l>ſolſt du ihre Scheitel ehren.</l>
+            <lb/>
+            <l>Du ſolſt meine liebe Leut/</l>
+            <lb/>
+            <l>meine Dichter/ auch beglaͤnzen</l>
+            <lb/>
+            <l>und ihr Sinnenhaus bekraͤnzen.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcc">
+            <l>Dich ſoll auch kein Donner ruͤhren;</l>
+            <lb/>
+            <l>und ein immergruͤnes Laub</l>
+            <lb/>
+            <l>deine ſtaͤte Jugend zieren/</l>
+            <lb/>
+            <l>keiner Winterwinde Raub.</l>
+            <lb/>
+            <l>Dafne/ liebſte Dafne/ gruͤne!</l>
+            <lb/>
+            <l>deine Zier/ mein Leid verſuͤhne.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="14">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Welt/ du Wald voll wilder Thiere! ich<lb/>
+              <hi rendition="#et">entfliehe dir in Wald.</hi></l>
+            <lb/>
+            <l>Hier iſt/ meiner Ruh: im Himmel/ mei-<lb/>
+              <hi rendition="#et">ner Hoffnung Aufenthalt.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="15">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababcddc">
+            <l>Du weinſt/ O Birke! doch die Threnen</l>
+            <lb/>
+            <l>Vorboten deines Lachens ſind.</l>
+            <lb/>
+            <l>Die Erde will dich neu verſchoͤnen/</l>
+            <lb/>
+            <l>geſchwaͤngert von dem Lenzenwind.</l>
+            <lb/>
+            <l>Lang haſt du Ruten mir gezeiget:</l>
+            <lb/>
+            <l>ſie ſollen bald anlachen mich</l>
+            <lb/>
+            <l>begruͤnt/ weil aus der Erd in dich</l>
+            <lb/>
+            <l>der friſche Lebensſaft aufſteiget.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="16">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Daß kein Beſchwoͤrer mich/ mit Schmei-<lb/>
+              <hi rendition="#et">cheln/ moͤg bethoͤren:</hi></l>
+            <lb/>
+            <l>ſtopf’ ich die Ohren zu/ den Tand nit<lb/>
+              <hi rendition="#et">anzuhoͤren.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="17">
+        <lg type="poem">
+          <head><hi rendition="#fr">Freuden-Lied.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababcddc">
+            <head>1.</head>
+            <l>Schreibt/ ihr Schaͤfer/ dieſen Tag/<lb/> ſchreibet ihn in Ceder-Rinden!</l>
+            <lb/>
+            <l>laſſet/ von ihm/ unſre Sag</l>
+            <lb/>
+            <l>in der Baͤume Wunden finden.</l>
+            <lb/>
+            <l>Dieſer Tag/ ſey unſer Feſt/</l>
+            <lb/>
+            <l>das wir jaͤhrlich wollen feyren:</l>
+            <lb/>
+            <l>der vergnuͤgbar unſrem Theuren/</l>
+            <lb/>
+            <l>meinem Helden/ iſt geweſt.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababcddc">
+            <head>2.</head>
+            <l>Pegnitz! kuͤſſe deinen Rand:</l>
+            <lb/>
+            <l>den itzt adelt hohe Freude.</l>
+            <lb/>
+            <l>Blum-beſchwaͤngre dieſen Sand/</l>
+            <lb/>
+            <l>mach ihn zur Smaragdnen Heyde.</l>
+            <lb/>
+            <l>Deiner Nymfen flaches Dach/</l>
+            <lb/>
+            <l>ziegle zierlich mit Kryſtallen.</l>
+            <lb/>
+            <l>laß von Leonoren lallen/</l>
+            <lb/>
+            <l>deiner Fluten Wudel-Sprach.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcddc">
+            <head>3.</head>
+            <l> Sonne! Unſer Mecaͤnat/</l>
+            <lb/>
+            <l>ob du ſchon biſt untergangen/</l>
+            <lb/>
+            <l>dannoch ſeine Sonne hat/</l>
+            <lb/>
+            <l>ſiht ein Roſen-Liecht der Wangen.</l>
+            <lb/>
+            <l>Nimm itzt meine Bitt mit dir!</l>
+            <lb/>
+            <l>Gebe doch der Himmel Beyden:</l>
+            <lb/>
+            <l>Sonne! daß du Sie in Freuden</l>
+            <lb/>
+            <l>moͤgeſt ſehen fuͤr und fuͤr!</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababcddc">
+            <head>4.</head>
+            <l>Cynthia! wilſt du heut nicht</l>
+            <lb/>
+            <l>an dem Himmel ſichtbar werden?</l>
+            <lb/>
+            <fw type="catch" place="bottom">oder</fw>
+            <lb/>
+            <pb n="135" facs="#f0147"/>
+            <fw type="header" place="top"><hi rendition="#fr">Freuden-Lied.</hi></fw>
+            <lb/>
+            <l>oder weichſt/ du bleiches Liecht/</l>
+            <lb/>
+            <l>unſrer Cynthien auf Erden?</l>
+            <lb/>
+            <l>Was fragt nach dem Mondes-Schein/</l>
+            <lb/>
+            <l>unſer Held? es ſoll darneben/</l>
+            <lb/>
+            <l>ſeinen Naͤchten Liecht zu geben/</l>
+            <lb/>
+            <l><hi rendition="#fr">Leonora</hi> Luna ſeyn.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababcddc">
+            <head>5.</head>
+            <l>Nacht! es muß itzt allzu-nacht/</l>
+            <lb/>
+            <l>auf ſo hellen Tag/ nit werden.</l>
+            <lb/>
+            <l>Mit dem Goldgeſtickten Pracht/</l>
+            <lb/>
+            <l>deck heut dieſes Zelt der Erden:</l>
+            <lb/>
+            <l>fuͤhr herfuͤr die Sternen Wacht.</l>
+            <lb/>
+            <l>Unſren Hochvermaͤhlten Beyden</l>
+            <lb/>
+            <l>lach’ ein Tauſend-Liecht der Freuden!</l>
+            <lb/>
+            <l>Trauer-Naͤchte! gute Nacht!</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="ababcddc">
+            <head>6. </head>
+            <l>Heſperus! zeig Ihnen du</l>
+            <lb/>
+            <l>deines Mundes guͤldne Zinken;</l>
+            <lb/>
+            <l>und laß/ Ihre Liebes-Ruh/</l>
+            <lb/>
+            <l>allerbaͤſten Einfluß trinken.</l>
+            <lb/>
+            <l>Sey mit deinem Bruͤder-Heer/</l>
+            <lb/>
+            <l>itzund ihre Hochzeit Fakel.</l>
+            <lb/>
+            <l>und/ als ihres Gluͤcks Orakel/</l>
+            <lb/>
+            <l>Allen Unſtern-blick bekehr.</l>
+          </lg>
+          <lb/>
+          <lg type="stanza" rhyme="ababcddc">
+            <head>7.</head>
+            <l>Goͤnnt der Ohren ſuͤſſe Gnad/</l>
+            <lb/>
+            <l>unſren heiſchern Pegnitz-Rohren;</l>
+            <lb/>
+            <l>bleibt geneigt/ mein Mecaͤnat!</l>
+            <lb/>
+            <l>Fahret wohl/ mit Leonoren!</l>
+            <lb/>
+            <fw type="catch" place="bottom">Lebt/</fw>
+            <lb/>
+            <pb n="136" facs="#f0148"/>
+            <fw type="header" place="top"><hi rendition="#fr">Freuden-Lied.</hi></fw>
+            <lb/>
+            <l>Lebt/ vergnuͤgt durch Ihre Zier.</l>
+            <lb/>
+            <l>Eurer Namen Schall der Ehren/</l>
+            <lb/>
+            <l>hier in unſren Schaͤfer-Choͤren</l>
+            <lb/>
+            <l>ſoll erklingen fuͤr und fuͤr.</l>
+          </lg>
+          <lb/>
+        </lg>
+      </div>
+
+      <div n="18">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Unſre Blum Eleonora/</l>
+            <lb/>
+            <l>ſtaͤts wett-ſchoͤne mit der Flora.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="19">
+        <lg type="poem">
+          <head><hi rendition="#fr">Das gefundene Perlein.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="aabbcc">
+            <head>1.</head>
+            <l>Ein Schaͤfer/ wohlbekandt</l>
+            <lb/>
+            <l>am gruͤnen Pegnitzrand/</l>
+            <lb/>
+            <l>gieng in dem Feld ſpaziren/</l>
+            <lb/>
+            <l>und iteß den Weg ſich fuͤhren</l>
+            <lb/>
+            <l>in einen Buchenhaͤyn/</l>
+            <lb/>
+            <l>der ihn geladen ein.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabbcc">
+            <head>2.</head>
+            <l>Hier wolt er dieſesmahl/</l>
+            <lb/>
+            <l>von ſolcher Staͤmme Zahl/</l>
+            <lb/>
+            <l>ein Paar ihm auserwehlen:</l>
+            <lb/>
+            <l>gewillt/ davon zu ſcheelen</l>
+            <lb/>
+            <l>ein Rinden oder zwey/</l>
+            <lb/>
+            <l>zu ſeiner Liederey.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="aabbcc">
+            <head>3.</head>
+            <l>Er ſahe hin und her/</l>
+            <lb/>
+            <l>ließ in die laͤng und quaͤr</l>
+            <lb/>
+            <l>die Augen gehn ſpaziren/</l>
+            <lb/>
+            <l>vor ſich was aus zuſpuͤren.</l>
+            <lb/>
+            <l>Er fand der Buchen viel.</l>
+            <lb/>
+            <l>Der Haͤyn ihm wohlgefiel.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="aabbcc">
+            <head>4.</head>
+            <l> So reich an Baͤumen war</l>
+            <lb/>
+            <l>diß Waͤldlein hier und dar:</l>
+            <lb/>
+            <fw type="catch" place="bottom">das</fw>
+            <lb/>
+            <pb n="109" facs="#f0121"/>
+            <fw type="header" place="top"><hi rendition="#fr">Das gefundene Perlein.</hi></fw>
+            <lb/>
+            <l>daß ihn/ in ſeinem Denken/</l>
+            <lb/>
+            <l>die Wahl ſieng an zukraͤnken.</l>
+            <lb/>
+            <l>Er wuͤnſchte/ daß der Haͤyn</l>
+            <lb/>
+            <l>ganz moͤchte werden ſein.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="aabbcc">
+            <head>5.</head>
+            <l>Trauts Waͤldlein! fieng er an:</l>
+            <lb/>
+            <l>Ich moͤchte/ ſo ich kan/</l>
+            <lb/>
+            <l>dich gern beyſammen haben.</l>
+            <lb/>
+            <l>du koͤndeſt mich begaben</l>
+            <lb/>
+            <l>mit Rinden/ wann ich mir</l>
+            <lb/>
+            <l>naͤhm was zuſchreiben fuͤr.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="aabbcc">
+            <head>6.</head>
+            <l>Als er diß und noch mehr</l>
+            <lb/>
+            <l>ſprach/ ſah er ungefaͤhr/</l>
+            <lb/>
+            <l>dort bey der Baͤumlein einen/</l>
+            <lb/>
+            <l>ein koͤſtlichs Perlein ſcheinen:</l>
+            <lb/>
+            <l>das lage/ naͤchſt dem Pfad/</l>
+            <lb/>
+            <l>auf einem gruͤnen Blat.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="aabbcc">
+            <head>7.</head>
+            <l>Nit lang verzog der Hirt:</l>
+            <lb/>
+            <l>voll Wunderns und verwirrt/</l>
+            <lb/>
+            <l>hub er es von der Erden.</l>
+            <lb/>
+            <l>Mein/ mein/ mein ſolſt du werden/</l>
+            <lb/>
+            <l>O Perlein/ theurer Fund!</l>
+            <lb/>
+            <l>rieff er und nahms zur ſtund.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="aabbcc">
+            <head>8.</head>
+            <l>Die Schaͤfer liefen zu/</l>
+            <lb/>
+            <l>und rieffen: halte/ du!</l>
+            <lb/>
+            <l>du kameſt/ Baͤum’ und Buchen/</l>
+            <lb/>
+            <l>nit Perlen/ hier zu ſuchen.</l>
+            <lb/>
+            <fw type="catch" place="bottom">Laß</fw>
+            <lb/>
+            <pb n="110" facs="#f0122"/>
+            <fw type="header" place="top"><hi rendition="#fr">Das gefundene Perlein.</hi></fw>
+            <lb/>
+            <l>Laß ligen/ was nit dein/</l>
+            <lb/>
+            <l>das Perlein in dem Haͤyn.</l>
+          </lg>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="aabbcc">
+            <head>9.</head>
+            <l>Merk aber! wann ja dir</l>
+            <lb/>
+            <l>gefiele beydes hier:</l>
+            <lb/>
+            <l>du wirſt es ſo nit ſtehlen;</l>
+            <lb/>
+            <l>du muſt dafuͤr aufzehlen</l>
+            <lb/>
+            <l>und zahlen ſeinen Wehrt:</l>
+            <lb/>
+            <l>es koſt dich deine Heerd.</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="aabbcc">
+            <head>10.</head>
+            <l>Sie wachten ihn betruͤbt.</l>
+            <lb/>
+            <l>Er ware nun verliebt</l>
+            <lb/>
+            <l>in ſo zwey liebe Sachen/</l>
+            <lb/>
+            <l>die gluͤckhaft konden machen.</l>
+            <lb/>
+            <l>Der Haͤyn/ beliebt’ ihm ſehr:</l>
+            <lb/>
+            <l>Das Perlein noch viel mehr.</l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="aabbcc">
+            <head>11.</head>
+            <l>Moͤcht beydes werden mein/</l>
+            <lb/>
+            <l>das Perlein und der Haͤyn!</l>
+            <lb/>
+            <l>das waͤr mein Wunſch und Leben:</l>
+            <lb/>
+            <l>(ſprach er) was ſoll ich geben?</l>
+            <lb/>
+            <l>Mein Herz/ mein Heerd und Haab;</l>
+            <lb/>
+            <l>ich ſelbſt will ſeyn die Gab.</l>
+          </lg>
+          <lb/>
+          <lg n="12" type="stanza" rhyme="aabbcc">
+            <head>12.</head>
+            <l>Bravs Perlein! nim̃ mich dir/</l>
+            <lb/>
+            <l>und gib dich mir dafuͤr.</l>
+            <lb/>
+            <l>ſey du forthin die meine/</l>
+            <lb/>
+            <l>ſo will ich ſeyn der deine.</l>
+            <lb/>
+            <l>Du ſolſt mein Perl’ allein/</l>
+            <lb/>
+            <l>ich will dein Schaͤfer/ ſeyn.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">13. Mit</fw>
+          <lb/>
+          <pb n="111" facs="#f0123"/>
+          <fw type="header" place="top"><hi rendition="#fr">Das zerriſſne Wieſenthal.</hi></fw>
+          <lb/>
+          <lg n="13" type="stanza" rhyme="aabbcc">
+            <head>13.</head>
+            <l>Mit dir ſoll werden mein/</l>
+            <lb/>
+            <l>auch dieſer Buchenhaͤyn;</l>
+            <lb/>
+            <l>ſo kan ich Rinden ſchneiden:</l>
+            <lb/>
+            <l>darf keinen Schaͤfer neiden.</l>
+            <lb/>
+            <l>So ſprach der Hirt aldar.</l>
+            <lb/>
+            <l>Gott ſchick’s: Es wurde wahr.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="20">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abac">
+            <l>Edles Brautbett Hochvermaͤhlter theurer<lb/>
+              <hi rendition="#et">Seelen!</hi></l>
+            <lb/>
+            <l>Du ſolſt heiſen Immer-gruͤn.</l>
+            <lb/>
+            <l>Gib/ der Nachwelt/ deiner Fruͤchte viel zu-<lb/>
+              <hi rendition="#et">zehlen/</hi></l>
+            <lb/>
+            <l>ſey ein ewiges Feſtin!</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="21">
+        <lg type="poem">
+          <head>Die Hirtinn Aepfeltraͤgerinn.</head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababcd">
+            <l>Ein ſchoͤne Hirtinn gieng/ trug uͤber ihrem<lb/>
+              <hi rendition="#et">Haubt</hi></l>
+            <lb/>
+            <l>voll Aepfel einen Korb. Mit beyder Hand<lb/>
+              <hi rendition="#et">ſie hielte</hi></l>
+            <lb/>
+            <l>die liebe Laſt empor/ die ſie vom Aſt geraubt.</l>
+            <lb/>
+            <l>Als der verliebte Weſt mit ihrem Kleide<lb/>
+              <hi rendition="#et">ſpielte/</hi></l>
+            <lb/>
+            <l>fiel das ihr oberhalb vom weiſſen Buſen ab:</l>
+            <lb/>
+            <l>da ſich dann bald ein paar Milch-ſchoͤner<lb/>
+              <hi rendition="#et">Aepfel wieſe.</hi></l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abcc">
+            <l>Ein Schaͤfer/ deme Luſt die zarte Bloͤſſe gab/</l>
+            <lb/>
+            <l>ſprach/ indem ſein Geſicht er auf ſie ſchieſ-<lb/>
+              <hi rendition="#et">ſen lieſe:</hi></l>
+            <lb/>
+            <l>Ich mag der Aepfel nicht/ die Die gebrochen<lb/>
+              <hi rendition="#et">hie;</hi></l>
+            <lb/>
+            <l>die mag ich/ die ich dort am Baum noch han-<lb/>
+              <hi rendition="#et">gen ſih.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="22">
+        <lg type="poem">
+          <head><hi rendition="#fr">An eine ſtolze Grete.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="aabb">
+            <head>1.</head>
+            <l>Iſt dann ſoviel an dir/<lb/>
+              <hi rendition="#et">ſtolze Zier?</hi></l>
+            <lb/>
+            <l>daß du dich ſo gegen mir</l>
+            <lb/>
+            <l>darfſt mit Hoffartſinnen bruͤſten?<lb/>
+              <hi rendition="#et">daß mich ſolt/</hi></l>
+            <lb/>
+            <l>wie nach Gold/ nach dir geluͤſten?</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabb">
+            <head>2.</head>
+            <l>Du biſt die Sonne nicht/<lb/>
+              <hi rendition="#et">bleiches Liecht!</hi></l>
+            <lb/>
+            <l>und es iſt ja dein Geſicht.</l>
+            <lb/>
+            <l>Keine Gottheit dieſer Erden:<lb/>
+              <hi rendition="#et">daß man ſolt</hi></l>
+            <lb/>
+            <l>dir nur hold und guͤnſtig werden.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="aabb">
+            <head>3.</head>
+            <l> Du magſt wohl ſchoͤne ſeyn!<lb/>
+              <hi rendition="#et">diß allein</hi></l>
+            <lb/>
+            <l>will mir gar nit gehen ein:</l>
+            <lb/>
+            <l>daß du ſolſt der Schoͤnheit Gaben/<lb/>
+              <hi rendition="#et">alle Wuͤrd<supplied>e</supplied>/</hi></l>
+            <lb/>
+            <l>alle Zierd’/ alleine haben.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="aabb">
+            <head>4.</head>
+            <l>Wilſt du nit meine ſeyn:<lb/>
+              <hi rendition="#et">ſchlaff allein!</hi></l>
+            <lb/>
+            <l>ich mag auch nit werden dein.</l>
+            <lb/>
+            <l>Es war/ dich zur Kurzweil kuͤſſen/<lb/>
+              <hi rendition="#et">mein Begehr/</hi></l>
+            <lb/>
+            <l>ſonſt nichts mehr: das ſolſt du wiſſen.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="aabb">
+            <head>5.</head>
+            <l>Meinſt du vielleicht/ daß ich<lb/>
+              <hi rendition="#et">inniglich</hi></l>
+            <lb/>
+            <l>ganz verliebet ſey in dich?</l>
+            <lb/>
+            <fw type="catch" place="bottom">Nein!</fw>
+            <lb/>
+            <pb n="88" facs="#f0100"/>
+            <fw type="header" place="top"><hi rendition="#fr">Die erwaͤhlte Einſamkeit.</hi></fw>
+            <lb/>
+            <l>Nein! ich werd vor Hitz nit ſterben.<lb/>
+              <hi rendition="#et">Nichtes mich/</hi></l>
+            <lb/>
+            <l>zwingt/ daß ich nach dir ſolt werden.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="aabb">
+            <head>6.</head>
+            <l>Noch manches Mutter-Kind<lb/>
+              <hi rendition="#et">ſonſt man findt/</hi></l>
+            <lb/>
+            <l>ob man ſchon kein Liecht anzuͤndt:</l>
+            <lb/>
+            <l>das an Schoͤnheit und an Gaben/<lb/>
+              <hi rendition="#et">nach Begier/</hi></l>
+            <lb/>
+            <l>weit vor dir/ iſt hoch erhaben.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="aabb">
+            <head>7. </head>
+            <l>Ich goͤnn’ es gerne dir/<lb/>
+              <hi rendition="#et">halbe Zier!</hi></l>
+            <lb/>
+            <l>daß ein Ander fuͤr und fuͤr</l>
+            <lb/>
+            <l>mit dir durch das Gew ſpazire.<lb/>
+              <hi rendition="#et">Amor! walt!</hi></l>
+            <lb/>
+            <l>daß ſie bald den Kranz verliere.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="aabb">
+            <head>8.</head>
+            <l>Wer weiß noch/ wie es geht/<lb/>
+              <hi rendition="#et">ſtolze Gret!</hi></l>
+            <lb/>
+            <l>wann dein Kram voll Eiſen ſteht?</l>
+            <lb/>
+            <l>dann magſt vor die Hoͤlle laufen/<lb/>
+              <hi rendition="#et">und aldar</hi></l>
+            <lb/>
+            <l>deine Waar gleich wohl ver kaufen.</l>
+          </lg>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="aabb">
+            <head>9.</head>
+            <l>Der Becker wird alsdan̄/<lb/>
+              <hi rendition="#et">wann man kan</hi></l>
+            <lb/>
+            <l>an dich bringen keinen Mann/</l>
+            <lb/>
+            <l>dir ein Zuckermaͤnnlein backen:<lb/>
+              <hi rendition="#et">dem magſt doch</hi></l>
+            <lb/>
+            <l>letzlich noch den Kopf abzwacken.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="23">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="None">
+            <l/>
+            <lb/>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="24">
+        <lg type="poem">
+          <head><hi rendition="#fr">Ringel-Lied.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="aabccb">
+            <head>1.</head>
+            <lb/>
+            <l><hi rendition="#fr">Am Leyta-Strand</hi>/ wo er die Donau gꝛuͤſſet</l>
+            <lb/>
+            <l>von ferne ſchon/ das gruͤne Ufer kuͤſſet</l>
+            <lb/>
+            <l>der Trautmans-Burg/ im alten Pan̄ons-<lb/>
+              <hi rendition="#et">Land:</hi></l>
+            <lb/>
+            <l>ließ’ Artaban’/ ein Edler Held/ erklingen</l>
+            <lb/>
+            <l>ſein Lied von Leid. Ihn hoͤrt’/ ein Hirte/ ſingē/<lb/>
+              <hi rendition="#et"><hi rendition="#fr">am Leyta-Strand.</hi></hi></l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabccb">
+            <head>2.</head>
+            <l xml:id="schluss2" prev="vers2">(de</l>
+            <lb/>
+            <l xml:id="vers2" next="schluss2"><hi rendition="#fr">Mein Saͤitenſpiel!</hi> hang du an
+              dieſer Wei</l>
+            <lb/>
+            <l>mach/ wie du pflegſt/ itzund mir keine Freud</l>
+            <lb/>
+            <l>Mit Unmut nur mein Schmerz ſich troͤ-<lb/>
+              <hi rendition="#et">ſten wil.</hi></l>
+            <lb/>
+            <l>Doch nein! kom̄ her! du muſt mir helfen ſag</l>
+            <lb/>
+            <l>von meinem Leid/ du muſt mir helfen klagen<lb/>
+              <hi rendition="#et"><hi rendition="#fr">Mein Saͤitenſpiel!</hi></hi></l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="aabccb">
+            <head>3.</head>
+            <lb/>
+            <l><hi rendition="#fr">Emilie</hi> iſt todt! und ich kan leben?</l>
+            <lb/>
+            <l>ward nicht/ mein Geiſt/ mit ihrem hingegebē<supplied>?</supplied></l>
+            <lb/>
+            <l>wie daß ich noch/ da ſie gefallen/ ſteb?</l>
+            <lb/>
+            <l>Ihr Faunen ihr/ in dieſen Waͤldereyen!</l>
+            <lb/>
+            <l>ihr Satyren! ihr Hirten! helft mir ſchreyen<lb/>
+              <hi rendition="#et"><hi rendition="#fr">Emilie!</hi></hi></l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">4. <hi rendition="#fr">Ihr</hi></fw>
+          <lb/>
+          <pb n="55" facs="#f0067"/>
+          <fw type="header" place="top"><hi rendition="#fr">Der Teutſche Orfeus.</hi></fw>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="aabccb">
+            <head>4.</head>
+            <lb/>
+            <l><hi rendition="#fr">Ihr thut Gewalt</hi>/ ihr Fata! du Geſetze</l>
+            <lb/>
+            <l>der Sterblichkeit! und du des Todes Netze!</l>
+            <lb/>
+            <l>diß euer Thun/ hat keine Rechts-geſtalt.</l>
+            <lb/>
+            <l>Ihr toͤdt: was lebt zu aller Welt Behagen/</l>
+            <lb/>
+            <l>wz liebt und labt. Ich muß noch einmal ſagē:<lb/>
+              <hi rendition="#et"><hi rendition="#fr">Ihr thut Gewalt.</hi></hi></l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="aabccb">
+            <head>5.</head>
+            <lb/>
+            <l><hi rendition="#fr">Gern wolt ich ja</hi>/ O Him̄el/ deinem Willen</l>
+            <lb/>
+            <l>itzt geben Ehr: das Herz iſt nicht zuſtillen.</l>
+            <lb/>
+            <l>Noch iſt vō Ihr/ dz Schmerz-andenken da.</l>
+            <lb/>
+            <l>Dem Leib/ ſie ſtarb: der Liebe Sie noch lebet.</l>
+            <lb/>
+            <l>Ach! die Vernunft der Angſt nit widerſtrebet:<lb/>
+              <hi rendition="#et"><hi rendition="#fr">Gern wolt ich ja.</hi></hi></l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="aabccb">
+            <head>6.</head>
+            <lb/>
+            <l><hi rendition="#fr">Ach helft mir doch</hi> dem hartē Him̄el flehen/</l>
+            <lb/>
+            <l>ihr Saiten ihr! ihn ſo erweicht zuſehen:</l>
+            <lb/>
+            <l>daß er mir goͤnn die Schoͤnſte laͤnger noch.</l>
+            <lb/>
+            <l>Ob ihr zu euch/ ihr Sternen/ Sie genommen</l>
+            <lb/>
+            <l>in eure Zahl: laſſt Sie mir widerkommen!<lb/>
+              <hi rendition="#et"><hi rendition="#fr">Ach helft mir doch!</hi></hi></l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="aabccb">
+            <head>7.</head>
+            <lb/>
+            <l><hi rendition="#fr">Es iſt noch Zeit.</hi> Kein Menſch kan euch ent-<lb/>
+              <hi rendition="#c">laufen/</hi></l>
+            <l xml:id="schluss3" prev="vers3">(fen</l>
+            <lb/>
+            <l xml:id="vers3" next="schluss3">ihr Parcen ihr! man komt dem Todten-hau-</l>
+            <lb/>
+            <l>doch endlich zu. Hier iſt kein’ Ewigkeit.</l>
+            <lb/>
+            <l>Laſſ du Sie nur mich noch ein Zeitlang laben!</l>
+            <lb/>
+            <l>du ſolſt ſie doch/ O Himmel! einmal haben:<lb/>
+              <hi rendition="#et"><hi rendition="#fr">Es iſt noch Zeit.</hi></hi></l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">8. <hi rendition="#fr">Erlaubt</hi></fw>
+          <lb/>
+          <pb n="56" facs="#f0068"/>
+          <fw type="header" place="top"><hi rendition="#fr">Der Teutſche Orfeus.</hi></fw>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="aabccb">
+            <head>8.</head>
+            <lb/>
+            <l><hi rendition="#fr">Erlaubt es nicht</hi> dein Raht/ ſie mir zu geben</l>
+            <lb/>
+            <l>ſo nim̄ auch mir das nun als-todte Leben.</l>
+            <lb/>
+            <l>Wan̄ meine Klag dir nicht dz Herze bricht:</l>
+            <lb/>
+            <l>So mag der Tod hier diß/ das meine/ brechen</l>
+            <lb/>
+            <l>Doch du biſt ja ſo hart nit! dein Verſprechen<lb/>
+              <hi rendition="#et"><hi rendition="#fr">erlaubt es nicht.</hi></hi></l>
+          </lg>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="aabccb">
+            <head>9.</head>
+            <lb/>
+            <l><hi rendition="#fr">So ſehnlich ſang</hi>/ in ſuͤſſen Klang der Saͤitē/</l>
+            <lb/>
+            <l>der Edle Held. Es hoͤrten Ihm/ von weiten/</l>
+            <lb/>
+            <l>die Nymfen zu. Das Wild/ zu Ihm ſich<lb/>
+              <hi rendition="#c">drang.</hi></l>
+            <lb/>
+            <l>Es merkten auf/ die ſchlanken Tan̄en-kerzen.</l>
+            <lb/>
+            <l xml:id="vers4" next="schluss4">Der Wald erſeufzt’. Als Er/ von ſeinen<lb/>
+              <hi rendition="#et"><hi rendition="#fr">ſo ſehnlich ſang.</hi></hi></l>
+            <l xml:id="schluss4" prev="vers4">(Schmerzen/</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="aabccb">
+            <head>10.</head>
+            <lb/>
+            <l><hi rendition="#fr">Der Himmel hoͤrt’</hi> un̄ ehrte dieſes Singen.</l>
+            <lb/>
+            <l>Ein Traumgeſicht/ muſt Ihm die Antwort<lb/>
+              <hi rendition="#et">bringen:</hi></l>
+            <l xml:id="schluss5" prev="vers5">(kehr</l>
+            <lb/>
+            <l xml:id="vers5" next="schluss5">Ein ſchoͤnſtes Bild/ ſein Leid in Freud ver</l>
+            <lb/>
+            <l>Ihr Blick ihm gab ſein vorigs Herzbehagen.</l>
+            <lb/>
+            <l>Er fande wahr: daß ein nit-muͤdes Klagen<lb/>
+              <hi rendition="#et"><hi rendition="#fr">der Himmel hoͤrt.</hi></hi></l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="aabccb">
+            <head>11.</head>
+            <lb/>
+            <l><hi rendition="#fr">Sie ſprach Ihm zu:</hi> Dir kan nit wieder<lb/>
+              <hi rendition="#et">werden</hi></l>
+            <lb/>
+            <l>Emilia/ ſie komt nit mehr auf Erden.</l>
+            <lb/>
+            <l>Sie will Ich ſeyn/ dein Leben/ deine Ruh.</l>
+            <lb/>
+            <l>Und dieſen Gruß hab dir von Leonoren/</l>
+            <lb/>
+            <l>die Oettingen/ der alte Stamm/ gebohren:<lb/>
+              <hi rendition="#et"><hi rendition="#fr">Sprach Sie ihm zu.</hi></hi></l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">12. <hi rendition="#fr">Als</hi></fw>
+          <lb/>
+          <pb n="57" facs="#f0069"/>
+          <fw type="header" place="top"><hi rendition="#fr">Die verwandelte Dafne.</hi></fw>
+          <lb/>
+          <lg n="12" type="stanza" rhyme="aabccb">
+            <head>12.</head>
+            <lb/>
+            <l><hi rendition="#fr">Als Er erwacht:</hi> da war ſein Herz geheilet.</l>
+            <lb/>
+            <l>es wird ergaͤnzt/ das vormals war getheilet:</l>
+            <lb/>
+            <l>nun Ihm/ das Gluͤck/ den Traum hat wahr<lb/>
+              <hi rendition="#et">gemacht.</hi></l>
+            <lb/>
+            <l>Laß/ Himmel! Ihn von allem Leid geneſen/</l>
+            <lb/>
+            <l>durch dieſe Freud/ die Ihm ein Troſt geweſen/<lb/>
+              <hi rendition="#et"><hi rendition="#fr">Als Er erwacht.</hi></hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="25">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="ababcc">
+            <head>1.</head>
+            <l>Schoͤne Nymfe! ſteh doch ſtille!</l>
+            <lb/>
+            <l>ſteh! ich bin dein Feind ja nit!</l>
+            <lb/>
+            <l>Eine Hirtinn/ das Gebruͤlle</l>
+            <lb/>
+            <l>eines Loͤwens/ alſo flieht.</l>
+            <lb/>
+            <l>alſo fliehen feige Tauben/</l>
+            <lb/>
+            <l>wann ſie will der Habicht rauben.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababcc">
+            <head>2.</head>
+            <l>Schafe alſo ſich entziehen</l>
+            <lb/>
+            <l>vor dem Wolf/ dem Schreckengaſt.</l>
+            <lb/>
+            <l>Jedes gerne will entfliehen</l>
+            <lb/>
+            <l>ſeinem Feinde/ den es haſſt.</l>
+            <lb/>
+            <l>Liebe/ dieſen Weg mir weiſet;</l>
+            <lb/>
+            <l>Liebe/ mich dir folgen heiſet.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcc">
+            <head>3.</head>
+            <l>Nymfe! dich vom Laufen kehre!</l>
+            <lb/>
+            <l>ach! ich fuͤrchte/ daß ein Fall</l>
+            <lb/>
+            <l>deinen ſchoͤnen Leib verſehre.</l>
+            <lb/>
+            <l>Dornen ſind hier uͤberall:</l>
+            <lb/>
+            <l>Schad es waͤr/ daß ihre Spitzen</l>
+            <lb/>
+            <l>ſolten ſolche Glieder ritzen.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababcc">
+            <head>4.</head>
+            <l>Ich mag dir nit machen Schmerzen.</l>
+            <lb/>
+            <l>Lauf nit ſo mit ſtrenger Macht!</l>
+            <lb/>
+            <l>Schrofen moͤchten mit dir ſcherzen.</l>
+            <lb/>
+            <l>Wilſt du fliehen/ fliehe ſacht!</l>
+            <lb/>
+            <l>Ich/ auf daß du moͤgſt verſchnaufen/</l>
+            <lb/>
+            <l>will auch ſo geſchwind nit laufen.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">5. Schau</fw>
+          <lb/>
+          <pb n="63" facs="#f0075"/>
+          <fw type="header" place="top"><hi rendition="#fr">Die verwandelte Dafne.</hi></fw>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababcc">
+            <head>5.</head>
+            <l>Schau zuruͤcke! du wirſt balde</l>
+            <lb/>
+            <l>ſehen/ wer nacheilet dir:</l>
+            <lb/>
+            <l>nicht ein Satyr aus dem Walde/</l>
+            <lb/>
+            <l>auch nicht nur ein Schaͤfer hier.</l>
+            <lb/>
+            <l>Du weiſt nit/ vor wem du flieheſt:</l>
+            <lb/>
+            <l>diß macht/ daß du dich entzteheſt.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="ababcc">
+            <head>6.</head>
+            <l>Delfos/ ſiht mich taͤglich ehren.</l>
+            <lb/>
+            <l>Delos ſeinen Gott mich nennt.</l>
+            <lb/>
+            <l>Jupiter/ ſein Haus zumehren/</l>
+            <lb/>
+            <l>mich vor ſeinen Sohn erkennt.</l>
+            <lb/>
+            <l>Alle Ding’ auf dieſer Erden/</l>
+            <lb/>
+            <l>durch mich muͤſſen ſichtbar werden.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="ababcc">
+            <head>7.</head>
+            <l>Ich lehr’ auf den Saͤiten ſpielen/</l>
+            <lb/>
+            <l>und ein Liedchen ſingen drein.</l>
+            <lb/>
+            <l>Trefflich kan mein Bogen zielen.</l>
+            <lb/>
+            <l>Zwar muß der gewiſſer ſeyn/</l>
+            <lb/>
+            <l>der mir ſchoſſ ins Herze Wunden/</l>
+            <lb/>
+            <l>die ich vormals nie empfunden.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="ababcc">
+            <head>8.</head>
+            <l>Kranken lehr’ ich huͤlf ertheilen:</l>
+            <lb/>
+            <l>ich weiß aller Kraͤuter Kraft.</l>
+            <lb/>
+            <l>Itzt kan ich mich ſelbſt nit heilen/</l>
+            <lb/>
+            <l>bloͤd iſt meine Wiſſenſchaft.</l>
+            <lb/>
+            <l>Ach! daß doch/ vor Liebes-wunden/</l>
+            <lb/>
+            <l>gar kein Kraͤutlein wird gefunden!</l>
+          </lg>
+        </lg>
+      </div>
+
+    </body>
+  </text>
+</TEI>

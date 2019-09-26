@@ -1,0 +1,1275 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">West-östlicher Divan</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/118540238">
+            <surname>Goethe</surname>
+            <forename>Johann Wolfgang von</forename>
+          </persName>
+        </author>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/115266127">
+            <surname>Geyken</surname>
+            <forename>Alexander</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1018099549">
+            <surname>Haaf</surname>
+            <forename>Susanne</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1019062681">
+            <surname>Jurish</surname>
+            <forename>Bryan</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Boenig</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Thomas</surname>
+            <forename>Christian</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Wiegand</surname>
+            <forename>Frank</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <orgName ref="http://www.clarin-d.de">CLARIN-D</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="http://fedora.dwds.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Vollständige digitalisierte Ausgabe.</edition>
+      </editionStmt>
+      <extent>
+        <measure type="images">569</measure>
+        <measure type="tokens">54745</measure>
+        <measure type="types">12827</measure>
+        <measure type="characters">377671</measure>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2016-10-10T16:33:10Z</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+            <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported
+              License.</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="URLWeb">http://www.deutschestextarchiv.de/goethe_divan_1819</idno>
+          <idno type="URLXML"
+            >http://www.deutschestextarchiv.de/book/download_xml/goethe_divan_1819</idno>
+          <idno type="URLHTML"
+            >http://www.deutschestextarchiv.de/book/download_html/goethe_divan_1819</idno>
+          <idno type="URLText"
+            >http://www.deutschestextarchiv.de/book/download_text/goethe_divan_1819</idno>
+          <idno type="DTADirName">goethe_divan_1819</idno>
+          <idno type="DTAID">17143</idno>
+          <idno type="URN">urn:nbn:de:kobv:b4-200905191692</idno>
+        </idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="M">Goethe, Johann Wolfgang von: West-östlicher Divan. Stuttgart, 1819.</bibl>
+        <biblFull>
+          <titleStmt>
+            <title level="m" type="main">West-östlicher Divan</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/118540238">
+                <surname>Goethe</surname>
+                <forename>Johann Wolfgang von</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <extent>
+            <measure type="pages">556 S.</measure>
+          </extent>
+          <publicationStmt>
+            <publisher><name>Cotta</name></publisher>
+            <pubPlace>Stuttgart</pubPlace>
+            <date type="publication">1819</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <repository>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</repository>
+            <idno>
+              <idno type="shelfmark">SBB-PK, Yl 9600 R</idno>
+              <idno type="URLCatalogue"
+                >http://stabikat.de/DB=1/SET=12/TTL=1/CMD?ACT=SRCHA&amp;IKT=1016&amp;SRT=YOP&amp;TRM=415594723</idno>
+            </idno>
+          </msIdentifier>
+          <physDesc>
+            <typeDesc>
+              <p>Antiqua</p>
+            </typeDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Dieses Werk wurde gemäß den <ref
+            target="http://www.deutschestextarchiv.de/doku/richtlinien"
+            >DTA-Transkriptionsrichtlinien</ref> im Double-Keying-Verfahren von
+          Nicht-Muttersprachlern erfasst und in XML/TEI P5 nach <ref
+            target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat</ref>
+          kodiert.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="rendition-aq">font-family:sans-serif</rendition>
+        <rendition scheme="css" xml:id="rendition-b">font-weight:bold</rendition>
+        <rendition scheme="css" xml:id="rendition-blue">color:blue</rendition>
+        <rendition scheme="css" xml:id="rendition-c">display:block; text-align:center</rendition>
+        <rendition scheme="css" xml:id="rendition-et">display:block; margin-left:2em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-et2">display:block; margin-left:4em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-et3">display:block; margin-left:6em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-f">border:1px dotted silver</rendition>
+        <rendition scheme="css" xml:id="rendition-fr">border:1px dotted silver</rendition>
+        <rendition scheme="css" xml:id="rendition-g">letter-spacing:0.125em</rendition>
+        <rendition scheme="css" xml:id="rendition-i">font-style:italic</rendition>
+        <rendition scheme="css" xml:id="rendition-in">font-size:150%</rendition>
+        <rendition scheme="css" xml:id="rendition-k">font-variant:small-caps</rendition>
+        <rendition scheme="css" xml:id="rendition-larger">font-size:larger</rendition>
+        <rendition scheme="css" xml:id="rendition-red">color:red</rendition>
+        <rendition scheme="css" xml:id="rendition-right">display:block; text-align:right</rendition>
+        <rendition scheme="css" xml:id="rendition-s">text-decoration:line-through</rendition>
+        <rendition scheme="css" xml:id="rendition-smaller">font-size:smaller</rendition>
+        <rendition scheme="css" xml:id="rendition-sub">vertical-align:sub;
+          font-size:.7em</rendition>
+        <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+          font-size:.7em</rendition>
+        <rendition scheme="css" xml:id="rendition-u">text-decoration:underline</rendition>
+        <rendition scheme="css" xml:id="rendition-uu">border-bottom:double 3px #000</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">German</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtamain"
+          >Belletristik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtasub"
+          >Lyrik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+          >Belletristik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+          >Lyrik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >core</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >ready</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >china</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <l>Wer in mein Haus tritt der kann schelten</l>
+            <lb/>
+            <l>Was ich lieſs viele Jahte gelten;</l>
+            <lb/>
+            <l>Vor der Thür aber müſst’ er passen</l>
+            <lb/>
+            <l>Wenn ich ihn nicht wollte gelten lassen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="2">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcd">
+            <head>26.</head>
+            <lb/>
+            <l>Und den Todes-Kelch</l>
+            <lb/>
+            <l>Reichten wir den Hudseiliten,</l>
+            <lb/>
+            <l>Dessen Wirkung ist Jammer,</l>
+            <lb/>
+            <l>Blindheit und Erniedrigung.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="3">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="abcb">
+            <head><hi rendition="#c"><hi rendition="#g">Dichter</hi>.</hi></head>
+            <lb/>
+            <l>Niedergangen ist die Sonne,</l>
+            <lb/>
+            <l>Doch im Westen glänzt es immer,</l>
+            <lb/>
+            <l>Wissen möcht’ ich wohl, wie lange</l>
+            <lb/>
+            <l>Dauert noch der goldne Schimmer?</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abcb">
+            <head><hi rendition="#c"><hi rendition="#g">Schenke</hi>.</hi></head>
+            <lb/>
+            <l>Willst du, Herr, so will ich bleiben,</l>
+            <lb/>
+            <l>Warten auſser diesen Zelten,</l>
+            <lb/>
+            <l>Ist die Nacht des Schimmers Herrinn,</l>
+            <lb/>
+            <l>Komm’ ich gleich es dir zu melden.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="abab">
+            <l>Denn ich weiſs du liebst das Droben,</l>
+            <lb/>
+            <l>Das Unendliche zu schauen,</l>
+            <lb/>
+            <l>Wenn sie sich einander loben</l>
+            <lb/>
+            <l>Jene Feuer in dem Blauen.</l>
+          </lg>
+          <lb/>
+          <pb n="202" facs="#f0212"/>
+          <lg n="4" type="stanza" rhyme="abab">
+            <l>Und das hellste will nur sagen:</l>
+            <lb/>
+            <l>Jetzo glänz’ ich meiner Stelle,</l>
+            <lb/>
+            <l>Wollte Gott euch mehr betagen,</l>
+            <lb/>
+            <l>Glänztet ihr wie ich so helle.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="abcb">
+            <l>Denn vor Gott ist alles herrlich,</l>
+            <lb/>
+            <l>Eben weil er ist der beste,</l>
+            <lb/>
+            <l>Und so schläft nun aller Vogel</l>
+            <lb/>
+            <l>In dem groſs und kleinen Neste.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="abab">
+            <l>Einer sitzt auch wohl gestängelt</l>
+            <lb/>
+            <l>Auf den Aesten der Cypresse,</l>
+            <lb/>
+            <l>Wo der laue Wind ihn gängelt</l>
+            <lb/>
+            <l>Bis zu Thaues luft’ger Nässe.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="abab">
+            <l>Solches hast du mich gelehret,</l>
+            <lb/>
+            <l>Oder etwas auch dergleichen,</l>
+            <lb/>
+            <l>Was ich je dir abgehöret</l>
+            <lb/>
+            <l>Wird dem Herzen nicht entweichen.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="abcb">
+            <l>Eule will ich, deinetwegen,</l>
+            <lb/>
+            <l>Kauzen hier auf der Terrasse,</l>
+            <lb/>
+            <l>Bis ich erst des Nordgestirnes</l>
+            <lb/>
+            <l>Zwillings-Wendung wohl erpasse.</l>
+          </lg>
+          <lb/>
+          <pb n="203" facs="#f0213"/>
+          <lg n="9" type="stanza" rhyme="abab">
+            <l>Und da wird es Mitternacht seyn,</l>
+            <lb/>
+            <l>Wo du oft zu früh ermunterst,</l>
+            <lb/>
+            <l>Und dann wird es eine Pracht seyn,</l>
+            <lb/>
+            <l>Wenn das All mit mir bewunderst.</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="abab">
+            <head><hi rendition="#c"><hi rendition="#g">Dichter</hi>.</hi></head>
+            <lb/>
+            <l>Zwar in diesem Duft und Garten</l>
+            <lb/>
+            <l>Tönet Bulbul ganze Nächte,</l>
+            <lb/>
+            <l>Doch du könntest lange warten</l>
+            <lb/>
+            <l>Bis die Nacht so viel vermöchte.</l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="abab">
+            <l>Denn in dieser Zeit der Flora,</l>
+            <lb/>
+            <l>Wie das Griechen-Volk sie nennet,</l>
+            <lb/>
+            <l>Die Strohwittwe, die Aurora</l>
+            <lb/>
+            <l>Ist in Hesperus entbrennet.</l>
+          </lg>
+          <lb/>
+          <lg n="12" type="stanza" rhyme="abab">
+            <l>Sieh dich um! sie kommt! wie schnelle!</l>
+            <lb/>
+            <l>Ueber Blumenfelds Gelänge! —</l>
+            <lb/>
+            <l>Hüben hell und drüben helle,</l>
+            <lb/>
+            <l>Ja die Nacht kommt ins Gedränge.</l>
+          </lg>
+          <lb/>
+          <lg n="13" type="stanza" rhyme="abab">
+            <l>Und auf rothen leichten Solen</l>
+            <lb/>
+            <l>Ihn, der mit der Sonn’ entlaufen,</l>
+            <lb/>
+            <l>Eilt sie irrig einzohohlen;</l>
+            <lb/>
+            <l>Fühlst du nicht ein Liebe-Schnaufen?</l>
+          </lg>
+          <lb/>
+          <pb n="204" facs="#f0214"/>
+          <lg n="14" type="stanza" rhyme="abab">
+            <l>Geh nur, lieblichster der Söhne,</l>
+            <lb/>
+            <l>Tief in’s Innre schlieſs die Thüren;</l>
+            <lb/>
+            <l>Denn sie möchte deine Schöne</l>
+            <lb/>
+            <l>Als den Hesperus entführen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="4">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="abc">
+            <head><hi rendition="#c"><hi rendition="#g">Dichter</hi>.</hi></head>
+            <lb/>
+            <l>Mohamed Schemseddin sage,</l>
+            <lb/>
+            <l>Warum hat dein Volk, das hehre,</l>
+            <lb/>
+            <l><hi rendition="#g">Hafis</hi> dich genannt?</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abccbbcdede">
+            <head><hi rendition="#c"><hi rendition="#g">Hafis</hi>.</hi></head>
+            <lb/>
+            <l>Ich ehre,</l>
+            <lb/>
+            <l>Ich erwiedre deine Frage.</l>
+            <lb/>
+            <l>Weil, in glücklichem Gedächtniſs,</l>
+            <lb/>
+            <l>Des Corans geweiht Vermächtniſs</l>
+            <lb/>
+            <l>Unverändert ich verwahre,</l>
+            <lb/>
+            <l>Und damit so fromm gebahre</l>
+            <lb/>
+            <l>Daſs gemeinen Tages Schlechtniſs</l>
+            <lb/>
+            <fw type="sig" place="bottom">3 *</fw>
+            <lb/>
+            <pb n="36" facs="#f0046"/>
+            <l>Weder mich noch die berühret</l>
+            <lb/>
+            <l>Die Prophetenwort und Saamen</l>
+            <lb/>
+            <l>Schätzen wie es sich gebühret,</l>
+            <lb/>
+            <l>Darum gab man mir den Namen.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcdcdeeff">
+            <head><hi rendition="#c"><hi rendition="#g">Dichter</hi>.</hi></head>
+            <lb/>
+            <l>Hafis drum, so will mir scheinen,</l>
+            <lb/>
+            <l>Möcht’ ich dir nicht gerne weichen:</l>
+            <lb/>
+            <l>Denn wenn wir wie andre meynen,</l>
+            <lb/>
+            <l>Werden wir den andern gleichen.</l>
+            <lb/>
+            <l>Und so gleich ich dir vollkommen</l>
+            <lb/>
+            <l>Der ich unsrer heil’gen Bücher</l>
+            <lb/>
+            <l>Herrlich Bild an mich genommen,</l>
+            <lb/>
+            <l>Wie auf jenes Tuch der Tücher</l>
+            <lb/>
+            <l>Sich des Herren Bildniſs drückte,</l>
+            <lb/>
+            <l>Mich in stiller Brust erquickte,</l>
+            <lb/>
+            <l>Trotz Verneinung, Hindrung, Raubens,</l>
+            <lb/>
+            <l>Mit dem heitren Bild des Glaubens.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="5">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abba">
+            <l>Als ich einmal eine Spinne erschlagen,</l>
+            <lb/>
+            <l>Dacht ich ob ich das wohl gesollt?</l>
+            <lb/>
+            <l>Hat Gott ihr doch wie mir gewollt</l>
+            <lb/>
+            <l>Einen Antheil an diesen Tagen!</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="6">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="abab">
+            <l>Dichten ist ein Uebermuth,</l>
+            <lb/>
+            <l>Niemand schelte mich!</l>
+            <lb/>
+            <l>Habt getrost ein warmes Blut</l>
+            <lb/>
+            <l>Froh und frey wie ich.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abab">
+            <l>Sollte jeder Stunde Pein</l>
+            <lb/>
+            <l>Bitter schmecken mir;</l>
+            <lb/>
+            <l>Würd’ ich auch bescheiden seyn</l>
+            <lb/>
+            <l>Und noch mehr als ihr.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="abab">
+            <l>Denn Bescheidenheit ist fein</l>
+            <lb/>
+            <l>Wenn das Mädchen blüht,</l>
+            <lb/>
+            <l>Sie will zart geworben seyn</l>
+            <lb/>
+            <l>Die den Rohen flieht.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="abab">
+            <l>Auch ist gut Bescheidenheit</l>
+            <lb/>
+            <l>Spricht ein weiser Mann,</l>
+            <lb/>
+            <l>Der von Zeit und Ewigkeit</l>
+            <lb/>
+            <l>Mich belehren kann!</l>
+          </lg>
+          <lb/>
+          <pb n="27" facs="#f0037"/>
+          <lg n="5" type="stanza" rhyme="abab">
+            <l>Dichten ist ein Uebermuth!</l>
+            <lb/>
+            <l>Treib’ es gern allein.</l>
+            <lb/>
+            <l>Freund und Frauen, frisch von Blut,</l>
+            <lb/>
+            <l>Kommt nur auch herein.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="abab">
+            <l>Mönchlein ohne Kapp’ und Kutt’</l>
+            <lb/>
+            <l>Schwatze nicht auf mich ein,</l>
+            <lb/>
+            <l>Zwar du machest mich caput,</l>
+            <lb/>
+            <l>Nicht bescheiden! Nein.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="abab">
+            <l>Deiner Phrasen leeres Was</l>
+            <lb/>
+            <l>Treibet mich davon,</l>
+            <lb/>
+            <l>Abgeschliffen hab’ ich das</l>
+            <lb/>
+            <l>An den Solen schon.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="abab">
+            <l>Wenn des Dichters Mühle geht</l>
+            <lb/>
+            <l>Halte sie nicht ein:</l>
+            <lb/>
+            <l>Denn wer einmal uns versteht</l>
+            <lb/>
+            <l>Wird uns auch verzeihn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="7">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcd">
+            <l>Dem Vernünft’gen sind Lockspeise Schedschaai’s</l>
+            <lb/>
+            <l>Gedichte,</l>
+            <lb/>
+            <l>Hundert Vögel wie ich fliegen begierig darauf.</l>
+            <lb/>
+            <l>Geh mein Gedicht und küſs’ vor dem Herrn die</l>
+            <lb/>
+            <l>Erde und sag’ ihm:</l>
+            <lb/>
+            <l>Du, die Tugend der Zeit, Tugendepoche bist du.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="8">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="ab">
+            <l>„Du vergehst und bist so freundlich,</l>
+            <lb/>
+            <l>Verzehrst dich und singst so schön.“</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abccb">
+            <head><hi rendition="#c"><hi rendition="#g">Dichter</hi>.</hi></head>
+            <lb/>
+            <l>Die Liebe behandelt mich feindlich!</l>
+            <lb/>
+            <l>Da will ich gern gestehn</l>
+            <lb/>
+            <l>Ich singe mit schwerem Herzen.</l>
+            <lb/>
+            <l>Sieh doch einmal die Kerzen,</l>
+            <lb/>
+            <l>Sie leuchten indem sie vergehn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="9">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="abab">
+            <l>In tausend Formen magst du dich verstecken,</l>
+            <lb/>
+            <l>Doch, Allerliebste, gleich erkenn’ ich dich,</l>
+            <lb/>
+            <l>Du magst mit Zauberschleyern dich bedecken,</l>
+            <lb/>
+            <l>Allgegenwärtige, gleich erkenn’ ich dich.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abab">
+            <l>An der Cypresse reinstem, jungen Streben,</l>
+            <lb/>
+            <l>Allschöngewaschne, gleich erkenn’ ich dich,</l>
+            <lb/>
+            <l>In des Canales reinem Wellenleben,</l>
+            <lb/>
+            <l>Allschmeichelhafte, wohl erkenn’ ich dich.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="abab">
+            <l>Wenn steigend sich der Wasserstrahl entfaltet,</l>
+            <lb/>
+            <l>Allspielende, wie froh erkenn’ ich dich.</l>
+            <lb/>
+            <l>Wenn Wolke sich gestaltend umgestaltet,</l>
+            <lb/>
+            <l>Allmannigfaltige, dort erkenn’ ich dich.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="abab">
+            <l>An des geblümten Schleyers Wiesenteppich,</l>
+            <lb/>
+            <l>Allbuntbesternte, schön erkenn’ ich dich.</l>
+            <lb/>
+            <l>Und greift umher ein tausendarmger Eppich,</l>
+            <lb/>
+            <l>O! Allumklammernde, da kenn’ ich dich.</l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">12 *</fw>
+          <lb/>
+          <pb n="180" facs="#f0190"/>
+          <lg n="5" type="stanza" rhyme="abab">
+            <l>Wenn am Gebirg der Morgen sich entzündet,</l>
+            <lb/>
+            <l>Gleich, Allerheiternde, begrüſs’ ich dich,</l>
+            <lb/>
+            <l>Dann über mir der Himmel rein sich ründet,</l>
+            <lb/>
+            <l>Allherzerweiternde, dann athm’ ich dich.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="abab">
+            <l>Was ich mit äuſserm Sinn, mit innerm kenne,</l>
+            <lb/>
+            <l>Du Allbelehrende, kenn’ ich durch dich.</l>
+            <lb/>
+            <l>Und wenn ich Allahs Namenhundert nenne,</l>
+            <lb/>
+            <l>Mit jedem klingt ein Name nach für dich.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="10">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcb">
+            <l>Herr! laſs dir gefallen</l>
+            <lb/>
+            <l>Dieses kleine Haus,</l>
+            <lb/>
+            <l>Gröſsre kann man bauen,</l>
+            <lb/>
+            <l>Mehr kommt nicht heraus.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="11">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcd">
+            <l>Nur dasjenige Gesicht</l>
+            <lb/>
+            <l>Ist des Glückes Spiegelwand,</l>
+            <lb/>
+            <l>Das gerieben ward am Staub</l>
+            <lb/>
+            <l>Von dem Hufe dieses Pferdes.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="12">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababcdeeff">
+            <l>Reitest du bey e’nem Schmied vorbey,</l>
+            <lb/>
+            <l>Weiſst nicht wann er dein Pferd beschlägt;</l>
+            <lb/>
+            <l>Siehst du eine Hütte im Felde frey,</l>
+            <lb/>
+            <l>Weiſst nicht ob sie dir ein Liebchen hegt;</l>
+            <lb/>
+            <l>Einem Jüngling begegnest du schön und kühn,</l>
+            <lb/>
+            <l>Er überwindet dich künftig oder du ihn.</l>
+            <lb/>
+            <l>Am sichersten kannst du vom Rebstock sagen</l>
+            <lb/>
+            <l>Er werde für dich was Gutes tragen.</l>
+            <lb/>
+            <l>So bist du denn der Welt empfohlen,</l>
+            <lb/>
+            <l>Das Uebrige will ich nicht wiederholen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="13">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abab">
+            <l>Sich im Respect zu erhalten</l>
+            <lb/>
+            <l>Muſs man recht borstig seyn.</l>
+            <lb/>
+            <l>Alles jagt man mit Falken,</l>
+            <lb/>
+            <l>Nur nicht das wilde Schwein.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="14">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababcdcdefef">
+            <l>Wenn der Mensch die Erde schätzet,</l>
+            <lb/>
+            <l>Weil die Sonne sie bescheinet,</l>
+            <lb/>
+            <l>An der Rebe sich ergetzet</l>
+            <lb/>
+            <l>Die dem scharfen Messer weinet,</l>
+            <lb/>
+            <l>Da sie fühlt daſs ihre Säfte,</l>
+            <lb/>
+            <l>Wohlgekocht, die Welt erquickend,</l>
+            <lb/>
+            <l>Werden regsam vielen Kräften,</l>
+            <lb/>
+            <l>Aber mehreren erstickend;</l>
+            <lb/>
+            <l>Weiſs er das der Glut zu danken</l>
+            <lb/>
+            <l>Die das alles läſst gedeihen;</l>
+            <lb/>
+            <l>Wird Betrunkner stammlend wanken,</l>
+            <lb/>
+            <l>Mäſsiger wird sich singend freuen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="15">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcd">
+            <head>2.</head>
+            <lb/>
+            <l>Groſse Last legt’ er mir auf</l>
+            <lb/>
+            <l>Und schied;</l>
+            <lb/>
+            <l>Fürwahr diese Last</l>
+            <lb/>
+            <l>Will ich tragen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="16">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abbacddc">
+            <l>Bulbuls Nachtlied, durch die Schauer,</l>
+            <lb/>
+            <l>Drang zu Allahs lichtem Throne,</l>
+            <lb/>
+            <l>Und dem Wohlgesang zu Lohne</l>
+            <lb/>
+            <l>Sperrt er sie in goldnen Bauer.</l>
+            <lb/>
+            <l>Dieser sind des Menschen Glieder.</l>
+            <lb/>
+            <l>Zwar sie fühlet sich beschränket;</l>
+            <lb/>
+            <l>Doch wenn sie es recht bedenket,</l>
+            <lb/>
+            <l>Singt das Seelchen immer wieder.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="17">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcd">
+            <head>1.</head>
+            <lb/>
+            <l>Unter dem Felsen am Wege</l>
+            <lb/>
+            <l>Erschlagen liegt er,</l>
+            <lb/>
+            <l>In dessen Blut</l>
+            <lb/>
+            <l>Kein Thau herabträuft.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="18">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcbdefe">
+            <l>Wer wird von der Welt verlangen?</l>
+            <lb/>
+            <l>Was sie selbst vermiſst und träumet,</l>
+            <lb/>
+            <l>Rückwärts oder seitwärts blickend</l>
+            <lb/>
+            <l>Stets den Tag des Tags versäumet.</l>
+            <lb/>
+            <l>Ihr Bemühn ist guter Wille,</l>
+            <lb/>
+            <l>Hinkt nur nach dem raschen Leben</l>
+            <lb/>
+            <l>Und was du vor Jahren brauchtest,</l>
+            <lb/>
+            <l>Möchte sie dir heute geben.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="19">
+        <lg type="poem">
+          <head><hi rendition="#c"><hi rendition="#g">Hatem</hi>.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="abab">
+            <l>Nun wer weiſs was sie erfüllet!</l>
+            <lb/>
+            <l>Kennt ihr solcher Tiefe Grund?</l>
+            <lb/>
+            <l>Selbstgefühltes Lied entquillet,</l>
+            <lb/>
+            <l>Selbstgedichtetes dem Mund.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abab">
+            <l>Von euch Dichterinnen allen</l>
+            <lb/>
+            <l>Ist ihr eben keine gleich:</l>
+            <lb/>
+            <l>Denn sie singt mir zu gefallen,</l>
+            <lb/>
+            <l>Und ihr singt und liebt nur euch.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="20">
+        <lg type="poem">
+          <head><hi rendition="#c"><hi rendition="#g">Hatem</hi>.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="abba">
+            <l>Bräunchen komm! Es wird schon gehen.</l>
+            <lb/>
+            <l>Zöpfe, Kämme groſs und kleine,</l>
+            <lb/>
+            <l>Zieren Köpfchens nette Reine</l>
+            <lb/>
+            <l>Wie die Kuppel ziert Moscheen.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abab">
+            <l>Du Blondinchen bist so zierlich,</l>
+            <lb/>
+            <l>Aller Weis’ und Weg’ so nette,</l>
+            <lb/>
+            <l>Man gedenkt nicht ungebührlich</l>
+            <lb/>
+            <l>Also gleich der Minarette.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="abab">
+            <l>Du dahinten hast der Augen</l>
+            <lb/>
+            <l>Zweyerley, du kannst die beyden,</l>
+            <lb/>
+            <l>Einzeln, nach Belieben brauchen.</l>
+            <lb/>
+            <l>Doch ich sollte d<hi rendition="#i">i</hi>ch vermeiden.</l>
+          </lg>
+          <lb/>
+          <pb n="147" facs="#f0157"/>
+          <lg n="4" type="stanza" rhyme="abba">
+            <l>Leichtgedrückt die Augenlieder</l>
+            <lb/>
+            <l>Eines, die den Stern bewhelmen</l>
+            <lb/>
+            <l>Deutet auf den Schelm der Schelmen,</l>
+            <lb/>
+            <l>Doch das andre schaut so bieder.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="abba">
+            <l>Dies, wenn jen’s verwundend angelt,</l>
+            <lb/>
+            <l>Heilend, nährend wird sich’s weisen.</l>
+            <lb/>
+            <l>Niemand kann ich glücklich preisen</l>
+            <lb/>
+            <l>Der des Doppelblicks ermangelt.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="abab">
+            <l>Und so könnt’ ich alle loben</l>
+            <lb/>
+            <l>Und so könnt’ ich alle lieben:</l>
+            <lb/>
+            <l>Denn so wie ich euch erhoben</l>
+            <lb/>
+            <l>War die Herrin mit beschrieben.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="21">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abab">
+            <l>Thut ein Schilf sich doch hervor</l>
+            <lb/>
+            <l>Welten zu versüſsen!</l>
+            <lb/>
+            <l>Möge meinem Schreibe-Rohr</l>
+            <lb/>
+            <l>Liebliches entflieſsen!</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="22">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcd">
+            <head>28.</head>
+            <lb/>
+            <l>Die edelsten Geyer flogen daher,</l>
+            <lb/>
+            <l>Sie schritten von Leiche zu Leiche,</l>
+            <lb/>
+            <l>Und von dem reichlich bereiteten Mahle</l>
+            <lb/>
+            <l>Nicht in die Höhe konnten sie steigen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="23">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcd">
+            <head>8.</head>
+            <lb/>
+            <l>Trocken von Hüften,</l>
+            <lb/>
+            <l>Nicht kümmerlich,</l>
+            <lb/>
+            <l>Feucht von Händen,</l>
+            <lb/>
+            <l>Kühn und gewaltsam.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="24">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="abcb">
+            <l>Staub ist eins der Elemente</l>
+            <lb/>
+            <l>Das du gar geschickt bezwingest</l>
+            <lb/>
+            <l>Hafis, wenn zu Liebchens Ehren,</l>
+            <lb/>
+            <l>Du ein zierlich Liedchen singest.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abcb">
+            <l>Denn der Staub auf ihrer Schwelle</l>
+            <lb/>
+            <l>Ist dem Teppich vorzuziehen,</l>
+            <lb/>
+            <l>Dessen goldgewirkte Blumen</l>
+            <lb/>
+            <l>Mahmuds Günstlinge beknieen.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="abcb">
+            <l>Treibt der Wind von ihrer Pforte</l>
+            <lb/>
+            <l>Wolken Staubs behend vorüber,</l>
+            <lb/>
+            <l>Mehr als Moschus sind die Düfte</l>
+            <lb/>
+            <l>Und als Rosenöl dir lieber.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="abcb">
+            <l>Staub den hab’ ich längst entbehret</l>
+            <lb/>
+            <l>In dem stets umhüllten Norden,</l>
+            <lb/>
+            <l>Aber in dem heiſsen Süden</l>
+            <lb/>
+            <l>Ist er mir genugsam worden.</l>
+          </lg>
+          <lb/>
+          <pb n="29" facs="#f0039"/>
+          <lg n="5" type="stanza" rhyme="abcb">
+            <l>Doch schon längst das liebe Pforten</l>
+            <lb/>
+            <l>Mir auf ihren Angeln schwiegen!</l>
+            <lb/>
+            <l>Heile mich Gewitterregen,</l>
+            <lb/>
+            <l>Laſs mich daſs es grunelt riechen!</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="abcb">
+            <l>Wenn jetzt alle Donner rollen</l>
+            <lb/>
+            <l>Und der ganze Himmel leuchtet,</l>
+            <lb/>
+            <l>Wird der wilde Staub des Windes</l>
+            <lb/>
+            <l>Nach dem Boden hingefeuchtet.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="abcb">
+            <l>Und sogleich entspringt ein Leben,</l>
+            <lb/>
+            <l>Schwillt ein heilig, heimlich Wirken,</l>
+            <lb/>
+            <l>Und es grunelt und es grünet</l>
+            <lb/>
+            <l>In den irdischen Bezirken.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="25">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Mit Rath und Schwerdt umfaſst und schützet Er</l>
+            <lb/>
+            <l>das Land;</l>
+            <lb/>
+            <l>Umfassende und Schirmer stehn in Gottes Hand.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="26">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcd">
+            <head>13.</head>
+            <lb/>
+            <l>Schreckend ritt er allein,</l>
+            <lb/>
+            <l>Niemand begleitet’ ihn</l>
+            <lb/>
+            <l>Als das Schwerdt von Jemen</l>
+            <lb/>
+            <l>Mit Scharten geschmückt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="27">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="abab">
+            <l>Vier Thieren auch verheiſsen war</l>
+            <lb/>
+            <l>In’s Paradies zu kommen,</l>
+            <lb/>
+            <l>Dort leben sie das ew’ge Jahr</l>
+            <lb/>
+            <l>Mit Heiligen und Frommen.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abab">
+            <l>Den Vortritt hier ein Esel hat,</l>
+            <lb/>
+            <l>Er kommt mit muntern Schritten:</l>
+            <lb/>
+            <l>Denn Jesus zur Propheten-Stadt</l>
+            <lb/>
+            <l>Auf ihm ist eingeritten.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="abab">
+            <l>Halb schüchtern kommt ein Wolf sodann,</l>
+            <lb/>
+            <l>Dem Mahomet befohlen:</l>
+            <lb/>
+            <l>Laſs dieses Schaf dem armen Mann,</l>
+            <lb/>
+            <l>Dem Reichen magst du’s holen.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="abab">
+            <l>Nun immer wedelnd, munter, brav,</l>
+            <lb/>
+            <l>Mit seinem Herrn, dem braven,</l>
+            <lb/>
+            <l>Das Hündlein das den Siebenschlaf</l>
+            <lb/>
+            <l>So treulich mitgeschlafen.</l>
+          </lg>
+          <lb/>
+          <pb n="231" facs="#f0241"/>
+          <lg n="5" type="stanza" rhyme="abab">
+            <l>Abuherrira’s Katze hier</l>
+            <lb/>
+            <l>Knurrt um den Herrn und schmeichelt:</l>
+            <lb/>
+            <l>Denn immer ist’s ein heilig Thier</l>
+            <lb/>
+            <l>Das der Prophet gestreichelt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="28">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abab">
+            <l>Morgendämmerung wandte sich in’s Helle,</l>
+            <lb/>
+            <l>Herz und Geist auf einmal wurden froh,</l>
+            <lb/>
+            <l>Als die Nacht, die schüchterne Gazelle,</l>
+            <lb/>
+            <l>Vor dem Dräun des Morgenlöwens floh.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="29">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="abab">
+            <l>Mag der Grieche seinen Thon</l>
+            <lb/>
+            <l>Zu Gestalten drücken,</l>
+            <lb/>
+            <l>An der eignen Hände Sohn</l>
+            <lb/>
+            <l>Steigern sein Entzücken;</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abcb">
+            <l>Aber uns ist wonnereich</l>
+            <lb/>
+            <l>In den Euphrat greifen,</l>
+            <lb/>
+            <l>Und im flüſsgen Element</l>
+            <lb/>
+            <l>Hin und wieder schweifen.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="abab">
+            <l>Löscht ich so der Seele Brand</l>
+            <lb/>
+            <l>Lied es wird erschallen;</l>
+            <lb/>
+            <l>Schöpft des Dichters reine Hand</l>
+            <lb/>
+            <l>Wasser wird sich ballen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="30">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="abcb">
+            <l>Keinen Reimer wird man finden</l>
+            <lb/>
+            <l>Der sich nicht den besten hielte,</l>
+            <lb/>
+            <l>Keinen Fiedler der nicht lieber</l>
+            <lb/>
+            <l>Eigne Melodieen spielte.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abab">
+            <l>Und ich konnte sie nicht tadeln;</l>
+            <lb/>
+            <l>Wenn wir andern Ehre geben</l>
+            <lb/>
+            <l>Müssen wir uns selbst entadeln.</l>
+            <lb/>
+            <l>Lebt man denn wenn andre leben?</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="aba">
+            <l/>
+            <lb/>
+            <lb/>
+            <l>In gewissen Antichambern,</l>
+            <lb/>
+            <l>Wo man nicht zu sondern wuſste</l>
+            <lb/>
+            <l>Mäusedreck von Koriandern.</l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">6 *</fw>
+          <lb/>
+          <pb n="84" facs="#f0094"/>
+          <lg n="4" type="stanza" rhyme="abab">
+            <l>Das Gewesne wollte hassen</l>
+            <lb/>
+            <l>Solche rüstige neue Besen,</l>
+            <lb/>
+            <l>Diese dann nicht gelten lassen</l>
+            <lb/>
+            <l>Was sonst Besen war gewesen.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="abab">
+            <l>Und wo sich die Völker trennen,</l>
+            <lb/>
+            <l>Gegenseitig im Verachten,</l>
+            <lb/>
+            <l>Keins von beyden wird bekennen</l>
+            <lb/>
+            <l>Daſs sie nach demselben trachten.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="abab">
+            <l>Und das grobe Selbstempfinden</l>
+            <lb/>
+            <l>Haben Leute hart gescholten,</l>
+            <lb/>
+            <l>Die am wenigsten verwinden,</l>
+            <lb/>
+            <l>Wenn die andern was gegolten.</l>
+          </lg>
+        </lg>
+      </div>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1093 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Cherubinischer Wandersmann oder Geist-Reiche Sinn- und Schluß-Reime zur
+          Göttlichen beschauligkeit anleitende</title>
+        <title type="sub">Von dem Urheber a[u]fs neue übersehn/ und mit dem Sechsten Buche vermehrt/
+          den Liebhabern der geheimen Theologie und beschaulichen Lebens zur Geistlichen
+          Ergötzligkeit zum andernmahl herauß gegeben</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/118503111">
+            <surname>Silesius</surname>
+            <forename>Angelus</forename>
+          </persName>
+        </author>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/115266127">
+            <surname>Geyken</surname>
+            <forename>Alexander</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1018099549">
+            <surname>Haaf</surname>
+            <forename>Susanne</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1019062681">
+            <surname>Jurish</surname>
+            <forename>Bryan</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Schulz</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Steinmann</surname>
+            <forename>Jakob</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Thomas</surname>
+            <forename>Christian</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Wiegand</surname>
+            <forename>Frank</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <orgName>GREPECT GmbH</orgName>
+          <resp>
+            <note type="remarkResponsibility">Bereitstellung der Texttranskription.</note>
+            <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und
+              Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des
+              Werkes in das DTA entsprechen muss.</note>
+            <ref target="http://www.grepect.de/"/>
+            <date type="importDTA">2013-08-21T14:19:32Z</date>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName>Deutsches Textarchiv</orgName>
+          <resp>
+            <note type="remarkResponsibility">Konvertierung in das DTA-Basisformat.</note>
+            <ref target="http://www.deutschestextarchiv.de/"/>
+            <date type="importDTA">2013-08-21T14:19:32Z</date>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName ref="http://www.clarin-d.de">CLARIN-D</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="http://fedora.dwds.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Vollständige digitalisierte Ausgabe.</edition>
+      </editionStmt>
+      <extent>
+        <measure type="images">260</measure>
+        <measure type="tokens">47542</measure>
+        <measure type="types">8165</measure>
+        <measure type="characters">295311</measure>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2014-08-25T11:51:44Z</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+            <p>Dieses Werk steht unter der Lizenz „Namensnennung-Nicht kommerziell 3.0 Deutschland
+              (CC BY-NC 3.0 DE)“.</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="URLWeb">http://www.deutschestextarchiv.de/silesius_wandersmann_1675</idno>
+          <idno type="URLXML"
+            >http://www.deutschestextarchiv.de/book/download_xml/silesius_wandersmann_1675</idno>
+          <idno type="URLHTML"
+            >http://www.deutschestextarchiv.de/book/download_html/silesius_wandersmann_1675</idno>
+          <idno type="URLText"
+            >http://www.deutschestextarchiv.de/book/download_text/silesius_wandersmann_1675</idno>
+          <idno type="DTADirName">silesius_wandersmann_1675</idno>
+          <idno type="DTAID">20008</idno>
+          <idno type="URN">urn:nbn:de:kobv:b4-20008-3</idno>
+        </idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="M">Silesius, Angelus: Cherubinischer Wandersmann oder Geist-Reiche Sinn- und
+          Schluß-Reime. 2. Aufl. Glatz, 1675.</bibl>
+        <biblFull>
+          <titleStmt>
+            <title level="m" type="main">Cherubinischer Wandersmann oder Geist-Reiche Sinn- und
+              Schluß-Reime zur Göttlichen beschauligkeit anleitende</title>
+            <title level="m" type="sub">Von dem Urheber a[u]fs neue übersehn/ und mit dem Sechsten
+              Buche vermehrt/ den Liebhabern der geheimen Theologie und beschaulichen Lebens zur
+              Geistlichen Ergötzligkeit zum andernmahl herauß gegeben</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/118503111">
+                <surname>Silesius</surname>
+                <forename>Angelus</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="2">2</edition>
+          </editionStmt>
+          <extent>
+            <measure type="pages">[1] Bl., 254 [i.e. 250] S., [1] Bl. : Kupfert.</measure>
+          </extent>
+          <publicationStmt>
+            <publisher><name>Schubarth</name></publisher>
+            <pubPlace>Glatz</pubPlace>
+            <date type="publication">1675</date>
+          </publicationStmt>
+          <notesStmt>
+            <note type="remarkSource">Die Erstauflage dieses Werkes erschien 1657 unter dem Titel
+              "Geistreiche Sinn- vnd Schlussrime" in Wien (vgl.
+              http://www.deutschestextarchiv.de/silesius_schlussrime_1657). Gegenüber dieser
+              Erstauflage wurde die hier vorliegende zweite Auflage um ein sechstes Buch ergänzt und
+              erhielt den bekannten Titelzusatz "Cherubinischer Wandersmann".</note>
+          </notesStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <repository>HAB Wolfenbüttel</repository>
+            <idno>
+              <idno type="shelfmark">HAB Wolfenbüttel, M: Lo 6724</idno>
+              <idno type="URLCatalogue">Dig: http://diglib.hab.de/drucke/lo-6724/start.htm</idno>
+            </idno>
+          </msIdentifier>
+          <physDesc>
+            <typeDesc>
+              <p>Fraktur</p>
+            </typeDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p/>
+        <p> &lt;p&gt; Dieses Werk wurde gemäß den &lt;a
+          href="http://www.deutschestextarchiv.de/doku/richtlinien"&gt;DTA-Transkriptionsrichtlinien&lt;/a&gt;
+          im Double-Keying-Verfahren von Nicht-Muttersprachlern erfasst und in XML/TEI P5 nach &lt;a
+          href="http://www.deutschestextarchiv.de/doku/basisformat"&gt;DTA-Basisformat&lt;/a&gt;
+          kodiert. &lt;/p&gt; </p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">German</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtamain"
+          >Belletristik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtasub"
+          >Lyrik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+          >Belletristik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+          >Lyrik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >ready</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >dtae</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>233. <hi rendition="#c"><hi rendition="#fr">Wenn der Menſch Gott
+              iſt.</hi></hi></head>
+            <lb/>
+            <l>Eh’ als ich ich noch war/ da war ich Gott in Gott:</l>
+            <lb/>
+            <l>Drum̄ kan ichs wieder ſeyn wen̄ ich nur mir bin Todt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="2">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>140. <hi rendition="#c"><hi rendition="#fr">Das Koͤnigliche
+              Leben.</hi></hi></head>
+            <lb/>
+            <l>Gib deinen willen GOtt: dann wer jhn aufgegeben/</l>
+            <lb/>
+            <l>Derſelbe fuͤhrt allein ein Koͤnigliches Leben.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="3">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcb">
+            <head>359. <hi rendition="#c"><hi rendition="#fr">Gleichnuͤß der H. Dreyfaltigkeit
+                  mit<lb/> der Sonne.</hi></hi></head>
+            <lb/>
+            <l>GOTT Vatter iſt der Leib/ und GOtt der Sohn</l>
+            <lb/>
+            <l><hi rendition="#et">das Licht/</hi></l>
+            <lb/>
+            <l>Die Strahln der heilge Geiſt/ der beiden iſt ver-</l>
+            <lb/>
+            <l><hi rendition="#et">pflicht.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="4">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aba">
+            <l>Menſch komſtu ohne Lieb/ ſo ſteh nur bald von ferꝛn:</l>
+            <lb/>
+            <l>Was nicht nach Liebe reucht/ daß ſtinkt fuͤr GOtt</l>
+            <lb/>
+            <l><hi rendition="#et">dem HErꝛn.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="5">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>282. <hi rendition="#c"><hi rendition="#fr">Gott iſt wie die
+              Sonne.</hi></hi></head>
+            <lb/>
+            <l>Gott iſt der Sonne gleich: wer ſich zu Jhme kehrt/</l>
+            <lb/>
+            <l>Der wird erleucht/ und ſtraks ſeins Angeſichts gewehrt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="6">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Lieb’ uͤben hat vil Muͤh: wir ſollen nicht allein</l>
+            <lb/>
+            <l>Nur Lieben: ſondern ſelbſt/ wie GOtt die Liebe ſeyn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="7">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>113. <hi rendition="#c"><hi rendition="#fr">Liſt wieder Liſt.</hi></hi></head>
+            <lb/>
+            <l>Mit Liſt hat unß der Feind gefaͤllet und bekriegt/</l>
+            <lb/>
+            <l>Mit Liſt kan er von unß ſeyn wiederumb beſiegt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="8">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abb">
+            <l>Nichts duͤnkt mich hoch zuͤ ſeyn: Jch bin daß hoͤchſte</l>
+            <lb/>
+            <l><hi rendition="#et">Ding/</hi></l>
+            <lb/>
+            <l>Weil auch GOtt ohne mich Jhm ſelber iſt gering.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="9">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Den erſten Adam den hat GOtt allein gemacht:</l>
+            <lb/>
+            <l>Den anderen hat er mit mir zu wege bracht.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="10">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcc">
+            <l>Der Ewge GOttes Sohn kombt her in dieſe Wuͤſten/</l>
+            <lb/>
+            <l>Uñ naͤhrt ſich wie ein Kind an einer Jungfrau Brüſtẽ.</l>
+            <lb/>
+            <l>Wer hat jhm dieſes weh verurſacht und gemacht?</l>
+            <lb/>
+            <l>Ein abgefallnes Weib hat jhn darzu gebracht.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="11">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aba">
+            <l>Wer uͤber Berg und Thal/ und dem Gewoͤlke ſitzt/</l>
+            <lb/>
+            <l>Der achtets nicht ein Haar/ wenns donnert/ kracht</l>
+            <lb/>
+            <l><hi rendition="#et">und blitzt.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="12">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>143. <hi rendition="#c"><hi rendition="#fr">An den Hoffaͤrtigen.</hi></hi></head>
+            <lb/>
+            <l>Es heiſt ſich einen Wurm auß Demutt GOttes Sohn/</l>
+            <lb/>
+            <l>Du Wurm miſt dir wohl zu auß Hoffart ſeinen Thron.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="13">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Ein tugendthaffter Menſch iſt wie ein Felſenſtein:</l>
+            <lb/>
+            <l>Es ſtuͤrme wie es wil/ er fellet doch nicht ein.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="14">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Wann du geſtorben biſt/ uñ GOtt dein Leben worden/</l>
+            <lb/>
+            <l>So trittſtu erſt recht ein der Hohen Goͤtter Orden.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="15">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>41. <hi rendition="#c"><hi rendition="#fr">Je mehr erkandnuͤß je weniger ver-<lb/>
+                  ſtandnuͤß.</hi></hi></head>
+            <lb/>
+            <l>Je mehr du GOtt erkennſt/ je mehr wirſtu bekennen/</l>
+            <lb/>
+            <l>Daß du je weniger Jhn/ was er iſt/ kanſt nennen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="16">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abb">
+            <l>Die Jungfrauſchafft iſt wehrt: doch muß ſie Mutter</l>
+            <lb/>
+            <l><hi rendition="#et">werden:</hi></l>
+            <lb/>
+            <l>Sonſt iſt ſie wie ein Plan von Unbefruchter Erden.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="17">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Halt an mein <hi rendition="#aq">Auguſtin:</hi> Eh du wirſt Gott ergruͤndẽ</l>
+            <lb/>
+            <l>Wird man daß gantze Meer in einem Gruͤblein findẽ.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="18">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abb">
+            <l>Der Heilge nimbt es gleich: laͤſt jhn GOtt liegen</l>
+            <lb/>
+            <l><hi rendition="#et">Krank/</hi></l>
+            <lb/>
+            <l>Er ſaget Jhm ſo gern als vor Geſundheit dank.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="19">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abacc">
+            <l>Weg weg jhr <hi rendition="#aq">Seraphim</hi> jhr koͤnt mich nit erquikken?</l>
+            <lb/>
+            <l>Weg weg jhr <hi rendition="#fr">Heiligen/</hi> und was an euch thut</l>
+            <lb/>
+            <l><hi rendition="#et">blikken:</hi></l>
+            <lb/>
+            <l>Jch will nun eurer nicht: ich werffe mich allein/</l>
+            <lb/>
+            <l>Jns ungeſchaffne Meer der bloſſen GOttheit ein.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="20">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Freund wer den Himmel nicht erobert und beſtuͤrmt/</l>
+            <lb/>
+            <l>Der iſt nicht wehrt daß jhn ſein Oberſter beſchirmt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="21">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>30. <hi rendition="#c"><hi rendition="#fr">Wer hochgeehrt wil ſeyn/ muß GOtt<lb/>
+                  werden.</hi></hi></head>
+            <lb/>
+            <l>Nichts iſt geehrt wie GOtt im Himmel und auf Erden:</l>
+            <lb/>
+            <l>Streb/ daß du wirſt was er/ wo du geehrt wild werden.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="22">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Zu wem du dich geſellſt/ deß weſen ſaufſtu ein:</l>
+            <lb/>
+            <l>Bey Gotte wirſtu Gott/ beym Teuffel Teuffel ſein.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="23">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabc">
+            <head>94. <hi rendition="#c"><hi rendition="#fr">GOtt iſt nicht
+              beweglich.</hi></hi></head>
+            <lb/>
+            <l>Wer ſaget daß ſich GOtt vom Suͤnder abewendt/</l>
+            <lb/>
+            <l>Der giebet klar ann Tag daß er GOtt noch nicht kennt.</l>
+            <lb/>
+            <l>Merk. GOtt wendet ſich nicht ab/ ſondern der Suͤnder</l>
+            <lb/>
+            <l><hi rendition="#et">wendt ſich von GOtt.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="24">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abbcc">
+            <head>123. <hi rendition="#c"><hi rendition="#fr">Von der H. Martha an den</hi>
+                <hi rendition="#aq">Po-<lb/> lypragmon.</hi></hi></head>
+            <lb/>
+            <l>Der HErr ſpricht Eins iſt noth; und was die Martha</l>
+            <lb/>
+            <l><hi rendition="#et">thut/</hi></l>
+            <lb/>
+            <l>Das iſt auch an ſich ſelbſt gar loͤblich/ fein/ und gutt:</l>
+            <lb/>
+            <l>Und dennoch ſtrafft Er ſie. Merks <hi rendition="#aq">Polypragmon</hi> wol:</l>
+            <lb/>
+            <l>Daß man mit vielerley ſich nicht zerruͤtten ſol.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="25">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>84. <hi rendition="#c"><hi rendition="#fr">Wie wird man GOtte
+              gleich?</hi></hi></head>
+            <lb/>
+            <l>Wer GOtt wil gleiche ſeyn/ muß allem ungleich werden.</l>
+            <lb/>
+            <l>Muß ledig ſeiner ſelbſt/ und loß ſeyn von beſchwerden.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="26">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Ach daß wir Menſchen nicht wie die Waldvoͤgelein/</l>
+            <lb/>
+            <l>Ein jeder ſeinen thon mit Luſt zuſammen ſchreyn!</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="27">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abb">
+            <l>Kein Staͤublein iſt ſo ſchlecht/ kein Stuͤpffchin iſt ſo</l>
+            <lb/>
+            <l><hi rendition="#et">klein:</hi></l>
+            <lb/>
+            <l>Der Weiſe ſihet GOtt gantz herꝛlich drinne ſein.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="28">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Wie ſah <hi rendition="#aq">S. Benedict</hi> die Welt in einer Kohlen?</l>
+            <lb/>
+            <l>Es iſt in allem alls verborgen und verholen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="29">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abb">
+            <head>90. <hi rendition="#c"><hi rendition="#fr">Die Gottheit iſt das
+              gruͤne.</hi></hi></head>
+            <lb/>
+            <l>Die GOttheit iſt mein Safft: was auß mir gruͤnt und</l>
+            <lb/>
+            <l><hi rendition="#et">bluͤht/</hi></l>
+            <lb/>
+            <l>Das iſt ſein Heiliger Geiſt/ durch den der trib geſchiht.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="30">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aacc">
+            <head>40. <hi rendition="#c"><hi rendition="#fr">Ans Creutze Chriſti.</hi></hi></head>
+            <lb/>
+            <l>Schau deine Suͤnden ſinds die <hi rendition="#fr">Chriſtum</hi> unſern Gott/</l>
+            <lb/>
+            <l>So unbarmhertziglich verdammen biß inn Tod.</l>
+            <lb/>
+            <l>Jedoch verzweiffle nicht; biſtu nur Magdalen/</l>
+            <lb/>
+            <l>So kanſtu ſeeliglich bey ſeinem Creutze ſtehn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="31">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <head>53. <hi rendition="#c"><hi rendition="#fr">Was GOtt am liebſten
+              iſt.</hi></hi></head>
+            <lb/>
+            <l>Nichts iſt das GOtt ſo ſehr als eine Jungfrau liebt/</l>
+            <lb/>
+            <l>Daß er auch jhr ſich ſelbſt zur Frucht und Kind ergiebt:</l>
+            <lb/>
+            <l>Wilſtu ſeyn liebſtes ſeyn noch hier auf dieſer Erden/</l>
+            <lb/>
+            <l>So darffſtu anders nichts als ſeine Jungfrau werden.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="32">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>118. <hi rendition="#c"><hi rendition="#fr">Der Spiegel</hi></hi></head>
+            <lb/>
+            <l>Der Spiegel zeiget dir dein aͤuſſres Angeſicht:</l>
+            <lb/>
+            <l>Ach daß Er dir doch auch das jnnre zeiget nicht!</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="33">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>248. <hi rendition="#c"><hi rendition="#fr">GOtt nicht ſehn iſt nichts
+                ſehn.</hi></hi></head>
+            <lb/>
+            <l>Du reiſeſt vielerley zu ſehn und außzuſpaͤhn:</l>
+            <lb/>
+            <l>Haſtu nicht GOtt erblikt/ ſo haſtu nichts geſehn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="34">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Wer ſich nicht draͤngt zu ſein deß hoͤchſten liebes Kind/</l>
+            <lb/>
+            <l>Der bleibet in dem Stall wo Vieh und Knechte ſind.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="35">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>72. <hi rendition="#c"><hi rendition="#fr">Wer mit den Engeln ſingen
+                kan.</hi></hi></head>
+            <lb/>
+            <l>Wer ſich nur einen blik kan uberſich erſchwingen/</l>
+            <lb/>
+            <l>Der kan das <hi rendition="#aq">Gloria</hi> mit GOttes Engeln ſingen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="36">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcb">
+            <l>Menſch ſprichſtu daß dich jchts von GOttes Lieb’</l>
+            <lb/>
+            <l><hi rendition="#et">abhaͤlt:</hi></l>
+            <lb/>
+            <l>So brauchſtu noch nicht recht wie ſichs geblihrt der</l>
+            <lb/>
+            <l><hi rendition="#et">Welt.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="37">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abc">
+            <l>GOtt Vater iſt der Leib/ und GOtt der Sohn daß</l>
+            <lb/>
+            <l><hi rendition="#et">Licht/(pflicht.</hi></l>
+            <lb/>
+            <l>Die Strahln der heilge Geiſt/ der beiden iſt ver-</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="38">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>119. <hi rendition="#c"><hi rendition="#fr">Die wuͤrckung deß heiligen Sa-<lb/>
+                  craments.</hi></hi></head>
+            <lb/>
+            <l>Das Brodt der Herꝛ in uns wirkt wie der weiſen ſtein;</l>
+            <lb/>
+            <l>Es machet uns zu Gold/ wo wir geſchmoltzen ſeyn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="39">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>33. <hi rendition="#c"><hi rendition="#fr">Wenn GOtt am liebſten bey uns
+                iſt.</hi></hi></head>
+            <lb/>
+            <l>GOtt deſſen wolluſt iſt bey dir O Menſch zu ſeyn/</l>
+            <lb/>
+            <l>Kehrt/ wenn du nicht daheim/ am liebſten bey dir ein.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="40">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ab">
+            <l>Wenn daß Vollkommne koͤmt/ faͤllt’s Unvollkom̃ne</l>
+            <lb/>
+            <l>Daß Menſchliche vergeht/ weñ ich vergoͤttet bin. (hin:</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="41">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Dem Heilgen geht nichts ab: er hat ſchon in der Zeit</l>
+            <lb/>
+            <l>An GOttes wollgefalln die gantze Seeligkeit.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="42">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>141. <hi rendition="#c"><hi rendition="#fr">Es ſind viel tauſend
+              Sonnen.</hi></hi></head>
+            <lb/>
+            <l>Du ſprichſt im Firmament ſey eine Sonn’ allein:</l>
+            <lb/>
+            <l>Jch aber ſage/ daß vil tauſend Sonnen ſeyn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="43">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>273. <hi rendition="#c"><hi rendition="#fr">Wo Chriſtus nicht wirkt da iſt er
+                  nicht</hi></hi></head>
+            <lb/>
+            <l>Freund wo nicht Chriſtus wirkt/ da iſt er auch noch nicht/</l>
+            <lb/>
+            <l>Ob gleich der Menſch von jhm viel ſinget oder ſpricht.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="44">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Den Maͤnnern giebet GOtt zu trinken ſtarken Wein:</l>
+            <lb/>
+            <l>Dieweil du noch ein Kind/ floͤſt Er dir ſüſſes ein.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="45">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ab">
+            <head>196. <hi rendition="#c"><hi rendition="#fr">An den Stoͤhrfriede.</hi></hi></head>
+            <lb/>
+            <l>Wenn du an einem Pflug wilt mit <hi rendition="#aq">Ixion</hi> pfluͤgen/</l>
+            <lb/>
+            <l>So wirſtu auch mit ihm auf einem Rade liegen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="46">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcb">
+            <head>220. <hi rendition="#c"><hi rendition="#fr">Wachen/ Faſten/
+              Bethen.</hi></hi></head>
+            <lb/>
+            <l>Drey Werke muß man thun/ wenn man fuͤr GOtt wil</l>
+            <lb/>
+            <l><hi rendition="#et">trethen/</hi></l>
+            <lb/>
+            <l>Er fordert ſonſt auch nichts: als/ Wachen/ Faſten/</l>
+            <lb/>
+            <l><hi rendition="#et">Bethen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="47">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>16. <hi rendition="#c"><hi rendition="#fr">Wie weit GOttes Sitz ſeyn
+                muß.</hi></hi></head>
+            <lb/>
+            <l>Menſch biſtu nicht ſo weit als GOttes GOttheit iſt/</l>
+            <lb/>
+            <l>So wirſtu nimmermehr zu ſeinem Sitz erkieſt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="48">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Menſch wiltu ewiglich beym Laͤmlein Gottes ſtehn/</l>
+            <lb/>
+            <l>So muſtu ſchon allhier in ſeinen tritten gehn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="49">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Der Einfalt eigenſchafft iſt nichts vō Schalkheit wiſſẽ/</l>
+            <lb/>
+            <l>Aufs gutte Bloß allein in Demutt ſein befliſſen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="50">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aba">
+            <l>Jn GOtt lebt/ ſchwebt/ und regt ſich alle Creatur:</l>
+            <lb/>
+            <l>Jſts war? was fragſtu dann erſt nach der Him̃el-</l>
+            <lb/>
+            <l><hi rendition="#et">ſpuhr?</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="51">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>72. <hi rendition="#c"><hi rendition="#fr">Die Fanlheit uͤberkomt nicht den<lb/>
+                  Himmel.</hi></hi></head>
+            <lb/>
+            <l>Ach Fauler reg dich doch! wie bleibſtu immer liegen?</l>
+            <lb/>
+            <l>Fuͤrwahr der Him̄el wird dir nicht ins Maul einfliegen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="52">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Die Ewge GOttheit iſt der Menſchheit ſo verpflicht!</l>
+            <lb/>
+            <l>Daß Jhr auch ohne ſie Hertz/ Muth uñ Sinn gebricht.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="53">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Je mehr du dich auß dir kanſt außthun uñ entgieſſen:</l>
+            <lb/>
+            <l>Je mehr muß Gott in dich mit ſeiner GOttheit flieſſen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="54">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abb">
+            <head>174. <hi rendition="#c"><hi rendition="#fr">Nur GOtt ſey dein
+              warumb.</hi></hi></head>
+            <lb/>
+            <l>Nicht du/ noch Freund/ noch Feind/ nur GOttes Ehr al-</l>
+            <lb/>
+            <l><hi rendition="#et">lein/</hi></l>
+            <lb/>
+            <l>Sol eintzig dein warumb/ und end-urſache ſeyn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="55">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Wer GOtt umb gaben Bitt/ der iſt gar übel dran:</l>
+            <lb/>
+            <l>Er bettet daß Geſchoͤpff/ und nicht den Schoͤpffer an.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="56">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Der Vogel in der Lufft/ der Stein ruht auff dem Land/</l>
+            <lb/>
+            <l>Im Waſſer lebt der Fiſch/ mein Geiſt in Gottes Hand.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="57">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abb">
+            <head>218. <hi rendition="#c"><hi rendition="#fr">Gott kan nichts boͤſes
+                wolln.</hi></hi></head>
+            <lb/>
+            <l>GOtt kan nichts boͤſes wolln: wolt’ Er deß Suͤnders</l>
+            <lb/>
+            <l><hi rendition="#et">Tod/</hi></l>
+            <lb/>
+            <l>Und unſer Ungeluͤk/ Er waͤre gar nicht Gott.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="58">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <head>31. <hi rendition="#c"><hi rendition="#fr">Die gluͤkſeelige
+              Muͤſſe.</hi></hi></head>
+            <lb/>
+            <l>Johannes an der Bruſt/ MARIA bey den Fuͤſſen/</l>
+            <lb/>
+            <l>Thun alle zwey ſonſt nichts/ als daß ſie Gotts genieſſen:</l>
+            <lb/>
+            <l>Wie wol ſind ſie daran! koͤnt’ ich ſo muͤſſig ſeyn/</l>
+            <lb/>
+            <l>Jch regete mich nicht/ fiel’ auch der Himmel ein.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="59">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>GOtt iſt deß Lebens Buch/ ich ſteh in Jhm geſchrieben</l>
+            <lb/>
+            <l>Mit ſeines Lam̃es Blutt: wie ſolt’ Er mich nicht liebẽ.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="60">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Jch ſelbſt bin daß Metall/ der Geiſt iſt Feur und Herd/</l>
+            <lb/>
+            <l><hi rendition="#aq">Meſſias</hi> die <hi rendition="#aq">Tinctur,</hi> die Leib und
+              Seel verklaͤrt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="61">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>74. <hi rendition="#c"><hi rendition="#fr">Du muſt Vergoͤttet
+              werden.</hi></hi></head>
+            <lb/>
+            <l>Chriſt/ es iſt nicht genug daß ich in GOtt nur bin:</l>
+            <lb/>
+            <l>Jch muß auch GOttesſafft zum wachſen in mich zieyn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="62">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Liel’ iſt der weiſen Stein: ſie ſcheidet Gold auß koth/</l>
+            <lb/>
+            <l>Sie machet nichts zu jchts/ und wandelt mich in Gott</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="63">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aba">
+            <head>224 <hi rendition="#c"><hi rendition="#fr">Dem Todten iſt alles
+              Tod.</hi></hi></head>
+            <lb/>
+            <l>Wenn du geſtorben biſt/ ſo ſcheinet dir von Noth</l>
+            <lb/>
+            <l>Mein Menſch die gantze Welt unnd alls Geſchoͤpffe</l>
+            <lb/>
+            <l><hi rendition="#et">Todt.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="64">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head>170. <hi rendition="#c"><hi rendition="#fr">Artzney der Kranken
+              Liebe.</hi></hi></head>
+            <lb/>
+            <l>Ein Hertz das Krank fuͤr Lieb/ wird eher nicht geſund/</l>
+            <lb/>
+            <l>Biß es GOtt gantz und gar durchſtochen und verwundt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="65">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abc">
+            <head>199. <hi rendition="#c"><hi rendition="#fr">Behuttſambkeit iſt
+              Noth.</hi></hi></head>
+            <lb/>
+            <l>Behuttſamkeit iſt Noth. Viel waͤrn nicht umbgekom-</l>
+            <lb/>
+            <l><hi rendition="#et">men/</hi></l>
+            <lb/>
+            <l>Wenn ſie der Sinnen Thur in beſſre Hutt genommen.</l>
+          </lg>
+        </lg>
+      </div>
+
+    </body>
+  </text>
+</TEI>

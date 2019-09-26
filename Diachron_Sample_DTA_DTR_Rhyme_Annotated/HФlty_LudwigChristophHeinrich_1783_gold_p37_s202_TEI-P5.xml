@@ -1,0 +1,3334 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Gedichte</title>
+    <author>
+     <persName ref="http://d-nb.info/gnd/118552023">
+      <surname>Hölty</surname>
+      <forename>Ludwig Christoph Heinrich</forename>
+     </persName>
+    </author>
+    <editor corresp="#DTACorpusPublisher">
+     <persName ref="http://d-nb.info/gnd/115266127">
+      <surname>Geyken</surname>
+      <forename>Alexander</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName ref="http://d-nb.info/gnd/1018099549">
+      <surname>Haaf</surname>
+      <forename>Susanne</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName ref="http://d-nb.info/gnd/1019062681">
+      <surname>Jurish</surname>
+      <forename>Bryan</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Schulz</surname>
+      <forename>Matthias</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Steinmann</surname>
+      <forename>Jakob</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Thomas</surname>
+      <forename>Christian</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Wiegand</surname>
+      <forename>Frank</forename>
+     </persName>
+    </editor>
+    <respStmt>
+     <orgName ref="http://www.clarin-d.de">CLARIN-D</orgName>
+     <resp>
+      <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+      <ref target="http://fedora.dwds.de"/>
+     </resp>
+    </respStmt>
+   </titleStmt>
+   <editionStmt>
+    <edition>Vollständige digitalisierte Ausgabe.</edition>
+   </editionStmt>
+   <extent>
+    <measure type="images">237</measure>
+    <measure type="tokens">18993</measure>
+    <measure type="types">5931</measure>
+    <measure type="characters">127296</measure>
+   </extent>
+   <publicationStmt>
+    <publisher xml:id="DTACorpusPublisher">
+     <email>dta@bbaw.de</email>
+     <orgName role="project">Deutsches Textarchiv</orgName>
+     <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and
+      Humanities</orgName>
+     <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+      Wissenschaften (BBAW)</orgName>
+     <address>
+      <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+      <country>Germany</country>
+     </address>
+    </publisher>
+    <pubPlace>Berlin</pubPlace>
+    <date type="publication">2014-08-25T11:46:31Z</date>
+    <availability>
+     <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+      <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported License.</p>
+     </licence>
+    </availability>
+    <idno>
+     <idno type="URLWeb">http://www.deutschestextarchiv.de/hoelty_gedichte_1783</idno>
+     <idno type="URLXML"
+      >http://www.deutschestextarchiv.de/book/download_xml/hoelty_gedichte_1783</idno>
+     <idno type="URLHTML"
+      >http://www.deutschestextarchiv.de/book/download_html/hoelty_gedichte_1783</idno>
+     <idno type="URLText"
+      >http://www.deutschestextarchiv.de/book/download_text/hoelty_gedichte_1783</idno>
+     <idno type="DTADirName">hoelty_gedichte_1783</idno>
+     <idno type="DTAID">16349</idno>
+     <idno type="URN">urn:nbn:de:kobv:b4-200905192568</idno>
+    </idno>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="M">Hölty, Ludwig Christoph Heinrich: Gedichte. Hamburg, 1783.</bibl>
+    <biblFull>
+     <titleStmt>
+      <title level="m" type="main">Gedichte</title>
+      <author>
+       <persName ref="http://d-nb.info/gnd/118552023">
+        <surname>Hölty</surname>
+        <forename>Ludwig Christoph Heinrich</forename>
+       </persName>
+      </author>
+     </titleStmt>
+     <editionStmt>
+      <edition n="1"/>
+     </editionStmt>
+     <extent>
+      <measure type="pages">XXVII, 191 S.</measure>
+     </extent>
+     <publicationStmt>
+      <publisher><name>Bohn</name></publisher>
+      <pubPlace>Hamburg</pubPlace>
+      <date type="publication">1783</date>
+     </publicationStmt>
+    </biblFull>
+    <msDesc>
+     <msIdentifier>
+      <repository>BBAW</repository>
+      <idno>
+       <idno type="shelfmark">DWB/B4</idno>
+      </idno>
+     </msIdentifier>
+     <physDesc>
+      <typeDesc>
+       <p>Antiqua</p>
+      </typeDesc>
+     </physDesc>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p>Dieses Werk wurde von OCR-Software automatisch erfasst und anschließend gemäß den <ref
+      target="http://www.deutschestextarchiv.de/doku/richtlinien"
+      >DTA-Transkriptionsrichtlinien</ref> von Muttersprachlern nachkontrolliert. Es wurde gemäß dem
+      <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat</ref> in
+     XML/TEI P5 kodiert.</p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="deu">German</language>
+   </langUsage>
+   <textClass>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtamain"
+     >Belletristik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtasub"
+     >Lyrik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+     >Belletristik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+     >Lyrik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+     >core</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+     >ready</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+     >ocr</classCode>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div n="1">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abc">
+      <l/>
+      <lb/>
+      <lb/>
+      <l>Koſte liebelnd mit ihr, ſchaute mein ſchwebendes</l>
+      <lb/>
+      <l>Bild im Auge des Mädchens,</l>
+      <lb/>
+      <l>Raubt' ihr bebend den erſten Kuſs.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abcd">
+      <l>Zuckend fliegt nun der Kuſs, wie ein verſengend Feur,</l>
+      <lb/>
+      <l>Mir durch Mark und Gebein. Du, die Unſterblichkeit</l>
+      <lb/>
+      <l>Durch die Lippen mir ſprühte,</l>
+      <lb/>
+      <l>Wehe, wehe mir Kühlung zu!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="2">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcdcd">
+      <l>
+       <hi rendition="#in">E</hi>s liebt' in Welſchland irgendwo</l>
+      <lb/>
+      <l>Ein ſchöner junger Ritter</l>
+      <lb/>
+      <l>Ein Mädchen, das der Welt entfloh,</l>
+      <lb/>
+      <l>Troz Kloſterthor und Gitter;</l>
+      <lb/>
+      <l>Sprach viel von ſeiner Liebespein,</l>
+      <lb/>
+      <l>Und ſchwur auf ſeinen Knieen,</l>
+      <lb/>
+      <l>Sie aus dem Kerker zu befrein,</l>
+      <lb/>
+      <l>Und ſtets für ſie zu glühen.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcdcd">
+      <l>Bei dieſem Muttergottesbild,</l>
+      <lb/>
+      <l>Bei dieſem Jeſuskinde,</l>
+      <lb/>
+      <l>Das ihre Mutterarme füllt,</l>
+      <lb/>
+      <l>Schwör' ichs dir, o Belinde!</l>
+      <lb/>
+      <l>Dir iſt mein ganzes Herz geweiht,</l>
+      <lb/>
+      <l>So lang' ich Odem habe!</l>
+      <lb/>
+      <l>Bei meiner Seelen Seligkeit.</l>
+      <lb/>
+      <l>Dich lieb' ich bis zum Grabe!</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Was<lb/>
+     </fw>
+     <pb n="61" facs="#f0101"/>
+     <lg n="3" type="stanza" rhyme="ababcdcd">
+      <l>Was glaubt ein armes Mädchen nicht,</l>
+      <lb/>
+      <l>Zumal in einer Zelle?</l>
+      <lb/>
+      <l>Ach! ſie vergaſs der Nonnenpflicht,</l>
+      <lb/>
+      <l>Des Himmels und der Hölle.</l>
+      <lb/>
+      <l>Die, von den Engeln angeſchaut,</l>
+      <lb/>
+      <l>Sich ihrem Jeſu weihte,</l>
+      <lb/>
+      <l>Die reine ſchöne Gottesbraut</l>
+      <lb/>
+      <l>Ward eines Frevlers Beute.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="ababcdcd">
+      <l>Drauf wurde, wie die Männer ſind,</l>
+      <lb/>
+      <l>Sein Herz von Stund' an lauer;</l>
+      <lb/>
+      <l>Er überlieſs das arme Kind</l>
+      <lb/>
+      <l>Auf ewig ihrer Trauer,</l>
+      <lb/>
+      <l>Vergaſs der alten Zärtlichkeit</l>
+      <lb/>
+      <l>Und aller ſeiner Eide,</l>
+      <lb/>
+      <l>Und flog im bunten Gallakleid</l>
+      <lb/>
+      <l>Nach neuer Augenweide;</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="ababcdcd">
+      <l>Begann mit andern Weibern Reihn</l>
+      <lb/>
+      <l>Im kerzenhellen Saale,</l>
+      <lb/>
+      <l>Gab andern Weibern Schmeichelein</l>
+      <lb/>
+      <l>Beim lauten Traubenmahle,</l>
+      <lb/>
+      <fw type="catch" place="bottom">Und<lb/>
+      </fw>
+      <pb n="62" facs="#f0102"/>
+      <l>Und rühmte ſich des Minneglücks</l>
+      <lb/>
+      <l>Bei ſeiner ſchönen Nonne,</l>
+      <lb/>
+      <l>Und jedes Kuſſes, jedes Blicks,</l>
+      <lb/>
+      <l>Und jeder andern Wonne.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="ababcdcd">
+      <l>Die Nonne, voll von welſcher Wut,</l>
+      <lb/>
+      <l>Entglüht' in ihrem Mute,</l>
+      <lb/>
+      <l>Und ſann auf nichts als Dolch und Blut,</l>
+      <lb/>
+      <l>Und träumte nur von Blute.</l>
+      <lb/>
+      <l>Sie dingte plözlich eine Schaar</l>
+      <lb/>
+      <l>Von wilden Meuchelmördern,</l>
+      <lb/>
+      <l>Den Mann, der treulos worden war,</l>
+      <lb/>
+      <l>Ins Todtenreich zu fördern.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="ababcdcd">
+      <l>Die boren manches Mörderſchwert</l>
+      <lb/>
+      <l>In ſeine ſchwarze Seele:</l>
+      <lb/>
+      <l>Sein ſchwarzer falſcher Geiſt entfährt,</l>
+      <lb/>
+      <l>Wie Schwefeldampf der Höhle.</l>
+      <lb/>
+      <l>Er wimmert durch die Luft, wo ſein</l>
+      <lb/>
+      <l>Ein Krallenteufel harret;</l>
+      <lb/>
+      <l>Drauf ward ſein blutendes Gebein</l>
+      <lb/>
+      <l>In eine Gruft verſcharret.</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Die<lb/>
+     </fw>
+     <pb n="63" facs="#f0103"/>
+     <lg n="8" type="stanza" rhyme="ababcdcd">
+      <l>Die Nonne flog, wie Nacht begann,</l>
+      <lb/>
+      <l>Zur kleinen Dorfkapelle,</l>
+      <lb/>
+      <l>Und riſs den wunden Rittersmann</l>
+      <lb/>
+      <l>Aus ſeiner Ruheſtelle,</l>
+      <lb/>
+      <l>Riſs ihm das Bubenherz heraus,</l>
+      <lb/>
+      <l>Recht ihren Zorn zu büſſen,</l>
+      <lb/>
+      <l>Und trat es, daſs das Gotteshaus</l>
+      <lb/>
+      <l>Erſchallte, mit den Füſſen.</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="ababcdcd">
+      <l>Ihr Geiſt ſoll, wie die Sagen gehn,</l>
+      <lb/>
+      <l>In dieſer Kirche weilen,</l>
+      <lb/>
+      <l>Und, bis im Dorf die Hahnen krähn,</l>
+      <lb/>
+      <l>Bald wimmern und bald heulen.</l>
+      <lb/>
+      <l>Sobald der Seiger zwölfe ſchlägt,</l>
+      <lb/>
+      <l>Rauſcht ſie an Grabſteinwänden</l>
+      <lb/>
+      <l>Aus einer Gruft empor, und trägt</l>
+      <lb/>
+      <l>Ein blutend Herz in Händen.</l>
+      <lb/>
+     </lg>
+     <lg n="10" type="stanza" rhyme="ababcdcd">
+      <l>Die tiefen hohlen Augen ſprühn</l>
+      <lb/>
+      <l>Ein düſterrothes Feuer,</l>
+      <lb/>
+      <l>Und glühn, wie Schwefelflammen glühn,</l>
+      <lb/>
+      <l>Durch ihren weiſſen Schleier.</l>
+      <lb/>
+      <fw type="catch" place="bottom">Sie<lb/>
+      </fw>
+      <pb n="64" facs="#f0104"/>
+      <l>Sie gafft auf das zerriſsne Herz</l>
+      <lb/>
+      <l>Mit wilder Rachgeberde,</l>
+      <lb/>
+      <l>Und hebt es dreimal himmelwärts,</l>
+      <lb/>
+      <l>Und wirft es auf die Erde;</l>
+      <lb/>
+     </lg>
+     <lg n="11" type="stanza" rhyme="ababcdcd">
+      <l>Und rollt die Augen voller Wut,</l>
+      <lb/>
+      <l>Die eine Hölle blicken,</l>
+      <lb/>
+      <l>Und ſchüttelt aus dem Schleier Blut,</l>
+      <lb/>
+      <l>Und ſtampft das Herz in Stücken.</l>
+      <lb/>
+      <l>Ein dunkler Todtenflimmer macht</l>
+      <lb/>
+      <l>Indeſs die Fenſter helle.</l>
+      <lb/>
+      <l>Der Wächter, der das Dorf bewacht,</l>
+      <lb/>
+      <l>Sahs oft in der Kapelle.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="3">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcdcd">
+      <l>
+       <hi rendition="#in">D</hi>er Wagen fuhr auf gutes Glück,</l>
+      <lb/>
+      <l>Bis daſs der Himmel graute,</l>
+      <lb/>
+      <l>Und man beim erſten Sonnenblick</l>
+      <lb/>
+      <l>Ein grünes Eiland ſchaute.</l>
+      <lb/>
+      <l>Es lag im Süderozean</l>
+      <lb/>
+      <l>Seit lieben langen Jahren,</l>
+      <lb/>
+      <l>Wo weder Cook noch Magellan</l>
+      <lb/>
+      <l>Noch Dampier gefahren.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcdcd">
+      <l>Sie traten in ein Paradies,</l>
+      <lb/>
+      <l>Wo Freud' und Wolluſt lauſchte,</l>
+      <lb/>
+      <l>In jedem Frühlingslüftchen blies,</l>
+      <lb/>
+      <l>In jeder Quelle rauſchte.</l>
+      <lb/>
+      <l>Das war euch traun ein Luftgefild!</l>
+      <lb/>
+      <l>Rings lachten bunte Flächen,</l>
+      <lb/>
+      <l>Rings zitterte das goldne Bild</l>
+      <lb/>
+      <l>Der Sonn' in hundert Bächen.</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Die<lb/>
+     </fw>
+     <fw type="sig" place="bottom">H<lb/>
+     </fw>
+     <pb n="114" facs="#f0154"/>
+     <lg n="3" type="stanza" rhyme="ababcdcd">
+      <l>Die Weſte flüſterten vertraut</l>
+      <lb/>
+      <l>Und raubten jungen Veilchen,</l>
+      <lb/>
+      <l>Wie der Geliebte ſeiner Braut,</l>
+      <lb/>
+      <l>Auf jeder Wieſe Mäulchen.</l>
+      <lb/>
+      <l>Es blühte rings im Zauberglanz</l>
+      <lb/>
+      <l>Die Hiazint' und Roſe;</l>
+      <lb/>
+      <l>Es trug und blühte Pomeranz'</l>
+      <lb/>
+      <l>Und Pfirſch' und Aprikoſe.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="ababcdcd">
+      <l>Muſik entſtrömte ſonder Raſt</l>
+      <lb/>
+      <l>Den kühlen Rebenlauben;</l>
+      <lb/>
+      <l>Es herzten ſich auf jedem Aſt</l>
+      <lb/>
+      <l>Verliebte Turteltauben.</l>
+      <lb/>
+      <l>Es ſprang, poz Stern, da möcht' ich ſein!</l>
+      <lb/>
+      <l>Im Schatten grüner Hecken,</l>
+      <lb/>
+      <l>Der feurigſte Burgunderwein,</l>
+      <lb/>
+      <l>In weite goldne Becken.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="ababcdcd">
+      <l>Es ragt' ein prächtiger Pallaſt,</l>
+      <lb/>
+      <l>Erbauet aus Türkiſen,</l>
+      <lb/>
+      <l>Mit Gold' und Perlen eingefaſst,</l>
+      <lb/>
+      <l>Auf angenehmen Wieſen.</l>
+      <lb/>
+      <fw type="catch" place="bottom">Die<lb/>
+      </fw>
+      <pb n="115" facs="#f0155"/>
+      <l>Die Treppen waren aus Achat;</l>
+      <lb/>
+      <l>Die weiten Flügelthüren,</l>
+      <lb/>
+      <l>Durch die man in den Pallaſt trat,</l>
+      <lb/>
+      <l>Aus blizenden Saffiren.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="ababcdcd">
+      <l>Das Dach und auch der Wetterhahn,</l>
+      <lb/>
+      <l>Wie leichtlich zu erachten,</l>
+      <lb/>
+      <l>Von feinem Gold' aus Hindoſtan,</l>
+      <lb/>
+      <l>Beſezet mit Smaragden.</l>
+      <lb/>
+      <l>Ein wunderbares Feienſchloſs,</l>
+      <lb/>
+      <l>Bei welchem ſonder Zweifel,</l>
+      <lb/>
+      <l>Der es erbaut, viel Schweiſs vergoſs,</l>
+      <lb/>
+      <l>Gott ſey bey uns, der Teufel!</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="ababcdcd">
+      <l>Ein groſſer tapezirter Saal</l>
+      <lb/>
+      <l>Ging mitten durchs Gebäude,</l>
+      <lb/>
+      <l>Mit Schildereien ohne Zahl:</l>
+      <lb/>
+      <l>Die ſchönſte Augenweide!</l>
+      <lb/>
+      <l>Von Rafael und Tizian,</l>
+      <lb/>
+      <l>Hier eine nackte Lede,</l>
+      <lb/>
+      <l>Dort Vater Zeus mit ihr als Schwan</l>
+      <lb/>
+      <l>In einer Liebesfehde;</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Der<lb/>
+     </fw>
+     <pb n="116" facs="#f0156"/>
+     <lg n="8" type="stanza" rhyme="ababcdcd">
+      <l>Der Grosſultan, der Perſer Schach,</l>
+      <lb/>
+      <l>Im Zirkel ihrer Frauen;</l>
+      <lb/>
+      <l>Ein luſtig Karnevalgelag,</l>
+      <lb/>
+      <l>Gar lieblich anzuſchauen;</l>
+      <lb/>
+      <l>Der Muſelmänner Himmelreich</l>
+      <lb/>
+      <l>Voll niedlicher Figuren;</l>
+      <lb/>
+      <l>Ein grüner Wald, im Wald' ein Teich</l>
+      <lb/>
+      <l>Voll Badepoſituren.</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="ababcdcd">
+      <l>Sie lebten hier als Frau und Mann</l>
+      <lb/>
+      <l>Am grünen Meergeſtade,</l>
+      <lb/>
+      <l>Und tranken, wenn der Tag begann,</l>
+      <lb/>
+      <l>Bald Thee, bald Schokolade;</l>
+      <lb/>
+      <l>Und hielten im Gemäldeſaal,</l>
+      <lb/>
+      <l>Von dem wir euch erzählten,</l>
+      <lb/>
+      <l>Das Frühſtück und das Mittagsmahl,</l>
+      <lb/>
+      <l>Dem keine Reize fehlten.</l>
+      <lb/>
+     </lg>
+     <lg n="10" type="stanza" rhyme="ababcdcd">
+      <l>Die Speiſen kamen auf den Wink</l>
+      <lb/>
+      <l>Der Unholdin von ſelber:</l>
+      <lb/>
+      <l>Es flogen, wann ſie ſchellte, flink</l>
+      <lb/>
+      <l>Gebratne Tauben, Kälber,</l>
+      <lb/>
+      <fw type="catch" place="bottom">Kapaun<lb/>
+      </fw>
+      <pb n="117" facs="#f0157"/>
+      <l>Kapaun' und Haſen auf den Tiſch,</l>
+      <lb/>
+      <l>Lampreten und Forellen,</l>
+      <lb/>
+      <l>Und ein poſſierliches Gemiſch</l>
+      <lb/>
+      <l>Von Auſtern und Sardellen.</l>
+      <lb/>
+     </lg>
+     <lg n="11" type="stanza" rhyme="ababcdcd">
+      <l>Nicht minder kam <choice>
+        <sic>anf</sic>
+        <corr>auf</corr>
+       </choice> ihr Gebot</l>
+      <lb/>
+      <l>Viel Backwerk angeflogen,</l>
+      <lb/>
+      <l>Paſteten, Torten, Mandelbrot,</l>
+      <lb/>
+      <l>Daſs ſich die Tafeln bogen.</l>
+      <lb/>
+      <l>Das groſſe goldne Deckelglas,</l>
+      <lb/>
+      <l>Gefüllet mit Tockaier,</l>
+      <lb/>
+      <l>Goſs ihre Kehlen weidlich naſs,</l>
+      <lb/>
+      <l>Und in die Adern Feuer.</l>
+      <lb/>
+     </lg>
+     <lg n="12" type="stanza" rhyme="ababcdcd">
+      <l>Sie ſpielten alle Nachmittag,</l>
+      <lb/>
+      <l>Nach eingenommnem Mahle,</l>
+      <lb/>
+      <l>In einer Sommerlaube Schach,</l>
+      <lb/>
+      <l>Und aſſen kalte Schale;</l>
+      <lb/>
+      <l>Und gingen, wann das Abendroth</l>
+      <lb/>
+      <l>Durch ihre Laube blinkte,</l>
+      <lb/>
+      <l>Zum Pallaſt, wo das Abendbrot</l>
+      <lb/>
+      <l>In goldnen Schüſſeln winkte.</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Sie<lb/>
+     </fw>
+     <pb n="118" facs="#f0158"/>
+     <lg n="13" type="stanza" rhyme="ababcdcd">
+      <l>Sie irrten, wann der Mondenſchein</l>
+      <lb/>
+      <l>Den Wald mit Silber deckte,</l>
+      <lb/>
+      <l>Vertraulich durch den Mirtenhain,</l>
+      <lb/>
+      <l>Wo mancher Vogel heckte,</l>
+      <lb/>
+      <l>Und ſezten ſich auf zartes Grün,</l>
+      <lb/>
+      <l>Bedeckt von Mirtenäſten,</l>
+      <lb/>
+      <l>Durch die der ſchöne Vollmond ſchien,</l>
+      <lb/>
+      <l>Umſcherzt von lauen Weſten.</l>
+      <lb/>
+     </lg>
+     <lg n="14" type="stanza" rhyme="ababcdcd">
+      <l>Sie ruhten, Bruſt an Bruſt gedrückt,</l>
+      <lb/>
+      <l>Und was ſie weiter thaten —</l>
+      <lb/>
+      <l>Der ſchöne Vollmond hats erblickt;</l>
+      <lb/>
+      <l>Ich kann es nicht errathen!</l>
+      <lb/>
+      <l>Ein ſüſſes klatſchendes Getön</l>
+      <lb/>
+      <l>Scholl aus den Mirtenbüſchen;</l>
+      <lb/>
+      <l>Die Vögel ſangen wunderſchön</l>
+      <lb/>
+      <l>Ein Minnelied dazwiſchen.</l>
+      <lb/>
+     </lg>
+     <lg n="15" type="stanza" rhyme="ababcdcd">
+      <l>Der Weſt, der im Geſträuche war,</l>
+      <lb/>
+      <l>Goſs einen Blütenregen</l>
+      <lb/>
+      <l>Voll Abendduft, bald um ihr Haar,</l>
+      <lb/>
+      <l>Bald ihrer Bruſt entgegen.</l>
+      <lb/>
+      <fw type="catch" place="bottom">Sie<lb/>
+      </fw>
+      <pb n="119" facs="#f0159"/>
+      <l>Sie trippelten mit trübem Blick,</l>
+      <lb/>
+      <l>Und Gras und Staub in Haaren,</l>
+      <lb/>
+      <l>Nach ihrem Zauberſchloſs zurück,</l>
+      <lb/>
+      <l>Wo weichre Polſter waren;</l>
+      <lb/>
+     </lg>
+     <lg n="16" type="stanza" rhyme="ababcdcd">
+      <l>Und laſen, wann ſie ſich geſezt,</l>
+      <lb/>
+      <l>Zur Zeit des Schlafenlegens,</l>
+      <lb/>
+      <l>Roſts ſchöne Nacht zu guter lezt,</l>
+      <lb/>
+      <l>Anſtatt des Abendſegens;</l>
+      <lb/>
+      <l>Und ſchlüpften, wenn ſie dies vollbracht,</l>
+      <lb/>
+      <l>Zum Ruhekabinette.</l>
+      <lb/>
+      <l>Wir wünſchen ihnen gute Nacht,</l>
+      <lb/>
+      <l>Und gehen auch zu Bette.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="4">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abcd">
+      <l>
+       <hi rendition="#in">E</hi>ntſchwebteſt du dem Seelengefilde ſchon,</l>
+      <lb/>
+      <l>Du ſüſſes Mädchen? wehet das Flügelkleid</l>
+      <lb/>
+      <l>Dir an der Schulter? bebt der Strauſs dir</l>
+      <lb/>
+      <l>Schon an der wallenden ſchönen Bruſt auf?</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abcd">
+      <l>Ein ſüſſes Zittern zittert durch mein Gebein,</l>
+      <lb/>
+      <l>Wann mir dein Bildniſs lächelnd entgegen tanzt,</l>
+      <lb/>
+      <l>Wann ichs auf meinem Schooſſe wiege,</l>
+      <lb/>
+      <l>Und an den klopfenden Buſen drücke.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abcd">
+      <l>Der Garten taumelt; rötheres Abendroth</l>
+      <lb/>
+      <l>Durchſtrömt die Blätter, purpert die Maienluft;</l>
+      <lb/>
+      <l>Wie Engelflügel niederſäuſeln,</l>
+      <lb/>
+      <l>Rauſchet die Laube vom Kuſsgeliſpel.</l>
+      <lb/>
+     </lg>
+     <fw type="sig" place="bottom">D<lb/>
+     </fw>
+     <fw type="catch" place="bottom">An<lb/>
+     </fw>
+     <pb n="50" facs="#f0090"/>
+     <lg n="4" type="stanza" rhyme="abcd">
+      <l>An deiner Leinwand flattert vielleicht mein Bild</l>
+      <lb/>
+      <l>Dir auch entgegen, ſchmiegt ſich an deine Bruſt,</l>
+      <lb/>
+      <l>Und eine Sehnſuchtsthräne träufelt</l>
+      <lb/>
+      <l>Ueber die ſeidenen Purpurblumen.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abcd">
+      <l>Seid mir geſegnet, Thränen! Ihr floſſet mir!</l>
+      <lb/>
+      <l>Bald ſchlägt die Stunde! Ach dann entküſs' ich euch</l>
+      <lb/>
+      <l>Dem blauen Aug, der weiſſen Wange;</l>
+      <lb/>
+      <l>Trinke den Taumel der Erdenwonne!</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abcd">
+      <l>An voller Quelle weil' ich, und ſchöpfe mir</l>
+      <lb/>
+      <l>Der Freuden jede, Himmel auf Himmel mir,</l>
+      <lb/>
+      <l>Sie, deren Seelen mich umſchwebten,</l>
+      <lb/>
+      <l>Wann ich im Haine der Zukunft träumte!</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abcd">
+      <l>Blüh' unterdeſſen ſchöner und ſchöner auf,</l>
+      <lb/>
+      <l>Du ſüſſes Mädchen! Leitet, ihr Tugenden,</l>
+      <lb/>
+      <l>Wie eine Schaar von Schweſterengeln,</l>
+      <lb/>
+      <l>Sie durch die Pfade des Erdenlebens!</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Ein<lb/>
+     </fw>
+     <pb n="51" facs="#f0091"/>
+     <lg n="8" type="stanza" rhyme="abcd">
+      <l>Ein reinrer Aether lache herab auf dich!</l>
+      <lb/>
+      <l>Tönt, Nachtigallen, wann ſich der Abend neigt,</l>
+      <lb/>
+      <l>Im Apfelbaum vor ihrem Fenſter,</l>
+      <lb/>
+      <l>Goldene Träum' um ihr Mädchenbette!</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="abcd">
+      <l>Doch ſüſſre Träume thaue das Morgenroth</l>
+      <lb/>
+      <l>Um deine Schläfen, Träume der Serafim,</l>
+      <lb/>
+      <l>Wann jener Tag dem Meer' entſchimmert,</l>
+      <lb/>
+      <l>Da ich dich unter den Blumen finde!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="5">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>
+       <hi rendition="#in">W</hi>as ſchämſt du dich, daſs du die Hanne liebeſt,</l>
+      <lb/>
+      <l>Die dir dein Genius beſchert?</l>
+      <lb/>
+      <l>Sie iſt es wehrt, daſs du ihr Küſſe giebeſt;</l>
+      <lb/>
+      <l>Das ſchlanke Mädchen iſt es wehrt!</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Sie hat kein Gold, womit das Fräulein pralet,</l>
+      <lb/>
+      <l>Und keine lange Ahnenſchaft;</l>
+      <lb/>
+      <l>Doch iſt ſie ſchön, wie man die Engel malet,</l>
+      <lb/>
+      <l>Beſcheiden, edel, tugendhaft.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Sie iſt nicht ſtolz, wie die nach Standsgebühren</l>
+      <lb/>
+      <l>Geehrten Fräulein oder Fraun,</l>
+      <lb/>
+      <l>Die auf uns Sünder, die das Von nicht führen,</l>
+      <lb/>
+      <l>Mit hoher Naſe niederſchaun;</l>
+      <lb/>
+     </lg>
+     <fw place="bottom" type="catch">Ver¬<lb/>
+     </fw>
+     <pb facs="#f0117" n="77"/>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Verleumdet nicht, und ſpielt nicht die Kokette,</l>
+      <lb/>
+      <l>Wird durch kein leer Gewäſch entzückt;</l>
+      <lb/>
+      <l>Schläft ruhig ein, und ſpringt aus ihrem Bette,</l>
+      <lb/>
+      <l>So bald die Sonn' ins Fenſter blickt.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Sie ſingt, beim Ramen und beim Spinnerocken,</l>
+      <lb/>
+      <l>Ein weltlich oder geiſtlich Lied,</l>
+      <lb/>
+      <l>Die Morgenhaub' um ihre blonden Locken,</l>
+      <lb/>
+      <l>Bis ihre ſtille Traur entflieht.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>Die Dame ſelbſt würd' aus dem goldnen Wagen</l>
+      <lb/>
+      <l>Nach deiner lieben Hanne ſehn,</l>
+      <lb/>
+      <l>Und knirſchend ſich den platten Buſen ſchlagen,</l>
+      <lb/>
+      <l>Und ſeufzen: Sie iſt wahrlich ſchön!</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abab">
+      <l>Ja, ſie iſt ſchön! Der ganze Mai umſchwebet</l>
+      <lb/>
+      <l>Ihr weiſſes lächelndes Geſicht;</l>
+      <lb/>
+      <l>Ihr Buſen bebt, wie eine Blume bebet,</l>
+      <lb/>
+      <l>Die eben aus der Knoſpe bricht.</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Die<lb/>
+     </fw>
+     <pb n="78" facs="#f0118"/>
+     <lg n="8" type="stanza" rhyme="abab">
+      <l>Die Sittſamkeit flieht goldne Fürſtenſäle,</l>
+      <lb/>
+      <l>Und liebt die niedern Hütten nur.</l>
+      <lb/>
+      <l>Ich ſelber, wenn ich mir ein Mädchen wähle,</l>
+      <lb/>
+      <l>Ich ſuch' es auf der Schäferflur.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="6">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>
+       <hi rendition="#in">W</hi>illkommen, lieber ſchöner Mai,</l>
+      <lb/>
+      <l>Der unſre Flur verjüngt,</l>
+      <lb/>
+      <l>Das ringsum Laub und Blume neu</l>
+      <lb/>
+      <l>Aus vollen Knoſpen dringt.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Dir tönt der Vögel Lobgeſang;</l>
+      <lb/>
+      <l>Der ganze Buchenhain</l>
+      <lb/>
+      <l>Am Blumenthal iſt Silberklang,</l>
+      <lb/>
+      <l>Und Bäche murmeln drein.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Roth ſtehn die Blumen, weiſs und blau,</l>
+      <lb/>
+      <l>Und Mädchen pflücken ſie,</l>
+      <lb/>
+      <l>Und tanzen auf der grünen Au:</l>
+      <lb/>
+      <l>Ahi, Herr Mai, ahi!</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Ihr Buſen iſt von Blümchen bunt;</l>
+      <lb/>
+      <l>Von ſchöner Melodie</l>
+      <lb/>
+      <l>Ertönt, und lacht ihr Roſenmund:</l>
+      <lb/>
+      <l>Ahi, Herr Mai, ahi!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="7">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abcd">
+      <l>
+       <hi rendition="#in">D</hi>ieſe Erd' iſt ſo ſchön, wann ſie der Lenz beblümt,</l>
+      <lb/>
+      <l>Und der ſilberne Mond hinter dem Walde ſteht,</l>
+      <lb/>
+      <l>Iſt ein irdiſcher Himmel,</l>
+      <lb/>
+      <l>Gleicht den Thalen der Seligen.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abcd">
+      <l>Schöner lächelt der Hain, ſilberner ſchwebt der Mond,</l>
+      <lb/>
+      <l>Und der ganze Olimp fleuſst auf die Erd' herab,</l>
+      <lb/>
+      <l>Wann die Liebe den Jüngling</l>
+      <lb/>
+      <l>Durch die einſamen Büſche führt.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abcd">
+      <l>Wann ihr goldener Stab winket, beflügelt ſich</l>
+      <lb/>
+      <l>Jede Seele mit Glut, ſchwingt ſich den Sternen zu,</l>
+      <lb/>
+      <l>Schwebt durch Engelgefilde,</l>
+      <lb/>
+      <l>Trinkt aus Bächen der Serafim;</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Weilt,<lb/>
+     </fw>
+     <pb n="186" facs="#f0226"/>
+     <lg n="4" type="stanza" rhyme="abcd">
+      <l>Weilt, und trinket, und weilt, ſchwanket im Labirinth;</l>
+      <lb/>
+      <l>Eine reinere Luft athmet von Gottes Stul</l>
+      <lb/>
+      <l>Ihr entgegen, und weht ſie</l>
+      <lb/>
+      <l>Gleich dem Säuſeln Jehovas an.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abcd">
+      <l>Selten winket ihr Stab, ſelten enthüllet ſie</l>
+      <lb/>
+      <l>Sich den Söhnen des Staubs. Ach! ſie verkennen dich;</l>
+      <lb/>
+      <l>Ach! ſie hüllen der Wolluſt</l>
+      <lb/>
+      <l>Deinen heiligen Schleier um.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abcd">
+      <l>Mir erſchieneſt du, mir, höheres Glanzes voll,</l>
+      <lb/>
+      <l>Wie dein Sokrates dich, wie dich dein Plato ſah;</l>
+      <lb/>
+      <l>Wie du jenem im Thale</l>
+      <lb/>
+      <l>Seiner Quelle begegneteſt.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abcd">
+      <l>Erd' und Himmel entflieht ſterbenden Heiligen;</l>
+      <lb/>
+      <l>Lebensblütengeruch ſtrömet um ſie herum;</l>
+      <lb/>
+      <l>Engelfittige rauſchen,</l>
+      <lb/>
+      <l>Und die goldene Krone winkt.</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Erd'<lb/>
+     </fw>
+     <pb n="187" facs="#f0227"/>
+     <lg n="8" type="stanza" rhyme="abcd">
+      <l>Erd' und Himmel entfloh, als ich dich, Dafne, ſah;</l>
+      <lb/>
+      <l>Als dein purpurner Mund ſchüchtern mir lächelte,</l>
+      <lb/>
+      <l>Als dein athmender Buſen</l>
+      <lb/>
+      <l>Meinen Blicken entgegen ſtieg.</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="abcd">
+      <l>Unbekanntes Gefühl bebte zum erſtenmal</l>
+      <lb/>
+      <l>Durch mein jugendlich Herz; froh wie Anakreon,</l>
+      <lb/>
+      <l>Goſs ich Flammen der Seele</l>
+      <lb/>
+      <l>In mein zitterndes Saitenſpiel.</l>
+      <lb/>
+     </lg>
+     <lg n="10" type="stanza" rhyme="abcd">
+      <l>Eine Nachtigall flog, als ich mein erſtes Lied,</l>
+      <lb/>
+      <l>Süſſe Liebe, dir ſang, flötend um mich herum;</l>
+      <lb/>
+      <l>Und es taumelten Blüten</l>
+      <lb/>
+      <l>Auf mein liſpelndes Spiel herab.</l>
+      <lb/>
+     </lg>
+     <lg n="11" type="stanza" rhyme="abcd">
+      <l>Seit ich Dafnen erblickt, raucht kein vergoſſenes</l>
+      <lb/>
+      <l>Blut durch meinen Geſang, ſpend' ich den Königen</l>
+      <lb/>
+      <l>Keinen ſchmeichelnden Lorber,</l>
+      <lb/>
+      <l>Sing' ich Mädchen und Mädchenkuſs.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="8">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabccb">
+      <l>
+       <hi rendition="#in">W</hi>ie war ich doch ſo wonnereich,</l>
+      <lb/>
+      <l>Dem Kaiſer und dem König gleich,</l>
+      <lb/>
+      <l>In meinen Minnejahren,</l>
+      <lb/>
+      <l>Als Julia, das ſchönſte Kind,</l>
+      <lb/>
+      <l>Schön, wie die lieben Engel ſind,</l>
+      <lb/>
+      <l>Und ich beiſammen waren!</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aabccb">
+      <l>Ich ſah ſie, wann die Vögelein</l>
+      <lb/>
+      <l>Des Morgens trillerten im Hain,</l>
+      <lb/>
+      <l>Im leichten Frühlingskleide,</l>
+      <lb/>
+      <l>Bald vor dem offnen Fenſter ſtehn,</l>
+      <lb/>
+      <l>Bald durch den grünen Anger gehn,</l>
+      <lb/>
+      <l>Ach Gott, mit welcher Freude!</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aabccb">
+      <l>Ich ſah ſie, wann der Abend floh,</l>
+      <lb/>
+      <l>Der linden Maienkühle froh,</l>
+      <lb/>
+      <l>Im kleinen Blumengarten,</l>
+      <lb/>
+      <l>Wie Eva vor dem Sündenfall,</l>
+      <lb/>
+      <l>Begrüſſet von der Nachtigall,</l>
+      <lb/>
+      <l>Der Frühlingsblumen warten.</l>
+      <lb/>
+     </lg>
+     <fw type="sig" place="bottom">I<lb/>
+     </fw>
+     <fw type="catch" place="bottom">Sie<lb/>
+     </fw>
+     <pb n="130" facs="#f0170"/>
+     <lg n="4" type="stanza" rhyme="aabccb">
+      <l>Sie gab mir manchen ſüſſen Blick,</l>
+      <lb/>
+      <l>Zog niemals ihre Hand zurück,</l>
+      <lb/>
+      <l>Wann ich die Hand ihr drückte;</l>
+      <lb/>
+      <l>Sah immer aus, wie Milch und Blut,</l>
+      <lb/>
+      <l>War immer froh und wohlgemut,</l>
+      <lb/>
+      <l>So oft ich ſie erblickte.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="aabccb">
+      <l>Wie war ich doch ſo wonnereich,</l>
+      <lb/>
+      <l>Dem Kaiſer und dem König gleich,</l>
+      <lb/>
+      <l>In meinen Minnejahren,</l>
+      <lb/>
+      <l>Als Julia, das ſchönſte Kind,</l>
+      <lb/>
+      <l>Schön, wie die lieben Engel ſind,</l>
+      <lb/>
+      <l>Und ich beiſammen waren.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="9">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>
+       <hi rendition="#in">N</hi>immer werd' ich, nimmer dein vergeſſen,</l>
+      <lb/>
+      <l>Kühle grüne Dunkelheit,</l>
+      <lb/>
+      <l>Wo mein liebes Mädchen oft geſeſſen,</l>
+      <lb/>
+      <l>Und des Frühlings ſich gefreut.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Schauer wird durch meine Nerven beben,</l>
+      <lb/>
+      <l>Werd' ich deine Blüten ſehn,</l>
+      <lb/>
+      <l>Und ihr Bildniſs mir entgegen ſchweben,</l>
+      <lb/>
+      <l>Ihre Gottheit mich umwehn.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Thränenvoll werd' ich beim Mondenlichte,</l>
+      <lb/>
+      <l>In der Geiſterſtunde Graun,</l>
+      <lb/>
+      <l>Dir entgegen zittern, und Geſichte</l>
+      <lb/>
+      <l>Auf Geſichte werd' ich ſchaun;</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Mich<lb/>
+     </fw>
+     <pb n="166" facs="#f0206"/>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Mich in manchen Göttertraum verirren,</l>
+      <lb/>
+      <l>Bis Entzückung mich durchbebt,</l>
+      <lb/>
+      <l>Und nach meinem ſüſſen Täubchen girren,</l>
+      <lb/>
+      <l>Deſſen Abſchied vor mir ſchwebt.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Wenn ich auf der Bahn der Tugend wanke,</l>
+      <lb/>
+      <l>Weltvergnügen mich beſtrickt;</l>
+      <lb/>
+      <l>Dann durchglühe mich der Feurgedanke,</l>
+      <lb/>
+      <l>Was in dir ich einſt erblickt:</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>Und, als ſtrömt' aus Gottes offnem Himmel</l>
+      <lb/>
+      <l>Tugendkraft auf mich herab,</l>
+      <lb/>
+      <l>Werd’ ich fliehen, und vom Erdgewimmel</l>
+      <lb/>
+      <l>Fernen meinen Pilgerſtab.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="10">
+    <lg type="poem">
+
+     <lg type="stanza" rhyme="abcdefghijkf">
+      <l>Eine Schale des Stroms, welcher Vergeſſenheit</l>
+      <lb/>
+      <l>Durch Eliſiums Blumen rollt,</l>
+      <lb/>
+      <l>Bring, o Genius, bring deinem Verſchmachtenden!</l>
+      <lb/>
+      <l>Dort, wo Faons die Sängerin,</l>
+      <lb/>
+      <l>Dort, wo Orfeus vergaſs ſeiner Euridice,</l>
+      <lb/>
+      <l>Schöpf den ſilbernen Schlummerquell!</l>
+      <lb/>
+      <l>Ha! dann tauch' ich dein Bild, ſpröde Gebieterin,</l>
+      <lb/>
+      <l>Und die lächelnden Lippen voll</l>
+      <lb/>
+      <l>Lautenklanges, des Haars ſchattige Wallungen,</l>
+      <lb/>
+      <l>Und das Beben der weiſſen Bruſt,</l>
+      <lb/>
+      <l>Und den ſiegenden Blick, der mir im Marke <supplied>g</supplied>uckt,</l>
+      <lb/>
+      <l>Tauch' ich tief in den Schlummerquell!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="11">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcdcd">
+      <l>
+       <hi rendition="#in">W</hi>as ſchaueſt du ſo hell und klar</l>
+      <lb/>
+      <l>Durch dieſe Apfelbäume,</l>
+      <lb/>
+      <l>Wo einſt dein Freund ſo ſelig war,</l>
+      <lb/>
+      <l>Und träumte ſüſſe Träume?</l>
+      <lb/>
+      <l>Verhülle deinen Silberglanz,</l>
+      <lb/>
+      <l>Und ſchimmre, wie du ſchimmerſt,</l>
+      <lb/>
+      <l>Wenn du den frühen Todtenkranz</l>
+      <lb/>
+      <l>Der jungen Braut beflimmerſt!</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcdcd">
+      <l>Du blikſt umſonſt ſo hell und klar</l>
+      <lb/>
+      <l>In dieſe Laube nieder;</l>
+      <lb/>
+      <l>Nie findeſt du das frohe Paar</l>
+      <lb/>
+      <l>In ihrem Schatten wieder!</l>
+      <lb/>
+      <l>Ein ſchwarzes feindliches Geſchick</l>
+      <lb/>
+      <l>Entriſs mir meine Schöne!</l>
+      <lb/>
+      <l>Kein Seufzer zaubert ſie zurück,</l>
+      <lb/>
+      <l>Und keine Sehnſuchtsthräne!</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">O<lb/>
+     </fw>
+     <pb n="88" facs="#f0128"/>
+     <lg n="3" type="stanza" rhyme="ababcdcd">
+      <l>O wandelt ſie hinfort einmal</l>
+      <lb/>
+      <l>An meiner Ruheſtelle,</l>
+      <lb/>
+      <l>Dann mache flugs mit trübem Stral</l>
+      <lb/>
+      <l>Des Grabes Blumen helle!</l>
+      <lb/>
+      <l>Sie ſeze weinend ſich aufs Grab,</l>
+      <lb/>
+      <l>Wo Roſen niederhangen,</l>
+      <lb/>
+      <l>Und pflücke ſich ein Blümchen ab,</l>
+      <lb/>
+      <l>Und drück' es an die Wangen.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="12">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>
+       <hi rendition="#in">S</hi>chon im bunten Knabenkleide,</l>
+      <lb/>
+      <l>Pflegten hübſche Mägdelein</l>
+      <lb/>
+      <l>Meine liebſte Augenweide,</l>
+      <lb/>
+      <l>Mehr als Pupp' und Ball, zu ſein.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Ich vergaſs der Vogelneſter,</l>
+      <lb/>
+      <l>Warf mein Steckenpferd ins Gras,</l>
+      <lb/>
+      <l>Wann am Baum bei meiner Schweſter</l>
+      <lb/>
+      <l>Eine ſchöne Dirne ſaſs;</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Freute mich der muntern Dirne,</l>
+      <lb/>
+      <l>Ihres rothen Wangenpaars,</l>
+      <lb/>
+      <l>Ihres Mundes, ihrer Stirne,</l>
+      <lb/>
+      <l>Ihres blonden Lockenhaars;</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Blickt'<lb/>
+     </fw>
+     <pb n="143" facs="#f0183"/>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Blickt' auf Buſentuch und Mieder,</l>
+      <lb/>
+      <l>Hinterwärts gelehnt am Baum;</l>
+      <lb/>
+      <l>Streckte dann ins Gras mich nieder,</l>
+      <lb/>
+      <l>Dicht an ihres Kleides Saum.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Was ich weiland that als Knabe,</l>
+      <lb/>
+      <l>Werd' ich wahrlich immer thun,</l>
+      <lb/>
+      <l>Bis ich werd' im kühlen Grabe</l>
+      <lb/>
+      <l>Neben meinen Vätern ruhn.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="13">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abcd">
+      <l>
+       <hi rendition="#in">K</hi>limme mutig den Pfad, Beſter, den Dornenpfad</l>
+      <lb/>
+      <l>Durch die Wolken hinauf, bis du den Stralenkranz,</l>
+      <lb/>
+      <l>Der nur weiſeren Dichtern</l>
+      <lb/>
+      <l>Funkelt, dir um die Schläfe ſchlingſt.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abcd">
+      <l>Heiſſer liebe durch dich Enkel und Enkelin</l>
+      <lb/>
+      <l>Gott und ſeine Natur, herzliche Brudertreu,</l>
+      <lb/>
+      <l>Einfalt, Freiheit und Unſchuld,</l>
+      <lb/>
+      <l>Deutſche Tugend und Redlichkeit.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abcd">
+      <l>Stilles Trittes, o Voſs, wandelt indeſs dein Freund</l>
+      <lb/>
+      <l>Durch Gefilde der Ruh, lauſchet der Nachtigall</l>
+      <lb/>
+      <l>Und der Stimme des leiſen</l>
+      <lb/>
+      <l>Mondbeſchimmerten Wieſenborns;</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Singt<lb/>
+     </fw>
+     <pb n="102" facs="#f0142"/>
+     <lg n="4" type="stanza" rhyme="abcd">
+      <l>Singt den duftenden Hain, welchen das Morgenroth</l>
+      <lb/>
+      <l>Ueberflimmert mit Gold', oder den Frühlingsſtrauſs,</l>
+      <lb/>
+      <l>Der am Buſen des Mädchens,</l>
+      <lb/>
+      <l>Mildgeröthet vom Abend, bebt.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abcd">
+      <l>Mir auch weinet, auch mir, Wonne! das Mädchen Dank,</l>
+      <lb/>
+      <l>Küſst mein zärtliches Lied, drückt es an ihre Bruſt,</l>
+      <lb/>
+      <l>Seufzt: Du redlicher Jüngling,</l>
+      <lb/>
+      <l>Warum barg dich die Gruft ſo früh!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="14">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcdcd">
+      <l><hi rendition="#in">E</hi>in Leben, wie im Paradies,</l>
+      <lb/>
+      <l>Gewährt uns Vater Rhein.</l>
+      <lb/>
+      <l>Ich geb' es zu, ein Kuſs iſt ſüſs;</l>
+      <lb/>
+      <l>Doch ſüſſer iſt der Wein.</l>
+      <lb/>
+      <l>Ich bin ſo fröhlich, wie ein Reh,</l>
+      <lb/>
+      <l>Das um die Quelle tanzt,</l>
+      <lb/>
+      <l>Wenn ich den lieben Schenktiſch ſeh,</l>
+      <lb/>
+      <l>Und Gläſer drauf gepflanzt.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcdcd">
+      <l>Was kümmert mich die ganze Welt,</l>
+      <lb/>
+      <l>Wenns liebe Gläslein winkt,</l>
+      <lb/>
+      <l>Und Traubenſaft, der mir gefällt,</l>
+      <lb/>
+      <l>An meiner Lippe blinkt ?</l>
+      <lb/>
+      <fw type="catch" place="bottom">Dann<lb/>
+      </fw>
+      <pb n="163" facs="#f0203"/>
+      <l>Dann trink' ich, wie ein Götterkind,</l>
+      <lb/>
+      <l>Die volle Flaſche leer,</l>
+      <lb/>
+      <l>Daſs Glut mir durch die Adern rinnt,</l>
+      <lb/>
+      <l>Und tauml', und fodre mehr.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="ababcdcd">
+      <l>Die Erde wär' ein Jammerthal,</l>
+      <lb/>
+      <l>Voll Grillenfang und Gicht,</l>
+      <lb/>
+      <l>Wüchſ' uns zur Lindrung unſrer Qual</l>
+      <lb/>
+      <l>Der edle Rheinwein nicht.</l>
+      <lb/>
+      <l>Der hebt den Bettler auf den Thron,</l>
+      <lb/>
+      <l>Schafft Erd' und Himmel um,</l>
+      <lb/>
+      <l>Und zaubert jeden Erdenſohn</l>
+      <lb/>
+      <l>Stracks in Eliſium.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="ababcdcd">
+      <l>Er iſt die wahre Panacee,</l>
+      <lb/>
+      <l>Verjüngt des Alten Blut,</l>
+      <lb/>
+      <l>Verſcheuchet Hirn- und Magenweh,</l>
+      <lb/>
+      <l>Und was er weiter thut.</l>
+      <lb/>
+      <l>Drum lebe das gelobte Land,</l>
+      <lb/>
+      <l>Das uns den Wein erzog!</l>
+      <lb/>
+      <l>Der Winzer, der ihn pflanzt' und band,</l>
+      <lb/>
+      <l>Der Winzer lebe hoch!</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Und<lb/>
+     </fw>
+     <pb n="164" facs="#f0204"/>
+     <lg n="5" type="stanza" rhyme="ababcdcd">
+      <l>Und jeder ſchönen Winzerin,</l>
+      <lb/>
+      <l>Die uns die Trauben las,</l>
+      <lb/>
+      <l>Weih' ich als meiner Königin</l>
+      <lb/>
+      <l>Ein volles Deckelglas!</l>
+      <lb/>
+      <l>Es lebe jeder deutſche Mann,</l>
+      <lb/>
+      <l>Der ſeinen Rheinwein trinkt,</l>
+      <lb/>
+      <l>So lang' ers Kelchglas halten kann,</l>
+      <lb/>
+      <l>Und dann zu Boden ſinkt!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="15">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabccb">
+      <l>
+       <hi rendition="#in">E</hi>s zirpten Grillen und Heimen;</l>
+      <lb/>
+      <l>Von grünen Sträuchen und Bäumen</l>
+      <lb/>
+      <l>Floſs Abendkühlung herab,</l>
+      <lb/>
+      <l>Als, hinter Garben von Weizen,</l>
+      <lb/>
+      <l>Ein wahrer Engel an Reizen</l>
+      <lb/>
+      <l>Dies Pfand der Liebe mir gab.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aabccb">
+      <l>Sie ſprach mit frölichem Mute:</l>
+      <lb/>
+      <l>Trag dieſe Blumen am Hute</l>
+      <lb/>
+      <l>Und dieſes goldene Band!</l>
+      <lb/>
+      <l>Und gab die Blumen und Flittern,</l>
+      <lb/>
+      <l>An meinem Hute zu zittern,</l>
+      <lb/>
+      <l>Mir in die wartende Hand.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aabccb">
+      <l>Die Blumen hab' ich getragen,</l>
+      <lb/>
+      <l>Seit vierzehn glücklichen Tagen,</l>
+      <lb/>
+      <l>Und dieſe ſchwanden ſo ſchnell!</l>
+      <lb/>
+      <l>Ihr Bänder, ſah ich euch ſchweben,</l>
+      <lb/>
+      <l>Begann das Herz mir zu beben,</l>
+      <lb/>
+      <l>Ward meine Seele ſo hell!</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Ha!<lb/>
+     </fw>
+     <pb n="38" facs="#f0078"/>
+     <lg n="4" type="stanza" rhyme="aabccb">
+      <l>Ha! morgen bringen wir Leute,</l>
+      <lb/>
+      <l>Geſchmückt wie Freier und Bräute,</l>
+      <lb/>
+      <l>Der Ernte flitternden Kranz:</l>
+      <lb/>
+      <l>Dann tönen helle Schalmeien</l>
+      <lb/>
+      <l>Durch unſre ländlichen Reihen,</l>
+      <lb/>
+      <l>Dann ſchwing' ich Liebchen im Tanz !</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="16">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcdcd">
+      <l>
+       <hi rendition="#in">T</hi>anzt dem ſchönen Mai entgegen,</l>
+      <lb/>
+      <l>Der, in ſeiner Herlichkeit</l>
+      <lb/>
+      <l>Wiederkehrend, Reiz und Segen</l>
+      <lb/>
+      <l>Ueber Thal und Hügel ſtreut!</l>
+      <lb/>
+      <l>Seine Macht verjüngt und gattet</l>
+      <lb/>
+      <l>Alles, was der grüne Wald,</l>
+      <lb/>
+      <l>Was der zarte Halm beſchattet,</l>
+      <lb/>
+      <l>Und die laue Wog' umwallt.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcdcd">
+      <l>Tanz, o Jüngling, tanz, o Schöne,</l>
+      <lb/>
+      <l>Die des Maies Hauch verſchönt!</l>
+      <lb/>
+      <l>Menget Lieder ins Getöne,</l>
+      <lb/>
+      <l>Das die Morgenklocke tönt,</l>
+      <lb/>
+      <l>Ins Geſäuſel junger Blätter,</l>
+      <lb/>
+      <l>Und der holden Nachtigall</l>
+      <lb/>
+      <l>Liebejauchzendes Geſchmetter;</l>
+      <lb/>
+      <l>Und erweckt den Wiederhall.</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Flieht<lb/>
+     </fw>
+     <pb n="14" facs="#f0054"/>
+     <lg n="3" type="stanza" rhyme="ababcdcd">
+      <l>Flieht der Stadt umwölkte Zinnen!</l>
+      <lb/>
+      <l>Hier, wo Mai und Lieb' euch ruft,</l>
+      <lb/>
+      <l>Athmet, ſchöne Städterinnen,</l>
+      <lb/>
+      <l>Athmet friſche Maienluft!</l>
+      <lb/>
+      <l>Irrt mit eurem Sonnenhütchen,</l>
+      <lb/>
+      <l>Auf die Frühlingsflur hinaus,</l>
+      <lb/>
+      <l>Singt ein fröhlich Maienliedchen,</l>
+      <lb/>
+      <l>Pflücket einen Buſenſtrauſs!</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="ababcdcd">
+      <l>Schmückt mit Kirſchenblütenzweigen</l>
+      <lb/>
+      <l>Euch den grünen Sonnenhut,</l>
+      <lb/>
+      <l>Schürzt das Röckchen, tanzet Reigen.</l>
+      <lb/>
+      <l>Wie die Schäferjugend thut!</l>
+      <lb/>
+      <l>Bienen ſumſen um die Blüte,</l>
+      <lb/>
+      <l>Und der Weſtwind ſchwärmt ſich matt,</l>
+      <lb/>
+      <l>Schwärmt, und haucht auf eure Hüte</l>
+      <lb/>
+      <l>Manches weiſſe Blütenblatt.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="17">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabccb">
+      <l>
+       <hi rendition="#in">G</hi>rabe, Spaden, grabe!</l>
+      <lb/>
+      <l>Alles, was ich habe,</l>
+      <lb/>
+      <l>Dank' ich, Spaden, dir!</l>
+      <lb/>
+      <l>Reich' und arme Leute</l>
+      <lb/>
+      <l>Werden meine Beute,</l>
+      <lb/>
+      <l>Kommen einſt zu mir!</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aabccb">
+      <l>Weiland groſs und edel,</l>
+      <lb/>
+      <l>Nickte dieſer Schädel</l>
+      <lb/>
+      <l>Keinem Gruſſe Dank!</l>
+      <lb/>
+      <l>Dieſes Beingerippe</l>
+      <lb/>
+      <l>Ohne Wang' und Lippe</l>
+      <lb/>
+      <l>Hatte Gold und Rang.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aabccb">
+      <l>Jener Kopf mit Haaren</l>
+      <lb/>
+      <l>War vor wenig Jahren</l>
+      <lb/>
+      <l>Schön, wie Engel ſind!</l>
+      <lb/>
+      <l>Tauſend junge Fentchen</l>
+      <lb/>
+      <l>Leckten ihm das Händchen,</l>
+      <lb/>
+      <l>Gafften ſich halb blind!</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Grabe,<lb/>
+     </fw>
+     <pb n="45" facs="#f0085"/>
+     <lg n="4" type="stanza" rhyme="aabccb">
+      <l>Grabe, Spaden, grabe!</l>
+      <lb/>
+      <l>Alles, was ich habe,</l>
+      <lb/>
+      <l>Dank' ich, Spaden, dir!</l>
+      <lb/>
+      <l>Reich' und arme Leute</l>
+      <lb/>
+      <l>Werden meine Beute,</l>
+      <lb/>
+      <l>Kommen einſt zu mir!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="18">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abcd">
+      <l>
+       <hi rendition="#in">W</hi>ürde mein heiſſer Seelenwunſch Erfüllung,</l>
+      <lb/>
+      <l>Brächt' ein gütig Geſchick mich ihr entgegen,</l>
+      <lb/>
+      <l>Eine flügelſchnelle Minut' in ihrem</l>
+      <lb/>
+      <l>Himmel zu athmen;</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abcd">
+      <l>Seliger wär' ich dann, als Staubbewohner!</l>
+      <lb/>
+      <l>O dann würd' ich den Frühling beſſer fühlen,</l>
+      <lb/>
+      <l>Beſſer meinen Schöpfer in jeder Blume</l>
+      <lb/>
+      <l>Schauen und lieben!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="19">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabccb">
+      <l>
+       <hi rendition="#in">D</hi>as Glas gefüllt!</l>
+      <lb/>
+      <l>Der Nordwind brüllt;</l>
+      <lb/>
+      <l>Die Sonn' iſt niedergeſunken!</l>
+      <lb/>
+      <l>Der kalte Bär.</l>
+      <lb/>
+      <l>Blinkt Froſt daher!</l>
+      <lb/>
+      <l>Getrunken, Brüder, getrunken!</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aabccb">
+      <l>Die Tannen glühn</l>
+      <lb/>
+      <l>Hell im Kamin,</l>
+      <lb/>
+      <l>Und knatternd fliegen die Funken!</l>
+      <lb/>
+      <l>Der edle Rhein</l>
+      <lb/>
+      <l>Gab uns den Wein!</l>
+      <lb/>
+      <l>Getrunken, Brüder, getrunken!</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aabccb">
+      <l>Der edle Moſt</l>
+      <lb/>
+      <l>Verſcheucht den Froſt,</l>
+      <lb/>
+      <l>Und zaubert Frühling hernieder:</l>
+      <lb/>
+      <l>Der Trinker ſieht</l>
+      <lb/>
+      <l>Den Hain entblüht,</l>
+      <lb/>
+      <l>Und Büſche wirbeln ihm Lieder!</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Er<lb/>
+     </fw>
+     <pb n="71" facs="#f0111"/>
+     <lg n="4" type="stanza" rhyme="aabccb">
+      <l>Er hört Geſang</l>
+      <lb/>
+      <l>Und Harfenklang,</l>
+      <lb/>
+      <l>Und ſchwankt durch blühende Lauben;</l>
+      <lb/>
+      <l>Ein Mädchenchor</l>
+      <lb/>
+      <l>Rauſcht ſchnell hervor,</l>
+      <lb/>
+      <l>Und bringt ihm goldene Trauben!</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="aabccb">
+      <l>Sauſ' immerfort,</l>
+      <lb/>
+      <l>O Winternord,</l>
+      <lb/>
+      <l>Im ſchneebelaſteten Haine!</l>
+      <lb/>
+      <l>Nur ſtreu dein Eis,</l>
+      <lb/>
+      <l>O lieber Greis,</l>
+      <lb/>
+      <l>In keine Flaſchen mit Weine!</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="aabccb">
+      <l>Der ſtolzen Frau</l>
+      <lb/>
+      <l>Färb braun und blau</l>
+      <lb/>
+      <l>Den Kamm, der adlich ihr ſchwillet!</l>
+      <lb/>
+      <l>Nur muſst du fliehn</l>
+      <lb/>
+      <l>Den Hermelin,</l>
+      <lb/>
+      <l>Der junge Buſen verhüllet!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="20">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabcbc">
+      <l>
+       <hi rendition="#in">E</hi>uch, ihr Schönen,</l>
+      <lb/>
+      <l>Will ich fröhnen</l>
+      <lb/>
+      <l>Bis an meinen Tod,</l>
+      <lb/>
+      <l>Mit Geſangesweiſen.</l>
+      <lb/>
+      <l>Bis an meinen Tod</l>
+      <lb/>
+      <l>Eure Tugend preiſen.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aabcbc">
+      <l>Ihr, o Guten,</l>
+      <lb/>
+      <l>Wohlgemuten,</l>
+      <lb/>
+      <l>Macht das Leben ſüſs,</l>
+      <lb/>
+      <l>Macht den Mann zum Engel,</l>
+      <lb/>
+      <l>Und zum Paradies</l>
+      <lb/>
+      <l>Eine Welt voll Mängel.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aabcbc">
+      <l>Wer die Süſſe</l>
+      <lb/>
+      <l>Treuer Küſſe</l>
+      <lb/>
+      <l>Nicht gekoſtet hat,</l>
+      <lb/>
+      <l>Irret wie verloren</l>
+      <lb/>
+      <l>Auf dem Lebenspfad,</l>
+      <lb/>
+      <l>Iſt noch ungeboren.</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Wer<lb/>
+     </fw>
+     <pb n="154" facs="#f0194"/>
+     <lg n="4" type="stanza" rhyme="aabcbc">
+      <l>Wer die Süſſe</l>
+      <lb/>
+      <l>Treuer Küſſe</l>
+      <lb/>
+      <l>Schon gekoſtet hat,</l>
+      <lb/>
+      <l>Glänzt von Himmelsſcheine;</l>
+      <lb/>
+      <l>Wo ſein Fuſs ſich naht,</l>
+      <lb/>
+      <l>Blühen Roſenhaine.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="21">
+    <lg type="poem">
+
+     <lg type="stanza" rhyme="abcdefgh">
+      <l>
+       <hi rendition="#in">B</hi>irg, o Veilchen, in deinem blauen Kelche,</l>
+      <lb/>
+      <l>Birg die Thränen der Wehmut, bis mein Liebchen</l>
+      <lb/>
+      <l>Dieſe Quelle beſucht! Entpflückt ſie lächelnd</l>
+      <lb/>
+      <l>Dich dem Raſen, die Bruſt mit dir zu ſchmücken;</l>
+      <lb/>
+      <l>O dann ſchmiege dich an ihr Herz, und ſag' ihr,</l>
+      <lb/>
+      <l>Daſs die Tropfen in deinem blauen Kelche</l>
+      <lb/>
+      <l>Aus der Seele des treuſten Jünglings floſſen,</l>
+      <lb/>
+      <l>Der ſein Leben verweinet, und den Tod wünſcht!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="22">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabb">
+      <l>
+       <hi rendition="#in">G</hi>euſs nicht ſo laut der liebentflammten Lieder</l>
+      <lb/>
+      <l>Tonreichen Schall</l>
+      <lb/>
+      <l>Vom Blütenaſt des Apfelbaums hernieder,</l>
+      <lb/>
+      <l>O Nachtigall.</l>
+      <lb/>
+      <l>Du töneſt mir mit deiner ſüſſen Kehle</l>
+      <lb/>
+      <l>Die Liebe wach;</l>
+      <lb/>
+      <l>Denn ſchon durchbebt die Tiefen meiner Seele</l>
+      <lb/>
+      <l>Dein ſchmelzend Ach.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aabb">
+      <l>Dann flieht der Schlaf von neuem dieſes Lager,</l>
+      <lb/>
+      <l>Ich ſtarre dann,</l>
+      <lb/>
+      <l>Mit naſſem Blick, und todtenbleich und hager,</l>
+      <lb/>
+      <l>Den Himmel an.</l>
+      <lb/>
+      <l>Fleuch, Nachtigall, in grüne Finſterniſſe,</l>
+      <lb/>
+      <l>Ins Haingeſträuch,</l>
+      <lb/>
+      <l>Und ſpend' im Neſt der treuen Gattin Küſſe;</l>
+      <lb/>
+      <l>Entfleuch, entfleuch!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="23">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>
+       <hi rendition="#in">S</hi>ie wankt dahin; die Abendwinde ſpielen,</l>
+      <lb/>
+      <l>Ihr Apfelblüten zu;</l>
+      <lb/>
+      <l>Die Vögelein, ſo ihre Gottheit fühlen,</l>
+      <lb/>
+      <l>Erwachen aus der Ruh.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Wie ihr Gewand im Morgenglanze flittert,</l>
+      <lb/>
+      <l>Und ihres Buſens Flor!</l>
+      <lb/>
+      <l>Sie wankt dahin; der helle Vollmond zittert</l>
+      <lb/>
+      <l>Aus jeder Well' hervor.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Da rauſcht der Kahn durch hangende Geſträuche,</l>
+      <lb/>
+      <l>Birgt mir das Engelbild,</l>
+      <lb/>
+      <l>Schwankt izt hervor, tanzt wieder auf dem Teiche,</l>
+      <lb/>
+      <l>Den ihre Gottheit füllt.</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Ver¬<lb/>
+     </fw>
+     <pb n="171" facs="#f0211"/>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Verdeckt mir nicht, ihr hangenden Geſträuche,</l>
+      <lb/>
+      <l>Ihr lächelndes Geſicht;</l>
+      <lb/>
+      <l>Sie tanzt ſo ſchön auf ihrem Silberteiche:</l>
+      <lb/>
+      <l>Ihr Erlen, bergt ſie nicht.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Weht, Winde, weht, o flügelt ſie, ihr Winde,</l>
+      <lb/>
+      <l>An dieſe Laub' heran,</l>
+      <lb/>
+      <l>Daſs ich mich ihr im Schauer dieſer Linde</l>
+      <lb/>
+      <l>Zu Füſſen werfen kann.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="24">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcdcd">
+      <l>
+       <hi rendition="#in">S</hi>chön im Feierſchmucke lächelt,</l>
+      <lb/>
+      <l>Hold und bräutlich, die Natur;</l>
+      <lb/>
+      <l>Blumen wehn, vom Weſt gefächelt,</l>
+      <lb/>
+      <l>Gelb und roth, auf grüner Flur;</l>
+      <lb/>
+      <l>Um die kleinen Neſter hüpfend,</l>
+      <lb/>
+      <l>Singt der Vögel Chor im Hain;</l>
+      <lb/>
+      <l>Und der kalten Tief' entſchlüpfend,</l>
+      <lb/>
+      <l>Spielt der Fiſch im Sonnenſchein.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcdcd">
+      <l>Blau und golden ſchwebt der Aether</l>
+      <lb/>
+      <l>Im bebüſchten Gartenteich;</l>
+      <lb/>
+      <l>Bäume, weiſſer hier, dort röther,</l>
+      <lb/>
+      <l>Spiegeln ihren Blütenzweig.</l>
+      <lb/>
+      <l>Durch die Blüten, durch das grüne</l>
+      <lb/>
+      <l>Blumenthal, vom Sonnenſchein</l>
+      <lb/>
+      <l>Ueberſtralet, ſummt die Biene,</l>
+      <lb/>
+      <l>Sammelt ſüſſen Nektar ein.</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Heller<lb/>
+     </fw>
+     <pb n="173" facs="#f0213"/>
+     <lg n="3" type="stanza" rhyme="ababcdcd">
+      <l>Heller blühn der Liebe Roſen</l>
+      <lb/>
+      <l>Um den Mund der Schäferin;</l>
+      <lb/>
+      <l>Schäferin und Schäfer koſen</l>
+      <lb/>
+      <l>Manche goldne Stunde hin.</l>
+      <lb/>
+      <l>Sizend unter grünen Bäumen,</l>
+      <lb/>
+      <l>Hören ſie den Waſſerfall</l>
+      <lb/>
+      <l>Ueber glatte Kieſel ſchäumen,</l>
+      <lb/>
+      <l>Und Geſang der Nachtigall.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="ababcdcd">
+      <l>Traute Scherz' und Küſſe flüſtern</l>
+      <lb/>
+      <l>Durch das Thal, und auf den Höhn,</l>
+      <lb/>
+      <l>Wo die Liebenden in düſtern</l>
+      <lb/>
+      <l>Buchenlabirinthen gehn.</l>
+      <lb/>
+      <l>Küſſe flüſtern aus den Lauben</l>
+      <lb/>
+      <l>Um die Abenddämmerung;</l>
+      <lb/>
+      <l>Küſſe geben, Küſſe rauben,</l>
+      <lb/>
+      <l>Iſt der Welt Beſchäftigung.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="25">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcdcd">
+      <l>
+       <hi rendition="#in">D</hi>er ſchöne Maienmond began,</l>
+      <lb/>
+      <l>Und alles wurde froh,</l>
+      <lb/>
+      <l>Als Ritter Veit von Adelſtan</l>
+      <lb/>
+      <l>Der Königsſtadt entfloh.</l>
+      <lb/>
+      <l>Von Geigern und Kaſtraten fern</l>
+      <lb/>
+      <l>Und vom Redutentanz,</l>
+      <lb/>
+      <l>Vertauſcht' er ſeinen goldnen Stern</l>
+      <lb/>
+      <l>Mit einem Schäferkranz.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcdcd">
+      <l>Der Schooſs der Au, der Wieſenklee</l>
+      <lb/>
+      <l>Verlieh ihm ſüſsre Raſt,</l>
+      <lb/>
+      <l>Als Himmelbett' und Kanapee</l>
+      <lb/>
+      <l>Im fürſtlichen Palaſt.</l>
+      <lb/>
+      <l>Er irrte täglich durch den Hain,</l>
+      <lb/>
+      <l>Mit einer Bruſt voll Ruh,</l>
+      <lb/>
+      <l>Und ſah dem Spiel' und ſah dem Reihn</l>
+      <lb/>
+      <l>Der Dörferinnen zu;</l>
+      <lb/>
+     </lg>
+     <fw type="sig" place="bottom">A<lb/>
+     </fw>
+     <fw type="catch" place="bottom">Sah<lb/>
+     </fw>
+     <pb n="2" facs="#f0042"/>
+     <lg n="3" type="stanza" rhyme="ababcdcd">
+      <l>Sah unter niederm Hüttendach</l>
+      <lb/>
+      <l>Der Schäferinnen Preis:</l>
+      <lb/>
+      <l>Und plözlich ſchlug ſein Herzensſchlag</l>
+      <lb/>
+      <l>Wol noch einmal ſo heiſs.</l>
+      <lb/>
+      <l>Sie wurden drauf gar bald vertraut;</l>
+      <lb/>
+      <l>Was Wunder doch! Er war</l>
+      <lb/>
+      <l>Ein Mann von Welt und wohlgebaut,</l>
+      <lb/>
+      <l>Und Röschen achzehn Jahr.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="ababcdcd">
+      <l>Sie gab, durch manchen Thränenguſs</l>
+      <lb/>
+      <l>Erweichet, ihm Gehör;</l>
+      <lb/>
+      <l>Zuerſt bekam er einen Kuſs</l>
+      <lb/>
+      <l>Zulezt noch etwas mehr.</l>
+      <lb/>
+      <l>Izt wurde, nach des Hofes Brauch,</l>
+      <lb/>
+      <l>Sein Buſen plözlich lau:</l>
+      <lb/>
+      <l>Er ſaſs nicht mehr am Schlehenſtrauch</l>
+      <lb/>
+      <l>Mit Röschen auf der Au.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="ababcdcd">
+      <l>Des Dorfes und des Mädchens ſatt,</l>
+      <lb/>
+      <l>Warf er ſich auf ſein Roſs,</l>
+      <lb/>
+      <l>Flog wieder in die Königsſtadt,</l>
+      <lb/>
+      <l>Und in ſein Marmorſchloſs.</l>
+      <lb/>
+      <fw type="catch" place="bottom">Hier<lb/>
+      </fw>
+      <pb n="3" facs="#f0043"/>
+      <l>Hier taumelt' er von Ball zu Ball,</l>
+      <lb/>
+      <l>Vergaſs der Raſenbank,</l>
+      <lb/>
+      <l>Wo beim Getön der Nachtigall</l>
+      <lb/>
+      <l>Sein Mädchen ihn umſchlang.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="ababcdcd">
+      <l>Und Röschen, die auf Wieſengrün</l>
+      <lb/>
+      <l>Im Haſelſchatten ſaſs,</l>
+      <lb/>
+      <l>Sah Mann und Roſs vorüberfliehn,</l>
+      <lb/>
+      <l>Und wurde todtenblaſs.</l>
+      <lb/>
+      <l>Mein Adelſtan! ich armes Blut!</l>
+      <lb/>
+      <l>Er ſah und hörte nicht,</l>
+      <lb/>
+      <l>Und drückte ſich den Reiſehut</l>
+      <lb/>
+      <l>Nur tiefer ins Geſicht.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="ababcdcd">
+      <l>Sie zupft', auf ihren Hirtenſtab</l>
+      <lb/>
+      <l>Gelehnt, am Buſenband,</l>
+      <lb/>
+      <l>Bis er dem Roſs die Spornen gab,</l>
+      <lb/>
+      <l>Und ihrem Aug' entſchwand;</l>
+      <lb/>
+      <l>Und ſchluchzt', und warf ſich in das Gras,</l>
+      <lb/>
+      <l>Verbarg ſich ins Geſträuch,</l>
+      <lb/>
+      <l>Weint ihren ſchönen Buſen naſs,</l>
+      <lb/>
+      <l>Und ihre Wangen bleich.</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Kein<lb/>
+     </fw>
+     <pb n="4" facs="#f0044"/>
+     <lg n="8" type="stanza" rhyme="ababcdcd">
+      <l>Kein Tanz, kein Spiel behagt' ihr mehr.</l>
+      <lb/>
+      <l>Kein Abendroth, kein Weſt;</l>
+      <lb/>
+      <l>Das Dörfchen dünkt ihr freudenleer,</l>
+      <lb/>
+      <l>Die Flur ein Otternneſt.</l>
+      <lb/>
+      <l>Ein melancholiſch Heimchen zirpt</l>
+      <lb/>
+      <l>Vor ihrer Kammerthür;</l>
+      <lb/>
+      <l>Das Leichhuhn ſchreit. Ach Gott! ſie ſtirbt,</l>
+      <lb/>
+      <l>Des Dorfes beſte Zier.</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="ababcdcd">
+      <l>Die dumpfe Todtenklocke ſchallt</l>
+      <lb/>
+      <l>Drauf in das Dorf. Man bringt</l>
+      <lb/>
+      <l>Den Sarg daher. Der Küſter wallt</l>
+      <lb/>
+      <l>Der Bahre vor, und ſingt.</l>
+      <lb/>
+      <l>Der Pfarrer hält ihr den Sermon,</l>
+      <lb/>
+      <l>Und wünſcht dem Schatten Ruh,</l>
+      <lb/>
+      <l>Der dieſem Jammerthal' entflohn,</l>
+      <lb/>
+      <l>Und klagt und weint dazu.</l>
+      <lb/>
+     </lg>
+     <lg n="10" type="stanza" rhyme="ababcdcd">
+      <l>Man pflanzt ein Kreuz, mit Flittergold</l>
+      <lb/>
+      <l>Bekränzet, auf ihr Grab;</l>
+      <lb/>
+      <l>Und auf den friſchen Hügel rollt</l>
+      <lb/>
+      <l>So manche Thrän' hinab.</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Es<lb/>
+     </fw>
+     <pb n="5" facs="#f0045"/>
+     <lg n="11" type="stanza" rhyme="abab">
+      <l>Es wurde Nacht. Ein düſtrer Flor</l>
+      <lb/>
+      <l>Bedeckte Thal und Höhn;</l>
+      <lb/>
+      <l>Auch kam der liebe Mond hervor,</l>
+      <lb/>
+      <l>Und leuchtete ſo ſchön.</l>
+      <lb/>
+     </lg>
+     <lg n="12" type="stanza" rhyme="ababcdcd">
+      <l>Vernehmt nun, wies dem Ritter ging!</l>
+      <lb/>
+      <l>Der Ritter lag auf Pflaum,</l>
+      <lb/>
+      <l>Um welchen Gold und Seide hing,</l>
+      <lb/>
+      <l>Und hatte manchen Traum.</l>
+      <lb/>
+      <l>Er zittert auf. Mit blauem Licht</l>
+      <lb/>
+      <l>Wird ſein Gemach erfüllt.</l>
+      <lb/>
+      <l>Ein Mädchen trit ihm vors Geſicht,</l>
+      <lb/>
+      <l>Ins Leichentuch verhüllt.</l>
+      <lb/>
+     </lg>
+     <lg n="13" type="stanza" rhyme="ababcdcd">
+      <l>Ach! Röschen iſts, das arme Kind,</l>
+      <lb/>
+      <l>Das Adelſtan berückt!</l>
+      <lb/>
+      <l>Die Roſen ihrer Wangen ſind</l>
+      <lb/>
+      <l>Vom Tode weggepflückt.</l>
+      <lb/>
+      <l>Sie legt die eine kalte Hand</l>
+      <lb/>
+      <l>Dem Ritter auf das Kinn,</l>
+      <lb/>
+      <l>Und hält ihr moderndes Gewand</l>
+      <lb/>
+      <l>Ihm mit der andern hin;</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Blickt<lb/>
+     </fw>
+     <pb n="6" facs="#f0046"/>
+     <lg n="14" type="stanza" rhyme="ababcdcd">
+      <l>Blickt drauf den ehrvergeſsnen Mann,</l>
+      <lb/>
+      <l>Den Schauer überſchleicht,</l>
+      <lb/>
+      <l>Dreimal mit hohlen Augen an,</l>
+      <lb/>
+      <l>Und wimmert und entweicht.</l>
+      <lb/>
+      <l>Sie zeigte, wann es zwölfe ſchlug,</l>
+      <lb/>
+      <l>Jezt alle Nächte ſich,</l>
+      <lb/>
+      <l>Verhüllet in ein Todtentuch,</l>
+      <lb/>
+      <l>Und wimmert' und entwich.</l>
+      <lb/>
+     </lg>
+     <lg n="15" type="stanza" rhyme="ababcdcd">
+      <l>Der Ritter fiel in kurzer Zeit</l>
+      <lb/>
+      <l>Drob in Melancholei,</l>
+      <lb/>
+      <l>Und ward, verzehrt von Traurigkeit,</l>
+      <lb/>
+      <l>Des Todes Konterfei.</l>
+      <lb/>
+      <l>Mit einem Dolch bewaffnet floh</l>
+      <lb/>
+      <l>Er aus der Stadt, und lief</l>
+      <lb/>
+      <l>Zum Gottesacker hin, alwo</l>
+      <lb/>
+      <l>Das arme Röschen ſchlief;</l>
+      <lb/>
+     </lg>
+     <lg n="16" type="stanza" rhyme="ababcdcd">
+      <l>Wankt' an die friſche Gruft, den Dolch</l>
+      <lb/>
+      <l>Dem Herzen zugekehrt,</l>
+      <lb/>
+      <l>Und ſank. Folg! ruft ein Teufel, folg!</l>
+      <lb/>
+      <l>Und ſeine Seel' entfährt.</l>
+      <lb/>
+      <fw type="catch" place="bottom">Der<lb/>
+      </fw>
+      <pb n="7" facs="#f0047"/>
+      <l>Der Dolch ging mitten durch das Herz,</l>
+      <lb/>
+      <l>Entſezlich anzuſchaun!</l>
+      <lb/>
+      <l>Die Augen ſtarrten himmelwärts,</l>
+      <lb/>
+      <l>Und blickten Furcht und Graun.</l>
+      <lb/>
+     </lg>
+     <lg n="17" type="stanza" rhyme="ababcdcd">
+      <l>Sein Grab ragt an der Kirchhofmaur.</l>
+      <lb/>
+      <l>Der Landmann, der es ſieht,</l>
+      <lb/>
+      <l>Wenns Abend wird, fühlt kalten Schaur,</l>
+      <lb/>
+      <l>Und ſchlägt ein Kreuz, und flieht.</l>
+      <lb/>
+      <l>Auch pflegt er, bis die Hahnen krähn,</l>
+      <lb/>
+      <l>Den Blutdolch in der Bruſt,</l>
+      <lb/>
+      <l>Mit glühnden Augen umzugehn,</l>
+      <lb/>
+      <l>Wie männiglich bewuſst.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="26">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>
+       <hi rendition="#in">B</hi>eglückt, beglückt, wer die Geliebte findet,</l>
+      <lb/>
+      <l>Die ſeinen Jugendtraum begrüſst,</l>
+      <lb/>
+      <l>Wenn Arm um Arm, und Geiſt um Geiſt ſich windet,</l>
+      <lb/>
+      <l>Und Seel' in Seele ſich ergieſst,</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Die Liebe macht zum Goldpalaſt die Hütte,</l>
+      <lb/>
+      <l>Streut auf die Wildniſs Tanz und Spiel,</l>
+      <lb/>
+      <l>Enthüllet uns der Gottheit leiſe Tritte,</l>
+      <lb/>
+      <l>Giebt uns des Himmels Vorgefühl!</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Sie macht das Herz der Schwermut frühlingsheiter;</l>
+      <lb/>
+      <l>Sie bettet uns auf Roſenaun;</l>
+      <lb/>
+      <l>Und hebet uns auf eine Himmelsleiter,</l>
+      <lb/>
+      <l>Wo wir den Glanz der Gottheit ſchaun.</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Sie<lb/>
+     </fw>
+     <pb n="85" facs="#f0125"/>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Sie giebt dem Kranz des Morgens hellre Röthe,</l>
+      <lb/>
+      <l>Und lichter Grün dem Schattenwald,</l>
+      <lb/>
+      <l>Und ſüſſern Klang der ſpäten Abendflöte,</l>
+      <lb/>
+      <l>Die aus des Dorfes Büſchen ſchallt.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Die Liebenden ſind ſchon zu beſſern Zonen</l>
+      <lb/>
+      <l>Auf Flügeln ihrer Lieb' erhöht,</l>
+      <lb/>
+      <l>Empfahen ſchon des Himmels goldne Kronen,</l>
+      <lb/>
+      <l>Eh ihr Gewand von Staub verweht.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>Sie kümmern ſich um keine Erdengüter,</l>
+      <lb/>
+      <l>Sind ſich die ganze weite Welt,</l>
+      <lb/>
+      <l>Und ſpotten dein, du ſtolzer Weltgebieter,</l>
+      <lb/>
+      <l>Vor dem der Erdkreis niederfällt.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abab">
+      <l>Sanft hingeſchmiegt auf ſeidne Frühlingsraſen,</l>
+      <lb/>
+      <l>Auf Blumen eines Quellenrands,</l>
+      <lb/>
+      <l>Verlachen ſie die bunten Seiſenblaſen</l>
+      <lb/>
+      <l>Des lieben leeren Erdentands.</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Ein<lb/>
+     </fw>
+     <pb n="86" facs="#f0126"/>
+     <lg n="8" type="stanza" rhyme="abab">
+      <l>Ein Druck der Hand, der durch das Leben ſchüttert,</l>
+      <lb/>
+      <l>Und eines Blickes Trunkenheit,</l>
+      <lb/>
+      <l>Ein Feuerkuſs, der von der Lippe zittert,</l>
+      <lb/>
+      <l>Giebt ihnen Engelſeligkeit.</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="abab">
+      <l>Ein Blick der Lieb’, aus dem die Seele blicket,</l>
+      <lb/>
+      <l>In dem ein Engel ſich verklärt,</l>
+      <lb/>
+      <l>Ein ſüſſer Wink, den die Geliebte nicket,</l>
+      <lb/>
+      <l>Iſt tauſend dieſer Erden wehrt.</l>
+      <lb/>
+     </lg>
+     <lg n="10" type="stanza" rhyme="abab">
+      <l>Ein Herzenskuſs, den ſelber Engel neiden,</l>
+      <lb/>
+      <l>Küſst ihren Morgenſchlummer wach;</l>
+      <lb/>
+      <l>Ein Reihentanz von ewigjungen Freuden</l>
+      <lb/>
+      <l>Umſchlingt den lieben langen Tag.</l>
+      <lb/>
+     </lg>
+     <lg n="11" type="stanza" rhyme="abab">
+      <l>Ein ſüſſer Schlaf ſinkt auf ihr keuſches Bette,</l>
+      <lb/>
+      <l>Wie auf die Lauben Edens ſank.</l>
+      <lb/>
+      <l>Kein Endlicher miſst ihrer Freuden Kette,</l>
+      <lb/>
+      <l>Wer nicht den Kelch der Liebe trank.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="27">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcdcd">
+      <l>
+       <hi rendition="#in">V</hi>ier trübe Monden ſind entflohn,</l>
+      <lb/>
+      <l>Seit ich getrauert habe;</l>
+      <lb/>
+      <l>Der falbe Wermut grünet ſchon</l>
+      <lb/>
+      <l>Auf meiner Freundin Grabe.</l>
+      <lb/>
+      <l>Da horch' ich oft im Mondenglanz</l>
+      <lb/>
+      <l>Der Grillen Nachtgeſange,</l>
+      <lb/>
+      <l>Und lehn' an ihren Todtenkranz</l>
+      <lb/>
+      <l>Die bleichgehärmte Wange.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcdcd">
+      <l>Da ſiz' ich armes armes Kind</l>
+      <lb/>
+      <l>Im kalten Abendhauche;</l>
+      <lb/>
+      <l>Und manche Sehnſuchtsthräne rinnt</l>
+      <lb/>
+      <l>Am falben Wermutſtrauche.</l>
+      <lb/>
+      <l>Der Flieder und die Linde wehn</l>
+      <lb/>
+      <l>Mir bange Seelenſchauer,</l>
+      <lb/>
+      <l>Und hohe düſtre Schatten gehn</l>
+      <lb/>
+      <l>Rings an der Kirchhofmauer,</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Die<lb/>
+     </fw>
+     <pb n="73" facs="#f0113"/>
+     <lg n="3" type="stanza" rhyme="ababcdcd">
+      <l>Die Kirchenfenſter regen ſich,</l>
+      <lb/>
+      <l>Es regen ſich die Klocken.</l>
+      <lb/>
+      <l>Es glänzt! es glänzt! Ach! ſeh' ich dich</l>
+      <lb/>
+      <l>Mit deinen hellen Locken?</l>
+      <lb/>
+      <l>Der Mond iſts, ſo der Wolk' entrollt,</l>
+      <lb/>
+      <l>Ins Kirchenfenſter ſchimmert,</l>
+      <lb/>
+      <l>Am rothen Band', am Flittergold</l>
+      <lb/>
+      <l>Der Todtenkränze flimmert!</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="ababcdcd">
+      <l>O komm zurück! o komm zurück</l>
+      <lb/>
+      <l>Von deines Gottes Throne!</l>
+      <lb/>
+      <l>O komm auf einen Augenblick</l>
+      <lb/>
+      <l>In deiner Siegerkrone!</l>
+      <lb/>
+      <l>In deinem neuen Engelreiz</l>
+      <lb/>
+      <l>Erſcheine mir, erſcheine,</l>
+      <lb/>
+      <l>Die ich, gelehnt ans ſchwarze Kreuz,</l>
+      <lb/>
+      <l>Auf deinem Grabe weine!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="28">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abcd">
+      <l>
+       <hi rendition="#in">W</hi>ann der ſilberne Mond durch die Geſträuche blinkt,</l>
+      <lb/>
+      <l>Und ſein ſchlummerndes Licht über den Raſen ſtreut,</l>
+      <lb/>
+      <l>Und die Nachtigall flötet,</l>
+      <lb/>
+      <l>Wandl' ich traurig von Buſch zu Buſch.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abcd">
+      <l>Selig preiſ' ich dich dann, flötende Nachtigall,</l>
+      <lb/>
+      <l>Weil dein Weibchen mit dir wohnet in Einem Neſt,</l>
+      <lb/>
+      <l>Ihrem ſingenden Gatten</l>
+      <lb/>
+      <l>Tauſend trauliche Küſſe giebt.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abcd">
+      <l>Ueberhüllet von Laub, girret ein Taubenpaar</l>
+      <lb/>
+      <l>Sein <choice>
+        <sic>Entzückeu</sic>
+        <corr>Entzücken</corr>
+       </choice> mir vor; aber ich wende mich,</l>
+      <lb/>
+      <l>Suche dunklere Schatten,</l>
+      <lb/>
+      <l>Und die einſame Thräne rinnt.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abcd">
+      <l>Wann, o lächelndes Bild, welches wie Morgenroth</l>
+      <lb/>
+      <l>Durch die Seele mir ſtralt, find' ich auf Erden dich?</l>
+      <lb/>
+      <l>Und die einſame Thräne</l>
+      <lb/>
+      <l>Bebt mir heiſſer die Wang' herab.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="29">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabccb">
+      <l>Mein Anger, welchen früh und ſpat</l>
+      <lb/>
+      <l>Ein allerliebſtes Mädchen trat</l>
+      <lb/>
+      <l>Mit ihren weiſſen Füſſen,</l>
+      <lb/>
+      <l>Mit Zitterklang</l>
+      <lb/>
+      <l>Und mit Geſang</l>
+      <lb/>
+      <l>Werd' ich dich oft begrüſſen.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aabccb">
+      <l>Oft werd' ich in dein friſches Gras,</l>
+      <lb/>
+      <l>Wo ſie mit mir am Schleedorn ſaſs,</l>
+      <lb/>
+      <l>Im Abendrothe kommen,</l>
+      <lb/>
+      <l>Und fingen dann,</l>
+      <lb/>
+      <l>So gut ich kann,</l>
+      <lb/>
+      <l>Der Reinen und der Frommen.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aabccb">
+      <l>Mit deinen Blumen, weiſs und roth,</l>
+      <lb/>
+      <l>Werd' ich, beglänzt vom Abendroth,</l>
+      <lb/>
+      <l>Die blanke Zitter krönen,</l>
+      <lb/>
+      <l>Und weinen naſs</l>
+      <lb/>
+      <l>Das grüne Gras</l>
+      <lb/>
+      <l>Beim Namen meiner Schönen.</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Gieb<lb/>
+     </fw>
+     <pb n="161" facs="#f0201"/>
+     <lg n="4" type="stanza" rhyme="aabccb">
+      <l>Gieb doch, o lieber grüner Plan,</l>
+      <lb/>
+      <l>Am Ende meiner Lebensbahn,</l>
+      <lb/>
+      <l>Bei dieſer Murmelquelle,</l>
+      <lb/>
+      <l>Wo Vögelein</l>
+      <lb/>
+      <l>Des Mais ſich freun,</l>
+      <lb/>
+      <l>Mir meine Ruheſtelle.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="30">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abcd">
+      <l>
+       <hi rendition="#in">K</hi>omm mit lächelndem Blick, Zauberin Fantaſie,</l>
+      <lb/>
+      <l>Aetherblumen um deine Stirn',</l>
+      <lb/>
+      <l>Und erhelle der Nacht Schatten, die ſchlummerlos</l>
+      <lb/>
+      <l>Um mein einſames Lager hängt.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abcd">
+      <l>Dein unſterblicher Fuſs weilet, o Königin,</l>
+      <lb/>
+      <l>An den Quellen des Morgenroths;</l>
+      <lb/>
+      <l>Du entſchöpfeſt dem Quell liebliches Roſenlicht,</l>
+      <lb/>
+      <l>Und beſtraleſt die Erdenwelt.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abcd">
+      <l>Eine Grazie hüpft, leicht wie ein Roſenblatt,</l>
+      <lb/>
+      <l>Liebelächelnd an deiner Hand,</l>
+      <lb/>
+      <l>Schlingt ſich mir um den Arm, wandelt im Abendglanz</l>
+      <lb/>
+      <l>Durch die thauigen Blumen hin;</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Durch<lb/>
+     </fw>
+     <pb n="183" facs="#f0223"/>
+     <lg n="4" type="stanza" rhyme="abcd">
+      <l>Durch den ſäuſelnden Hain, durch das Gebüſch von Gold,</l>
+      <lb/>
+      <l>Durch das ſchlummernde Mondenlicht;</l>
+      <lb/>
+      <l>Und aus Roſengewölk ſchimmert der Abendſtern</l>
+      <lb/>
+      <l>Meiner Wallerin ins Geſicht.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abcd">
+      <l>Horch, die Nachtigall ſingt! Seze dich hier am Bach!</l>
+      <lb/>
+      <l>Schüchtern ſinkt ſie auf meinen Schooſs,</l>
+      <lb/>
+      <l>Und ich küſſ' ihr den Schleir von der gehobnen Bruſt,</l>
+      <lb/>
+      <l>Schweb' in Träumen Eliſiums.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="31">
+    <lg type="poem">
+
+     <lg type="stanza" rhyme="aabbb">
+      <l>Alhier auf dieſer Stätte</l>
+      <lb/>
+      <l>Liegt begraben Nette.</l>
+      <lb/>
+      <l>Zu Horſt iſt er geboren,</l>
+      <lb/>
+      <l>Zu Marienſee geſtorben,</l>
+      <lb/>
+      <l>Dies Grab hat er erworben.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="32">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcdcd">
+      <l>
+       <hi rendition="#in">B</hi>ekränzet die Tonnen,</l>
+      <lb/>
+      <l>Und zapfet mir Wein;</l>
+      <lb/>
+      <l>Der Mai iſt begonnen,</l>
+      <lb/>
+      <l>Wir müſſen uns freun!</l>
+      <lb/>
+      <l>Die Winde verſtummen,</l>
+      <lb/>
+      <l>Und athmen noch kaum;</l>
+      <lb/>
+      <l>Die Bienlein umſummen</l>
+      <lb/>
+      <l>Den blühenden Baum.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcdcd">
+      <l>Die Nachtigall flötet</l>
+      <lb/>
+      <l>Im grünen Gebüſch;</l>
+      <lb/>
+      <l>Das Abendlicht röthet</l>
+      <lb/>
+      <l>Uns Gläſer und Tiſch.</l>
+      <lb/>
+      <l>Bekränzet die Tonnen,</l>
+      <lb/>
+      <l>Und zapfet mir Wein;</l>
+      <lb/>
+      <l>Der Mai iſt begonnen,</l>
+      <lb/>
+      <l>Wir müſſen uns freun!</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Zum<lb/>
+     </fw>
+     <pb n="40" facs="#f0080"/>
+     <lg n="3" type="stanza" rhyme="ababcdcd">
+      <l>Zum Mahle, zum Mahle,</l>
+      <lb/>
+      <l>Die Flaſchen herbei!</l>
+      <lb/>
+      <l>Zween volle Pokale</l>
+      <lb/>
+      <l>Gebühren dem Mai!</l>
+      <lb/>
+      <l>Er träuft auf die Blüten</l>
+      <lb/>
+      <l>Sein Roth und ſein Weiſs;</l>
+      <lb/>
+      <l>Die Vögelein brüten</l>
+      <lb/>
+      <l>Im Schatten des Mais.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="ababcdcd">
+      <l>Er ſchenket dem Haine</l>
+      <lb/>
+      <l>Verliebten Geſang,</l>
+      <lb/>
+      <l>Und Gläſern beim Weine</l>
+      <lb/>
+      <l>Melodiſchen Klang;</l>
+      <lb/>
+      <l>Giebt Mädchen und Knaben</l>
+      <lb/>
+      <l>Ein Minnegefühl,</l>
+      <lb/>
+      <l>Und herliche Gaben</l>
+      <lb/>
+      <l>Zum Kuſs und zum Spiel.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="ababcdcd">
+      <l>Ihr Jüngling', ihr Schönen,</l>
+      <lb/>
+      <l>Gebt Dank ihm und Preis!</l>
+      <lb/>
+      <l>Laſst Gläſer ertönen</l>
+      <lb/>
+      <l>Zur Ehre des Mais!</l>
+      <lb/>
+      <fw type="catch" place="bottom">Es<lb/>
+      </fw>
+      <pb n="41" facs="#f0081"/>
+      <l>Es grüne die Laube,</l>
+      <lb/>
+      <l>Die Küſſe verſchlieſst!</l>
+      <lb/>
+      <l>Es wachſe die Traube,</l>
+      <lb/>
+      <l>Der Nektar entflieſst!</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="ababcdcd">
+      <l>Es blühe der Raſen,</l>
+      <lb/>
+      <l>Wo Liebende gehn,</l>
+      <lb/>
+      <l>Wo Tanten und Baſen</l>
+      <lb/>
+      <l>Die Küſſe nicht ſehn!</l>
+      <lb/>
+      <l>Ihr lachenden Lüfte,</l>
+      <lb/>
+      <l>Bleibt heiter und hell!</l>
+      <lb/>
+      <l>Ihr Blüten voll Düfte,</l>
+      <lb/>
+      <l>Verweht nicht ſo ſchnell!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="33">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abcbc">
+      <l>nirgends finden.</l>
+      <lb/>
+      <l>Ich wandre, wenn die Sonne ſticht,</l>
+      <lb/>
+      <l>Wenns ſtürmet oder regnet,</l>
+      <lb/>
+      <l>Und ſchaue jeder ins Geſicht,</l>
+      <lb/>
+      <l>Die meinem Blick begegnet.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababc">
+      <l>So irr' ich Armer für und für,</l>
+      <lb/>
+      <l>Mit Seufzern und mit Thränen,</l>
+      <lb/>
+      <l>Und muſtr' an jeder Kirchenthür'</l>
+      <lb/>
+      <l>Am Sonntag' alle Schönen.</l>
+      <lb/>
+      <l>Nach jedem Fenſter</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="34">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabbcc">
+      <l>
+       <hi rendition="#in">G</hi>rüner wird die Au,</l>
+      <lb/>
+      <l>Und der Himmel blau;</l>
+      <lb/>
+      <l>Schwalben kehren wieder,</l>
+      <lb/>
+      <l>Und die Erſtlingslieder</l>
+      <lb/>
+      <l>Kleiner Vögelein</l>
+      <lb/>
+      <l>Zwitſchern durch den Hain.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aabbcc">
+      <l>Aus dem Blütenſtrauch</l>
+      <lb/>
+      <l>Weht der Liebe Hauch:</l>
+      <lb/>
+      <l>Seit der Lenz erſchienen,</l>
+      <lb/>
+      <l>Waltet ſie im Grünen,</l>
+      <lb/>
+      <l>Malt die Blumen bunt,</l>
+      <lb/>
+      <l>Roth des Mädchens Mund.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aabbcc">
+      <l>Brüder, küſſet ihn!</l>
+      <lb/>
+      <l>Denn die Jahre fliehn!</l>
+      <lb/>
+      <l>Einen Kuſs in Ehren</l>
+      <lb/>
+      <l>Kann euch niemand wehren!</l>
+      <lb/>
+      <l>Küſst ihn, Brüder, küſst,</l>
+      <lb/>
+      <l>Weil er kuſslich iſt!</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Seht,<lb/>
+     </fw>
+     <pb n="23" facs="#f0063"/>
+     <lg n="4" type="stanza" rhyme="aabbcc">
+      <l>Seht, der Tauber girrt,</l>
+      <lb/>
+      <l>Seht, der Tauber ſchwirrt</l>
+      <lb/>
+      <l>Um ſein liebes Täubchen!</l>
+      <lb/>
+      <l>Nehmt euch auch ein Weibchen,</l>
+      <lb/>
+      <l>Wie der Tauber thut,</l>
+      <lb/>
+      <l>Und ſeid wohlgemut!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="35">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>
+       <hi rendition="#in">S</hi>elig alle, die im Herrn entſchliefen!</l>
+      <lb/>
+      <l>Selig, Vater, ſelig biſt auch du!</l>
+      <lb/>
+      <l>Engel brachten dir den Kranz, und riefen;</l>
+      <lb/>
+      <l>Und du gingſt in Gottes Ruh;</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Wandelſt über Millionen Sternen,</l>
+      <lb/>
+      <l>Siehſt die Handvoll Staub, die Erde, nicht;</l>
+      <lb/>
+      <l>Schwebſt im Wink durch tauſend Sonnenfernen,</l>
+      <lb/>
+      <l>Schaueſt Gottes Angeſicht;</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Siehſt das Buch der Welten aufgeſchlagen;</l>
+      <lb/>
+      <l>Trinkeſt durſtig aus dem Lebensquell;</l>
+      <lb/>
+      <l>Nächte, voll von Labirinthen, tagen,</l>
+      <lb/>
+      <l>Und dein Blick wird himmelhell.</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Doch<lb/>
+     </fw>
+     <pb n="189" facs="#f0229"/>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Doch in deiner Ueberwinderkrone</l>
+      <lb/>
+      <l>Senkſt du noch den Vaterblick auf mich;</l>
+      <lb/>
+      <l>Beteſt für mich an Jehovas Throne,</l>
+      <lb/>
+      <l>Und Jehova höret dich.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Schwebe, wann der Tropfen Zeit verrinnet,</l>
+      <lb/>
+      <l>Den mir Gott aus ſeiner Urne gab,</l>
+      <lb/>
+      <l>Schwebe, wann mein Todeskampf beginnet,</l>
+      <lb/>
+      <l>Auf mein Sterbebett' herab:</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>Daſs mir deine Palme Kühlung wehe,</l>
+      <lb/>
+      <l>Kühlung, wie von Lebensbäumen träuft;</l>
+      <lb/>
+      <l>Daſs ich ſonder Graun die Thäler ſehe,</l>
+      <lb/>
+      <l>Wo die Auferſtehung reift;</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abab">
+      <l>Daſs mit dir ich durch die Himmel ſchwebe,</l>
+      <lb/>
+      <l>Wonneſtralend und beglückt, wie du;</l>
+      <lb/>
+      <l>Und mit dir auf Einem Sterne lebe,</l>
+      <lb/>
+      <l>Und in Gottes Schooſſe ruh.</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Grün'<lb/>
+     </fw>
+     <pb n="190" facs="#f0230"/>
+     <lg n="8" type="stanza" rhyme="abab">
+      <l>Grün' indeſſen, Strauch der Roſenblume,</l>
+      <lb/>
+      <l>Deinen Purpur auf ſein Grab zu ſtreun.</l>
+      <lb/>
+      <l>Schlummre, wie im ſtillen Heiligthume,</l>
+      <lb/>
+      <l>Hingeſäetes Gebein.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="36">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>
+       <hi rendition="#in">G</hi>eliebtes Bild, das mir mit Feurentzücken</l>
+      <lb/>
+      <l>Die Seele füllt!</l>
+      <lb/>
+      <l>Wann werd' ich dich an meinen Buſen drücken,</l>
+      <lb/>
+      <l>Geliebtes Bild?</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Wann mich am Bach', im Wehn der Pappelweide,</l>
+      <lb/>
+      <l>Der Schlaf umwallt,</l>
+      <lb/>
+      <l>Erſcheinſt du mir im weiſſen Abendkleide,</l>
+      <lb/>
+      <l>Du Lichtgeſtalt!</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Du flatterſt oft in früher Morgenſtunde</l>
+      <lb/>
+      <l>Durch mein Gemach,</l>
+      <lb/>
+      <l>Und küſſeſt mich mit deinem rothen Munde</l>
+      <lb/>
+      <l>Vom Schlummer wach.</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Lang<lb/>
+     </fw>
+     <pb n="134" facs="#f0174"/>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Lang glaub' ich noch den Herzenskuſs zu fühlen,</l>
+      <lb/>
+      <l>Der mich entzückt,</l>
+      <lb/>
+      <l>Und mit dem Strauſs' an deiner Bruſt zu ſpielen,</l>
+      <lb/>
+      <l>Der mir genickt.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Jezt ſeh' ich dich, im Rauſchen grüner Linden,</l>
+      <lb/>
+      <l>Ein goldnes Band</l>
+      <lb/>
+      <l>Um einen Kranz von Tauſendſchönchen winden</l>
+      <lb/>
+      <l>Mit weiſſer Hand;</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>Und bald darauf im kleinen Blumengarten,</l>
+      <lb/>
+      <l>Wie Eva ſchön,</l>
+      <lb/>
+      <l>Des Roſenbaums, des Nelkenſtrauchs zu warten,</l>
+      <lb/>
+      <l>Am Beete gehn.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abab">
+      <l>Erblick' ich dich, die ich vom Himmel bitte,</l>
+      <lb/>
+      <l>Erblick' ich dich,</l>
+      <lb/>
+      <l>So komm, ſo komm in meine Halmenhütte,</l>
+      <lb/>
+      <l>Und tröſte mich!</l>
+      <lb/>
+     </lg>
+     <fw type="catch" place="bottom">Dir<lb/>
+     </fw>
+     <pb n="135" facs="#f0175"/>
+     <lg n="8" type="stanza" rhyme="abab">
+      <l>Dir ſoll ein Beet, wo tauſend Blumen wanken,</l>
+      <lb/>
+      <l>Entgegenblühn;</l>
+      <lb/>
+      <l>Ich will ein Dach von jungen Geisblattranken</l>
+      <lb/>
+      <l>Für dich erziehn;</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="abab">
+      <l>Ins Paradies an deiner Bruſt mich träumen,</l>
+      <lb/>
+      <l>Mein ſüſſes Kind;</l>
+      <lb/>
+      <l>Und froher ſein, als unter Lebensbäumen</l>
+      <lb/>
+      <l>Die Engel ſind!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="37">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabbcc">
+      <l>
+       <hi rendition="#in">D</hi>ein Silber ſchien</l>
+      <lb/>
+      <l>Durch Eichengrün,</l>
+      <lb/>
+      <l>Das Kühlung gab,</l>
+      <lb/>
+      <l>Auf mich herab,</l>
+      <lb/>
+      <l>O Mond, und lachte Ruh</l>
+      <lb/>
+      <l>Mir frohen Knaben zu.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aabbcc">
+      <l>Wenn izt dein Licht</l>
+      <lb/>
+      <l>Durchs Fenſter bricht,</l>
+      <lb/>
+      <l>Lachts keine Ruh</l>
+      <lb/>
+      <l>Mir Jüngling zu,</l>
+      <lb/>
+      <l>Siehts meine Wange blaſs,</l>
+      <lb/>
+      <l>Mein Auge thränennaſs.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aabbcc">
+      <l>Bald, lieber Freund,</l>
+      <lb/>
+      <l>Ach bald beſcheint</l>
+      <lb/>
+      <l>Dein Silberſchein</l>
+      <lb/>
+      <l>Den Leichenſtein,</l>
+      <lb/>
+      <l>Der meine Aſche birgt,</l>
+      <lb/>
+      <l>Des Jünglings Aſche birgt!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+  </body>
+ </text>
+</TEI>

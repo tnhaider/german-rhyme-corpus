@@ -1,0 +1,3043 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Oden und Lieder</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/133694917">
+            <surname>Suppius</surname>
+            <forename>Christoph Eusebius</forename>
+          </persName>
+        </author>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/115266127">
+            <surname>Geyken</surname>
+            <forename>Alexander</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1018099549">
+            <surname>Haaf</surname>
+            <forename>Susanne</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1019062681">
+            <surname>Jurish</surname>
+            <forename>Bryan</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Boenig</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Thomas</surname>
+            <forename>Christian</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Wiegand</surname>
+            <forename>Frank</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <orgName ref="http://www.clarin-d.de">CLARIN-D</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="http://fedora.dwds.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Vollständige digitalisierte Ausgabe.</edition>
+      </editionStmt>
+      <extent>
+        <measure type="images">395</measure>
+        <measure type="tokens">51288</measure>
+        <measure type="types">10505</measure>
+        <measure type="characters">340147</measure>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2016-10-10T16:38:09Z</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+            <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported
+              License.</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="URLWeb">http://www.deutschestextarchiv.de/suppius_oden_1749</idno>
+          <idno type="URLXML"
+            >http://www.deutschestextarchiv.de/book/download_xml/suppius_oden_1749</idno>
+          <idno type="URLHTML"
+            >http://www.deutschestextarchiv.de/book/download_html/suppius_oden_1749</idno>
+          <idno type="URLText"
+            >http://www.deutschestextarchiv.de/book/download_text/suppius_oden_1749</idno>
+          <idno type="DTADirName">suppius_oden_1749</idno>
+          <idno type="DTAID">20594</idno>
+          <idno type="URN">urn:nbn:de:kobv:b4-20594-7</idno>
+        </idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="M">Suppius, Christoph Eusebius: Oden und Lieder. Gotha, 1749.</bibl>
+        <biblFull>
+          <titleStmt>
+            <title level="m" type="main">Oden und Lieder</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/133694917">
+                <surname>Suppius</surname>
+                <forename>Christoph Eusebius</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <extent>
+            <measure type="pages">[8] Bl., 367 S.</measure>
+          </extent>
+          <publicationStmt>
+            <publisher><name>Reyher</name></publisher>
+            <pubPlace>Gotha</pubPlace>
+            <date type="publication">1749</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <repository>SUB Göttingen</repository>
+            <idno>
+              <idno type="shelfmark">SUB Göttingen, 8 P GERM III, 5050</idno>
+            </idno>
+          </msIdentifier>
+          <physDesc>
+            <typeDesc>
+              <p>Fraktur</p>
+            </typeDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Dieses Werk wurde gemäß den <ref
+            target="http://www.deutschestextarchiv.de/doku/richtlinien"
+            >DTA-Transkriptionsrichtlinien</ref> im Double-Keying-Verfahren von
+          Nicht-Muttersprachlern erfasst und in XML/TEI P5 nach <ref
+            target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat</ref>
+          kodiert.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="rendition-aq">font-family:sans-serif</rendition>
+        <rendition scheme="css" xml:id="rendition-b">font-weight:bold</rendition>
+        <rendition scheme="css" xml:id="rendition-blue">color:blue</rendition>
+        <rendition scheme="css" xml:id="rendition-c">display:block; text-align:center</rendition>
+        <rendition scheme="css" xml:id="rendition-et">display:block; margin-left:2em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-et2">display:block; margin-left:4em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-et3">display:block; margin-left:6em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-f">border:1px dotted silver</rendition>
+        <rendition scheme="css" xml:id="rendition-fr">border:1px dotted silver</rendition>
+        <rendition scheme="css" xml:id="rendition-g">letter-spacing:0.125em</rendition>
+        <rendition scheme="css" xml:id="rendition-i">font-style:italic</rendition>
+        <rendition scheme="css" xml:id="rendition-in">font-size:150%</rendition>
+        <rendition scheme="css" xml:id="rendition-k">font-variant:small-caps</rendition>
+        <rendition scheme="css" xml:id="rendition-larger">font-size:larger</rendition>
+        <rendition scheme="css" xml:id="rendition-red">color:red</rendition>
+        <rendition scheme="css" xml:id="rendition-right">display:block; text-align:right</rendition>
+        <rendition scheme="css" xml:id="rendition-s">text-decoration:line-through</rendition>
+        <rendition scheme="css" xml:id="rendition-smaller">font-size:smaller</rendition>
+        <rendition scheme="css" xml:id="rendition-sub">vertical-align:sub;
+          font-size:.7em</rendition>
+        <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+          font-size:.7em</rendition>
+        <rendition scheme="css" xml:id="rendition-u">text-decoration:underline</rendition>
+        <rendition scheme="css" xml:id="rendition-uu">border-bottom:double 3px #000</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">German</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtamain"
+          >Belletristik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtasub"
+          >Lyrik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+          >Belletristik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+          >Lyrik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >core</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >ready</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >china</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <head><hi rendition="#b">Die Herrlichkeit</hi><lb/> des<lb/>
+            <hi rendition="#b">Durchlauchtigſten Hauſes<lb/> zu Sachſen.</hi><lb/> Beym Anfange des
+            1748 Jahres.<lb/>
+            <milestone unit="section" rendition="#hr"/><lb/>
+            <floatingText>
+              <body>
+                <div n="1">
+                  <cit>
+                    <bibl><hi rendition="#c"><hi rendition="#aq"><hi rendition="#g"
+                          >HORATIVS.</hi></hi></hi></bibl>
+                    <lb/>
+                    <quote><hi rendition="#c"><hi rendition="#aq">Hic ames dici pater atque
+                          Princeps.</hi></hi></quote>
+                  </cit>
+                </div>
+              </body>
+            </floatingText></head>
+          <lb/>
+          <milestone unit="section" rendition="#hr"/>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="aabb">
+            <l><hi rendition="#in">M</hi>uſe! die ſonſten Goͤtter oder Helden</l>
+            <lb/>
+            <l>Praͤchtig beſinget, wovon ſoll ich melden?</l>
+            <lb/>
+            <l>Weil ich anitzo deines Geiſtes Staͤrke<lb/>
+              <hi rendition="#et">Bey mir vermerke.</hi></l>
+          </lg>
+          <lb/>
+          <note place="left">5</note>
+          <lg n="2" type="stanza" rhyme="aabb">
+            <l>Mich voller Kuͤhnheit von der Erde ſchwingen,</l>
+            <lb/>
+            <l>Und die Bewegung der Geſtirne ſingen,</l>
+            <lb/>
+            <l>Mochte dem Geiſte manchen Jrrweg zeigen,<lb/>
+              <hi rendition="#et">Sich zu verſteigen.</hi></l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">U 3</fw>
+          <fw type="catch" place="bottom">Oder</fw>
+          <lb/>
+          <pb n="310" facs="#f0330"/>
+          <fw type="header" place="top"><hi rendition="#b">Fünftes Buch.</hi></fw>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="aabb">
+            <l>Oder gefaͤllt dir von verſchiednen Zonen,<lb/>
+              <note place="left">10</note>Wo unter Zeptern Voͤlker ruhig wohnen,</l>
+            <lb/>
+            <l>Der Laͤnder Schickſal, groſſer Potentaten<lb/>
+              <hi rendition="#et">Gluͤck anzurathen?</hi></l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="aabb">
+            <l>Soll ich den Perſer, ſeine kuͤhne Jugend,</l>
+            <lb/>
+            <l>Das ſeltne Beyſpiel einer hohen Tugend<lb/>
+              <note place="left">15</note>Ruͤhmen? die Reiche, ſo er einſt zerſtuͤcket<lb/>
+              <hi rendition="#et">Und denn begluͤcket.</hi></l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="aabb">
+            <l>Oder den Griechen, der zuerſt den Sparter</l>
+            <lb/>
+            <l>Hat angewoͤhnet zu Geduld und Marter,</l>
+            <lb/>
+            <l>Zu armer Tugend, Tapferkeit und Muͤhe<lb/>
+              <note place="left">20</note><hi rendition="#et">Bey ſchwarzer Bruͤhe?</hi></l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="aabb">
+            <l>Haſt du vielleicht wohl jenen Stillen lieber,</l>
+            <lb/>
+            <l>Der wilde Geiſter an der ſanften Tiber</l>
+            <lb/>
+            <l>So klug beruhiget durch die Egerja,<lb/>
+              <hi rendition="#et">Die er doch nie ſah?</hi></l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Wahr</fw>
+          <lb/>
+          <note place="foot" n="13">Cyrus, den Zerſtoͤhrer des Aſſyriſchen und Stifter des<lb/>
+            Perſiſchen groſſen Reichs, deſſen Begebenheiten Herodot<lb/> und Xenophon, obwohl
+            verſchieden, beſchrieben haben.<lb/> Ein hinlaͤnglicher Auszug aus beyden iſt in Rollins
+            Hi-<lb/> ſtorie alter Zeiten und Voͤlker im <hi rendition="#aq">II</hi> Theil von der
+            167<lb/> bis 379 Seite der deutſchen Ausgabe.</note>
+          <lb/>
+          <note place="foot" n="18">Lyeurg. S. Plutarchs Lebensbeſchr. <hi rendition="#aq">I</hi>
+            Th. 194 Seite der<lb/> deutſchen Ausgabe.</note>
+          <lb/>
+          <note place="foot" n="21">Numa, welcher die Roͤmer am erſten mit Geſetzen ver-<lb/> ſehen,
+            und ſich dabey der beſondern Staatsliſt mit der<lb/> Goͤttin Egeria bedienet hat, um
+            die, durch die vorigen<lb/> Kriege ſehr verwilderten Roͤmer deſto eher biegſam zu<lb/>
+            machen. Siehe Plutarchs Lebensbeſchreibung beruͤhmter<lb/> Maͤnner im 1 Th. 302 S. der
+            deutſchen Ausgabe, und<lb/> Rollins Roͤmiſche Hiſt. <hi rendition="#aq">I</hi> Th. 91 S.
+            der deutſch. Ausgabe.</note>
+          <lb/>
+          <pb n="311" facs="#f0331"/>
+          <fw type="header" place="top"><hi rendition="#b">Sapphiſche Oden.</hi></fw>
+          <lb/>
+          <note place="left">25</note>
+          <lg n="7" type="stanza" rhyme="aabb">
+            <l>Wahr iſt, ſie zeigten durch ſo kuͤhne Werke</l>
+            <lb/>
+            <l>Viel Menſchenliebe und Verſtandes-Staͤrke,</l>
+            <lb/>
+            <l>So ſeltne Maͤnner von Gemuͤthes-Gaben<lb/>
+              <hi rendition="#et">Dachten erhaben.</hi></l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="aabb">
+            <l>Und ihren Nachruhm, nach viel tauſend Jahren,<lb/>
+              <note place="left">30</note>Wird das Gedaͤchtniß immerdar bewahren,</l>
+            <lb/>
+            <l>Das Lobgeruͤchte fuͤhret ihn behende<lb/>
+              <hi rendition="#et">An der Welt Ende.</hi></l>
+          </lg>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="aabb">
+            <l>Doch alte Zeiten ſind zu weit entfernet,</l>
+            <lb/>
+            <l>Und ihre Reiche laͤngſtens ausgelernet,<lb/>
+              <note place="left">35</note>Weit ſtaͤrker reizet, was wir gleichſam ſehen,<lb/>
+              <hi rendition="#et">Vor uns geſchehen.</hi></l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="aabb">
+            <l>Wie? was erblick ich? Menſchen oder Goͤtter?</l>
+            <lb/>
+            <l>Wer iſt der Held dort? Thuͤringens Erretter?</l>
+            <lb/>
+            <l>Der Adler fliehet, der ſchon in der Raute<lb/>
+              <note place="left">40</note><hi rendition="#et">Sich Neſter baute.</hi></l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="aabb">
+            <l>Wie unerſchrocken ficht er mit dem Schwerde,</l>
+            <lb/>
+            <l>Gleich Hirten gegen Woͤlfe fuͤr die Heerde,</l>
+            <lb/>
+            <l>Er, dieſer Halbgott, den allein von weiten<lb/>
+              <hi rendition="#et">Schon Heere ſcheuten.</hi></l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">U 4</fw>
+          <fw type="catch" place="bottom">Voͤl-</fw>
+          <lb/>
+          <note place="foot" n="38">Von den landverderblichen Kriegen zu Zeiten Friedrichs<lb/>
+            Admorſus genannt in Thuͤringen mit denen Kayſern A-<lb/> dolph und Albert <hi
+              rendition="#aq">I.</hi> findet man Nachricht in Glafey Kern<lb/> der Geſchichte von
+            Sachſen, im <hi rendition="#aq">VII</hi> Cap. auch Garzons<lb/> von Bononien Chronick
+            von Friederich Admorſus, nach<lb/> Heinrichs von Lindenau deutſcher Ueberſetzung.</note>
+          <lb/>
+          <pb n="312" facs="#f0332"/>
+          <fw type="header" place="top"><hi rendition="#b">Fünftes Buch.</hi></fw>
+          <lb/>
+          <note place="left">45</note>
+          <lg n="12" type="stanza" rhyme="aabb">
+            <l>Voͤlker der Erden! ihr muͤßt von ihm wiſſen,</l>
+            <lb/>
+            <l>Denn Mutterliebe hat ihn einſt gebiſſen,</l>
+            <lb/>
+            <l>Und ihn gezeichnet, der voll Vatertriebe<lb/>
+              <hi rendition="#et">Und Menſchenliebe.</hi></l>
+          </lg>
+          <lb/>
+          <lg n="13" type="stanza" rhyme="aabb">
+            <l>Von jenem Schutzgott, der ſo kuͤhn gehandelt,<lb/>
+              <note place="left">50</note>Deſſen ſchwarz Roß ſich gleich in weiß verwandelt,</l>
+            <lb/>
+            <l>Als zu Attigny er nach Blut und Morden<lb/>
+              <hi rendition="#et">Unſterblich worden;</hi></l>
+          </lg>
+          <lb/>
+          <lg n="14" type="stanza" rhyme="aabb">
+            <l>Von dem entſprießt er. Helden zeugen Helden!</l>
+            <lb/>
+            <l>Was kann man mehr von ihm fuͤr Dinge melden!<lb/>
+              <note place="left">55</note>Sein groſſer Nachruhm wird ſo wenig ſterben,<lb/>
+              <hi rendition="#et">Als ſeine Erben.</hi></l>
+          </lg>
+          <lb/>
+          <lg n="15" type="stanza" rhyme="aabb">
+            <l>Seht nur von ihm ein ernſthaft Reiß erwachſen,</l>
+            <lb/>
+            <l>Jn ſolchem bluͤht der ganze Stamm von Sachſen,</l>
+            <lb/>
+            <l>Der Britten Sieger muß ihm wider Franken<lb/>
+              <note place="left">60</note><hi rendition="#et">Die Huͤlfe danken.</hi></l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Ein</fw>
+          <lb/>
+          <note place="foot" n="49">Wittekind der Groſſe; der wider Carl den Groſſen von<lb/>
+            Frankreich und nachmahligen Kayſer ſich mit ſeinen Sach-<lb/> ſen ſo tapfer
+            gewehret.</note>
+          <lb/>
+          <note place="foot" n="50">Ehe er zu Attenach im Jahr 775 den chriſtlichen Glau-<lb/> ben
+            angenommen und ſich taufen laſſen, ſoll er in ſei-<lb/> nem Schilde ein ſchwarz Roß
+            gefuͤhret haben, an deſſen<lb/> Stelle er nach dieſen ein weiſſes geſetzet. S.
+            Glafey<lb/> Kern der Geſchichte von Sachſen im 2 Cap. §. 6. Hahns<lb/> Reichshiſtorie
+              <hi rendition="#aq">I</hi> Theil.</note>
+          <lb/>
+          <note place="foot" n="57">Friedrich der Ernſthafte oder Severus, Landgraf in Thuͤ-<lb/>
+            ringen und Markgraf zu Meiſſen.</note>
+          <lb/>
+          <note place="foot" n="60">Er zog mit einer auserleſenen Mannſchaft von Thuͤ-<lb/> ringern
+            und Meißnern Eduard dem <hi rendition="#aq">III.</hi> Koͤnige von En-<lb/> geland, nach
+            Frankreich wider daſigen Koͤnig, Philipp den<lb/> Schoͤnen, 1343 zu Huͤlfe. Glafey Cap.
+            7.</note>
+          <lb/>
+          <pb n="313" facs="#f0333"/>
+          <fw type="header" place="top"><hi rendition="#b">Sapphiſche Oden.</hi></fw>
+          <lb/>
+          <lg n="16" type="stanza" rhyme="aabb">
+            <l>Ein Strenger folgt ihm, der die Bosheit ſtrafet,</l>
+            <lb/>
+            <l>Und durch die Henne guͤldne Eyer ſchaffet,</l>
+            <lb/>
+            <l>Die werden ſeinen Erben nach zwo Zeiten<lb/>
+              <hi rendition="#et">Zu Land und Leuten.</hi></l>
+          </lg>
+          <lb/>
+          <note place="left">65</note>
+          <lg n="17" type="stanza" rhyme="aabb">
+            <l>Woher! du Held von ungemeinen Thaten,</l>
+            <lb/>
+            <l>Jch ſehe ſchon den Wachsthum deiner Staaten,</l>
+            <lb/>
+            <l>Sobald dein Ruhm mit Hoheit, Sieg u. Schwerdte<lb/>
+              <hi rendition="#et">Nach Hauſe kehrte.</hi></l>
+          </lg>
+          <lb/>
+          <lg n="18" type="stanza" rhyme="aabb">
+            <l>Glorwuͤrdigſter! Du deines Hauſes Krone!<lb/>
+              <note place="left">70</note>Empfange die Unſterblichkeit zum Lohne,</l>
+            <lb/>
+            <l>Held! Streitbar! Churfuͤrſt! Muſenfreund! o Pleiſſe!<lb/>
+              <hi rendition="#et">Sag wie er heiſſe.</hi></l>
+          </lg>
+          <lb/>
+          <lg n="19" type="stanza" rhyme="aabb">
+            <l>Mildeſter Vater! der auf ihn erſcheinet,</l>
+            <lb/>
+            <l>Woher der Schmerz? die Angſt? dein Auge weinet?<lb/>
+              <note place="left">75</note>Die Vorſehung ſchuͤtzt dein entfuͤhrt Geſchlechte<lb/>
+              <hi rendition="#et">Durch ihre Rechte.</hi></l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">U 5</fw>
+          <fw type="catch" place="bottom">Koͤnige,</fw>
+          <lb/>
+          <note place="foot" n="61">Friedrich der Strenge.</note>
+          <lb/>
+          <note place="foot" n="62">Mit ſeiner Gemahlin Catharina, Graf Heinrichs von<lb/> Henneberg
+            Tochter, hat er unterſchiedene Hennebergiſche<lb/> Aemter und Staͤdte zum Heyraths-Guthe
+            erhalten, und<lb/> dadurch an ſein Haus gebracht. Es iſt dieſe Catharina<lb/>
+            ebendiejenige Perſon, welche Churfuͤrſt Friedrich der <hi rendition="#aq">III</hi><lb/>
+            oder Weiſe von Sachſen gemeynet, als er zu Lucas Kra-<lb/> nachen, der ihm ſeine Ahnen
+            malen ſollen, geſaget; er<lb/> ſollte ihm dieſe Henne ja recht malen, weil ſie dem
+            Hauſe<lb/> Sachſen ein gut Ey geleget habe. Glafey Bl. 103.</note>
+          <lb/>
+          <note place="foot" n="71">Friedrich der Streitbare, welcher 1422 die Chur Sachſen<lb/> an
+            ſein Haus geknuͤpft, hat bereits 1409 die Univerſitaͤt<lb/> zu Leipzig
+            aufgerichtet.</note>
+          <lb/>
+          <note place="foot" n="75" xml:id="f01" next="#f02">Friedrich Placidus genannt, hatte 1455
+            das Ungluͤck ſei-<lb/>
+            <fw type="catch" place="bottom">ne</fw></note>
+          <lb/>
+          <pb n="314" facs="#f0334"/>
+          <fw type="header" place="top"><hi rendition="#b">Fünftes Buch.</hi></fw>
+          <lb/>
+          <lg n="20" type="stanza" rhyme="aabb">
+            <l>Koͤnige, Helden, Landesvaͤter muͤſſen</l>
+            <lb/>
+            <l>Von ſolchen einſtens mit der Welt beſchlieſſen,</l>
+            <lb/>
+            <l>Reiche, Provinzen, Voͤlkerſchaften ſteigen<lb/>
+              <note place="left">80</note><hi rendition="#et">Durch ihr Bezeigen.</hi></l>
+          </lg>
+          <lb/>
+          <lg n="21" type="stanza" rhyme="aabb">
+            <l>Der Friede wird dabey von Herzen lachen,</l>
+            <lb/>
+            <l>Und ihre Staaten helfen guͤlden machen,</l>
+            <lb/>
+            <l>Jch ſehe ſchon die Zeiten nahe kommen<lb/>
+              <hi rendition="#et">Mit jenem Frommen.</hi></l>
+          </lg>
+          <lb/>
+          <note place="left">85</note>
+          <lg n="22" type="stanza" rhyme="aabb">
+            <l>Durchlauchtigſter glorwuͤrdigſter Regente,</l>
+            <lb/>
+            <l>Du Morgenſtern im weiſen Regimente,</l>
+            <lb/>
+            <l>Deukalion! dein Thuͤringen wird beſſer<lb/>
+              <hi rendition="#et">Nach Kriegsgewaͤſſer.</hi></l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Will-</fw>
+          <lb/>
+          <note place="foot" n="75" xml:id="f02" prev="#f01">ne beyden Soͤhne, Ernſten und Alberten,
+            die Stifter<lb/> der zwey Linien des durchlauchtigſten Hauſes Sachſen<lb/> entfuͤhret zu
+            ſehen. Die aber wunderbar erhalten<lb/> worden.</note>
+          <lb/>
+          <note place="foot" n="84">Ernſt der Fromme iſt der durchlauchtigſte Stifter der<lb/> neuen
+            oder heutigen Gothaiſchen Linie, und 1676 geſtor-<lb/> ben.</note>
+          <lb/>
+          <note place="foot" n="87">Ein Sohn des Prometheus und der Pandore, ein Enkel<lb/> des
+            Japets, baute ſich nach vorhergegangener Warnung<lb/> von dem Prometheus wegen der von
+            dem Jupiter beſchloſ-<lb/> ſenen Vertilgung der Menſchen einen Kaſten, in welchem<lb/>
+            er 9 Tage lang herumgeſchwummen, und waͤhrender groſ-<lb/> ſen Theſſaliſchen Waſſerfluth
+            nebſt ſeiner Gemahlin und<lb/> Kindern vor dem Untergange bewahret worden. Wie er<lb/>
+            auf den Rath des Apollo die Erde wieder bevoͤlkert, und<lb/> mehreres von ihm ſiehe
+            zuſammen getragen in Hedrichs<lb/>
+            <hi rendition="#aq">Lexico Mythol. voc. Deucal. p. m.</hi> 733.</note>
+          <lb/>
+          <note place="foot" n="88">Herzog Ernſt hatte das Gluͤck, das Ende des verderbli-<lb/> chen
+            30jaͤhrigen Krieges zu erleben 1648.</note>
+          <lb/>
+          <pb n="315" facs="#f0335"/>
+          <fw type="header" place="top"><hi rendition="#b">Sapphiſche Oden.</hi></fw>
+          <lb/>
+          <lg n="23" type="stanza" rhyme="aabb">
+            <l>Willkommen hier im neuen Theil der Erden,<lb/>
+              <note place="left">90</note>Fuͤr dieſe Laͤnder ſollſt Du Neſtor werden,</l>
+            <lb/>
+            <l>Mildigkeit, Gnade wird ſich nun vererben,<lb/>
+              <hi rendition="#et">Und nicht mehr ſterben.</hi></l>
+          </lg>
+          <lb/>
+          <lg n="24" type="stanza" rhyme="aabb">
+            <l>Großmuͤthiger! wohin mit Jove Blitzen?</l>
+            <lb/>
+            <l>Du willſt gewiß den Adler helfen ſchuͤtzen,<lb/>
+              <note place="left">95</note>Welchen der Morgenroͤthe Nationen<lb/>
+              <hi rendition="#et">Wollen entthronen.</hi></l>
+          </lg>
+          <lb/>
+          <lg n="25" type="stanza" rhyme="aabb">
+            <l>Doch iſt die That ſchon gnug zu Ruhm und Leben,</l>
+            <lb/>
+            <l>Und kann Dich die bereits im Himmel heben?</l>
+            <lb/>
+            <l>O warum eilſt Du nach ſo wenig Jahrzeit<lb/>
+              <note place="left">100</note><hi rendition="#et">Zur Unſterblichkeit.</hi></l>
+          </lg>
+          <lb/>
+          <lg n="26" type="stanza" rhyme="aabb">
+            <l>Jhr Voͤlker! ſchauet nur, wie ihn, verjuͤnget</l>
+            <lb/>
+            <l>Jm Sanftmuͤthigen, das Gluͤck wiederbringet,</l>
+            <lb/>
+            <l>Zwey Potentaten nehmen einſt hienieden<lb/>
+              <hi rendition="#et">Von ihm den Frieden.</hi></l>
+          </lg>
+          <lb/>
+          <note place="left">105</note>
+          <lg n="27" type="stanza" rhyme="aabb">
+            <l>Der Zeiten Unterſchied nennt ihn den Andern</l>
+            <lb/>
+            <l>Des Namens, er darf auch nicht ganz fortwandern,</l>
+            <lb/>
+            <l>Jn ein nicht fernes Reich von uns geſchritten<lb/>
+              <hi rendition="#et">Lebt er im Dritten.</hi></l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Du</fw>
+          <lb/>
+          <note place="foot" n="89">Jn der Weimariſchen Vertheilung 1640 bekamen der<lb/>
+            durchlauchtigſte Herzog Ernſt, als der mittelſte von den<lb/> Herren Bruͤdern, Gotha zu
+            ihrem Antheil, nachdem die<lb/> alte Linie 1638 mit Joh. Caſimiren ausgeſtorben
+            war.</note>
+          <lb/>
+          <note place="foot" n="94">Der durchlauchtigſte Herzog Friederich der Erſte zogen<lb/> 1683
+            dem von den Tuͤrken belagerten und aͤuſſerſt bedraͤng-<lb/> tem Wien mit einigen
+            Regimentern der auserleſenſten<lb/> Truppen zu Huͤlfe, und trugen zu deſſen Entſatz
+            nicht<lb/> wenig mit bey.</note>
+          <lb/>
+          <note place="foot" n="102">Herzog Friederich der Andere.</note>
+          <lb/>
+          <pb n="316" facs="#f0336"/>
+          <fw type="header" place="top"><hi rendition="#b">Fünftes Buch.</hi></fw>
+          <lb/>
+          <lg n="28" type="stanza" rhyme="aabb">
+            <l>Du muͤſſeſt ſpaͤte, deinem Volk entnommen,<lb/>
+              <note place="left">110</note>Zu Unvergaͤnglichkeit und Vaͤtern kommen,</l>
+            <lb/>
+            <l>Dein Fuͤrſtenſtuhl ſey hoͤher als vordieſen,<lb/>
+              <hi rendition="#et">Und weltgeprieſen.</hi></l>
+          </lg>
+          <lb/>
+          <lg n="29" type="stanza" rhyme="aabb">
+            <l>Zeiten und Jahre moͤgen ſich veraͤndern,</l>
+            <lb/>
+            <l>Neue Geſchlechter jauchzen in den Laͤndern,<lb/>
+              <note place="left">115</note>Nur daß nicht wir ſchon unter Ach und Thraͤnen<lb/>
+              <hi rendition="#et">Uns nach Dir ſehnen!</hi></l>
+          </lg>
+          <lb/>
+          <lg n="30" type="stanza" rhyme="aabb">
+            <l>O! daß nicht etwann unſere Verbrechen</l>
+            <lb/>
+            <l>Die Zahl der Monden kuͤnftig moͤgen ſchwaͤchen,</l>
+            <lb/>
+            <l>So Dir der Himmel uns zu gut beſtimmet,<lb/>
+              <note place="left">120</note><hi rendition="#et">Und Dich wegnimmet.</hi></l>
+          </lg>
+          <lb/>
+          <lg n="31" type="stanza" rhyme="aabb">
+            <l>Dich, deiner Voͤlker einziges Vergnuͤgen,</l>
+            <lb/>
+            <l>Fuͤr den die Wuͤnſche ſich zu GOtt verfuͤgen,</l>
+            <lb/>
+            <l>Vater des Landes! Dir kommen entgegen<lb/>
+              <hi rendition="#et">Gluͤck, Fried und Segen.</hi></l>
+          </lg>
+          <lb/>
+          <note place="left">125</note>
+          <lg n="32" type="stanza" rhyme="aabb">
+            <l>HErr der Regenten! deine Weisheit giebet</l>
+            <lb/>
+            <l>Guͤtige Fuͤrſten, wenn ſie Laͤnder liebet,</l>
+            <lb/>
+            <l>Setze doch ewig die mit Rautenkraͤnzen<lb/>
+              <hi rendition="#et">Jn dieſen Graͤnzen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="2">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababcddc">
+            <l>Mein<lb/> Gluͤck erwacht an dieſem Tage,</l>
+            <lb/>
+            <l><hi rendition="#b">Ein Trieb der Freude reizet mich,</hi><lb/> und die oft
+              wiederholte Sage,</l>
+            <lb/>
+            <l>daß<lb/>
+              <hi rendition="#b"><hi rendition="#g">Meinen<lb/> Herzog Friederich</hi></hi></l>
+            <lb/>
+            <l>Ein langer Fruͤhling wird<lb/>
+              <hi rendition="#b">Der ſpaͤten Nachwelt ſpahren,</hi></l>
+            <lb/>
+            <l>zeigt<lb/> heute zuverſichtlich an,</l>
+            <lb/>
+            <l>ein tiefgebeugter Unterthan,</l>
+            <lb/>
+            <l>der<lb/>
+              <hi rendition="#b">Friedenſtein von 100 Jahren.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="3">
+        <lg type="poem">
+          <head><hi rendition="#b">Der October.</hi><lb/>
+            <milestone unit="section" rendition="#hr"/><lb/>
+            <floatingText>
+              <body>
+                <div type="dedication">
+                  <lg type="poem">
+                    <lg type="stanza" rhyme="ababcddc">
+                      <l>Dem<lb/>
+                        <hi rendition="#b"><hi rendition="#in">L</hi>andes-<hi rendition="#in"
+                            >V</hi>ater <hi rendition="#in">F</hi>riederich,</hi></l>
+                      <lb/>
+                      <l>und auch<lb/>
+                        <hi rendition="#b"><hi rendition="#g"><hi rendition="#in">L</hi>uiſen <hi
+                              rendition="#in">D</hi>orotheen</hi></hi></l>
+                      <lb/>
+                      <l>erſcheinet heute ſichtbarlich</l>
+                      <lb/>
+                      <l>ein neugebohrnes Wohlergehen,</l>
+                      <lb/>
+                      <l><hi rendition="#b"><hi rendition="#g">Jhr theurer Erbprinz
+                        lebt!</hi></hi><lb/> und ja! es werde wahr,</l>
+                      <lb/>
+                      <l><hi rendition="#b">Geſund Jhn wieder zu erblicken,</hi></l>
+                      <lb/>
+                      <l>das wird dereinſt die Vorſicht ſchicken,</l>
+                      <lb/>
+                      <l>ſo wahr ich bin<lb/> der Zehnte Sohn im Jahr.</l>
+                      <lb/>
+                      <l><hi rendition="#b">Der October.</hi></l>
+                    </lg>
+                  </lg>
+                  <lb/>
+                  <milestone unit="section" rendition="#hr"/>
+                  <lb/>
+                  <dateline><hi rendition="#c">Den 11ten deſſelben 1747.</hi></dateline>
+                </div>
+              </body>
+            </floatingText></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababcddc">
+            <l><hi rendition="#in">J</hi>ch triefe wohl von Oel und Moſt,</l>
+            <lb/>
+            <l>Doch aber nicht von herben Zaͤhren,</l>
+            <lb/>
+            <l>Auf, Gotha! wiederum getroſt!</l>
+            <lb/>
+            <l>Dein Herzeleid ſoll ewig Heyl gebaͤhren;</l>
+            <lb/>
+            <l>Es ruͤhmen Januar, und Merz, und auch Auguſt.</l>
+            <lb/>
+            <l>Und was ich ſonſt vor Bruͤder habe,</l>
+            <lb/>
+            <l>Sich ihrer ungemeinen Gabe,</l>
+            <lb/>
+            <l>Genug, auch ich vermehr des Landes Luſt.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Was?</fw>
+          <lb/>
+          <pb n="55" facs="#f0075"/>
+          <fw type="header" place="top"><hi rendition="#b">Oden und Lieder.</hi></fw>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababcddc">
+            <l>Was? naͤhme denn wohl nicht auch ich</l>
+            <lb/>
+            <l>Mit Theil an ſolchem Wohlergehen?</l>
+            <lb/>
+            <l>Da ich in dieſem Himmelsſtrich</l>
+            <lb/>
+            <l>Doch gar zu gern mag in dem Jahre ſtehen;</l>
+            <lb/>
+            <l>Hier wohnt ja Fried u. Ruh, u. die ſind mein Gewiñ</l>
+            <lb/>
+            <l>Denn ſie erhalten mir die Reben,</l>
+            <lb/>
+            <l>Ey! was iſt hier vor himmliſch Leben!</l>
+            <lb/>
+            <l>O Luſt! ſo wahr ich der October bin.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcddc">
+            <l>Gewiß, ich haͤtte mich gegraͤmt,</l>
+            <lb/>
+            <l>Und bey dereinſtem Wiederkommen</l>
+            <lb/>
+            <l>Mich in das Herz hinein geſchaͤmt,</l>
+            <lb/>
+            <l>Wenn mir der Tod die Bothſchaft abgenommen,</l>
+            <lb/>
+            <l>Die Poſt, von welcher ich ſchon Ueberbringer war,</l>
+            <lb/>
+            <l>Doch die Geſundheit half mir ſtreiten,</l>
+            <lb/>
+            <l>Und ſie beſchleuniget mein Schreiten,</l>
+            <lb/>
+            <l>Gottlob! Gottlob! es hat nicht mehr Gefahr.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababcddc">
+            <l>Dein Erbprinz lebt! o guͤldnes Land!</l>
+            <lb/>
+            <l>Er iſt ſchon wiederum geneſen!</l>
+            <lb/>
+            <l>Die Zeitung mach ich dir bekannt,</l>
+            <lb/>
+            <l>Jch weiß zuvor, wie bange dir geweſen;</l>
+            <lb/>
+            <l>Es lacht der blaſſe Tod, was er nur lachen kann,</l>
+            <lb/>
+            <l>Da ſeine Hinterliſt zernichtet,</l>
+            <lb/>
+            <l>Daß er ſolch Schrecken angerichtet,</l>
+            <lb/>
+            <l>Der dir bereits ſo manchen Tort gethan.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababcddc">
+            <l>Mir ſelber war nicht wohl dabey,</l>
+            <lb/>
+            <l>Die Hoffnung zog ſich auch zuruͤcke,</l>
+            <lb/>
+            <l>Sie machte jaͤmmerlich Geſchrey,</l>
+            <lb/>
+            <l>Sobald ſie die von Thraͤnen feuchten Blicke<lb/>
+              <fw type="sig" place="bottom">D 4</fw><fw type="catch" place="bottom">Auf</fw><lb/>
+              <pb n="56" facs="#f0076"/>
+              <fw type="header" place="top"><hi rendition="#b">Erſtes Buch.</hi></fw></l>
+            <lb/>
+            <l>Auf dieſen ihren Sohn, ſein bleiches Angeſicht</l>
+            <lb/>
+            <l>Der Voͤlker Wunſch und Luſt gelenket,</l>
+            <lb/>
+            <l>Wie ſehr ich aber mich gekraͤnket,</l>
+            <lb/>
+            <l>Das fuͤhl ich noch; beſchreiben kann ichs nicht.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="ababcddc">
+            <l>Ganz anders lautet nun die Poſt,</l>
+            <lb/>
+            <l>Jhr Herzenleute! die ich bringe!</l>
+            <lb/>
+            <l>O Schrecken! weich mit deinem Froſt!</l>
+            <lb/>
+            <l>Nunmehro ſey man wieder guter Dinge!</l>
+            <lb/>
+            <l>Luiſe Dorothee! und Herzog Friederich!</l>
+            <lb/>
+            <l>Durchlauchtigſte! begluͤckte Beyde!</l>
+            <lb/>
+            <l>Jch mehre Dero Eltern-Freude,</l>
+            <lb/>
+            <l>Der Erbprinz lebt! Er lebet ewiglich!</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="ababcddc">
+            <l>Am Jnſelsberg iſt geſtern ſchon</l>
+            <lb/>
+            <l>Die angenehme Poſt erſchollen,</l>
+            <lb/>
+            <l>Jch ſahe dieſem Erden-Sohn</l>
+            <lb/>
+            <l>Vor Freuden Thraͤnen aus den Augen rollen,</l>
+            <lb/>
+            <l>Dabey nun macht er noch ein ſolches Luſtgeſchrey,</l>
+            <lb/>
+            <l>Daß alle Thaͤler vor ihm bebten,</l>
+            <lb/>
+            <l>Doch ihren Reiz dabey belebten,</l>
+            <lb/>
+            <l>Sie ſchmuͤckten ſich wie vor dem Bruder May.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="ababcddc">
+            <l>Noch nicht genug! ich ſeh im Geiſt</l>
+            <lb/>
+            <l>Die hoffnungsvolle Zeit erſcheinen,</l>
+            <lb/>
+            <l>Da, was hier Friedrichs Gnade preiſt,</l>
+            <lb/>
+            <l>Dereinſten wird fuͤr lauter Freuden weinen,</l>
+            <lb/>
+            <l>Wenn Erb-Prinz Friederich erfreut durch<lb/>
+              <hi rendition="#et">Gotha faͤhrt,</hi></l>
+            <lb/>
+            <l>Ey welche Regung! was vor Triebe!</l>
+            <lb/>
+            <l>Du, Deines Volkes Luſt und Liebe!</l>
+            <lb/>
+            <l>Und ja! Er iſt noch mehr als dieſes werth.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Fuͤr</fw>
+          <lb/>
+          <pb n="57" facs="#f0077"/>
+          <fw type="header" place="top"><hi rendition="#b">Oden und Lieder.</hi></fw>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="ababcddc">
+            <l>Fuͤr Sie, glorwuͤrdigſter Regent!</l>
+            <lb/>
+            <l>Jſt dieß Vergnuͤgen aufgehoben!</l>
+            <lb/>
+            <l>Denn wer mich, den October, kennt,</l>
+            <lb/>
+            <l>Der wird auch dieß mein Prophezeyen loben,</l>
+            <lb/>
+            <l>Und die durchlauchtigſte Luiſe Dorothee</l>
+            <lb/>
+            <l>Wird, als ein Weinſtock voller Reben,</l>
+            <lb/>
+            <l>Mit Fuͤrſtenkinder Luſt umgeben;</l>
+            <lb/>
+            <l>Den Erbprinz froͤlich ſehn! ja! es geſcheh!</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="ababcddc">
+            <l>O! dieſer Tag verdient ein Feſt!</l>
+            <lb/>
+            <l>Jch feyr ihn ſelbſt nach meiner Weiſe,</l>
+            <lb/>
+            <l>So viel die Zeit mir uͤbrig laͤßt,</l>
+            <lb/>
+            <l>Bevor ich noch aus dieſer Gegend reiſe;</l>
+            <lb/>
+            <l>Nichts ſoll vor heute mir ſo gut, ſo koſtbar ſeyn,</l>
+            <lb/>
+            <l>Jch ſchone nicht den Saft der Reben,</l>
+            <lb/>
+            <l>Und trink: es ſoll der Erbprinz leben!</l>
+            <lb/>
+            <l>Auch ſelbſt in Jupiters Tockayer-Wein.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="4">
+        <lg type="poem">
+          <head><hi rendition="#b">Der Coffee.</hi></head>
+          <lb/>
+          <dateline>1739.</dateline>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababccdd">
+            <l><hi rendition="#in">E</hi>dler Saft! dich ſoll ich miſſen!</l>
+            <lb/>
+            <l>Bohnen-Trank! du wirſt mir nun</l>
+            <lb/>
+            <l>Auf wie lange Zeit entriſſen,</l>
+            <lb/>
+            <l>O! wie werd ich aͤngſtlich thun!</l>
+            <lb/>
+            <l>Bey dem bangen Seigerſchlage</l>
+            <lb/>
+            <l>Wird die wiederholte Klage</l>
+            <lb/>
+            <l>Jn der Einſamkeit allein</l>
+            <lb/>
+            <l>Mein betruͤbter Troͤſter ſeyn!</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababccdd">
+            <l>Braunes Labſal! Balſam-Tropfen!</l>
+            <lb/>
+            <l>Meiner Seelen Elexir!</l>
+            <lb/>
+            <l>Machſt du andern Herzens-Klopfen,</l>
+            <lb/>
+            <l>O! wie wohl bekamſt du mir!</l>
+            <lb/>
+            <l>Gleich, ſobald ich dich getrunken,</l>
+            <lb/>
+            <l>War auch alles Leid verſunken,</l>
+            <lb/>
+            <l>Weil dein Waſſer immerdar</l>
+            <lb/>
+            <l>Meiner Grillen Suͤndfluth war.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababccdd">
+            <l>Wie entzuͤckend war das Sehen,</l>
+            <lb/>
+            <l>Wenn ich mir die ganze Welt,</l>
+            <lb/>
+            <l>Bey dem Auf- und Niedergehen,</l>
+            <lb/>
+            <l>Jm Coffee-Tiſch fuͤrgeſtellt!</l>
+            <lb/>
+            <l>Du gefielſt mir auf die Weiſe,</l>
+            <lb/>
+            <l>Wie Ulyſſen nach der Reiſe</l>
+            <lb/>
+            <l>Jener Rauch aus Jthaka,</l>
+            <lb/>
+            <l>Wenn ich deine Duͤnſte ſah.</l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">M</fw>
+          <fw type="catch" place="bottom">Jhr</fw>
+          <lb/>
+          <pb n="178" facs="#f0198"/>
+          <fw type="header" place="top"><hi rendition="#b">Drittes Buch.</hi></fw>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababccdd">
+            <l>Jhr ſeyd Urſach, liebſte Bohnen!</l>
+            <lb/>
+            <l>Daß ich oͤfters nachgedacht,</l>
+            <lb/>
+            <l>Wo doch jene Voͤlker wohnen,</l>
+            <lb/>
+            <l>Da man euch hervorgebracht;</l>
+            <lb/>
+            <l>Araber und kluge Tuͤrken!</l>
+            <lb/>
+            <l>Hoͤrt, was eure Fruͤchte wirken!</l>
+            <lb/>
+            <l>Denn ihr Saft, wenn ſie gebrannt,</l>
+            <lb/>
+            <l>Fuͤhret mich in euer Land.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababccdd">
+            <l>Habet Dank, ihr lieben Leute,</l>
+            <lb/>
+            <l>Die ihr euch fuͤr mich bemuͤht;</l>
+            <lb/>
+            <l>Eure Wohlthat ſpuͤhr ich heute</l>
+            <lb/>
+            <l>Jn dem wallenden Gebluͤt.</l>
+            <lb/>
+            <l>Doch, ihr Freunde! laßt euch rathen!</l>
+            <lb/>
+            <l>Schickt ihr euch zu neuen Saaten,</l>
+            <lb/>
+            <l>So laßt einen Acker leer,</l>
+            <lb/>
+            <l>Jch will keine Bohnen mehr.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="ababccdd">
+            <l>Die ihr auf beſchwerten Bretern</l>
+            <lb/>
+            <l>Solche wunderſchoͤne Frucht,</l>
+            <lb/>
+            <l>Ohne Furcht vor Donnerwettern,</l>
+            <lb/>
+            <l>Jn den Morgenlaͤndern ſucht,</l>
+            <lb/>
+            <l>Jhr habt mich bisher verſehen,</l>
+            <lb/>
+            <l>Laßt euch nun die Luſt vergehen,</l>
+            <lb/>
+            <l>Macht das Schiff nicht mehr ſo voll,</l>
+            <lb/>
+            <l>Weil ich kuͤnſtig faſten ſoll.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="ababccdd">
+            <l>Jſt es moͤglich? ſoll ich glauben,</l>
+            <lb/>
+            <l>Daß P ‒ ‒ mich dieſer Luſt</l>
+            <lb/>
+            <l>Denkt auf ewig zu berauben?</l>
+            <lb/>
+            <l>O haͤtt ich das Ding gewußt!</l>
+            <lb/>
+            <l>Eolus, der Herr der Winde,<lb/>
+              <fw type="catch" place="bottom">Haͤtte</fw><lb/>
+              <pb n="179" facs="#f0199"/>
+              <fw type="header" place="top"><hi rendition="#b">Moraliſche Oden.</hi></fw></l>
+            <lb/>
+            <l>Haͤtte mir, als ſeinem Kinde,</l>
+            <lb/>
+            <l>Einen lauen Weſt geſchickt,</l>
+            <lb/>
+            <l>Der mich in mein Land geruͤckt.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="ababccdd">
+            <l>Pfeife, rauchender Gefehrde!</l>
+            <lb/>
+            <l>O! wie wird es um uns ſtehn,</l>
+            <lb/>
+            <l>Wenn ich mit dir ſchelten werde,</l>
+            <lb/>
+            <l>Da ich dich ſoll muͤſſig ſehn!</l>
+            <lb/>
+            <l>Doch, ich kenne deinen Willen,</l>
+            <lb/>
+            <l>Du vertriebeſt mir die Grillen;</l>
+            <lb/>
+            <l>Aber, denk auf Fall und Sturz,</l>
+            <lb/>
+            <l>Brich! mir fehlet Coffee! kurz!</l>
+          </lg>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="ababccdd">
+            <l>Leute! macht kein ſolch Getoͤſe!</l>
+            <lb/>
+            <l>Heute bin ich voll Verdruß,</l>
+            <lb/>
+            <l>Eigenſinnig, zornig, boͤſe,</l>
+            <lb/>
+            <l>Weil ich Coffee miſſen muß;</l>
+            <lb/>
+            <l>Freunde! haltet mir zu gute,</l>
+            <lb/>
+            <l>Wenn bey unterdruͤcktem Muthe</l>
+            <lb/>
+            <l>Mein ſonſt aufgeweckter Geiſt</l>
+            <lb/>
+            <l>Euch die ſchwarzen Zaͤhne weiſt.</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="ababccdd">
+            <l>Fort, ihr Buͤcher! weg Gedanken,</l>
+            <lb/>
+            <l>Die ihr mich ſonſt aufgeweckt!</l>
+            <lb/>
+            <l>Mir geſchieht wie denen Kranken,</l>
+            <lb/>
+            <l>Die der Kummer hingeſtreckt!</l>
+            <lb/>
+            <l>Haͤnge, Leyer! ſpringt, ihr Sayten!</l>
+            <lb/>
+            <l>Mich geluͤſtet nach den Zeiten,</l>
+            <lb/>
+            <l>Da ich mit Coffee erqvickt,</l>
+            <lb/>
+            <l>Was das Herzeleid erſtickt.</l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="ababccdd">
+            <l>Wie? was ſteigt mir in die Naſen?</l>
+            <lb/>
+            <l>Welch ein lieblicher Geruch<lb/>
+              <fw type="sig" place="bottom">M 2</fw><fw type="catch" place="bottom">Wirkt</fw><lb/>
+              <pb n="180" facs="#f0200"/>
+              <fw type="header" place="top"><hi rendition="#b">Drittes Buch.</hi></fw></l>
+            <lb/>
+            <l>Wirkt in mir ein kuͤtzelnd Raſen?</l>
+            <lb/>
+            <l>O! itzt aͤndert ſich der Spruch!</l>
+            <lb/>
+            <l>Angenehme Botſchafts-Fuͤſſe!</l>
+            <lb/>
+            <l>Kommt, und macht die Stunden ſuͤſſe,</l>
+            <lb/>
+            <l>Gnug, mein letzter Groſchen klingt,</l>
+            <lb/>
+            <l>Da ihr mir mein Labſal bringt.</l>
+          </lg>
+          <lb/>
+          <lg n="12" type="stanza" rhyme="ababccdd">
+            <l>Hoͤrt ihrs, Bruͤder! laſſt es bleiben!</l>
+            <lb/>
+            <l>Laſſt die Aecker, wie ſie ſind!</l>
+            <lb/>
+            <l>Die ihr Handlung pflegt zu treiben,</l>
+            <lb/>
+            <l>Euch verfolge guter Wind;</l>
+            <lb/>
+            <l>Anders hab ich mich beſonnen,</l>
+            <lb/>
+            <l>Weil die Hoffnung Kraſt gewonnen,</l>
+            <lb/>
+            <l>Daß ich, was mir Guts gethan,</l>
+            <lb/>
+            <l>Kuͤnftig noch genieſſen kann.</l>
+          </lg>
+          <lb/>
+          <lg n="13" type="stanza" rhyme="ababccdd">
+            <l>Kommt, ihr Buͤcher! luſtig, Grillen!</l>
+            <lb/>
+            <l>Schwaͤrmet! neue Pfeifen her!</l>
+            <lb/>
+            <l>Gram und Kummer laͤſſt ſich ſtillen</l>
+            <lb/>
+            <l>Durch dieß flieſſende Gewehr!</l>
+            <lb/>
+            <l>Bey Verluſt des Theils am Erbe!</l>
+            <lb/>
+            <l>Kinder! wenn ich einſten ſterbe!</l>
+            <lb/>
+            <l>Laſſt mein Grab und Leichenſtein</l>
+            <lb/>
+            <l>Rund, wie der Coffeetiſch ſeyn.</l>
+          </lg>
+          <lb/>
+          <lg n="14" type="stanza" rhyme="ababccdd">
+            <l>Sollt ich auch die Struͤmpfe miſſen,</l>
+            <lb/>
+            <l>Gnug, der Coffee ſchmeckt mir nun!</l>
+            <lb/>
+            <l>Jſt es hie und da zerriſſen,</l>
+            <lb/>
+            <l>Kann ich mir nur guͤtlich thun!</l>
+            <lb/>
+            <l>Findet bey dem Glockenſchlage</l>
+            <lb/>
+            <l>Sich in Zukunft Noth und Plage,</l>
+            <lb/>
+            <l>Gebt mir Coffee! der allein</l>
+            <lb/>
+            <l>Soll mein beſter Troͤſter ſeyn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="5">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#in">T</hi>roͤſte dich, betruͤbtes Herze,</l>
+            <lb/>
+            <l>Nun iſt die Gefahr vorbey!</l>
+            <lb/>
+            <l>Wiſſe, daß des Himmels Schwaͤrze</l>
+            <lb/>
+            <l>Keiner Welt mehr toͤdtlich ſey,</l>
+            <lb/>
+            <l>Weil, was Luft und Himmel truͤbt,</l>
+            <lb/>
+            <l>Der Natur das Leben giebt.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababcc">
+            <l>Alle Wetter moͤgen raſen,</l>
+            <lb/>
+            <l>Bis ſich Baum und Wurzel hebt,</l>
+            <lb/>
+            <l>Zwey und dreyſſig Winde blaſen,</l>
+            <lb/>
+            <l>Daß des Himmels Veſte bebt!</l>
+            <lb/>
+            <l>Fallen Waſſer auf uns her,</l>
+            <lb/>
+            <l>Koͤmmt doch keine Suͤndfluth mehr.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcc">
+            <l>Jetzt erſcheint der Regenbogen</l>
+            <lb/>
+            <l>Mit der Farben bunter Pracht;</l>
+            <lb/>
+            <l>Dieſen Strich hat GOtt gezogen,</l>
+            <lb/>
+            <l>Als Er einen Bund gemacht,</l>
+            <lb/>
+            <l>Daß kein langer Wolken-Guß</l>
+            <lb/>
+            <l>Alles Fleiſch mehr toͤdten muß.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababcc">
+            <l>Ey! wie blick ich voll Vergnuͤgen</l>
+            <lb/>
+            <l>Dieſes Gnaden-Zeichen an!<lb/>
+              <fw type="catch" place="bottom">Weil</fw><lb/>
+              <pb n="128" facs="#f0148"/>
+              <fw type="header" place="top"><hi rendition="#b">Zweytes Buch.</hi></fw></l>
+            <lb/>
+            <l>Weil des Hoͤchſten Mund nicht truͤgen,</l>
+            <lb/>
+            <l>Und mich hintergehen kann;</l>
+            <lb/>
+            <l>Er gedenkt an ſeinen Bund,</l>
+            <lb/>
+            <l>Dieſes Zeichen macht es kund.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababcc">
+            <l>Schoͤpfer! Wie biſt Du zu preiſen,</l>
+            <lb/>
+            <l>Daß Du ſo die Menſchen liebſt!</l>
+            <lb/>
+            <l>Und, um deine Huld zu weiſen,</l>
+            <lb/>
+            <l>Dieſen ſchoͤnen Bogen giebſt,</l>
+            <lb/>
+            <l>Der die ganze Welt belehrt,</l>
+            <lb/>
+            <l>Daß die Suͤndfluth aufgehoͤrt.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="ababcc">
+            <l>O! ich falle Dir zu Fuͤſſen,</l>
+            <lb/>
+            <l>Weſen voller Majeſtaͤt!</l>
+            <lb/>
+            <l>Weil Du mich dadurch laͤßſt wiſſen,</l>
+            <lb/>
+            <l>Daß dein Zorn fuͤruͤber geht,</l>
+            <lb/>
+            <l>Und mein Herz verſichert iſt,</l>
+            <lb/>
+            <l>Daß Du lieber gnaͤdig biſt.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="ababcc">
+            <l>Ach! ich danke deinem Nahmen,</l>
+            <lb/>
+            <l>Guͤtigſte Allgegenwart!</l>
+            <lb/>
+            <l>Daß Du mich aus Adams Saamen</l>
+            <lb/>
+            <l>Fuͤr dem Untergang geſpart,</l>
+            <lb/>
+            <l>Und, da ich viel Schuld gehaͤuft,</l>
+            <lb/>
+            <l>Durch die Suͤndfluth nicht erſaͤuft.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="ababcc">
+            <l>Wenn das Waſſer meiner Suͤnden</l>
+            <lb/>
+            <l>Mir bis an die Seele trit,</l>
+            <lb/>
+            <l>Will der Hoffnung Troſt verſchwinden,</l>
+            <lb/>
+            <l>So ergetze mich damit,</l>
+            <lb/>
+            <l>Und laß deiner Gnaden Schein</l>
+            <lb/>
+            <l>Einen Regenbogen ſeyn.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Men-</fw>
+          <lb/>
+          <pb n="129" facs="#f0149"/>
+          <fw type="header" place="top"><hi rendition="#b">Geiſtliche Oden.</hi></fw>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="ababcc">
+            <l>Menſchenfreund! der alle Baͤche</l>
+            <lb/>
+            <l>Belials mit Blut beſpritzt,</l>
+            <lb/>
+            <l>Welcher bey der groͤßten Schwaͤche</l>
+            <lb/>
+            <l>Groſſe Felſen aufgeritzt,</l>
+            <lb/>
+            <l>Deine Seite kommet mir</l>
+            <lb/>
+            <l>Wie des Noah Kaſten fuͤr.</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="ababcc">
+            <l>Heyland! wenn die frechen Suͤnder</l>
+            <lb/>
+            <l>Deines Zornes Rechte ſtraft,</l>
+            <lb/>
+            <l>Und die boͤſen Menſchenkinder</l>
+            <lb/>
+            <l>Zu den Schwefelbaͤchen rafft,</l>
+            <lb/>
+            <l>Soll der Tauben Augenſchein</l>
+            <lb/>
+            <l>Mir ein Regenbogen ſeyn.</l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="ababcc">
+            <l>Zittern einſt des Himmels Saͤulen,</l>
+            <lb/>
+            <l>Bricht der Erden Wunderbau,</l>
+            <lb/>
+            <l>Ey da werd ich nicht verweilen,</l>
+            <lb/>
+            <l>Bis ich Dich in Wolken ſchau,</l>
+            <lb/>
+            <l>Wo des Regenbogens Pracht</l>
+            <lb/>
+            <l>Unter deinen Fuͤſſen lacht.</l>
+          </lg>
+          <lb/>
+          <lg n="12" type="stanza" rhyme="ababcc">
+            <l>Troͤſter der betruͤbten Seelen!</l>
+            <lb/>
+            <l>Wenn mein Herz in Thraͤnen ſchwimmt,</l>
+            <lb/>
+            <l>Und zu denen Felſenhoͤhlen</l>
+            <lb/>
+            <l>Seine beſte Zuflucht nimmt,</l>
+            <lb/>
+            <l>Sey die Taube, die mir zeigt,</l>
+            <lb/>
+            <l>Daß nunmehr die Fluth verſeigt.</l>
+          </lg>
+          <lb/>
+          <lg n="13" type="stanza" rhyme="ababcc">
+            <l>GOTT! groß uͤber alle Goͤtter!</l>
+            <lb/>
+            <l>Dreymahl Ein, dem Dank gebuͤhrt!<lb/>
+              <fw type="sig" place="bottom">J</fw><fw type="catch" place="bottom">Schoͤpfer!</fw><lb/>
+              <pb n="130" facs="#f0150"/>
+              <fw type="header" place="top"><hi rendition="#b">Zweytes Buch.</hi></fw></l>
+            <lb/>
+            <l>Schoͤpfer! Menſchenfreund! Erretter!</l>
+            <lb/>
+            <l>Der den Bogen aufgefuͤhrt;</l>
+            <lb/>
+            <l>Wetter ſchrecken mich nicht mehr,</l>
+            <lb/>
+            <l>Dafuͤr ſey Dir Lob und Ehr.</l>
+          </lg>
+          <lb/>
+          <lg n="14" type="stanza" rhyme="ababcc">
+            <l>Welches Schrecken, Furcht und Beben,</l>
+            <lb/>
+            <l>Angſt, Verzweiflung, Traurigkeit,</l>
+            <lb/>
+            <l>Wuͤrden ſtets mein Herz umgeben,</l>
+            <lb/>
+            <l>Wenn die Luft mit Regen draͤut,</l>
+            <lb/>
+            <l>Alle Stunden ſtellt ich mir</l>
+            <lb/>
+            <l>Eine neue Suͤndfluth fuͤr.</l>
+          </lg>
+          <lb/>
+          <lg n="15" type="stanza" rhyme="ababcc">
+            <l>Doch nun kann ich ſtetig trauen,</l>
+            <lb/>
+            <l>Es iſt oben ſicher gnung,</l>
+            <lb/>
+            <l>Deiner Allmacht Unterbauen</l>
+            <lb/>
+            <l>Zeigt mir die Verſicherung,</l>
+            <lb/>
+            <l>Die Du der erhaltnen Welt</l>
+            <lb/>
+            <l>Jn den Wolken aufgeſtellt.</l>
+          </lg>
+          <lb/>
+          <lg n="16" type="stanza" rhyme="ababcc">
+            <l>Nach dem Zeichen will ich blicken,</l>
+            <lb/>
+            <l>Wenn ich voller Aengſten bin;</l>
+            <lb/>
+            <l>Will der Himmel Wetter ſchicken,</l>
+            <lb/>
+            <l>So dreh ich die Augen hin,</l>
+            <lb/>
+            <l>Wo mir, eh ich noch vermeynt,</l>
+            <lb/>
+            <l>Gnade, Troſt und Huͤlf erſcheint.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="6">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabcbc">
+            <l>Jndem der<lb/>
+              <hi rendition="#b">Herr von Poͤllnitz</hi><lb/> eben<lb/>
+              <hi rendition="#b">Hier ſeine Hochzeit-Feyer haͤlt</hi></l>
+            <lb/>
+            <l>mit ſeiner<lb/>
+              <hi rendition="#b"><hi rendition="#g">Fraͤulein von Witzleben</hi>,</hi><lb/> wobey
+              auch ich mich eingeſtellt,</l>
+            <lb/>
+            <l>ſo ſucht,<lb/>
+              <hi rendition="#b">nebſt andern guten Leuten, die gleich allda</hi><lb/> zugegen
+              ſeyn,</l>
+            <lb/>
+            <l>auch Jhnen etwas anzudeuten<lb/> der<lb/>
+              <hi rendition="#b">Winter um den Liebenſtein.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="7">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#in">D</hi>ie Sonne neiget ſich in Weſten,</l>
+            <lb/>
+            <l>Und geht den Gegenfuͤſſern auf,</l>
+            <lb/>
+            <l>Jch armer Menſch! ich weiß am beſten</l>
+            <lb/>
+            <l>Um meinen ganzen Lebenslauf!</l>
+            <lb/>
+            <l>Ach! mein Gewiſſen troͤſtet nicht!</l>
+            <lb/>
+            <l>HERR! geh nicht mit mir ins Gericht!</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababcc">
+            <l>Wie wohl ich dieſes Tages Stunden</l>
+            <lb/>
+            <l>Zu meiner Wohlfahrt angewandt,</l>
+            <lb/>
+            <l>Bis ſich die Daͤmmrung eingefunden,</l>
+            <lb/>
+            <l>Jſt GOtt und mir allein bekannt;</l>
+            <lb/>
+            <l>Bin ich von Schuld und Suͤnden rein?</l>
+            <lb/>
+            <l>Das Fleiſch ſpricht ja! der Geiſt ſagt: nein!</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcc">
+            <l>Jch hatte fruͤh, bey dem Erwachen,</l>
+            <lb/>
+            <l>Und als es wiederum getagt,</l>
+            <lb/>
+            <l>Den Himmel mir zum Freund zu machen,</l>
+            <lb/>
+            <l>Ein neues Leben zugeſagt,</l>
+            <lb/>
+            <l>Von alten Suͤnden abzuſtehn,</l>
+            <lb/>
+            <l>Hielt ich es aber auch? wie ſchoͤn!</l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">J 2</fw>
+          <fw type="catch" place="bottom">Es</fw>
+          <lb/>
+          <pb n="132" facs="#f0152"/>
+          <fw type="header" place="top"><hi rendition="#b">Zweytes Buch.</hi></fw>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababcc">
+            <l>Es wird mir angſt! ach! wie ſo bange!</l>
+            <lb/>
+            <l>Jtzt ſeh ich meiner Suͤnden Heer!</l>
+            <lb/>
+            <l>Und wenn ich an zu rechnen fange,</l>
+            <lb/>
+            <l>So find ich ſie, wie Sand am Meer,</l>
+            <lb/>
+            <l>O Ungluͤck! hoͤrt! ja ja! ſie ſchreyn:</l>
+            <lb/>
+            <l>GOtt wird nunmehro Richter ſeyn!</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababcc">
+            <l>Wo ſoll ich hin vor deinem Geiſte,</l>
+            <lb/>
+            <l>Allgegenwaͤrtiger! wohin?</l>
+            <lb/>
+            <l>Und wenn ich in die Hoͤlle reiſte,</l>
+            <lb/>
+            <l>Ja, wollt ich in den Himmel fliehn,</l>
+            <lb/>
+            <l>So ſchnell als man gedenken kan,</l>
+            <lb/>
+            <l>Jch traͤf Dich allenthalben an.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="ababcc">
+            <l>Du biſt gerecht! ich muß mich ſchaͤmen,</l>
+            <lb/>
+            <l>GOTT, groſſer GOtt, du biſt gerecht,</l>
+            <lb/>
+            <l>Du kannſt mir nun den Himmel nehmen,</l>
+            <lb/>
+            <l>Jch bin der Suͤnden treuer Knecht,</l>
+            <lb/>
+            <l>Als der ſich ſelber zuerkennt,</l>
+            <lb/>
+            <l>Daß unter ihm die Hoͤlle brennt.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="ababcc">
+            <l>Sie brennt! dein Zorn hat ſie entzuͤndet,</l>
+            <lb/>
+            <l>Dein Eifer ſelbſten angeſteckt,</l>
+            <lb/>
+            <l>HErr! deine Rach iſt wohlgegruͤndet,</l>
+            <lb/>
+            <l>Mein Boͤslichthun hat ſie erweckt,</l>
+            <lb/>
+            <l>Und wenn ſie itzt mit mir verfaͤhrt,</l>
+            <lb/>
+            <l>Jch bin es leider allzuwerth.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Allein</fw>
+          <lb/>
+          <pb n="133" facs="#f0153"/>
+          <fw type="header" place="top"><hi rendition="#b">Geiſtliche Oden.</hi></fw>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="ababcc">
+            <l>Allein Du haſt doch auch geſaget:</l>
+            <lb/>
+            <l>Du ſeyeſt voll Barmherzigkeit,</l>
+            <lb/>
+            <l>Drum hoͤre, was mein Glaube waget;</l>
+            <lb/>
+            <l>Mein reuendes Gewiſſen ſchreyt:</l>
+            <lb/>
+            <l>Verſchließ die Hoͤlle noch einmahl</l>
+            <lb/>
+            <l>Vor meiner Suͤnden groſſer Zahl.</l>
+          </lg>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="ababcc">
+            <l>Sey gnaͤdig, HErr! ach! Gnade! Gnade!</l>
+            <lb/>
+            <l>Vertilge meine Miſſethat!</l>
+            <lb/>
+            <l>Was in dem erſten Waſſerbade</l>
+            <lb/>
+            <l>Der Suͤnder angelobet hat,</l>
+            <lb/>
+            <l>Verſprech ich itzt mit Herz und Mund,</l>
+            <lb/>
+            <l>Darum erneure jenen Bund.</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="ababcc">
+            <l>Mit Thraͤnen fall ich Dir zu Fuſſe,</l>
+            <lb/>
+            <l>Vergieb, HErr! habe doch Geduld!</l>
+            <lb/>
+            <l>Erzuͤrnter Richter! meine Buſſe</l>
+            <lb/>
+            <l>Geſtehet die gemachte Schuld;</l>
+            <lb/>
+            <l>HErr! werde Vater! und denn ſprich:</l>
+            <lb/>
+            <l>Mein Sohn, Kind, hat bezahlt fuͤr dich.</l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="ababcc">
+            <l>Laß dieſes Troſtwort mich empfinden:</l>
+            <lb/>
+            <l>Geh hin, die Schuld iſt ausgethan!</l>
+            <lb/>
+            <l>Laß deinen Geiſt mein Herz entzuͤnden,</l>
+            <lb/>
+            <l>Daß es gelaͤutert werden kann,</l>
+            <lb/>
+            <l>Damit es Satan, Fleiſch und Welt</l>
+            <lb/>
+            <l>Nicht wieder in die Grube faͤllt.</l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">J 3</fw>
+          <fw type="catch" place="bottom">Dein</fw>
+          <lb/>
+          <pb n="134" facs="#f0154"/>
+          <fw type="header" place="top"><hi rendition="#b">Zweytes Buch.</hi></fw>
+          <lb/>
+          <lg n="12" type="stanza" rhyme="ababcc">
+            <l>Dein gnaͤdig Ohr neig zu dem Liede,</l>
+            <lb/>
+            <l>Die Andacht, Schoͤpfer! bringt es Dir,</l>
+            <lb/>
+            <l>Denn lieg und ſchlaf ich ſanft im Friede,</l>
+            <lb/>
+            <l>HERR! Du alleine hilfſt ja mir,</l>
+            <lb/>
+            <l>Du haſt mit mir Vertrag gemacht,</l>
+            <lb/>
+            <l>Drum hoff ich eine gute Nacht.</l>
+          </lg>
+          <lb/>
+          <lg n="13" type="stanza" rhyme="ababcc">
+            <l>Vorhero ſey, HErr meiner Tage!</l>
+            <lb/>
+            <l>Dir noch ein Opfer zubereit,</l>
+            <lb/>
+            <l>Daß Du fuͤr mancher Noth und Plage</l>
+            <lb/>
+            <l>Mich haſt beſchuͤtzt, davon befreyt;</l>
+            <lb/>
+            <l>Welch unausſprechlicher Gewinn!</l>
+            <lb/>
+            <l>Dein iſt, daß ich noch wirklich bin.</l>
+          </lg>
+          <lb/>
+          <lg n="14" type="stanza" rhyme="ababcc">
+            <l>GOTT, mein Erhalter, ja, mein Leben!</l>
+            <lb/>
+            <l>Von Dir kommt alle Wohlthat her,</l>
+            <lb/>
+            <l>Geſundheit haſt Du mir gegeben,</l>
+            <lb/>
+            <l>Witz, Nahrung, Kleider, ja weit mehr,</l>
+            <lb/>
+            <l>Als ich erzehlen kann und weiß,</l>
+            <lb/>
+            <l>Hier iſt mein Dank! GOtt! Dir ſey Preis!</l>
+          </lg>
+          <lb/>
+          <lg n="15" type="stanza" rhyme="ababcc">
+            <l>Hab ich bey manchen Kuͤmmerniſſen</l>
+            <lb/>
+            <l>Verſorgungs-Mitteln nachgedacht,</l>
+            <lb/>
+            <l>So hat mein eingeſchraͤnktes Wiſſen</l>
+            <lb/>
+            <l>Darinnen gar nichts vor ſich bracht,</l>
+            <lb/>
+            <l>Weil aller Rath, Witz und Verſtand</l>
+            <lb/>
+            <l>Mir mit der Hoffnung oft verſchwand.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">War</fw>
+          <lb/>
+          <pb n="135" facs="#f0155"/>
+          <fw type="header" place="top"><hi rendition="#b">Geiſtliche Oden.</hi></fw>
+          <lb/>
+          <lg n="16" type="stanza" rhyme="ababcc">
+            <l>War ich denn manchem Mangel nahe,</l>
+            <lb/>
+            <l>Ja ſah ich keine Rettung mehr,</l>
+            <lb/>
+            <l>So wußt ich nicht, wie mir geſchahe,</l>
+            <lb/>
+            <l>Du gabſt aus deinem Vorrath her,</l>
+            <lb/>
+            <l>Die Milde deiner Vorſehung</l>
+            <lb/>
+            <l>Verſchaffete mir alles gnung.</l>
+          </lg>
+          <lb/>
+          <lg n="17" type="stanza" rhyme="ababcc">
+            <l>Und ſo haſt Du Dich mir erwieſen,</l>
+            <lb/>
+            <l>Durch meiner Lebens-Monden Zahl,</l>
+            <lb/>
+            <l>Dein Nahme ſey dafuͤr geprieſen,</l>
+            <lb/>
+            <l>Mir heißt es ein Gedaͤchtnißmahl,</l>
+            <lb/>
+            <l>Dich preis ich mitten im Genuß</l>
+            <lb/>
+            <l>Dafuͤr, bey jedes Tages Schluß.</l>
+          </lg>
+          <lb/>
+          <lg n="18" type="stanza" rhyme="ababcc">
+            <l>Bin ich durch dein Erhalten morgen,</l>
+            <lb/>
+            <l>Mein Urſprung! was ich heute bin,</l>
+            <lb/>
+            <l>Gut! ſo wirſt Du auch ferner ſorgen,</l>
+            <lb/>
+            <l>Vor Dir legt meine Noth ſich hin,</l>
+            <lb/>
+            <l>Mein Zuſtand ſey Dir heimgeſtellt,</l>
+            <lb/>
+            <l>GOtt, richt ihn ein, wie Dir gefaͤllt.</l>
+          </lg>
+          <lb/>
+          <lg n="19" type="stanza" rhyme="ababcc">
+            <l>Laß Du mich nur zufrieden bleiben,</l>
+            <lb/>
+            <l>Und ſchenke mir Gelaſſenheit,</l>
+            <lb/>
+            <l>Auch daß mich nichts von Dir kann treiben,</l>
+            <lb/>
+            <l>Obgleich Welt, Suͤnd und Teufel ſchreyt:</l>
+            <lb/>
+            <l>Komm! folge dieſer ebnen Bahn,</l>
+            <lb/>
+            <l>Hier triffſt du lauter Fruͤhling an!</l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">J 4</fw>
+          <fw type="catch" place="bottom">So</fw>
+          <lb/>
+          <pb n="136" facs="#f0156"/>
+          <fw type="header" place="top"><hi rendition="#b">Zweytes Buch.</hi></fw>
+          <lb/>
+          <lg n="20" type="stanza" rhyme="ababcc">
+            <l>So laß mich bis ans Ende wallen,</l>
+            <lb/>
+            <l>Und rufſt Du mich, mein HErr, mein GOtt!</l>
+            <lb/>
+            <l>Dereinſt nach deinem Wohlgefallen,</l>
+            <lb/>
+            <l>Wenn mich der letzte Feind, der Tod,</l>
+            <lb/>
+            <l>Auf Erdenbetten ausgeſtreckt,</l>
+            <lb/>
+            <l>So halte Du mich zugedeckt.</l>
+          </lg>
+          <lb/>
+          <lg n="21" type="stanza" rhyme="ababcc">
+            <l>Dieß bringe mir in die Gedanken,</l>
+            <lb/>
+            <l>Mein GOtt! ſo oft es Abend wird,</l>
+            <lb/>
+            <l>Daß ich von Dir nicht moͤge wanken,</l>
+            <lb/>
+            <l>Wenn mich dein guter Geiſt regiert,</l>
+            <lb/>
+            <l>So werd ich dermahleinſten ſchoͤn</l>
+            <lb/>
+            <l>Am letzten Morgen auferſtehn.</l>
+          </lg>
+          <lb/>
+          <lg n="22" type="stanza" rhyme="ababcc">
+            <l>HERR! den die Seraphin erheben,</l>
+            <lb/>
+            <l>Allwiſſender! in deiner Hand</l>
+            <lb/>
+            <l>Beruht mein Sterben und mein Leben,</l>
+            <lb/>
+            <l>Und was Du mir ſonſt zugewandt,</l>
+            <lb/>
+            <l>Dich preis ich noch, nun ſchlaf ich ein,</l>
+            <lb/>
+            <l>Du wirſt indeſſen Huͤter ſeyn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="8">
+        <lg type="poem">
+          <head><hi rendition="#b">Der Lobgeſang Moſis.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="aabbcdcd">
+            <l><hi rendition="#in">D</hi>er HERR iſt! Dieſem will ich ſingen!</l>
+            <lb/>
+            <l>Mein Loblied ſoll von Jhm erklingen:</l>
+            <lb/>
+            <l>Denn Er hat eine That gethan,</l>
+            <lb/>
+            <l>Die man nicht gnug erheben kann;</l>
+            <lb/>
+            <l>Der Kriegesheere, Roſſe, Wagen</l>
+            <lb/>
+            <l>Jetzt in das Meer geſtuͤrzet hat,</l>
+            <lb/>
+            <l>Von dieſem Wunder will ich ſagen,</l>
+            <lb/>
+            <l>Entzuͤcket ruͤhmt mein Geiſt die That!</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabbcdcd">
+            <l>Der HErr iſt meine Kraft und Staͤrke,</l>
+            <lb/>
+            <l>Mein Lobgeſang preiſt ſeine Werke,</l>
+            <lb/>
+            <l>Der HErr! der Hoͤchſte! GOtt! mein Heyl!</l>
+            <lb/>
+            <l>O du mein auserwaͤhlter Theil!</l>
+            <lb/>
+            <l>Das iſt mein GOtt! ich will Jhn preiſen,</l>
+            <lb/>
+            <l>Auch meines Vaters GOtt iſt Er,</l>
+            <lb/>
+            <l>Jhm will ich dankbar mich erweiſen,</l>
+            <lb/>
+            <l>Erheben will ich Jhn noch mehr!</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="aabbcdcd">
+            <l>Der HErr, das iſt der rechte Streiter,</l>
+            <lb/>
+            <l>HERR iſt ſein Nahme! Wagen, Reiter,</l>
+            <lb/>
+            <l>Des Pharaonis Macht, ſein Heer</l>
+            <lb/>
+            <l>Warf Er allein jetzt in das Meer,</l>
+            <lb/>
+            <l>Die Haͤupter, ſo ſich der erleſen,</l>
+            <lb/>
+            <l>Die Helden ſah man erſt noch hie,</l>
+            <lb/>
+            <l>Nun aber ſind ſie da geweſen,</l>
+            <lb/>
+            <l>Jm Schilfmeer dort verſunken ſie.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="aabbcdcd">
+            <l>Die Tiefe deckt ſie dieſe Stunde,</l>
+            <lb/>
+            <l>Sie fielen alleſammt zu Grunde,<lb/>
+              <fw type="catch" place="bottom">Wie</fw><lb/>
+              <pb n="111" facs="#f0131"/>
+              <fw type="header" place="top"><hi rendition="#b">Geiſtliche Oden.</hi></fw></l>
+            <lb/>
+            <l>Wie Steine ploͤtzlich und geſchwind</l>
+            <lb/>
+            <l>Jm Waſſer untergangen ſind;</l>
+            <lb/>
+            <l>HErr! was fuͤr uͤbergroſſe Wunder</l>
+            <lb/>
+            <l>Verrichtet deine rechte Hand!</l>
+            <lb/>
+            <l>Die Feinde hat ſie erſt jetzunder</l>
+            <lb/>
+            <l>Begraben in des Meeres Sand.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="aabbcdcd">
+            <l>Die Widerſacher ſind geſtuͤrzet,</l>
+            <lb/>
+            <l>Die Raſerey iſt abgekuͤrzet</l>
+            <lb/>
+            <l>Durch deine groſſe Herrlichkeit,</l>
+            <lb/>
+            <l>O HErr GOTT! maͤchtig in dem Streit!</l>
+            <lb/>
+            <l>Jndem Du deinen Grimm auslieſſeſt,</l>
+            <lb/>
+            <l>War ihre Macht ſchon umgekehrt,</l>
+            <lb/>
+            <l>Eh Du Dich noch gewaltig wieſeſt;</l>
+            <lb/>
+            <l>Wie Stoppeln hat Er ſie verzehrt.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="aabbcdcd">
+            <l>Du blieſeſt, und die Waſſer flohen,</l>
+            <lb/>
+            <l>Allmaͤchtiger! vor deinem Drohen,</l>
+            <lb/>
+            <l>Die Fluthen ſtunden in dem Lauf,</l>
+            <lb/>
+            <l>Und hielten ihre Wellen auf,</l>
+            <lb/>
+            <l>Es wallete die groſſe Tiefe</l>
+            <lb/>
+            <l>Ganz von einander in dem Meer,</l>
+            <lb/>
+            <l>Weil das Gewaͤſſer nicht mehr liefe;</l>
+            <lb/>
+            <l>Wie Berge ſtund es um uns her.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="aabbcdcd">
+            <l>Da ſprach das feindliche Verlangen:</l>
+            <lb/>
+            <l>Nun jag ich nach, und will ſie fangen,</l>
+            <lb/>
+            <l>Nun iſt in meiner Hand ihr Gut;</l>
+            <lb/>
+            <l>Jch aber kuͤhle meinen Muth,</l>
+            <lb/>
+            <l>Und meine Hand ſoll ſie verderben,</l>
+            <lb/>
+            <l>Jch ziehe das gewetzte Schwerd,</l>
+            <lb/>
+            <l>Durch dieſes ſoll der Haufe ſterben,</l>
+            <lb/>
+            <l>Nichts anders iſt die Rotte werth.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Allein</fw>
+          <lb/>
+          <pb n="112" facs="#f0132"/>
+          <fw type="header" place="top"><hi rendition="#b">Zweytes Buch.</hi></fw>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="aabbcdcd">
+            <l>Allein da blieſen deine Winde,</l>
+            <lb/>
+            <l>Und gleich bedeckte dieß Geſinde</l>
+            <lb/>
+            <l>Das Meer, ſo uͤber ſie ſich goß,</l>
+            <lb/>
+            <l>Und wieder als vorhero floß;</l>
+            <lb/>
+            <l>Jhr ploͤtzlich Sinken war noch groͤſſer,</l>
+            <lb/>
+            <l>Jhr Untergang geſchwinder faſt,</l>
+            <lb/>
+            <l>Als Bley im maͤchtigen Gewaͤſſer,</l>
+            <lb/>
+            <l>Mit aller ſeiner ſchweren Laſt.</l>
+          </lg>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="aabbcdcd">
+            <l>Wer iſt Dir gleich, GOtt! unter Goͤttern?</l>
+            <lb/>
+            <l>Wer gleichet Dir von Wunderthaͤtern?</l>
+            <lb/>
+            <l>HErr! wo iſt Dir wohl iemand gleich?</l>
+            <lb/>
+            <l>An unumſchraͤnkter Macht ſo reich?</l>
+            <lb/>
+            <l>Wen kan man wohl ſo heilig nennen?</l>
+            <lb/>
+            <l>Wer iſt ſo ſchrecklich als wie Du?</l>
+            <lb/>
+            <l>Wer wird ſo loͤblich handeln koͤnnen,</l>
+            <lb/>
+            <l>Wer richtet ſolche Wunder zu?</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="aabbcdcd">
+            <l>Du ſtreckeſt die ſonſt milde Rechte,</l>
+            <lb/>
+            <l>O weh dir, feindliches Geſchlechte!</l>
+            <lb/>
+            <l>Wo ſeyd ihr, die das Schwerd gezuckt?</l>
+            <lb/>
+            <l>Die Erde hat ſie ſchon verſchluckt;</l>
+            <lb/>
+            <l>Du haſt dein Jſrael geleitet,</l>
+            <lb/>
+            <l>Das Du ſo wunderbar befreyt,</l>
+            <lb/>
+            <l>Und haſt durch Staͤrk ihr Haus bereitet,</l>
+            <lb/>
+            <l>Sie wandeln durch Barmherzigkeit.</l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="aabbcdcd">
+            <l>Die Voͤlker hoͤren dieß! ſie beben!</l>
+            <lb/>
+            <l>Philiſter ſind mit Angſt umgeben!</l>
+            <lb/>
+            <l>Die Fuͤrſten Edom ſchreckt die Poſt!</l>
+            <lb/>
+            <l>Und alle wiſſen keinen Troſt!<lb/>
+              <fw type="catch" place="bottom">Die</fw><lb/>
+              <pb n="113" facs="#f0133"/>
+              <fw type="header" place="top"><hi rendition="#b">Geiſtliche Oden.</hi></fw></l>
+            <lb/>
+            <l>Die Starken Moab ſeh ich zittern,</l>
+            <lb/>
+            <l>Die Voͤlker dort in Canaan</l>
+            <lb/>
+            <l>Sind, wegen Furcht vor Ungewittern,</l>
+            <lb/>
+            <l>Mit Feigheit ſaͤmmtlich angethan.</l>
+          </lg>
+          <lb/>
+          <lg n="12" type="stanza" rhyme="aabbcdcd">
+            <l>Zeig deinen Arm zum Schrecken allen!</l>
+            <lb/>
+            <l>Laß deine Furcht ſie uͤberfallen!</l>
+            <lb/>
+            <l>Sie muͤſſen dadurch wie ein Stein</l>
+            <lb/>
+            <l>Erſtarrt und kalt geworden ſeyn,</l>
+            <lb/>
+            <l>Bis, HErr! dein Volk in ſeinem Gange</l>
+            <lb/>
+            <l>Zu der ihm vorbeſtimmten Raſt</l>
+            <lb/>
+            <l>Jn Sicherheit hindurch gelange,</l>
+            <lb/>
+            <l>Dein Volk, das Du erworben haſt.</l>
+          </lg>
+          <lb/>
+          <lg n="13" type="stanza" rhyme="aabbcdcd">
+            <l>Dieß ſey hinfuͤhro dein Gewerbe,</l>
+            <lb/>
+            <l>Bring ſie hinein! in deinem Erbe,</l>
+            <lb/>
+            <l>Auf jenem Berge, welchen Du,</l>
+            <lb/>
+            <l>HErr! auserſehn zu deiner Ruh,</l>
+            <lb/>
+            <l>Da pflanze ſie der Macht zum Ruhme,</l>
+            <lb/>
+            <l>Die ſtets von deiner Groͤſſe ſpricht,</l>
+            <lb/>
+            <l>Zu deinem ſchoͤnen Heiligthume,</l>
+            <lb/>
+            <l>Das deine Haͤnde zugericht.</l>
+          </lg>
+          <lb/>
+          <lg n="14" type="stanza" rhyme="aabbcdcd">
+            <l>Der HErr iſt unaufhoͤrlich Koͤnig;</l>
+            <lb/>
+            <l>Es iſt Jhm alles unterthaͤnig,</l>
+            <lb/>
+            <l>Und ewig wird ſein Reich beſtehn,</l>
+            <lb/>
+            <l>Auch nicht wie Pharao vergehn;</l>
+            <lb/>
+            <l>Er zog mit Wagen, Reitern, Roſſen</l>
+            <lb/>
+            <l>Jns Meer, da gab der HErr Befehl,</l>
+            <lb/>
+            <l>Daß es ſich uͤber ſie ergoſſen,</l>
+            <lb/>
+            <l>Und trocken blieb vor Jſrael.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="9">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcd">
+            <l><hi rendition="#aq">Auream quisquis mediocritatem</hi></l>
+            <lb/>
+            <l><hi rendition="#aq">Diligit, tutus caret obſoleti</hi></l>
+            <lb/>
+            <l><hi rendition="#aq">Sordibus tecti, caret inuidenda</hi></l>
+            <lb/>
+            <l><hi rendition="#aq"><hi rendition="#et">Sobrius aula.</hi></hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="10">
+        <lg type="poem">
+          <head><hi rendition="#b">Auf die<lb/> von Beuſt und von Seebachiſche<lb/>
+            Verbindung</hi><lb/> zu Gotha den 8 Nov. 1747.</head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababccdeed">
+            <l><hi rendition="#in">D</hi>ennoch ſtimm ich meine Sayten,</l>
+            <lb/>
+            <l>Und verſuch ein neues Lied,</l>
+            <lb/>
+            <l>Trotz den ungeneigten Zeiten,</l>
+            <lb/>
+            <l>Die der Geiſt mit Schwermuth ſieht;</l>
+            <lb/>
+            <l>Ob ſich gleich die Stuͤrme jagen;</l>
+            <lb/>
+            <l>Bringt das Raſſeln ihrer Wagen</l>
+            <lb/>
+            <l>Regen, Kaͤlte, Schnee und Eiß,</l>
+            <lb/>
+            <l>Gnug, mir macht der Gott der Leyer</l>
+            <lb/>
+            <l>Hier bey dieſer Hochzeitfeyer</l>
+            <lb/>
+            <l>Stirne, Bruſt und Eifer heiß.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababccdeed">
+            <l>Welch ausnehmendes Entzuͤcken</l>
+            <lb/>
+            <l>Macht ſich itzund offenbar!</l>
+            <lb/>
+            <l>Ja! man wird in frohen Blicken</l>
+            <lb/>
+            <l>Paradieſes-Luſt gewahr,</l>
+            <lb/>
+            <l>Stifter dieſer wahren Freude!</l>
+            <lb/>
+            <l>Gnaͤdige verbundne Beyde!</l>
+            <lb/>
+            <l>Vorbild der Zufriedenheit!</l>
+            <lb/>
+            <l>Was die Welt nicht kann gewaͤhren,</l>
+            <lb/>
+            <l>Sucht die Liebe zu beſchehren,</l>
+            <lb/>
+            <l>Sie gebiehrt Gluͤckſeeligkeit.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Jn</fw>
+          <lb/>
+          <pb n="247" facs="#f0267"/>
+          <fw type="header" place="top"><hi rendition="#b">Freuden- und Trauer-Oden.</hi></fw>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababccdeed">
+            <l>Jn dem andern ſich zu ſehen,</l>
+            <lb/>
+            <l>Und in ſich die beſte Welt,</l>
+            <lb/>
+            <l>Jſt ein hoͤchſtes Wohlergehen,</l>
+            <lb/>
+            <l>Welchem keines gleich geſtellt;</l>
+            <lb/>
+            <l>Fuͤr einander bloß zu leben,</l>
+            <lb/>
+            <l>Durch holdſeeliges Beſtreben</l>
+            <lb/>
+            <l>Sich des Gatten Wonne weihn,</l>
+            <lb/>
+            <l>Aus den Augen zu ſtudieren,</l>
+            <lb/>
+            <l>Was das Herz vermag zu ruͤhren,</l>
+            <lb/>
+            <l>Liebe! kannſt du ſtaͤrker ſeyn?</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababccdeed">
+            <l>O! was ſchoͤne Folgerungen</l>
+            <lb/>
+            <l>Bauen da ein frohes Haus!</l>
+            <lb/>
+            <l>Welche Sprachen, welche Zungen</l>
+            <lb/>
+            <l>Druͤcken es nach Wuͤrden aus!</l>
+            <lb/>
+            <l>Was dem erſten Paar begegnet,</l>
+            <lb/>
+            <l>Welches GOtt ſelbſt eingeſegnet,</l>
+            <lb/>
+            <l>Welches er ſelbſt werden hieß,</l>
+            <lb/>
+            <l>Das erfahren auch die Seelen,</l>
+            <lb/>
+            <l>Die ſich dergeſtalt vermaͤhlen,</l>
+            <lb/>
+            <l>Sie ſind ſich ein Paradies.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababccdeed">
+            <l>Holde Liebe! ſey geprieſen,</l>
+            <lb/>
+            <l>Daß du dich ſo ſchoͤn erklaͤrt,</l>
+            <lb/>
+            <l>Und in dieſem Paar gewieſen,</l>
+            <lb/>
+            <l>Denn es iſt einander werth;</l>
+            <lb/>
+            <l>Es hat ſich in ſich gefunden,</l>
+            <lb/>
+            <l>Und ſobald es ſich verbunden,</l>
+            <lb/>
+            <l>Ward es ſich ein Himmelreich;</l>
+            <lb/>
+            <l>Alle, die es itzo ſehen,</l>
+            <lb/>
+            <l>Laſſen dieſen Wunſch ergehen:</l>
+            <lb/>
+            <l>Segen, Heyl und Gluͤck mit Euch!</l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">Q 4</fw>
+          <fw type="catch" place="bottom">Muſe!</fw>
+          <lb/>
+          <pb n="248" facs="#f0268"/>
+          <fw type="header" place="top"><hi rendition="#b">Viertes Buch.</hi></fw>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="ababccdeed">
+            <l>Muſe! komm und hilf mir ſingen!</l>
+            <lb/>
+            <l>Singe du, der Seebach werth!</l>
+            <lb/>
+            <l>Hilf mein Lied der Wahrheit bringen,</l>
+            <lb/>
+            <l>Weil ſie das von uns begehrt;</l>
+            <lb/>
+            <l>Einer Mutter fromme Tugend</l>
+            <lb/>
+            <l>Jſt der Schmuck von ihrer Jugend,</l>
+            <lb/>
+            <l>Die Natur zeigt ſie mit Pracht</l>
+            <lb/>
+            <l>Jn leutſeeligen Geberden,</l>
+            <lb/>
+            <l>Welche ſittſam-freundlich werden,</l>
+            <lb/>
+            <l>Wo der Demuth Unſchuld lacht.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="ababccdeed">
+            <l>Doch die Ehrfurcht heiſſt mich ſchweigen,</l>
+            <lb/>
+            <l>Und ein Wink gehorſam ſeyn,</l>
+            <lb/>
+            <l>Wahrer Demuth iſt es eigen,</l>
+            <lb/>
+            <l>Sie verbirgt ſich ungemein.</l>
+            <lb/>
+            <l>Kenner tugendhafter Schoͤnen!</l>
+            <lb/>
+            <l>Laſſt doch euer Lob ertoͤnen,</l>
+            <lb/>
+            <l>Wenn ihr ſolch ein Muſter ſeht;</l>
+            <lb/>
+            <l>Aber thut es halb verborgen,</l>
+            <lb/>
+            <l>Sonſten muͤſſet ihr beſorgen,</l>
+            <lb/>
+            <l>Daß es euch wie Schmeichlern geht.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="ababccdeed">
+            <l>Hoͤchſterwuͤnſcht ſind die Minuten,</l>
+            <lb/>
+            <l>Gnaͤdiger! vor dero Gluͤck,</l>
+            <lb/>
+            <l>Die Sie kuͤnftighin vermuthen</l>
+            <lb/>
+            <l>Aus der Seebach holden Blick.</l>
+            <lb/>
+            <l>Wie viel ſchoͤnes kommt zuſammen!</l>
+            <lb/>
+            <l>Lodert lange, lichte Flammen,</l>
+            <lb/>
+            <l>Die ihr ſchoͤn entzuͤndet ſeyd!</l>
+            <lb/>
+            <l>Da ich dero Lob will wagen,</l>
+            <lb/>
+            <l>Hoͤr ich gleich beſcheiden ſagen:</l>
+            <lb/>
+            <l>Bleib in deiner Niedrigkeit.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Himmel!</fw>
+          <lb/>
+          <pb n="249" facs="#f0269"/>
+          <fw type="header" place="top"><hi rendition="#b">Freuden- und Trauer-Oden.</hi></fw>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="ababccdeed">
+            <l>Himmel! eine ſolche Ehe</l>
+            <lb/>
+            <l>Sey des Segens Gegenſtand!</l>
+            <lb/>
+            <l>Hier iſt Amen! es geſchehe!</l>
+            <lb/>
+            <l>Denn ſie kommt von deiner Hand.</l>
+            <lb/>
+            <l>Eines Vaters Wunſch und Hoffen</l>
+            <lb/>
+            <l>Siehet ſich weit uͤbertroffen,</l>
+            <lb/>
+            <l>Bruͤder ſehn die Luſt daran!</l>
+            <lb/>
+            <l>Ja ſie daure nur ſo lange,</l>
+            <lb/>
+            <l>Als in einem Luſtgeſange</l>
+            <lb/>
+            <l>Pflicht und Ehrfurcht wuͤnſchen kann.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="11">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="ababccdeed">
+            <l><hi rendition="#in">E</hi>y! wie lieb ich doch die Stille</l>
+            <lb/>
+            <l>Dieſer gruͤnen Einſamkeit!</l>
+            <lb/>
+            <l>Wo des Fruͤhlings bunte Fuͤlle</l>
+            <lb/>
+            <l>Der Natur gebluͤmtes Kleid</l>
+            <lb/>
+            <l>Dem verirrten Auge zeiget,</l>
+            <lb/>
+            <l>Und, wenn alles um mich ſchweiget,</l>
+            <lb/>
+            <l>Geiſt und Luſt die Leyer ſtimmt,</l>
+            <lb/>
+            <l>Hier, wo in dem Fuͤrſtengange</l>
+            <lb/>
+            <l>Mein Vergnuͤgen mit Geſange</l>
+            <lb/>
+            <l>Heute ſeinen Anfang nimmt.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababccdeed">
+            <l>Anmuth, die ich mir verſpreche,</l>
+            <lb/>
+            <l>Nichts auf Erden iſt dir gleich!</l>
+            <lb/>
+            <l>Unſrer Kugel Oberflaͤche</l>
+            <lb/>
+            <l>Waͤlzet ſich ins Schattenreich;</l>
+            <lb/>
+            <l>Phoͤbus zeiget mir im Bilde</l>
+            <lb/>
+            <l>Sein durchlauchtiges Gefilde,</l>
+            <lb/>
+            <l>Hier an dieſem Ort der Ruh,</l>
+            <lb/>
+            <l>Frey von Wolken, Sturm und Wettern,</l>
+            <lb/>
+            <l>Mir nur unter Lindenblaͤttern</l>
+            <lb/>
+            <l>Hoͤrt er noch halb ſchlaͤfrig zu.</l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">K</fw>
+          <fw type="catch" place="bottom">Alles</fw>
+          <lb/>
+          <pb n="146" facs="#f0166"/>
+          <fw type="header" place="top"><hi rendition="#b">Drittes Buch.</hi></fw>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababccdeed">
+            <l>Alles ruht, auch ſelbſt die Luͤfte,</l>
+            <lb/>
+            <l>Welche Friedrichs Thal belebt,</l>
+            <lb/>
+            <l>Schleichen taumelnd in die Gruͤfte,</l>
+            <lb/>
+            <l>Bis die Stille ſie begraͤbt;</l>
+            <lb/>
+            <l>Die beſchwerten Tagewerke</l>
+            <lb/>
+            <l>Ruͤſten ſich zu neuer Staͤrke,</l>
+            <lb/>
+            <l>Wo der Schlaf die Glieder ſtreckt;</l>
+            <lb/>
+            <l>Nur mein Geiſt, erloͤſt von Sorgen,</l>
+            <lb/>
+            <l>Fuͤhlet einen Freudenmorgen,</l>
+            <lb/>
+            <l>Der ſein Denken aufgeweckt.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababccdeed">
+            <l>Baͤume! euer liſpelnd Weben,</l>
+            <lb/>
+            <l>Als des Zephirs Odem blies,</l>
+            <lb/>
+            <l>Zeiget dem zufriednen Leben</l>
+            <lb/>
+            <l>Das verlohrne Paradies;</l>
+            <lb/>
+            <l>Hier ſoll mich die Tugend ruͤſten,</l>
+            <lb/>
+            <l>Daß mir nie ein ſtolz Geluͤſten</l>
+            <lb/>
+            <l>Fall und Sturz bewirken mag,</l>
+            <lb/>
+            <l>Da bemerket mein Verlangen,</l>
+            <lb/>
+            <l>Was fuͤr Wunder angefangen</l>
+            <lb/>
+            <l>Mit dem dritten Werdungstag.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababccdeed">
+            <l>Jn die Luft geſetzte Waͤnde,</l>
+            <lb/>
+            <l>Die nur Schatten unterbaun,</l>
+            <lb/>
+            <l>Nicht gemacht durch Menſchenhaͤnde,</l>
+            <lb/>
+            <l>Scheint das Auge hier zu ſchaun;</l>
+            <lb/>
+            <l>Ein halb ungewiſſes Schildern</l>
+            <lb/>
+            <l>Taͤuſcht mit faſt belebten Bildern,</l>
+            <lb/>
+            <l>Nach des Zeuxes klugem Riß;</l>
+            <lb/>
+            <l>Und man glaubet ſich von weiten</l>
+            <lb/>
+            <l>Jn den wundervollen Zeiten</l>
+            <lb/>
+            <l>Ninus und Semiramis.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Unter</fw>
+          <lb/>
+          <pb n="147" facs="#f0167"/>
+          <fw type="header" place="top"><hi rendition="#b">Moraliſche Oden.</hi></fw>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="ababccdeed">
+            <l>Unter eintrachtsvollen Ranken,</l>
+            <lb/>
+            <l>Die der Lenz beblaͤttern laͤßt,</l>
+            <lb/>
+            <l>Feyren ruhige Gedanken</l>
+            <lb/>
+            <l>Hier ein Lauberhuͤtten-Feſt;</l>
+            <lb/>
+            <l>Fuͤhrten die verſtrichnen Tage</l>
+            <lb/>
+            <l>Mich durch Wuͤſten mancher Plage</l>
+            <lb/>
+            <l>Jn den Kreuzgang einer Welt;</l>
+            <lb/>
+            <l>O! nun iſt er durchgeſtiegen,</l>
+            <lb/>
+            <l>Canaan! dich ſeh ich liegen!</l>
+            <lb/>
+            <l>Land, das mir ſo wohlgefaͤllt!</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="ababccdeed">
+            <l>Wohlbewahrt vor bangem Schrecken,</l>
+            <lb/>
+            <l>Jn dem Schoos der Sicherheit,</l>
+            <lb/>
+            <l>Seh ich in durchbrochnen Hecken</l>
+            <lb/>
+            <l>Ein Revier der Luſtbarkeit,</l>
+            <lb/>
+            <l>Wo die Nymphen an der Leine</l>
+            <lb/>
+            <l>Jhrer Goͤttin Silberſcheine</l>
+            <lb/>
+            <l>Manchen Tanz, manch Lied gebracht;</l>
+            <lb/>
+            <l>Wo verliebter Sehnſucht Klagen,</l>
+            <lb/>
+            <l>Durch viel ungeſtuͤmes Fragen</l>
+            <lb/>
+            <l>Echo endlich ſtumm gemacht.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="ababccdeed">
+            <l>Gruͤngewoͤlbte lange Straſſen,</l>
+            <lb/>
+            <l>Die kein Blick kann uͤbergehn,</l>
+            <lb/>
+            <l>Scheinen mir noch ſehn zu laſſen</l>
+            <lb/>
+            <l>Jene Gaͤnge von Athen,</l>
+            <lb/>
+            <l>Und die Schulen weiſer Griechen,</l>
+            <lb/>
+            <l>Kaum bin ich hier durchgeſtrichen,</l>
+            <lb/>
+            <l>So empfind ich neue Kraft.</l>
+            <lb/>
+            <l>Dieſe Oerter, hier im Stillen,</l>
+            <lb/>
+            <l>Oeffnen, vor Verſtand und Willen,</l>
+            <lb/>
+            <l>Eine neue Wiſſenſchaft.</l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">K 2</fw>
+          <fw type="catch" place="bottom">Denn</fw>
+          <lb/>
+          <pb n="148" facs="#f0168"/>
+          <fw type="header" place="top"><hi rendition="#b">Drittes Buch.</hi></fw>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="ababccdeed">
+            <l>Denn da lern ich mich bezwingen,</l>
+            <lb/>
+            <l>Werde meiner recht bewußt,</l>
+            <lb/>
+            <l>Und die Tugend zu beſingen</l>
+            <lb/>
+            <l>Heiſſet mir die groͤßte Luſt;</l>
+            <lb/>
+            <l>Meiner Muße Daurungs-Kuͤrze</l>
+            <lb/>
+            <l>Richt ich zu mit Salz und Wuͤrze,</l>
+            <lb/>
+            <l>Die Geſchicht und Fabel reicht,</l>
+            <lb/>
+            <l>Bis der Fuͤſſe Langſamſetzen</l>
+            <lb/>
+            <l>Unvermerkt, doch mit Ergetzen</l>
+            <lb/>
+            <l>Weiter in die Daͤmmrung ſchleicht.</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="ababccdeed">
+            <l>Gleich verfall ich in Gedanken,</l>
+            <lb/>
+            <l>Die kein Pinſel zeichnen kan,</l>
+            <lb/>
+            <l>Bey der Folge erſten Schranken</l>
+            <lb/>
+            <l>Land ich mit Vergnuͤgen an;</l>
+            <lb/>
+            <l>Jtzt entdeck ich, was vor dieſen</l>
+            <lb/>
+            <l>Man von jener Zeit geprieſen,</l>
+            <lb/>
+            <l>Die Saturnus eingefuͤhrt;</l>
+            <lb/>
+            <l>Und mich duͤnkt im Dunkelkuͤhlen</l>
+            <lb/>
+            <l>Wirklich an mir ſelbſt zu fuͤhlen,</l>
+            <lb/>
+            <l>Wie gluͤckſeelig er regiert.</l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="ababccdeed">
+            <l>Aus dem tiefen Ueberlegen</l>
+            <lb/>
+            <l>Wieder zu mir ſelbſt gebracht,</l>
+            <lb/>
+            <l>Geh ich dem Geraͤuſch entgegen,</l>
+            <lb/>
+            <l>Das mir anfangs Grauen macht,</l>
+            <lb/>
+            <l>Ungeſtuͤme Waſſerwogen,</l>
+            <lb/>
+            <l>Welche Kunſt und Zwang betrogen,</l>
+            <lb/>
+            <l>Brauſen mit ergrimmter Wuth, <note place="foot" n="*">Die am Ende der Allee gelegene
+                ſogenannte Steinmuͤhle.</note></l>
+            <lb/>
+            <l>Und ſind auf ſich ſelbſten boͤſe,</l>
+            <lb/>
+            <l>Daß ein klapperndes Getoͤſe</l>
+            <lb/>
+            <l>Jhrer Freyheit Einhalt thut.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">O!</fw>
+          <lb/>
+          <pb n="149" facs="#f0169"/>
+          <fw type="header" place="top"><hi rendition="#b">Moraliſche Oden.</hi></fw>
+          <lb/>
+          <lg n="12" type="stanza" rhyme="ababccdeed">
+            <l>O! wie werd ich denn entzuͤcket!</l>
+            <lb/>
+            <l>Ey! wie bin ich auſſer mir!</l>
+            <lb/>
+            <l>Wenn mein Sehen um mich blicket,</l>
+            <lb/>
+            <l>Himmels-Luſt befaͤllt mich hier!</l>
+            <lb/>
+            <l>Eine Gegend ſonder Ende,</l>
+            <lb/>
+            <l>Wo des Jahres milde Haͤnde</l>
+            <lb/>
+            <l>Koſtbarkeiten ausgelegt,</l>
+            <lb/>
+            <l>Wo dem ſchweifenden Geſichte</l>
+            <lb/>
+            <l>Fruͤhling, Sommer, Herbſt Gerichte</l>
+            <lb/>
+            <l>Seltner Art entgegen traͤgt.</l>
+          </lg>
+          <lb/>
+          <lg n="13" type="stanza" rhyme="ababccdeed">
+            <l>Anherr! der du zwar geſchaffen</l>
+            <lb/>
+            <l>Aber nicht gebohren biſt,</l>
+            <lb/>
+            <l>Sprich, nachdem du ausgeſchlaffen,</l>
+            <lb/>
+            <l>Ob dir ſo geweſen iſt?</l>
+            <lb/>
+            <l>Als in Edens Luſt-Alleen</l>
+            <lb/>
+            <l>Du dein ander Jch geſehen</l>
+            <lb/>
+            <l>Und den Bau von deinem Bein?</l>
+            <lb/>
+            <l>Doch ich kanns ohnmoͤglich glauben!</l>
+            <lb/>
+            <l>So wie mich? du wirſt erlauben!</l>
+            <lb/>
+            <l>Dieſes kann ohnmoͤglich ſeyn!</l>
+          </lg>
+          <lb/>
+          <lg n="14" type="stanza" rhyme="ababccdeed">
+            <l>An des Silberbaches Rande,</l>
+            <lb/>
+            <l>Der bald wieder ruhig fließt,</l>
+            <lb/>
+            <l>Eil ich zum Gelobten Lande,</l>
+            <lb/>
+            <l>Wo mir neue Luſt entſprießt.</l>
+            <lb/>
+            <l>Auf den Hoͤhen gegen Oſten</l>
+            <lb/>
+            <l>Seh ich manchen Einfall roſten,</l>
+            <lb/>
+            <l>Den die Baukunſt erſt verwarf;</l>
+            <lb/>
+            <l>Wo, nach einer kurzen Dauer,</l>
+            <lb/>
+            <l>Man in ſchon verfallner Mauer</l>
+            <lb/>
+            <l>Einſten nichts bewundern darf.</l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">K 3</fw>
+          <fw type="catch" place="bottom">Sich</fw>
+          <lb/>
+          <pb n="150" facs="#f0170"/>
+          <fw type="header" place="top"><hi rendition="#b">Drittes Buch.</hi></fw>
+          <lb/>
+          <lg n="15" type="stanza" rhyme="ababccdeed">
+            <l>Sich zu weit verlaufne Strahlen</l>
+            <lb/>
+            <l>Von des Lichtherrn Majeſtaͤt</l>
+            <lb/>
+            <l>Haben, durch ihr ſchimmernd Malen,</l>
+            <lb/>
+            <l>Dieſen Erdſtrich recht erhoͤht;</l>
+            <lb/>
+            <l>Grauer Felder falbes Gruͤnen,</l>
+            <lb/>
+            <l>Das im Fernen blau erſchienen,</l>
+            <lb/>
+            <l>Weſtwaͤrts guͤlden eingefaßt,</l>
+            <lb/>
+            <l>Scheinet bey der Daͤmmrungsſchwaͤche,</l>
+            <lb/>
+            <l>Als bedeckt die Oberflaͤche</l>
+            <lb/>
+            <l>Ueberirdiſcher Damaſt.</l>
+          </lg>
+          <lb/>
+          <lg n="16" type="stanza" rhyme="ababccdeed">
+            <l>Und was wird mir erſt gezeiget,</l>
+            <lb/>
+            <l>Da mein nimmer ſatter Fuß</l>
+            <lb/>
+            <l>Auf den kleinen Seeberg ſteiget,</l>
+            <lb/>
+            <l>Wo er ſich erholen muß!</l>
+            <lb/>
+            <l>Da ſpricht ſein gehemmtes Laufen:</l>
+            <lb/>
+            <l>Steine! wie? ihr liegt bey Haufen?</l>
+            <lb/>
+            <l>Doch das Auge kennt ſie ſchon,</l>
+            <lb/>
+            <l>Weil ſie ihm wie Schlacken ſcheinen</l>
+            <lb/>
+            <l>Von den ausgeſaͤten Steinen</l>
+            <lb/>
+            <l>Pyrraͤh und Deukalion.</l>
+          </lg>
+          <lb/>
+          <lg n="17" type="stanza" rhyme="ababccdeed">
+            <l>Wie gefaͤllt doch meinen Blicken</l>
+            <lb/>
+            <l>Dieſer ungemeßne Raum!</l>
+            <lb/>
+            <l>Wo es auf der Ebne Ruͤcken</l>
+            <lb/>
+            <l>Glaͤnzt, wie gruͤner Wellen Schaum,</l>
+            <lb/>
+            <l>Mich bezaubern jene Wieſen,</l>
+            <lb/>
+            <l>Wo die Baͤume, gleich den Rieſen,</l>
+            <lb/>
+            <l>Mit behaarten Haͤuptern ſtehn,</l>
+            <lb/>
+            <l>Unter deren Mittags-Schatten</l>
+            <lb/>
+            <l>Schaͤfer das Vergnuͤgen hatten,</l>
+            <lb/>
+            <l>Jhre Heerden ſatt zu ſehn.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">O!</fw>
+          <lb/>
+          <pb n="151" facs="#f0171"/>
+          <fw type="header" place="top"><hi rendition="#b">Moraliſche Oden.</hi></fw>
+          <lb/>
+          <lg n="18" type="stanza" rhyme="ababccdeed">
+            <l>O! wie ſchimmert jener Spiegel</l>
+            <lb/>
+            <l>Dort das feuchte Element!</l>
+            <lb/>
+            <l>Wo manch ſchuͤchternes Gefluͤgel</l>
+            <lb/>
+            <l>Die beſchilfte Freyſtadt kennt,</l>
+            <lb/>
+            <l>Wo man in den blanken Gruͤnden</l>
+            <lb/>
+            <l>Einen Luftkreis meynt zu finden;</l>
+            <lb/>
+            <l>Huſten aͤhnlich heiſch Geſchrey</l>
+            <lb/>
+            <l>Reges, klatſcherndes Gewimmel</l>
+            <lb/>
+            <l>Zeiget faſt, daß hier ein Himmel</l>
+            <lb/>
+            <l>Fuͤr die naſſen Buͤrger ſey.</l>
+          </lg>
+          <lb/>
+          <lg n="19" type="stanza" rhyme="ababccdeed">
+            <l>Sieh! wie winken jene Gipfel</l>
+            <lb/>
+            <l>Meine Luſt an ſich zu ziehn,</l>
+            <lb/>
+            <l>Die von aller Baͤume Wipfel</l>
+            <lb/>
+            <l>Bloß in gruͤne Ferne fliehn,</l>
+            <lb/>
+            <l>Dort, des groſſen Seebergs Spitzen,</l>
+            <lb/>
+            <l>Die in Donnern, Hageln, Blitzen</l>
+            <lb/>
+            <l>Zeigen, wie ſie ſtandhaft ſind,</l>
+            <lb/>
+            <l>Die ein ſparſam Gluͤck verpfleget,</l>
+            <lb/>
+            <l>Deren Scheitel nicht beweget</l>
+            <lb/>
+            <l>Schnee und Regen, Sturm und Wind.</l>
+          </lg>
+          <lb/>
+          <lg n="20" type="stanza" rhyme="ababccdeed">
+            <l>Tiefer Hoͤhlen krumme Gaͤnge,</l>
+            <lb/>
+            <l>Winkel ohne Tag und Licht</l>
+            <lb/>
+            <l>Schicken Leiber in der Menge</l>
+            <lb/>
+            <l>Taͤglich fuͤr mein Angeſicht,</l>
+            <lb/>
+            <l>Die in dieſen dunkeln Gruͤften</l>
+            <lb/>
+            <l>Sich manch fruͤhes Denkmahl ſtiften,</l>
+            <lb/>
+            <l>Und aus Sand Metall erſchreyn;</l>
+            <lb/>
+            <l>Doch der iſt vor ihr Gewerbe</l>
+            <lb/>
+            <l>Mehr als ungewiſſes Erbe,</l>
+            <lb/>
+            <l>Beſſer als der Weiſen Stein.</l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">K 4</fw>
+          <fw type="catch" place="bottom">Dort</fw>
+          <lb/>
+          <pb n="152" facs="#f0172"/>
+          <fw type="header" place="top"><hi rendition="#b">Drittes Buch.</hi></fw>
+          <lb/>
+          <lg n="21" type="stanza" rhyme="ababccdeed">
+            <l>Dort bluͤht manch verfallen Stuͤcke</l>
+            <lb/>
+            <l>Abgelebter Herrlichkeit,</l>
+            <lb/>
+            <l>So verſchworner Jahre Tuͤcke</l>
+            <lb/>
+            <l>Unter ihren Fuß geſtreut,</l>
+            <lb/>
+            <l>Muͤhlberg, Wachſenburg und Gleichen,</l>
+            <lb/>
+            <l>Der Verwuͤſtung milde Zeichen</l>
+            <lb/>
+            <l>Sieht man bey euch eingedruͤckt,</l>
+            <lb/>
+            <l>Fuͤrchterliche Nationen,</l>
+            <lb/>
+            <l>Geiſter moͤgen euch bewohnen,</l>
+            <lb/>
+            <l>Die der Poͤbel ſonſt erblickt.</l>
+          </lg>
+          <lb/>
+          <lg n="22" type="stanza" rhyme="ababccdeed">
+            <l>Gnug, ich ſehe mit Ergetzen</l>
+            <lb/>
+            <l>Noch den Fruͤhling eurer Pracht,</l>
+            <lb/>
+            <l>Andre moͤgen ſich entſetzen,</l>
+            <lb/>
+            <l>Die der Wahn zu fuͤrchten macht;</l>
+            <lb/>
+            <l>Schlangen, Fledermaͤus und Eulen</l>
+            <lb/>
+            <l>Moͤgen ſich bey euch verweilen,</l>
+            <lb/>
+            <l>Jhr Geniſt ergetzt mich kaum;</l>
+            <lb/>
+            <l>Nur im Zeitbuch kann ich leſen,</l>
+            <lb/>
+            <l>Was ihr ehedem geweſen.</l>
+            <lb/>
+            <l>Eines macht dem andern Raum.</l>
+          </lg>
+          <lb/>
+          <lg n="23" type="stanza" rhyme="ababccdeed">
+            <l>Ey! wie ruhn doch alle Sachen,</l>
+            <lb/>
+            <l>Und wie muͤd iſt die Natur!</l>
+            <lb/>
+            <l>Voͤlker! laßt den Himmel wachen,</l>
+            <lb/>
+            <l>Traͤumt von eurem Gluͤcke nur,</l>
+            <lb/>
+            <l>Das nach eurem Schlafenlegen</l>
+            <lb/>
+            <l>Mitten in dem Abendſegen</l>
+            <lb/>
+            <l>Euch auf deſſen Urſprung lenkt,</l>
+            <lb/>
+            <l>Kann euch ja noch was erwecken,</l>
+            <lb/>
+            <l>O! ſo iſts ein falſches Schrecken,</l>
+            <lb/>
+            <l>Wenn ihrs zu verliehren denkt.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Hoͤchſt</fw>
+          <lb/>
+          <pb n="153" facs="#f0173"/>
+          <fw type="header" place="top"><hi rendition="#b">Moraliſche Oden.</hi></fw>
+          <lb/>
+          <lg n="24" type="stanza" rhyme="ababccdeed">
+            <l>Hoͤchſterwuͤnſcht iſt Ort und Staͤtte,</l>
+            <lb/>
+            <l>Da ich mich nun umgewand,</l>
+            <lb/>
+            <l>O! welch eines Wahnſinns Kette</l>
+            <lb/>
+            <l>Feſſelt Sinnen und Verſtand!</l>
+            <lb/>
+            <l>Huͤgel, die mir Stufen zeigen,</l>
+            <lb/>
+            <l>Wie man kann zum Himmel ſteigen,</l>
+            <lb/>
+            <l>Der Planeten Welten ſehn,</l>
+            <lb/>
+            <l>Wie ſie eigne Straſſen reiſen,</l>
+            <lb/>
+            <l>Und ſich in beſtimmten Kreiſen</l>
+            <lb/>
+            <l>Schwimmend um die Sonne drehn.</l>
+          </lg>
+          <lb/>
+          <lg n="25" type="stanza" rhyme="ababccdeed">
+            <l>Was gebiehrt mir das fuͤr Freude!</l>
+            <lb/>
+            <l>Wenn ich erſt den Wunderbau</l>
+            <lb/>
+            <l>Jnſelsberg, der Augen Weyde,</l>
+            <lb/>
+            <l>Dich in blauer Hoheit ſchau!</l>
+            <lb/>
+            <l>O der ungemeßnen Hoͤhen!</l>
+            <lb/>
+            <l>Wo man auf den Wolken gehen,</l>
+            <lb/>
+            <l>Und die Welt verachten lernt,</l>
+            <lb/>
+            <l>Die ein ungeneigt Geſchicke</l>
+            <lb/>
+            <l>Von dem Gnadenſonnen-Blicke</l>
+            <lb/>
+            <l>Unſers Friederichs entfernt.</l>
+          </lg>
+          <lb/>
+          <lg n="26" type="stanza" rhyme="ababccdeed">
+            <l>Du biſt durch dein funkelnd Glaͤnzen</l>
+            <lb/>
+            <l>Dieſer Laͤnder Diamant,</l>
+            <lb/>
+            <l>Du behaupteſt an den Graͤnzen</l>
+            <lb/>
+            <l>Deinen himmelhohen Stand,</l>
+            <lb/>
+            <l>Wo an einem ieden Morgen</l>
+            <lb/>
+            <l>Ausgeruhet, frey von Sorgen</l>
+            <lb/>
+            <l>Der Bewohner munter wird.</l>
+            <lb/>
+            <l>Fuͤrſt der Berge! dir zu Ehren</l>
+            <lb/>
+            <l>Soll man mich einſt ſingen hoͤren,</l>
+            <lb/>
+            <l>Wenn ein gut Geſtirn regiert!</l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">K 5</fw>
+          <fw type="catch" place="bottom">Schaa-</fw>
+          <lb/>
+          <pb n="154" facs="#f0174"/>
+          <fw type="header" place="top"><hi rendition="#b">Drittes Buch.</hi></fw>
+          <lb/>
+          <lg n="27" type="stanza" rhyme="ababccdeed">
+            <l>Schaaren aufgethuͤrmter Spitzen</l>
+            <lb/>
+            <l>Sind den Augen angenehm,</l>
+            <lb/>
+            <l>Weil ſie unſre Graͤnzen ſchuͤtzen,</l>
+            <lb/>
+            <l>Werden ſie zugleich beqvem,</l>
+            <lb/>
+            <l>Berg und Waͤlder, die ſie tragen,</l>
+            <lb/>
+            <l>Koͤnnen ſchon mit Furchten ſchlagen,</l>
+            <lb/>
+            <l>Und uns heißt der Muth ein Scherz.</l>
+            <lb/>
+            <l>Feinde! nun! zerſchellt die Rippen,</l>
+            <lb/>
+            <l>Kommt! ſeht unwegſame Klippen,</l>
+            <lb/>
+            <l>Aber denn ein maͤnnlich Herz.</l>
+          </lg>
+          <lb/>
+          <lg n="28" type="stanza" rhyme="ababccdeed">
+            <l>Ach! daß mir die Daͤmmrung goͤnnte;</l>
+            <lb/>
+            <l>Daß ich ſo zufrieden bin!</l>
+            <lb/>
+            <l>O! wenn ich doch ſprechen koͤnnte:</l>
+            <lb/>
+            <l>Huͤter! iſt die Nacht ſchier hin?</l>
+            <lb/>
+            <l>Aber ich muß mich beqvemen</l>
+            <lb/>
+            <l>Abſchied von der Welt zu nehmen,</l>
+            <lb/>
+            <l>Bis auf kuͤnftig Wiederſehn,</l>
+            <lb/>
+            <l>Fuͤſſe! ſeyd mir noch behende,</l>
+            <lb/>
+            <l>Eure Wallfahrt iſt zu Ende,</l>
+            <lb/>
+            <l>Auf! laſſt uns von hinnen gehn!</l>
+          </lg>
+          <lb/>
+          <lg n="29" type="stanza" rhyme="ababccdeed">
+            <l>O! da ſeh ich mit Vergnuͤgen,</l>
+            <lb/>
+            <l>Jn der Daͤmmrung braunen Licht,</l>
+            <lb/>
+            <l>Meinen offnen Hafen liegen,</l>
+            <lb/>
+            <l>Gotha, meine Zuverſicht!</l>
+            <lb/>
+            <l>Wohlvergnuͤgt mit meiner Leyer</l>
+            <lb/>
+            <l>Halt ich jaͤhrlich da die Feyer,</l>
+            <lb/>
+            <l>Welche mir der Tag bereit,</l>
+            <lb/>
+            <l>Feld, Allee, und Berg, und Wieſen</l>
+            <lb/>
+            <l>Muͤſſen ſchallen von Luiſen,</l>
+            <lb/>
+            <l>Und von Friedrichs Guͤtigkeit.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Goͤttin!</fw>
+          <lb/>
+          <pb n="155" facs="#f0175"/>
+          <fw type="header" place="top"><hi rendition="#b">Moraliſche Oden.</hi></fw>
+          <lb/>
+          <lg n="30" type="stanza" rhyme="ababccdeed">
+            <l>Goͤttin! Deren reinen Sinnen</l>
+            <lb/>
+            <l>Nur, was ſchoͤn iſt, wohlgefaͤllt;</l>
+            <lb/>
+            <l>Wuͤrdige doch mein Beginnen,</l>
+            <lb/>
+            <l>Ob es gleich ſchlecht unterhaͤlt,</l>
+            <lb/>
+            <l>Wiſſe, daß von meinem Dichten</l>
+            <lb/>
+            <l>Eine mit der groͤßten Pflichten,</l>
+            <lb/>
+            <l>Deiner Tugend Lobſpruch ſey;</l>
+            <lb/>
+            <l>Durch Luiſen Dorotheen</l>
+            <lb/>
+            <l>Wuͤnſch ich einſt beruͤhmt zu ſehen</l>
+            <lb/>
+            <l>Mich und meine Schilderey.</l>
+          </lg>
+          <lb/>
+          <lg n="31" type="stanza" rhyme="ababccdeed">
+            <l>GOtt und Friedrich, nebſt der Tugend,</l>
+            <lb/>
+            <l>Denn Luiſe nur allein,</l>
+            <lb/>
+            <l>Sollen nach verſtrichner Jugend</l>
+            <lb/>
+            <l>Meines Hoffens Loſung ſeyn;</l>
+            <lb/>
+            <l>Auch daran nur zu gedenken,</l>
+            <lb/>
+            <l>Das muß mir Vergnuͤgen ſchenken</l>
+            <lb/>
+            <l>Mitten in der Einſamkeit.</l>
+            <lb/>
+            <l>Tage des betruͤbten Lebens!</l>
+            <lb/>
+            <l>Wißt, ihr martert mich vergebens,</l>
+            <lb/>
+            <l>Hier iſt Troſt, Zufriedenheit.</l>
+          </lg>
+          <lb/>
+          <lg n="32" type="stanza" rhyme="ababccdeed">
+            <l>O! wie lieb ich nun die Stille</l>
+            <lb/>
+            <l>Solcher gruͤnen Einſamkeit!</l>
+            <lb/>
+            <l>Haͤtte doch des Schickſals Wille</l>
+            <lb/>
+            <l>Hier fuͤr mich den Sitz bereit,</l>
+            <lb/>
+            <l>Ey! was wollt ich einſt erzehlen!</l>
+            <lb/>
+            <l>Ordnete mir ein Befehlen</l>
+            <lb/>
+            <l>Scheitelpunkt und Himmelsſtrich,</l>
+            <lb/>
+            <l>Da wuͤrd ich voll Geiſt erheben:</l>
+            <lb/>
+            <l>Himmel! laß Luiſen leben!</l>
+            <lb/>
+            <l>Segne meinen Friederich!</l>
+          </lg>
+        </lg>
+      </div>
+
+    </body>
+  </text>
+</TEI>

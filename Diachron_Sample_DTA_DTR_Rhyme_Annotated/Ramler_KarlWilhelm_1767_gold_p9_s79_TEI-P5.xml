@@ -1,0 +1,1523 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Oden</title>
+                <author>
+                    <persName ref="http://d-nb.info/gnd/119059614">
+                        <surname>Ramler</surname>
+                        <forename>Karl Wilhelm</forename>
+                    </persName>
+                </author>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName ref="http://d-nb.info/gnd/115266127">
+                        <surname>Geyken</surname>
+                        <forename>Alexander</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName ref="http://d-nb.info/gnd/1018099549">
+                        <surname>Haaf</surname>
+                        <forename>Susanne</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName ref="http://d-nb.info/gnd/1019062681">
+                        <surname>Jurish</surname>
+                        <forename>Bryan</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName>
+                        <surname>Boenig</surname>
+                        <forename>Matthias</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName>
+                        <surname>Thomas</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName>
+                        <surname>Wiegand</surname>
+                        <forename>Frank</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <orgName ref="http://www.clarin-d.de">CLARIN-D</orgName>
+                    <resp>
+                        <note type="remarkResponsibility">Langfristige Bereitstellung der
+                            DTA-Ausgabe</note>
+                        <ref target="http://fedora.dwds.de"/>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Vollständige digitalisierte Ausgabe.</edition>
+            </editionStmt>
+            <extent>
+                <measure type="images">122</measure>
+                <measure type="tokens">6473</measure>
+                <measure type="types">2660</measure>
+                <measure type="characters">43966</measure>
+            </extent>
+            <publicationStmt>
+                <publisher xml:id="DTACorpusPublisher">
+                    <email>dta@bbaw.de</email>
+                    <orgName role="project">Deutsches Textarchiv</orgName>
+                    <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of
+                        Sciences and Humanities (BBAW)</orgName>
+                    <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische
+                        Akademie der Wissenschaften (BBAW)</orgName>
+                    <address>
+                        <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                        <country>Germany</country>
+                    </address>
+                </publisher>
+                <pubPlace>Berlin</pubPlace>
+                <date type="publication">2016-10-10T16:36:30Z</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+                        <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0
+                            Unported License.</p>
+                    </licence>
+                </availability>
+                <idno>
+                    <idno type="URLWeb">http://www.deutschestextarchiv.de/ramler_oden_1767</idno>
+                    <idno type="URLXML"
+                        >http://www.deutschestextarchiv.de/book/download_xml/ramler_oden_1767</idno>
+                    <idno type="URLHTML"
+                        >http://www.deutschestextarchiv.de/book/download_html/ramler_oden_1767</idno>
+                    <idno type="URLText"
+                        >http://www.deutschestextarchiv.de/book/download_text/ramler_oden_1767</idno>
+                    <idno type="DTADirName">ramler_oden_1767</idno>
+                    <idno type="DTAID">20476</idno>
+                    <idno type="URN">urn:nbn:de:kobv:b4-20476-3</idno>
+                </idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="M">Ramler, Karl Wilhelm: Oden. Berlin, 1767.</bibl>
+                <biblFull>
+                    <titleStmt>
+                        <title level="m" type="main">Oden</title>
+                        <author>
+                            <persName ref="http://d-nb.info/gnd/119059614">
+                                <surname>Ramler</surname>
+                                <forename>Karl Wilhelm</forename>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition n="1"/>
+                    </editionStmt>
+                    <extent>
+                        <measure type="pages">[2] Bl., 114 S.</measure>
+                    </extent>
+                    <publicationStmt>
+                        <publisher><name>Voß</name></publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date type="publication">1767</date>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>HAB Wolfenbüttel</repository>
+                        <idno>
+                            <idno type="shelfmark">HAB Wolfenbüttel, M: Lo 6262</idno>
+                            <idno type="URLCatalogue">Dig:
+                                http://diglib.hab.de/drucke/lo-6262/start.htm</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <typeDesc>
+                            <p>Antiqua</p>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Dieses Werk wurde gemäß den <ref
+                        target="http://www.deutschestextarchiv.de/doku/richtlinien"
+                        >DTA-Transkriptionsrichtlinien</ref> im Double-Keying-Verfahren von
+                    Nicht-Muttersprachlern erfasst und in XML/TEI P5 nach <ref
+                        target="http://www.deutschestextarchiv.de/doku/basisformat"
+                        >DTA-Basisformat</ref> kodiert.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="rendition-aq">font-family:sans-serif</rendition>
+                <rendition scheme="css" xml:id="rendition-b">font-weight:bold</rendition>
+                <rendition scheme="css" xml:id="rendition-blue">color:blue</rendition>
+                <rendition scheme="css" xml:id="rendition-c">display:block;
+                    text-align:center</rendition>
+                <rendition scheme="css" xml:id="rendition-et">display:block; margin-left:2em;
+                    text-indent:0</rendition>
+                <rendition scheme="css" xml:id="rendition-et2">display:block; margin-left:4em;
+                    text-indent:0</rendition>
+                <rendition scheme="css" xml:id="rendition-et3">display:block; margin-left:6em;
+                    text-indent:0</rendition>
+                <rendition scheme="css" xml:id="rendition-f">border:1px dotted silver</rendition>
+                <rendition scheme="css" xml:id="rendition-fr">border:1px dotted silver</rendition>
+                <rendition scheme="css" xml:id="rendition-g">letter-spacing:0.125em</rendition>
+                <rendition scheme="css" xml:id="rendition-i">font-style:italic</rendition>
+                <rendition scheme="css" xml:id="rendition-in">font-size:150%</rendition>
+                <rendition scheme="css" xml:id="rendition-k">font-variant:small-caps</rendition>
+                <rendition scheme="css" xml:id="rendition-larger">font-size:larger</rendition>
+                <rendition scheme="css" xml:id="rendition-red">color:red</rendition>
+                <rendition scheme="css" xml:id="rendition-right">display:block;
+                    text-align:right</rendition>
+                <rendition scheme="css" xml:id="rendition-s"
+                    >text-decoration:line-through</rendition>
+                <rendition scheme="css" xml:id="rendition-smaller">font-size:smaller</rendition>
+                <rendition scheme="css" xml:id="rendition-sub">vertical-align:sub;
+                    font-size:.7em</rendition>
+                <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+                    font-size:.7em</rendition>
+                <rendition scheme="css" xml:id="rendition-u">text-decoration:underline</rendition>
+                <rendition scheme="css" xml:id="rendition-uu">border-bottom:double 3px
+                    #000</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="deu">German</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtamain"
+                    >Belletristik</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtasub"
+                    >Lyrik</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+                    >Belletristik</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+                    >Lyrik</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+                    >core</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+                    >ready</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+                    >china</classCode>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div n="1">
+                <lg type="poem">
+                    <lg type="stanza" rhyme="None">
+                        <l><hi rendition="#in">S</hi>chäme dich, Kamill,</l>
+                        <lb/>
+                        <l>Daſs du mit vier Sonnenpferden</l>
+                        <lb/>
+                        <l>In dein errettetes Rom zogſt!</l>
+                        <lb/>
+                        <l>Und du, Romuliſcher Feinde</l>
+                        <lb/>
+                        <l>Glücklicher Sieger, o Julius,</l>
+                        <lb/>
+                        <l>Daſs dich, mit goldenen Städten und<lb/>
+                            <hi rendition="#et">Schlachten,</hi></l>
+                        <lb/>
+                        <pb n="77" facs="#f0083"/>
+                        <l>Und mit Adlern und Spolien</l>
+                        <lb/>
+                        <l>Deiner Brüder umgeben,</l>
+                        <lb/>
+                        <l>Zum hohen Kapitol dein ſtolzer Wagen<lb/>
+                            <hi rendition="#et">trug. —</hi></l>
+                        <lb/>
+                        <l><hi rendition="#g">Friederich,</hi> ein Prinz der Brennen,</l>
+                    </lg>
+                    <lb/>
+                    <l>Ward angefallen von Völkern Hungariens,</l>
+                    <lb/>
+                    <l>Von Illyriens Reitern und Daciens:</l>
+                    <lb/>
+                    <l>Alle dem Zepter der Königinn zinsbar,</l>
+                    <lb/>
+                    <l>Die Vindobonens ſaatenreiche Fluren,</l>
+                    <lb/>
+                    <l>Und Auſtraſiens Auen beherrſcht,</l>
+                    <lb/>
+                    <l>Und der Bajonen Gebirge,</l>
+                    <lb/>
+                    <l>Und Heſperiens goldene Gärten;</l>
+                    <lb/>
+                    <l>Dieſer erhabenen Fürſtinn,</l>
+                    <lb/>
+                    <l>Deren Wohlfahrt vom Himmel in</l>
+                    <lb/>
+                    <l>Sieben Sprachen erflehet wird;</l>
+                    <lb/>
+                    <pb n="78" facs="#f0084"/>
+                    <l>Deren Heere, geführt vom Stab’ Eugens,</l>
+                    <lb/>
+                    <l>Ehmals unbezwinglich, — und itzt</l>
+                    <lb/>
+                    <l>Verbunden waren mit allen, die</l>
+                    <lb/>
+                    <l>Am Mäotiſchen, Kaſpiſchen, Finniſchen</l>
+                    <lb/>
+                    <l>Sunde wohnen, den rauhen</l>
+                    <lb/>
+                    <l>Samojeden, den Oſtiaken,</l>
+                    <lb/>
+                    <l>Und dem Tartar am Sangarfluſs:</l>
+                    <lb/>
+                    <l>Einer Monarchinn dienſtbar, einer,</l>
+                    <lb/>
+                    <l>Die den weiten Umkreis</l>
+                    <lb/>
+                    <l>Ihrer Welten nicht kennt.</l>
+                    <lb/>
+                    <l>Auch trat zu ihnen der Söhne Sarmatiens</l>
+                    <lb/>
+                    <l>Selbſterwähleter König,</l>
+                    <lb/>
+                    <l>Und ſtellte ſeine Sachſen, ein treues Volk,</l>
+                    <lb/>
+                    <l>Mitten auf den Pfad des Siegers,</l>
+                    <lb/>
+                    <l>Unter eine Felſenburg.</l>
+                    <lb/>
+                    <pb n="79" facs="#f0085"/>
+                    <l>Und die hohen Satrapen Germaniens</l>
+                    <lb/>
+                    <l>Fielen zahlreich dem Bunde bey.</l>
+                    <lb/>
+                    <l>Und die theur erkauften Suenonen</l>
+                    <lb/>
+                    <l>Drangen aus dem beeiſten Norden hervor:</l>
+                    <lb/>
+                    <l>Enkel der Helden, mit denen ein Jüngling</l>
+                    <lb/>
+                    <l>Europen und Aſien ſchreckte.</l>
+                    <lb/>
+                    <l>Und Gallien, das an zwey Meeren thront,</l>
+                    <lb/>
+                    <l>Deſſen Fahnen und Wimpel</l>
+                    <lb/>
+                    <l>Unter allen Himmeln wehn,</l>
+                    <lb/>
+                    <l>Lieſs ſeinen Schwarm aus,</l>
+                    <lb/>
+                    <l>Gleich dem Heere ſchwirrender Grillen,</l>
+                    <lb/>
+                    <l>Die vor ſich her ein blühend Land,</l>
+                    <lb/>
+                    <l>Und hinter ſich Wüſten ſehn. —</l>
+                    <lb/>
+                    <l>Aber, Thalia, laſs ab</l>
+                    <lb/>
+                    <l>Die Flotten und Fuſsknecht’ und Reiter<lb/>
+                        <hi rendition="#et">zu zählen!</hi></l>
+                    <lb/>
+                    <pb n="80" facs="#f0086"/>
+                    <l><hi rendition="#g">Friederich,</hi> ſo ſage, bekriegt</l>
+                    <lb/>
+                    <l>Von ſcheelſüchtigen, oder getäuſchten,</l>
+                    <lb/>
+                    <l>Oder gezwungenen Fürſten,</l>
+                    <lb/>
+                    <l>Kehrte, nach ſieben blutigen Jahren,</l>
+                    <lb/>
+                    <l>So mächtig zurück, als er auszog,</l>
+                    <lb/>
+                    <l>Nur an Ehre gröſſer,</l>
+                    <lb/>
+                    <l>Und triumphirte nicht. —</l>
+                    <lb/>
+                    <l>Siehe! er lenkt unſern Ehrenbogen aus,</l>
+                    <lb/>
+                    <l>Und unſern goldbehängten Roſſen,</l>
+                    <lb/>
+                    <l>Und beſteigt den pralenden Wagen nicht!</l>
+                    <lb/>
+                    <l>Denn ſich ſelbſt mit eines Gottes Zufriedenheit</l>
+                    <lb/>
+                    <l>Anſehn, iſt der Triumphe</l>
+                    <lb/>
+                    <l>Allerhöchſter. — Und des Dichters</l>
+                    <lb/>
+                    <l>Allerhöchſter Triumph iſt,</l>
+                    <lb/>
+                    <l>Dieſen König beſingen.</l>
+                    <lb/>
+                    <pb n="81" facs="#f0087"/>
+                    <l>Drum ſchweige du nie von ihm, mein Lied,</l>
+                    <lb/>
+                    <l>Stolzer, als der Geïſche</l>
+                    <lb/>
+                    <l>Und der Thebaniſche Päan,</l>
+                    <lb/>
+                    <l>Keinem Golde feil,</l>
+                    <lb/>
+                    <l>Auch ſelbſt dem ſeinigen nicht.</l>
+                    <lb/>
+                    <l>Und ob er auch dieſen Triumph verlenkt,</l>
+                    <lb/>
+                    <l>Und, deiner Töne nicht gewohnt,</l>
+                    <lb/>
+                    <l>Sein Ohr zu Galliens Schwänen neigt:</l>
+                    <lb/>
+                    <l>So ſinge du doch den Brennusſöhnen</l>
+                    <lb/>
+                    <l>Ihren Erretter unnachgeſungen.</l>
+                </lg>
+            </div>
+
+            <div n="2">
+                <lg type="poem">
+                    <head><hi rendition="#g">Auf ein Geſchütz.</hi><lb/> Berlin, den 3 October
+                        1760.</head>
+                    <lb/>
+                    <argument>
+                        <p>(Als von der Rusſiſchen Artillerie eine Kugel aus<lb/> einer
+                            ungewöhnlichen Ferne bis mitten in die Stadt<lb/> getrieben wurde.)</p>
+                    </argument>
+                    <lb/>
+                    <lg n="1" type="stanza" rhyme="abab">
+                        <l><hi rendition="#in">O</hi> du, dem glühend Eiſen, donnernd<lb/>
+                            <hi rendition="#et">Feuer</hi></l>
+                        <lb/>
+                        <l>Aus offnem Aetnaſchlunde flammt,</l>
+                        <lb/>
+                        <l>Die frommen Dichter zu zerſchmettern,<lb/>
+                            <hi rendition="#et">Ungeheuer,</hi></l>
+                        <lb/>
+                        <l>Das aus der Hölle ſtammt!</l>
+                    </lg>
+                    <lb/>
+                    <pb n="35" facs="#f0041"/>
+                    <lg n="2" type="stanza" rhyme="abab">
+                        <l>Wer zur Verheerung blühender Ge-<lb/>
+                            <hi rendition="#et">ſchlechter</hi></l>
+                        <lb/>
+                        <l>Dich an das Sonnenlicht gebracht,</l>
+                        <lb/>
+                        <l>Hat ohne Reue ſeine Mutter, ſeine<lb/>
+                            <hi rendition="#et">Töchter</hi></l>
+                        <lb/>
+                        <l>Frohlockend umgebracht.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="3" type="stanza" rhyme="abab">
+                        <l>Ganz nahe war ich ſchon dem Styx,<lb/>
+                            <hi rendition="#et">ganz nahe</hi></l>
+                        <lb/>
+                        <l>Dem giftgeſchwollnen Cerberus;</l>
+                        <lb/>
+                        <l>Ich hörte ſchon das Rad Ixions raſſeln,<lb/>
+                            <hi rendition="#et">ſahe</hi></l>
+                        <lb/>
+                        <l>Die Brut des Danaus,</l>
+                    </lg>
+                    <lb/>
+                    <lg n="4" type="stanza" rhyme="abab">
+                        <l>Verdammt zum Spott bey bodenloſen<lb/>
+                            <hi rendition="#et">Fäſſern;</hi></l>
+                        <lb/>
+                        <l>Und Minos Antlitz, und das Feld</l>
+                        <lb/>
+                        <l>Elyſiens; den groſsen Ahnherrn eines<lb/>
+                            <hi rendition="#et">gröſſern</hi></l>
+                        <lb/>
+                        <l>Urenkels, und ſein Zelt</l>
+                    </lg>
+                    <lb/>
+                    <fw type="sig" place="bottom">C 2</fw>
+                    <lb/>
+                    <pb n="36" facs="#f0042"/>
+                    <lg n="5" type="stanza" rhyme="abab">
+                        <l>Voll tapfrer Brennen ſah ich: ihre<lb/>
+                            <hi rendition="#et">Lieder,</hi></l>
+                        <lb/>
+                        <l>Ihr Feſt bey jedem Freudenmahl</l>
+                        <lb/>
+                        <l>Iſt er, der wider ſechs Monarchen ſicht,<lb/>
+                            <hi rendition="#et">und wider</hi></l>
+                        <lb/>
+                        <l>Satrapen ohne Zahl.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="6" type="stanza" rhyme="abab">
+                        <l>Schon ſäng’ ich ſeine jüngſte That: wie<lb/>
+                            <hi rendition="#et">brauſend</hi></l>
+                        <lb/>
+                        <l>Ein Meer von Feinden ihn umfieng,</l>
+                        <lb/>
+                        <l>Er aber ſeinen Weg hindurch auf zehen-<lb/>
+                            <hi rendition="#et">tauſend</hi></l>
+                        <lb/>
+                        <l>Zertretnen Schedeln gieng.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="7" type="stanza" rhyme="abab">
+                        <l>Alcäus würde jetzt mein Lied be-<lb/>
+                            <hi rendition="#et">neiden,</hi></l>
+                        <lb/>
+                        <l>Schon ſäh ich Cäſarn lauſchend nahn,</l>
+                        <lb/>
+                        <l>Mit ihm den weiſen Antonin, und den<lb/>
+                            <hi rendition="#et">von beiden</hi></l>
+                        <lb/>
+                        <l>Gefeyrten Julian.</l>
+                    </lg>
+                    <lb/>
+                    <pb n="37" facs="#f0043"/>
+                    <lg n="8" type="stanza" rhyme="abab">
+                        <l>Allein Merkur ſtand neben mir, und<lb/>
+                            <hi rendition="#et">wandte</hi></l>
+                        <lb/>
+                        <l>Durch ſeinen wunderbaren Stab</l>
+                        <lb/>
+                        <l>Den Ball, der mich ins Reich der Nacht<lb/>
+                            <hi rendition="#et">zu ſchleudern brannte,</hi></l>
+                        <lb/>
+                        <l>Von meinen Schläfen ab.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="8" type="stanza" rhyme="abab">
+                        <l>Denn ich ſoll noch die Laute ſtärker<lb/>
+                            <hi rendition="#et">ſchlagen,</hi></l>
+                        <lb/>
+                        <l>Wann er durch Weihrauchwolken zeucht,</l>
+                        <lb/>
+                        <l>Die Kriegesfurie gefeſſelt an dem Wa-<lb/>
+                            <hi rendition="#et">gen</hi></l>
+                        <lb/>
+                        <l>Des Ueberwinders keucht;</l>
+                    </lg>
+                    <lb/>
+                    <lg n="9" type="stanza" rhyme="abab">
+                        <l>Wann er, auf einem Throne von<lb/>
+                            <hi rendition="#et">Trophäen,</hi></l>
+                        <lb/>
+                        <l>Rund um ſich her der Künſte Kranz,</l>
+                        <lb/>
+                        <l>Und wir im Muſentempel ſeine Siege<lb/>
+                            <hi rendition="#et">ſehen</hi></l>
+                        <lb/>
+                        <l>Verſteckt in Spiel und Tanz;</l>
+                    </lg>
+                    <lb/>
+                    <fw type="sig" place="bottom">C 3</fw>
+                    <lb/>
+                    <pb n="38" facs="#f0044"/>
+                    <lg n="10" type="stanza" rhyme="abab">
+                        <l>Wann er, ein Gott Oſir! durch unſre<lb/>
+                            <hi rendition="#et">Fluren</hi></l>
+                        <lb/>
+                        <l>Im ſeligſten Triumphe fährt,</l>
+                        <lb/>
+                        <l>Indeſs der Ueberfluſs auf jede ſeiner<lb/>
+                            <hi rendition="#et">Spuren</hi></l>
+                        <lb/>
+                        <l>Ein ganzes Füllhorn leert.</l>
+                    </lg>
+                </lg>
+            </div>
+
+            <div n="3">
+                <lg type="poem">
+                    <head>Auf einen Granatapfel,<lb/> der in Berlin zur Reife gekommen war.<lb/>
+                        1749.</head>
+                    <lb/>
+                    <lg n="1" type="stanza" rhyme="ababcdcd">
+                        <l><hi rendition="#in">F</hi>ind’ ich dich hier in deiner grünen<lb/>
+                            <hi rendition="#et">Krone!</hi></l>
+                        <lb/>
+                        <l>Zerſpalteſt du die purpurrothe Bruſt</l>
+                        <lb/>
+                        <l>An dieſer Sonn’! o Liebling der Pomone,</l>
+                        <lb/>
+                        <l>O Proſerpinens Apfel, die mit Luſt</l>
+                        <lb/>
+                        <l>Und Wolluſt deine goldnen Körner</l>
+                        <lb/>
+                        <l>Im Reich des Höllengottes aſs,</l>
+                        <lb/>
+                        <l>Und allen Nektar ferner</l>
+                        <lb/>
+                        <l>Und den Olymp vergaſs.</l>
+                    </lg>
+                    <lb/>
+                    <pb n="14" facs="#f0020"/>
+                    <lg n="2" type="stanza" rhyme="ababcdcd">
+                        <l>Der Erdball ändert ſich! Das Meer<lb/>
+                            <hi rendition="#et">entfliehet,</hi></l>
+                        <lb/>
+                        <l>Und macht dem Pfluge Raum; der Fels<lb/>
+                            <hi rendition="#et">ſinkt ein;</hi></l>
+                        <lb/>
+                        <l>Und, o Berlin! dein dürrer Boden blühet:</l>
+                        <lb/>
+                        <l>Pomona füllt ihr Horn in dir allein;</l>
+                        <lb/>
+                        <l>In dir kann Flora, nach Begehren,</l>
+                        <lb/>
+                        <l>Sich tauſendfache Kränze drehn,</l>
+                        <lb/>
+                        <l>Und ganz verdeckt in Aehren</l>
+                        <lb/>
+                        <l>Die blonde Ceres gehn.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="3" type="stanza" rhyme="ababcdcd">
+                        <l>Und fremde Bäum’, ihr junges Haupt<lb/>
+                            <hi rendition="#et">umſchoren,</hi></l>
+                        <lb/>
+                        <l>Bringt dir Sylvan, und zieht ein La-<lb/>
+                            <hi rendition="#et">byrinth</hi></l>
+                        <lb/>
+                        <l>Von Büſchen auf vor deinen offnen Thoren,</l>
+                        <lb/>
+                        <l>Die mir und dieſen Künſten offen ſind,</l>
+                        <lb/>
+                        <l>Die jetzt auf Flügeln Dädals eilen,</l>
+                        <lb/>
+                        <l>Hoch über Meer und über Land,</l>
+                        <lb/>
+                        <l>Bleymaſse, Meiſsel, Feilen</l>
+                        <lb/>
+                        <l>In ihrer harten Hand.</l>
+                    </lg>
+                    <lb/>
+                    <pb n="15" facs="#f0021"/>
+                    <lg n="4" type="stanza" rhyme="ababcdcd">
+                        <l>Urplötzlich ſind der Felſen graue Rücken</l>
+                        <lb/>
+                        <l>Zu Tempeln und Paläſten ausgehöhlt,</l>
+                        <lb/>
+                        <l>Die rund umher der Pyrrha Kinder<lb/>
+                            <hi rendition="#et">ſchmücken,</hi></l>
+                        <lb/>
+                        <l>Noch halb den Steinen gleich, und halb<lb/>
+                            <hi rendition="#et">beſeelt.</hi></l>
+                        <lb/>
+                        <l>Ihr Götter! prächtig aus Ruinen</l>
+                        <lb/>
+                        <l>Erhebt ſich euer Pantheon:</l>
+                        <lb/>
+                        <l>Die Weiſen alle dienen,</l>
+                        <lb/>
+                        <l>Die Völker lernen ſchon.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="5" type="stanza" rhyme="ababcdcd">
+                        <l>Sagt, Sterbliche, den Sphären ihre<lb/>
+                            <hi rendition="#et">Zahlen,</hi></l>
+                        <lb/>
+                        <l>Und lehrt dem wilden Winde ſeinen Lauf,</l>
+                        <lb/>
+                        <l>Und wägt den Mond, und ſpaltet Sonnen-<lb/>
+                            <hi rendition="#et">ſtralen,</hi></l>
+                        <lb/>
+                        <l>Deckt die Geburt des alten Goldes auf,</l>
+                        <lb/>
+                        <l>Und ſteiget an der Weſen Kette</l>
+                        <lb/>
+                        <l>Bis dahin, wo den höchſten Ring</l>
+                        <lb/>
+                        <l>Zevs an ſein Ruhebette</l>
+                        <lb/>
+                        <l>Zu ſeinen Füſsen hieng.</l>
+                    </lg>
+                    <lb/>
+                    <pb n="16" facs="#f0022"/>
+                    <lg n="6" type="stanza" rhyme="ababcdcd">
+                        <l>Wohl dir, o du, durch meinen Freund<lb/>
+                            <hi rendition="#et">regieret,</hi></l>
+                        <lb/>
+                        <l>Athen an Geiſt, voll Muth, wie Sparta<lb/>
+                            <hi rendition="#et">war:</hi></l>
+                        <lb/>
+                        <l>Es zog, von Kaſtors Liede gern verführet,</l>
+                        <lb/>
+                        <l>Zum Kampf hinaus mit aufgebundnem<lb/>
+                            <hi rendition="#et">Haar;</hi></l>
+                        <lb/>
+                        <l>Die Feinde, die den Kampf verloren,</l>
+                        <lb/>
+                        <l>Erwiederten, (nicht ohne Neid!)</l>
+                        <lb/>
+                        <l>Die Stadt ſey nur geboren</l>
+                        <lb/>
+                        <l>Zu Waffen und zum Streit. —</l>
+                    </lg>
+                    <lb/>
+                    <lg n="7" type="stanza" rhyme="ababcdcd">
+                        <l>So ſang Kalliope, die, voll Entzücken,</l>
+                        <lb/>
+                        <l>Mit ihrer kriegeriſchen Tuba kam,</l>
+                        <lb/>
+                        <l>Und, nicht geſehn von ungeweihten<lb/>
+                            <hi rendition="#et">Blicken,</hi></l>
+                        <lb/>
+                        <l>Den Weg zum Tempel des Apollo nahm,</l>
+                        <lb/>
+                        <l>Wo ſchon mit Lauten und mit Flöten,</l>
+                        <lb/>
+                        <l>Verlarvt und im Zypreſſenkranz</l>
+                        <lb/>
+                        <l>Sich ihre Schweſtern drehten</l>
+                        <lb/>
+                        <l>Im ſchönſten Reihentanz.</l>
+                    </lg>
+                </lg>
+            </div>
+
+            <div n="4">
+                <lg type="poem">
+                    <head>Glaukus Wahrſagung.</head>
+                    <lb/>
+                    <argument>
+                        <p>(Als die Franzöſiſche Flotte aus dem Hafen von<lb/> Breſt nach Amerika
+                            ſegelte.)</p>
+                    </argument>
+                    <lb/>
+                    <lg n="1" type="stanza" rhyme="abab">
+                        <l><hi rendition="#in">A</hi>ls Ludewigs Pilot mit ſtolzer Flotte</l>
+                        <lb/>
+                        <l>Weſtgalliens beſchäumtes Thor</l>
+                        <lb/>
+                        <l>Verlieſs, hub Glaukus aus der tiefen Fel-<lb/>
+                            <hi rendition="#et">ſengrotte</hi></l>
+                        <lb/>
+                        <l>Sein blaues Haupt empor:</l>
+                    </lg>
+                    <lb/>
+                    <lg n="2" type="stanza" rhyme="abab">
+                        <l>Unglücklicher! der ſchon, von Hoff-<lb/>
+                            <hi rendition="#et">nung trunken,</hi></l>
+                        <lb/>
+                        <l>Des Oceans Gebieter iſt,</l>
+                        <lb/>
+                        <l>Du führſt in deinen Schiffen einen Feuer-<lb/>
+                            <hi rendition="#et">funken,</hi></l>
+                        <lb/>
+                        <l>Der beide Welten friſst!</l>
+                    </lg>
+                    <lb/>
+                    <pb n="67" facs="#f0073"/>
+                    <lg n="3" type="stanza" rhyme="abab">
+                        <l>Bald nimmt der Abgrund eine My-<lb/>
+                            <hi rendition="#et">riade</hi></l>
+                        <lb/>
+                        <l>Zu früh entleibter Seelen ein;</l>
+                        <lb/>
+                        <l>Bald werdet ihr im Meer der Hayen, am<lb/>
+                            <hi rendition="#et">Geſtade</hi></l>
+                        <lb/>
+                        <l>Der Aaren Beute ſeyn!</l>
+                    </lg>
+                    <lb/>
+                    <lg n="4" type="stanza" rhyme="abab">
+                        <l>Die Götter, die jetzt lachend mit euch<lb/>
+                            <hi rendition="#et">ziehen,</hi></l>
+                        <lb/>
+                        <l>Bereuen ihr geſchenktes Glück,</l>
+                        <lb/>
+                        <l>Verachten euren Uebermuth, und alle<lb/>
+                            <hi rendition="#et">fliehen</hi></l>
+                        <lb/>
+                        <l>Nach Albion zurück:</l>
+                    </lg>
+                    <lb/>
+                    <lg n="5" type="stanza" rhyme="abab">
+                        <l>Daſs Albion der meerumfloſsnen<lb/>
+                            <hi rendition="#et">Erde</hi></l>
+                        <lb/>
+                        <l>Gerechte Friedensrichterinn,</l>
+                        <lb/>
+                        <l>Das Schrecken der beraubten Oceane<lb/>
+                            <hi rendition="#et">werde,</hi></l>
+                        <lb/>
+                        <l>Der Inſeln Königinn;</l>
+                    </lg>
+                    <lb/>
+                    <fw type="sig" place="bottom">E 2</fw>
+                    <lb/>
+                    <pb n="68" facs="#f0074"/>
+                    <lg n="6" type="stanza" rhyme="abab">
+                        <l>Ihr aber, flüchtig unter jeder Zone,</l>
+                        <lb/>
+                        <l>So manchen ſchwimmenden Palaſt,</l>
+                        <lb/>
+                        <l>Und Port, und Meer, und Eyland, und der<lb/>
+                            <hi rendition="#et">Kolombone</hi></l>
+                        <lb/>
+                        <l>Durchſtrömte Flur verlaſst.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="7" type="stanza" rhyme="abab">
+                        <l>O weiche Söhne tapfrer Franken,<lb/>
+                            <hi rendition="#et">ſprechet</hi></l>
+                        <lb/>
+                        <l>Helvetien um Männer an!</l>
+                        <lb/>
+                        <l>O! plündert unbewehrte Fürſtenthümer!<lb/>
+                            <hi rendition="#et">brechet</hi></l>
+                        <lb/>
+                        <l>Mit Wagen, Roſs und Mann</l>
+                    </lg>
+                    <lb/>
+                    <lg n="8" type="stanza" rhyme="abab">
+                        <l>In eurer Väter alte Sitze! ſchreitet</l>
+                        <lb/>
+                        <l>Kühn über den gehörnten Rhein,</l>
+                        <lb/>
+                        <l>Sucht Pallas Liebling auf, der für ſein<lb/>
+                            <hi rendition="#et">Erbe ſtreitet,</hi></l>
+                        <lb/>
+                        <l>Und, eurer Macht zu klein,</l>
+                    </lg>
+                    <lb/>
+                    <pb n="69" facs="#f0075"/>
+                    <lg n="9" type="stanza" rhyme="abab">
+                        <l>Und von verſchwornen Barbarn über-<lb/>
+                            <hi rendition="#et">fallen,</hi></l>
+                        <lb/>
+                        <l>Einſt wanken muſs: erdrücket ihn! —</l>
+                        <lb/>
+                        <l>Ihr unter den verſchwornen ſollt, ihr un-<lb/>
+                            <hi rendition="#et">ter allen</hi></l>
+                        <lb/>
+                        <l>Allein mit Schande fliehn!</l>
+                    </lg>
+                    <lb/>
+                    <lg n="10" type="stanza" rhyme="abab">
+                        <l>Der Ort, wo ſieben Krieger funfzig<lb/>
+                            <hi rendition="#et">jagen,</hi></l>
+                        <lb/>
+                        <l>Ob ihr ihn zu vernichten ſucht,</l>
+                        <lb/>
+                        <l>Ein Brandmaal wird er euch, worauf in<lb/>
+                            <hi rendition="#et">ſpäten Tagen</hi></l>
+                        <lb/>
+                        <l>Ein beſsrer Enkel flucht.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="11" type="stanza" rhyme="abab">
+                        <l>Ob alle Reiſigen aus euren Veſten,</l>
+                        <lb/>
+                        <l>Ob eine neue Helene</l>
+                        <lb/>
+                        <l>Euch alle Prinzen aus Lutetiens Pa-<lb/>
+                            <hi rendition="#et">läſten</hi></l>
+                        <lb/>
+                        <l>Zu Feldherrn ſendete:</l>
+                    </lg>
+                    <lb/>
+                    <fw type="sig" place="bottom">E 3</fw>
+                    <lb/>
+                    <pb n="70" facs="#f0076"/>
+                    <lg n="12" type="stanza" rhyme="abab">
+                        <l>Dort auf den Gräbern Römſcher Le-<lb/>
+                            <hi rendition="#et">gionen</hi></l>
+                        <lb/>
+                        <l>Erwartet eure Tapferkeit</l>
+                        <lb/>
+                        <l>Ein Fürſt, den Jupiter, der Hirtenſtäb’<lb/>
+                            <hi rendition="#et">und Kronen</hi></l>
+                        <lb/>
+                        <l>Aus Einer Urne ſtreut,</l>
+                    </lg>
+                    <lb/>
+                    <lg n="13" type="stanza" rhyme="abab">
+                        <l>Nicht zum Monarchen, aber zum Ver-<lb/>
+                            <hi rendition="#et">gnügen</hi></l>
+                        <lb/>
+                        <l>Des menſchlichen Geſchlechts erkohr.</l>
+                        <lb/>
+                        <l>Ha! welch ein lauter Päan ſteigt von ſei-<lb/>
+                            <hi rendition="#et">nen Siegen</hi></l>
+                        <lb/>
+                        <l>In mein entzücktes Ohr!</l>
+                    </lg>
+                    <lb/>
+                    <lg n="14" type="stanza" rhyme="abab">
+                        <l>„Alſo zerbrach mit ſieggewohnter<lb/>
+                            <hi rendition="#et">Rechte</hi></l>
+                        <lb/>
+                        <l>„Der Alkumena Sohn, im Zorn,</l>
+                        <lb/>
+                        <l>„Dem wandelbaren Gotte das zum Blutgefechte</l>
+                        <lb/>
+                        <l>„Wild aufgeworfne Horn;</l>
+                    </lg>
+                    <lb/>
+                    <pb n="71" facs="#f0077"/>
+                    <lg n="15" type="stanza" rhyme="abab">
+                        <l>„Alſo entkräftete der göttergleiche</l>
+                        <lb/>
+                        <l>„Ulyſs den Rieſen, der an Macht</l>
+                        <lb/>
+                        <l>„Dreyhundertmal ihn übertraf, mit Einen<lb/>
+                            <hi rendition="#et">Streiche,</hi></l>
+                        <lb/>
+                        <l>„Nicht ohne Muth vollbracht:</l>
+                    </lg>
+                    <lb/>
+                    <lg n="16" type="stanza" rhyme="abab">
+                        <l>„Alſo beſieget euch, auf eure Liſten</l>
+                        <lb/>
+                        <l>„Und Puniſchen Betrug entbrannt,</l>
+                        <lb/>
+                        <l>„Ein Held, den Pallas und der <hi rendition="#g">Brennen</hi><lb/>
+                            <hi rendition="#et"><hi rendition="#g">Friedrich</hi> rüſten,</hi></l>
+                        <lb/>
+                        <l>„Der <hi rendition="#g">Gwelfe Ferdinand;</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="17" type="stanza" rhyme="abab">
+                        <l>Und ſo mit ewig unerſchöpften<lb/>
+                            <hi rendition="#et">Witze</hi></l>
+                        <lb/>
+                        <l>„Verhönt er euch, die ihr den Streit</l>
+                        <lb/>
+                        <l>„Durch ſtärkre Heere, Wälle, donnernde<lb/>
+                            <hi rendition="#et">Geſchütze</hi></l>
+                        <lb/>
+                        <l>„Zu führen muthig ſeyd.</l>
+                    </lg>
+                    <lb/>
+                    <fw type="sig" place="bottom">E 4</fw>
+                    <lb/>
+                    <pb n="72" facs="#f0078"/>
+                    <lg n="18" type="stanza" rhyme="abab">
+                        <l>„So bald ſein himmliſch Feuer wenig<lb/>
+                            <hi rendition="#et">Britten</hi></l>
+                        <lb/>
+                        <l>„Und Deutſchlands jugendlichen Reſt</l>
+                        <lb/>
+                        <l>„Beſeelt: ein Wunder allen, welche Kre-<lb/>
+                            <hi rendition="#et">felds Hütten</hi></l>
+                        <lb/>
+                        <l>„Bewohnen, und das Neſt</l>
+                    </lg>
+                    <lb/>
+                    <lg n="19" type="stanza" rhyme="abab">
+                        <l>„Des hohen Roncevalls, und die Gefilde</l>
+                        <lb/>
+                        <l>„Wodurch der Eſſe Gieſsbach rinnt.</l>
+                        <lb/>
+                        <l>„Hier ſahen euch, gelehnt auf ihre gold-<lb/>
+                            <hi rendition="#et">nen Schilde,</hi></l>
+                        <lb/>
+                        <l>„Sein Ahnherr Witekind,</l>
+                    </lg>
+                    <lb/>
+                    <lg n="19" type="stanza" rhyme="abab">
+                        <l>„Und der Cheruskerfürſt, der groſse<lb/>
+                            <hi rendition="#et">Schatten</hi></l>
+                        <lb/>
+                        <l>„Des Legionentödters fliehn:</l>
+                        <lb/>
+                        <l>„Zehn Paraſangen hinter eurer Flucht<lb/>
+                            <hi rendition="#et">die Matten</hi></l>
+                        <lb/>
+                        <l>„Voll Raub und voll Ruin.</l>
+                    </lg>
+                    <lb/>
+                    <pb n="73" facs="#f0079"/>
+                    <lg n="20" type="stanza" rhyme="abab">
+                        <l>„Vergeblich flieht ihr dieſen Feind, ge-<lb/>
+                            <hi rendition="#et">ſchwinder</hi></l>
+                        <lb/>
+                        <l>„Als Kraniche den Adler; ſetzt</l>
+                        <lb/>
+                        <l>„Vergeblich zwiſchen euch und euren Ue-<lb/>
+                            <hi rendition="#et">berwinder</hi></l>
+                        <lb/>
+                        <l>„Jetzt Berge, Ströme jetzt:</l>
+                    </lg>
+                    <lb/>
+                    <lg n="21" type="stanza" rhyme="abab">
+                        <l>„Auf ungezähmten Roſſen, mit der Flamme</l>
+                        <lb/>
+                        <l>„Des Schwerdtes, zürnet hinter euch</l>
+                        <lb/>
+                        <l>„Ein zweyter <hi rendition="#g">Ferdinand</hi> aus dieſem Göt-<lb/>
+                            <hi rendition="#et">terſtamme,</hi></l>
+                        <lb/>
+                        <l>„Dem Sohn der Thetis gleich,</l>
+                    </lg>
+                    <lb/>
+                    <lg n="22" type="stanza" rhyme="abab">
+                        <l>„Nicht wundenfrey, doch unverkürtzt<lb/>
+                            <hi rendition="#et">an Jahren:</hi></l>
+                        <lb/>
+                        <l>(„Geh, lebe! war der Parze Schluſs,</l>
+                        <lb/>
+                        <l>„Nach deinem Vater ſpät ein Kriegesgott<lb/>
+                            <hi rendition="#et">der Schaaren</hi></l>
+                        <lb/>
+                        <l>„Am ſtillen Ockarus.)</l>
+                    </lg>
+                    <lb/>
+                    <fw type="sig" place="bottom">E 5</fw>
+                    <lb/>
+                    <pb n="74" facs="#f0080"/>
+                    <lg n="23" type="stanza" rhyme="abab">
+                        <l>„Ihm folgen ſeine Brüder; alle glühen</l>
+                        <lb/>
+                        <l>„Nach Ehre: Kriegesdonner, wie</l>
+                        <lb/>
+                        <l>„Die Scipionen, und im Frieden, von<lb/>
+                            <hi rendition="#et">Thalien</hi></l>
+                        <lb/>
+                        <l>„Geliebet, ſo wie ſie.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="24" type="stanza" rhyme="abab">
+                        <l>„Ein Eigenthum durch alle Folge-<lb/>
+                            <hi rendition="#et">zeiten</hi></l>
+                        <lb/>
+                        <l>„Von Braunſchweigs Helden: jeder ſpannt</l>
+                        <lb/>
+                        <l>„Des Gottes Silberbogen und des Gottes<lb/>
+                            <hi rendition="#et">Saiten</hi></l>
+                        <lb/>
+                        <l>„Mit gleich geübter Hand.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="25" type="stanza" rhyme="abab">
+                        <l>”Und dennoch überſteigt ſo weit und<lb/>
+                            <hi rendition="#et">weiter</hi></l>
+                        <lb/>
+                        <l>„Des Herzens Güte dieſen Werth,</l>
+                        <lb/>
+                        <l>„Als jenen Sonnenball der groſse Tag, der<lb/>
+                            <hi rendition="#et">heiter</hi></l>
+                        <lb/>
+                        <l>„Durch alle Himmel fährt.„</l>
+                    </lg>
+                    <lb/>
+                    <pb n="75" facs="#f0081"/>
+                    <lg n="26" type="stanza" rhyme="abab">
+                        <l>So, gleich Arions Liede, gleich dem<lb/>
+                            <hi rendition="#et">Tone,</hi></l>
+                        <lb/>
+                        <l>Der Götter und Delphine zwang,</l>
+                        <lb/>
+                        <l>So, zu des Gwelfen Ruhm, des Burboni-<lb/>
+                            <hi rendition="#et">den Hohne,</hi></l>
+                        <lb/>
+                        <l>Teutoniens Geſang. —</l>
+                    </lg>
+                    <lb/>
+                    <lg n="27" type="stanza" rhyme="abab">
+                        <l>Du ſtehſt beſchämt, o Burbons Enkel? —<lb/>
+                            <hi rendition="#et">Höre</hi></l>
+                        <lb/>
+                        <l>Ein nie zuvor geträumtes Glück!</l>
+                        <lb/>
+                        <l>Des Britten ſchwacher Kriegesdämon giebt<lb/>
+                            <hi rendition="#et">dir Ehre</hi></l>
+                        <lb/>
+                        <l>Und Land und Meer zurück.</l>
+                    </lg>
+                </lg>
+            </div>
+
+            <div n="5">
+                <lg type="poem">
+                    <head><hi rendition="#g">An ſeinen Arzt.</hi></head>
+                    <lb/>
+                    <argument>
+                        <p><hi rendition="#c">Berlin, den 24 Jenner 1762.</hi></p>
+                    </argument>
+                    <lb/>
+                    <lg n="1" type="stanza" rhyme="abab">
+                        <l><hi rendition="#in">M</hi>ein Arzt, mein Freund, o! laſs mich<lb/>
+                            <hi rendition="#et">ihn entſiegeln,</hi></l>
+                        <lb/>
+                        <l>Den Hochheims edle Kelter zwang,</l>
+                        <lb/>
+                        <l>Und jenen, alt als ich, der einſt auf Tar-<lb/>
+                            <hi rendition="#et">zals Hügeln</hi></l>
+                        <lb/>
+                        <l>Die Morgenſonne trank!</l>
+                    </lg>
+                    <lb/>
+                    <pb n="43" facs="#f0049"/>
+                    <lg n="2" type="stanza" rhyme="aab">
+                        <l>Daſs ich dieſs thraziſch kalte Fieber<lb/>
+                            <hi rendition="#et">höhne,</hi></l>
+                        <lb/>
+                        <l>Das um mein Eingeweide ſchleicht,<lb/> Und hohe ſäkulariſche Päanen
+                            töne;</l>
+                        <lb/>
+                        <l>(Denn <hi rendition="#g">Friederich</hi> erreicht</l>
+                    </lg>
+                    <lb/>
+                    <lg n="3" type="stanza" rhyme="abab">
+                        <l>Heut ſeiner Jahre Mittag, den Phalangen</l>
+                        <lb/>
+                        <l>Europens nicht, auch nicht der Wut</l>
+                        <lb/>
+                        <l>Der Horden Aſiens bezwinglich, noch den<lb/>
+                            <hi rendition="#et">Schlangen</hi></l>
+                        <lb/>
+                        <l>Der Eumenidenbrut;)</l>
+                    </lg>
+                    <lb/>
+                    <lg n="4" type="stanza" rhyme="abab">
+                        <l>Und trunkne Jubel jauchze, daſs von<lb/>
+                            <hi rendition="#et">allen</hi></l>
+                        <lb/>
+                        <l>Feindinnen nur Thereſia</l>
+                        <lb/>
+                        <l>Noch trotzen darf; daſs Tanaquil jüngſthin<lb/>
+                            <hi rendition="#et">gefallen,</hi></l>
+                        <lb/>
+                        <l>Und nun Kleopatra.</l>
+                    </lg>
+                </lg>
+            </div>
+
+            <div n="6">
+                <lg type="poem">
+                    <head><hi rendition="#g">An Lycidas.</hi></head>
+                    <lb/>
+                    <lg n="1" type="stanza" rhyme="abcd">
+                        <l><hi rendition="#in">W</hi>en feine Mutter unter den zärtlichen</l>
+                        <lb/>
+                        <l>Geſängen heller Nachtigallchör’ empfieng,</l>
+                        <lb/>
+                        <l>Wer ihr in ihren Götterträumen</l>
+                        <lb/>
+                        <l>Nächtlich als Schwan ſich vom Buſen<lb/>
+                            <hi rendition="#et">loswand,</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="2" type="stanza" rhyme="abcd">
+                        <l>Hängt nicht erſtrittne Fahnen, und Schlüſſel<lb/>
+                            <hi rendition="#et">von</hi></l>
+                        <lb/>
+                        <l>Bezwungner Städte Thoren, und feindliche</l>
+                        <lb/>
+                        <l>Galeerenſchnäbel in Gradivens</l>
+                        <lb/>
+                        <l>Blutige Tempel auf; keine Schiffe,</l>
+                    </lg>
+                    <lb/>
+                    <pb n="45" facs="#f0051"/>
+                    <lg n="3" type="stanza" rhyme="abcd">
+                        <l>Mit Künſten aller Völker, mit jeder<lb/>
+                            <hi rendition="#et">Frucht</hi></l>
+                        <lb/>
+                        <l>Der ſonnenrothen Berge, des kalten<lb/>
+                            <hi rendition="#et">Meers,</hi></l>
+                        <lb/>
+                        <l>Der aufgedeckten Hölle wuchernd,</l>
+                        <lb/>
+                        <l>Fliegen für ihn um die beiden Pole.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="4" type="stanza" rhyme="abcd">
+                        <l>Ununterwieſen wird er als Knabe ſchon</l>
+                        <lb/>
+                        <l>Die Frühlingsbluhme ſingen, und froh<lb/>
+                            <hi rendition="#et">beſtürzt</hi></l>
+                        <lb/>
+                        <l>Sich einen Dichter grüſsen hören.</l>
+                        <lb/>
+                        <l>Ihm wird die jüngſte der Charitinnen,</l>
+                    </lg>
+                    <lb/>
+                    <lg n="5" type="stanza" rhyme="abc">
+                        <l>Die wohlbewachte Scham, ſich zur Füh-<lb/>
+                            <hi rendition="#et">rerinn</hi></l>
+                        <lb/>
+                        <l>Entbieten. Ihm wird Pallas die Wolke von</l>
+                        <lb/>
+                        <l>Den Augen nehmen, daſs ihr Jünger<lb/> Wahrheit und blendenden Trug er-<lb/>
+                            <hi rendition="#et">kenne.</hi></l>
+                    </lg>
+                    <lb/>
+                    <pb n="46" facs="#f0052"/>
+                    <lg n="6" type="stanza" rhyme="abcd">
+                        <l>In Wäldern wird er einſam den Vater<lb/>
+                            <hi rendition="#et">der</hi></l>
+                        <lb/>
+                        <l>Natur verehren. Endlich, o Lycidas,</l>
+                        <lb/>
+                        <l>Erwartet er, gleich eines fremden</l>
+                        <lb/>
+                        <l>Mannes Beſuche den Tod mit Gleich-<lb/>
+                            <hi rendition="#et">muth.</hi></l>
+                    </lg>
+                </lg>
+            </div>
+
+            <div n="7">
+                <lg type="poem">
+                    <head>Lied der Nymphe Perſante.<lb/> Den 24 September 1760.</head>
+                    <lb/>
+                    <argument>
+                        <p>(Nachdem die Feſtung Kolberg von dem Ruſſiſchen<lb/> Heere einmal zu
+                            Lande, und zum zweyten mal von<lb/> der Ruſſiſchen und Schwediſchen
+                            Seemacht vergeblich<lb/> belagert worden war.)</p>
+                    </argument>
+                    <lb/>
+                    <lg n="1" type="stanza" rhyme="abab">
+                        <l><hi rendition="#in">E</hi>r ſiegt! mein Perſeus ſiegt! — Ihr<lb/>
+                            <hi rendition="#et">Freudenzähren,</hi></l>
+                        <lb/>
+                        <l>Erſtickt nicht meinen Lobgeſang! —</l>
+                        <lb/>
+                        <l>O Fluten meines Stroms, erzählt in allen<lb/>
+                            <hi rendition="#et">Meeren</hi></l>
+                        <lb/>
+                        <l>Des Drachen Untergang!</l>
+                    </lg>
+                    <lb/>
+                    <pb n="30" facs="#f0036"/>
+                    <lg n="2" type="stanza" rhyme="abab">
+                        <l>Hier, wo der Belt, mein Kolberg zu<lb/>
+                            <hi rendition="#et">verſchonen,</hi></l>
+                        <lb/>
+                        <l>Mit Dünen ſein Geſtad’ umzieht,</l>
+                        <lb/>
+                        <l>Saſs ich, und ſang entzückt den horchenden<lb/>
+                            <hi rendition="#et">Tritonen</hi></l>
+                        <lb/>
+                        <l>Von meinem Freund’ ein Lied.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="3" type="stanza" rhyme="abab">
+                        <l>„Er ſchlug das Raubthier jüngſt, das<lb/>
+                            <hi rendition="#et">der beſchneyte</hi></l>
+                        <lb/>
+                        <l>„Riphäus auf mich ausgeſpien,</l>
+                        <lb/>
+                        <l>„Als ich, verlaſſen von den Göttern, ſeine<lb/>
+                            <hi rendition="#et">Beute</hi></l>
+                        <lb/>
+                        <l>„Unwiederbringlich ſchien. —</l>
+                    </lg>
+                    <lb/>
+                    <lg n="4" type="stanza" rhyme="abab">
+                        <l>Ich ſprachs: als ich urplötzlich einen<lb/>
+                            <hi rendition="#et">Drachen</hi></l>
+                        <lb/>
+                        <l>Aus blauer Tiefe ſteigen ſah</l>
+                        <lb/>
+                        <l>Mit ſunfzig aufgeriſsnen feuerſpeynden<lb/>
+                            <hi rendition="#et">Rachen:</hi></l>
+                        <lb/>
+                        <l>Ohnmächtig lag ich da.</l>
+                    </lg>
+                    <lb/>
+                    <pb n="31" facs="#f0037"/>
+                    <lg n="5" type="stanza" rhyme="abab">
+                        <l>Mein Perſeus flog in dieſem Augen-<lb/>
+                            <hi rendition="#et">blicke</hi></l>
+                        <lb/>
+                        <l>Herab von ſeiner Warte, ſchwang</l>
+                        <lb/>
+                        <l>Sein glorreich Eiſen, hielt den Tod im<lb/>
+                            <hi rendition="#et">Meer zurücke</hi></l>
+                        <lb/>
+                        <l>Dreymal neun Tage lang.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="6" type="stanza" rhyme="abab">
+                        <l>Ha! welche Flammenſtröme ſchoſs die<lb/>
+                            <hi rendition="#et">Hyder</hi></l>
+                        <lb/>
+                        <l>Nach ſeinem Leben! — Endlich fand</l>
+                        <lb/>
+                        <l>Mein Flehn der Götter Ohr: und Waffen<lb/>
+                            <hi rendition="#et">fielen nieder</hi></l>
+                        <lb/>
+                        <l>Da, wo mein Gaſtfreund ſtand.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="7" type="stanza" rhyme="abab">
+                        <l>So bald ihm Plutons Helm das Haupt<lb/>
+                            <hi rendition="#et">verhüllte,</hi></l>
+                        <lb/>
+                        <l>Ihn Hermes Flügel trug, der Speer</l>
+                        <lb/>
+                        <l>Der ſchrecklichen Minerva ſeine Rechte<lb/>
+                            <hi rendition="#et">füllte:</hi></l>
+                        <lb/>
+                        <l>Stürzt’ er die Peſt ins Meer.</l>
+                    </lg>
+                    <lb/>
+                    <pb n="32" facs="#f0038"/>
+                    <lg n="8" type="stanza" rhyme="abab">
+                        <l>Von meinen Lippen ſoll ſein Lob<lb/>
+                            <hi rendition="#et">erſchallen,</hi></l>
+                        <lb/>
+                        <l>Ich feyre dankbar meinen Held,</l>
+                        <lb/>
+                        <l>So lang’ in dieſes Hafens Arme Segel<lb/>
+                            <hi rendition="#et">wallen</hi></l>
+                        <lb/>
+                        <l>Vom Oſtwind’ aufgeſchwellt.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="9" type="stanza" rhyme="abab">
+                        <l>Ihm ſelbſt will ich, wann er den Strand<lb/>
+                            <hi rendition="#et">begrüſset,</hi></l>
+                        <lb/>
+                        <l>Auf ſeine Wege Kalmus ſtreun</l>
+                        <lb/>
+                        <l>Und Muſcheln; denn mein Fluſs iſt arm:<lb/>
+                            <hi rendition="#et">kein Goldſand flieſset,</hi></l>
+                        <lb/>
+                        <l>Kaum Ambra rollt hinein.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="10" type="stanza" rhyme="abab">
+                        <l>Und du, mein Barde, der du vor den<lb/>
+                            <hi rendition="#et">Thoren</hi></l>
+                        <lb/>
+                        <l>Von deiner mütterlichen Stadt</l>
+                        <lb/>
+                        <l>Einſt Lieder lalleteſt, wenn ſie, die dich<lb/>
+                            <hi rendition="#et">geboren,</hi></l>
+                        <lb/>
+                        <l>Noch deine Liebe hat:</l>
+                    </lg>
+                    <lb/>
+                    <pb n="33" facs="#f0039"/>
+                    <lg n="11" type="stanza" rhyme="abab">
+                        <l>So ſinge meinen Liebling, meinen<lb/>
+                            <hi rendition="#et">Retter</hi></l>
+                        <lb/>
+                        <l>In jene Laute, die dir jüngſt</l>
+                        <lb/>
+                        <l>Beſaitet ward, in welche du den Kampf<lb/>
+                            <hi rendition="#et">der Götter</hi></l>
+                        <lb/>
+                        <l>Mit den Titanen ſingſt.</l>
+                    </lg>
+                </lg>
+            </div>
+
+            <div n="8">
+                <lg type="poem">
+                    <head>An<lb/> Herrn Chriſtian Gottfried Krauſe.<lb/>
+                        <hi rendition="#g">1762.</hi></head>
+                    <lb/>
+                    <lg n="1" type="stanza" rhyme="abcd">
+                        <l><hi rendition="#in">M</hi>ein Krauſe, den nicht der Themis<lb/>
+                            <hi rendition="#et">Orakel,</hi></l>
+                        <lb/>
+                        <l>Der Zank am Altar’, im Tempel der<lb/>
+                            <hi rendition="#et">Aufruhr</hi></l>
+                        <lb/>
+                        <l>Entwöhnten zärtliche Lieder</l>
+                        <lb/>
+                        <l>Aus ſiebenfach tönenden Saiten zu<lb/>
+                            <hi rendition="#et">ziehn,</hi></l>
+                    </lg>
+                    <lb/>
+                    <pb n="48" facs="#f0054"/>
+                    <lg n="2" type="stanza" rhyme="abcd">
+                        <l>Laſs andre den Sieg des feurigen Heinrichs,</l>
+                        <lb/>
+                        <l>Den ſchnellen Triumph des Löwen beſingen,</l>
+                        <lb/>
+                        <l>Der, ſelbſt im Schlummer erſchrecklich,</l>
+                        <lb/>
+                        <l>Die Lybiſchen Wüſten in Ehrfurcht<lb/>
+                            <hi rendition="#et">erhält;</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="3" type="stanza" rhyme="abcd">
+                        <l>Und endlich, gereizt vom drohenden Pan-<lb/>
+                            <hi rendition="#et">ther,</hi></l>
+                        <lb/>
+                        <l>Den nimmer umſonſt gewageten Sprung<lb/>
+                            <hi rendition="#et">thut,</hi></l>
+                        <lb/>
+                        <l>Im Bauch des Feindes die Klauen,</l>
+                        <lb/>
+                        <l>Im Nacken den zähnebewaffneten<lb/>
+                            <hi rendition="#et">Schlund.</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="4" type="stanza" rhyme="abcd">
+                        <l>Ich ſinge mit dir die ſanfteren Siege</l>
+                        <lb/>
+                        <l>Der Daphne, das Glück um Iris zu<lb/>
+                            <hi rendition="#et">brennen,</hi></l>
+                        <lb/>
+                        <l>Um euch, ihr leuchtenden Augen!</l>
+                        <lb/>
+                        <l>Dich, ſtrebender Buſen! dich, Gra-<lb/>
+                            <hi rendition="#et">zienmund!</hi></l>
+                    </lg>
+                </lg>
+            </div>
+
+            <div n="9">
+                <lg type="poem">
+                    <head>An die Stadt Berlin.<lb/> 1759.</head>
+                    <lb/>
+                    <lg n="1" type="stanza" rhyme="abab">
+                        <l><hi rendition="#in">I</hi>ch ſahe ſie! (mir zittern die Gebeine!)</l>
+                        <lb/>
+                        <l>Ich ſah, glückſeliges Berlin,</l>
+                        <lb/>
+                        <l>Die Göttinn deines Stroms vor deinem<lb/>
+                            <hi rendition="#et">Tannenhaine</hi></l>
+                        <lb/>
+                        <l>Mit ihren Schwänen ziehn!</l>
+                    </lg>
+                    <lb/>
+                    <lg n="2" type="stanza" rhyme="abab">
+                        <l>Vergönne mir, Najade, nachzulallen,</l>
+                        <lb/>
+                        <l>Was mein erſtauntes Ohr durchdrang,</l>
+                        <lb/>
+                        <l>Und was dein Göttermund den Faunen<lb/>
+                            <hi rendition="#et">ſang, und allen</hi></l>
+                        <lb/>
+                        <l>Hamadryaden ſang. — —</l>
+                    </lg>
+                    <lb/>
+                    <fw type="sig" place="bottom">B 2</fw>
+                    <lb/>
+                    <pb n="20" facs="#f0026"/>
+                    <lg n="3" type="stanza" rhyme="abab">
+                        <l>Sey mir gegrüſst, Auguſta, meine<lb/>
+                            <hi rendition="#et">Krone!</hi></l>
+                        <lb/>
+                        <l>Die Städte Deutſchlands bücken ſich!</l>
+                        <lb/>
+                        <l>Es hören meinen Stolz Belt, Donau,<lb/>
+                            <hi rendition="#et">Wolga, Rhone,</hi></l>
+                        <lb/>
+                        <l>Und weichen hinter mich!</l>
+                    </lg>
+                    <lb/>
+                    <lg n="4" type="stanza" rhyme="abab">
+                        <l>Was fürchten wir, iſt gleich die Zahl<lb/>
+                            <hi rendition="#et">des Feindes</hi></l>
+                        <lb/>
+                        <l>Wie dieſer beiden Ufer Sand?</l>
+                        <lb/>
+                        <l>O Tochter! haſt du nicht zur Seite meines<lb/>
+                            <hi rendition="#et">Freundes</hi></l>
+                        <lb/>
+                        <l>Stets einen Gott erkannt?</l>
+                    </lg>
+                    <lb/>
+                    <lg n="5" type="stanza" rhyme="abab">
+                        <l>Stritt Jupiter nicht ſelbſt mit Friedrichs<lb/>
+                            <hi rendition="#et">Volke,</hi></l>
+                        <lb/>
+                        <l>Und donnerte den Feind zurück?</l>
+                        <lb/>
+                        <l>Warf nicht der Kriegesgott einſt plötzlich<lb/>
+                            <hi rendition="#et">eine Wolke</hi></l>
+                        <lb/>
+                        <l>Vor ſeines Mörders Blick?</l>
+                    </lg>
+                    <lb/>
+                    <pb n="21" facs="#f0027"/>
+                    <lg n="6" type="stanza" rhyme="abab">
+                        <l>Sah ich nicht jüngſt, (als er vom fernen<lb/>
+                            <hi rendition="#et">Süden</hi></l>
+                        <lb/>
+                        <l>Den Rieſen aus der Mitternacht</l>
+                        <lb/>
+                        <l>Sein Heer entgegen riſs, ein kleines Heer<lb/>
+                            <hi rendition="#et">von Müden,</hi></l>
+                        <lb/>
+                        <l>Bereit zur zehnten Schlacht,)</l>
+                    </lg>
+                    <lb/>
+                    <lg n="7" type="stanza" rhyme="abab">
+                        <l>Wie das Panier, von ſeiner Hand<lb/>
+                            <hi rendition="#et">gefaſſet,</hi></l>
+                        <lb/>
+                        <l>Zur drohenden Aegide ward?</l>
+                        <lb/>
+                        <l>Die Feinde ſahn den Schild der Pallas,<lb/>
+                            <hi rendition="#et">die ſie haſſet:</hi></l>
+                        <lb/>
+                        <l>Und hafteten erſtarrt</l>
+                    </lg>
+                    <lb/>
+                    <lg n="8" type="stanza" rhyme="abab">
+                        <l>Am Boden; — bis ſie durch ſein Heer<lb/>
+                            <hi rendition="#et">zerſchlagen,</hi></l>
+                        <lb/>
+                        <l>Das unaufhaltſam weiter drang,</l>
+                        <lb/>
+                        <l>Wie Halmen von des Himmels Schloſſen<lb/>
+                            <hi rendition="#et">niederlagen</hi></l>
+                        <lb/>
+                        <l>Dreyhundert Hufen lang.</l>
+                    </lg>
+                    <lb/>
+                    <fw type="sig" place="bottom">B 3</fw>
+                    <lb/>
+                    <pb n="22" facs="#f0028"/>
+                    <lg n="9" type="stanza" rhyme="abab">
+                        <l>Ja, dinget nur die halbe Welt zu-<lb/>
+                            <hi rendition="#et">ſammen,</hi></l>
+                        <lb/>
+                        <l>Und raſet wider Einen Mann,</l>
+                        <lb/>
+                        <l>Und wendet wider ihn Verrath, Nacht,<lb/>
+                            <hi rendition="#et">Meyneid, Flammen,</hi></l>
+                        <lb/>
+                        <l>Den ganzen Orkus an:</l>
+                    </lg>
+                    <lb/>
+                    <lg n="10" type="stanza" rhyme="abab">
+                        <l>Boruſſiens gerechter Held ſoll ſie-<lb/>
+                            <hi rendition="#et">gen!</hi></l>
+                        <lb/>
+                        <l>Die Götter ſchützen ihren Sohn.</l>
+                        <lb/>
+                        <l>Bald wird er im Triumph zu ſeinen Kin-<lb/>
+                            <hi rendition="#et">dern fliegen.</hi></l>
+                        <lb/>
+                        <l>Er kömmt, ich ſeh ihn ſchon!</l>
+                    </lg>
+                    <lb/>
+                    <lg n="11" type="stanza" rhyme="abab">
+                        <l>Er kömmt, das Haupt mit Stralen<lb/>
+                            <hi rendition="#et">rund umwunden,</hi></l>
+                        <lb/>
+                        <l>Wie Delius Apollo kam,</l>
+                        <lb/>
+                        <l>Als er den Python ſchlug und ihm mit<lb/>
+                            <hi rendition="#et">tauſend Wunden</hi></l>
+                        <lb/>
+                        <l>Die ſchwarze Seele nahm.</l>
+                    </lg>
+                    <lb/>
+                    <pb n="23" facs="#f0029"/>
+                    <lg n="12" type="stanza" rhyme="abab">
+                        <l>Eilt, ihn in Erz den Enkeln auf-<lb/>
+                            <hi rendition="#et">zuſtellen!</hi></l>
+                        <lb/>
+                        <l>Eilt, einen Tempel ihm zu weihn</l>
+                        <lb/>
+                        <l>Am Rande meines Stroms! ich brenne,<lb/>
+                            <hi rendition="#et">ſeine Schwellen</hi></l>
+                        <lb/>
+                        <l>Mit Bluhmen zu beſtreun.</l>
+                    </lg>
+                </lg>
+            </div>
+
+        </body>
+    </text>
+</TEI>

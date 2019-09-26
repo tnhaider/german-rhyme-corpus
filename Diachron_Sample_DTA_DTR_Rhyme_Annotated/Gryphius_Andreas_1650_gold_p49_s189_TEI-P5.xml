@@ -1,0 +1,2662 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Teutsche Reim-Gedichte</title>
+    <title type="sub">Darein enthalten I. Ein Fürsten-Mörderisches Trawer-Spiel/ genant. Leo
+     Armenius. II. Zwey Bücher seiner Oden III. Drey Bücher der Sonneten Denen zum Schluß die
+     Geistvolle Opitianische Gedancken von der Ewigkeit hinbey gesetzet seyn</title>
+    <author>
+     <persName ref="http://d-nb.info/gnd/118543032">
+      <surname>Gryphius</surname>
+      <forename>Andreas</forename>
+     </persName>
+    </author>
+    <editor corresp="#DTACorpusPublisher">
+     <persName ref="http://d-nb.info/gnd/115266127">
+      <surname>Geyken</surname>
+      <forename>Alexander</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName ref="http://d-nb.info/gnd/1018099549">
+      <surname>Haaf</surname>
+      <forename>Susanne</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName ref="http://d-nb.info/gnd/1019062681">
+      <surname>Jurish</surname>
+      <forename>Bryan</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Boenig</surname>
+      <forename>Matthias</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Thomas</surname>
+      <forename>Christian</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Wiegand</surname>
+      <forename>Frank</forename>
+     </persName>
+    </editor>
+    <respStmt>
+     <orgName ref="http://www.clarin-d.de">CLARIN-D</orgName>
+     <resp>
+      <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+      <ref target="http://fedora.dwds.de"/>
+     </resp>
+    </respStmt>
+   </titleStmt>
+   <editionStmt>
+    <edition>Vollständige digitalisierte Ausgabe.</edition>
+   </editionStmt>
+   <extent>
+    <measure type="images">258</measure>
+    <measure type="tokens">58916</measure>
+    <measure type="types">11172</measure>
+    <measure type="characters">374144</measure>
+   </extent>
+   <publicationStmt>
+    <publisher xml:id="DTACorpusPublisher">
+     <email>dta@bbaw.de</email>
+     <orgName role="project">Deutsches Textarchiv</orgName>
+     <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and
+      Humanities (BBAW)</orgName>
+     <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+      Wissenschaften (BBAW)</orgName>
+     <address>
+      <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+      <country>Germany</country>
+     </address>
+    </publisher>
+    <pubPlace>Berlin</pubPlace>
+    <date type="publication">2016-10-10T16:33:21Z</date>
+    <availability>
+     <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+      <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported License.</p>
+     </licence>
+    </availability>
+    <idno>
+     <idno type="URLWeb">http://www.deutschestextarchiv.de/gryphius_leoarmenius_1650</idno>
+     <idno type="URLXML"
+      >http://www.deutschestextarchiv.de/book/download_xml/gryphius_leoarmenius_1650</idno>
+     <idno type="URLHTML"
+      >http://www.deutschestextarchiv.de/book/download_html/gryphius_leoarmenius_1650</idno>
+     <idno type="URLText"
+      >http://www.deutschestextarchiv.de/book/download_text/gryphius_leoarmenius_1650</idno>
+     <idno type="DTADirName">gryphius_leoarmenius_1650</idno>
+     <idno type="DTAID">20218</idno>
+     <idno type="URN">urn:nbn:de:kobv:b4-20218-7</idno>
+    </idno>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="M">Gryphius, Andreas: Teutsche Reim-Gedichte. Frankfurt (Main), 1650.</bibl>
+    <biblFull>
+     <titleStmt>
+      <title level="m" type="main">Teutsche Reim-Gedichte</title>
+      <title level="m" type="sub">Darein enthalten I. Ein Fürsten-Mörderisches Trawer-Spiel/ genant.
+       Leo Armenius. II. Zwey Bücher seiner Oden III. Drey Bücher der Sonneten Denen zum Schluß die
+       Geistvolle Opitianische Gedancken von der Ewigkeit hinbey gesetzet seyn</title>
+      <author>
+       <persName ref="http://d-nb.info/gnd/118543032">
+        <surname>Gryphius</surname>
+        <forename>Andreas</forename>
+       </persName>
+      </author>
+     </titleStmt>
+     <editionStmt>
+      <edition n="1"/>
+     </editionStmt>
+     <extent>
+      <measure type="pages">[4] Bl., 240 S.</measure>
+     </extent>
+     <publicationStmt>
+      <publisher><name>Hüttner</name></publisher>
+      <pubPlace>Frankfurt (Main)</pubPlace>
+      <date type="publication">1650</date>
+     </publicationStmt>
+    </biblFull>
+    <msDesc>
+     <msIdentifier>
+      <repository>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</repository>
+      <idno>
+       <idno type="shelfmark">Berlin SBB-PK, Yi 2001</idno>
+      </idno>
+     </msIdentifier>
+     <physDesc>
+      <typeDesc>
+       <p>Fraktur</p>
+      </typeDesc>
+     </physDesc>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p>Dieses Werk wurde gemäß den <ref target="http://www.deutschestextarchiv.de/doku/richtlinien"
+      >DTA-Transkriptionsrichtlinien</ref> im Double-Keying-Verfahren von Nicht-Muttersprachlern
+     erfasst und in XML/TEI P5 nach <ref target="http://www.deutschestextarchiv.de/doku/basisformat"
+      >DTA-Basisformat</ref> kodiert.</p>
+   </editorialDecl>
+   <tagsDecl>
+    <rendition scheme="css" xml:id="rendition-aq">font-family:sans-serif</rendition>
+    <rendition scheme="css" xml:id="rendition-b">font-weight:bold</rendition>
+    <rendition scheme="css" xml:id="rendition-blue">color:blue</rendition>
+    <rendition scheme="css" xml:id="rendition-c">display:block; text-align:center</rendition>
+    <rendition scheme="css" xml:id="rendition-et">display:block; margin-left:2em;
+     text-indent:0</rendition>
+    <rendition scheme="css" xml:id="rendition-et2">display:block; margin-left:4em;
+     text-indent:0</rendition>
+    <rendition scheme="css" xml:id="rendition-et3">display:block; margin-left:6em;
+     text-indent:0</rendition>
+    <rendition scheme="css" xml:id="rendition-f">border:1px dotted silver</rendition>
+    <rendition scheme="css" xml:id="rendition-fr">border:1px dotted silver</rendition>
+    <rendition scheme="css" xml:id="rendition-g">letter-spacing:0.125em</rendition>
+    <rendition scheme="css" xml:id="rendition-i">font-style:italic</rendition>
+    <rendition scheme="css" xml:id="rendition-in">font-size:150%</rendition>
+    <rendition scheme="css" xml:id="rendition-k">font-variant:small-caps</rendition>
+    <rendition scheme="css" xml:id="rendition-larger">font-size:larger</rendition>
+    <rendition scheme="css" xml:id="rendition-red">color:red</rendition>
+    <rendition scheme="css" xml:id="rendition-right">display:block; text-align:right</rendition>
+    <rendition scheme="css" xml:id="rendition-s">text-decoration:line-through</rendition>
+    <rendition scheme="css" xml:id="rendition-smaller">font-size:smaller</rendition>
+    <rendition scheme="css" xml:id="rendition-sub">vertical-align:sub; font-size:.7em</rendition>
+    <rendition scheme="css" xml:id="rendition-sup">vertical-align:super; font-size:.7em</rendition>
+    <rendition scheme="css" xml:id="rendition-u">text-decoration:underline</rendition>
+    <rendition scheme="css" xml:id="rendition-uu">border-bottom:double 3px #000</rendition>
+   </tagsDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="deu">German</language>
+   </langUsage>
+   <textClass>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtamain"
+     >Belletristik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Lyrik,
+     Drama</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+     >Belletristik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Lyrik,
+     Drama</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+     >core</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+     >ready</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+     >china</classCode>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div n="1">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">J</hi>N dieſer Krieges Erndt vnd vberheiſſen zeit</l>
+      <lb/>
+      <l>Jn der man was man ſchawt/ vor Hitze ſchawt ver-</l>
+      <lb/>
+      <l>ſchmachten/</l>
+      <lb/>
+      <l>Seid Jhr G Jungfraw Brautt gluͤckſelig wol zu achten</l>
+      <lb/>
+      <l>Weil euch der Liebe glutt/ ſelbſt ſchatten hat bereit/</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Jhr ſitzt bey ewrem Baum vnd trotzt das grimme leid</l>
+      <lb/>
+      <l>Das vnſer Vaterland eh’ alß wir noch gedachten</l>
+      <lb/>
+      <l>Verſenget vnd verbrand/ das. was die felder brachten/</l>
+      <lb/>
+      <l>Was in den Gaͤrten bluͤht/ mit Schwerdt vnd flammen</l>
+      <lb/>
+      <l>may’t.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Der Baum den jhr erkießt wird jederzeit euch decken:</l>
+      <lb/>
+      <l>Euch wird kein truͤber ſturm/ kein vngewitter ſchrecken/</l>
+      <lb/>
+      <l>Die Zweige werden ſtaͤts voll ſchoͤner blaͤtter ſtehn/</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Die aͤſte/ die ihr ſchon ſeht voll von bluͤtten ſchweben/</l>
+      <lb/>
+      <l>Die werden kuͤnfftig euch gewuͤndſche Fruͤchte geben/</l>
+      <lb/>
+      <l>Diß Laub wird/ glaubt gewiß/ von keinem froſt vergehn.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="2">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abbaccd">
+      <l><hi rendition="#in">A</hi>Ch wie lang/ O GOtt! mein GOtt wie lange/</l>
+      <lb/>
+      <l>Wilſt du dich von meinen threnen kehren/</l>
+      <lb/>
+      <l>Vnd keiner bitte mich gewehren!</l>
+      <lb/>
+      <l>Ach/ wie iſt mir doch ſo hefftig bange!</l>
+      <lb/>
+      <l>Daß du mich nun gantz auß deinem hertzen/</l>
+      <lb/>
+      <l>Schleuſt vnd in grundloſen ſchmertzen/</l>
+      <lb/>
+      <l>Ohne troſt verſincken laͤſt.</l>
+     </lg>
+     <lb/>
+     <fw type="catch" place="bottom"><hi rendition="#fr">S</hi>oll</fw>
+     <lb/>
+     <pb n="97" facs="#f0109"/>
+     <fw type="header" place="top"><hi rendition="#b">Das Erſte Buch.</hi></fw>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="aab">
+      <l>Soll ich HERR/ dein antlitz nicht mehr ſchawen?</l>
+      <lb/>
+      <l>Hab ich nicht O Heylandt/) mein vertrawen</l>
+      <lb/>
+      <l><hi rendition="#fr">S</hi>tets auff dich gegruͤndet feſt?</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="abbaccdeed">
+      <l>2. Ach/ wie lange ſoll in tauſendt plagen/</l>
+      <lb/>
+      <l>Vnter deines grimmes donnerkeilen/</l>
+      <lb/>
+      <l>Vnd Hoͤllenheiſſen Schwefel pfeilen</l>
+      <lb/>
+      <l>Jch mein jmmerwehrendt weh beklagen?</l>
+      <lb/>
+      <l>Ach wie muͤd’ iſt mein gemuͤt von ſorgen!</l>
+      <lb/>
+      <l>Welches ploͤtzlich alle morgen/</l>
+      <lb/>
+      <l>Angſt vnd <hi rendition="#fr">E</hi>lendt vberfaͤlt.</l>
+      <lb/>
+      <l>Jſt wol eine truͤbſal zu ergruͤnden/</l>
+      <lb/>
+      <l>Wirdt man auch ein vngluͤck koͤnnen finden.</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>as mich nicht in klawen haͤlt?</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="abbaccdeed">
+      <l>3. <hi rendition="#fr">D</hi>och ich moͤ<hi rendition="#fr">ch</hi>te dis noch alles
+       leiden:</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>as ſich aber meine feind’ erheben</l>
+      <lb/>
+      <l><hi rendition="#fr">W</hi>eil ich in hoͤchſter qual muß leben/</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>aß ſo froͤlich jauchtzen/ die mich neiden;</l>
+      <lb/>
+      <l>Dis/ dis wil mir leib vnd Geiſt durchdringen/</l>
+      <lb/>
+      <l>Vnd mich zum verzweifeln bringen.</l>
+      <lb/>
+      <l>Mein G<hi rendition="#fr">O</hi>TT! ach mein groſſer GOtt!</l>
+      <lb/>
+      <l>Wofern dein gemuͤte zu erweichen:</l>
+      <lb/>
+      <l>Wofern eine gnade zu erꝛeichen</l>
+      <lb/>
+      <l>Schawe doch auff meinen ſpott.</l>
+     </lg>
+     <lb/>
+     <lg n="5" type="stanza" rhyme="abbaccdeed">
+      <l>4. Welt ade es iſt vmb mich geſchehen!</l>
+      <lb/>
+      <l><hi rendition="#fr">M</hi>eine krafft weicht/ vnd die Augen brechen/</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>ie Zunge kan kein wort mehr ſprechen:</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>er Todt hat mich jhm zum raub’ erſehen.</l>
+      <lb/>
+      <l>Ach HERR! einen ſtrall nur/ deiner guͤtte/</l>
+      <lb/>
+      <l>Wuͤndtſcht mein ſterbendes gemuͤte</l>
+      <lb/>
+      <l>Brich doch an du lebens licht!</l>
+      <lb/>
+      <l>Mein feind wird es ſeiner macht zu ſchreiben/</l>
+      <lb/>
+      <l>Wo ich muß im ſtaube liegen bleiben.</l>
+      <lb/>
+      <l>Dulde do<hi rendition="#fr">ch</hi> ſein pochen nicht.</l>
+     </lg>
+     <lb/>
+     <lg n="6" type="stanza" rhyme="abbaccdeed">
+      <l>5. Nun ich weis/ du wirſt mir nicht abſchlagen/</l>
+      <lb/>
+      <l>Was ich jtzt/ mit halberſtarter zungen/</l>
+      <lb/>
+      <l><hi rendition="#fr">V</hi>nd pfnuͤchtzend habe vorgedrungen.</l>
+      <lb/>
+      <l>Deine gnade kennet kein verſagen/</l>
+      <lb/>
+      <l>Alle welt weis deine trew zu preiſen/</l>
+      <lb/>
+      <fw type="sig" place="bottom">G v</fw>
+      <fw type="catch" place="bottom">Die</fw>
+      <lb/>
+      <pb n="98" facs="#f0110"/>
+      <fw type="header" place="top"><hi rendition="#b">Oden</hi></fw>
+      <lb/>
+      <l>Die du pflegeſt zu erweiſen/</l>
+      <lb/>
+      <l><hi rendition="#fr">W</hi>enn kein mittel mehr zu ſehn</l>
+      <lb/>
+      <l>HERR ich glaub’ ich wil nach ſo viel ſchreyen/</l>
+      <lb/>
+      <l>Vber deiner wolthat mich erfrewen!</l>
+      <lb/>
+      <l>Ja ich weis es wirdt geſchehn!</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="3">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">K</hi>An Rom dich nicht gelehrt/ vnd nicht geſchickter machen/</l>
+      <lb/>
+      <l>Wo es an keiner kunſt/ an keiner weißheit fehlt/</l>
+      <lb/>
+      <l>Wo die Scharffſinnigkeit ſelbſt jhren ſitz erwehlt.</l>
+      <lb/>
+      <l>Wo die vernunfft durchſucht der Fuͤrſten hoͤchſte ſachen?</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Was taͤglich waͤchſt/ was ſteht/ was ſich dem grimmen Ra-</l>
+      <lb/>
+      <l><hi rendition="#et">chen</hi></l>
+      <lb/>
+      <l>Der zeit die alles friſt entzeucht; was ſich vermaͤhlt</l>
+      <lb/>
+      <l>Der greiſen Ewigkeit/ was lange Jahre zehlt/</l>
+      <lb/>
+      <l>Sihſt du; doch wer dich ſiht/ muß deiner grobheit lachen.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Hier haw’t man Marmel aus/ hier ſchleifft man Dia-</l>
+      <lb/>
+      <l><hi rendition="#et">mand/</hi></l>
+      <lb/>
+      <l>Porfirꝛ/ (wie hart er auch) weicht der gelehrten hand</l>
+      <lb/>
+      <l>Von welchem Steinriß hat man dein Gehirn genommen?</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Man glaubt/ daß dieſe Lufft den frembden ſchaͤdlich ſey:</l>
+      <lb/>
+      <l>Jch ſchaw das wiederſpiel/ Jch bin von Seuchen frey</l>
+      <lb/>
+      <l>Dir iſt die Roͤm’ſche Lufft in warheit nicht bekommen.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="4">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abbaa">
+      <l><hi rendition="#in">G</hi>Leich als ein <hi rendition="#fr">W</hi>andersmann dafern die
+       truͤbe Nacht/</l>
+      <lb/>
+      <l><hi rendition="#fr">M</hi>it dicker finſternuß/ Luft/ Erd/ vnd <hi rendition="#fr">S</hi>ee
+       verdecket/</l>
+      <lb/>
+      <l>Betruͤbt jrꝛ’t hin vnd her/ vnd mit viel furcht erſchre-</l>
+      <lb/>
+      <l>cket/</l>
+      <lb/>
+      <l>Nicht weiß wohin er geht/ noch was er laͤſt vnd macht:</l>
+      <lb/>
+      <l>So eben iſts mit mir/ doch wenn der Mond erwacht</l>
+     </lg>
+     <lb/>
+     <fw type="sig" place="bottom"><hi rendition="#fr">L</hi> v</fw>
+     <fw type="catch" place="bottom">Vnd</fw>
+     <lb/>
+     <pb n="162" facs="#f0174"/>
+     <fw type="header" place="top"><hi rendition="#b">Sonnette</hi></fw>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="aab">
+      <l>Vnd ſeiner ſtralen kertz im Wolckenhauß’ anſtecket:</l>
+      <lb/>
+      <l>Bald findt er weg’ vnd raht: ſo wird mein <hi rendition="#fr">G</hi>eiſt erwecket;</l>
+      <lb/>
+      <l>Nun mich der newe troſt auß ewrem brieff anlacht.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Doch warumb heiſt jhr mich diß ſchoͤne pfand verbrennen?</l>
+      <lb/>
+      <l><hi rendition="#fr">W</hi>olt jhr in meiner nacht mich bey der glut’ erkennen?</l>
+      <lb/>
+      <l>Diß/ meines hertzen few’r entdeckt ja wer ich ſey:</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Sol ſchoͤnſte/ diß papier nur meine bruſt beruͤhren:</l>
+      <lb/>
+      <l>So wird es alſobald in aſchen ſich verlieren:</l>
+      <lb/>
+      <l>Wo von der flam’ es nicht wird durch mein weinen frey.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="5">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">A</hi>Ch Edle tugendt Blum/ an welcher recht zu ſchawen</l>
+      <lb/>
+      <l>Was Gott recht fuͤrchtē hieß! was trew vnd heilig ſeyn/</l>
+      <lb/>
+      <l>O Spiegel der gedult/ O Schawplatz hoͤchſter pein</l>
+      <lb/>
+      <l><hi rendition="#fr">O</hi> Andachts-volle <hi rendition="#fr">Roos</hi>/ O Richtſchnur
+        ken<hi rendition="#fr">ſch</hi>er Frawen/</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l><hi rendition="#fr">H</hi>at euch die ſchaͤrfe Seens! deß todes abgehawen/</l>
+      <lb/>
+      <l>Jm mittag ewrer zeit deckt dieſer Marmorſtein</l>
+      <lb/>
+      <l>Die/ durch leid/ ſchwindtſucht angſt/ vnd ſchmertz verzehr-</l>
+      <lb/>
+      <l>ten Bein/</l>
+      <lb/>
+      <l>Nach dem jhr ewren Geiſt dem Hoͤchſten woll’n vertrawen.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Gott rieß euch vō vns weg gleich als ſein grim entbrandt.</l>
+      <lb/>
+      <l>Als Seelen noth vnd Krig verheerten Kirch vnd Landt.</l>
+      <lb/>
+      <l><hi rendition="#fr">J</hi>tzt ſeht jhr Chriſtum ſelbſt mit ſuͤſſer Frewd vmbfangen!</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l><hi rendition="#fr">W</hi>ir ſ<hi rendition="#fr">ch</hi>awen glutt vnd mordt vnd Peſt/ vnd
+       ſturm vnd</l>
+      <lb/>
+      <l>ſchwerd</l>
+      <lb/>
+      <l>O Mutter/ jhr ſeid ench gar eben von der Erdt!</l>
+      <lb/>
+      <l>Mir aber gar zu fruͤh/ Ach gar zu fruͤh entgangen.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="6">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">J</hi>Hr libſten/ die jhr mich das wohn-hauß grimmer noht/</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>en abgezehrten Leib/ vnd die verdorten haͤnde/</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>iß ſterbende geſicht/ vnd mein betruͤbtes ende/</l>
+      <lb/>
+      <l><hi rendition="#fr">M</hi>it naſſen Augen ſchawt; trawrt nicht vmb meinen Tod:</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l><hi rendition="#fr">D</hi>a als der welt ade der Wehrte Bruder bott/</l>
+      <lb/>
+      <l>Nach dem ich jeden tag viel tauſendt ſeuftzer ſende/</l>
+      <lb/>
+      <l>Mit dem die Schweſter ſchied’ als meiner libſten waͤnde</l>
+      <lb/>
+      <l>Jn flammen gingen ein/ vnd wurden grauß vnd kot/</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Da fiel mein leben hin. Mein fleiſch der <hi rendition="#fr">E</hi>ltern gabe/</l>
+      <lb/>
+      <l>Ligt nunmehr ſchon vnd fault in nicht nur einem grabe/</l>
+      <lb/>
+      <l>Dis was jhr fuͤr euch ſeht/ iſt ein geſpenſt vnd dunſt.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l><hi rendition="#fr">D</hi>iß Feber kompt zu ſpaͤt. Der todt wird hier nichts finden/</l>
+      <lb/>
+      <l>Was acht ich ſeinen pfeil/ ich muß ohn diß verſchwinden.</l>
+      <lb/>
+      <l>Jtzt nun mein tag anbricht. Habt danck fuͤr ewre gunſt.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="7">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">E</hi>Jn brandt pfall vnd ein radt/ pech/ folter/ bley vnd zangen/</l>
+      <lb/>
+      <l>Strick/ meſſer/ hacken/ beyll/ ein holtzſtos vnd ein</l>
+      <lb/>
+      <l><hi rendition="#fr">S</hi>chwerdt/</l>
+      <lb/>
+      <l>Vnd ſiedent oͤel/ vnd bley/ ein ſpies/ ein gluͤend Pferdt/</l>
+      <lb/>
+      <l><hi rendition="#fr">S</hi>ind den nicht ſchrecklich/ die/ was ſchrecklich nicht began-</l>
+      <lb/>
+      <l>gen.</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Wer vmb die tugend leid’t/ vmb recht-thun wird gefangen</l>
+      <lb/>
+      <l>Vnd wenn es noth ſein <hi rendition="#fr">B</hi>lut/ doch ohne ſchuldt gewehrt</l>
+      <lb/>
+      <l>Dem wird fuͤr kurtze pein vnendtlich preis beſchert/</l>
+      <lb/>
+      <l><hi rendition="#fr">E</hi>r wirdt den ehren Krantz der nicht verwelckt erlangen.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Er lebt in dem er ſtirbt/ er ſteigt in dem er faͤlt</l>
+      <lb/>
+      <l>Er pocht was toͤdlich iſt vnd trotzt die groſſe Welt</l>
+      <lb/>
+      <l>Vnd kuͤſt die Ewigkeit die er jhm anvertrawet.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l><hi rendition="#fr">H</hi>at nicht der Hoͤchſte ſelbſt ſein hoͤchſtes wunderwerck</l>
+      <lb/>
+      <l>Jn dem er ſtarb verbracht auff Salems ſchaͤdelberg?</l>
+      <lb/>
+      <l>Der iſt kein rechter Chriſt/ dem fuͤr dem Creutze grawet.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="8">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abcacbdedeff">
+      <l><hi rendition="#in">D</hi>Er tag/ der ſuͤſſe tag</l>
+      <lb/>
+      <l>Entſetzt <hi rendition="#fr">ſich</hi> ſelbſt fuͤr mir.</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>ie <hi rendition="#fr">S</hi>onn’ <hi rendition="#fr">iſt</hi>
+       hier nicht helle/</l>
+      <lb/>
+      <l>Sie ſchewet meine klag.</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>er Monden fleucht die ſtelle.</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>ie ſtette nacht hat jhr</l>
+      <lb/>
+      <l>Dis dunckel-grauſe loch zum <hi rendition="#fr">w</hi>ohnhaus außerkohren</l>
+      <lb/>
+      <l>Der Leichen-faule ſtanck</l>
+      <lb/>
+      <l>Hat mich ſchier gantz erſtoͤckt/ i<hi rendition="#fr">ch</hi> bin/ ich bin verlohren!</l>
+      <lb/>
+      <l><hi rendition="#fr">M</hi>ein Leib vnd <hi rendition="#fr">S</hi>eel iſt kranck!</l>
+      <lb/>
+      <l>Ach! ach! mir iſt ſo bang!</l>
+      <lb/>
+      <l>Wo bleibet GOTT ſolang.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="9">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">O</hi> Blut! o reines Blut! das meine Blutſchuld wendet!</l>
+      <lb/>
+      <l>O Werthes Kind das mich zu Gottes Kinde mach’t</l>
+      <lb/>
+      <l>O Glantz der Herꝛligkeit/ der die ſehr lange Nacht</l>
+      <lb/>
+      <l>Vnd alte Finſternuͤß auff dieſen tag vollendet!</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>O Schatz; den vns Gott ſelbſt/ deß Reichthumbs abgrund</l>
+      <lb/>
+      <l><hi rendition="#et">ſendet!</hi></l>
+      <lb/>
+      <l>O Namen/ der mir hat den Namen wieder-bracht</l>
+      <lb/>
+      <l>Daß ich deß hoͤchſten Bild/ vnd der mich ſeelig macht</l>
+      <lb/>
+      <l>Vnd herꝛlich/ wenn mich Suͤnd vñ Todt vnd Teufel ſchaͤndet.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>O Hoͤchſte Reinigkeit nimb alles von mir hin</l>
+      <lb/>
+      <l>Damit von Sathan ich ſo ſehr verſtellet bin.</l>
+      <lb/>
+      <l>Schneid weg/ womit mich wil die rohe welt anbinden.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Schneid weg was jrꝛdiſch heiſt/ Pracht/ Ehrgeitz/ Frewd</l>
+      <lb/>
+      <l><hi rendition="#et">vnd Luſt/</hi></l>
+      <lb/>
+      <l>Neyd/ Zweifel/ Angſt vnd Furcht/ waſch ab der Suͤnden</l>
+      <lb/>
+      <l><hi rendition="#et">wuſt</hi></l>
+      <lb/>
+      <l>Darmit ich moͤge rein/ das reine Wohnhauß finden.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="10">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abbacdcdeeff">
+      <l>Ach/ Erwecke meine Seele:</l>
+      <lb/>
+      <l>Wende meinen vnverſtand</l>
+      <lb/>
+      <l>Zeige den/ den GOtt geſand.</l>
+      <lb/>
+      <l>Reiß mich auß der Jammer hoͤle/</l>
+      <lb/>
+      <l>Jn welcher mein gemuͤtt verſchloſſen vnd verhuͤttet</l>
+      <lb/>
+      <l>Vnd ſonder ende zagt.</l>
+      <lb/>
+      <l>Jn der deß <hi rendition="#fr">H</hi>oͤchſten zorn mit heiſſen Eyver wuͤttet</l>
+      <lb/>
+      <l>Vnd mein <hi rendition="#fr">G</hi>ewiſſen nagt:</l>
+      <lb/>
+      <l>Jch zitter: Hilff mir den erbitten.</l>
+      <lb/>
+      <l>Der ſeine Donner auß wil ſchuͤtten:</l>
+      <lb/>
+      <l>Jch kaͤmpffe: Hilff mir vberwinden:</l>
+      <lb/>
+      <l><hi rendition="#fr">J</hi>ch jrꝛe laß den weg michfinden.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="11">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">D</hi>Er/ den jhr offt gewuͤndſcht/ der der Euch offt begehret</l>
+      <lb/>
+      <l>Der vnter frembder ſchar den neuͤndtẽ Fruͤhling zehlt</l>
+      <lb/>
+      <l>Den ſeiner Graͤntzen Angſt/ abweſend auch gequaͤlt/</l>
+      <lb/>
+      <l>Der den der Feinde Neydt/ der Freunde Todt beſchweret:</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Der/ nun der Erden Haupt/ jhm ſein Geſicht gewehret/</l>
+      <lb/>
+      <l>Nun nach der Roͤmiſchen pracht kaum was zu ſchawen</l>
+      <lb/>
+      <l><hi rendition="#et">fehlt/</hi></l>
+      <lb/>
+      <l>Nun ſich jhm <hi rendition="#aq">Thetis</hi> nicht vnd <hi rendition="#aq">Veſta</hi> nicht
+       verhoͤlt</l>
+      <lb/>
+      <l>Hat ſeinen weg zu ruͤck’ ins Vaterland gekehret.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Jns Vaterland! ach nein/ er miſſet die bekandten/</l>
+      <lb/>
+      <l>Er findet kaum die grufft ſo vieler anverwandten</l>
+      <lb/>
+      <l>Weil auch die Erden ſelbſt durch glutt vnd fluth ver-</l>
+      <lb/>
+      <l>geht.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Was wil Er denn bey Euch? was hat Er vor genommen?</l>
+      <lb/>
+      <l>Er ſucht den Geiſt/ der noch/ nun alles vmb-iſt kommen:</l>
+      <lb/>
+      <l>Auf feſter Trewe grund auffrichtig vor jhn ſteht.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="12">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abcdef">
+      <l><hi rendition="#in">W</hi>As frag ich nach der welt! ſie wird in flaḿen ſtehn:</l>
+      <lb/>
+      <l>Was acht ich reiche pracht: der Todt reißt alles hin!</l>
+      <lb/>
+      <l>Was hilfft die wiſſenſchafft/ der mehr denn falſche dunſt:</l>
+      <lb/>
+      <l>Der liebe Zauberwerck iſt tolle Phantaſie:</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>ie wolluſt iſt fuͤrwar nichts alß ein ſchneller Traum;</l>
+      <lb/>
+      <l>Die Schoͤnheit iſt wie Schnee’/ diß Leben iſt der Todt.</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="ab">
+      <l>2. Diß alles ſtinckt mich an/ drumb wuͤndſch ich mir den</l>
+      <lb/>
+      <l><hi rendition="#et">Todt!</hi></l>
+      <lb/>
+      <l>Weil nichts wie ſchoͤn vnd ſtarck/ wie reich es ſey/ kan ſtehn</l>
+     </lg>
+     <lb/>
+     <fw type="catch" place="bottom">Offt</fw>
+     <lb/>
+     <pb n="118" facs="#f0130"/>
+     <fw type="header" place="top">Oden</fw>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="abcd">
+      <l>Offt/ eh man leben wil/ iſt ſchon diß Leben hin.</l>
+      <lb/>
+      <l><hi rendition="#fr">W</hi>er <hi rendition="#fr">S</hi>chaͤtz’ vnd Reichthumb ſucht: was
+       ſucht er mehr alß</l>
+      <lb/>
+      <l><hi rendition="#et">dunſt.</hi></l>
+      <lb/>
+      <l><hi rendition="#fr">W</hi>enn dem/ der Ehrenrauch entſteckt die Phantaſie.</l>
+      <lb/>
+      <l>So traumt jhm wenn er wacht/ er wacht vñ ſorgt im traum.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="abcdef">
+      <l>3. Auff meine Seel/ auf/ auf/ entwach auß dieſem</l>
+      <lb/>
+      <l><hi rendition="#et">traum/</hi></l>
+      <lb/>
+      <l>Verwirff was jrꝛdiſch iſt/ vnd trotze Noth vnd Todt!</l>
+      <lb/>
+      <l>Was wird dir/ wenn du wirſt fuͤr jenem throne ſtehn/</l>
+      <lb/>
+      <l>Die welt behuͤlfflich ſeyn? wo dencken wir doch hin?</l>
+      <lb/>
+      <l>Was blendet den verſtandt? ſoll dieſer leichte dunſt</l>
+      <lb/>
+      <l>Bezaubern mein gemuͤth mit ſolcher Phantaſie?</l>
+     </lg>
+     <lb/>
+     <lg n="5" type="stanza" rhyme="abcdef">
+      <l>4. Biß her! vnd weiter nicht! verfluchte Phantaſie!</l>
+      <lb/>
+      <l>Nichts werthes Gauckelwerck. Verblendung-voller traum/</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>u ſchmertzen-reiche Luſt du folter-hartter Todt!</l>
+      <lb/>
+      <l>Ade! ich wil nunmehr auf freyen <hi rendition="#fr">F</hi>uͤſſen ſtehn</l>
+      <lb/>
+      <l>Vnd tretten was mich tratt! Jch eyle ſchon dahin;</l>
+      <lb/>
+      <l>Wo nichts als warheit iſt. Kein bald verſchwindent dunſt.</l>
+     </lg>
+     <lb/>
+     <lg n="6" type="stanza" rhyme="abcdef">
+      <l>5. Treib ewig helles Licht der dicken Nebel dunſt</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>ie blinde Luſt der welt: die tolle Phantaſie</l>
+      <lb/>
+      <l>Die fluͤchtige begierd’vnd dieſer guͤtter traum</l>
+      <lb/>
+      <l>Hinweg vnd lehre mich recht ſterben vor dem Todt.</l>
+      <lb/>
+      <l>Laß mich die eitelkeit der Erden recht verſtehn</l>
+      <lb/>
+      <l>Entbinde mein gemuͤth/ vnd nimb die Ketten hin.</l>
+     </lg>
+     <lb/>
+     <lg n="7" type="stanza" rhyme="abcdef">
+      <l>6. Nimb was mich vnd die welt verkuppelt! nimb doch</l>
+      <lb/>
+      <l>hin</l>
+      <lb/>
+      <l>Der <hi rendition="#fr">S</hi>uͤnden ſchwere Laſt: laß ferner keinen dunſt</l>
+      <lb/>
+      <l>Verhuͤllen mein Gemuͤtt/ vnd alle Phantaſie</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>er <hi rendition="#fr">E</hi>itel-leren welt ſey fuͤr mir alß ein
+       traum/</l>
+      <lb/>
+      <l>Von dem ich nun erwacht! vnd laß nach dieſem tod</l>
+      <lb/>
+      <l>Mich vnerſchrocken <hi rendition="#fr">H</hi>ERR/ fuͤr deinem Andlitz ſtehn.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="13">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">D</hi>Vfragſt wie <hi rendition="#aq">Bibulus</hi> die zeit zu Rom
+       vertreibe?</l>
+      <lb/>
+      <l>Er ſucht kein’ alte Schrifft/ noch Bild/ noch Buch/ wie</l>
+      <lb/>
+      <l><hi rendition="#et">du.</hi></l>
+      <lb/>
+      <l>Er kuͤmmert ſich nicht viel was man zu Hofe thu/</l>
+      <lb/>
+      <l>Er fragt nicht ob der Bapſt/ Bann oder Ablaß ſchreibe:</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Er acht kein <hi rendition="#aq">Vatican/</hi> da ich voll wunder bleibe?</l>
+      <lb/>
+      <l>Er ſpricht Geſandten nicht/ nicht Cardinaͤlen zu:</l>
+      <lb/>
+      <l>Er goͤnn’t Gelehrten wol die hoch gewuͤndſchte Ruh/</l>
+     </lg>
+     <lb/>
+     <fw type="catch" place="bottom">Du</fw>
+     <lb/>
+     <pb n="191" facs="#f0203"/>
+     <fw type="header" place="top"><hi rendition="#b">das Ander Buch.</hi></fw>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="a">
+      <l>Du weißt/ daß er ſich nicht an Ketzermeiſter reibe.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Von Kirchen haͤlt er nichts; von Gaͤrten nicht zu viel.</l>
+      <lb/>
+      <l>Er lacht wenn ich die grufft der Maͤrtrer ſuchen wil.</l>
+      <lb/>
+      <l>Gutt iſts/ daß er ſich nicht auff lieben hat verliebet.</l>
+     </lg>
+     <lb/>
+     <lg n="5" type="stanza" rhyme="aba">
+      <l>Kein Schawplatz ſteht jhm an. Kein ſingen geht jhm eyn.</l>
+      <lb/>
+      <l>Er ſchlaͤfft wenn man dem Volck’ ein kuͤnſtlich Fewr-werck</l>
+      <lb/>
+      <l><hi rendition="#et">giebet:</hi></l>
+      <lb/>
+      <l>Was haͤlt jhn denn zu Rom lang auff? <hi rendition="#aq">Albaner</hi> Wein.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="14">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">O</hi>Hoͤchſter Liebe pfand! O Brunquell guter gaben!</l>
+      <lb/>
+      <l>O beſte Suͤſſigkeit! O wahres Engelbrodt!</l>
+      <lb/>
+      <l>O Edle Seelen Koſt/ die in der hoͤchſten noth/</l>
+      <lb/>
+      <l>Will mein verwundtes Hertz vnd ſiech Gewiſſen laben!</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>O Schatz in dem ich mag recht reiche Schaͤtze haben/</l>
+      <lb/>
+      <l>O ewig lebend Fleiſch/ das meinen Leib vom Todt</l>
+      <lb/>
+      <l>O Blutt! das mich vom Fluch/ von Blutſchuld/ ach vnd</l>
+      <lb/>
+      <l><hi rendition="#et">Kott</hi></l>
+      <lb/>
+      <l>Der Suͤnden ledig mach’t: fliht/ fliht jhr hellen-Raben!</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Diß wehrte Himmels Aaß geht nur die Adler an!</l>
+      <lb/>
+      <l>Es nehrt den der ſich ſelbſt mit Eyver pruͤfen kan.</l>
+      <lb/>
+      <l>Es iſt der Boͤſen Gifft/ der Frommen ſtaͤrck vnd wonne.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Kom’t die jhr jrꝛe geht in dieſer wuͤſten welt/</l>
+      <lb/>
+      <l>Die Zehrung die ſich ſelbſt fuͤr ewre noth auffſtelt</l>
+      <lb/>
+      <l>Verdecket Brod vnd Wein/ wie Wolcken eine Sonne!</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="15">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">J</hi>Hr glaubet <hi rendition="#fr">w</hi>arlich nicht wie ſchoͤn’ es
+       ſey zu ſehen</l>
+      <lb/>
+      <l><hi rendition="#fr">W</hi>enn jhr den krummen Hals noch dreymal kruͤmmer</l>
+      <lb/>
+      <l>macht.</l>
+      <lb/>
+      <l>Vnd durch den weiten Mund ſo wunderlieblich lacht</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>er ſonſt nichts kan/ denn nur friſch ligen vnd gut ſchmaͤhen.</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Euch duͤnckt der wiſſe nicht/ wie jhm doch ſey geſchehen:</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>er zihe naͤrꝛiſch auff mit ſeiner newen Tracht</l>
+      <lb/>
+      <l><hi rendition="#fr">S</hi>o hab euch jener nicht deß gruſſes wehrt geacht</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>em muſt jhr ſeine ſprach vnd jedes wort bejaͤhen/</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l><hi rendition="#fr">D</hi>em mangelts an der Stirn/ vnd jener ſiht nicht recht</l>
+      <lb/>
+      <l>Vnd der iſt gar zu ſchoͤn/ vnd dieſer gar zu ſchlecht/</l>
+      <lb/>
+      <l>Der kan den Degen nicht recht an die Seite binden.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l><hi rendition="#fr">H</hi>abt jhr den <hi rendition="#fr">S</hi>piegel auch der dort hing
+       ander wandt</l>
+      <lb/>
+      <l><hi rendition="#aq">Melanie</hi> wol je genommen in die Handt?</l>
+      <lb/>
+      <l>Ey liebe! ſchawt hinein/ da iſt was guts zu finden.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="16">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">J</hi>N dem das feſte Genpf der Helden kuͤhnheit uͤbt/</l>
+      <lb/>
+      <l>Vnd endlich jhren ruhm durch ſeinen fall außbreittet:</l>
+      <lb/>
+      <l>Bricht auch der harte Sinn/ den Jhr biß noch beſtreittet</l>
+      <lb/>
+      <l>Vnd Ewer <hi rendition="#aq">Alithè</hi> bekennet daß ſie libt/</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Nun ſchoͤpfft Jhr luſt aus dem/ was Euch hißher betruͤbt/</l>
+      <lb/>
+      <l>Die Hochzeit Goͤttin hat den einzug ſchon bereittet:</l>
+      <lb/>
+      <l>Weil <hi rendition="#aq">Hymen/</hi> was jhr wuͤndſcht/ ins Triumphbette leittet/</l>
+      <lb/>
+      <l>Vnd den ſo werthen Feind euch gaͤntzlich uͤbergibt.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="a">
+      <l>Er wolle noch mit jhm Gluͤck/ Ehre/ ſanfftes leben/</l>
+      <lb/>
+     </lg>
+     <lb/>
+     <fw type="sig" place="bottom">N</fw>
+     <fw type="catch" place="bottom">Gei-</fw>
+     <lb/>
+     <pb n="186" facs="#f0198"/>
+     <fw type="header" place="top"><hi rendition="#b">Sonnette</hi></fw>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="ab">
+      <l>Gewuͤndſchte Luſt vnd Frewd/ vnd Heil vnd Segen geben</l>
+      <lb/>
+      <l>Vnd fortgang vnd gewinn/ vnd was mein <hi rendition="#aq">Phœbus</hi> batt.</l>
+     </lg>
+     <lb/>
+     <lg n="5" type="stanza" rhyme="aab">
+      <l>Der Wundſch iſt zwar nicht new’ vnd voll gemeiner Sachen</l>
+      <lb/>
+      <l>Herꝛ Braͤutgam: jhr moͤgt ſelbſt der Brautt was newes ma-</l>
+      <lb/>
+      <l>chen.</l>
+      <lb/>
+      <l>Das Leben/ Seel vnd Geiſt/ vnd Haͤnd vnd Fuͤße hatt.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="17">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">D</hi>Er/ welchen Euch ein Hertz/ vnd eine Trew verbunden/</l>
+      <lb/>
+      <l>Den jhr zwar vnerkennt/ doch mehr denn hoch gelibt/</l>
+      <lb/>
+      <l>Gibt/ weil bey grawen froſt Euch/ Franckreich Blumen</l>
+      <lb/>
+      <l>gibt/</l>
+      <lb/>
+      <l>Was weniger anitzt/ alß Blumen wird gefunden.</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Die pracht der alten welt/ iſt mit der welt verſchwunden:</l>
+      <lb/>
+      <l>Die Hoheit wird durch fall vnd grimmen ſturm betruͤbt</l>
+      <lb/>
+      <l>Die Zeit hat gantze Reich/ alß Aſch’ in wind geſiebt/</l>
+      <lb/>
+      <l>Was tauſend Jahre baw’n/ vergeht in wenig ſtunden.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Nichts iſt ohn ſeinen todt/ nur trewe gunſt beſteht</l>
+      <lb/>
+      <l>Wenn Pergamus in glutt/ vnd Rom in ſtaub vergeht/</l>
+      <lb/>
+      <l>Jn Staub der Tyber laſt/ das gauckelſpiel der winde.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Sie kennt was ewig iſt/ vnd pocht der graͤber noth/</l>
+      <lb/>
+      <l>Macht Menſchen/ Goͤttern gleich/ ſie macht den Todt ohn</l>
+      <lb/>
+      <l>todt.</l>
+      <lb/>
+      <l>Durch ſie lebt was nur lebt: die iſts mit der ich binde.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="18">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">D</hi>Er ſchnelle Tag iſt hin/ die Nacht ſchwingt jhre fahn/</l>
+      <lb/>
+      <l>Vnd fuͤhrt die Sternen auff. Der Menſchen muͤde ſcha-</l>
+      <lb/>
+      <l>ren</l>
+      <lb/>
+      <l>Verlaſſen feld vnd werck/ <hi rendition="#fr">Wo</hi> Thier vnd Voͤgel waren</l>
+      <lb/>
+      <l>Trawrt jtzt die Einſamkeit. Wie iſt die zeit verthan!</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l><hi rendition="#fr">D</hi>er port naht mehr vnd mehr ſich/ zu der glieder Kahn.</l>
+      <lb/>
+      <l>Gleich wie diß licht verfiel/ ſo wird in wenig Jahren</l>
+      <lb/>
+      <l><hi rendition="#fr">J</hi>ch/ du/ vnd was man hat/ vnd was man ſiht/ hinfahren.</l>
+      <lb/>
+      <l>Diß Leben koͤmmt mir vor alß eine renne bahn.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Laß hoͤchſter Gott mich doch nicht auff dem Laufplatz gleiten/</l>
+      <lb/>
+      <l>Laß mich nicht ach/ nicht pracht/ nicht luſt/ nicht angſt ver-</l>
+      <lb/>
+      <l>leiten.</l>
+      <lb/>
+      <l>Dein ewig heller glantz ſey vor vnd neben mir/</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Laß /wenn der muͤde Leib entſchlaͤfft/ die Seele wachen</l>
+      <lb/>
+      <l>Vnd wenn der letzte Tag wird mit mir abend machen/</l>
+      <lb/>
+      <l>So reiß mich auß dem thal der <hi rendition="#fr">F</hi>inſternuß zu dir.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="19">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">D</hi>V falſcher boͤſer Menſch/ auß deſſen krummen Rachen</l>
+      <lb/>
+      <l>Die gruͤne Natter pfeifft/ aus deſſen ſchlimmen Mund</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>ie ſchwartzen Schlangen ſehn/ du mehr deñ tober Hund.</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>u gantz verſchalckter <hi rendition="#fr">F</hi>uchs! du Hauß der
+       grimmen Dra-</l>
+      <lb/>
+      <l>chen.</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Wil dir denn nicht einmahl der Leib vor gifft zerkrachen?</l>
+      <lb/>
+      <l><hi rendition="#fr">E</hi>s iſt ja nichts an dir (wie jung vnd alten kundt)</l>
+      <lb/>
+      <l>Von deinem Schaͤdel ab biß auff den fus geſundt.</l>
+      <lb/>
+      <l>Du biſt ſo teufel ſchwartz als du dich weis kanſt machen.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Dein Aug iſt flam’ vnd peſt/ die Zung ein ſchneidend</l>
+      <lb/>
+      <l>Schwerdt.</l>
+      <lb/>
+      <l>Du leichter ehren dieb/ biſt raad vnd fewers wehrt.</l>
+      <lb/>
+      <l>Wie daß die rache dein/ O ſchaum der Laſter ſchonet?</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aa">
+      <l>Sie ſtraft dich durch dich ſelbſt/ du kanſt nicht mehr ent-</l>
+      <lb/>
+      <l>gehn/</l>
+     </lg>
+     <lb/>
+     <fw type="catch" place="bottom">Weil</fw>
+     <lb/>
+     <pb n="157" facs="#f0169"/>
+     <fw type="header" place="top"><hi rendition="#b">das Erſte Buch.</hi></fw>
+     <lb/>
+     <lg n="5" type="stanza" rhyme="ab">
+      <l>Weil jeder/ der dich ſieht mit ſchrecken muß geſtehn</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>as weſentlich in dir die gantze Hoͤlle wohnet.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="20">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababccdd">
+      <l><hi rendition="#in">D</hi>V aller Herꝛen HERR/ den <hi rendition="#fr">E</hi>rdt vnd Himmel
+       ehren-</l>
+      <lb/>
+      <l>Fuͤr dem die Hoͤll erſchrickt.</l>
+      <lb/>
+      <l>Du du haſt mich/ du haſt mich wollen hoͤren</l>
+      <lb/>
+      <fw type="catch" place="bottom">Da</fw>
+      <lb/>
+      <pb n="103" facs="#f0115"/>
+      <fw type="header" place="top"><hi rendition="#b">Das Erſte Buch.</hi></fw>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>a als ich gantz verſtrickt/</l>
+      <lb/>
+      <l>Jm <hi rendition="#fr">J</hi>aͤgergarn des Todes mich nach dir</l>
+      <lb/>
+      <l>Vmbſahe/ da mein Heyland haſt du mir</l>
+      <lb/>
+      <l>Geboten huͤlff vnd handt/ du haſt das netz zutrennet.</l>
+      <lb/>
+      <l>Jch bin dur<hi rendition="#fr">ch</hi> di<hi rendition="#fr">ch</hi> dem pfeil/ dem
+       vntergang entrennet.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="21">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">W</hi>As ſind wir Menſchen doch? ein <hi rendition="#fr">W</hi>ohnhauß
+       grimmer</l>
+      <lb/>
+      <l>ſchmertzen.</l>
+      <lb/>
+      <l>Ein <hi rendition="#fr">B</hi>all des falſchen gluͤcks/ ein Jrꝛlicht dieſer zeit.</l>
+      <lb/>
+      <l>Ein <hi rendition="#fr">S</hi>chawplatz herber angſt/ beſetzt mit ſcharffem Leid/</l>
+      <lb/>
+      <l>Ein bald verſchmeltzter <hi rendition="#fr">S</hi>chnee vnd abgebrante Kertzen.</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Diß Leben fleucht davon wie ein geſchwaͤtz vnd ſchertzen.</l>
+      <lb/>
+      <l>Die vor vns abgelegt deß ſchwachen Leibes kleidt</l>
+      <lb/>
+      <l>Vnd in das todten Buch der groſſen ſterbligkeit</l>
+      <lb/>
+      <l>Laͤngſt eingeſchrieben ſind/ ſind vns auß ſinn vnd hertzen.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Gleich wie ein eitel traum leicht auß der acht hinfaͤlt</l>
+      <lb/>
+      <l>Vnd wie ein ſtrom verſcheuſt/ den keine macht auffhaͤlt/</l>
+      <lb/>
+      <l><hi rendition="#fr">S</hi>o muß auch vnſer Nahm/ Lob Ehr vnd ruhm verſchwindē.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Was jtzund athem holt/ muß mit der luſt entflihn/</l>
+      <lb/>
+      <l>Was nach vns kom̃en wird/ wird vns ins grab nach zihn.</l>
+      <lb/>
+      <l><hi rendition="#fr">W</hi>as ſag ich? wir vergehn wie Rauch von ſtarcken winden.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="22">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#c"><hi rendition="#fr">Ach! vnd weh!</hi></hi></l>
+      <lb/>
+      <l><hi rendition="#in">M</hi>Ord! Zetter! Jammer! Angſt! Creutz! Marter! Wuͤrmel</l>
+      <lb/>
+      <l><hi rendition="#et">Plagen.</hi></l>
+      <lb/>
+      <l>Pech! Folter! Hencker! Flam̃! ſtanck! Geiſter! kaͤlte. Zagen!</l>
+      <lb/>
+      <l><hi rendition="#et"><hi rendition="#fr">Ach vergeh!</hi></hi></l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l><hi rendition="#c"><hi rendition="#fr">Tieff’ vnd Hoͤh’!</hi></hi></l>
+      <lb/>
+      <l>Meer! Huͤgel! Berge! Felß! wer kan die Pein ertragen?</l>
+      <lb/>
+      <l>Schluck abgrund! ach ſchluck’ eyn! die nichts denn ewig kla-</l>
+      <lb/>
+      <l><hi rendition="#et">gen.</hi></l>
+      <lb/>
+      <l><hi rendition="#c"><hi rendition="#fr">Je vnd Eh!</hi></hi></l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Schreckliche Geiſter der tunckelen hoͤlen/ Jhr die jhr mar-</l>
+      <lb/>
+      <l><hi rendition="#et">tert vnd Marter erduldet</hi></l>
+      <lb/>
+      <l>Kan denn der ewigen Ewigkeit Fewer/ nimmermehr buͤſſen</l>
+      <lb/>
+      <l><hi rendition="#et">dis was jhr verſchuldet?</hi></l>
+      <lb/>
+      <l><hi rendition="#et">O grauſamm’ Angſt/ ſtets ſterben ſonder ſterben/</hi></l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Diß iſt die Flamme der grimmigen Rache/ die der erhitze-</l>
+      <lb/>
+      <l><hi rendition="#et">te Zorn angeblaſen:</hi></l>
+      <lb/>
+      <l>Hier iſt der Fiuch der vnendlichen Straffe; hier iſt das jm-</l>
+      <lb/>
+      <l><hi rendition="#et">merdar wachſende raſen:</hi></l>
+      <lb/>
+      <l><hi rendition="#et">O Menſch! Verdirb/ vmb hier nicht zuverderben.</hi></l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="23">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ab">
+      <l><hi rendition="#in">T</hi>Riumf/ der Tod iſt todt/ Triumf! jhr Himmel-ſcharen</l>
+      <lb/>
+      <l>Trinmpf! die Hoͤlle ligt! Mein Koͤnig faͤhret auff!</l>
+     </lg>
+     <lb/>
+     <fw type="sig" place="bottom">P</fw>
+     <fw type="catch" place="bottom">Vnd</fw>
+     <lb/>
+     <pb n="218" facs="#f0230"/>
+     <fw type="header" place="top"><hi rendition="#b">Sonnette</hi></fw>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="ab">
+      <l>Vnd fuͤhrt gebunden ſchaw/ der Teuffel ſchwartzen hauff</l>
+      <lb/>
+      <l>Er loͤßt die auf/ die feſt in Suͤnden ketten waren/</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="abba">
+      <l>Er bindet was vnß zwang/ vnd den vor ſo viel jahren</l>
+      <lb/>
+      <l>Das Paradyß verſperꝛ’t durch Mutter Evens kauff/</l>
+      <lb/>
+      <l>Vnd Adams Biß holt eyn/ ſein Blut/ vnd Lehr/ vnd</l>
+      <lb/>
+      <l><hi rendition="#et">Tauff</hi></l>
+      <lb/>
+      <l>Triumf der HERR faͤhrt auff mit vielmal tauſend paaren.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Jtzt ſitzt Er vnd regirt an EOttes rechten Hand</l>
+      <lb/>
+      <l>Vnd tritt/ was ſich vorhin in ſeinem Haß verband/</l>
+      <lb/>
+      <l>Vor Jhm muß Himmel/ Erd/ vnd Hoͤll vnd Todt ſich neigẽ.</l>
+     </lg>
+     <lb/>
+     <lg n="5" type="stanza" rhyme="aab">
+      <l>Doch bleibt Er auch bey vnß/ weil noch die Soñe wacht</l>
+      <lb/>
+      <l>Weil noch der Sternẽ glantz vmbgibt die ſchwartze Nacht</l>
+      <lb/>
+      <l>Biß Er der Erd jhr End’ vnß wird den Himmel zeigen.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="24">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abbacdcdeeff">
+      <l>Geiſt durch den die Geiſter leben/</l>
+      <lb/>
+      <l>Geiſt durch den die Weißheit lehrt:</l>
+      <lb/>
+      <l>Geiſt durch den man <hi rendition="#aq">IESVM</hi> ehrt:</l>
+      <lb/>
+      <l>Geiſt der rechten troſt kan geben.</l>
+      <lb/>
+      <l>Wenn vnß der Strom der Angſt biß in den Abgrund reiſſet:</l>
+      <lb/>
+      <l>Wenn vnß der Feind anſticht.</l>
+      <lb/>
+      <l>Geiſt/ durch den vnſer GOtt vnß ſeine <hi rendition="#fr">K</hi>inder heiſſet.</l>
+      <lb/>
+      <l>Vnd frey von Schulden ſpricht.</l>
+      <lb/>
+      <l>Durch deſſen krafft wir koͤnnen betten.</l>
+      <lb/>
+      <l>Vnd fuͤr deß hoͤchſten Augen tretten:</l>
+      <lb/>
+      <l>Durch deſſen huͤlffe/ <hi rendition="#fr">w</hi>ir obſiegen:</l>
+      <lb/>
+      <l>Wenn vnß anfechtung wil bekriegen.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="25">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abcbdadab">
+      <l><hi rendition="#in">D</hi>Je heiſſe quell hatt’ einen gang gewonnen/</l>
+      <lb/>
+      <l>Der ſchier erſtarten augen roͤhr/</l>
+      <lb/>
+      <l>Die reichen threnen baͤche</l>
+      <lb/>
+      <l>Ergoſſen ſich je mehr vnd mehr/</l>
+      <lb/>
+      <l>Der ſtrom von dem ich ſpreche/</l>
+      <lb/>
+      <l>Jſt tag vnd nacht/ ja fuͤr vnd fuͤr geronnen.</l>
+      <lb/>
+      <l><hi rendition="#fr">H</hi>ERR das ich jtzt vorbre<hi rendition="#fr">ch</hi>e</l>
+      <lb/>
+      <l><hi rendition="#fr">M</hi>it jauchtzen <hi rendition="#fr">H</hi>Erꝛ! das machſtu meine
+       Sonnen</l>
+      <lb/>
+      <l>Mein troſt/ mein ſchutz/ mein ruhm vnd ehr.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="26">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">A</hi>Vff Freunde! laſt vnß zu der Taffel eylen/</l>
+      <lb/>
+      <l>Jn dem die Sonn ins Himmels mittel haͤlt</l>
+      <lb/>
+      <l>Vnd der von Hitz vnd arbeit matten <hi rendition="#fr">W</hi>elt</l>
+      <lb/>
+      <l>Sucht jhren weg/ vnd vnſern Tag zu theilen.</l>
+     </lg>
+     <lb/>
+     <fw type="sig" place="bottom">M</fw>
+     <fw type="catch" place="bottom">Der</fw>
+     <lb/>
+     <pb n="170" facs="#f0182"/>
+     <fw type="header" place="top"><hi rendition="#b">Sonnettẽ</hi></fw>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Der Blumen Zier wird von den flammen pfeylen</l>
+      <lb/>
+      <l>zu hart verſehrt/ das außgedoͤrtte Feldt</l>
+      <lb/>
+      <l>Wuͤndſcht nach dem Taw’ der ſchnitter nach dem zelt</l>
+      <lb/>
+      <l>Kein Vogel klagt von ſeinen Liebes ſeilen.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Das Licht regiert/ der ſchwartze Schatten fleucht</l>
+      <lb/>
+      <l>Jn eine hoͤl/ in welche ſich verkreucht</l>
+      <lb/>
+      <l>Den Schand vnd furcht ſich zu verbergen zwinget.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Man kan dem glantz des tages ja entgehn!</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>och nicht dem licht/ daß/ wo wir jmmer ſtehn/</l>
+      <lb/>
+      <l>Vns ſiht vnd richt/ vnd hell’ vnd grufft durch dringet.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="27">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">S</hi>Tellt ewre Schmertzen eyn; ob ſchon das grimme toben</l>
+      <lb/>
+      <l>Der flammen ewre Statt zu Aſchen hat gemacht</l>
+      <lb/>
+      <l>Ob Kirch vnd Herdt gleich hin; ob ſchon in einer Nacht</l>
+      <lb/>
+      <l>Was ſo viel zeit gebaw’t in rauch vnd glutt verſtoben.</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Ob gleich der Mauren pracht/ der Tuͤrme laſt von oben</l>
+      <lb/>
+      <l>Nun auf die Erde ſtuͤrtzt/ iſt Gutſche doch bedacht</l>
+      <lb/>
+      <l>Wie/ was die glutt auf-fraß/ Euch werde widerbracht.</l>
+      <lb/>
+      <l>Weyut nicht mehr uͤber die/ die wir im Grab auch loben</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aabccb">
+      <l>Gruͤßt den/ der ſo mit Rath alß that ſein Hauß aufbawt/</l>
+      <lb/>
+      <l>Vnd mit dem Eh-gemahl/ die geſtern jhm vertrawt/</l>
+      <lb/>
+      <l>Jtzt rathſchlaͤgt wie er moͤg auch junge Buͤrger geben.</l>
+      <lb/>
+      <fw type="catch" place="bottom">Ja</fw>
+      <lb/>
+      <pb n="185" facs="#f0197"/>
+      <fw type="header" place="top"><hi rendition="#b">das Ander Buch.</hi></fw>
+      <lb/>
+      <l>Ja freylich wird Ers thun. Mein <hi rendition="#aq">Phœbus</hi> zeigt mir an/</l>
+      <lb/>
+      <l>Das/ ehr der Mond neunmal beſucht den Waſſermann.</l>
+      <lb/>
+      <l>Was mehr noch werd’ als itzt auff ſeiner Gutſche leben.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="28">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabcc">
+      <l><hi rendition="#in">D</hi>Er <hi rendition="#fr">ſchnellen tage Traum:</hi></l>
+      <lb/>
+      <l>Der <hi rendition="#fr">leichten jahre raum</hi></l>
+      <lb/>
+      <l><hi rendition="#fr">Rennt mit vnß nach der ſchwartzen Bar:</hi></l>
+      <lb/>
+      <l><hi rendition="#fr">Eh’ ich die zeit erkent</hi></l>
+      <lb/>
+      <l><hi rendition="#fr">Wird meine zeit vollendt.</hi></l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="aabcc">
+      <head><hi rendition="#aq">II.</hi></head>
+      <lb/>
+      <l>W<hi rendition="#fr">ir dringen durch die welt</hi></l>
+      <lb/>
+      <l>(Die <hi rendition="#fr">ſtuͤndlich waͤchſt vnd faͤllt/</hi>)</l>
+      <lb/>
+      <l><hi rendition="#fr">Nach der erblaßten Voͤlcker ſchar!</hi></l>
+      <lb/>
+      <l>W<hi rendition="#fr">ir die wir lebend todt/</hi></l>
+      <lb/>
+      <l><hi rendition="#fr">Vnd ſtets voll herber noth.</hi></l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aabcc">
+      <head><hi rendition="#aq">III.</hi></head>
+      <lb/>
+      <l><hi rendition="#fr">Mit Thraͤnen gruͤſſen wir!</hi></l>
+      <lb/>
+      <l><hi rendition="#fr">Jn thraͤnen lebt man hier:</hi></l>
+      <lb/>
+      <l><hi rendition="#fr">Mit thraͤnen gibt man gutte nacht!</hi></l>
+      <lb/>
+      <l>W<hi rendition="#fr">as iſt der Erden Saal?</hi></l>
+      <lb/>
+      <l><hi rendition="#fr">Ein herber thraͤnen Thal!</hi></l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aabcc">
+      <head><hi rendition="#aq">IV.</hi></head>
+      <lb/>
+      <l><hi rendition="#fr">Wie Roſen die wir zihn.</hi></l>
+      <lb/>
+      <l>Auff <hi rendition="#fr">Doͤrnern nur verbluͤhn.</hi></l>
+      <lb/>
+      <l>Wie <hi rendition="#fr">ein verworff nes Kind verſchmacht:</hi></l>
+      <lb/>
+      <l>So <hi rendition="#fr">muß wer hie wil ſtehn</hi></l>
+      <lb/>
+      <l><hi rendition="#fr">Jn kummer vntergehn.</hi></l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="29">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ab">
+      <l><hi rendition="#in">J</hi>N dem das zarte Kind in ſanfftem Schlaffe lieget/</l>
+      <lb/>
+      <l>Vnd Joſeph ohne ſorg’/ in dem der Bluthund wacht/</l>
+     </lg>
+     <lb/>
+     <fw type="sig" place="bottom">O ij</fw>
+     <fw type="catch" place="bottom">Vnd</fw>
+     <lb/>
+     <pb n="204" facs="#f0216"/>
+     <fw type="header" place="top"><hi rendition="#b">Sonnette</hi></fw>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="ab">
+      <l>Vnd raſend/ doth voll furcht/ nach wuͤrge Schwerdten</l>
+      <lb/>
+      <l><hi rendition="#et">tracht/</hi></l>
+      <lb/>
+      <l>Ja ſchon durch ſein befehl der Friedens-Fuͤrſt bekrieget;</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="abba">
+      <l>Schawt Gott/ der weiſe Gott der aller Sinn obſieget</l>
+      <lb/>
+      <l>Auff dieſes Feindes ranck von ſeinem Thron vnd lacht.</l>
+      <lb/>
+      <l>Auch fuͤhrt ſein Engel ab. der bey noch ſtiller Nacht</l>
+      <lb/>
+      <l>Den Joſeph weichen heiſt eh’r als der Grim ſich ruͤget.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Stoͤßt ſchon das wilde Volck/ der blinden Juden Land</l>
+      <lb/>
+      <l>Den eignen Koͤnig aus; muß dennoch Nilus ſtrand/</l>
+      <lb/>
+      <l>Vnd Pharos praͤchtigs Reich/ jhm zu gebotte ſtehen.</l>
+     </lg>
+     <lb/>
+     <lg n="5" type="stanza" rhyme="aab">
+      <l>Drumb zag ich nimmermehr/ vor meiner Feinde Macht/</l>
+      <lb/>
+      <l>Wenn der/ ſo nimmer ſchlaͤfft noch ſchlummert/ vor mich</l>
+      <lb/>
+      <l><hi rendition="#et">wacht</hi></l>
+      <lb/>
+      <l>Weiß ich/ wenn/ wie/ wohin/ vnd wem ich ſol entgehen.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="30">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">D</hi>Er iſts mein Hertz den Gott vor allen hat verehret</l>
+      <lb/>
+      <l>Mit deß Geiſtes Frewden Oel/ deſſen wort die See-</l>
+      <lb/>
+      <l><hi rendition="#et">len ruͤhrt/</hi></l>
+      <lb/>
+      <l>Gleich als ſtralen lichter glutt/ der Zung/ Aug vnd Sinne</l>
+      <lb/>
+      <l><hi rendition="#et">regirt/</hi></l>
+      <lb/>
+      <l>Vnd was noch kuͤnfftig weiß’t/ der hier die Lehrer lehret.</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>O wol dem der den Rath deß weiſen Vaters hoͤret!</l>
+      <lb/>
+      <l>Welcher in deß HErꝛen krafft nicht gemeine reden fuͤhrt/</l>
+      <lb/>
+      <l>Vnd als aller Heyden troſt ſeinen newen Tempel zihrt/</l>
+      <lb/>
+      <l>Den Tempel/ deſſen Ruhm Er gegenwertig mehret.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Laß Seele/ laß wie Er das ſchlechte Vaterland/</l>
+      <lb/>
+      <l>Laß Freunde/ Statt vnd weg/ laß deiner Mutter Hand/</l>
+      <lb/>
+      <l>Vnd bleib wo Jeſus jhm ſein Vatter theil erkohren.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Hier ſuch jhn/ weñ du wilt/ hier ſchleußt Er niemand aus/</l>
+      <lb/>
+      <l>Hier haͤlt Er Mittags Ruh/ hier iſt ſein eigen Hauß</l>
+      <lb/>
+      <l>Hier findt jhn/ wer bey nacht vnd Jrꝛthumb jhn verlohren.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="31">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">D</hi>Eß ſtrengen Richters Buch/ das Buch voll grauſer</l>
+      <lb/>
+      <l><hi rendition="#fr">S</hi>uͤnden</l>
+      <lb/>
+      <l>Voll vbermachter <hi rendition="#fr">Sch</hi>uld/ in dem viel tauſend pfund</l>
+      <lb/>
+      <l>Ein jeder <hi rendition="#fr">S</hi>eele hat/ mit welcher alle ſtund</l>
+      <lb/>
+      <l>Der hochergrimbte Gott/ ſich rechtlich ab wil finden/</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Das Buch fuͤr welchem mir muß Geiſt vud Leben ſchwinden</l>
+      <lb/>
+      <l>Fuͤr deſſen anblick nur ſinckt alle <hi rendition="#fr">K</hi>rafft zu grundt</l>
+      <lb/>
+      <l><hi rendition="#fr">H</hi>erꝛ Bruder weiſt vns hier ew’r wolberedter Mundt;</l>
+      <lb/>
+      <l>Mit dieſem der vns kan von ſolcher noth entbinden.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>O wol dem/ der bey zeit nimbt ſeine ſach in acht/</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>er eh’ er wird citirt/ jhm den zum <hi rendition="#fr"
+       >F</hi>reunde macht/</l>
+      <lb/>
+      <fw type="catch" place="bottom">Der</fw>
+      <lb/>
+      <pb n="150" facs="#f0162"/>
+      <fw type="header" place="top"><hi rendition="#b">Sonnette</hi></fw>
+      <lb/>
+      <l>Der dieſe ſ<hi rendition="#fr">ch</hi>wartze ſchrifft kan durch ſein Blut caſſtren.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Wol euch/ der wolgemeiut/ was wol fuͤr vus entdeckt/</l>
+      <lb/>
+      <l>Jhr/ deſſen ernſt erquickt/ die eigne wolluſt ſchreckt</l>
+      <lb/>
+      <l>Die jhr die fuͤhrt zu Gott/ die Gott ins leben fuͤhret.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="32">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">M</hi>Ein Schoͤpffer/ der du mich ſo wunderlich gemacht.</l>
+      <lb/>
+      <l>Erloͤſer/ der du mich zu deinem Kind erkohren/</l>
+      <lb/>
+      <l>GOTT reiner Geiſt/ der du mich durch dich new-gebohren</l>
+      <lb/>
+      <l>Dreyeinig Einigkeit/ vmb die manch tauſend wacht:</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>GOTt/ den manch tauſend ruͤhmt mit heilighoher pracht/</l>
+      <lb/>
+      <l>Jch falle dir zu Fueß/ der/ daß ich nicht verlohren/</l>
+      <lb/>
+      <l>Nur dir zu dancken weiß. Dem/ wie du dich verſchworen/</l>
+      <lb/>
+      <l>Dein Anblick hoͤher luſt in hoher angſt gebracht:</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Jch ward durch dich/ durch dich hab ich diß licht beſchawet</l>
+      <lb/>
+      <l>Du haſt auß ſo viel angſt ob der mir jtzt noch grawet</l>
+      <lb/>
+      <l>Vnd dieſes Jahr ſo offt/ mich von der grufft befrey’t.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Laß ferner uͤber mir die reiche Guͤtte ſchweben/</l>
+      <lb/>
+      <l>Laß mich dir/ weil ich leb/ vnd wenn ich ſterbe leben</l>
+      <lb/>
+      <l>Vnd wenn mir zeit abgeht/ verley die Ewigkeit.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="33">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">D</hi>Er Mutter enger Leib hilt erſtlich dich gefangen/</l>
+      <lb/>
+      <l>Als deine Seele ward in Fleiſch vnd Bein verſtrickt:</l>
+      <lb/>
+      <l>So bald du dieſes Licht/ das ſuͤße Licht erblickt/</l>
+      <lb/>
+      <l>Biſt du in newe Band vnd Kercker eingegangen.</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Was iſt die groſſe Welt? ein Blockhauß/ da verlangen/</l>
+      <lb/>
+      <l>Vnd Angſt vnd ſchwere noth mit ſtraͤngen feſſeln druͤckt/</l>
+      <lb/>
+      <l>Wenn vns der freye Todt/ auß dieſen Ketten ruͤckt/</l>
+      <lb/>
+      <l>Denn nimbt die grufft in Hafft/ die gantz erblaßten wangen.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Waß iſt die Freyheit doch/ die nirgend wird gefunden/</l>
+      <lb/>
+      <l>Du biſt eh’ als du biſt/ vnd weil du biſt gebunden/</l>
+      <lb/>
+      <l>Du bindeſt dich ſelb-ſelbſt in Furcht vnd Sorgen eyn.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Doch! wer mit ſchnellem geiſt kan durch die Wolcken rennen/</l>
+      <lb/>
+      <l>Vnd ſtricke/ die verluſt vnd hoffnung/ wuͤrckt zutrennen;</l>
+      <lb/>
+      <l>Kan/ ob jhn Diamant gleich buͤnde/ freye ſeyn.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="34">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#fr"><hi rendition="#in">W</hi>Je kan ich HErꝛ dein Lob vermehren/</hi></l>
+      <lb/>
+      <l>Weil mir die zunge ſprachloß ligt</l>
+      <lb/>
+      <l>Daß ſich mein Hertz nicht nach dir fuͤgt:</l>
+      <lb/>
+      <l>Kommt’ weil die Ohren gar nicht hoͤren.</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Wie <hi rendition="#fr">ſol ich dich mein Heyland ehren!</hi></l>
+      <lb/>
+      <l><hi rendition="#fr">Weil mich die tolle Welt bekrigt</hi></l>
+      <lb/>
+      <l><hi rendition="#fr">Wer hat den Laſtern obgeſigt</hi></l>
+      <lb/>
+      <l>Der <hi rendition="#fr">nichts nicht weiß von deinen lehren/</hi></l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l><hi rendition="#fr">Ach fuͤhre mich weg von der Schar</hi></l>
+      <lb/>
+      <l><hi rendition="#fr">Ruͤhr an die Zunge/ die ſo gar</hi></l>
+      <lb/>
+      <l>Dein <hi rendition="#fr">Feind/ mein Schoͤpffer/ hat gebunden.</hi></l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l><hi rendition="#fr">Thu auff mein Ohr daß ich verſpuͤr</hi></l>
+      <lb/>
+      <l><hi rendition="#fr">Wie wol du diß gemacht was wir/</hi></l>
+      <lb/>
+      <l><hi rendition="#fr">Arm/ duͤrfftig/ Taub vnd ſtum gefunden.</hi></l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="35">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">H</hi>Jer bilde dir nichts eyn/ alß Geiſſeln/ Strick vnd Band</l>
+      <lb/>
+      <l>Alß Zangen/ Schwerd vnd Todt/ dafern du Chriſto trewe</l>
+      <lb/>
+      <l>Wer <hi rendition="#aq">IESuS</hi> Juͤnger iſt/ wer Menſchen ohne ſchewe</l>
+      <lb/>
+      <l>Die warheit ſagen wil/ kracht offt in lichtem brand:</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Dein Seeligmacher ſelbſt trug nichts dann Haß vnd</l>
+      <lb/>
+      <l><hi rendition="#et">Schand</hi></l>
+      <lb/>
+      <l>Alß Schmach vnd Creutz zu lohn: Wen dunckts dann/ lieb-</l>
+      <lb/>
+      <l><hi rendition="#et">ſter/ newe</hi></l>
+      <lb/>
+      <l>Daß offt der Chriſten Schar wie gar nicht nuͤtze ſprewe</l>
+      <lb/>
+      <l>Wird vom verfolgungs Nord geſtuͤrmet auß dem Land.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Was machts? als daß die Welt den Vatter nie erkennet:</l>
+      <lb/>
+      <l>Vnd meynt jhr toller Zorn/ der ſo pocht/ wuͤrgt vnd breñet</l>
+      <lb/>
+      <l>Sey diß was nur allein den hoͤchſten GOTT ergetzt.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aabc">
+      <l>Doch ſey getroſt/ der Geiſt/ der alle zeugen lehret</l>
+      <lb/>
+      <l>Zeugt/ daß wer biß zum Pfal den HERREN <hi rendition="#aq">IESuM</hi> ehret.</l>
+      <lb/>
+      <l>Werd auß dem Creutz ins Reich/ auß hohn in Lohn ver-</l>
+      <lb/>
+      <l><hi rendition="#et">ſetzt.</hi></l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="36">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabbccdd">
+      <l>Viel hat die <hi rendition="#fr">H</hi>oͤll! viel ein Tyrann’ erſchrecket;</l>
+      <lb/>
+      <l>Du groſſer <hi rendition="#fr">G</hi>eiſt haſt ſie noch mehr geſterckt</l>
+      <lb/>
+      <l><hi rendition="#fr">V</hi>iel hat die Pein der <hi rendition="#fr">F</hi>olter banck
+       gerecket.</l>
+      <lb/>
+      <l><hi rendition="#fr">M</hi>an hat in jhrem <hi rendition="#fr">H</hi>ertzen dich
+       vermerckt.</l>
+      <lb/>
+      <l>Viel ſind bedeckt/ mit Purpur rottem Blutt/</l>
+      <lb/>
+      <l><hi rendition="#fr">G</hi>ewieſen in die glutt:</l>
+      <lb/>
+      <l><hi rendition="#fr">J</hi>hr Fleiſch verfiel/ doch jhnen wuchs der Mutt/</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>urch dich/ du hoͤchſtes Gutt.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="37">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">O</hi> Haͤslich’ Anblick! ach! wo ſindt die guͤldnen Har!</l>
+      <lb/>
+      <l><hi rendition="#fr">W</hi>o iſt der ſtirnen Schnee? wo iſt der glantz der <hi
+        rendition="#fr">W</hi>an-</l>
+      <lb/>
+      <l>gen:</l>
+      <lb/>
+      <l>Der Wangen die mit Blut vnd Lilien vmbfangen?</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>er roſen rote Mund! wo iſt der Zaͤhue ſchar?</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l><hi rendition="#fr">W</hi>o ſindt die Sternen hin? <hi rendition="#fr">W</hi>o iſt der
+       Augen par</l>
+      <lb/>
+      <l><hi rendition="#fr">M</hi>it den die Liebe ſpielt/ jtzt flechten ſchwartze <hi
+        rendition="#fr">S</hi>chlangen</l>
+      <lb/>
+      <l>Sich vmb das weite Maul/ die Naſen iſt vergangen</l>
+      <lb/>
+      <l>Die keinem helfenbein vorhin zu gleichen war.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Jſt jemand der noch kan behertzt vnd ſonder grawen</l>
+      <lb/>
+      <l>Der Ohren kahlen ort/ der Augen lucken ſchawen?</l>
+      <lb/>
+      <l>Jſt jemandt/ der ſich nicht fuͤr dieſer ſtirn entſetzt?</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Der dencke wie ſich doch ſein Geiſt denn wird befinden</l>
+      <lb/>
+      <l>Wenn er in kurtzem wird auff gleichen ſchlag verſchwinden/</l>
+      <lb/>
+      <fw type="sig" place="bottom"><hi rendition="#fr">L</hi> iij</fw>
+      <fw type="catch" place="bottom">Weil</fw>
+      <lb/>
+      <pb n="158" facs="#f0170"/>
+      <fw type="header" place="top"><hi rendition="#b">Sonnette</hi></fw>
+      <lb/>
+      <l>Weil ſchon der Todt auff jhn die ſchnellen pfeile wetzt.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="38">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">O</hi>Wunder! Gott iſt Menſch/ die Mutter hat gebohren</l>
+      <lb/>
+      <l>Die Jungfraw war vnd blieb/ der aller kraͤffte bind’t</l>
+      <lb/>
+      <l>Durch ſeiner wortte krafft/ lig’t als ein ſchwaches Kindt</l>
+      <lb/>
+      <l>Gewindelt in ein Band/ vnd hat doch nicht verlohren</l>
+     </lg>
+     <lb/>
+     <fw type="catch" place="bottom">Was</fw>
+     <lb/>
+     <pb n="203" facs="#f0215"/>
+     <fw type="header" place="top"><hi rendition="#b">Das dritte Buch.</hi></fw>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Was Groß vñ Goͤttlich heiſt. der Held voꝛlaͤngſt verſchwohrẽ</l>
+      <lb/>
+      <l>Dem/ dẽ der Starcke zwang/ kom’t an/ vnd tilg’t die Suͤnd/</l>
+      <lb/>
+      <l>Er bawet was zuſtoͤrt vnd was er duͤrfftig find’t</l>
+      <lb/>
+      <l>Das hat Er zu dem ſitz der Herꝛligkeit erkohren.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Wol dem/ ſo bey jhm haͤlt/ ob ſchon das bloße Schwerdt</l>
+      <lb/>
+      <l>Scharff durch das zarte Fleiſch/ vnd liebe Seele faͤhrt!</l>
+      <lb/>
+      <l>Er iſt der Felß an dem ein jeder auff-mag-ſtehen.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Weh/ weh/ vnd ewig weh dem der jhm wiederſpricht!</l>
+      <lb/>
+      <l>Dis iſt der Felß an dem er Haupt vnd Hertz zu bricht/</l>
+      <lb/>
+      <l>Wer an den Stein anſtoͤßt/ muß ſchaͤndlich vntergehen.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="39">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">W</hi>As fuͤrcht mein bloͤdes Fleiſch dich <hi rendition="#aq"
+        >IESu</hi> zu bekennen?</l>
+      <lb/>
+      <l>Jch bin’s ja der recht Geiſt-vnd Mutt-vñ Eyvers voll</l>
+      <lb/>
+      <l>Dich in dem wuͤßten thal der welt außruffen ſoll</l>
+      <lb/>
+      <l>Vnd dich mit hoher ſtim in aller Ohren nennen!</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Auch weiß vnd glaub ich feſt daß mich von dir abtrennen</l>
+      <lb/>
+      <l>(Weil du im mittel ſtehſt/) kan weder weh’ noch wol</l>
+      <lb/>
+      <l>Verley nur daß ich mich an dir mein Schutz erhol</l>
+      <lb/>
+      <l>Vnd laß mich von der Flamm/ mit der du tauff’ſt entbreñen.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Zeuch ſelbſt in dis mein Hertz/ dir iſt der weg bereit;</l>
+      <lb/>
+      <l>Mach eben was erhoͤh’t/ vertreib das ſtette leid.</l>
+      <lb/>
+      <l>O Schlangentretter tritt was dir wil wiederſtehen.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Erheb was niedrig iſt/ vergleiche was nicht recht/</l>
+      <lb/>
+      <l>Raum ab was hindern kan. Vnd laß mir/ deinem Knecht</l>
+      <lb/>
+      <l>Den glantz der Herꝛligkeit! O Lebens Sonn’ aufgehen/</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="40">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">D</hi>Er eyfers voll von Gott hat Tag vnd Nacht gelehret/</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>en Chriſtus Lieb entzuͤnd’t; den <hi rendition="#fr">G</hi>ottes
+       geiſt regirt/</l>
+      <lb/>
+      <l>Der Chriſtus S<hi rendition="#fr">ch</hi>afe ſtets auff gruͤne weide fuͤhrt/</l>
+      <lb/>
+      <l>Dem offt die angſt das Hertz/ vnd glutt das gut verſehret/</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Der keiner Feinde glimpf/ noch ſchnauben je gehoͤret/</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>en Tugend hat wie Gold durch ſo viel pein probirt/</l>
+      <lb/>
+      <l>Der einig nur gelebt als ſeiner lehr gebuͤhrt/</l>
+      <lb/>
+      <l>Den Werßheit jhr erkieſt/ den <hi rendition="#fr">S</hi>vada hochverehret</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Den hat der <hi rendition="#fr">F</hi>einde grim ins elendt hin verjagt!</l>
+      <lb/>
+      <l>Jns elendt? ey nicht ſo. Wann dieſer na<hi rendition="#fr">ch</hi> vns fragt/</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>er das gewoͤlbte rundt der Erden aufgebawet;</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>So mangelt nirgendt platz/ der dem diß <hi rendition="#fr">H</hi>auß zu klein/</l>
+      <lb/>
+      <l>Das Vih vnd Menſchen traͤgt/ zeucht in den Himmel ein</l>
+      <lb/>
+      <fw type="catch" place="bottom"><hi rendition="#fr">D</hi>er</fw>
+      <lb/>
+      <pb n="149" facs="#f0161"/>
+      <fw type="header" place="top"><hi rendition="#b">das Erſte Buch.</hi></fw>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>er vns zum Vaterlandt vnd wohnung an vertrawet.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="41">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">W</hi>Eg! weg! hinweg du ſtoltzer Geiſt! dafern mir ſchon die</l>
+      <lb/>
+      <l><hi rendition="#et">rawe Wuͤſten</hi></l>
+      <lb/>
+      <l>Jn welcher GOtt mich pruͤfen wil/ nichts alß nur harte</l>
+      <lb/>
+      <l><hi rendition="#et">Steine weiſt;</hi></l>
+      <lb/>
+      <l>Wird meine matte Seele doch durch deſſen kraͤfftigs Wort</l>
+      <lb/>
+      <l><hi rendition="#et">geſpeißt</hi></l>
+      <lb/>
+      <l>Der alles Brott vnd Speiſe ſchafft. dafern du gleich mit</l>
+      <lb/>
+      <l><hi rendition="#et">ſchlimmen Luͤſten</hi></l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Mich in den Abgrund ſtuͤrtzen wilt/ wird mich doch deſſen</l>
+      <lb/>
+      <l><hi rendition="#et">Allmacht friſten</hi></l>
+      <lb/>
+      <l>Der fuͤr die ſeinen trewlich ſorgt/ der in dem weg vns blei-</l>
+      <lb/>
+      <l><hi rendition="#et">ben heiſt/</hi></l>
+      <lb/>
+      <l>Der durch der Engel ſtarcken Schutz/ den ſeinen feſten</l>
+      <lb/>
+      <l><hi rendition="#et">beyſtand leiſt.</hi></l>
+      <lb/>
+      <l>Vnd nicht von vnß verſucht wil ſeyn! du wirſt doch (glaub</l>
+      <lb/>
+      <l><hi rendition="#et">ich/) keinen Ehriſten</hi></l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Der ſeinen <hi rendition="#aq"><hi rendition="#g">IESuS</hi></hi> trwlich meynt/ durch
+       tolle Herꝛligkeit</l>
+      <lb/>
+      <l><hi rendition="#et">der Welt</hi></l>
+      <lb/>
+      <l>Durch praͤchtig auffgeſchmuͤcktes nichts/ durch wolluſt</l>
+      <lb/>
+      <l><hi rendition="#et">vnd vergaͤnglich Geldt</hi></l>
+      <lb/>
+      <l>Bewegen daß er Knie vnd Hertz/ ohn maͤchtig wunder! vor</l>
+      <lb/>
+      <l><hi rendition="#et">dir neige?</hi></l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Kom an! verſuche wie du wilt! Jch wil/ weil <hi rendition="#aq"><hi rendition="#g"
+         >IESuS</hi></hi> fuͤr</l>
+      <lb/>
+      <l><hi rendition="#et">mich batt.</hi></l>
+      <lb/>
+      <l>Der deine gantze macht zuſtoͤrt/ vnd dir den Kopff zutret-</l>
+      <lb/>
+      <l><hi rendition="#et">ten hatt</hi></l>
+      <lb/>
+      <l>Dir Erbfeind widerſtehn/ biß Er die Ehren-Kron mir endtlich</l>
+      <lb/>
+      <l><hi rendition="#et">zeige.</hi></l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="42">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">D</hi>Je Koͤnige gezeugt/ die Koͤniglich gebohren/</l>
+      <lb/>
+      <l>Die Koͤnige geliebt/ die bey noch zartem Jahr</l>
+      <lb/>
+      <l>Ein Koͤnig jhr vermaͤhlt/ die Koͤnige gebahr/</l>
+      <lb/>
+      <l>Nach dem drey Kronen ſie/ zur Koͤnigin erkohren:</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Die Fraw’ auff welche ſich viel tauſend Mann verſchworẽ/</l>
+      <lb/>
+      <l>Verhaßt bey jhrem Volck/ geacht bey frembder Schaar</l>
+      <lb/>
+      <l>Bey Nachbarn ſonder luſt/ bey Freunden in gefahr/</l>
+      <lb/>
+      <l>Verjagt ins Vaterland/ vermißt doch nicht verloren:</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Die gegenwertig ſchreckt: abweſend hefftig krigt:</l>
+      <lb/>
+      <l>Die Helden niederwirfft/ vnd in der Senfften ligt</l>
+      <lb/>
+      <l>Wirſt du erfrew’t <hi rendition="#aq">Angiers/</hi> in tieffem kummer ſchawen!</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Schaw’ an die Majeſtaͤt die in den Augen ſpielt</l>
+      <lb/>
+      <l>Das Antlitz das endeckt/ die ſorgen die es fuͤhlt/</l>
+      <lb/>
+      <l>Vnd lerne/ das was hoch/ auch ſchmacht’ in hoͤher grawen.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="43">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">N</hi>Embt wider von mir hin/ waß jhr mir nechſt vertra-</l>
+      <lb/>
+      <l>wet;</l>
+      <lb/>
+      <l>(Jhr wohnhauß trewer gunſt/ jhr Richt-ſchnur aller zeit/</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>er jhr der Sonnen ſelbſt auch eine Sonne ſeidt/)</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>iß was man hier vnd dar auf manchem Grabe ſchawet.</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Zwar ewre weißheit der fuͤr keinem ſterben grawet/</l>
+      <lb/>
+      <l>Vnd Ehre/ die der ruhm verknuͤpft der e<hi rendition="#fr">w</hi>igkeit:</l>
+      <lb/>
+      <l><hi rendition="#fr">V</hi>nd Tugend/ die vmb ſonſt der blaſſe Todt beſtreit/</l>
+      <lb/>
+      <l>Vnd hohe freundligkeit find’t hier kein grab gebawet.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l><hi rendition="#fr">J</hi>hn wird kein Stein geſetzt/ weil vber ſie das Radt</l>
+      <lb/>
+      <l>Der Parcen/ vnd der Tod nichts zu gebieten hat/</l>
+      <lb/>
+      <l>Weil diß was himliſch iſt/ nicht mag verſcharꝛet werden.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Doch vnterſteh i<hi rendition="#fr">ch</hi> mich ſie in des <hi rendition="#aq">Lethe</hi>
+       Kluft</l>
+      <lb/>
+      <l>Zu ſtoſſen/ ſo verdeck/ in dem ſich noch die Luft</l>
+      <lb/>
+      <l>Durch <hi rendition="#fr">H</hi>ertz vnd glider ruͤhrt/ mein lebend Fleiſch die <hi
+        rendition="#fr">E</hi>rden.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="44">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcc">
+      <l><hi rendition="#in">J</hi>Tzt gehen ſie/ ſie gehen/ <hi rendition="#fr">K</hi>ind vnd
+       Mann/</l>
+      <lb/>
+      <l>Mit bloſſen fuͤſſen.</l>
+      <lb/>
+      <l>Vnd ſtoſſen offt an fels vnd diſteln an.</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>as jeder fliſſen</l>
+      <lb/>
+      <l>Nach jhrem tritt/ die purpur tropfen ſiht</l>
+      <lb/>
+      <l>Gleich wie die <hi rendition="#fr">R</hi>os’aus jhren dornen bluͤht.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="45">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">K</hi>Om Koͤnig/ kom den offt dein Zion hat be- <lb/> gehret!</l>
+      <lb/>
+      <l>Kom Davids Kind vnd HERR! Gott/</l>
+      <lb/>
+      <l>Helffer in der Noth</l>
+      <lb/>
+      <l>Vnd Zarter Menſchen Sohn! Reiß aus</l>
+      <lb/>
+      <l>dem Suͤnden koth</l>
+      <lb/>
+      <l>Die Seelen/ die Geſetz vnd Suͤnden laſt beſchweret.</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Erfriſche was die glutt der Hoͤllen hart verheeret!</l>
+      <lb/>
+      <l>O Leichter Lebens Taw/ erquicke was der Todt</l>
+      <lb/>
+      <l>Mit hartten Fuͤſſen tritt! kom ſuͤſſes Himmel brodt</l>
+      <lb/>
+      <l>Vnd labe die/ die durſt vnd hunger gantz verzehret.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Kom vnverfaͤlſchte Luſt/ wenn vns der Teufel ſchreckt.</l>
+      <lb/>
+      <l>Kom Licht! vnd ſcheine dem/ den Nacht vnd grawen deckt/</l>
+      <lb/>
+      <l>Kom Friede! Kom zu den/ die Angſt vnd Pein bekriegen.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>O Held vnd Helffer kom/ den aller Voͤlcker ſchar</l>
+      <lb/>
+      <l>Zum Haupt vñ Fuͤrſten wuͤndſch’t/ vñ zeig vns offenbahr.</l>
+      <lb/>
+      <l>Daß wer dir widerſteht mit ſpott muͤß vnten liegen.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="46">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcc">
+      <head>1.</head>
+      <lb/>
+      <l><hi rendition="#in">S</hi>uͤſſes Kind/ der Vaͤtter hoffen:</l>
+      <lb/>
+      <l>Kind der Menſchen Loͤſegeldt/</l>
+      <lb/>
+      <l>Steht der Himmel nunmehr offen?</l>
+      <lb/>
+      <l>Liefert <hi rendition="#fr">G</hi>ott dich jtzt der <hi rendition="#fr">W</hi>elt?</l>
+      <lb/>
+      <l><hi rendition="#fr">H</hi>eyland wirſt du nun gebohren</l>
+      <lb/>
+      <l><hi rendition="#fr">Z</hi>u erloͤſen was verlohren?</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="ababcc">
+      <head>2.</head>
+      <lb/>
+      <l>Den eh’ ewig angebrochen</l>
+      <lb/>
+      <l>GOTT jhm ewig gleich gebahr:</l>
+      <lb/>
+      <l>Wortt das GOTT hat außgeſprochen</l>
+      <lb/>
+      <l>Das im anfang war/ vnd wahr;</l>
+      <lb/>
+      <l>GOTT das <hi rendition="#fr">W</hi>ort komm’t auf die Erden.</l>
+      <lb/>
+      <l>Wunder! GOtt ſoll <hi rendition="#fr">F</hi>leiſch hier werden<supplied>/</supplied></l>
+     </lg>
+     <lb/>
+     <fw type="catch" place="bottom">3. Hei-</fw>
+     <lb/>
+     <pb n="132" facs="#f0144"/>
+     <fw type="header" place="top">Oden</fw>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="ababcc">
+      <head>3.</head>
+      <lb/>
+      <l><hi rendition="#fr">H</hi>eiligkeit der hoͤchſten Guͤtte!</l>
+      <lb/>
+      <l>Ach! verlaͤſt du deinen Thron!</l>
+      <lb/>
+      <l><hi rendition="#fr">W</hi>ie entſetzt ſich mein Gemuͤtte!</l>
+      <lb/>
+      <l>Wird GOtt eines Menſchen Sohn?</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>en nichts was er ſchuff kan ſchliſſen:</l>
+      <lb/>
+      <l><hi rendition="#fr">K</hi>an die zarte Jungfer kuͤſſen.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="ababcc">
+      <head>4.</head>
+      <lb/>
+      <l>Ach! Er komm’t/ er wird gebohren</l>
+      <lb/>
+      <l>Weil der bleiche Monden wacht</l>
+      <lb/>
+      <l>Vor dem Liecht ſein Liecht verlohren/</l>
+      <lb/>
+      <l>Kommt verhuͤll’t mit ſchwartzer Nacht.</l>
+      <lb/>
+      <l>Den viel tauſend Jahr begehret:</l>
+      <lb/>
+      <l>Wird eh’ als man meynt beſchehret.</l>
+     </lg>
+     <lb/>
+     <lg n="5" type="stanza" rhyme="ababcc">
+      <head>5.</head>
+      <lb/>
+      <l>Doch er wird/ den alle kennen</l>
+      <lb/>
+      <l>Nicht von ſeinem Volck’ erkannt.</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>er die Welt ſein Hauß kan nennen</l>
+      <lb/>
+      <l>Wird in einen Stall verbannt/</l>
+      <lb/>
+      <l>Der der Erden grund beweget</l>
+      <lb/>
+      <l><hi rendition="#fr">W</hi>ird auff duͤrꝛes He<hi rendition="#fr">w</hi> geleget.</l>
+     </lg>
+     <lb/>
+     <lg n="6" type="stanza" rhyme="ababcc">
+      <head>6.</head>
+      <lb/>
+      <l>Dem der Donner zu gebotte</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>em der Blitz zu dinſte ſteht</l>
+      <lb/>
+      <l>Der an Macht dem hoͤchſten GOtte</l>
+      <lb/>
+      <l>Alß an weſen gleiche geht</l>
+      <lb/>
+      <l>Der was iſt vnd ward/ gebawet</l>
+      <lb/>
+      <l>Wird hier alß ein Kind geſchawet.</l>
+     </lg>
+     <lb/>
+     <lg n="7" type="stanza" rhyme="ababcc">
+      <head>7.</head>
+      <lb/>
+      <l>Kan der <hi rendition="#fr">S</hi>choͤpffer ein Geſchoͤpffe</l>
+      <lb/>
+      <l>Kan die Jungfraw Mutter ſeyn<supplied>?</supplied></l>
+      <lb/>
+      <l>Tritt diß Kind der Drachen Koͤpffe<supplied>?</supplied></l>
+      <lb/>
+      <l><hi rendition="#fr">V</hi>nd deß Sathans ſcheytel eyn?</l>
+      <lb/>
+      <l>Wird die Weißheit ſelbſt zum Kinde?</l>
+      <lb/>
+      <l>Traͤgt die Vnſchuld meine Suͤnde:</l>
+     </lg>
+     <lb/>
+     <fw type="catch" place="bottom">8. Jrr’</fw>
+     <lb/>
+     <pb n="133" facs="#f0145"/>
+     <fw type="header" place="top">das Ander Buch.</fw>
+     <lb/>
+     <lg n="8" type="stanza" rhyme="ababcc">
+      <head>8.</head>
+      <lb/>
+      <l><hi rendition="#fr">J</hi>rr’ ich? nein! ich ſcha<hi rendition="#fr">w</hi> den Himmel</l>
+      <lb/>
+      <l>Selbſt mit frewden ſchwanger gehn?</l>
+      <lb/>
+      <l>Vnd mit jauchtzendem getuͤmmel</l>
+      <lb/>
+      <l>Tauſend Engel vmb mich ſtehn!</l>
+      <lb/>
+      <l><hi rendition="#fr">E</hi>ngel/ die zu Ehren ſingen</l>
+      <lb/>
+      <l>Dem der vnß wil Frieden bringen.</l>
+     </lg>
+     <lb/>
+     <lg n="9" type="stanza" rhyme="ababcc">
+      <head>9.</head>
+      <lb/>
+      <l>Alles frolock’t! alles lachet!</l>
+      <lb/>
+      <l><hi rendition="#fr">N</hi>ur mein hochbetruͤbtes Hertz;</l>
+      <lb/>
+      <l>Das im jammer fe<hi rendition="#fr">w</hi>’re krachet:</l>
+      <lb/>
+      <l>Das der Marter-volle Schmertz/</l>
+      <lb/>
+      <l>Mit ſtets newen Geiſſeln plaget/</l>
+      <lb/>
+      <l><hi rendition="#fr">S</hi>chmacht bey dieſer <hi rendition="#fr">F</hi>rewd vnd zaget.</l>
+     </lg>
+     <lb/>
+     <lg n="10" type="stanza" rhyme="ababcc">
+      <head>10.</head>
+      <lb/>
+      <l>Augen/ die jhr alles ſehet/</l>
+      <lb/>
+      <l>Seht was meine Seele ſchaͤtzt:</l>
+      <lb/>
+      <l>Schawt wie mich der <hi rendition="#fr">S</hi>athan ſchmaͤhet</l>
+      <lb/>
+      <l><hi rendition="#fr">S</hi>chawt/ wie mich die Welt verletzt/</l>
+      <lb/>
+      <l>Schaw’t wie mich die Nacht erſchrecket</l>
+      <lb/>
+      <l>Vnd mit trawrigkeit verdecket.</l>
+     </lg>
+     <lb/>
+     <lg n="11" type="stanza" rhyme="ababcc">
+      <head>11.</head>
+      <lb/>
+      <l>Arm/ verlaſſen/ vnd alleine</l>
+      <lb/>
+      <l>Fall i<hi rendition="#fr">ch</hi> fuͤr dir auff die Knie!</l>
+      <lb/>
+      <l>Vnd wen wunderts daß ich weyne?</l>
+      <lb/>
+      <l>Jſt mein Leben nicht voll muͤh?</l>
+      <lb/>
+      <l><hi rendition="#fr">K</hi>oͤnt ich wol die Thraͤnen zwingen.</l>
+      <lb/>
+      <l>Wenn du ſelbſt ſie muſt vor dringen.</l>
+     </lg>
+     <lb/>
+     <lg n="12" type="stanza" rhyme="ababcc">
+      <head>12.</head>
+      <lb/>
+      <l><hi rendition="#fr">W</hi>er die wolluſt trawrig ſchawet:</l>
+      <lb/>
+      <l>Wer die Frewde klagen hoͤrt.</l>
+      <lb/>
+      <l>Wenn fuͤr dem/ der <hi rendition="#fr">E</hi>rden grawet</l>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>er ſich ſelbſt der Welt verehrt!</l>
+      <lb/>
+      <l>Koͤnnte man im Thal der zehren:</l>
+      <lb/>
+      <l><hi rendition="#fr">Sich</hi> den <hi rendition="#fr">H</hi>erber Angſt erwehren.</l>
+     </lg>
+     <lb/>
+     <fw type="catch" place="bottom">13. Doch</fw>
+     <lb/>
+     <pb n="134" facs="#f0146"/>
+     <fw type="header" place="top">Oden</fw>
+     <lb/>
+     <lg n="13" type="stanza" rhyme="ababcc">
+      <head>13.</head>
+      <lb/>
+      <l><hi rendition="#fr">D</hi>och dein weynen bringt zu wegen:</l>
+      <lb/>
+      <l><hi rendition="#fr">W</hi>as allein ich wuͤndſchen ſoll.</l>
+      <lb/>
+      <l>Daß ſich meine <hi rendition="#fr">S</hi>chmertzen legen;</l>
+      <lb/>
+      <l>Daß mir in vnd durch dich wol:</l>
+      <lb/>
+      <l>Daß ich frey von leid vnd rewen:</l>
+      <lb/>
+      <l><hi rendition="#fr">M</hi>ich mit dir werd’ ewig frewen.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="47">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">J</hi>Hr lichter die ich nicht auff erden ſatt kan ſchawen/</l>
+      <lb/>
+      <l>Jhr fackeln die jhr ſtets das weite firmament</l>
+      <lb/>
+      <l><hi rendition="#fr">M</hi>it ewren flammen ziert/ vnd ohn auffhoͤren brent;</l>
+      <lb/>
+      <l>Jhr Blumen die jhr ſchmuͤckt des groſſen himmels Awen:</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Jhr <hi rendition="#fr">W</hi>aͤchter/ die als Gott die welt auff-wolte-bawen;</l>
+      <lb/>
+      <l>Sein wort die weisheit ſelbſt mit rechten nahmen nennt</l>
+      <lb/>
+      <l>Die Gott allein recht miſſt/ die Gott allein recht kennt</l>
+      <lb/>
+      <l>(Wir blinden ſterblichen! was wollen wir vns trawen!)</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Jhr Buͤrgen meiner luſt/ wie manche ſchoͤne Nacht</l>
+      <lb/>
+      <l>Hab ich/ in dem ich euch betrachtete gewacht?</l>
+      <lb/>
+      <l>Regirer vnſer zeit/ wenn wird es doch geſchehen?</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l><hi rendition="#fr">D</hi>aß ich/ der ewer ni<hi rendition="#fr">ch</hi>t alhier vergeſſen
+       kan/</l>
+      <lb/>
+      <l>Euch/ derer Libe mir ſteckt <hi rendition="#fr">H</hi>ertz vnd Geiſter an</l>
+      <lb/>
+      <l><hi rendition="#fr">V</hi>on andern Sorgen frey werd vnter mir beſehen.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="48">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">D</hi>Er Engelſcharen Fuͤrſt/ den Gott jhmb gleich gebohren.</l>
+      <lb/>
+      <l>Durch den das weite Schloß der wunder ſchoͤnen</l>
+      <lb/>
+      <l><hi rendition="#et">Welt</hi></l>
+      <lb/>
+      <l>Gegruͤndet/ ſteigt vom Thron vnd ſeiner Himmel zelt</l>
+      <lb/>
+      <l>Vnd ſuchet was ſich ſelbſt auff Erden hat verlohren.</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Der Koͤnig den zur Luſt der Vater jhm erkohren:</l>
+      <lb/>
+      <l>Hat ſeine luſt an vns/ der alles gibt vnd haͤlt</l>
+      <lb/>
+      <l>Kreucht ſeinen Schaffen nach vnd wird das Loͤſegelt</l>
+      <lb/>
+      <l>Der auff die angſt vnd todt/ vnd Hoͤlle ſich verſchworen.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Hoͤrt Schaffe die jhr ſteckt verjrꝛ’t in mancher klufft:</l>
+      <lb/>
+      <l>Die ewig trewe Trew/ der Lebens Hirte rufft</l>
+      <lb/>
+      <l>Folgt ſeiner Stim’ vnd Hand eh’ euch der Wolff zureiſſe.</l>
+     </lg>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>Welch Groſchen jtzt nicht klingt/ wenn <hi rendition="#aq">IESuS</hi> leucht vnd</l>
+      <lb/>
+      <l><hi rendition="#et">kehrt</hi></l>
+      <lb/>
+      <l>Wird vnter dickem ſtaub von ſcharffen roſt verzehrt</l>
+      <lb/>
+      <l>Vñ taug nichts alß daß man jhn mit dem kott weg ſchmeiſſe.</l>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="49">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">V</hi>Mbſonſt/ Mein Freund vmbſonſt! Jch kan dir nicht ge-</l>
+      <lb/>
+      <l><hi rendition="#et">wehren</hi></l>
+      <lb/>
+      <l>Ein denckmal das von fall/ von ſtrenger Tyranney</l>
+      <lb/>
+      <l>Der Jahr/ vnd ſeiner grufft ſich/ dich/ vnd mich befrey.</l>
+      <lb/>
+      <l>Die zeit kan Ertz vnd Stein in kott vnd grauß verkehren.</l>
+     </lg>
+     <lb/>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>Was Menſchen hand auffſetzt/ kan Menſchen hand ver-</l>
+      <lb/>
+      <l><hi rendition="#et">heren/ /</hi></l>
+      <lb/>
+      <l>Vnd ob ſie ruh: die noth/ See/ Erdfall/ ſchwerd vnd bley.</l>
+      <lb/>
+      <l>Geſetzt auch daß ich nicht auff einmal ſterblich ſey?</l>
+      <lb/>
+      <l>Rhumb iſt ein bloſſer wahn/ den Todte nicht begehren.</l>
+     </lg>
+     <lb/>
+     <lg n="3" type="stanza" rhyme="aab">
+      <l>Meynſt du/ daß dis Papir werd’ vnverſehrt beſtehn;</l>
+      <lb/>
+      <l>Wenn nun der Erden Baw’ in flammen wird vergehn/</l>
+      <lb/>
+      <l>Vnd ſein beſchwertes Grab in eigner Aſchen werden?</l>
+     </lg>
+     <lb/>
+     <fw type="sig" place="bottom">N iij</fw>
+     <fw type="catch" place="bottom">O ſelig</fw>
+     <lb/>
+     <pb n="190" facs="#f0202"/>
+     <fw type="header" place="top"><hi rendition="#b">Sonnette</hi></fw>
+     <lb/>
+     <lg n="4" type="stanza" rhyme="aab">
+      <l>O ſelig wer die Traͤum/ vnd nichtig Lob verlacht/</l>
+      <lb/>
+      <l>Wer jmmer newem Ruhm vnd ew’ger Ehr nach tracht!</l>
+      <lb/>
+      <l>Die vns der Himmel ſchenckt/ nicht die vergaͤnglich-Erden.</l>
+     </lg>
+    </lg>
+   </div>
+
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,2022 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Poetisch-Historischer Lustgarten</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/118587404">
+            <surname>Neumark</surname>
+            <forename>Georg</forename>
+          </persName>
+        </author>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/115266127">
+            <surname>Geyken</surname>
+            <forename>Alexander</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1018099549">
+            <surname>Haaf</surname>
+            <forename>Susanne</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1019062681">
+            <surname>Jurish</surname>
+            <forename>Bryan</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Boenig</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Thomas</surname>
+            <forename>Christian</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Wiegand</surname>
+            <forename>Frank</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <orgName ref="http://www.clarin-d.de">CLARIN-D</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="http://fedora.dwds.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Vollständige digitalisierte Ausgabe.</edition>
+      </editionStmt>
+      <extent>
+        <measure type="images">468</measure>
+        <measure type="tokens">69234</measure>
+        <measure type="types">14369</measure>
+        <measure type="characters">473795</measure>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2016-10-10T16:36:00Z</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+            <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported
+              License.</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="URLWeb">http://www.deutschestextarchiv.de/neumark_lustgarten_1666</idno>
+          <idno type="URLXML"
+            >http://www.deutschestextarchiv.de/book/download_xml/neumark_lustgarten_1666</idno>
+          <idno type="URLHTML"
+            >http://www.deutschestextarchiv.de/book/download_html/neumark_lustgarten_1666</idno>
+          <idno type="URLText"
+            >http://www.deutschestextarchiv.de/book/download_text/neumark_lustgarten_1666</idno>
+          <idno type="DTADirName">neumark_lustgarten_1666</idno>
+          <idno type="DTAID">20424</idno>
+          <idno type="URN">urn:nbn:de:kobv:b4-20424-1</idno>
+        </idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="M">Neumark, Georg: Poetisch-Historischer Lustgarten. Frankfurt (Main),
+          1666.</bibl>
+        <biblFull>
+          <titleStmt>
+            <title level="m" type="main">Poetisch-Historischer Lustgarten</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/118587404">
+                <surname>Neumark</surname>
+                <forename>Georg</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <extent>
+            <measure type="pages">[20] Bl., 372 S. [20] Bl. : Frontisp., 20 Ill.
+              (Kupferst.).</measure>
+          </extent>
+          <publicationStmt>
+            <publisher><name>Götz</name></publisher>
+            <pubPlace>Frankfurt (Main)</pubPlace>
+            <date type="publication">1666</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier> </msIdentifier>
+          <physDesc>
+            <typeDesc>
+              <p>Fraktur</p>
+            </typeDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Dieses Werk wurde gemäß den <ref
+            target="http://www.deutschestextarchiv.de/doku/richtlinien"
+            >DTA-Transkriptionsrichtlinien</ref> im Double-Keying-Verfahren von
+          Nicht-Muttersprachlern erfasst und in XML/TEI P5 nach <ref
+            target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat</ref>
+          kodiert.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="rendition-aq">font-family:sans-serif</rendition>
+        <rendition scheme="css" xml:id="rendition-b">font-weight:bold</rendition>
+        <rendition scheme="css" xml:id="rendition-blue">color:blue</rendition>
+        <rendition scheme="css" xml:id="rendition-c">display:block; text-align:center</rendition>
+        <rendition scheme="css" xml:id="rendition-et">display:block; margin-left:2em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-et2">display:block; margin-left:4em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-et3">display:block; margin-left:6em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-f">border:1px dotted silver</rendition>
+        <rendition scheme="css" xml:id="rendition-fr">border:1px dotted silver</rendition>
+        <rendition scheme="css" xml:id="rendition-g">letter-spacing:0.125em</rendition>
+        <rendition scheme="css" xml:id="rendition-i">font-style:italic</rendition>
+        <rendition scheme="css" xml:id="rendition-in">font-size:150%</rendition>
+        <rendition scheme="css" xml:id="rendition-k">font-variant:small-caps</rendition>
+        <rendition scheme="css" xml:id="rendition-larger">font-size:larger</rendition>
+        <rendition scheme="css" xml:id="rendition-red">color:red</rendition>
+        <rendition scheme="css" xml:id="rendition-right">display:block; text-align:right</rendition>
+        <rendition scheme="css" xml:id="rendition-s">text-decoration:line-through</rendition>
+        <rendition scheme="css" xml:id="rendition-smaller">font-size:smaller</rendition>
+        <rendition scheme="css" xml:id="rendition-sub">vertical-align:sub;
+          font-size:.7em</rendition>
+        <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+          font-size:.7em</rendition>
+        <rendition scheme="css" xml:id="rendition-u">text-decoration:underline</rendition>
+        <rendition scheme="css" xml:id="rendition-uu">border-bottom:double 3px #000</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">German</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtamain"
+          >Belletristik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtasub"
+          >Lyrik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+          >Belletristik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+          >Lyrik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >core</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >ready</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >china</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabbccdd">
+            <l>Die ich manchem Liebes-Strick’/ auch ſo manchen groſſen<lb/>
+              <hi rendition="#et">Hauffen</hi></l>
+            <lb/>
+            <l>Amors Liſt entgongen bin/ und Cupidens Witz entlauffen/</l>
+            <lb/>
+            <l>Muß nun rennen/ aͤchtzen/ ſchreyen: Ach mein hochbetruͤb-<lb/>
+              <hi rendition="#et">tes Hertz/</hi></l>
+            <lb/>
+            <l>Weil Cupido mich getroffen und erreget groſſen Schmertz.</l>
+            <lb/>
+            <l>Niemand kan als Fliamon meine Wunden wieder heilen/</l>
+            <lb/>
+            <l>So mir Venus blindes Kind hat gemacht mit ſeinen Pfeilen/</l>
+            <lb/>
+            <l>Filamon Hertzallerliebſter kommet/ kommet nur herzu/</l>
+            <lb/>
+            <l>Schaffet zwey verliebten Hertzen/ meinem und dem eurem<lb/>
+              <hi rendition="#et">Ruh’.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="2">
+        <lg type="poem">
+          <head><hi rendition="#aq">III.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Par jungito pari, Æqualitas res optima eſt.</hi></l>
+            <lb/>
+            <l>Fuͤg es allezeit alſo/ daß ſich gleich und gleich ge-<lb/>
+              <hi rendition="#et">ſellt/</hi></l>
+            <lb/>
+            <l>Weil faſt keine beßre Sach’/ als die Gleichheit in<lb/>
+              <hi rendition="#et">der Welt.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="3">
+        <lg type="poem">
+          <head><hi rendition="#aq">X.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Indignum laudare noli hominem ſtultum, di-</hi></l>
+            <lb/>
+            <l><hi rendition="#aq"><hi rendition="#et">vitiarum gratiâ.</hi></hi></l>
+            <lb/>
+            <l>Man ſoll keinen Narrenkopf/ der ſich nicht kan<lb/>
+              <hi rendition="#et">hoͤflich weiſen/</hi></l>
+            <lb/>
+            <l>Und nur ſchlechter Herkunfft iſt/ wegen ſeines<lb/>
+              <hi rendition="#et">Reichthums preiſen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="4">
+        <lg type="poem">
+          <lg type="stanza" rhyme="aabb">
+            <l>O Venus deine Gunſt laß uns allzeit regieren/</l>
+            <lb/>
+            <l>Und zu dem Wolfarts-Weg uns beyde Nymfen fuͤhren/</l>
+          </lg>
+          <lb/>
+          <l>Drum bringen wir Geſchenk/ und wollen allzeit ſeyn</l>
+          <lb/>
+          <l>Verpflichte/ Venus/ dir/ dich ſtelle guͤnſtig ein.</l>
+        </lg>
+      </div>
+
+      <div n="5">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abccb">
+            <l><hi rendition="#aq">Sicut it, ire ſinas; quia vult ſic, ſicut it, ire.</hi></l>
+            <lb/>
+            <l>Wie es geht ſo laß es gehen/</l>
+            <lb/>
+            <l>Weil des Hoͤchſten Wille ſteht/</l>
+            <lb/>
+            <l>Daß es alſo/ wie es geht</l>
+            <lb/>
+            <l>Wil und ſoll und muß geſchehen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="6">
+        <lg type="poem">
+          <head><hi rendition="#aq">VIII.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Vita improborum ſemper conſuetudinem.</hi></l>
+            <lb/>
+            <l>Wo du nicht wilſt Ergernuͤß/ Schimpf und<lb/>
+              <hi rendition="#et">Spott und Schaden leiden.</hi></l>
+            <lb/>
+            <l>Muſtu nun und allezeit boͤſer Leute Kundſchafft<lb/>
+              <hi rendition="#et">meiden.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="7">
+        <lg type="poem">
+          <head><hi rendition="#aq">IX.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Nil perfido eſſe deteſtabilius poteſt.</hi></l>
+            <lb/>
+            <l>Der Gewiſſenloſe Menſch bleibt von GOtt nicht<lb/>
+              <hi rendition="#et">ungerochen/</hi></l>
+            <lb/>
+            <l>Der ſo leicht und liederlich ſeinen ſchweren Eyd<lb/>
+              <hi rendition="#et">gebrochen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="8">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abbacc">
+            <l><hi rendition="#in">D</hi>En Tugend-Ehr-und Kunſtgenoſſen/</l>
+            <lb/>
+            <l>Jſt dieſer Garten vorgeſtellt;</l>
+            <lb/>
+            <l>Wem aber Tadeln wolgefaͤllt/</l>
+            <lb/>
+            <l>Vor deme bleibt er zugeſchloſſen.</l>
+            <lb/>
+            <l><hi rendition="#b">Ein Luſtgart’ iſt vor aͤdle Sinnen:</hi></l>
+            <lb/>
+            <l><hi rendition="#b">Ein wůhlend Schwein dient nicht</hi></l>
+            <lb/>
+            <l><hi rendition="#b">darinnen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="9">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l>Einer iſt des andern Wolff/ einer iſt des andern<lb/>
+              <hi rendition="#et">Teufel/</hi></l>
+            <lb/>
+            <l>Alſo ſind die Menſchen ſelbſt ihr Verderben ohne<lb/>
+              <hi rendition="#et">zweifel.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="10">
+        <lg type="poem">
+
+          <lg n="1" type="stanza" rhyme="ababccdeed">
+            <l><hi rendition="#c">4.</hi></l>
+            <lb/>
+            <l>So laſt uns den eylen ohn alles verweilen/</l>
+            <lb/>
+            <l>Weil Phoebus nun pralet und ſtralet nicht mehr/</l>
+            <lb/>
+            <l>Wir wollen die Liebe recht unter uns theilen/</l>
+            <lb/>
+            <l>Die unſere Hertzen geplaget bißher.</l>
+            <lb/>
+            <l>Wir wollen mit Freuden/</l>
+            <lb/>
+            <l>Nur ſelbſten uns weiden/</l>
+            <lb/>
+            <l>Und leſchen die Glut/</l>
+            <lb/>
+            <l>Darzu auch die Schmertzen/</l>
+            <lb/>
+            <l>Jn unſeren Hertzen/</l>
+            <lb/>
+            <l>Belliflora kompt nun mein Edeles Gut.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="11">
+        <lg type="poem">
+          <head><hi rendition="#aq">XI.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Si vis aliquid ſcire, ſcire illuſtre aliquid &amp; in-</hi></l>
+            <lb/>
+            <l><hi rendition="#aq"><hi rendition="#et">clytum, ſtude.</hi></hi></l>
+            <lb/>
+            <l>Dahin denke nur allzeit/ ſey auf dieſes recht be-<lb/>
+              <hi rendition="#et">fliſſen/</hi></l>
+            <lb/>
+            <l>Wo du ja was wiſſen wilſt/ etwas redliches zu<lb/>
+              <hi rendition="#et">wiſſen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="12">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <l><hi rendition="#aq #et">Si Fortune me tourmente,</hi></l>
+            <lb/>
+            <l><hi rendition="#aq #et">Eſperance me contente.</hi></l>
+            <lb/>
+            <l>Wenn das Gluͤkk mich ſchlaͤget nieder/</l>
+            <lb/>
+            <l>Troͤſtet mich die Hoffnung wieder.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="13">
+        <lg type="poem">
+          <head><hi rendition="#aq">II.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Vita eſt caduca, gloria æternùm viget.</hi></l>
+            <lb/>
+            <l>Unſer blumen-gleiches Leben/ eh wir es verſehn/<lb/>
+              <hi rendition="#et">vergeht/</hi></l>
+            <lb/>
+            <l>Aber Ehr’ und edle Tugend/ allzeit wie ein Palm-<lb/>
+              <hi rendition="#et">baum ſteht.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="14">
+        <lg type="poem">
+          <head><hi rendition="#aq">X.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Is qui Magiſtratum colit, paret <hi rendition="#g"
+              >DEO</hi>.</hi></l>
+            <lb/>
+            <l>Welcher ſeiner Obrigkeit zu gehorchen iſt ge-<lb/>
+              <hi rendition="#et">neiget/</hi></l>
+            <lb/>
+            <l>Dieſer hat es ſeinem GOtt/ welcher ſie geſetzt/ er-<lb/>
+              <hi rendition="#et">zeiget.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="15">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <l><hi rendition="#aq">Non laudandus eſt, qui plus credit, quæ audit,</hi></l>
+            <lb/>
+            <l><hi rendition="#aq"><hi rendition="#et">quam quæ videt.</hi></hi></l>
+            <lb/>
+            <l>Der iſt nicht lobens wehrt/ der mehr demſelben<lb/>
+              <hi rendition="#et">trauet/</hi></l>
+            <lb/>
+            <l>Was er mit Ohren hoͤrt/ als mit den Augen<lb/>
+              <hi rendition="#et">ſchauet.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="16">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abbacc">
+            <l>Filamon mein einges Leben/</l>
+            <lb/>
+            <l>Filamon mein hoͤchſter Schatz/</l>
+            <lb/>
+            <l>Filamon mein Freudenplatz/</l>
+            <lb/>
+            <l>Nunmehr iſt euch gantz ergeben</l>
+            <lb/>
+            <l>Bellifloren Hertz und Sinn/</l>
+            <lb/>
+            <l>Nehmt Jhr treues Haͤndlein hin.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="17">
+        <lg type="poem">
+          <head>Loblied<lb/> Der Schaͤfer- und Poeterey.</head>
+          <lb/>
+          <argument>
+            <p><hi rendition="#c">Die Melodie mit der Symphon: iſt im Luſtwalde zu<lb/> finden fol.
+                354.</hi></p>
+          </argument>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">1.</hi></l>
+            <lb/>
+            <l><hi rendition="#in">W</hi>Ol dem der in den Waͤldern lebet/</l>
+            <lb/>
+            <l>Jn unſer Edlen Schaͤfer-Luſt/</l>
+            <lb/>
+            <l>Derſelbe ſtets in Freuden ſchwebet/</l>
+            <lb/>
+            <l>Kein Jammer iſt ihm je bewuſt/</l>
+            <lb/>
+            <l>Unſterblich iſt und bleibet frey</l>
+            <lb/>
+            <l>Die Schaͤfer- und Poeterey.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">2.</hi></l>
+            <lb/>
+            <l>Was ſind doch anders Fuͤrſten Sachen/</l>
+            <lb/>
+            <l>Als lauter Ungemach und Streit/</l>
+            <lb/>
+            <l>Allhier iſt nichts daß uns kan machen</l>
+            <lb/>
+            <l>Betruͤbet; trotz ſey allem Neid.</l>
+            <lb/>
+            <l>Unſterblich iſt und bleibet frey</l>
+            <lb/>
+            <l>Die Schaͤfer- und Poeterey.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">3.</hi></l>
+            <lb/>
+            <l>Die Stadt iſt reich von theuren Dingen/</l>
+            <lb/>
+            <l>Doch vol von Falſchheit und von Liſt/</l>
+            <lb/>
+            <l>Wir aber moͤgen froͤlich ſingen/</l>
+            <lb/>
+            <l>Biß Cynthia aufgangen iſt.</l>
+            <lb/>
+            <l>Unſterblich iſt und bleibet frey</l>
+            <lb/>
+            <l>Die Schaͤfer- und Poeterey.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">4.</hi></l>
+            <lb/>
+            <l>Jn unſern Waͤldern Phoebus glaͤntzet/</l>
+            <lb/>
+            <l>Jn unſern Waͤldern Pallas lacht/</l>
+            <lb/>
+            <fw type="catch" place="bottom">Manch</fw>
+            <lb/>
+            <pb n="317" facs="#f0395"/>
+            <fw type="header" place="top">Filamon.</fw>
+            <lb/>
+            <l>Manch Edler Schaͤfer wird bekraͤntzet/</l>
+            <lb/>
+            <l>Durch der Poeten ſtarke Macht.</l>
+            <lb/>
+            <l>Unſterblich iſt und bleibet frey</l>
+            <lb/>
+            <l>Die Schaͤfer- und Poeterey.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">5.</hi></l>
+            <lb/>
+            <l>Bey uns die hohen Bāume prangen/</l>
+            <lb/>
+            <l>Bey uns iſt Floren Blumen Kraft/</l>
+            <lb/>
+            <l>Bey uns die ſchoͤnen Apffel hangen/</l>
+            <lb/>
+            <l>Bey uns iſt ſuͤſſer Bienen Safft.</l>
+            <lb/>
+            <l>Unſterblich iſt und bleibet frey</l>
+            <lb/>
+            <l>Die Schaͤfer- und Poeterey.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">6.</hi></l>
+            <lb/>
+            <l>Drumb wol dem/ der in Waͤldern lebet</l>
+            <lb/>
+            <l>Jn unſrer edlen Schaͤfer-Luſt/</l>
+            <lb/>
+            <l>Derſelbe ſtets in Freuden ſchwebet/</l>
+            <lb/>
+            <l>Kein Jammer iſt ihm je bewuſt.</l>
+            <lb/>
+            <l>Unſterblich iſt und bleibet frey</l>
+            <lb/>
+            <l>Die Schaͤfer- und Poeterey.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="18">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabbcd">
+            <l>Viel tauſend tauſend mal hab’ ich mit Liſt betrogen</l>
+            <lb/>
+            <l>So manche Dam’ und Held durch dieſen Pfeil und Bogen/</l>
+            <lb/>
+            <l>Und du Belliflora/ ſolſt mir entgegen ſein?</l>
+            <lb/>
+            <l>O weit gefehlt! halt/ halt! wer auch dein Hertz ein Stein/</l>
+            <lb/>
+            <fw type="catch" place="bottom">So</fw>
+            <lb/>
+            <pb n="287" facs="#f0363"/>
+            <fw type="header" place="top">Filamon.</fw>
+            <lb/>
+            <l>So ſol mein ſcharffer Pfcil daſſelbe doch zerſpalten.</l>
+            <lb/>
+            <l>Glaͤubſtu es nicht? Sih da!</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="19">
+        <lg type="poem">
+          <head><hi rendition="#aq">III.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Perit voluptas; virtus immortalis eſt.</hi></l>
+            <lb/>
+            <l>Wolluſt das verfluchte Gifft/ ſoll und muß und<lb/>
+              <hi rendition="#et">wird verderben;</hi></l>
+            <lb/>
+            <l>Tugend die beliebte Zier wird hergegen nimmer<lb/>
+              <hi rendition="#et">ſterben.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="20">
+        <lg type="poem">
+          <head><hi rendition="#aq">V.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Ingenia maximè hominum honores indicant.</hi></l>
+            <lb/>
+            <l>Wenn ein unerkandter Menſch zu erhoͤhten Ehren<lb/>
+              <hi rendition="#et">ſteiget/</hi></l>
+            <lb/>
+            <l>Denn kan man es erſtlich ſehn/ zu was thun er ſey<lb/>
+              <hi rendition="#et">geneiget.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="21">
+        <lg type="poem">
+          <head><hi rendition="#aq">III.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="ab">
+            <l><hi rendition="#aq">Homc homini Lupus, Homo homini Diabolus.</hi></l>
+            <lb/>
+            <l><hi rendition="#aq"><hi rendition="#et"><hi rendition="#i">ergò</hi></hi></hi></l>
+            <lb/>
+            <l><hi rendition="#i">Maxima hominum peſtis ſunt ipſi homines</hi></l>
+            <lb/>
+            <l><hi rendition="#i"><hi rendition="#et">ſibi.</hi></hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="22">
+        <lg type="poem">
+          <head>Antwortlied<lb/>
+            <hi rendition="#fr">Des Filamons.</hi></head>
+          <lb/>
+          <argument>
+            <p><hi rendition="#c">Beſiehe die Melodie im Luſtwalde<lb/> fol. 252.</hi></p>
+          </argument>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">1.</hi></l>
+            <lb/>
+            <l><hi rendition="#in">B</hi>Elliflor mein edles Leben/</l>
+            <lb/>
+            <l>Liebt mich nun von Hertzen Grund/</l>
+            <lb/>
+            <l>Keinem als mir wil ſie geben</l>
+            <lb/>
+            <l>Jhren Honig-ſuͤſſen Mund.</l>
+            <lb/>
+            <l>Drum Belliflora wird ſeyn</l>
+            <lb/>
+            <l>Mein Hertz allerliebſt’ allein.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">2.</hi></l>
+            <lb/>
+            <l>Manchen Waͤld hab’ ich durch trieben/</l>
+            <lb/>
+            <l>Aber noch niemahls geſehn/</l>
+            <lb/>
+            <l>Solch ein Edles keuſches lieben/</l>
+            <lb/>
+            <l>Als bey Jhr itzund geſchehn.</l>
+            <lb/>
+            <l>Drum Belliflora ſoll ſeyn</l>
+            <lb/>
+            <l>Mein Hertz allerliebſt’ allein.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">3.</hi></l>
+            <lb/>
+            <l>Traurigkeit hinweg von Hertzen/</l>
+            <lb/>
+            <l>Will doch Bellifiora ſeyn</l>
+            <lb/>
+            <fw type="catch" place="bottom">Lin-</fw>
+            <lb/>
+            <pb n="293" facs="#f0371"/>
+            <fw type="header" place="top">Filamon.</fw>
+            <lb/>
+            <l>Linderinne meiner Schmertzen.</l>
+            <lb/>
+            <l>Solt ich trauren mehr allein?</l>
+            <lb/>
+            <l>Nein/ will Belliflor doch ſeyn/</l>
+            <lb/>
+            <l>Meines Hertzens Liebelein.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="23">
+        <lg type="poem">
+          <head><hi rendition="#aq">XII.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Durantis ævi terminum conſidera.</hi></l>
+            <lb/>
+            <l>Denkeſtu an Ehr’ und Gut/ denkeſtu an Freud’<lb/>
+              <hi rendition="#et">und Luſt/</hi></l>
+            <lb/>
+            <l>So vergiß bey leib’ auch nicht/ daß du endlich ſter-<lb/>
+              <hi rendition="#et">ben muſt.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="24">
+        <lg type="poem">
+          <head><hi rendition="#aq">IX.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Non peccantes modò, verùm &amp; peccare ge-</hi></l>
+            <lb/>
+            <l><hi rendition="#aq"><hi rendition="#et">ſtientes punito.</hi></hi></l>
+            <lb/>
+            <l>Nicht nur der iſt ſtraffens wuͤrdig/ welcher ſuͤndigt<lb/>
+              <hi rendition="#et">in der That/</hi></l>
+            <lb/>
+            <l>Sondern der auch/ der ein Laſter zu begehn im<lb/>
+              <hi rendition="#et">Sinne hat.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="25">
+        <lg type="poem">
+          <head><hi rendition="#aq">X.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Modum tenere in rebus optimum omnibus.</hi></l>
+            <lb/>
+            <l>Mittel iſt das beſte Stuͤkk; Maaß iſt gut in allen<lb/>
+              <hi rendition="#et">Dingen/</hi></l>
+            <lb/>
+            <l>Offtmals pflegt der Uberfluß/ wie der Mangel/<lb/>
+              <hi rendition="#et">Noht zu bringen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="26">
+        <lg type="poem">
+          <head><hi rendition="#aq">VI.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Se noſſe, maximus eſt mortalibus labor.</hi></l>
+            <lb/>
+            <l>Schwerlich wird man auff der Welt ſolch’ ein’<lb/>
+              <hi rendition="#et">Arbeit koͤnnen nennen/</hi></l>
+            <lb/>
+            <l>Die dem Menſchen ſchwerer ſey/ als ſich ſelber zu<lb/>
+              <hi rendition="#et">erkennen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="27">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababcc">
+            <l>Filamon der muß verderben</l>
+            <lb/>
+            <l>Jn der groſſen Liebes-Pein.</l>
+            <lb/>
+            <l>Weil er niemahl kan erwerben</l>
+            <lb/>
+            <l>Bellifloren Muͤndelein.</l>
+            <lb/>
+            <l>Sinn und Hertz muß ihm verſchwinden/</l>
+            <lb/>
+            <l>Wo er nicht wird Huͤlff’ empfinden.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="28">
+        <lg type="poem">
+          <head><hi rendition="#aq">III.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Sï quam tuliſti legem, ne violes cave.</hi></l>
+            <lb/>
+            <l>Haſtu etwas unterſagt/ oder ein Geſetz gege-<lb/>
+              <hi rendition="#et">ben/</hi></l>
+            <lb/>
+            <l>So befleiſſige dich erſt/ daß du moͤgeſt darnach<lb/>
+              <hi rendition="#et">leben.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="29">
+        <lg type="poem">
+
+          <lg n="1" type="stanza" rhyme="ababccdeed">
+            <l><hi rendition="#c">3.</hi></l>
+            <lb/>
+            <l>Nun laſt uns verjagen/ das klagen und ſehnen/</l>
+            <lb/>
+            <l>Das wir oft fuͤr Liebe beſeufftzet/ wol an!</l>
+            <lb/>
+            <l>Kein Edeler Schaͤffer ſol uns nun behoͤnen/</l>
+            <lb/>
+            <l>Vnd ſagen was wir ſo alleine gethan.</l>
+            <lb/>
+            <l>Wir Wollen fein Schertzen/</l>
+            <lb/>
+            <l>Mit Kuͤſſen und Hertzen;</l>
+            <lb/>
+            <l>Kompt Filamon bald/</l>
+            <lb/>
+            <l>Euch hab ich ergeben</l>
+            <lb/>
+            <l>Mein lieben und leben/</l>
+            <lb/>
+            <l>Ach laſt uns bald gehen in unſeren Wald.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="30">
+        <lg type="poem">
+          <head><hi rendition="#aq">V.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="aabb">
+            <l><hi rendition="#aq">Stultum dolere damnis eſt fatalibus,</hi></l>
+            <lb/>
+            <l><hi rendition="#aq">Sed rebus in dubiis timere, ſtultius.</hi></l>
+            <lb/>
+            <l>Dieſes iſt ein naͤrriſch Thun/ allzuviel im Kreutze<lb/>
+              <hi rendition="#et">klagen/</hi></l>
+            <lb/>
+            <l>Aber noch viel naͤrriſcher uͤber einem Gluͤkk ver-<lb/>
+              <hi rendition="#et">zagen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="31">
+        <lg type="poem">
+          <head><hi rendition="#aq">IV.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Fortuna amicitias adverſa examinat.</hi></l>
+            <lb/>
+            <l>Wenn die Wiederwertigkeit deines Gluͤkkes ſich<lb/>
+              <hi rendition="#et">leſt ſehen/</hi></l>
+            <lb/>
+            <l>Wirſtu ſehen was fuͤr Freund’ in der Truͤbſal bey<lb/>
+              <hi rendition="#et">dir ſtehen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="32">
+        <lg type="poem">
+          <head>Klaglied</head>
+          <lb/>
+          <argument>
+            <p><hi rendition="#c">Des betruͤbten Filamons/ deſſen Melodie und vor-<lb/> gefuͤgten
+                  <hi rendition="#aq">Symphonie,</hi> ſuche in meinem oftbe-</hi><lb/>
+              <hi rendition="#aq">ruͤhrten Luſtwalde fol. 339.</hi></p>
+          </argument>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababccdeed">
+            <l><hi rendition="#c">1.</hi></l>
+            <lb/>
+            <l><hi rendition="#in">A</hi>Ch Jammer! wie bin ich ſo gaͤntzlich vergeſſen/</l>
+            <lb/>
+            <l>Gleich wie der verbleichete Coͤrper im Grab’.</l>
+            <lb/>
+            <l>Ach leiden! viel Schmertzen hat mich nun beſeſſen/</l>
+            <lb/>
+            <l>Weil ich muß der Liebſten ſeyn immer ſchabab.</l>
+            <lb/>
+            <l>Die Freude verſchwindet/</l>
+            <lb/>
+            <l>Viel Schmertzen ſich findet/</l>
+            <lb/>
+            <l>Viel Ach und Pein</l>
+            <lb/>
+            <l>Das macht mich betruͤbet/</l>
+            <lb/>
+            <l>Weil ſich nicht ergiebet</l>
+            <lb/>
+            <l>Der Liebeſten Hertze viel haͤrter als Stein.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababccdeed">
+            <l><hi rendition="#c">2.</hi></l>
+            <lb/>
+            <l>Ach Paphiſche Koͤnigin dich muß ich bitten/</l>
+            <lb/>
+            <l>Dich Goͤttin der Liebe die du mir gemacht</l>
+            <lb/>
+            <l>Mein Hertze zerſplittert und gleichſam zerſchnitten/</l>
+            <lb/>
+            <l>Der ſchoͤnſten Bellifloren doch ungeacht/</l>
+            <lb/>
+            <l>Jch kan ſie nicht zwingen</l>
+            <lb/>
+            <l>Durch reden und ſingen/</l>
+            <lb/>
+            <l>Drumb kom du zu Jhr</l>
+            <lb/>
+            <l>Und alſo regiere</l>
+            <lb/>
+            <fw type="catch" place="bottom">Damit</fw>
+            <lb/>
+            <pb n="279" facs="#f0355"/>
+            <fw type="header" place="top">Filamon.</fw>
+            <lb/>
+            <l>Damit ſie doch ſpuͤre</l>
+            <lb/>
+            <l>Die Kertzen und Schmertzen der Liebe zu mir.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababccdeed">
+            <l><hi rendition="#c">3.</hi></l>
+            <lb/>
+            <l>Du haſt ja mit deinem Cupido bezwungen</l>
+            <lb/>
+            <l>Der Koͤnigin <hi rendition="#aq">Dido</hi> verhartetes Hertz/</l>
+            <lb/>
+            <l>Auch daß es <hi rendition="#aq">Æneas</hi> gar gluͤklich gelungen</l>
+            <lb/>
+            <l>Stets mit Jhr zu treiben viel Lieben und Schertz.</l>
+            <lb/>
+            <l>Drum raht’ in den Sachen/</l>
+            <lb/>
+            <l>Du kanſt es wol machen</l>
+            <lb/>
+            <l>Ein kleines Fuͤnklein</l>
+            <lb/>
+            <l>Auch in Jhr entzuͤnde/</l>
+            <lb/>
+            <l>Daß ſie doch empfinde</l>
+            <lb/>
+            <l>Wie daß ich Jhr treueſter Diener wil ſeyn.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababccdeed">
+            <l><hi rendition="#c">4.</hi></l>
+            <lb/>
+            <l>Geſchiehet es nicht; Ach! ſo wil ich den Luͤfften</l>
+            <lb/>
+            <l>Stets klagen mein Scheiden/ mein Leiden und Pein/</l>
+            <lb/>
+            <l>Ja alles/ was lebet auf Bergen und Kluͤfften/</l>
+            <lb/>
+            <l>Das ſol mir ein Zeugniß der Liebe ſtets ſeyn.</l>
+            <lb/>
+            <l>Denn wil ich mein Leben</l>
+            <lb/>
+            <l>Geduͤltig aufgeben/</l>
+            <lb/>
+            <l>Wie <hi rendition="#aq">Piramus</hi> that ꝛ</l>
+            <lb/>
+            <l>Wie <hi rendition="#aq">Iphis</hi> auch ſturbe/</l>
+            <lb/>
+            <l>Als er nicht erwurbe</l>
+            <lb/>
+            <l>Der harten Anaxaret’ Huld/ und Genad.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="33">
+        <lg type="poem">
+          <head><hi rendition="#b">Fuͤrſt Huldenreich ruͤhmet die Demuht und ſeine</hi><lb/>
+            ſchlechte Schaͤferinn/ verachtet den Hoffart und das<lb/> aufgeblaſene
+            Frauenzimmer.</head>
+          <lb/>
+          <argument>
+            <p>Die auf dieſes Lied geſetzte eigene Melodie/ ſuche in meinem<lb/>
+              <hi rendition="#et">Luſtwalde/ fol. 401.</hi></p>
+          </argument>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="abbacc">
+            <l><hi rendition="#c">1.</hi></l>
+            <lb/>
+            <l><hi rendition="#in">M</hi>Ein! bin ich denn daruͤm zuſchmaͤhen</l>
+            <lb/>
+            <l>Daß mein verliebter Fuͤrſtenfinn/</l>
+            <lb/>
+            <l>Jhm’ eine ſchlechte Schaͤferinn/</l>
+            <lb/>
+            <l>Zur Allerliebſten außerſehen?</l>
+            <lb/>
+            <l>Soll denn hiedurch mein hoher Schein/</l>
+            <lb/>
+            <l>Verdunkelt und verloſchen ſeyn?</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abbacc">
+            <l><hi rendition="#c">2.</hi></l>
+            <lb/>
+            <l>Ach nein/ es iſt ja weit defehlet!</l>
+            <lb/>
+            <l>Ein tapfrer Sinn und Heldengeiſt/</l>
+            <lb/>
+            <l>Sein aͤdles Hertz in dem erweiſt/</l>
+            <lb/>
+            <l>Daß er ſich nicht uͤm Hoheit quaͤlet/</l>
+            <lb/>
+            <fw type="catch" place="bottom">Da</fw>
+            <lb/>
+            <pb n="115" facs="#f0175"/>
+            <fw type="header" place="top">Fryne-Bozene.</fw>
+            <lb/>
+            <l>Da oft die Falſchheit/ Trug und Liſt</l>
+            <lb/>
+            <l>Verzukkert und vergoͤldet iſt.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="abbacc">
+            <l><hi rendition="#c">3.</hi></l>
+            <lb/>
+            <l>Ein tugendliebendes Gemuͤhte/</l>
+            <lb/>
+            <l>Sucht ihm ein Seelchen das ihm gleicht/</l>
+            <lb/>
+            <l>Das nicht aus ſeinen Schranken weicht/</l>
+            <lb/>
+            <l>Ob ſchon es nicht aus dem Gebluͤte/</l>
+            <lb/>
+            <l>Welchs mit ſcheinaͤdlen Titteln prangt/</l>
+            <lb/>
+            <l>Und großes Anſehn hat erlangt.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="abbacc">
+            <l><hi rendition="#c">4.</hi></l>
+            <lb/>
+            <l>Ein hoher Sinn iſt wol vergnuͤget/</l>
+            <lb/>
+            <l>Jmfall ihm ſo lch ein liebes Kind/</l>
+            <lb/>
+            <l>Da Schoͤnheit ſich bey Tugend findt/</l>
+            <lb/>
+            <l>Wird von dem Himmel beygefuͤget/</l>
+            <lb/>
+            <l>Erlanget diß ein aͤdler Muht/</l>
+            <lb/>
+            <l>So ſieht er nicht nach Geld und Gut.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="abbacc">
+            <l><hi rendition="#c">5.</hi></l>
+            <lb/>
+            <l>Er ſiehet nicht nach großem Stande/</l>
+            <lb/>
+            <l>Wie ungemenſchte Menſchen nun</l>
+            <lb/>
+            <l>Bey dieſen blinden Zeiten thun/</l>
+            <lb/>
+            <l>Er achtet es vor keine Schande</l>
+            <lb/>
+            <l>Wenn er ein ſchlechtes Maͤdchen liebt/</l>
+            <lb/>
+            <l>Die ihm ihr keuſches Hertze giebt.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="abbacc">
+            <l><hi rendition="#c">6.</hi></l>
+            <lb/>
+            <l>Jſt er nur ſonſt von gutem Adel/</l>
+            <lb/>
+            <l>(Jch meine nicht den Stamm allein/</l>
+            <lb/>
+            <l>Die Sinnen muͤſſen aͤdel ſein</l>
+            <lb/>
+            <l>Und das Gemuͤhte ohne Tadel)</l>
+            <lb/>
+            <l>Es bleibt ſein Adel unbeflekkt/</l>
+            <lb/>
+            <l>Und durch die Lieb’ unangeſtekkt.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="abbacc">
+            <l><hi rendition="#c">7.</hi></l>
+            <lb/>
+            <l>Daruͤm hinweg ihr junge Frauen/</l>
+            <lb/>
+            <l>Mit eurer auſgeputzten Ziehr/</l>
+            <lb/>
+            <l>Und ihr geſchminkte Jungfern ihr/</l>
+            <lb/>
+            <fw type="catch" place="bottom">Hin-</fw>
+            <lb/>
+            <pb n="116" facs="#f0176"/>
+            <fw type="header" place="top">Die erhoͤhete</fw>
+            <lb/>
+            <l>Hinweg ihr aufgeblaſne Pfauen/</l>
+            <lb/>
+            <l>Jch frage nichts nach eurem Pracht</l>
+            <lb/>
+            <l>Der keuſchen Sinnen Ekel macht.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="abbacc">
+            <l><hi rendition="#c">8.</hi></l>
+            <lb/>
+            <l>Mein allerſchoͤneſte Bozene/</l>
+            <lb/>
+            <l>Soll meine Hertzgeliebte ſeyn/</l>
+            <lb/>
+            <l>Jhr angebohrner Schoͤnheitsſchein</l>
+            <lb/>
+            <l>Macht ſie allein beliebt und ſchoͤne/</l>
+            <lb/>
+            <l>Das außerwehlte Tugendliecht/</l>
+            <lb/>
+            <l>Weis ja von keinem Hochmuht nicht.</l>
+          </lg>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="abbacc">
+            <l><hi rendition="#c">9.</hi></l>
+            <lb/>
+            <l>Sie iſt dem Hoffart ungewogen/</l>
+            <lb/>
+            <l>Sie iſt der Wolluſt ſpinnefeind/</l>
+            <lb/>
+            <l>Kein Heucheley an ihr erſcheint/</l>
+            <lb/>
+            <l>Sie iſt bey Schafen auferzogen/</l>
+            <lb/>
+            <l>Die Uppigkeit und ſchnoͤde Luſt/</l>
+            <lb/>
+            <l>Jſt ihren Sinnen unbewuſt.</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="abbacc">
+            <l><hi rendition="#c">10.</hi></l>
+            <lb/>
+            <l>Die zierlich-aufgeſproſne Jugend/</l>
+            <lb/>
+            <l>Der Unſchuldſchwanenweißes Kleid/</l>
+            <lb/>
+            <l>Die wunderſchoͤne Freundlichkeit/</l>
+            <lb/>
+            <l>Die loͤblich’ Einfalt/ Zucht und Tugend/</l>
+            <lb/>
+            <l>Die wehrte Keuſchheit die Sie hat/</l>
+            <lb/>
+            <l>Steht mir an Goldestonnen ſtat.</l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="abbacc">
+            <l><hi rendition="#c">11.</hi></l>
+            <lb/>
+            <l>Jch weiſ daß ich mit ſtoltzen Freuden/</l>
+            <lb/>
+            <l>Die Zeit mit Jhr verbringen kan/</l>
+            <lb/>
+            <l>Jch bin verſichert daß kein Mann</l>
+            <lb/>
+            <l>Mich ihrentwegen wird beneiden/</l>
+            <lb/>
+            <l>Jhr Armuht iſt mein Gold und Geld/</l>
+            <lb/>
+            <l>Und großes Reich thum in der Welt.</l>
+          </lg>
+          <lb/>
+          <lg n="12" type="stanza" rhyme="abbacc">
+            <l><hi rendition="#c">12.</hi></l>
+            <lb/>
+            <l>Druͤm mag mich Der und Der verdaͤnken</l>
+            <lb/>
+            <l>Daß ich die ſchlechte Schaͤferinn/</l>
+            <lb/>
+            <fw type="catch" place="bottom">Ge-</fw>
+            <lb/>
+            <pb n="117" facs="#f0177"/>
+            <fw type="header" place="top">Fryne-Bozene.</fw>
+            <lb/>
+            <l>Gefaſſet hab’ in meinen Sinn.</l>
+            <lb/>
+            <l>Es wird und ſoll mich gar nicht kraͤnken.</l>
+            <lb/>
+            <l>Jch ſage nochmals dieſes frey/</l>
+            <lb/>
+            <l>Daß mir Bozen’ am liebſten ſey.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="34">
+        <lg type="poem">
+          <head><hi rendition="#aq">I.</hi></head>
+          <lb/>
+          <lg>
+            <l/>
+            <lb/>
+            <lb/>
+            <l>Sag von keinem Menſchen nicht eh’ er mit dem<lb/>
+              <hi rendition="#et">Tod’ abgehet/</hi></l>
+            <lb/>
+            <l>Daß derſelbe Selig ſey/ er mag ſtehen wie er<lb/>
+              <hi rendition="#et">ſtehet.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="35">
+        <lg type="poem">
+          <head><hi rendition="#fr">Der Schaͤferinn Bozene Lobliedchen<lb/> ihres
+            Feldlebens.</hi></head>
+          <lb/>
+          <argument>
+            <p>Dieſes Liedes eigene Melodie/ ſuche der Muſikkliebende/<lb/>
+              <hi rendition="#et">in meinem Luſtwalde/ Anno 1657. zu Jehna getrnkkt/<lb/>
+                <hi rendition="#aq">fol.</hi> 406.</hi></p>
+          </argument>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">1.</hi></l>
+            <lb/>
+            <l><hi rendition="#in">H</hi>Jmmel dir ſey Lob geſungen/</l>
+            <lb/>
+            <l>Dir ſey groſſer Dank geſagt/</l>
+            <lb/>
+            <l>Daß ich auff dem Feld’ entſprungen/</l>
+            <lb/>
+            <l>Daß ich ſchlechte Schaͤfermagd/</l>
+            <lb/>
+            <l>Nicht aus groſſer Herꝛen Orden</l>
+            <lb/>
+            <l>Bin zur Welt gebohren worden.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">2.</hi></l>
+            <lb/>
+            <l>Hier bring’ ich in kuͤhlen Waͤldern</l>
+            <lb/>
+            <l>Meine zarte Jugend zu/</l>
+            <lb/>
+            <fw type="catch" place="bottom">Leb’</fw>
+            <lb/>
+            <pb n="93" facs="#f0151"/>
+            <fw type="header" place="top">Fryne-Bozene.</fw>
+            <lb/>
+            <l>Leb’ in dieſen reichen Feldern</l>
+            <lb/>
+            <l>Jn gewuͤnſchtem Fried’ und Ruh/</l>
+            <lb/>
+            <l>Kan mit angenehmen Freuden/</l>
+            <lb/>
+            <l>Meine Schaf und Laͤmmer weiden.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">3.</hi></l>
+            <lb/>
+            <l>Wenn die Sonn zu heis wil ſcheinen</l>
+            <lb/>
+            <l>Treib’ ich meine Heerde fort/</l>
+            <lb/>
+            <l>Zu den ſchattenreichen Hainen</l>
+            <lb/>
+            <l>Dort an einen andern Ort/</l>
+            <lb/>
+            <l>Da man keine Hitze fuͤhlet/</l>
+            <lb/>
+            <l>Biß der Tag ſich wieder kuͤhlet.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">4.</hi></l>
+            <lb/>
+            <l>Da find’/ ich mein’/ Amarillen/</l>
+            <lb/>
+            <l>Meine treue Nachbarinn;</l>
+            <lb/>
+            <l>Dorte ſeh’ ich Theleſillen</l>
+            <lb/>
+            <l>Mitt erfreutem Tugendſinn</l>
+            <lb/>
+            <l>Unſre ſchoͤne Kallibelle/</l>
+            <lb/>
+            <l>Findet ſich auch bald zur Stelle.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">5.</hi></l>
+            <lb/>
+            <l>Dann ſo fangen wir zu ſchertzen</l>
+            <lb/>
+            <l>Und ein Liedesſpielchen an/</l>
+            <lb/>
+            <l>Doch mit keuſchen Tugendhertzen.</l>
+            <lb/>
+            <l>Keine bringt was auf die Bahn/</l>
+            <lb/>
+            <l>Welches wieder Zucht und Ehre/</l>
+            <lb/>
+            <l>Der beliebten Tugend/ were.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">6.</hi></l>
+            <lb/>
+            <l>Sind wir deſſen uͤberdruͤſſig/</l>
+            <lb/>
+            <l>Koͤnnen wir noch weiter gehn/</l>
+            <lb/>
+            <l>Zu den Schaͤfern/ welche muͤſſig</l>
+            <lb/>
+            <l>Nicht ſehr weit von dannen ſtehen/</l>
+            <lb/>
+            <l>Die mit Reden ſchoͤner Sachen/</l>
+            <lb/>
+            <l>Uns die Zeit verkuͤrtzet machen.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">7. Dann</fw>
+          <lb/>
+          <pb n="94" facs="#f0152"/>
+          <fw type="header" place="top">Die erhoͤhete</fw>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">7.</hi></l>
+            <lb/>
+            <l>Dann leſt Thyrſis uns zu Ehren</l>
+            <lb/>
+            <l>Thyrſis unſer Waͤlderſchein</l>
+            <lb/>
+            <l>Sein Violdigammchen hoͤren</l>
+            <lb/>
+            <l>Singt auch wol bis weilen drein/</l>
+            <lb/>
+            <l>Wie er Karitillen liebet</l>
+            <lb/>
+            <l>Und ſich nur uͤm ſie betruͤbet.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">8.</hi></l>
+            <lb/>
+            <l>Tytyrus der treue Schaͤfer/</l>
+            <lb/>
+            <l>Redt von ſchoͤner Tugendzier/</l>
+            <lb/>
+            <l>Sylvius der Lange-Schlaͤfer</l>
+            <lb/>
+            <l>Bringet manche Kurtzweil fuͤr/</l>
+            <lb/>
+            <l>Und ſo wird die Zeit verkleinet</l>
+            <lb/>
+            <l>Die uns etwa lange ſcheinet.</l>
+          </lg>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">9.</hi></l>
+            <lb/>
+            <l>Jſt die Hitze dann gewichen/</l>
+            <lb/>
+            <l>Nahet ſich der Abend bey/</l>
+            <lb/>
+            <l>Koͤmmt die Nacht herbey geſchlichen</l>
+            <lb/>
+            <l>Treiben wir zur Schaͤferey/</l>
+            <lb/>
+            <l>Da wir denn mit unſren Schafen</l>
+            <lb/>
+            <l>Koͤnnen unbeſorget ſchlafen.</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">10.</hi></l>
+            <lb/>
+            <l>Ach wer wolte nun diß Leben/</l>
+            <lb/>
+            <l>Dieſe ſchoͤne Waͤlder Luſt</l>
+            <lb/>
+            <l>Vor das ſtaͤdtſche Leben geben/</l>
+            <lb/>
+            <l>Vor den uͤberſchminkten Wuſt?</l>
+            <lb/>
+            <l>Wer wil heimlichs Hertzenquaͤlen/</l>
+            <lb/>
+            <l>Vor gewiſſe Ruh erwaͤhlen?</l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#c">11.</hi></l>
+            <lb/>
+            <l>Lobt ihr ſtaͤdtiſche Gemuͤhter/</l>
+            <lb/>
+            <l>Euren aufgeblaſnen Pracht/</l>
+            <lb/>
+            <l>Ruͤhmt die nebelgleiche Guͤter/</l>
+            <lb/>
+            <l>Trotzt auf eure ſchnoͤde Macht/</l>
+            <lb/>
+            <l>Liebet eure groſſe Gelder/</l>
+            <lb/>
+            <l>Jch beliebe meine Waͤlder.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="36">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abccb">
+            <l><hi rendition="#aq">Conſcia mens recti Famæ mendacia ridet.</hi></l>
+            <lb/>
+            <l>Wer hier in dieſer Welt es nur alſo kan machen/</l>
+            <lb/>
+            <l>Daß ſein Gewiſſen rein und unbeflekket bleibt/</l>
+            <lb/>
+            <l>Der kan was Der und Der fuͤr Luͤgenrede treibt/</l>
+            <lb/>
+            <l>Als deſſen unbewuſt mit frohem Munde lachen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="37">
+        <lg type="poem">
+          <head><hi rendition="#aq">IV.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Amici inſidias, Hoſtis vita injurias.</hi></l>
+            <lb/>
+            <l>Huͤte dich vor Hinderliſt deines treuvermeynt<supplied>e</supplied><lb/>
+              <hi rendition="#et">Freundes/</hi></l>
+            <lb/>
+            <l>Und vor Abbruch/ Schimpf und Spott deines of<supplied>-</supplied><lb/>
+              <hi rendition="#et">fentlichen Feindes.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="38">
+        <lg type="poem">
+          <head><hi rendition="#aq">IX.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Latere Numen poſſe nil ſperes DEI.</hi></l>
+            <lb/>
+            <l>Geht dir gleich ein Laſter an/ bilde dir daruͤm<lb/>
+              <hi rendition="#et">nicht ein/</hi></l>
+            <lb/>
+            <l>Daß dem allerhoͤchſten Gott koͤnne was verbor-<lb/>
+              <hi rendition="#et">gen ſeyn.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="39">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabccb">
+            <l>Die Traͤume ſind nichtig und machen zu Narren</l>
+            <lb/>
+            <l>Faſt alle die jenigen die darauf harren/</l>
+            <lb/>
+            <l>Wenn ihnen was herliches traͤumet bey Nacht/</l>
+            <lb/>
+            <l>Nicht minder ſind dieſe fuͤr Thoren zu ſchaͤtzen/</l>
+            <lb/>
+            <l>Die ſich fuͤr den ſchreklichen Traͤumen entſetzen/</l>
+            <lb/>
+            <l>So ihnen der <hi rendition="#aq">Morfeus</hi> zum Poſſen erdacht.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="40">
+        <lg type="poem">
+          <head><hi rendition="#aq">VII.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Puer ad ſenectam artis viaticum para.</hi></l>
+            <lb/>
+            <l>Dann/ wenn noch die Jugend bluͤht/ faſſe weiſer<lb/>
+              <hi rendition="#et">Leute Lehren/</hi></l>
+            <lb/>
+            <l>Lerne Kunſt und Wiſſenſchafft/ daß du kanſt im<lb/>
+              <hi rendition="#et">Alter zehren.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="41">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abccb">
+            <l><hi rendition="#aq">Perfer &amp; obdura dolor hic tibi proderit olim.</hi></l>
+            <lb/>
+            <l>Dann/ dann ſteh als ein Leu/ laß dann ein Hertze<lb/>
+              <hi rendition="#et">blikken/</hi></l>
+            <lb/>
+            <l>Wenn dein Verhengnuͤß tobt; es wettre wie<lb/>
+              <hi rendition="#et">es wil/</hi></l>
+            <lb/>
+            <l>So halte mit Gedult in ſolchem Sturme ſtill/</l>
+            <lb/>
+            <l>Es wird ſich dermaleinſt zu deinem beſten ſchikken.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="42">
+        <lg type="poem">
+          <head><hi rendition="#aq">IV.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Nihil eſt inexpugnabile Diligentiæ.</hi></l>
+            <lb/>
+            <l>Nichtes iſt ſo ſchwer und groß/ nichtes iſt ſo hoch<lb/>
+              <hi rendition="#et">zu finden/</hi></l>
+            <lb/>
+            <l>Welches nicht der ſtete Fleiß ſolte koͤnnen uͤber-<lb/>
+              <hi rendition="#et">winden.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="43">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabbccddeef">
+            <l>Ach weh und aber weh? die ihr ſo junges Leben</l>
+            <lb/>
+            <l>Der Liebes eiteln Luſt ſo ſchaͤndlich uͤbergeben!</l>
+            <lb/>
+            <l>Die von Cupido ſich von dem nichts werthen Kind<gap unit="chars" quantity="1"
+                reason="illegible"/></l>
+            <lb/>
+            <l>Erſchrekken laſſen balt/ Ach blind und uͤber blindt</l>
+            <lb/>
+            <l>Sind die/ ſo nach der Lied’ und Venus Luften lauſſen/</l>
+            <lb/>
+            <l>Weil ſie auf ihren Halß viel Ungluͤk ſelber tauffen.</l>
+            <lb/>
+            <l>Exempel hat man gnug. Doch liebe wer da wil</l>
+            <lb/>
+            <l>Das nichtig’ Affenſpiel/ ſitz’ ich doch in der Still/</l>
+            <lb/>
+            <l>Und ſeh’ in Wunder an/ wie hier auf dieſer Erden</l>
+            <lb/>
+            <l>Viel Edle Cavaliers auß Herren Sclaven werden.<lb/>
+              <hi rendition="#et">Und nicht ihr ſelber ſind.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="44">
+        <lg type="poem">
+          <head><hi rendition="#aq">IX.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Ne ſtatue citò, verùm ſtatuta perfice.</hi></l>
+            <lb/>
+            <l>Uberſchlage mit Vernunfft erſtlich alle deine<lb/>
+              <hi rendition="#et">Sachen/</hi></l>
+            <lb/>
+            <l>Wenn ſie denn erwogen find/ kanſtn ſie werkſtel-<lb/>
+              <hi rendition="#et">lig machen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="45">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcc">
+            <l><hi rendition="#aq">DIC accepta Deo, DUC vitam labe carentem,</hi></l>
+            <lb/>
+            <l><hi rendition="#aq">FAC vigilanter opus, FER patienter onus.</hi></l>
+            <lb/>
+            <l>REDE das/ was GOtt gefaͤllt/ LEB ohn’ alle<lb/>
+              <hi rendition="#et">Laſterſchuld/</hi></l>
+            <lb/>
+            <l>THU dein Ampt mit Wachſamkeit/ TRAG<lb/>
+              <hi rendition="#et">dein Leiden mit Geduld.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="46">
+        <lg type="poem">
+          <head><hi rendition="#aq">IV.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abcc">
+            <l><hi rendition="#aq">Qui paucis contentus, dis eſt; pauper, cui</hi></l>
+            <lb/>
+            <l><hi rendition="#aq"><hi rendition="#et">nihil ſatis ſibi.</hi></hi></l>
+            <lb/>
+            <l>Wer mit wenigem vergnuͤget/ iſt ein Reichbegab-<lb/>
+              <hi rendition="#et">ter Mann;</hi></l>
+            <lb/>
+            <l>Dieſer aber Arm zu ſchaͤtzen/ den man nicht erfuͤl-<lb/>
+              <hi rendition="#et">len kan.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="47">
+        <lg type="poem">
+          <lg type="stanza" rhyme="abccbddb">
+            <l><hi rendition="#aq">Obſequium amicos, veritas odium parit.</hi></l>
+            <lb/>
+            <l>Heut haͤlt man den ſehr wehꝛt der mit verfaͤlſchtem<lb/>
+              <hi rendition="#et">Munde/</hi></l>
+          </lg>
+          <lb/>
+          <l>Frey aufzuſchneiden weiß; Wer aber Warheit<lb/>
+            <hi rendition="#et">liebt</hi></l>
+          <lb/>
+          <l>Und gehet gleich hindurch/ wird offtmals ſehr<lb/>
+            <hi rendition="#et">betruͤbt/</hi></l>
+          <lb/>
+          <l>Man haſſt uñ neidet ihn/ man wil ihn alle Stunde</l>
+          <lb/>
+          <l>Begraben eb er ſtirbt/ ja auch mit Haut und<lb/>
+            <hi rendition="#et">Haar.</hi></l>
+          <lb/>
+          <l>Doch dieſem ſey alſo! Es bleibt doch endlich<lb/>
+            <hi rendition="#et">waar:</hi></l>
+          <lb/>
+          <l>Die Warheit ſchwimmt empor/ die Luͤgen geht zu<lb/>
+            <hi rendition="#et">Grunde.</hi></l>
+        </lg>
+      </div>
+
+      <div n="48">
+        <lg type="poem">
+          <head><hi rendition="#aq">V.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Caveto ſemper, ne lingua ante animum volet.</hi></l>
+            <lb/>
+            <l>Halte deine Zung’ im Zaum’ und bedenke was du<lb/>
+              <hi rendition="#et">ſageſt/</hi></l>
+            <lb/>
+            <l>Daß es dich ja nicht gereu’ und du dich dann ſelber<lb/>
+              <hi rendition="#et">plageſt.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="49">
+        <lg type="poem">
+          <head><hi rendition="#aq">III.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Apprimè in vita eſt utile, ut nequid nimis.</hi></l>
+            <lb/>
+            <l>Die vergnuͤgte Maͤſſigkeit nuͤtzet uns in allen<lb/>
+              <hi rendition="#et">Sachen.</hi></l>
+            <lb/>
+            <l>Allzuviel iſt ungeſund/ allzuviel pflegt Leid zu<lb/>
+              <hi rendition="#et">machen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="50">
+        <lg type="poem">
+          <head><hi rendition="#aq">IV.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Vitâ maledicere functo, facinus peſſimum.</hi></l>
+            <lb/>
+            <l>Dieſer/ der ſein doͤſes Maul uͤber Todten laͤſſet<lb/>
+              <hi rendition="#et">rahten/</hi></l>
+            <lb/>
+            <l>Der begeht das groͤſte Stuͤkk unter allen Laſter-<lb/>
+              <hi rendition="#et">thaten.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="51">
+        <lg type="poem">
+          <head><hi rendition="#aq">III.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Proſternit ardua, erigit humilia DEUS.</hi></l>
+            <lb/>
+            <l>Was dem Himmel gleichen wil/ ſoll und muß<lb/>
+              <hi rendition="#et">doch endlich fallen/</hi></l>
+            <lb/>
+            <l>Aber was gering und ſchlecht/ das erhoͤhet GOtt<lb/>
+              <hi rendition="#et">vor allen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="52">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <l>Die Cupido hat betrogen/</l>
+            <lb/>
+            <l>Mit vergifftem Pfeil und Bogen/</l>
+            <lb/>
+            <l>Lieben lieber Einſamkeit</l>
+            <lb/>
+            <l>Als Geſellſchafft jederzeit.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="53">
+        <lg type="poem">
+          <head><hi rendition="#aq">VII.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Aptiſſima omnium res rerum Occaſio.</hi></l>
+            <lb/>
+            <l>Stets ſoll ſich ein kluger Mann der Gelegenheit<lb/>
+              <hi rendition="#et">bequemen/</hi></l>
+            <lb/>
+            <l>Und wie einen edlen Schatz wiſſen wol in acht zu<lb/>
+              <hi rendition="#et">nehmen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="54">
+        <lg type="poem">
+          <head><hi rendition="#aq">VI.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Oculos, manus, mentem ab alienis contine.</hi></l>
+            <lb/>
+            <l>Deinen Sinn/ dein Aug’ und Hand ſolſtu ja nicht<lb/>
+              <hi rendition="#et">laſſen ſchieſſen/</hi></l>
+            <lb/>
+            <l>Darauf was ein Andrer hat/ daß du nicht muſt<lb/>
+              <hi rendition="#et">nachmals buͤſſen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="55">
+        <lg type="poem">
+          <head><hi rendition="#aq">IV.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Caſtiga clanculum amicum, lauda palàm.</hi></l>
+            <lb/>
+            <l>Strafſt du deinen lieben Freund/ wol! ſo nim ihn<lb/>
+              <hi rendition="#et">auf die Seiten/</hi></l>
+            <lb/>
+            <l>Aber ſeine Redligkeit lobe frey bey allen Leu-<lb/>
+              <hi rendition="#et">ten.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="56">
+        <lg type="poem">
+          <head><hi rendition="#aq">IX.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Honore dignos ſemper afficito ſenes.</hi></l>
+            <lb/>
+            <l>Wenn du ſieheſt alte Leut’/ alte wolbetagte<lb/>
+              <hi rendition="#et">Greyſen/</hi></l>
+            <lb/>
+            <l>Solſtu ihnen nach Gebuͤhr alle Dienſt’ und Ehr’<lb/>
+              <hi rendition="#et">erweiſen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="57">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcdcc">
+            <l><hi rendition="#aq">Vincere ſeipſum omnium victoriarum prima &amp;</hi></l>
+            <lb/>
+            <l><hi rendition="#aq">optima: Vinci autem à ſeipſo, &amp; turpiſſi-</hi></l>
+            <lb/>
+            <l><hi rendition="#aq">mum eſt &amp; peſſimum. <hi rendition="#i">Plato lib. de
+                  leg.</hi></hi></l>
+            <lb/>
+            <l>Wer mit der Tugend Krafft ſich ſelbſt kan uͤber-<lb/>
+              <hi rendition="#et">winden/</hi></l>
+            <lb/>
+            <l>Der iſt der erſt’ und auch der beſte Siegesmann/</l>
+            <lb/>
+            <l>Der aber/ welcher ſich nicht ſelbſt bezwingen<lb/>
+              <hi rendition="#et">kan/</hi></l>
+            <lb/>
+            <l>Wird fuͤr ſein Ehrenlob/ ein boͤſes Schandflekk<lb/>
+              <hi rendition="#et">finden.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="58">
+        <lg type="poem">
+
+          <lg n="1" type="stanza" rhyme="ababccdeed">
+            <l><hi rendition="#c">2.</hi></l>
+            <lb/>
+            <l>Ach kommet/ Belliflora/ einige Seele/</l>
+            <lb/>
+            <l>Mein’ einige Wolluſt mein’ Hoffenung gar/</l>
+            <lb/>
+            <l>Euch/ Krone der Tugend/ Jch einig erwehle/</l>
+            <lb/>
+            <l>Weil mich hat bezwungen eur Augelein Paar.</l>
+            <lb/>
+            <l>Euer liebliches Sehen/</l>
+            <lb/>
+            <l>Euer artliches gehen/</l>
+            <lb/>
+            <l>Zu lieben mich zwingt</l>
+            <lb/>
+            <l>Wen Titan ſich neiget/</l>
+            <lb/>
+            <l>Wen Luna ſich zeiget/</l>
+            <lb/>
+            <l>Eur laͤchlen durch meine Gedanken ſich dringt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="59">
+        <lg type="poem">
+          <head><hi rendition="#aq">X.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Noli prædicare, quod facere inſtituis,</hi></l>
+            <lb/>
+            <l><hi rendition="#aq">Si enim facere nequiveris, rideberis.</hi></l>
+            <lb/>
+            <l>Halte ja verſchloſſnen Mund/ wo du etwas vor<lb/>
+              <hi rendition="#et">wilſt nehmen/</hi></l>
+            <lb/>
+            <l>Sonſten wo dirs fehlen moͤcht’/ haſtu dich her-<lb/>
+              <hi rendition="#et">nach zu ſchaͤmen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="60">
+        <lg type="poem">
+          <head><hi rendition="#aq">I.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Quo eris potentior hoc ſuperbias minus.</hi></l>
+            <lb/>
+            <l>Wenn du noch ſo maͤchtig biſt laß die Demuht bey<lb/>
+              <hi rendition="#et">dir ſtehen/</hi></l>
+            <lb/>
+            <l>Gib dem Hochmuht keinen Raum/ denn er muß<lb/>
+              <hi rendition="#et">zu Grunde gehen.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="61">
+        <lg type="poem">
+          <lg type="stanza" rhyme="abbaccdefefgg">
+            <l><hi rendition="#in">D</hi>Je Teutſche Heldenzunft/ benennet ihn von<lb/>
+              <hi rendition="#et">Sproſſen/</hi></l>
+            <lb/>
+            <l>Herꝛ Neumark/ und gab ihm zum Zeichen<lb/>
+              <hi rendition="#et">ein Geſtraͤuß</hi></l>
+            <lb/>
+            <l>Von braunen Naͤgelein/ daruͤm ein Daff-<lb/>
+              <hi rendition="#et">nen-Reiß</hi></l>
+            <lb/>
+            <l>Der Jungfern Sinnebild/ zum ſchoͤnſten war ge-<lb/>
+              <hi rendition="#et">ſchloſſen:</hi></l>
+            <lb/>
+            <l>Weil aus des Himmels Gunſt ihm gleichſam zu-<lb/>
+              <hi rendition="#et">gefloſſen/</hi></l>
+            <lb/>
+            <l>Die Himmels-werthe Kunſt/ die nichts vom<lb/>
+              <hi rendition="#et">Tode weiß.</hi></l>
+            <lb/>
+            <l>Sein Fleiß ſtieg hoch empor/ und ſproſſet<lb/>
+              <hi rendition="#et">thm zum Preiß</hi></l>
+          </lg>
+          <lb/>
+          <l>Mit Nutz-bereichter Frucht/ ſo Deutſchland hat<lb/>
+            <hi rendition="#et">genoſſen.</hi></l>
+          <lb/>
+          <fw type="catch" place="bottom">Der</fw>
+          <lb/>
+          <pb facs="#f0032"/>
+          <l>Der Fruͤhling <note place="foot" n="(a)">Hier wird auf die/ in Koͤnigsberg/ Dantzig/
+              Thorn/<lb/> Hamburg und ſonſt ausgegangene einzele Hiftorien<lb/> geſehen.</note> war
+            beliebt mit ſeinen Lentzge-<lb/>
+            <hi rendition="#et">tichten/</hi></l>
+          <lb/>
+          <l>Jn ſeiner Jugend Flor/ da ſuͤße Lieblichkeit</l>
+          <lb/>
+          <l>Mit Kunſt den Wettſtreit fuͤhrt’ in keuſchen Luſt-<lb/>
+            <hi rendition="#et">geſchichten</hi></l>
+          <lb/>
+          <l>Der Sommer <note place="foot" n="(b)">Deutet auf den Fortgepflantzten Luſtwald.</note>
+            zeiget Uns ein Farben ſtoltzes<lb/>
+            <hi rendition="#et">Kleid:</hi></l>
+          <lb/>
+          <l>Nunmehr wil ſich ſein Herbſt <note place="foot" n="(c)">Ziehlet ſo wol auf
+              gegenwertigen Hiftoriſchen Luftgar-<lb/> ten/ als auf andere ſchoͤne Werklein/ ſo mit
+              GOtt/<lb/> Er kuͤnftig heraus geben wird.</note> durch Neue<lb/>
+            <hi rendition="#et">Werk’ erweiſen/</hi></l>
+          <lb/>
+          <l>Die kluge Welt wird ihn und ſeine Sproſſen<lb/>
+            <hi rendition="#et">preiſen ꝛc.</hi></l>
+        </lg>
+      </div>
+
+      <div n="62">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abbacdcdeffe">
+            <l><hi rendition="#in">D</hi>Er Dafnen ſtoltzes Haupt/ verliehrt ihr<lb/>
+              <hi rendition="#et">gruͤnes Haar</hi></l>
+            <lb/>
+            <l>Jn keiner Winterzeit. Der Nord kan nicht<lb/>
+              <hi rendition="#et">verderben</hi></l>
+            <lb/>
+            <l>Jhr’ immer-friſche Pracht. So weiß von<lb/>
+              <hi rendition="#et">keinem Sterben</hi></l>
+            <lb/>
+            <l>Herꝛ Neumark euer Ruhm/ Er ſproſſet immer-<lb/>
+              <hi rendition="#et">dar/</hi></l>
+            <lb/>
+            <l>Und gruͤnet ſchoͤn hervor/ Er iſt ſchon einverleibt</l>
+            <lb/>
+            <l>Der grauen Ewigkeit. Jn dieſem ſchoͤnen Gartẽ</l>
+            <lb/>
+            <l>Waͤchſt Er erſt recht empor. Was man pflegt<lb/>
+              <hi rendition="#et">ſo zu warten</hi></l>
+            <lb/>
+            <l>Was ſo wiꝛd eingepflantzt/ dieß ewiglich hekleibt/</l>
+            <lb/>
+            <fw type="catch" place="bottom">Und</fw>
+            <lb/>
+            <pb facs="#f0026"/>
+            <l>Und nunmer untergeht. Macht aͤdler Gaͤrtner<lb/>
+              <hi rendition="#et">mehr</hi></l>
+            <lb/>
+            <l>Uns ſolche Gartenluſt/ ſo koͤñen wir vertreiben/</l>
+            <lb/>
+            <l>Die lange Traurigkeit/ und Euch wird ewig<lb/>
+              <hi rendition="#et">bleiben.</hi></l>
+            <lb/>
+            <l>Ein wol-verdientes Lob/ ein ſteter Ruhm und<lb/>
+              <hi rendition="#et">Ehr.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="63">
+        <lg type="poem">
+          <head><hi rendition="#aq">V.</hi></head>
+          <lb/>
+          <lg type="stanza" rhyme="abb">
+            <l><hi rendition="#aq">Promiſſa facito, ſi careat ſcelere fides.</hi></l>
+            <lb/>
+            <l>Wilſtu einem was verſprechen/ thu es ſonder<lb/>
+              <hi rendition="#et">Heucheley/</hi></l>
+            <lb/>
+            <l>Und beſchau ob auch dein Hertze ſonder falſches<lb/>
+              <hi rendition="#et">Ausſehn ſey.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+    </body>
+  </text>
+</TEI>

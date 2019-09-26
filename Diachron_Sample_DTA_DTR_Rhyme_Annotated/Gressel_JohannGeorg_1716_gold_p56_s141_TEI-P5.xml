@@ -1,0 +1,3077 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Verliebte-Galante/ Sinn-Vermischte und Grab-Gedichte</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/107493225">
+            <surname>Gressel</surname>
+            <forename>Johann Georg</forename>
+            <addName>Celander</addName>
+          </persName>
+        </author>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/115266127">
+            <surname>Geyken</surname>
+            <forename>Alexander</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1018099549">
+            <surname>Haaf</surname>
+            <forename>Susanne</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1019062681">
+            <surname>Jurish</surname>
+            <forename>Bryan</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Boenig</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Thomas</surname>
+            <forename>Christian</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Wiegand</surname>
+            <forename>Frank</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <orgName ref="http://www.clarin-d.de">CLARIN-D</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="http://fedora.dwds.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Vollständige digitalisierte Ausgabe.</edition>
+      </editionStmt>
+      <extent>
+        <measure type="images">492</measure>
+        <measure type="tokens">107980</measure>
+        <measure type="types">14501</measure>
+        <measure type="characters">698113</measure>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2016-10-10T16:33:16Z</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+            <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported
+              License.</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="URLWeb">http://www.deutschestextarchiv.de/gressel_grabgedichte_1716</idno>
+          <idno type="URLXML"
+            >http://www.deutschestextarchiv.de/book/download_xml/gressel_grabgedichte_1716</idno>
+          <idno type="URLHTML"
+            >http://www.deutschestextarchiv.de/book/download_html/gressel_grabgedichte_1716</idno>
+          <idno type="URLText"
+            >http://www.deutschestextarchiv.de/book/download_text/gressel_grabgedichte_1716</idno>
+          <idno type="DTADirName">gressel_grabgedichte_1716</idno>
+          <idno type="DTAID">20211</idno>
+          <idno type="URN">urn:nbn:de:kobv:b4-200905199041</idno>
+        </idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="M">Celander [i. e. Gressel, Johann Georg]: Verliebte-Galante/ Sinn-Vermischte
+          und Grab-Gedichte. Hamburg u. a., 1716.</bibl>
+        <biblFull>
+          <titleStmt>
+            <title level="m" type="main">Verliebte-Galante/ Sinn-Vermischte und
+              Grab-Gedichte</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/107493225">
+                <surname>Gressel</surname>
+                <forename>Johann Georg</forename>
+                <addName>Celander</addName>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <extent>
+            <measure type="pages">[8] Bl., 472 S. : Frontispiz.</measure>
+          </extent>
+          <publicationStmt>
+            <publisher><name>Liebezeit</name></publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <pubPlace>Leipzig</pubPlace>
+            <date type="publication">1716</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <repository>HAB Wolfenbüttel</repository>
+            <idno>
+              <idno type="shelfmark">HAB Wolfenbüttel, H: P 1626.8° Helmst.</idno>
+              <idno type="URLCatalogue">Dig:
+                http://diglib.hab.de/drucke/p-1626-8f-helmst/start.htm</idno>
+            </idno>
+          </msIdentifier>
+          <physDesc>
+            <typeDesc>
+              <p>Fraktur</p>
+            </typeDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Dieses Werk wurde gemäß den <ref
+            target="http://www.deutschestextarchiv.de/doku/richtlinien"
+            >DTA-Transkriptionsrichtlinien</ref> im Double-Keying-Verfahren von
+          Nicht-Muttersprachlern erfasst und in XML/TEI P5 nach <ref
+            target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat</ref>
+          kodiert.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="rendition-aq">font-family:sans-serif</rendition>
+        <rendition scheme="css" xml:id="rendition-b">font-weight:bold</rendition>
+        <rendition scheme="css" xml:id="rendition-blue">color:blue</rendition>
+        <rendition scheme="css" xml:id="rendition-c">display:block; text-align:center</rendition>
+        <rendition scheme="css" xml:id="rendition-et">display:block; margin-left:2em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-et2">display:block; margin-left:4em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-et3">display:block; margin-left:6em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-f">border:1px dotted silver</rendition>
+        <rendition scheme="css" xml:id="rendition-fr">border:1px dotted silver</rendition>
+        <rendition scheme="css" xml:id="rendition-g">letter-spacing:0.125em</rendition>
+        <rendition scheme="css" xml:id="rendition-i">font-style:italic</rendition>
+        <rendition scheme="css" xml:id="rendition-in">font-size:150%</rendition>
+        <rendition scheme="css" xml:id="rendition-k">font-variant:small-caps</rendition>
+        <rendition scheme="css" xml:id="rendition-larger">font-size:larger</rendition>
+        <rendition scheme="css" xml:id="rendition-red">color:red</rendition>
+        <rendition scheme="css" xml:id="rendition-right">display:block; text-align:right</rendition>
+        <rendition scheme="css" xml:id="rendition-s">text-decoration:line-through</rendition>
+        <rendition scheme="css" xml:id="rendition-smaller">font-size:smaller</rendition>
+        <rendition scheme="css" xml:id="rendition-sub">vertical-align:sub;
+          font-size:.7em</rendition>
+        <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+          font-size:.7em</rendition>
+        <rendition scheme="css" xml:id="rendition-u">text-decoration:underline</rendition>
+        <rendition scheme="css" xml:id="rendition-uu">border-bottom:double 3px #000</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">German</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtamain"
+          >Belletristik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtasub"
+          >Lyrik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+          >Belletristik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+          >Lyrik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >core</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >ready</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >china</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababcdcdefef">
+            <l><hi rendition="#in">W</hi>O reine Liebes-Glut den holden Scepter fuͤhret/</l>
+            <lb/>
+            <l>Da iſt die Tichterey ein treuer Unterthan/</l>
+            <lb/>
+            <l>Und wo dieſelbe erſt nur das Clavier beruͤhret/</l>
+            <lb/>
+            <l>Da giebet jene gleich den Thon vernehmlich an.</l>
+            <lb/>
+            <l>Ein <hi rendition="#aq">Cato</hi> wird hierbey gar eifrig Splitter richten/</l>
+            <lb/>
+            <l>Weil ſeine Leber Eyß/ das Hertze eiſern iſt</l>
+            <lb/>
+            <l>Ein <hi rendition="#aq">Plato</hi> aber faͤngt wol ſelbſten an zu dichten/</l>
+            <lb/>
+            <l>Wenn er ein ſchoͤnes Weib nur erſt einmahl gekuͤſſt.</l>
+            <lb/>
+            <l>Mein Freund/ es zeugt dein Buch von Lieben und von Wiſſen/</l>
+            <lb/>
+            <l><hi rendition="#aq">Apollo</hi> ruͤhmt den Fleiß/ er kennt dein Wiſſen wol.</l>
+            <lb/>
+            <l>Die <hi rendition="#aq">Venus</hi> iſt hierbey zu deinem Danck befliſſen/</l>
+            <lb/>
+            <l>Daß dich vor deine Maͤh ein jeder lieben ſoll.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="2">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabcddee">
+            <l><hi rendition="#in">W</hi>as iſt ein heiſſer Kuß? ein Labſahl matter Hertzen/</l>
+            <lb/>
+            <l>Ein <hi rendition="#aq">Julep,</hi> welcher kuͤhlt die heiſſen Liebes-Schmertzen/</l>
+            <lb/>
+            <fw type="sig" place="bottom">X 5</fw>
+            <fw type="catch" place="bottom">Ein</fw>
+            <lb/>
+            <pb n="346" facs="#f0364"/>
+            <fw type="header" place="top"><hi rendition="#b">Sinn-Gedichte.</hi></fw>
+            <lb/>
+            <l>Ein Safft/ das ſuͤſſerer als wie der <hi rendition="#aq">Nectar</hi> iſt/</l>
+            <lb/>
+            <l>Ein Honig/ den man ſchmeckt wenn man die Liebſte kuͤßt.</l>
+            <lb/>
+            <l>Ein <hi rendition="#aq">Ambroſiner</hi> Wein/ der uns den Durſt vermehret/</l>
+            <lb/>
+            <l>Die Luſt/ die unſerm Geiſt das Paradies verehret/</l>
+            <lb/>
+            <l>Ein Moſt/ das jedermann vor unvergleichlich haͤlt/</l>
+            <lb/>
+            <l>Ein koͤſtliches <hi rendition="#aq">Confect,</hi> das beſte von der Welt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="3">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababccdd">
+            <l><hi rendition="#in">D</hi>ie Schoͤnheit iſt gemacht/</l>
+            <lb/>
+            <l>Gleich da man euch gezeuget/</l>
+            <lb/>
+            <l>Und die zu Weg’ gebracht/</l>
+            <lb/>
+            <l><hi rendition="#et">Die mir mein Hertze beuget.</hi></l>
+            <lb/>
+            <l><hi rendition="#et">Laſſet mir die Gnade zu/</hi></l>
+            <lb/>
+            <l><hi rendition="#et">Daß ich euch daſſelbe thu/</hi></l>
+            <lb/>
+            <l>Was man eurer Mutter that</l>
+            <lb/>
+            <l>Als man euch gemachet hat.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="4">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <l><hi rendition="#in">H</hi>ier liegt der kuͤhne Held von einem Schwein entlebet/</l>
+            <lb/>
+            <l>Vor welchen <hi rendition="#aq">Stambols</hi> Macht in ſteter Furcht geſchwebet/</l>
+            <lb/>
+            <l>Der Tuͤrck und Tartern zwung/ den faͤllt ein wildes Schwein/</l>
+            <lb/>
+            <l>So muß der Tod gewiß/ die Art unwiſſend ſeyn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="5">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabbccdd">
+            <l><hi rendition="#in">W</hi>as ſeht ihr Augen hier? wer kan hier wol bekennen/</l>
+            <lb/>
+            <l>Daß es nur Menſchen ſeyn? man muß ſie Goͤtter nennen/</l>
+            <lb/>
+            <l><hi rendition="#et">Der ſchoͤnen Augen-Glantz</hi></l>
+            <lb/>
+            <l><hi rendition="#et">Verdienet Kron’ und Krantz/</hi></l>
+            <lb/>
+            <l>Er raubet unſern Augen das Geſicht/</l>
+            <lb/>
+            <l>Jetzt iſt es Nacht/ uns ſcheinet doch ihr Licht/</l>
+            <lb/>
+            <l>Und macht/ daß wir bey Nachte ſehen/</l>
+            <lb/>
+            <l>Hier Sternen/ Mond und Sonn’ auffgehen</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="6">
+        <lg type="poem">
+          <head><hi rendition="#b">Er troͤſtet ſich ſelbſt in ſeinem Ungluͤcke.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">1.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">E</hi>in Hertz/ daß ſich mit Sorgen plagt/</l>
+            <lb/>
+            <l>Verzehrt ſich ſelbſt vor Zeiten/</l>
+            <lb/>
+            <l>Wer taͤglich uͤber Ungluͤck klagt/</l>
+            <lb/>
+            <l>Wird ſich das Grab bereiten:</l>
+            <lb/>
+            <l>Es kan doch nichts beſtaͤndig ſeyn/</l>
+            <lb/>
+            <l>Auf Regen folget Sonnenſchein.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">2.</hi></head>
+            <lb/>
+            <l>Die Zeiten ſind veraͤnderlich/</l>
+            <lb/>
+            <l>Es wechſeln Tag und Stunden/</l>
+            <lb/>
+            <l>Es hat nach Blitz und Donner ſich</l>
+            <lb/>
+            <l>Die Stille eingefunden/</l>
+            <lb/>
+            <l>Die Nacht kan nicht ſo finſter ſeyn/</l>
+            <lb/>
+            <l>Der Tag bricht wiederum herein.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">3.</hi></head>
+            <lb/>
+            <l>Haͤlt gleich das angenehme Licht</l>
+            <lb/>
+            <l>Des Gluͤckes ſich verborgen/</l>
+            <lb/>
+            <l>So glaub ich/ glaͤntzt es heute nicht/</l>
+            <lb/>
+            <l>Daß es doch ſcheinet morgen/</l>
+            <lb/>
+            <l>Es kommt bey mir auch wol der Tag</l>
+            <lb/>
+            <l>Daß ich mich gluͤcklich nennen mag.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">4.</hi></head>
+            <lb/>
+            <l>Ein Schiff daß in der Waſſers-Fluth</l>
+            <lb/>
+            <l>Mit ’Wind und Wellen ſtreitet/</l>
+            <lb/>
+            <l>Verlieret nicht ſo fort den Muth/</l>
+            <lb/>
+            <l>Weil es die Hoffnung leitet/</l>
+            <lb/>
+            <l>Es werde bald den Sturm entgehn/</l>
+            <lb/>
+            <l>Und ſich im ſichern Hafen ſehn.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">5.</hi></head>
+            <lb/>
+            <l>Liegt gleich mein Schiff vor Ancker noch/</l>
+            <lb/>
+            <l>Und hat <hi rendition="#aq">contraire</hi> Winde/</l>
+            <lb/>
+            <l>So iſt bey mir die Hoffnung doch/</l>
+            <lb/>
+            <l>Daß ich noch endlich finde/</l>
+            <lb/>
+            <l>Den Haven der mir iſt beſchert</l>
+            <lb/>
+            <l>Und den mein Wuͤnſchen laͤngſt begehrt.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">6. Wer</fw>
+          <lb/>
+          <pb n="435" facs="#f0453"/>
+          <fw type="header" place="top"><hi rendition="#b">Vermiſchte Gedichte.</hi></fw>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">6.</hi></head>
+            <lb/>
+            <l>Wer weiß/ wo noch mein Gluͤcke ſoll</l>
+            <lb/>
+            <l>Jn voller Bluͤhte ſtehen/</l>
+            <lb/>
+            <l>Und ſcheinet es heute noch ſo toll/</l>
+            <lb/>
+            <l>Kans morgen doch geſchehen/</l>
+            <lb/>
+            <l>Daß ich durch einen guten Weg</l>
+            <lb/>
+            <l>Erlange den gewuͤnſchten Zweck.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">7.</hi></head>
+            <lb/>
+            <l>Das Gluͤcke iſt den Raͤdern gleich/</l>
+            <lb/>
+            <l>Das Unterſte kommt oben/</l>
+            <lb/>
+            <l>Der heute arm iſt morgen reich/</l>
+            <lb/>
+            <l>Und hoͤrt ſich herrlich loben/</l>
+            <lb/>
+            <l>Wie mancher iſt im Augenblick</l>
+            <lb/>
+            <l>Gelangt zu einen groſſen Gluͤck.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">8.</hi></head>
+            <lb/>
+            <l>Lacht gleich das Gluͤcke ander an/</l>
+            <lb/>
+            <l>Jch will es ihnen goͤnnen/</l>
+            <lb/>
+            <l>Weil auch der Tag erſcheinen kan/</l>
+            <lb/>
+            <l>Daran ich werd’ erkennen/</l>
+            <lb/>
+            <l>Daß Hoffnung doch den Preiß behaͤlt</l>
+            <lb/>
+            <l>Bey allen Ungluͤck in der Welt.</l>
+          </lg>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">9.</hi></head>
+            <lb/>
+            <l>Drum mein Gemuͤth ermuntre dich/</l>
+            <lb/>
+            <l>Und laß die Sorgen fahren/</l>
+            <lb/>
+            <l>Es geht das Gluͤcke wunderlich/</l>
+            <lb/>
+            <l>Man hat es nicht beym Haaren/</l>
+            <lb/>
+            <l>Laß ſorgen/ wer da ſorgen will/</l>
+            <lb/>
+            <l>Jch hoff’ und warte in der Still.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="7">
+        <lg type="poem">
+          <head><hi rendition="#b">An die Nacht.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababcdcd">
+            <head><hi rendition="#c">1.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">J</hi>hr Sterne an den Himmels-Buͤhnen/</l>
+            <lb/>
+            <l>Jhr Lichter dieſer Unter-Welt/</l>
+            <lb/>
+            <l>Helfft mir <hi rendition="#aq">Semiren</hi> doch bedienen</l>
+            <lb/>
+            <l>Erhaͤllt das dunckle Wolcken-Feld/</l>
+            <lb/>
+            <fw type="catch" place="bottom">Laßt</fw>
+            <lb/>
+            <pb n="224" facs="#f0242"/>
+            <fw type="header" place="top"><hi rendition="#b">Verliebte und <hi rendition="#aq"
+                  >galante Arien.</hi></hi></fw>
+            <lb/>
+            <l>Laßt eure Strahlen heller ſchimmern/</l>
+            <lb/>
+            <l>Vertreibt die ſchwartze Schatten-Nacht.</l>
+            <lb/>
+            <l>Seckt aus den blauen Himmels-Zimmern/</l>
+            <lb/>
+            <l>Die Fahnen eurer Schoͤnheit-Pracht.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababcdcd">
+            <head><hi rendition="#c">2.</hi></head>
+            <lb/>
+            <l><hi rendition="#aq">Diana</hi> laß die truͤben Wangen</l>
+            <lb/>
+            <l>Erfuͤllt mit klahrem Silber ſeyn/</l>
+            <lb/>
+            <l>Laß da die hellen Strahlen prangen</l>
+            <lb/>
+            <l>Was jetzt die ſchwartze Nacht nimmt ein/</l>
+            <lb/>
+            <l>Erhell’ ihr Zimmer/ und das Bette</l>
+            <lb/>
+            <l>Daß ich mein Engels-Kind kan ſehn/</l>
+            <lb/>
+            <l>Und ſchauen wie an ihr ſo nette</l>
+            <lb/>
+            <l>Die Anmuhts-vollen Glieder ſtehn.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcdcd">
+            <head><hi rendition="#c">3.</hi></head>
+            <lb/>
+            <l>Die Wangen ſuͤſſen <hi rendition="#aq">Ambra</hi> trieffen/</l>
+            <lb/>
+            <l>Die Lippen ſind ein Zucker-Brodt/</l>
+            <lb/>
+            <l>Der Buſen laͤſt in Liljen ſchiffen/</l>
+            <lb/>
+            <l>Die Schooß gebiehrt den ſuͤſſen Tod/</l>
+            <lb/>
+            <l>Da geht man von Egyptens Kuͤſten</l>
+            <lb/>
+            <l>Durchs rohte Meer in <hi rendition="#aq">Canaan,</hi></l>
+            <lb/>
+            <l>Und in der Oed und dunckeln Wuͤſten</l>
+            <lb/>
+            <l>Man ſuͤſſes Manna koſten kan.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababcdcd">
+            <head><hi rendition="#c">4.</hi></head>
+            <lb/>
+            <l><hi rendition="#aq">Cupido</hi> iſt da Kuͤchenmeiſter</l>
+            <lb/>
+            <l>Die Anmuht traͤgt die Speiſe zu/</l>
+            <lb/>
+            <l>Die Luſt berauſcht die heiſſen Geiſter</l>
+            <lb/>
+            <l>Und ſchafft dem Leibe ſuͤſſe Ruh.</l>
+            <lb/>
+            <l>Granaten/ Kirſchen und <hi rendition="#aq">Jesminen</hi></l>
+            <lb/>
+            <l>Die ſetzet ſie dem Munde fuͤr/</l>
+            <lb/>
+            <l>Die Aepffel zur Erfriſchung dienen/</l>
+            <lb/>
+            <l>Die Roſen bricht man mit Begier.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababcdcd">
+            <head><hi rendition="#c">5.</hi></head>
+            <lb/>
+            <l>Ach eilet doch ihr hellen Sternen!</l>
+            <lb/>
+            <l>Eilt/ foͤrdert meine Liebes Luſt!</l>
+            <lb/>
+            <l>Geh auf du klahre Mond-Laterne/</l>
+            <lb/>
+            <l>Doch weich! <hi rendition="#aq">Semirens</hi> ihre Bruſt</l>
+            <lb/>
+            <l>Mit ſolchem Silber iſt verſorget/</l>
+            <lb/>
+            <l>Das ſeinen Glantz mir ſietig weiht/</l>
+            <lb/>
+            <l>Da du von <hi rendition="#aq">Titan</hi> es geborget/</l>
+            <lb/>
+            <l>Der ſeinen Uberfluß dir leiht.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="8">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abab">
+            <l><hi rendition="#aq"><hi rendition="#in">S</hi>apores</hi> war zu ſchwach mit aller
+              ſeiner Macht/</l>
+            <lb/>
+            <l>Das Gluͤcke war mir hold und halff zu meinen Siegen/</l>
+            <lb/>
+            <l>Doch wurde ich von Rom ins Sclaven Joch gebracht/</l>
+            <lb/>
+            <l>Denn Weiber muͤſſen auch den Maͤnnern unterliegen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="9">
+        <lg type="poem">
+          <lg type="stanza" rhyme="ababccdedeff">
+            <l><hi rendition="#in">J</hi>ch bin verliebt/ mein Hertze iſt entzuͤndet/</l>
+            <lb/>
+            <l>Durch deine Pracht/ die mehr als menſchlich iſt:</l>
+            <lb/>
+          </lg>
+          <l>Weil nun bey dir ſich auch Erbarmniß findet/</l>
+          <lb/>
+          <l>So gieb/ daß mich gewuͤnſchte Huͤlffe kuͤſt/</l>
+          <lb/>
+          <l>Eh <hi rendition="#aq">Eros</hi> mich dem Tode uͤbergiebt.</l>
+          <lb/>
+          <l><hi rendition="#et">Jch bin verliebt.</hi></l>
+          <lb/>
+          <l>Der Augen Pracht/ dein angenehmes Weſen/</l>
+          <lb/>
+          <l>Und was noch ſonſt dir <hi rendition="#aq">Venus</hi> mitgetheilt/</l>
+          <lb/>
+          <l>Macht/ wenn ich todt/ mich wiederum geneſen:</l>
+          <lb/>
+          <l>Ein ſuͤſſer Kuß der Seelen-Wunde heilt/</l>
+          <lb/>
+          <l>Der Krancke jauchzt/ wenn troͤſtlich ihn anlacht/</l>
+          <lb/>
+          <l><hi rendition="#et">Der Augen Pracht.</hi></l>
+        </lg>
+      </div>
+
+      <div n="10">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <l><hi rendition="#in">M</hi>ich zwung die reine Treu mein Leben zu verliehren/</l>
+            <lb/>
+            <l>Mein Blut wird <hi rendition="#aq">Sigeths</hi> Thor mit ſtetem Purpur zieren/</l>
+            <lb/>
+            <l>Mich hat der wilde Tuͤrck aufs Ehren-Bett gelegt/</l>
+            <lb/>
+            <l>Doch fiel ich als ein Held der tauſend Feinde ſchlaͤgt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="11">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabbccdd">
+            <l><hi rendition="#in">S</hi>tirb nur/ <hi rendition="#aq">Amando</hi> ſtirb/ die Luſt
+              ſteht dir zur Seiten/</l>
+            <lb/>
+            <l>Die ſchoͤne Marmor-Bruſt will dir das Grab bereiten:</l>
+            <lb/>
+            <l>O wunderſchoͤner Tod! gluͤckſehlig wer ſo ſtirbt/</l>
+            <lb/>
+            <l>Und in der hohlen Schooß ein ſuͤſſes Grab erwirbt</l>
+            <lb/>
+            <l>Man ſtirbt indem man lebt/ man geht in Wolluſt unter/</l>
+            <lb/>
+            <l>Und wird nach ſolchen Tod zu neuen Freuden munter.</l>
+            <lb/>
+            <l>Beſteige nur das Grab/ erfuͤll die ſchoͤne Grufft/</l>
+            <lb/>
+            <l>Denn der iſt recht vergnuͤgt/ der ſo im Grabe dufft.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="12">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababccddee">
+            <l><hi rendition="#in">G</hi>ewiß wird <hi rendition="#aq">Lethens</hi> Trunck bey dir
+              die Urſach ſeyn/</l>
+            <lb/>
+            <l>Daß deiner Jahre Zahl dir ſchon entfallen iſt;</l>
+            <lb/>
+            <l>Denn wenn ich dreyßig zaͤhl’ ſo ſageſt du/ ach Nein!</l>
+            <lb/>
+            <l>Da muß erſt achtzehn ſtehn/ wo er ſchon dreyßig lieſt/</l>
+            <lb/>
+            <l>Seht doch an die Roſen-Wangen</l>
+            <lb/>
+            <l>Wie ſie prangen/</l>
+            <lb/>
+            <l>Kan wol ein garſtig Bild von ſo viel dreyßig Jahren</l>
+            <lb/>
+            <l>Sich mit der Anmuth paaren/</l>
+            <lb/>
+            <l>So mein Geſichte zeigt?</l>
+            <lb/>
+            <l>Nein eure Meynung treugt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="13">
+        <lg type="poem">
+          <head><hi rendition="#b">Er entdecket ihr ſeine Liebe.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababccdeed">
+            <head><hi rendition="#c">1.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">D</hi>er Augen ſchoͤne Pracht/</l>
+            <lb/>
+            <l>Die alle Schoͤnheit uͤberſteigt/</l>
+            <lb/>
+            <l>Hat mich verliebt gemacht/</l>
+            <lb/>
+            <l>Daß ſich mein Hertze neigt</l>
+            <lb/>
+            <l>Zu deinem Fuß</l>
+            <lb/>
+            <l>Um einen Kuß/</l>
+            <lb/>
+            <l>Und Blick/</l>
+            <lb/>
+            <l>Kriegt den mein Hertz/</l>
+            <lb/>
+            <l>So weicht der Schmertz/</l>
+            <lb/>
+            <l>Und wird mein beſtes Gluͤck.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">2. Es</fw>
+          <lb/>
+          <pb n="177" facs="#f0195"/>
+          <fw type="header" place="top"><hi rendition="#b">Verliebte und <hi rendition="#aq">galante
+                Arien.</hi></hi></fw>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababccdeed">
+            <head><hi rendition="#c">2.</hi></head>
+            <lb/>
+            <l>Es gleichet dein Geſicht</l>
+            <lb/>
+            <l>Des Himmels-Glantz und hellem Schein/</l>
+            <lb/>
+            <l>Sein angenehmes Licht</l>
+            <lb/>
+            <l>Kan nicht ſo ſchoͤne ſey;</l>
+            <lb/>
+            <l>Dein ſchoͤner Hals</l>
+            <lb/>
+            <l>Jſt ebenfals</l>
+            <lb/>
+            <l>Cryſtall:</l>
+            <lb/>
+            <l>Der Mund-Rubin</l>
+            <lb/>
+            <l>Da Roſen bluͤhn</l>
+            <lb/>
+            <l>Beſetzet mit Corall.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababccdeed">
+            <head><hi rendition="#c">3.</hi></head>
+            <lb/>
+            <l>Der rund-gewoͤlbten Bruſt/</l>
+            <lb/>
+            <l>Die lauter ſuͤſſe Anmuth hegt/</l>
+            <lb/>
+            <l>Wohin die holde Luſt</l>
+            <lb/>
+            <l>Der Liebe Wohn-Haus legt/</l>
+            <lb/>
+            <l>Kein <hi rendition="#aq">Marmor</hi> gleicht/</l>
+            <lb/>
+            <l>Vor ihr erbleicht</l>
+            <lb/>
+            <l>Der Schnee/</l>
+            <lb/>
+            <l>Der Schnecken Blut</l>
+            <lb/>
+            <l>Weicht vor der Gluth/</l>
+            <lb/>
+            <l>Die brennt auf dieſer Hoͤh.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababccdeed">
+            <head><hi rendition="#c">4.</hi></head>
+            <lb/>
+            <l>Wirf einen Gnaden-Blick</l>
+            <lb/>
+            <l>Mein ſchoͤnſter Schatz/ mein ander ich/</l>
+            <lb/>
+            <l>Auf deinem Knecht zuruͤck/</l>
+            <lb/>
+            <l>Mein Kind erquicke mich.</l>
+            <lb/>
+            <l>Entreiß mich doch</l>
+            <lb/>
+            <l>Den ſchweren Joch</l>
+            <lb/>
+            <l>Der Pein/</l>
+            <lb/>
+            <l>Daß nach dem Streit</l>
+            <lb/>
+            <l>Der Traurigkeit</l>
+            <lb/>
+            <l>Jch kan ein Sieger ſeyn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="14">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <l><hi rendition="#in">D</hi>ie Lieb iſt anfangs ſuͤß/ das Ende aber bitter/</l>
+            <lb/>
+            <l>Jhr Kommen bringet Luſt/ ihr Abzug Ungewitter/</l>
+            <lb/>
+            <l>Sie gleicht dem ſuͤſſen Fluß/ der ſich ins Meer ergießt/</l>
+            <lb/>
+            <l>Und drauf als ſelbiges mit bitterm Saltze fließt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="15">
+        <lg type="poem">
+          <lg type="stanza" rhyme="ababcdcdefefghghijij">
+            <l><hi rendition="#in">D</hi>er Himmel heitert ſich nach langen Blitzen aus/</l>
+            <lb/>
+            <l>Und auf das Donnern folgt ein helles Sonnenſcheinen/</l>
+            <lb/>
+            <l>Das Gluͤcke lacht zuletzt nach ausgeſtandnen Strauß/</l>
+            <lb/>
+            <l>Und ein erfreut Geſicht beſchleußt das lange Weinen.</l>
+            <lb/>
+            <l>Nach denen Faſten bricht die Oſter-Woche an/</l>
+            <lb/>
+            <l>Darinn ein Jubel-Feſt die treuen Seelen halten/</l>
+            <lb/>
+            <fw type="catch" place="bottom">Die</fw>
+            <lb/>
+            <pb n="399" facs="#f0417"/>
+            <fw type="header" place="top"><hi rendition="#b">Vermiſchte Gedichte.</hi></fw>
+            <lb/>
+            <l>Die ihren Lauff gehabt auf einer Dornen Bahn/</l>
+            <lb/>
+            <l>Und mehr denn offt gemeynt ſie muͤſten nun erkalten.</l>
+            <lb/>
+            <l>Der Sommer ſuͤſſer Luſt bricht nach dem Winter ein/</l>
+            <lb/>
+            <l>Und das erſtorbne Feld bekommt ein neues Leben/</l>
+          </lg>
+          <lb/>
+          <l>Die Blumen zeigen an des Himmels Guͤtig-ſeyn/</l>
+          <lb/>
+          <l>Sie wollen deſſen Gunſt durch ihren Glantz erheben.</l>
+          <lb/>
+          <l>So kehrt ſein Un-ſtern ſich auch in ein nenes Gluͤck/</l>
+          <lb/>
+          <l>Selbſt das Verhaͤngniß will ihn jetzt mit Wolluſt kroͤnen/</l>
+          <lb/>
+          <l>Der Himmel liebet ihn/ er giebt beliebten Blick/</l>
+          <lb/>
+          <l>Sein Wuͤnſchen macht er wahr/ nun trifft ihm ein ſein Sehnen.</l>
+          <lb/>
+          <l>Denn ſeiner Augen-Luſt/ des Hertzens halber Theil/</l>
+          <lb/>
+          <l>Macht ſeine Freude voll/ ſie haͤuffet ſein Vergnuͤgen/</l>
+          <lb/>
+          <l>Die Seelen-Wunde iſt nun aus dem Grunde heyl/</l>
+          <lb/>
+          <l>Sie laͤſſet ihn/ mein Freund/ die harte Bruſt befiegen.</l>
+        </lg>
+      </div>
+
+      <div n="16">
+        <lg type="poem">
+          <lg type="stanza" rhyme="aabbcddcbbeffebbghhgbb">
+            <l/>
+            <lb/>
+          </lg>
+          <lb/>
+          <l>Erhelle <hi rendition="#aq">Delius</hi> die Himmliſchen <hi rendition="#aq"
+              >Sapphiren,</hi></l>
+          <lb/>
+          <l>Hohl Gold aus <hi rendition="#aq">Potoſi</hi> die Strahlen auszuziehren/</l>
+          <lb/>
+          <l>Reiß alle Kuͤmmerniß/ und alles Klagen ein:</l>
+          <lb/>
+          <l>Erfuͤlle ihre Bruſt mit Himmels-reichen Freuden/</l>
+          <lb/>
+          <l>Nichts als beliebte Luſt muß ihre Augen weiden.</l>
+          <lb/>
+          <l>Bring mit dem Neuen-Jahr verjuͤngte Luſt hervor</l>
+          <lb/>
+          <l>Erneu altaͤglich dich in neuen Froͤlichkeiten/</l>
+          <lb/>
+          <l>Hemm der <hi rendition="#aq">Aſpecten</hi> Lauff die Unluſt zu bereiten/</l>
+          <lb/>
+          <l>Ruff ihr mit ſanfften Hauch der Engel-Thon ins Ohr.</l>
+          <lb/>
+          <l>Erfuͤlle ihre Bruſt mit Himmels-reichen Freuden/</l>
+          <lb/>
+          <l>Nichts als beliebte Luſt muß ihre Augen weiden.</l>
+          <lb/>
+          <fw type="catch" place="bottom">Bau</fw>
+          <lb/>
+          <pb n="115" facs="#f0133"/>
+          <fw type="header" place="top"><hi rendition="#b">Verliebte und <hi rendition="#aq"
+                >galante</hi> Gedichte.</hi></fw>
+          <lb/>
+          <l>Bau Freude dir ein Haus bey ihr das ewig ſteh/</l>
+          <lb/>
+          <l>Es bluͤh der Jugend. Lentz in ihrem Angeſichte/</l>
+          <lb/>
+          <l><hi rendition="#aq">Helena</hi> kuͤſſe ſie im vollen Schoͤnheits-Lichte</l>
+          <lb/>
+          <l>Ruh’ und Zufriedenheit ihr ſtets zur Seiten geh.</l>
+          <lb/>
+          <l>Erfuͤlle ihre Bruſt mit Himmels-reichen Freuden/</l>
+          <lb/>
+          <l>Nichts als beliebte Luſt muß ihre Augen weiden.</l>
+          <lb/>
+          <l>Beſchuͤtte Himmel ſie mit Luſt und Wohlergehn/</l>
+          <lb/>
+          <l>Es ſchau ihr Auge ſtets das holde Gluͤcke bluͤhen/</l>
+          <lb/>
+          <l>Hinlaͤßig muß ihr Haar das Silber uͤberziehen/</l>
+          <lb/>
+          <l>Rund um den zarten Leib muß lauter Seegen ſtehn.</l>
+          <lb/>
+          <l>Erfuͤlle ihre Bruſt mit Himmels-reichen Freuden/</l>
+          <lb/>
+          <l>Nichts als beliebte Luſt muß ihre Augen weiden.</l>
+        </lg>
+      </div>
+
+      <div n="17">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l><hi rendition="#in">J</hi>ch weiß nicht/ wie es kommt/ daß man das rauche liebet/</l>
+            <lb/>
+            <l>Und in ein Haaren Loch ſo gern die Glieder ſchiebet.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="18">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abab">
+            <l><hi rendition="#in">J</hi>ch war ein ſtarcker Held/ und wuͤrde noch wol leben</l>
+            <lb/>
+            <l>Wenn ich die Tapfferkeit nur beſſer angewandt/</l>
+            <lb/>
+            <l>So bald ich aber wolt der Boßheit-Schild abgeben/</l>
+            <lb/>
+            <l>So bald er legte mich <hi rendition="#aq">Achillens</hi> tapffre Hand.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="19">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababccdef">
+            <l>Zum Abſchied zeig ich noch ein langes Blat Papier</l>
+            <lb/>
+            <l>Auf welchem folgendes mit groſſer Schrifft geſchrieben/</l>
+            <lb/>
+            <l>Lebt neu-verknuͤpfftes Paar/ lebt gluͤcklich fuͤr und fuͤr/</l>
+            <lb/>
+            <l>Der Himmel ſey euch hold und ſegne euer Lieben!</l>
+            <lb/>
+            <l>Dis wuͤnſchet euch der Welſche Mann/</l>
+            <lb/>
+            <l>Und rufft zuletzt/ ſo laut er kan:</l>
+            <lb/>
+            <l>Schoͤne Raritaͤt/ ſchoͤne Spiele-Wercke/ <hi rendition="#aq">Belle
+              Catharine,</hi></l>
+            <lb/>
+            <l>ſchoͤne <hi rendition="#aq">Sybilla, Ilſe, Margaretha, Dorothea,</hi> ſchoͤne
+              Raritaͤt/</l>
+            <lb/>
+            <l>ſchoͤne Spiele-Wercke.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="20">
+        <lg type="poem">
+          <head><hi rendition="#b">Er wil die wanckelmuͤhtige <hi rendition="#aq">Cecilia</hi>
+              nicht<lb/> mehr lieben.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="abab">
+            <head><hi rendition="#c">1.</hi></head>
+            <lb/>
+            <l><hi rendition="#aq"><hi rendition="#in">C</hi>ecilia</hi> fahr immer hin</l>
+            <lb/>
+            <l>Du wandelbahrer Mond/</l>
+            <lb/>
+            <l>Jch wil nicht/ daß dein leichter Sinn/</l>
+            <lb/>
+            <l>Mit Falſchheit mich belohnt.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abab">
+            <head><hi rendition="#c">2.</hi></head>
+            <lb/>
+            <l><hi rendition="#aq">Cecilia</hi> fort packe dich</l>
+            <lb/>
+            <l>Jch mag dich nicht mehr ſehn;</l>
+            <lb/>
+            <l>Denn deine Treu haͤlt keinen Stich/</l>
+            <lb/>
+            <l>Mit ihr iſts leicht geſchehn.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="abab">
+            <head><hi rendition="#c">3.</hi></head>
+            <lb/>
+            <l><hi rendition="#aq">Cecilia</hi> ich halte dich</l>
+            <lb/>
+            <l>Vor ein <hi rendition="#aq">Chamelcon.</hi></l>
+            <lb/>
+            <fw type="sig" place="bottom">O 4</fw>
+            <fw type="catch" place="bottom">Denn</fw>
+            <lb/>
+            <pb n="216" facs="#f0234"/>
+            <fw type="header" place="top"><hi rendition="#b">Verliebte und <hi rendition="#aq"
+                  >galante Arien.</hi></hi></fw>
+            <lb/>
+            <l>Denn deine Treu veraͤndert ſich/</l>
+            <lb/>
+            <l>So offt aufgeht die Sonn’.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="abab">
+            <head><hi rendition="#c">4.</hi></head>
+            <lb/>
+            <l>Drum packe dich <hi rendition="#aq">Cecilia</hi></l>
+            <lb/>
+            <l>Jch liebe dich nicht mehr/</l>
+            <lb/>
+            <l>Komm mir nur ferner nicht zu nah/</l>
+            <lb/>
+            <l>So haß ich dich nicht ſehr.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="21">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abba">
+            <l><hi rendition="#in">W</hi>enn Blitz und Donner faͤhrt durch eines Menſchen Seele/</l>
+            <lb/>
+            <l>So hat der Lebens-Geiſt das letzte Ziel erreicht?</l>
+            <lb/>
+            <l>Mein/ <hi rendition="#aq">Doris</hi> ſagts/ wie koͤm̃ts/ daß eur Geſicht
+              erbleicht?</l>
+            <lb/>
+            <l>Dringt nicht <hi rendition="#aq">Cupidens</hi> Pfeil durch eure Liebes-Hoͤle?</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="22">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <l><hi rendition="#in">S</hi>oll ſich dein ſchoͤner Mund mit falſchen Kuͤſſen laben?</l>
+            <lb/>
+            <l>Nim meine Lippen an/ die mehr Vergnuͤgung haben.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="23">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abab">
+            <l><hi rendition="#in">E</hi>S brennet <hi rendition="#aq">Amors</hi> Feur am meiſten
+              bey den Mohren/</l>
+            <lb/>
+            <l>Wie ihr erhitzter Schooß davon mit Nachdruck zeugt/</l>
+            <lb/>
+            <l>Beym Weiſſen aber hats die meiſte Krafft verlohren/</l>
+            <lb/>
+            <l>Weil dieſe kalte Art vor ſeiner Gluth entweicht.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="24">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abababab">
+            <l><hi rendition="#in">M</hi>it einer Jungferſchafft war ich vor dem begabt/</l>
+            <lb/>
+            <l>Und dieſes war der Schatz von meiner Eltern Sparen</l>
+            <lb/>
+            <l>Allein jetzt hab ich nichts von dem was ich gehabt</l>
+            <lb/>
+            <l>Mein kleines Erbtheil hat die Endſchafft ſchon erfahren.</l>
+            <lb/>
+            <l>Doch <hi rendition="#aq">Amor</hi> laͤſt es zu/ und heißt es daß man labt</l>
+            <lb/>
+            <l>Damit der Maͤnner Sinn wenn wir von funffzehn Jahren</l>
+            <lb/>
+            <l>Denn dieſes Maͤdgen fort wie eine Naͤrrinn trabt/</l>
+            <lb/>
+            <l>Daß ſeine Jungferſchafft noch laͤnger will verwahren.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="25">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababcc">
+            <l><hi rendition="#in">S</hi>O wie das neue Tuch vom Waſſer lauffet ein/</l>
+            <lb/>
+            <l>So pflegt die Rechnung auch/ die ſich Verliebte machen/</l>
+            <lb/>
+            <l>Wenn mans beym Licht beſieht gar offte falſch zu ſeyn/</l>
+            <lb/>
+            <l>Ein Kluger muß fuͤrwahr der albern Thorheit lachen.</l>
+            <lb/>
+            <l>Denn die Gedancken gehn auf Himmel hohen Spitzen/</l>
+            <lb/>
+            <l>Da ſie doch in der That in tieffen Thaͤlern ſitzen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="26">
+        <lg type="poem">
+          <head><hi rendition="#b">An die Nacht.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">1.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">K</hi>omm ſchwartze Nacht/ du ſtille Finſterniß/</l>
+            <lb/>
+            <l>Umhuͤlle mich mit deinem braunen Schatten/</l>
+            <lb/>
+            <l>Du blaſſer Mond zeig mir mein guͤldnes Vließ/</l>
+            <lb/>
+            <l>Laß ungeſtoͤhrt mich mit <hi rendition="#aq">Sorellen</hi> gatten.</l>
+            <lb/>
+            <l>Jhr Sternen zuͤndt die hellen Fackeln an/</l>
+            <lb/>
+            <l>Daß ich den Port der Wolluſt finden kan.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">2.</hi></head>
+            <lb/>
+            <l>Mein Geiſt verlangt den Haven bald zu ſehn/</l>
+            <lb/>
+            <l>Den Alabaſter und Corallen zieren;</l>
+            <lb/>
+            <l>Die Enge/ wo nur kan ein Schifflein gehn/</l>
+            <lb/>
+            <l>Soll ihn ins Land der ſuͤßten Luͤſte fuͤhren/</l>
+            <lb/>
+            <l>Der <hi rendition="#aq">Pharos</hi> ſoll die weiſſe Bruſt ihm ſeyn/</l>
+            <lb/>
+            <l>So faͤhret er vergnuͤgt zum Haven ein.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">3.</hi></head>
+            <lb/>
+            <l>Wie/ winckt mein Licht nicht albereits von fern/</l>
+            <lb/>
+            <l>Und rufft mir zu/ im Seegeln fort zu eilen/</l>
+            <lb/>
+            <l>Ja! nun wohlan! ich folge dieſem Stern/</l>
+            <lb/>
+            <l>Der Tag will auch nicht laͤnger mehr verweilen/</l>
+            <lb/>
+            <l>Die Sonne ſucht im Meere ihre Ruh/</l>
+            <lb/>
+            <l>Und ich/ ich eile nach <hi rendition="#aq">Sorellen</hi> zu.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">4.</hi></head>
+            <lb/>
+            <l>Jch fuͤhle ſchon die Liljen weiche Hand/</l>
+            <lb/>
+            <l>Jch ſeh die Bruſt mit Wolluſt-Roſen ſpielen/</l>
+            <lb/>
+            <l>Und ferner fort das angenehme Land/</l>
+            <lb/>
+            <l>Das meine Brunſt iſt willig abzukuͤhlen.</l>
+            <lb/>
+            <fw type="catch" place="bottom">Das/</fw>
+            <lb/>
+            <pb n="199" facs="#f0217"/>
+            <fw type="header" place="top"><hi rendition="#b">Verliebte und <hi rendition="#aq"
+                  >galante Arien.</hi></hi></fw>
+            <lb/>
+            <l>Das/ was mein Schiff nun eingeladen hat/</l>
+            <lb/>
+            <l>Das bleibet dir <hi rendition="#aq">Sorelle</hi> vor die That.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="27">
+        <lg type="poem">
+          <lg type="stanza" rhyme="abccb">
+            <l/>
+            <lb/>
+          </lg>
+          <lb/>
+          <l>So loͤſcht die Schwaͤrtze doch der Liebe-Fackel nicht.</l>
+          <lb/>
+          <l>Die Schwartzen ſind auch ſchoͤn/ ja ſchoͤner als die Weiſſen/</l>
+          <lb/>
+          <l>So wie der Alabaſt vor ſchwartzen <hi rendition="#aq">Marmor</hi> weicht/</l>
+          <lb/>
+          <l>Und wie die Tanne nicht dem Eben-Holtze gleicht/</l>
+          <lb/>
+          <l>So muſt du praͤchtiger als weiſſe Jungfern heiſſen.</l>
+        </lg>
+      </div>
+
+      <div n="28">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababcdcdefe">
+            <l><hi rendition="#in">M</hi>ein Maͤdgen das ſoll ſeyn</l>
+            <lb/>
+            <l>Ein Kind von boͤſen Sinnen/</l>
+            <lb/>
+            <l>Des Lippen ſich erfreun</l>
+            <lb/>
+            <l>Wenn ſie frech ſchwatzen kuͤnnen.</l>
+            <lb/>
+            <l>Das frech und ſchoͤne iſt</l>
+            <lb/>
+            <l>Das Schlaͤge nimmt und giebet/</l>
+            <lb/>
+            <l>Das nach den Schlaͤgen kuͤßt/</l>
+            <lb/>
+            <l>Und deſto hefftger liebet.</l>
+            <lb/>
+            <l>Wenn es nicht ſo geſinnt/</l>
+            <lb/>
+            <l>Kenſch/ ſitſahm iſt hingegen/</l>
+            <lb/>
+            <l>So ſchlag’ ichs in den Wind/</l>
+            <lb/>
+            <l>Und wils nicht bey mir hegen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="29">
+        <lg type="poem">
+          <lg type="stanza" rhyme="aabbccddeeffgghhiijjkkll">
+            <l><hi rendition="#in">M</hi>ich hub des Gluͤckes-Gunſt zu den geſtirnten Hoͤhen/</l>
+            <lb/>
+            <l>Als ich die <hi rendition="#aq">Lesbia</hi> ſah in mein Zimmer gehen/</l>
+            <lb/>
+          </lg>
+          <fw type="sig" place="bottom">J 5</fw>
+          <fw type="catch" place="bottom">Es</fw>
+          <lb/>
+          <pb n="138" facs="#f0156"/>
+          <fw type="header" place="top"><hi rendition="#b">Verliebte und <hi rendition="#aq"
+                >galante</hi> Gedichte.</hi></fw>
+          <lb/>
+          <l>Es lachte mich ihr Mund mit holden Blicken an/</l>
+          <lb/>
+          <l>Die Augen waren mir mit Anmuth zugethan</l>
+          <lb/>
+          <l>Kein Blitz mag nicht ſo bald durch ſchwartze Wolcken ſpielen/</l>
+          <lb/>
+          <l>Als ſie der Augen-Strahl ließ auf mein Hertze zielen/</l>
+          <lb/>
+          <l>Der den Cryſtallen-Schein des Mondes uͤberſteigt/</l>
+          <lb/>
+          <l>Wenn er ſich bey der Nacht in vollem Wachsthum zeigt.</l>
+          <lb/>
+          <l>So wie kein Demant kan der Sonnen-Glantz verdringen/</l>
+          <lb/>
+          <l>Noch ein begraut <hi rendition="#aq">Magnet</hi> das weiſſe Silber zwingen/</l>
+          <lb/>
+          <l>So geht der Wangen-Pracht des Himmels Golde fuͤr/</l>
+          <lb/>
+          <l>Wenn ſich <hi rendition="#aq">Matuta</hi> zeigt in ihrer ſchoͤnſten Zier.</l>
+          <lb/>
+          <l>Die Lilje kroͤhnt das Haupt/ die Roſe deckt die Wangen/</l>
+          <lb/>
+          <l>Die Lippen mit Rubin wie Morgen-Roſen prangen/</l>
+          <lb/>
+          <l>Vor ihrer Augen-Glantz der Sternen Printz entweicht/</l>
+          <lb/>
+          <l>Und vor der Bruͤſte-Schnee des Himmels-Schnee erbleicht.</l>
+          <lb/>
+          <l>Vor Hitze haͤtte ich wie Wachs zerſchmeltzen muͤſſen/</l>
+          <lb/>
+          <l>Als ich dis ſchoͤne Kind ſo nahe muſte wiſſen/</l>
+          <lb/>
+          <l>Wenn deſſen Freundlichkeit mir nicht den Lippen Safft</l>
+          <lb/>
+          <l>Jn dieſem Liebes-Brand zur Kuͤhlung angeſchafft.</l>
+          <lb/>
+          <l>Jch kuͤhlte meine Hand bey ihren ſchoͤnen Bruͤſten/</l>
+          <lb/>
+          <l>Die wegen ihrer Pracht den Engeln ſelbſt geluͤſten/</l>
+          <lb/>
+          <l>Sie war recht wunder-ſchoͤn/ und freundlich mit dabey/</l>
+          <lb/>
+          <l>Ach Himmel gib/ daß ſie ſo ſtets geſinnet ſey.</l>
+        </lg>
+      </div>
+
+      <div n="30">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababccddee">
+            <l>Der Kern iſt auffgezehrt/ zieh nur die Schaalen ein/</l>
+            <lb/>
+            <l>Vergrabe nicht den Schatz/ den man nicht mahl begehrt/</l>
+            <lb/>
+            <l>Die leeren Traͤbern muß man vor die Schweine ſtreun/</l>
+            <lb/>
+            <l>Es muß was feiners ſeyn/ was ſolch ein Gaſt verehrt/</l>
+            <lb/>
+            <l>Als deine abgenuͤtzte Bruſt</l>
+            <lb/>
+            <l>Der Maden Luſt.</l>
+            <lb/>
+            <l>Sie ſehn natuͤrlich aus wie ausgeleerte Taſchen</l>
+            <lb/>
+            <l>Darinnen nichts zu naſchen</l>
+            <lb/>
+            <l>Vor friſche Buhlers iſt/</l>
+            <lb/>
+            <l>Der Wurm und Krebs ſie friſt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="31">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabbccdd">
+            <l><hi rendition="#in">Z</hi>ucht/ Tugend/ Ehr und Pracht von dieſer Tafel ſtrahlen/</l>
+            <lb/>
+            <l>Die <hi rendition="#aq">Venus</hi> will ſich ſelbſt auf denen Wangen mahlen/</l>
+            <lb/>
+            <l>Die todten Augen ſind erfuͤllt mit Liebes-Gluth/</l>
+            <lb/>
+            <l>Der Bruͤſte <hi rendition="#aq">Marmor-</hi>Schein erhitzt das kalte Blut.</l>
+            <lb/>
+            <fw type="catch" place="bottom">Wenn</fw>
+            <lb/>
+            <pb n="373" facs="#f0391"/>
+            <fw type="header" place="top"><hi rendition="#b">Sinn-Gedichte.</hi></fw>
+            <lb/>
+            <l>Wenn aber <hi rendition="#aq">Silvia</hi> ſich als ein Wunder zeiget/</l>
+            <lb/>
+            <l>Wie aus den Augen Feur als einem <hi rendition="#aq">Æthna</hi> ſteiget/</l>
+            <lb/>
+            <l>Wie ihre Bruſt ein Schnee der voller Flammen ſteckt/</l>
+            <lb/>
+            <l>So wird die Liebes-Gluth in Hertz und Sinn erweckt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="32">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abab">
+            <l><hi rendition="#in">J</hi>hr <hi rendition="#aq">Doctors</hi> in der Welt eur Witz
+              und eure Haͤnde</l>
+            <lb/>
+            <l>Sind nicht von ſolcher Krafft als dieſes Wunder-Bild/</l>
+            <lb/>
+            <l>Wo iſt die <hi rendition="#aq">Medicin</hi> die gleich die Kranckheit ende?</l>
+            <lb/>
+            <l>Als dieſe/ Schatz und Licht/ der Schmertz iſt ſchon geſtillt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="33">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababccd">
+            <l>Jhr koͤntet noch vielmehr in meinem Kaſten ſehn/</l>
+            <lb/>
+            <l>Allein ich werde nur ein weniges noch zeigen/</l>
+            <lb/>
+            <l>Schaut her/ hier ſehet ihr ein ſchoͤnes Braut-Bett ſtehn/</l>
+            <lb/>
+            <l>Worin der Braͤutigam mit ſeiner Braut wil ſteigen/</l>
+            <lb/>
+            <l>Die Wiege ſteht nicht weit von dar</l>
+            <lb/>
+            <l>Und wartet auf drey viertel Jahr.</l>
+            <lb/>
+            <l>Schoͤne Raritaͤt/ ſchoͤne Spiele-Werckeꝛc.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="34">
+        <lg type="poem">
+          <head><hi rendition="#b">An die falſche <hi rendition="#aq">Phyllis.</hi></hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">1.</hi></head>
+            <lb/>
+            <l><hi rendition="#aq"><hi rendition="#in">P</hi>hyllis</hi> deine Heuchel-Thraͤnen</l>
+            <lb/>
+            <l>Sind den Crocodillen gleich/</l>
+            <lb/>
+            <l>Und dein ſtarck verſtelltes Sehnen</l>
+            <lb/>
+            <l>Koͤmmt aus der <hi rendition="#aq">Syrenen</hi> Reich;</l>
+            <lb/>
+            <l>Die zu unſern groſſen Schaden</l>
+            <lb/>
+            <l>Uns mit ſuͤſſer Stimm’ einladen.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">2.</hi></head>
+            <lb/>
+            <l>Deiner Augen dunckle Blicke/</l>
+            <lb/>
+            <l>Und dein ſtets verſchloſſner Mund/</l>
+            <lb/>
+            <l>Zeigen klaͤhrlich deine Tuͤcke</l>
+            <lb/>
+            <l>Und des falſchen Hertzens-Grund/</l>
+            <lb/>
+            <l>Wo Betrug und Argliſt wohnen/</l>
+            <lb/>
+            <l>So die Lieb mit Weh belohnen.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">3.</hi></head>
+            <lb/>
+            <l>Biete die geſchminckten Waaren</l>
+            <lb/>
+            <l>Nur bey andern Kaͤuffern aus/</l>
+            <lb/>
+            <fw type="sig" place="bottom">S 4</fw>
+            <fw type="catch" place="bottom">Zieh</fw>
+            <lb/>
+            <pb n="280" facs="#f0298"/>
+            <fw type="header" place="top"><hi rendition="#b">Verliebte und <hi rendition="#aq"
+                  >galante Arien.</hi></hi></fw>
+            <lb/>
+            <l>Zieh mit den gefaͤrbten Haaren</l>
+            <lb/>
+            <l>Andre in der Wolluſt-Haus/</l>
+            <lb/>
+            <l>Die dein falſches Hertz nicht kennen</l>
+            <lb/>
+            <l>Und vor eitler Liebe brennen.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">4.</hi></head>
+            <lb/>
+            <l>Jch verfluche deinen Haven/</l>
+            <lb/>
+            <l>Und den Luſt-getuͤnchten Strand/</l>
+            <lb/>
+            <l>Kauff mit deinem Leibe Sclaven</l>
+            <lb/>
+            <l>Den dein Falſch-ſeyn unbekandt/</l>
+            <lb/>
+            <l>Jch will dein falben Lippen</l>
+            <lb/>
+            <l>Meiden gleich den ſcharffen Klippen.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">5.</hi></head>
+            <lb/>
+            <l>Nimm von meinen Armen wieder</l>
+            <lb/>
+            <l>Das beperlte Liebes-Haar/</l>
+            <lb/>
+            <l>Schaͤmet euch ihr meine Glieder/</l>
+            <lb/>
+            <l>Daß die Nattern gleiche Waar</l>
+            <lb/>
+            <l>Jn dem Buſen ihr gefuͤhret</l>
+            <lb/>
+            <l>Und damit ſo braff ſioltzieret.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="ababcc">
+            <head><hi rendition="#c">6.</hi></head>
+            <lb/>
+            <l>Jhr bethoͤrte Geiſter fliehet/</l>
+            <lb/>
+            <l>Die entzuͤckende <hi rendition="#aq">Syren,</hi></l>
+            <lb/>
+            <l>Die in Hoͤll’ und Abgrund ziehet</l>
+            <lb/>
+            <l>Durch ihr falſches Luſt-Gethoͤn/</l>
+            <lb/>
+            <l>Stopffet zu die luͤſtern Ohren</l>
+            <lb/>
+            <l>Daß eur Schiff nicht geh verlohren.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="35">
+        <lg type="poem">
+          <head><hi rendition="#b">Sie entdecket ihm ihre Gegen-Liebe.</hi><lb/>
+            <hi rendition="#c"><hi rendition="#aq"><hi rendition="#i">Cantata.</hi></hi></hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababcddcbab">
+            <head><hi rendition="#c"><hi rendition="#aq"><hi rendition="#g"
+              >ARIOSO</hi>.</hi></hi></head>
+            <lb/>
+            <l><hi rendition="#in">M</hi>ein Schatz/ du haſt geſiegt/</l>
+            <lb/>
+            <l>Mein Hertze iſt dein eigen</l>
+            <lb/>
+            <l>Denn wo die Liebe kriegt/</l>
+            <lb/>
+            <l>Da muß ſich alles neigen.</l>
+            <lb/>
+            <l>Doch/ ja ich bin vergnuͤgt/</l>
+            <lb/>
+            <l>Weil du gefangen</l>
+            <lb/>
+            <l>Da du als Sieger denckſt zu prangen.</l>
+            <lb/>
+            <l>Jedoch du haſt geſiegt</l>
+            <lb/>
+            <l>Mein Hertze iſt dein eigen;</l>
+            <lb/>
+            <l>Denn wo die Liebe kriegt</l>
+            <lb/>
+            <l>Da muß ſich alles neigen.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabccb">
+            <head><hi rendition="#c"><hi rendition="#aq"><hi rendition="#g"
+              >RECIT</hi>.</hi></hi></head>
+            <lb/>
+            <l>Doch mein Verluſt</l>
+            <lb/>
+            <l>Wil meine Bruſt</l>
+            <lb/>
+            <l>Als Sieger gruͤſſen;</l>
+            <lb/>
+            <l>Der vielen obgeſiegt</l>
+            <lb/>
+            <l>Zu meinen Fuͤſſen liegt</l>
+            <lb/>
+            <l>Jn Demuth ſie zu kuͤſſen.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="aabccb">
+            <head><hi rendition="#c"><hi rendition="#aq"><hi rendition="#g"
+              >ARIA</hi>.</hi></hi></head>
+            <lb/>
+            <l>Jn der Liebe ſuͤſſen Kriegen</l>
+            <lb/>
+            <l>Muß der Sieger unten liegen</l>
+            <lb/>
+            <l>Die Beſiegte kriegt den Krantz/</l>
+            <lb/>
+            <l>Keiner kan von Vortheil ſagen/</l>
+            <lb/>
+            <l>Man hoͤrt ſonſt auch keine Klagen</l>
+            <lb/>
+            <l>Als es ſtirbt der Freyheits-Glantz.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="36">
+        <lg type="poem">
+          <head><hi rendition="#b">Er preiſet ſein Gluͤck.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="aabaccddaeea">
+            <head><hi rendition="#c">1.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">D</hi>ie ſuͤſſe Stunde bricht ſchon an/</l>
+            <lb/>
+            <l>Die meinen Geiſt vergnuͤgen kan/</l>
+            <lb/>
+            <l>Mit laͤngſt begehrter Liebes-Luſt.</l>
+            <lb/>
+            <l>Es fehlet nur daran</l>
+            <lb/>
+            <l>Ein bald verſchwundner Augen-Blick</l>
+            <lb/>
+            <l>So bluͤht im Pracht mein hoͤchſtes Gluͤck</l>
+            <lb/>
+            <l>Das mich mit <hi rendition="#aq">Amors</hi>-Luͤſten ziert</l>
+            <lb/>
+            <l>Und ein in <hi rendition="#aq">Eden</hi> fuͤhrt.</l>
+            <lb/>
+            <l>Jn Kurtzem iſts gethan/</l>
+            <lb/>
+            <l>Daß ich mein Engel gantz gewiß</l>
+            <lb/>
+            <l>Jn deinen engen Paradies</l>
+            <lb/>
+            <l>Die Roſen brechen kan.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabaccddaffa">
+            <head><hi rendition="#c">2.</hi></head>
+            <lb/>
+            <l>Dein ſchoͤner Mund der ſpricht das Ja/</l>
+            <lb/>
+            <l>Und ein gewuͤnſchter Schluß iſt da/</l>
+            <lb/>
+            <l>Daß ich dich bald/ Annehmlichſte.</l>
+            <lb/>
+            <l>Jn hoͤchſter Luſt umpfah</l>
+            <lb/>
+            <l>Wie freut ſich doch darob mein Geiſt</l>
+            <lb/>
+            <l>Daß ſich dein Paradies auffſchleußt</l>
+            <lb/>
+            <l>Und mir die Anmuth nicht verwehrt</l>
+            <lb/>
+            <l>Die <hi rendition="#aq">Amor</hi> zugehoͤrt</l>
+            <lb/>
+            <l>Bey dir <hi rendition="#aq">Bellandera</hi></l>
+            <lb/>
+            <l>Du theileſt ſeine Schaͤtze ſchon/</l>
+            <lb/>
+            <l>Und reicheſt mir der Liebe-Lohn</l>
+            <lb/>
+            <l>Durch ein verſuͤßtes Ja.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="37">
+        <lg type="poem">
+          <head><hi rendition="#b">Sie beklaget im Cloſter den Todt ihres<lb/>
+              <hi rendition="#aq">Amanten.</hi></hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="abbacc">
+            <head><hi rendition="#c">1.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">J</hi>hr truͤben Augen weinet Blut/</l>
+            <lb/>
+            <l>Jhr ſpahret nur die ſchlechten Zaͤhren/</l>
+            <lb/>
+            <l>Ergieſſet euch/ ich kans nicht wehren/</l>
+            <lb/>
+            <l>Quilt/ wie ein friſcher Brunnen thut.</l>
+            <lb/>
+            <l>Der herbe Schmertz/ ſo meine Bruſt bekrieget/</l>
+            <lb/>
+            <l>Wird nimmermehr durch Froͤlichkeit beſieget</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abbacc">
+            <head><hi rendition="#c">2.</hi></head>
+            <lb/>
+            <l>Mein mattes Hertze furchtſahm bebt/</l>
+            <lb/>
+            <l>Der Coͤrper wird ſehr hart gequaͤhlet/</l>
+            <lb/>
+            <l>Wie! daß ich nicht ſchon laͤngſt entſeelet!</l>
+            <lb/>
+            <l>Das Schickſahl! ſo beym Sternen ſchwebt/</l>
+            <lb/>
+            <l>Hat mich wol recht zum Marter-Holtz erſehen/</l>
+            <lb/>
+            <l>Jch ſoll davon/ und darf doch nicht vergehen.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="abbacc">
+            <head><hi rendition="#c">3.</hi></head>
+            <lb/>
+            <l>Die ſtarcke Stuͤtze iſt entzwey/</l>
+            <lb/>
+            <l>Worauf ich mich vor dem gelehnet;</l>
+            <lb/>
+            <l>Wornach der Geiſt ſich ſonſt geſehnet/</l>
+            <lb/>
+            <l>Jſt nicht mehr da/ und ſchon vorbey.</l>
+            <lb/>
+            <l>Ein Donner ſchlaͤgt mit Sturm und lichten Blitzen</l>
+            <lb/>
+            <l>Starck zu mir ein/ wer wil mich nun beſchuͤtzen?</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="abbacc">
+            <head><hi rendition="#c">4.</hi></head>
+            <lb/>
+            <l>Mein helles Sonnen-Licht iſt fort/</l>
+            <lb/>
+            <l>Der Himmel iſt durchaus verdunckelt/</l>
+            <lb/>
+            <l>So daß kein Freuden Stern mehr funckelt;</l>
+            <lb/>
+            <l>Hier iſt der rechte Jammer-Ort/</l>
+            <lb/>
+            <l>Wo nichts als Nacht und duͤſtre Finſterniſſen</l>
+            <lb/>
+            <l>Die matte Bruſt und ſchwachen Geiſt umſchlieſſen.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="abbacc">
+            <head><hi rendition="#c">5.</hi></head>
+            <lb/>
+            <l>Wo ſoll ich nun ein helles Licht</l>
+            <lb/>
+            <l>Jn meiner Angſt und Schrecken finden?</l>
+            <lb/>
+            <l>Die Dunckelheit wil nicht verſchwinden</l>
+            <lb/>
+            <l>Bis mir der Tod das Hertze bricht.</l>
+            <lb/>
+            <l>Wohlan mein Geiſt! bereite dich zum Sterben</l>
+            <lb/>
+            <l>Du kanſt doch nichts als Tod und Grab erwerben.</l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">S</fw>
+          <fw type="catch" place="bottom">6. So</fw>
+          <lb/>
+          <pb n="274" facs="#f0292"/>
+          <fw type="header" place="top"><hi rendition="#b">Verliebte und <hi rendition="#aq">galante
+                Arien.</hi></hi></fw>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="abbacc">
+            <head><hi rendition="#c">6.</hi></head>
+            <lb/>
+            <l>So ſage ich denn gute Nacht</l>
+            <lb/>
+            <l>Der Welt und ihren falſchen Freuden/</l>
+            <lb/>
+            <l>Womit ſie will die Sinnen weiden/</l>
+            <lb/>
+            <l>Daſſelbe wird von mir verlacht.</l>
+            <lb/>
+            <l>Mein Ohr iſt taub die Lieder anzuhoͤren/</l>
+            <lb/>
+            <l>Damit ſie denckt mein Hertze zu bethoͤren.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="38">
+        <lg type="poem">
+          <head><hi rendition="#b">Sie iſt zu grauſahm.</hi></head>
+          <lb/>
+          <head><hi rendition="#c"><hi rendition="#aq"><hi rendition="#i"
+            >Cantata.</hi></hi></hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="abccbaab">
+            <head><hi rendition="#c"><hi rendition="#aq"><hi rendition="#g"
+              >ARIA.</hi></hi></hi></head>
+            <lb/>
+            <l><hi rendition="#in">F</hi>elſen brechen/ Steine ſpringen/</l>
+            <lb/>
+            <l>Aber du bleibſt immer hart/</l>
+            <lb/>
+            <l>Meine Seuffzer/ meine Zaͤhren/</l>
+            <lb/>
+            <l>Will dein Ohr niemahls erhoͤren;</l>
+            <lb/>
+            <l>Du biſt eine Tyger Art</l>
+            <lb/>
+            <l>Sonſten wuͤrde man dich zwingen.</l>
+            <lb/>
+            <l>Felſen brechen/ Steine ſpringen</l>
+            <lb/>
+            <l>Aber du bleibſt immer hart.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Soll</fw>
+          <lb/>
+          <pb n="319" facs="#f0337"/>
+          <fw type="header" place="top"><hi rendition="#b">Verliebte und <hi rendition="#aq">galante
+                Arien.</hi></hi></fw>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abcacdab">
+            <l>Soll ich ſterben?</l>
+            <lb/>
+            <l>Ey wohlan!</l>
+            <lb/>
+            <l>Jch will mich dazu bereiten/</l>
+            <lb/>
+            <l>Weil ich doch nicht leben ſoll.</l>
+            <lb/>
+            <l>Mag ein Seuffzer mich begleiten</l>
+            <lb/>
+            <l>Jſt mir auch im Grabe wohl.</l>
+            <lb/>
+            <l>Mein Verderben</l>
+            <lb/>
+            <l>Heiſſet jeder wohlgethan.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="abccbab">
+            <head><hi rendition="#c"><hi rendition="#aq"><hi rendition="#g"
+              >ARIA.</hi></hi></hi></head>
+            <lb/>
+            <l>Plage/ quaͤhle/ ich erdulde</l>
+            <lb/>
+            <l>Aller Marter Centner-Laſt/</l>
+            <lb/>
+            <l>Denn wenn ich alſo geſtorben</l>
+            <lb/>
+            <l>Hab ich dieſen Troſt erworben/</l>
+            <lb/>
+            <l>Daß ein Maͤrterer erblaßt.</l>
+            <lb/>
+            <l>Plage/ quaͤhle ich erdulde</l>
+            <lb/>
+            <l>Aller Marter Centner-Laſt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="39">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abbacddc">
+            <l><hi rendition="#in">W</hi>as ſoll dein Schatten-Bild annehmliche <hi rendition="#aq"
+                >Lyſette?</hi></l>
+            <lb/>
+            <l><hi rendition="#et">Deiner holden Schoͤnheit-Zier</hi></l>
+            <lb/>
+            <l><hi rendition="#et">Stelt kein ſchlechter Pinſul fuͤr.</hi></l>
+            <lb/>
+            <l>Es ſtehet zwar das Bild recht unvergleichlich nette/</l>
+            <lb/>
+            <l>Doch das <hi rendition="#aq">Original</hi> weit mehr Verehrer findet/</l>
+            <lb/>
+            <l><hi rendition="#et">Stelle mir daſſelbe zu/</hi></l>
+            <lb/>
+            <l><hi rendition="#et">So vermehrſt du meine Ruh/</hi></l>
+            <lb/>
+            <l>Die ſich auf deine Gunſt als ihren Ancker gruͤndet.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="40">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababcca">
+            <l>Und du o Gott erhoͤre doch!</l>
+            <lb/>
+            <l>Mein Flehen und mein heiſſes Bitten/</l>
+            <lb/>
+            <l>Laß deine Gnade ferner noch</l>
+            <lb/>
+            <l>Mit reicher Wolluſt ſie beſchuͤtten.</l>
+            <lb/>
+            <l>Gib/ daß kein boͤſer Unfall ruͤhrt</l>
+            <lb/>
+            <l>Was nur von uns den Nahmen fuͤhrt.</l>
+            <lb/>
+            <l>Und du o GOtt erhoͤr es doch!</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="41">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababccd">
+            <l>Vor andern aber kommt Herr <hi rendition="#aq">Binnius</hi> hervor/</l>
+            <lb/>
+            <l>Der an der rechten Hand die Jungfer Graͤntzin fuͤhret:</l>
+            <lb/>
+            <l>Sie treten beyderſeits vor andern hoch empor</l>
+            <lb/>
+            <l>Weil Braut und Braͤutigam die ehre ſo gebuͤhret.</l>
+            <lb/>
+            <l>Sie ſcheinen beyde recht vergnuͤgt</l>
+            <lb/>
+            <l>Daß ſie die Liebe hat beſiegt.</l>
+            <lb/>
+            <l>Schoͤne Raritaͤt/ ſchoͤne Spiele-Werckeꝛc.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="42">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abab">
+            <l><hi rendition="#in">G</hi>OTT war ich nicht getreu/ wie jener Jacob war</l>
+            <lb/>
+            <l>Drum muſte ich zur Straff mein Engelland verlaſſen.</l>
+            <lb/>
+            <l>Der Pabſt und Franckreich gab mir Volck und Geld zwar dar/</l>
+            <lb/>
+            <l>Doch dem hilfft keiner nicht/ den GOTT und Himmel haſſen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="43">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abba">
+            <l><hi rendition="#in">J</hi>ch weiß/ <hi rendition="#aq">Fabulla,</hi> wol/ daß du
+              recht ſchoͤne biſt</l>
+            <lb/>
+            <l>Dein Auge ſtrahlet Blitz/ vortrefflich iſt die Bruſt/</l>
+            <lb/>
+            <l>Doch/ weil dir deine Pracht mehr denn zu viel bewuſt/</l>
+            <lb/>
+            <l>So nimmt der Hoffarth weg was dir verliehen iſt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="44">
+        <lg type="poem">
+          <head><hi rendition="#b">Er beklaget ihre Grauſamkeit.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababcdcd">
+            <head><hi rendition="#c">1.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">J</hi>hr Fluͤſſe/ und ihr harten Steine/</l>
+            <lb/>
+            <l>Seyd Zeugen meiner Liebes-Pein/</l>
+            <lb/>
+            <l>Jhr wißt wie offtmahls ich beweine</l>
+            <lb/>
+            <l>Der ſchoͤnen <hi rendition="#aq">Syris</hi> Grauſahm-ſeyn.</l>
+            <lb/>
+            <l>Es ſollen ſich mit euch vermiſchen</l>
+            <lb/>
+            <l>Die Thaͤnen/ ſo mein Haupt vergeußt</l>
+            <lb/>
+            <l>Es ſoll das duͤrre Feld erfriſchen</l>
+            <lb/>
+            <l>Der Zaͤhren-Thau der von mir fleußt.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">2. Die</fw>
+          <lb/>
+          <pb n="281" facs="#f0299"/>
+          <fw type="header" place="top"><hi rendition="#b">Verliebte und <hi rendition="#aq">galante
+                Arien.</hi></hi></fw>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababcdcd">
+            <head><hi rendition="#c">2.</hi></head>
+            <lb/>
+            <l>Die <hi rendition="#aq">Echo</hi> ſtimmet meinen Klagen</l>
+            <lb/>
+            <l>Mit ihrer Jammer-Stimme bey.</l>
+            <lb/>
+            <l>Und mehret meiner Schwermuth-Plagen</l>
+            <lb/>
+            <l>Durch wiederholtes Angſt-Geſchrey.</l>
+            <lb/>
+            <l>Der Jammer zehret ab mein Leben</l>
+            <lb/>
+            <l>Und treibt mich zur Verzweiffelung;</l>
+            <lb/>
+            <l>Wird <hi rendition="#aq">Syris</hi> mir noch widerſtreben</l>
+            <lb/>
+            <l>Empfind’ ich keine Linderung?</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcdcd">
+            <head><hi rendition="#c">3.</hi></head>
+            <lb/>
+            <l>Das Ungluͤck ſchieſt mit ſeinen Pfeilen</l>
+            <lb/>
+            <l>Auf mein betruͤbtes Hertze zu/</l>
+            <lb/>
+            <l>Und keiner kan die Wunden heilen</l>
+            <lb/>
+            <l>Es weiß mein Geiſt von keiner Ruh/</l>
+            <lb/>
+            <l>Da <hi rendition="#aq">Syris,</hi> deren ſteinern Hertze</l>
+            <lb/>
+            <l>Von keiner Liebes-Gluth entbrennt/</l>
+            <lb/>
+            <l>Nur lacht zu meiner Seelen-Schmertze</l>
+            <lb/>
+            <l>Und ſich mit Freuden grauſahm nennt.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababcdcd">
+            <head><hi rendition="#c">4.</hi></head>
+            <lb/>
+            <l>Soll denn mein Angſt-beſeltes Schreyen</l>
+            <lb/>
+            <l>Niemahls erweichen deine Bruſt?</l>
+            <lb/>
+            <l>Soll ſich mein Leiden ſtets verneuen?</l>
+            <lb/>
+            <l>Schafft dir denn meine Folter Luſt?</l>
+            <lb/>
+            <l>So laß der Augen heiſſes Blitzen</l>
+            <lb/>
+            <l>So fort verzehren meinen Geiſt</l>
+            <lb/>
+            <l>Denn was kan dir mein Jammer nuͤtzen</l>
+            <lb/>
+            <l>Wenn ſich dein Paradies verſchleußt?</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababcdcd">
+            <head><hi rendition="#c">5.</hi></head>
+            <lb/>
+            <l>Wo nicht ſo ſchaffe daß mein Hoffen</l>
+            <lb/>
+            <l>Den frohen Haven bald erreicht:</l>
+            <lb/>
+            <l>Steht denn dein Paradies mir offen</l>
+            <lb/>
+            <l>So mache/ daß der Engel weicht</l>
+            <lb/>
+            <l>Der mit dem Schwerdte deines Zornes</l>
+            <lb/>
+            <l>Den Gang zum Lebens-Baum verwehrt/</l>
+            <lb/>
+            <l>So wird mein Schatz des Wolluſt-Hornes</l>
+            <lb/>
+            <l>Jn dir mein <hi rendition="#aq">Eden</hi> ausgeleert.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="45">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <l><hi rendition="#in">S</hi>ie ſiehet/ ſchoͤnſtes Kind/ und wird alsbald geſehen/</l>
+            <lb/>
+            <l>Wenn ſie ihr Auge låſt in einen Spiegel gehen/</l>
+            <lb/>
+            <l>Darinnen zeiget ſich der Schoͤnheit beſte Pracht/</l>
+            <lb/>
+            <l>Zu der Vollkommenheit mit vollen Munde lacht.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="46">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abba">
+            <l><hi rendition="#in">M</hi>ein Leſer ſtelle doch das Gehen etwas ein/</l>
+            <lb/>
+            <l>Mir raubte/ da ich war/ ein ſteinern Hertz die Ruh/</l>
+            <lb/>
+            <l>Und jetzo giebt der Tod mir einen Stein dazu/</l>
+            <lb/>
+            <l>So muß ich/ weil ich war/ und todt bey Steinen ſeyn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="47">
+        <lg type="poem">
+          <head><hi rendition="#b">An die ſtrenge <hi rendition="#aq">Silvia.</hi></hi><lb/>
+            <hi rendition="#c"><hi rendition="#aq"><hi rendition="#i">Folie d’
+              Eſpagne.</hi></hi></hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="aabbccdd">
+            <head><hi rendition="#c">1.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">D</hi>U ſtrenge <hi rendition="#aq">Silvia,</hi></l>
+            <lb/>
+            <l>Jch bin dem Tode nah/</l>
+            <lb/>
+            <l>Mich ſchreibt dein Grauſahm-ſeyn</l>
+            <lb/>
+            <l>Jns Buch des Todes ein.</l>
+            <lb/>
+            <l>Erbarm dich meiner Noht/</l>
+            <lb/>
+            <l>Und wuͤnſch nicht meinen Tod</l>
+            <lb/>
+            <l>Blick mich in Gnaden an/</l>
+            <lb/>
+            <l>Daß ich dich kuͤſſen kan.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabbccdd">
+            <head><hi rendition="#c">2.</hi></head>
+            <lb/>
+            <l>Du ſchoͤne Moͤrderinn</l>
+            <lb/>
+            <l>Zerbrich den harten Sinn/</l>
+            <lb/>
+            <l>Dein Hertze laß nicht Stein</l>
+            <lb/>
+            <l>Noch Stahl und Eiſen ſeyn.</l>
+            <lb/>
+            <l>Jch falle dir zu Fuß</l>
+            <lb/>
+            <l>Um einem Blick und Kuß/</l>
+            <lb/>
+            <l>Doch muß zu groͤßrer Pein</l>
+            <lb/>
+            <l>Mich kraͤncken falſcher Schein.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="aabbccdd">
+            <head><hi rendition="#c">3.</hi></head>
+            <lb/>
+            <l>Jch kuͤſſe ſchoͤnſtes Kind</l>
+            <lb/>
+            <l>Nur eitel Dunſt und Wind/</l>
+            <lb/>
+            <l>Wenn ich dich kuͤſſen will</l>
+            <lb/>
+            <l>Und du mir nicht haͤlſt ſtill.</l>
+            <lb/>
+            <fw type="sig" place="bottom">P 4</fw>
+            <fw type="catch" place="bottom">Jch</fw>
+            <lb/>
+            <pb n="232" facs="#f0250"/>
+            <fw type="header" place="top"><hi rendition="#b">Verliebte und <hi rendition="#aq"
+                  >galante Arien.</hi></hi></fw>
+            <lb/>
+            <l>Jch ſpuͤhre Hoͤllen-Pein/</l>
+            <lb/>
+            <l>Und kan nicht froͤlich ſeyn/</l>
+            <lb/>
+            <l>Da meine Freud und Luſt</l>
+            <lb/>
+            <l>Beſchwaͤrtzt ein Trauer-Wuſt.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="aabbccdd">
+            <head><hi rendition="#c">4.</hi></head>
+            <lb/>
+            <l>Mein Hertze bricht entzwey</l>
+            <lb/>
+            <l>Vor deiner Tyranney/</l>
+            <lb/>
+            <l>Du haͤuffeſt meinen Schmertz/</l>
+            <lb/>
+            <l>Und folterſt ſtets mein Hertz.</l>
+            <lb/>
+            <l>Durch deiner Augen-Strahl</l>
+            <lb/>
+            <l>Der mir nur Hoͤllen-Quaal</l>
+            <lb/>
+            <l>Vor ſanffte Blicke goͤnnt/</l>
+            <lb/>
+            <l>Und meinen Geiſt verbrennt.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="aabbccdd">
+            <head><hi rendition="#c">5.</hi></head>
+            <lb/>
+            <l>Bringt denn ein Blick und Kuß</l>
+            <lb/>
+            <l>Dir ſo viel Uberdruß?</l>
+            <lb/>
+            <l>Daß mein verliebtes Hertz</l>
+            <lb/>
+            <l>Von dir nur Seelen Schmertz</l>
+            <lb/>
+            <l>Vor ſuͤſſes Hoffen kriegt</l>
+            <lb/>
+            <l>Und ſich mit nichts vergnuͤgt/</l>
+            <lb/>
+            <l>Wenn es ſo ſehr begehrt/</l>
+            <lb/>
+            <l>Daß es dein Strahl ernehrt.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="aabbccdd">
+            <head><hi rendition="#c">6.</hi></head>
+            <lb/>
+            <l>Laß ab doch <hi rendition="#aq">Silvia,</hi></l>
+            <lb/>
+            <l>Und reich mir Huͤlffe da/</l>
+            <lb/>
+            <l>Schenck mir den Kuß und Blick</l>
+            <lb/>
+            <l>Daß er mein Hertz erquick.</l>
+            <lb/>
+            <l>Der Augen ſanffter Strahl</l>
+            <lb/>
+            <l>Vertreibe meine Quaal/</l>
+            <lb/>
+            <l>Mein Kind umarme mich</l>
+            <lb/>
+            <l>Und ſchlieſſe mich an dich.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="48">
+        <lg type="poem">
+          <head><hi rendition="#b">Er bittet um ihre Gunſt.</hi></head>
+          <lb/>
+          <head><hi rendition="#c"><hi rendition="#aq"><hi rendition="#i"
+            >Cantata.</hi></hi></hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="aabccbaab">
+            <head><hi rendition="#c"><hi rendition="#aq"><hi rendition="#g"
+              >ARIA.</hi></hi></hi></head>
+            <lb/>
+            <l><hi rendition="#in">A</hi>ch ihr wunder ſchoͤnen Augen</l>
+            <lb/>
+            <l>Darf ich wol die Flammen ſaugen/</l>
+            <lb/>
+            <l>Die eur Weſen in ſich hegt.</l>
+            <lb/>
+            <l>Jch will gern deswegen ſterben/</l>
+            <lb/>
+            <l>Und in einem Feur verderben/</l>
+            <lb/>
+            <l>Das die Liebe angelegt;</l>
+            <lb/>
+            <l>Ach ihr wunder ſchoͤnen Augen</l>
+            <lb/>
+            <l>Darf ich wol die Flammen ſaugen/</l>
+            <lb/>
+            <l>Die eur Weſen in ſich hegt.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabbccddeeff">
+            <l>Sprecht nur das Ja!</l>
+            <lb/>
+            <l>Mein Will’ iſt da/</l>
+            <lb/>
+            <l>Jch will mich ſelbſt verbrennen/</l>
+            <lb/>
+            <l>Doch muͤſt ihr mir zum Scheiter-Hauffen goͤnnen</l>
+            <lb/>
+            <l>Die ſchoͤne Bruſt</l>
+            <lb/>
+            <l>Jch will mit Luſt</l>
+            <lb/>
+            <l>Jn eure Flammen lauffen/</l>
+            <lb/>
+            <l>Wenn ich auf dieſen ſchoͤnen Hauffen</l>
+            <lb/>
+            <l>Den letzten Oden ziehen mag.</l>
+            <lb/>
+            <l>Beſtimmet nur den Tag</l>
+            <lb/>
+            <l>Und ſagt/ es ſoll geſchehen/</l>
+            <lb/>
+            <l>Jhr ſolt mich freudig ſterben ſehen.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="abccbab">
+            <head><hi rendition="#c"><hi rendition="#aq"><hi rendition="#g"
+              >ARIA.</hi></hi></hi></head>
+            <lb/>
+            <l>Ach facht euch auf ihr ſchoͤnen Bruͤſte/</l>
+            <lb/>
+            <l>Und zuͤndet euren <hi rendition="#aq">Æthna</hi> an!</l>
+            <lb/>
+            <l>Hat <hi rendition="#aq">Curtius</hi> ein Lob erworben/</l>
+            <lb/>
+            <l>Daß er als wie ein Held geſtorben/</l>
+            <lb/>
+            <l>So hab ich dennoch mehr gethan.</l>
+            <lb/>
+            <l>Ach facht euch auf ihr ſchoͤnen Bruͤſte</l>
+            <lb/>
+            <l>Und zuͤndet euren <hi rendition="#aq">Æthna</hi> an.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="49">
+        <lg type="poem">
+          <head><hi rendition="#b">Liebes-Geſpraͤch des Hirten</hi>
+            <hi rendition="#aq">Damon</hi>
+            <hi rendition="#b">mit<lb/> der Schaͤfferinn</hi>
+            <hi rendition="#aq">Hyelle.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababcd">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l><hi rendition="#aq"><hi rendition="#in">H</hi>yelle</hi> laß dis Feld wo <hi
+                rendition="#aq">Phœbus</hi> Feuer blitzt/</l>
+            <lb/>
+            <l>Und geh mit mir dahin wo man im kuͤhlen Schatten</l>
+            <lb/>
+            <l>Am Rand des hellen Strohms in weichen Blumen ſitzt/</l>
+            <lb/>
+            <l>Wo Anmuth und die Luſt das Lager uns verſtatten.</l>
+            <lb/>
+            <l>Es wird der Glieder-Schnee hier vou der Hitze braun/</l>
+            <lb/>
+            <l>Dein ſchoͤn es Angeſicht wird durch den Strahl verbrennet.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abcdcd">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Die Worte ſind zwar gut/ doch dir iſt nicht zu traun/</l>
+            <lb/>
+            <l>Die/ ſo den Maͤnnern folgt/ in ihr Verderben rennet;</l>
+            <lb/>
+            <l>Sie zuckern an ihr Wort/ man ſtellt ſich heilig an/</l>
+            <lb/>
+            <l>Bis daß ſie uns beruͤckt/ und in das Netz gejaget/</l>
+            <lb/>
+            <l>Und ſind wir denn gefaͤllt/ alsdenn ſo ſiehet man/</l>
+            <lb/>
+            <l>Daß ihr uns nicht wie ſonſt mehr auf den Haͤnden traget.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcdcdefef">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Wie uͤbel ſieheſt du doch meine Worte ein/</l>
+            <lb/>
+            <l>Die nichts von ungebuͤhr/ und falſchen Locken hegen/</l>
+            <lb/>
+            <l>Wie koͤnnt ich gegen dich/ mein Kind/ betruͤglich ſeyn!</l>
+            <lb/>
+            <l>Da Ehr und Furcht in mir das Wollen niederlegen.</l>
+            <lb/>
+            <l>Jch ehre deine Pracht/ doch zwing’ ich mich dabey/</l>
+            <lb/>
+            <l>Daß nichts/ was widrig klingt/ aus meinem Munde fahre/</l>
+            <lb/>
+            <fw type="sig" place="bottom">H 2</fw>
+            <fw type="catch" place="bottom">Und</fw>
+            <lb/>
+            <pb n="116" facs="#f0134"/>
+            <fw type="header" place="top"><hi rendition="#b">Verliebte und <hi rendition="#aq"
+                  >galante</hi> Gedichte.</hi></fw>
+            <lb/>
+            <l>Und daß ich deiner Zucht niemahls beſchwerlich ſey/</l>
+            <lb/>
+            <l>Noch daß ich mich zu frech mit deiner Pracht gebahre.</l>
+            <lb/>
+            <l>Komm mit zu jenem Buſch fuͤhl wie die Sonne ſticht/</l>
+            <lb/>
+            <l>Laß doch die ſchoͤne Haut ſo boͤßlich nicht verderben</l>
+            <lb/>
+            <l>Komm mit wo <hi rendition="#aq">Phœbus</hi> ſich nicht durch die Aeſte flicht/</l>
+            <lb/>
+            <l>Und wo den <hi rendition="#aq">Marmor-</hi>Glantz ſein Strahl nicht mag
+              entfaͤrben.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababcdcdefefghgh">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Nein! Nein! ich folge nicht. Den Voͤgeln pfeifft man ſuͤß.</l>
+            <lb/>
+            <l>Bis daß der Vogler ſie mit Netz und Garn beſtricket/</l>
+            <lb/>
+            <l>Du machſt es eben ſo/ und meineſt gantz gewiß/</l>
+            <lb/>
+            <l>Jch wuͤrde auch von dir durch Schmeichelung beruͤcket.</l>
+            <lb/>
+            <l>Jch ſehe ſchon womit die Geiſter ſchwanger gehn/</l>
+            <lb/>
+            <l>Jch mercke deine Gluht/ ich ſpuͤhr du biſt entzuͤndet;</l>
+            <lb/>
+            <l>Du muſt vom innern Brand mehr Uberlaſt ausſtehn/</l>
+            <lb/>
+            <l>Als mein Geſicht und Hand von <hi rendition="#aq">Titans</hi> Strahl empfindet</l>
+            <lb/>
+            <l>Doch birgeſt du den Schalck/ und ſtelſt dich heilig an/</l>
+            <lb/>
+            <l>Als haͤtte deine Hand das Waſſer nie betruͤbet/</l>
+            <lb/>
+            <l>Da uͤber Wolffes-Art der Schaaf-Peltz iſt gethan/</l>
+            <lb/>
+            <l>Von auſſen biſt du kalt inwendig ſehr verliebet;</l>
+            <lb/>
+            <l>Du laurſt als wie ein Loͤw auf meine Jungferſchafft/</l>
+            <lb/>
+            <l>Nein! Nein! ich folge nicht/ ich will beym Schaafen bleiben/</l>
+            <lb/>
+            <l>Dein ſuͤſſes Locken hat bey mir gantz keine Krafft/</l>
+            <lb/>
+            <l>Hier will ich meine Zeit in ſtoltzer Ruh vertreiben.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababcdcdefefghghijijklkl">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Laß ſeyn ich liebe dich/ laß mich verliebet ſeyn/</l>
+            <lb/>
+            <l>So kanſt du doch mein Licht/ mich darum nicht verdammen/</l>
+            <lb/>
+            <l>Wer iſts/ der uns den Trieb der Liebe floͤſſet ein/</l>
+            <lb/>
+            <l>Wer nehrt in unſer Bruſt die ſuͤſſen Liebes-Flammen?</l>
+            <lb/>
+            <l>Thuts nicht der Himmel ſelbſt/ der unſer Meiſter iſt?</l>
+            <lb/>
+            <l>Nach deſſen Schatzungen die Menſchen-Kinder leben/</l>
+            <lb/>
+            <l>Wer iſt/ der ſein Befehl nicht ohne weigern kuͤſt?</l>
+            <lb/>
+            <l>Und welcher findet ſich/ der ihm kan widerſtreben?</l>
+            <lb/>
+            <l>Man ſaugt den Liebes-Safft mit aus der Mutter-Bruſt/</l>
+            <lb/>
+            <l>Und eh man reden kan die Liebe uns beſitzet/</l>
+            <lb/>
+            <l>Es ſchafft in Windeln ſchon mehr denn verſuͤßte Luſt</l>
+            <lb/>
+            <l>Wenn auf der Mutter Leib man ſeinen Leib erhitzet.</l>
+            <lb/>
+            <l>Die Liebe waͤchſt wie wir/ altaͤglich nimmt ſie zu/</l>
+            <lb/>
+            <l>Ja ſie hat mehr bey uns/ als wir ſelbſt/ zugenommen/</l>
+            <lb/>
+            <fw type="catch" place="bottom">Sie</fw>
+            <lb/>
+            <pb n="117" facs="#f0135"/>
+            <fw type="header" place="top"><hi rendition="#b">Verliebte und <hi rendition="#aq"
+                  >galante</hi> Gedichte.</hi></fw>
+            <lb/>
+            <l>Sie treibt die Sinnen an/ und ſtoͤhrt dem Geiſt die Ruh/</l>
+            <lb/>
+            <l>Bis er den Ort geſucht/ wo er iſt hergekommen.</l>
+            <lb/>
+            <l>Man ſpuͤhret ihre Macht in Steinen und in Stahl/</l>
+            <lb/>
+            <l>Die gantze Creatur iſt gegen ſich verliebet/</l>
+            <lb/>
+            <l>Es ehrt der Liebe Macht die Erde uͤberall/</l>
+            <lb/>
+            <l>So bald die Sonne weicht iſt <hi rendition="#aq">Clytie</hi> betruͤbet.</l>
+            <lb/>
+            <l>Die Turtel-Taube ſtirbt/ wenn ihr der Tauber fehlt/</l>
+            <lb/>
+            <l>Der Palm-Baum der verdorrt/ wenn ihm ſein Mann entriffen/</l>
+            <lb/>
+            <l><hi rendition="#aq">Aurora</hi> ſich noch jetzt um ihren <hi rendition="#aq"
+                >Cephal</hi> quaͤhlt/</l>
+            <lb/>
+            <l>Und du wilt nichts von Feur und <hi rendition="#aq">Amors-</hi>Trieben wiſſen.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="ababcdcd">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Jch weiß nicht was dein Mund mir von der Liebe ſagt/</l>
+            <lb/>
+            <l>Mir iſt was <hi rendition="#aq">Amor</hi> heiſt gar fremde anzuhoͤren/</l>
+            <lb/>
+            <l>Doch weiß ich nicht wie mir der Nahme ſo behagt/</l>
+            <lb/>
+            <l>Jch weiß nicht wie mir wird/ die Bruſt will ſich verkehren/</l>
+            <lb/>
+            <l>Es regt ſich was in mir/ doch iſt mirs unbewuſt/</l>
+            <lb/>
+            <l>Ach <hi rendition="#aq">Damon!</hi> loſer Schalck/ ach! ach! ich bin verliebet</l>
+            <lb/>
+            <l>Dein ſuͤſſes Reden ruͤhrt die eiſen-harte Bruſt</l>
+            <lb/>
+            <l>Jhr Goͤtter/ daß ihr mich/ mich Arme/ ſo betruͤbet.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="ababcdcd">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Was ficht <hi rendition="#aq">Hyellen</hi> an? was macht den Geiſt verkehrt?</l>
+            <lb/>
+            <l>Gelt! <hi rendition="#aq">Amor</hi> wird gewiß den Schimpff mit Schmertzen
+              raͤchen?</l>
+            <lb/>
+            <l>So gehts/ wenn man die Macht des ſtarcken Gotts entehrt/</l>
+            <lb/>
+            <l>Der einen Felſen-Sinn im Augenblick kan brechen.</l>
+            <lb/>
+            <l>Doch <hi rendition="#aq">Amor</hi> heget auch mehr Luſt als herben Schmertz/</l>
+            <lb/>
+            <l>Er ſchenckt den Liebenden viel tauſend Suͤſſigkeiten/</l>
+            <lb/>
+            <l>Er uͤberhaͤufft mit Luſt/ er reget ſuͤſſen Schertz;</l>
+            <lb/>
+            <l>Komm folge mir nur nach den Schmertzen zu beſtreiten.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="abab">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Jch ſtehe noch was an/ dir/ <hi rendition="#aq">Damon,</hi> nachzugehn/</l>
+            <lb/>
+            <l>Jch weiß nicht/ wie ich ſoll die kuͤhne That beſchoͤnen/</l>
+            <lb/>
+            <l>Dann wuͤrde mich bey dir wer gantz alleine ſehn/</l>
+            <lb/>
+            <l>So moͤcht man meine Zucht und Ehrbarkeit verhoͤhnen.</l>
+          </lg>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="ababcdcdefgf">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Wirf die Gedancken hin/ und folge mir nur nach/</l>
+            <lb/>
+            <l>An jenen dunckeln Ort/ zu denen Luſt-Gebuͤſchen/</l>
+            <lb/>
+            <fw type="sig" place="bottom">H 3</fw>
+            <fw type="catch" place="bottom">Wo</fw>
+            <lb/>
+            <pb n="118" facs="#f0136"/>
+            <fw type="header" place="top"><hi rendition="#b">Verliebte und <hi rendition="#aq"
+                  >galante</hi> Gedichte.</hi></fw>
+            <lb/>
+            <l>Wo wir alleine ſeyn/ bey dem Cryſtallen-Bach/</l>
+            <lb/>
+            <l>Gewiß/ da kan kein Menſch zuſammen uns erwiſchen.</l>
+            <lb/>
+            <l>Da wird die ſanffte Lufft verliebte Winde wehn/</l>
+            <lb/>
+            <l>Die Voͤgel werden uns verbulte Lieder ſingen/</l>
+            <lb/>
+            <l>Wir werden da vor Luſt gleich als bezaubert ſtehn/</l>
+            <lb/>
+            <l>Der klahre Bach wird gleich den hellen Orgeln klingen.</l>
+            <lb/>
+            <l>Es wird wenn du geſinnt/ wie ich geſinnet bin/</l>
+            <lb/>
+            <l>Ein Meer der Suͤſſigkeit die Geiſter uͤberſchwemmen/</l>
+            <lb/>
+            <l>Und in die Schwaanen-Bruſt wird ſich die Anmuth ziehn.</l>
+            <lb/>
+            <l>Komm koſte <hi rendition="#aq">Amors-</hi>Luſt laß deinen Sinn nichts hemmen.</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="ababcdcd">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Jch weiß nicht wie mir iſt/ ich ſchwinde/ ich vergeh/</l>
+            <lb/>
+            <l>Dein Mund bringt Sachen fuͤr die meinen Geiſt bethoͤren/</l>
+            <lb/>
+            <l>Bald bin ich recht begluͤckt/ bald wird mir wieder weh/</l>
+            <lb/>
+            <l>Wie iſt mir/ ſoll ich denn <hi rendition="#aq">Dianen</hi> nicht mehr ehren?</l>
+            <lb/>
+            <l>Soll denn ihr ſtarcker Arm anjetzt gantz krafftloß ſeyn/</l>
+            <lb/>
+            <l>Und muß ihr ſchneller Pfeil vor <hi rendition="#aq">Amors</hi> Pfeil ſich biegen?</l>
+            <lb/>
+            <l>Wie geht mir alle Krafft und alle Staͤrcke ein?</l>
+            <lb/>
+            <l>Ach! ja der <hi rendition="#aq">Damon</hi> muß <hi rendition="#aq">Hyellens</hi> Sinn
+              beſiegen.</l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="abab">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Komm nur mein Engel komm/ und ſchenck mir deine Gunſt/</l>
+            <lb/>
+            <l>Reich mir die Bruͤſte dar die allerſchoͤnſten Dinger/</l>
+            <lb/>
+            <l>Die Koſt des Paradies/ den Zunder zu der Brunſt/</l>
+            <lb/>
+            <l>Ach ſchenck mir deinen Schooß den rechten Hertzens-Zwinger.</l>
+          </lg>
+          <lb/>
+          <lg n="12" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Mein <hi rendition="#aq">Damon</hi> halte ein/ was unternimmſt du dich/</l>
+            <lb/>
+            <l>Warum ſucht deine Hand das Kleid mir auffzuheben?</l>
+          </lg>
+          <lb/>
+          <lg n="13" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Es fuͤgt ſich eben ſo doch haͤlt es nichts in ſich</l>
+            <lb/>
+            <l>Verliebte pflegen da nicht Achtung auffzugeben.</l>
+          </lg>
+          <lb/>
+          <lg n="14" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Wenn du wilt taͤppiſch ſeyn? ſo gehe in der Zeit/</l>
+            <lb/>
+            <l>Du moͤchteſt ſonſt mit mir dich gar zu mauſicht machen.</l>
+          </lg>
+          <lb/>
+          <lg n="15" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Entweiche nicht mein Kind es bringet dir kein Leid</l>
+            <lb/>
+            <l>Ein Griff und Kuß die ſind ja gar geringe Sachen.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom"><hi rendition="#aq">Hyelle.</hi></fw>
+          <lb/>
+          <pb n="119" facs="#f0137"/>
+          <fw type="header" place="top"><hi rendition="#b">Verliebte und <hi rendition="#aq"
+                >galante</hi> Gedichte.</hi></fw>
+          <lb/>
+          <lg n="16" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Doch zuͤndt ein Griff und Kuß der <hi rendition="#aq">Venus</hi> Fackel an/</l>
+            <lb/>
+            <l>Und macht durch innre Gluht uns in uns ſelbſt verbrennen.</l>
+          </lg>
+          <lb/>
+          <lg n="17" type="stanza" rhyme="abcdcd">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Da/ wo man Waſſer hat ſogleich man loͤſchen kan/</l>
+            <lb/>
+            <l>Wenn ſich die Flamme laͤſt nur durch den Rauch erkennen.</l>
+            <lb/>
+            <l>Flammt nun dein Hertze an/ ſo kuͤſſe mich mein Kind</l>
+            <lb/>
+            <l>Laß mich ein mehres zu gib Kuß und Griff zuſammen/</l>
+            <lb/>
+            <l>So loͤſchet ſich die Gluht durch das was ſie entzuͤndt/</l>
+            <lb/>
+            <l>Und Waſſer wird daraus was vormahls heiſſe Flammen.</l>
+          </lg>
+          <lb/>
+          <lg n="18" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Mein <hi rendition="#aq">Damon</hi> nicht zu frech vergnuͤge dich am Kuß</l>
+            <lb/>
+            <l>Betaſte meine Bruſt und laß das ander bleiben.</l>
+          </lg>
+          <lb/>
+          <lg n="19" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Du Naͤrrin weiſt noch nicht was darauf folgen muß</l>
+            <lb/>
+            <l>Wenn man mit kuͤſſen will die Zeit nicht mehr vertreiben.</l>
+          </lg>
+          <lb/>
+          <lg n="20" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Was folget denn darauf? ach laſſe mich doch loß/</l>
+            <lb/>
+            <l>Und ſage mir hernach was folget nach den Kuͤſſen.</l>
+          </lg>
+          <lb/>
+          <lg n="21" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Das/ was du noch nicht weiſt/ erfaͤhret deine Schooß/</l>
+            <lb/>
+            <l>Doch ſoll ſie es jetzund mit hoͤchſter Anmuth wiſſen.</l>
+          </lg>
+          <lb/>
+          <lg n="22" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Hilf Himmel/ ſteh mir bey/ <hi rendition="#aq">Diana</hi> ſchuͤtze mich!</l>
+            <lb/>
+            <l>Rett meine Jungferſchafft ſie liegt in letzten Zuͤgen.</l>
+          </lg>
+          <lb/>
+          <lg n="23" type="stanza" rhyme="abcd">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Dein Ruffen hilfft dir nichts/ wie hoͤrt <hi rendition="#aq">Diana</hi> dich</l>
+            <lb/>
+            <l>Die bey <hi rendition="#aq">Endymion</hi> ſelbſt ſuchet ihr Vergnuͤgen.</l>
+            <lb/>
+            <l>Bequehme dich mein Kind nur zu der Liebes-Luſt/</l>
+            <lb/>
+            <l>Der Himmel ſtimmet bey/ das Schickſahl will es haben.</l>
+          </lg>
+          <lb/>
+          <lg n="24" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Soll es denn alſo ſeyn ſo druͤcke Bruſt an Bruſt/</l>
+            <lb/>
+            <l>Jch will ſo viel ich kan dein heiſſes Hertze laben.</l>
+          </lg>
+          <lb/>
+          <lg n="25" type="stanza" rhyme="a">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Jch bleibe dir davor/ mein Leben/ ſtets verpflicht.</l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">H 4</fw>
+          <fw type="catch" place="bottom"><hi rendition="#aq">Hyelle.</hi></fw>
+          <lb/>
+          <pb n="120" facs="#f0138"/>
+          <fw type="header" place="top"><hi rendition="#b">Verliebte und <hi rendition="#aq"
+                >galante</hi> Gedichte.</hi></fw>
+          <lb/>
+          <lg n="26" type="stanza" rhyme="aba">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Ach halt! mein Schatz halt an! es iſt genug geſchertzet</l>
+            <lb/>
+            <l>Ein mehres goͤnn ich dir bey meiner Treue nicht/</l>
+            <lb/>
+            <l>Ach glaube/ daß dein Thun mich gar zu herbe ſchmertzet.</l>
+          </lg>
+          <lb/>
+          <lg n="27" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Mein Kind es ſchadt dir nichts/ die Schmertzen ſind gar klein/</l>
+            <lb/>
+            <l>Den Jungfern thun ſie weh/ doch kitzeln ſie die Weiber.</l>
+          </lg>
+          <lb/>
+          <lg n="28" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Laß doch mein liebſter Schatz es nun zum Ende ſeyn.</l>
+            <lb/>
+            <l>Wir bringen ſonſt in eins ja unſer beyde Leiber.</l>
+          </lg>
+          <lb/>
+          <lg n="29" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Gedulde dich mein Kind/ und traue es mir zu</l>
+            <lb/>
+            <l>Daß ich dir deinen Leib gar nicht verletzen werde</l>
+          </lg>
+          <lb/>
+          <lg n="30" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Jch bin von Wolluſt ſat/ ach! gib dich nun zur Ruh/</l>
+            <lb/>
+            <l>Und ſiehe wie ich mich ſo aͤngſtiglich gebaͤhrde.</l>
+          </lg>
+          <lb/>
+          <lg n="31" type="stanza" rhyme="a">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Mein Schatz ich bin entzuͤckt - - - - - - - - - - - - - - -</l>
+          </lg>
+          <lb/>
+          <lg n="32" type="stanza" rhyme="abc">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>- - - - - - - - - - - - - - - ich bin nicht mehr bey mir/</l>
+            <lb/>
+            <l>Jch bin im Paradies/ ich breche Zucker-Fruͤchte/</l>
+            <lb/>
+            <l>Mein Liebſter/ ach mein Schatz - - - - - - - - - - - - - - -</l>
+          </lg>
+          <lb/>
+          <lg n="33" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>- - - - - - - - - - - - - - - ich lebe bloß in dir</l>
+            <lb/>
+            <l>Mir ſchencket deine Bruſt ein ſuͤſſes Luſt-Gerichte.</l>
+          </lg>
+          <lb/>
+          <lg n="34" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Ach welche Zucker-Luſt hat doch mein Geiſt geſchmecket!</l>
+            <lb/>
+            <l>Welch ſuͤſſen Lebens-Thau haſt du mir eingefloͤſſet!</l>
+          </lg>
+          <lb/>
+          <lg n="35" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>O ſuͤſſe Anmuths-Quell! von der mein Geiſt geleckt/</l>
+            <lb/>
+            <l>Nachdem du mir die Bruſt und deine Schooß entbloͤſſet.</l>
+          </lg>
+          <lb/>
+          <lg n="36" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Voll Wolluſt iſt die Bruſt und meine Seele voll/</l>
+            <lb/>
+            <l>Es kitzelt mich annoch das Luſt beſeelte Streiten.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom"><hi rendition="#aq">Damon.</hi></fw>
+          <lb/>
+          <pb n="121" facs="#f0139"/>
+          <fw type="header" place="top"><hi rendition="#b">Verliebte und <hi rendition="#aq"
+                >galante</hi> Gedichte.</hi></fw>
+          <lb/>
+          <lg n="37" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Mein Leib der iſt ermuͤdt/ er kan nicht wie er ſoll/</l>
+            <lb/>
+            <l>Jhm fehlet Staͤrck und Krafft dir Anmuth zu bereiten.</l>
+          </lg>
+          <lb/>
+          <lg n="38" type="stanza" rhyme="a">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>So hat mein <hi rendition="#aq">Damon</hi> doch <hi rendition="#aq">Hyellens</hi>
+              Sinn beſiegt/</l>
+            <lb/>
+            <l>Und in der zarten Schooß den Liebes-Schatz gepraͤget.</l>
+          </lg>
+          <lb/>
+          <lg n="39" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Nein! Nein der Himmel hat den Sieg dir zugefuͤget/</l>
+            <lb/>
+            <l>Der mich als deinen Knecht fuͤr deine Fuͤſſe leget.</l>
+          </lg>
+          <lb/>
+          <lg n="40" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Auf! auf! mein <hi rendition="#aq">Damon</hi> auf! es iſt genug geſchertzt/</l>
+            <lb/>
+            <l>Hoͤr/ was die Baͤume ſchon von unſer Liebe ſagen.</l>
+          </lg>
+          <lb/>
+          <lg n="41" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Ach! warte doch mein Kind und ſey noch eins gehertzt/</l>
+            <lb/>
+            <l>Die Baͤume duͤrffen es/ nicht zu verrahten wagen.</l>
+          </lg>
+          <lb/>
+          <lg n="42" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Hyelle.</hi></hi></head>
+            <lb/>
+            <l>Nun gute Nacht mein Schatz der <hi rendition="#aq">Phœbus</hi> eilt zur Ruh/</l>
+            <lb/>
+            <l>Jch ſcheide zwar von dir/ der Geiſt ſtets bey dir bleibet.</l>
+          </lg>
+          <lb/>
+          <lg n="43" type="stanza" rhyme="ab">
+            <head><hi rendition="#c"><hi rendition="#aq">Damon.</hi></hi></head>
+            <lb/>
+            <l>Der Himmel wehe dir mein Engel Anmuth zu/</l>
+            <lb/>
+            <l>Die dir mit ſtoltzer Freud’ Angſt/ Noht und Pein vertreibet.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="50">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababcc">
+            <l><hi rendition="#in">M</hi>an ſagt/ daß die Natur das Feld mit Blumen zieret/</l>
+            <lb/>
+            <l>Die Vogel/ und die Schaaf’ in Woll’ und Federn ſteckt</l>
+            <lb/>
+            <l>Und wenn ein rauher Nord und wilder Oſt regiret</l>
+            <lb/>
+            <l>Uns in die Kleider huͤlt/ und durch die Kunſt bedeckt.</l>
+            <lb/>
+            <fw type="sig" place="bottom">Z 3</fw>
+            <fw type="catch" place="bottom">Wie</fw>
+            <lb/>
+            <pb n="358" facs="#f0376"/>
+            <fw type="header" place="top"><hi rendition="#b">Sinn-Gedichte.</hi></fw>
+            <lb/>
+            <l>Wie hat ſie alles denn/ nur <hi rendition="#aq">Amorn</hi> nicht bekleidet/</l>
+            <lb/>
+            <l>Jemehr der nackend iſt/ je wenger er Froſt leidet.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="51">
+        <lg type="poem">
+          <head><hi rendition="#b">Freuden <hi rendition="#aq">Arie</hi> der Wolluſt.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="abcdcdba">
+            <head><hi rendition="#c">1.</hi></head>
+            <lb/>
+            <l><hi rendition="#aq"><hi rendition="#in">J</hi>O! Jo! Triumph!</hi></l>
+            <lb/>
+            <l>Jch habe angeſteget.</l>
+            <lb/>
+            <l>Mein Feind zu meinen Fuͤſſen lieget/</l>
+            <lb/>
+            <l>Der Wolluſt ſanffter Weg</l>
+            <lb/>
+            <l>An Anmuth uͤberwieget</l>
+            <lb/>
+            <l>Den rauhen Tugend-Steg.</l>
+            <lb/>
+            <l>Jch habe angeſieget.</l>
+            <lb/>
+            <l><hi rendition="#aq">Jo! Jo! Triumph.</hi></l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abbcbcba">
+            <head><hi rendition="#c">2.</hi></head>
+            <lb/>
+            <l><hi rendition="#aq">Victoria.</hi></l>
+            <lb/>
+            <l>Jhr Liebes-Goͤtter ſinget/</l>
+            <lb/>
+            <l>Und mir die Sieges-Palmen bringet.</l>
+            <lb/>
+            <l>Mir iſt der ſchoͤne Sieg.</l>
+            <lb/>
+            <l>Mein Streiten wohlgelinget</l>
+            <lb/>
+            <l>Jn dieſem Vorzugs-Krieg.</l>
+            <lb/>
+            <l>Jhr Liebes-Goͤtter ſinget</l>
+            <lb/>
+            <l><hi rendition="#aq">Victoria.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="52">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabbccdd">
+            <l><hi rendition="#aq"><hi rendition="#in">M</hi>eurine</hi> zuͤrnet nur/ ich will den
+              Zorn ertragen/</l>
+            <lb/>
+            <l>Der Mund will ſich dennoch zu euren Lippen wagen/</l>
+            <lb/>
+            <l>Denn wer da Roſen pfluͤckt/ der achtet es nicht viel</l>
+            <lb/>
+            <l>Wenn ihm zuweilen ſchon ein Doͤrnlein ſtechen will.</l>
+            <lb/>
+            <l>Mit Dornen iſt der Weg des Lebens uͤberſtreuet/</l>
+            <lb/>
+            <l>Wie/ meynt ihr/ daß mein Geiſt ſich vor den Dornen ſcheuet?</l>
+            <lb/>
+            <l>Nein! denn der Ausgang macht daß man den Schmertz vergißt/</l>
+            <lb/>
+            <l>So bald die Dornen weg/ alsdenn man Roſen kuͤßt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="53">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababcca">
+            <l>Was deine Guͤt und Allmacht ſchuͤtzt/</l>
+            <lb/>
+            <l>Das fuͤhlt nicht Schwachheit Schmertz und Plage</l>
+            <lb/>
+            <l>Wo deiner Gnaden Sonne blitzt</l>
+            <lb/>
+            <l>Da ſpuͤhrt man lauter frohe Tage/</l>
+            <lb/>
+            <l>Bekuͤmmerniß/ Noht/ Sorg und Quaal</l>
+            <lb/>
+            <l>Betrifft daſſelbe nicht ein mahl/</l>
+            <lb/>
+            <l>Was deine Guͤt und Allmacht ſchuͤtzt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="54">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abbaabba">
+            <l><hi rendition="#in">D</hi>ie Liebe iſt ein Feur/ das im verborgnen brennet/</l>
+            <lb/>
+            <l>Ein’ Wunde/ die beliebt bey ihren Schmertzen iſt/</l>
+            <lb/>
+            <l>Ein wohlgeſchmacktes Gifft/ das jeder gern genießt/</l>
+            <lb/>
+            <l>Ein Bitter-ſeyn/ das nicht die Suͤſſigkeit verkennet/</l>
+            <lb/>
+            <l>Ein’ Kranckheit/ wo ſich Luſt nicht von der Marter trennet/</l>
+            <lb/>
+            <l>Ein’ Straffe/ die man gern ohn groſſe Weigrung kuͤßt/</l>
+            <lb/>
+            <l>Ein Tod/ der ob er gleich den Lebens-Drat zerfriſt/</l>
+            <lb/>
+            <l>Dennoch von Liebenden wird angenehm genennet.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="55">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabbcdee">
+            <l><hi rendition="#in">W</hi>enn Purpur und Coral/ der Lippen Wunder-Sachen</l>
+            <lb/>
+            <l>Der angenehme Kuß das holde Woͤrter-machen</l>
+            <lb/>
+            <l>Ein Ernſt und Freundlich-ſeyn/ ein uͤber-zuckter Mund</l>
+            <lb/>
+            <l>Dein Auge nicht entzuͤndt und deinen Sinn verwundt/</l>
+            <lb/>
+            <l>Wenn Fleiſch das Sammet iſt/ und Adern die <hi rendition="#aq">Saphiren,</hi></l>
+            <lb/>
+            <l>Die Haut/ ſo weiſſer Schnee/ dein Hertze nicht verfuͤhren?</l>
+            <lb/>
+            <l>So biſt du gar kein Menſch ein Stock und harter Stein.</l>
+            <lb/>
+            <l>Dem keiner Schoͤnheit-Pracht/ erreget Liebes-Pein.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="56">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabbccddeeff">
+            <l><hi rendition="#in">S</hi>agt Augen/ ſagt es doch/ ſeh ich <hi rendition="#aq"
+                >Bellandren</hi> hier?</l>
+            <lb/>
+            <l>Ja! denn ihr Angeſicht geht allen <hi rendition="#aq">Damen</hi> fuͤr/</l>
+            <lb/>
+            <l>Es ſieht die <hi rendition="#aq">Cyprie</hi> ihr aus den holden Augen/</l>
+            <lb/>
+            <l>Schaut wie man unvermerckt ein Gifft hierein muß ſaugen/</l>
+            <lb/>
+            <l>Das man vor Luſt nicht ſchmeckt bis es die Wirckung thut/</l>
+            <lb/>
+            <l>Und ſpielend durchgewuͤhlt Gehirn/ Hertz/ Marck und Blut/</l>
+            <lb/>
+            <l>Doch zagt nicht/ denn ihr ſeht auch ein Paar ſchoͤne Bruͤſte</l>
+            <lb/>
+            <l>Die heilen allen Schmertz durch ungemeine Luͤſte.</l>
+            <lb/>
+            <l>Es wird der Liebes-Brand geloͤſchet und gekuͤhlt/</l>
+            <lb/>
+            <l>Wenn der entzuͤckte Geiſt um Bruſt und Lippen ſpielt/</l>
+            <lb/>
+            <l>Doch Augen ſchließt euch zu/ ihr habt hier nichts zu hoffen/</l>
+            <lb/>
+            <l>Euch ſteht das Auge zwar/ doch nicht der Buſen offen.</l>
+          </lg>
+        </lg>
+      </div>
+
+    </body>
+  </text>
+</TEI>

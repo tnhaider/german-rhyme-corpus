@@ -1,0 +1,1618 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Unpolitische Lieder</title>
+    <title type="volume" n="1">[Erster Theil]</title>
+    <author>
+     <persName ref="http://d-nb.info/gnd/118552589">
+      <surname>Hoffmann von Fallersleben</surname>
+      <forename>August Heinrich</forename>
+     </persName>
+    </author>
+    <editor corresp="#DTACorpusPublisher">
+     <persName ref="http://d-nb.info/gnd/115266127">
+      <surname>Geyken</surname>
+      <forename>Alexander</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName ref="http://d-nb.info/gnd/1018099549">
+      <surname>Haaf</surname>
+      <forename>Susanne</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName ref="http://d-nb.info/gnd/1019062681">
+      <surname>Jurish</surname>
+      <forename>Bryan</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Schulz</surname>
+      <forename>Matthias</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Steinmann</surname>
+      <forename>Jakob</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Thomas</surname>
+      <forename>Christian</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Wiegand</surname>
+      <forename>Frank</forename>
+     </persName>
+    </editor>
+    <respStmt>
+     <orgName ref="http://www.clarin-d.de">CLARIN-D</orgName>
+     <resp>
+      <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+      <ref target="http://fedora.dwds.de"/>
+     </resp>
+    </respStmt>
+   </titleStmt>
+   <editionStmt>
+    <edition>Vollständige digitalisierte Ausgabe.</edition>
+   </editionStmt>
+   <extent>
+    <measure type="images">227</measure>
+    <measure type="tokens">17897</measure>
+    <measure type="types">4937</measure>
+    <measure type="characters">113476</measure>
+   </extent>
+   <publicationStmt>
+    <publisher xml:id="DTACorpusPublisher">
+     <email>dta@bbaw.de</email>
+     <orgName role="project">Deutsches Textarchiv</orgName>
+     <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and
+      Humanities</orgName>
+     <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+      Wissenschaften (BBAW)</orgName>
+     <address>
+      <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+      <country>Germany</country>
+     </address>
+    </publisher>
+    <pubPlace>Berlin</pubPlace>
+    <date type="publication">2014-08-25T11:46:34Z</date>
+    <availability>
+     <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+      <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported License.</p>
+     </licence>
+    </availability>
+    <idno>
+     <idno type="URLWeb">http://www.deutschestextarchiv.de/hoffmann_unpolitische01_1840</idno>
+     <idno type="URLXML"
+      >http://www.deutschestextarchiv.de/book/download_xml/hoffmann_unpolitische01_1840</idno>
+     <idno type="URLHTML"
+      >http://www.deutschestextarchiv.de/book/download_html/hoffmann_unpolitische01_1840</idno>
+     <idno type="URLText"
+      >http://www.deutschestextarchiv.de/book/download_text/hoffmann_unpolitische01_1840</idno>
+     <idno type="DTADirName">hoffmann_unpolitische01_1840</idno>
+     <idno type="DTAID">16709</idno>
+     <idno type="URN">urn:nbn:de:kobv:b4-200905192626</idno>
+    </idno>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="MM">Hoffmann von Fallersleben, August Heinrich: Unpolitische Lieder. Bd. 1. Hamburg,
+     1840.</bibl>
+    <biblFull>
+     <titleStmt>
+      <title level="m" type="main">Unpolitische Lieder</title>
+      <title level="m" type="volume" n="1">[Erster Theil]</title>
+      <author>
+       <persName ref="http://d-nb.info/gnd/118552589">
+        <surname>Hoffmann von Fallersleben</surname>
+        <forename>August Heinrich</forename>
+       </persName>
+      </author>
+     </titleStmt>
+     <editionStmt>
+      <edition n="1"/>
+     </editionStmt>
+     <extent>
+      <measure type="pages">XII, 204 S.</measure>
+     </extent>
+     <publicationStmt>
+      <publisher><name>Hoffmann und Campe</name></publisher>
+      <pubPlace>Hamburg</pubPlace>
+      <date type="publication">1840</date>
+     </publicationStmt>
+    </biblFull>
+    <msDesc>
+     <msIdentifier>
+      <repository>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</repository>
+      <idno>
+       <idno type="shelfmark">SBB-PK, 19 ZZ 5062-1</idno>
+       <idno type="URLCatalogue"
+        >http://stabikat.de/DB=1/SET=12/TTL=1/CMD?ACT=SRCHA&amp;IKT=1016&amp;SRT=YOP&amp;TRM=617496692</idno>
+      </idno>
+     </msIdentifier>
+     <physDesc>
+      <typeDesc>
+       <p>Fraktur</p>
+      </typeDesc>
+     </physDesc>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p>Dieses Werk wurde von OCR-Software automatisch erfasst und anschließend gemäß den <ref
+      target="http://www.deutschestextarchiv.de/doku/richtlinien"
+      >DTA-Transkriptionsrichtlinien</ref> von Muttersprachlern nachkontrolliert. Es wurde gemäß dem
+      <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat</ref> in
+     XML/TEI P5 kodiert.</p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="deu">German</language>
+   </langUsage>
+   <textClass>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtamain"
+     >Belletristik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtasub"
+     >Lyrik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+     >Belletristik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+     >Lyrik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+     >core</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+     >ready</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+     >ocr</classCode>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div n="1">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabb">
+      <l>Hin iſt des deutſchen Reichs uralte Herrlichkeit,</l>
+      <lb/>
+      <l>Zu einer Sage ward's in dieſer jungen Zeit,</l>
+      <lb/>
+      <l>Doch hält das Volk noch feſt an ſeinem alten Herrn,</l>
+      <lb/>
+      <l>Zu ſeinem Banner eilt's noch hin von nah und fern.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aabb">
+      <l>Was lockt das Volk wohl hin? Nicht Kriegsluſt, Sold und Ruhm,</l>
+      <lb/>
+      <l>Nicht mehr Begeiſterung fürs alte Kaiſerthum.</l>
+      <lb/>
+      <l>Das Volk ſucht Obdach nur, es will nur Ruh' und Raſt,</l>
+      <lb/>
+      <l>Begehrt Erquickung nur für manche Müh' und Laſt.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aabb">
+      <l>Zum deutſchen Kaiſer bin auch ich wohl eingekehrt,</l>
+      <lb/>
+      <l>Auch <hi rendition="#g">ich</hi> hab' auf ſein Wohl gar manches Glas geleert:</l>
+      <lb/>
+      <l>Denn dieſer Kaiſer war ein deutſches Wirthshaus nur,</l>
+      <lb/>
+      <l>Vom heil'gen röm'ſchen Reich die allerletzte Spur.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="2">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>
+       <hi rendition="#g">Hochedel</hi> nennt der Adel nun</l>
+      <lb/>
+      <l>Die Widder insgemein;</l>
+      <lb/>
+      <l>Warum ſoll's nicht der Adel thun?</l>
+      <lb/>
+      <l>Soll er nicht dankbar ſein?</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Der Adel will nur dankbar ſein</l>
+      <lb/>
+      <l>Und niemals mehr als jetzt:</l>
+      <lb/>
+      <l>Die Schafe halten ja allein</l>
+      <lb/>
+      <l>Den Adel noch zuletzt,</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="3">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Wie ſehn' ich mich nach deinen Bergen wieder,</l>
+      <lb/>
+      <l>Nach deinem Schatten, deinem Sonnenſchein!</l>
+      <lb/>
+      <l>Nach deutſchen Herzen voller Sang und Lieder,</l>
+      <lb/>
+      <l>Nach deutſcher Freud' und Luſt, nach deutſchem Wein!</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Könnt' ich den Wolken meine Hände reichen,</l>
+      <lb/>
+      <l>Ich flöge windesſchnell zu dir hinein;</l>
+      <lb/>
+      <l>Könnt' ich dem Adler und dem Lichtſtrahl gleichen,</l>
+      <lb/>
+      <l>Wie ein Gedanke wollt' ich bei dir ſein!</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Die Fremde macht mich ſtill und ernſt und traurig;</l>
+      <lb/>
+      <l>Verkümmern muß mein friſches junges Herz.</l>
+      <lb/>
+      <l>Das Leben hier, wie iſt es bang' und ſchaurig,</l>
+      <lb/>
+      <l>Und was es beut, iſt nur der Sehnſucht Schmerz.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>O Vaterland, und wenn ich nichts mehr habe,</l>
+      <lb/>
+      <l>Begleitet treu noch dieſe Sehnſucht mich;</l>
+      <lb/>
+      <l>Und würde ſelbſt die Fremde mir zum Grabe,</l>
+      <lb/>
+      <l>Gern ſterb' ich, denn ich lebte nur für dich.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="4">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abbcc">
+      <l>Die Bauern in der Schenke,</l>
+      <lb/>
+      <l>Sie ſtritten ſich, ſie zankten ſich,</l>
+      <lb/>
+      <l>Sie ſchrie'n und lärmten fürchterlich,</l>
+      <lb/>
+      <l>Und endlich ward die Zänkerei</l>
+      <lb/>
+      <l>Zur mörderlichſten Prügelei.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abbcc">
+      <l>Die Bauern in der Schenke,</l>
+      <lb/>
+      <l>Sie hörten plötzlich einen Krach,</l>
+      <lb/>
+      <l>Es ſchlug der Blitz ins Kirchendach,</l>
+      <lb/>
+      <l>Und Zänkerei und Prügelei</l>
+      <lb/>
+      <l>War da mit Einem Mal vorbei.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abbcc">
+      <l>Die Bauern in der Schenke,</l>
+      <lb/>
+      <l>Sie wurden ſchnell Ein Herz, Ein Sinn</l>
+      <lb/>
+      <l>Und liefen zu dem Feuer hin.</l>
+      <lb/>
+      <l>Doch als das Feuer war vorbei,</l>
+      <lb/>
+      <l>Ging's wiederum zur Prügelei.</l>
+      <lb/>
+     </lg>
+     <pb n="120" facs="#f0140"/>
+     <lg n="4" type="stanza" rhyme="abbcc">
+      <l>Die Bauern in der Schenke —</l>
+      <lb/>
+      <l>So ging und geht es allezeit</l>
+      <lb/>
+      <l>Mit unſrer deutſchen Einigkeit:</l>
+      <lb/>
+      <l>Kaum iſt der Feind zum Land hinaus,</l>
+      <lb/>
+      <l>Beginnt im Lande Streit und Strauß.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="5">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aaaabbbc">
+      <l>Herr Wirth, Herr Wirth, ein Gläschen Wein! —</l>
+      <lb/>
+      <l>Für <hi rendition="#g">mich</hi> wird das genug nicht ſein:</l>
+      <lb/>
+      <l>Schenkt mir ein volles Viertel ein! —</l>
+      <lb/>
+      <l>Und <hi rendition="#g">mir</hi> bringt eine Flaſch' herein!</l>
+      <lb/>
+      <l>Der Wirth, er dreht ſich um und um,</l>
+      <lb/>
+      <l>Er läuft im ganzen Haus' herum,</l>
+      <lb/>
+      <l>Und rechtsum, linksum, ringsum, und — kurzum,</l>
+      <lb/>
+      <l>Er kann den Schlüſſel nicht finden.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aaaabbbbc">
+      <l>Und ach! die Gäſte mehren ſich:</l>
+      <lb/>
+      <l>Was zögerſt du? ſo ſprich, ſo ſprich!</l>
+      <lb/>
+      <l>O Wirth, o Wirth, erbarme dich!</l>
+      <lb/>
+      <l>Denn unſer Durſt iſt fürchterlich.</l>
+      <lb/>
+      <l>Der Wirth, er aber bleibet ſtumm,</l>
+      <lb/>
+      <l>Und dreht ſich wieder um und um,</l>
+      <lb/>
+      <l>Und läuft im ganzen Haus' herum,</l>
+      <lb/>
+      <l>Und rechtsum, linksum, ringsum, und — kurzum,</l>
+      <lb/>
+      <l>Er kann den Schlüſſel nicht finden.</l>
+      <lb/>
+     </lg>
+     <pb n="137" facs="#f0155"/>
+     <lg n="3" type="stanza" rhyme="aaaabbbbbc">
+      <l>Und größer wird die Cumpanei,</l>
+      <lb/>
+      <l>Und größer nur die Zögerei,</l>
+      <lb/>
+      <l>Und immer lauter das Geſchrei:</l>
+      <lb/>
+      <l>He holla! Wirthſchaft! Wein herbei!</l>
+      <lb/>
+      <l>Der Wirth, der Wirth, er ſtellt ſich dumm,</l>
+      <lb/>
+      <l>Er hört, er ſieht, er bleibet ſtumm,</l>
+      <lb/>
+      <l>Und dreht ſich wieder um und um,</l>
+      <lb/>
+      <l>Und läuft im ganzen Haus' herum,</l>
+      <lb/>
+      <l>Und rechtsum, linksum, ringsum, und — kurzum,</l>
+      <lb/>
+      <l>Er kann den Schlüſſel nicht finden.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="aaaabbbbbbc">
+      <l>O Wirth, was iſt das für Manier?</l>
+      <lb/>
+      <l>O Wirth, o Wirth, wie zaudert Ihr!</l>
+      <lb/>
+      <l>Bringt Wein! denn Wein begehren wir.</l>
+      <lb/>
+      <l>Zum Teufel denn, was iſt das hier!</l>
+      <lb/>
+      <l>Der Wirth, verneigt ſich, ſteht ganz krumm,</l>
+      <lb/>
+      <l>Er lächelt, ſchmunzelt, ſtellt ſich dumm,</l>
+      <lb/>
+      <l>Er hört, er ſieht, er bleibet ſtumm,</l>
+      <lb/>
+      <l>Und dreht ſich wieder um und um,</l>
+      <lb/>
+      <l>Und läuft im ganzen Haus' herum,</l>
+      <lb/>
+      <l>Und rechtsum, linksum, ringsum, und — kurzum,</l>
+      <lb/>
+      <l>Er kann den Schlüſſel nicht finden.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="aaaaaaaaaaa">
+      <l>Das iſt doch ſonderbar, hum! hum!</l>
+      <lb/>
+      <l>Schon eine Viertelſtund' iſt um,</l>
+      <lb/>
+      <l>Du drehſt dich, rennſt wie toll und dumm,</l>
+      <lb/>
+      <l>So ſag doch <hi rendition="#g">wie</hi>? ſag, ſag <hi rendition="#g">warum</hi>?</l>
+      <lb/>
+      <pb n="138" facs="#f0156"/>
+      <l>Der Wirth weiß ſchon das <hi rendition="#g">Wie</hi>? Warum?</l>
+      <lb/>
+      <l>Er neigt ſich, beugt ſich, ſteht ganz krumm,</l>
+      <lb/>
+      <l>Er lächelt, ſchmunzelt, ſtellt ſich dumm,</l>
+      <lb/>
+      <l>Er hört, er ſieht, er bleibet ſtumm,</l>
+      <lb/>
+      <l>Und dreht ſich wieder um und um,</l>
+      <lb/>
+      <l>Und läuft im ganzen Haus' herum,</l>
+      <lb/>
+      <l>Und rechtsum, linksum, ringsum, und — kurzum,</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="6">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabccb">
+      <l>Schnauz- und Backenbärte ſprießen</l>
+      <lb/>
+      <l>Eh vier Wochen kaum verfließen!</l>
+      <lb/>
+      <l>O wie groß iſt Gottes Gnade!</l>
+      <lb/>
+      <l>Auf! wir wollen allenthalben</l>
+      <lb/>
+      <l>Uns am Leib und Herzen ſalben</l>
+      <lb/>
+      <l>Mit der deutſchen Löwenpomade!</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aabccb">
+      <l>Wagt's, Franzoſen, wagt es nimmer,</l>
+      <lb/>
+      <l>Denn es ging' euch heute ſchlimmer</l>
+      <lb/>
+      <l>Als dereinſt im Katzbachbade:</l>
+      <lb/>
+      <l>Unſer Kriegsheer iſt gar mächtig,</l>
+      <lb/>
+      <l>Muth und Barthaar wuchs ihm prächtig</l>
+      <lb/>
+      <l>Von der deutſchen Löwenpomade.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="7">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Sie haben ſich von Gottes Gnaden</l>
+      <lb/>
+      <l>Zu Herren dieſer Welt gemacht —</l>
+      <lb/>
+      <l>Das könnt' uns weiter gar nicht ſchaden,</l>
+      <lb/>
+      <l>Wär's wahr, was ſie ſich ausgedacht.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Denn wären ſie die Gottesholden,</l>
+      <lb/>
+      <l>So ſorgte Gott für ſie allein,</l>
+      <lb/>
+      <l>Gar herrlich würd' er ſie beſolden,</l>
+      <lb/>
+      <l>Uns aber würde wohler ſein.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Wir würden dann die Erde haben,</l>
+      <lb/>
+      <l>Den Himmel aber hätten ſie;</l>
+      <lb/>
+      <l>Wir können uns hienieden laben</l>
+      <lb/>
+      <l>Doch an dem Himmelreiche nie.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="8">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabb">
+      <l>Wenn ihr nicht frei euch fühlt zu Haus,</l>
+      <lb/>
+      <l>Wohlan, ſo ziehet gleich hinaus!</l>
+      <lb/>
+      <l>Frei könnt ihr ziehn aus allen deutſchen Landen,</l>
+      <lb/>
+      <l>Freizügigkeit iſt auch für euch vorhanden.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aabb">
+      <l>Ein ſchöner Zug von unſrer Zeit!</l>
+      <lb/>
+      <l>Ein ſchöner Zug: Freizügigkeit!</l>
+      <lb/>
+      <l>Dir fehlt ein n an deines Glückes Sterne:</l>
+      <lb/>
+      <l>Freizügig Volk, freizüngig wärſt du gerne!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="9">
+    <lg type="poem">
+
+     <lg type="stanza" rhyme="abab">
+      <l>Hoch lebe <hi rendition="#g">Scharnhorſt</hi>! Preußens Schutzpanier,</l>
+      <lb/>
+      <l>Und Ehr' und Ruhm für Preußens Schaaren!</l>
+      <lb/>
+      <l>Was <hi rendition="#g">er</hi> uns <hi rendition="#g">iſt</hi>, das wiſſen wir,</l>
+      <lb/>
+      <l>Wenn wir bedenken was wir waren.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="10">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabb">
+      <l>Sehnſucht hatte mich getrieben</l>
+      <lb/>
+      <l>Nach dem Lande meiner Lieben.</l>
+      <lb/>
+      <l>Aber, armes Heimathland,</l>
+      <lb/>
+      <l>Habe dich faſt nicht wiedererkannt.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aabb">
+      <l>Lange ſchon liegſt du danieder,</l>
+      <lb/>
+      <l>Und wie zuckt's dir durch die Glieder!</l>
+      <lb/>
+      <l>Groß iſt Gottes Gnad' und Huld,</l>
+      <lb/>
+      <l>Aber noch größer deine Geduld.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aabb">
+      <l>Nie wirſt du den Schmerz verwinden</l>
+      <lb/>
+      <l>Und auch nie den Arzt wohl finden:</l>
+      <lb/>
+      <l>Deine Qual, wer heilt ſie, wer?</l>
+      <lb/>
+      <l>Engliſche Krankheit — heilet man ſchwer.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="11">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Heugabel und Beſenſtiel,</l>
+      <lb/>
+      <l>Die wollten ſich vermählen;</l>
+      <lb/>
+      <l>Da gab's im ganzen Land gar viel</l>
+      <lb/>
+      <l>Und mancherlei zu erzählen.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Was iſt das für ein Paar!</l>
+      <lb/>
+      <l>Wie <hi rendition="#g">die</hi> zuſammen paſſen!</l>
+      <lb/>
+      <l><hi rendition="#g">Er</hi> iſt zu Haus das ganze Jahr,</l>
+      <lb/>
+      <l><hi rendition="#g">Sie</hi> draußen auf Wegen und Gaſſen.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l><hi rendition="#g">Er</hi> denkt an Stub' und Flur,</l>
+      <lb/>
+      <l>Und <hi rendition="#g">ſie</hi> an Ochſen und Pferde;</l>
+      <lb/>
+      <l><hi rendition="#g">Sie</hi> ſtrebet nach dem Hohen nur,</l>
+      <lb/>
+      <l>Und <hi rendition="#g">er</hi> bleibt auf der Erde.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Bei Frühlingsſonnenſchein</l>
+      <lb/>
+      <l>Will <hi rendition="#g">ſie</hi> ihr Amt nur führen;</l>
+      <lb/>
+      <l><hi rendition="#g">Er</hi> aber muß Jahr aus Jahr ein,</l>
+      <lb/>
+      <l><hi rendition="#g">Er</hi> muſs ſich immer rühren.</l>
+      <lb/>
+     </lg>
+     <pb n="33" facs="#f0051"/>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Doch als die Trauung war,</l>
+      <lb/>
+      <l>Da wurden die Mäuler ſtille;</l>
+      <lb/>
+      <l>Heugabel und Beſenſtiel blieb ein Paar,</l>
+      <lb/>
+      <l>I nun, es war ihr Wille.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>Heißa! das ganze Land</l>
+      <lb/>
+      <l>Zur Hochzeit war geladen,</l>
+      <lb/>
+      <l>Verwandt, bekannt und unbekannt,</l>
+      <lb/>
+      <l>Die Krummen, die Schiefen, die Graden.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abab">
+      <l>Da tanzten munter und friſch</l>
+      <lb/>
+      <l>Die Schemel, die Hütſchen, die Bänke,</l>
+      <lb/>
+      <l>Die Kannen, die Mulden, die Stühl' und die Tiſch'</l>
+      <lb/>
+      <l>Und Kiſten und Kaſten und Schränke.</l>
+      <lb/>
+     </lg>
+     <lg n="8" type="stanza" rhyme="abab">
+      <l>Heißa! nun wurden ſie</l>
+      <lb/>
+      <l>Poetiſch über die Maßen,</l>
+      <lb/>
+      <l>Daß ſie vor lauter Poeſie</l>
+      <lb/>
+      <l>Stand, Rang und Würde vergaßen:</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="abab">
+      <l>Die Liebe macht uns gleich,</l>
+      <lb/>
+      <l>Frau Beſenſtiel, Herr Gabel!</l>
+      <lb/>
+      <l>Der Will' iſt unſer Himmelreich —</l>
+      <lb/>
+      <l>Und das iſt keine Fabel.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="12">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Die Hund' und die Katzen die ſtritten ſich</l>
+      <lb/>
+      <l>Und zankten ſich um die Wette,</l>
+      <lb/>
+      <l>Wer unter ihnen urkundlich</l>
+      <lb/>
+      <l>Den älteſten Adel hätte.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>„Wir haben ein ururaltes Diplom</l>
+      <lb/>
+      <l>Lang her von undenklichen Tagen,</l>
+      <lb/>
+      <l>Was Remus mit Romulus einſt zu Rom</l>
+      <lb/>
+      <l>Gab allen Iſegrims-Magen.“</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>„Zeigt uns, erwiedern die Katzen, wohlan!</l>
+      <lb/>
+      <l>Zeigt her die alten Briefe!</l>
+      <lb/>
+      <l>Was ſteht denn drin, was hangt denn dran?</l>
+      <lb/>
+      <l>Wo ſind ſie, in welchem Archive?“</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Man ſchickte den Pudel eilig nach Rom</l>
+      <lb/>
+      <l>Zum Aerger der Katzen und Kater,</l>
+      <lb/>
+      <l>Der ſollte holen das alte Diplom</l>
+      <lb/>
+      <l>Herbei vom heiligen Vater.</l>
+      <lb/>
+     </lg>
+     <pb n="29" facs="#f0047"/>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Der Pudel kommt ganz ungenirt</l>
+      <lb/>
+      <l>Zum Papſt hereingetreten;</l>
+      <lb/>
+      <l>Er hat den Pantoffel ihm apportiert</l>
+      <lb/>
+      <l>Und dann ihn höflich gebeten.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>Der Pudel empfing aus des Papſtes Hand</l>
+      <lb/>
+      <l>Was das Hundevolk begehrte;</l>
+      <lb/>
+      <l>Dann zog er wiederum in ſein Land</l>
+      <lb/>
+      <l>Auf ſeiner alten Fährte.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abab">
+      <l>Und als er kam an den Po bei Rom,</l>
+      <lb/>
+      <l>Da ſchwamm vor ihm ein Braten,</l>
+      <lb/>
+      <l>Er ſchnappte darnach, und verlor ſein Diplom,</l>
+      <lb/>
+      <l>Und muſſt' es auf ewig entrathen.</l>
+      <lb/>
+     </lg>
+     <lg n="8" type="stanza" rhyme="abab">
+      <l>So ſtand die Sache nun wie zuletzt,</l>
+      <lb/>
+      <l>Der Streit blieb unentſchieden,</l>
+      <lb/>
+      <l>Und Hund' und Katzen halten bis jetzt</l>
+      <lb/>
+      <l>Noch immer keinen Frieden.</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="abab">
+      <l>Die Hunde die denken noch immer ſo:</l>
+      <lb/>
+      <l>Wir werden ſie ſchon überwinden!</l>
+      <lb/>
+      <l>Sie ſuchen und forſchen noch immer am Po —</l>
+      <lb/>
+      <l>Und können den Adel nicht finden.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="13">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abcb">
+      <l>Nie ſoll es doch ihnen gelingen,</l>
+      <lb/>
+      <l>Wir halten vom Ziele ſie fern:</l>
+      <lb/>
+      <l>Sie bleiben das Lumpengeſindel,</l>
+      <lb/>
+      <l>Wir bleiben die gnädigen Herrn.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abcb">
+      <l>Und haben wir Manches verloren,</l>
+      <lb/>
+      <l>So kehret auch Manches zurück;</l>
+      <lb/>
+      <l>Stets gehet die Zeit noch im Kreiſe,</l>
+      <lb/>
+      <l>Sie bringet zurück uns das Glück.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abcb">
+      <l>Hervor mit den alten Geſetzen,</l>
+      <lb/>
+      <l>Und weg mit der Conſtitution!</l>
+      <lb/>
+      <l>Da kommen die beſſeren Zeiten</l>
+      <lb/>
+      <l>Von ſelber für uns und den Thron.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abcb">
+      <l>Drum laſſet uns hoffen und harren,</l>
+      <lb/>
+      <l>Weil Adel und Tugend nicht ſtirbt,</l>
+      <lb/>
+      <l>Daß endlich der Adel Europas</l>
+      <lb/>
+      <l>Sein Recht auch noch wieder erwirbt.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="14">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Nein, beſtehen ſoll das Schlagen!</l>
+      <lb/>
+      <l>Zwar nicht gut iſt Schlag und Hieb,</l>
+      <lb/>
+      <l>Werden <hi rendition="#g">wir</hi> nur nicht geſchlagen,</l>
+      <lb/>
+      <l>Iſt uns alles Schlagen lieb.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Denn wir ſind gut eingeſchlagen,</l>
+      <lb/>
+      <l>Nicht geſchlagen aus der Art.</l>
+      <lb/>
+      <l>Wenn die Trommel wird geſchlagen,</l>
+      <lb/>
+      <l>Iſt ſchon unſer Volk geſchaart.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Gegen Feindes Anſchlag ſchlagen</l>
+      <lb/>
+      <l>Wir den Richtweg ein zur Schlacht,</l>
+      <lb/>
+      <l>Und es wird die Schlacht geſchlagen,</l>
+      <lb/>
+      <l>Eh's der Feind noch hat gedacht.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Wie ein Schiff im Meer verſchlagen,</l>
+      <lb/>
+      <l>Schlägt ſein böſer Anſchlag um,</l>
+      <lb/>
+      <l>Und die Trommel wird geſchlagen,</l>
+      <lb/>
+      <l>Siegreich kehrn wir wieder um.</l>
+      <lb/>
+     </lg>
+     <pb n="104" facs="#f0122"/>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Und ſo wagen und ſo ſchlagen</l>
+      <lb/>
+      <l>Wir uns muthig durch die Welt,</l>
+      <lb/>
+      <l>Bis das Herz hat ausgeſchlagen</l>
+      <lb/>
+      <l>Und des Lebens Schlagbaum fällt.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>Und ſo lange Finken ſchlagen</l>
+      <lb/>
+      <l>Und die Eichen ſchlagen aus,</l>
+      <lb/>
+      <l>Werden deutſche Herzen ſchlagen,</l>
+      <lb/>
+      <l>Und das Schlagen ſtirbt nicht aus.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="15">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Jüngſt iſt ein General erwacht,</l>
+      <lb/>
+      <l>Ein tapfrer General,</l>
+      <lb/>
+      <l>Dem hat ein Traum um Mitternacht</l>
+      <lb/>
+      <l>Gemacht viel Angſt und Qual.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Er war im Leben noch erſchreckt</l>
+      <lb/>
+      <l>Durch keinerlei Gefahr,</l>
+      <lb/>
+      <l>Doch hat ein Traum ihn aufgeweckt,</l>
+      <lb/>
+      <l>Ein Traum gar wunderbar.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Was träumte denn dem General</l>
+      <lb/>
+      <l>In ſpäter Mitternacht?</l>
+      <lb/>
+      <l>Was hat ihm denn ſo große Qual</l>
+      <lb/>
+      <l>Und ſoviel Angſt gemacht?</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Ihn der gebebt in keiner Schlacht,</l>
+      <lb/>
+      <l>Den nichts noch hatt' erſchreckt,</l>
+      <lb/>
+      <l>Was hat ihn denn um Mitternacht</l>
+      <lb/>
+      <l>Aus ſeinem Schlaf geweckt?</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>War's Krieg und Peſt, war's Hungersnoth?</l>
+      <lb/>
+      <l>War's Hülf- und Feuerſchrei?</l>
+      <lb/>
+      <l>War's Hochverrath, und Mord und Tod?</l>
+      <lb/>
+      <l>War's blut'ge Meuterei?</l>
+      <lb/>
+     </lg>
+     <pb n="109" facs="#f0129"/>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>Ihm träumte — nun, es war enorm! —</l>
+      <lb/>
+      <l>Daß durch das ganze Heer</l>
+      <lb/>
+      <l>Erhielte jede Uniform</l>
+      <lb/>
+      <l>Hinfort zwei Knöpfe mehr.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="16">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Biſt du auch hienieden</l>
+      <lb/>
+      <l>Gar gering und arm,</l>
+      <lb/>
+      <l>Herz, gieb dich zufrieden,</l>
+      <lb/>
+      <l>Laſs den Gram und Harm!</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Denn die höchſten Gaben</l>
+      <lb/>
+      <l>Sind auch dir nicht fern,</l>
+      <lb/>
+      <l>Weil wir alle haben</l>
+      <lb/>
+      <l>Einen Gott und Herrn;</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Einen Herrn und Meiſter,</l>
+      <lb/>
+      <l>Und ein Himmelreich —</l>
+      <lb/>
+      <l>Alle guten Geiſter</l>
+      <lb/>
+      <l>Sind auf Erden gleich.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="17">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Wenn wir auch ohne Ahnen ſterben</l>
+      <lb/>
+      <l>Und ohne Adelsglück und Ruhm:</l>
+      <lb/>
+      <l>O glücklich, wenn wir dort ererben</l>
+      <lb/>
+      <l>Ein Gotteslehn zum Eigenthum!</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Auch iſt's ein Troſt für unſer Leben,</l>
+      <lb/>
+      <l>Für unſre ſchwächliche Natur:</l>
+      <lb/>
+      <l>Erbſünde hat uns Gott gegeben,</l>
+      <lb/>
+      <l>Erbadel gaben wir uns nur.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="18">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Schöne Blume, wie umſtricket?</l>
+      <lb/>
+      <l>Dich die wälſche Spinne doch!</l>
+      <lb/>
+      <l>Und du biſt noch nicht zerknicket?</l>
+      <lb/>
+      <l>Und du grünſt und blüheſt noch?</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>„Ja, ich blühe, roth und golden,</l>
+      <lb/>
+      <l>Etwas ſchwarz nur miſcht ſich drein,</l>
+      <lb/>
+      <l>Etwas ſchwarz — doch meine Dolden</l>
+      <lb/>
+      <l>Werden bald nur ſchwarz noch ſein.“</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="19">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Und ſeid ihr auch in Jugendfriſche,</l>
+      <lb/>
+      <l>Noch ganz geſund, noch gar nicht alt —</l>
+      <lb/>
+      <l>Wo einmal dreizehn ſind bei Tiſche,</l>
+      <lb/>
+      <l>Stirbt einer von den dreizehn bald.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>So ging es, als der Bundesacte</l>
+      <lb/>
+      <l>Dreizehnter mit bei Tiſche ſaß:</l>
+      <lb/>
+      <l>Daß da der Tod den Jüngſten packte!</l>
+      <lb/>
+      <l>O weh! das war ein ſchlechter Spaß.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="20">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabb">
+      <l>Gott, der du biſt ein Freund der Menſchenkinder,</l>
+      <lb/>
+      <l>Und ein Erbarmer der zerſchlagnen Sünder,</l>
+      <lb/>
+      <l>Schau uns doch an, wie wir gedrucket werden</l>
+      <lb/>
+      <l>Durch viel Beſchwerden.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aabb">
+      <l>Wir haben bisher bei viel langen Jahren</l>
+      <lb/>
+      <l>Auf unſerm Rücken deine Streich' erfahren,</l>
+      <lb/>
+      <l>Und deine Hand war uns zur harten Plage</l>
+      <lb/>
+      <l>Bei Nacht und Tage.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aabb">
+      <l>Krieg hat dies ſchöne Land ganz umgekehret,</l>
+      <lb/>
+      <l>Und unſer Fleiſch und Mark rein ausgezehret;</l>
+      <lb/>
+      <l>Peſt hat auch unſre Brüder weggenommen</l>
+      <lb/>
+      <l>Mit großen Summen.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="aabb">
+      <l>In Hungersnoth ſind ihrer viel vergangen;</l>
+      <lb/>
+      <l>Wir, die wir übrig, ſind zurings umfangen</l>
+      <lb/>
+      <l>Mit Nattern, die uns ohne Maß und Zählen</l>
+      <lb/>
+      <l>Martern und quälen.</l>
+      <lb/>
+     </lg>
+     <fw type="sig" place="bottom">13<lb/>
+     </fw>
+     <pb n="194" facs="#f0214"/>
+     <lg n="5" type="stanza" rhyme="aabb">
+      <l>O Herr, wie haſt du dich uns doch verwandelt</l>
+      <lb/>
+      <l>In einen, der ſehr ſtreng and grauſam handelt?</l>
+      <lb/>
+      <l>Ach, wo iſt doch dein väterlich Gemüthe</l>
+      <lb/>
+      <l>Und milde Güte?</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="aabb">
+      <l>Wir müſſen zwar für unſrer Noth erblaſſen,</l>
+      <lb/>
+      <l>Daß wir ſo ſchändlich dein Gebot verlaſſen;</l>
+      <lb/>
+      <l>Aber wir kehren um und ſind befliſſen</l>
+      <lb/>
+      <l>Herzlich zu büßen.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="aabb">
+      <l>So kehr auch du zu uns nun mit Genaden,</l>
+      <lb/>
+      <l>Wend' unſern Jammer und heil' unſern Schaden!</l>
+      <lb/>
+      <l>Sei unſer Gott, wie du vor biſt geweſen,</l>
+      <lb/>
+      <l>Daß wir geneſen!</l>
+      <lb/>
+     </lg>
+     <lg n="8" type="stanza" rhyme="aabb">
+      <l>Die hier auf Erden deine Stelle halten,</l>
+      <lb/>
+      <l>Die wollen höher, als ſie ſollen, walten;</l>
+      <lb/>
+      <l>Die Seele, die dir Gott nur will gebüren,</l>
+      <lb/>
+      <l>Woll'n ſie regieren.</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="aabb">
+      <l>Drum nimm dich deſſen an, das dir gehöret!</l>
+      <lb/>
+      <l>Erhalt' uns das, was dein Mund uns gelehret!</l>
+      <lb/>
+      <l>Laß uns von dir durch Zwang, Gewalt und Leiden</l>
+      <lb/>
+      <l>Keinmal abſcheiden!</l>
+      <lb/>
+     </lg>
+     <lg n="10" type="stanza" rhyme="aabb">
+      <l>Sondern tritt freundlich uns zu unſer Seiten,</l>
+      <lb/>
+      <l>Hilf wider dein' und unſre Feinde ſtreiten,</l>
+      <lb/>
+      <l>Die ſich zuſammenrotten und ſtark kämpfen,</l>
+      <lb/>
+      <l>Dein Wort zu dämpfen.</l>
+      <lb/>
+     </lg>
+     <pb n="195" facs="#f0215"/>
+     <lg n="11" type="stanza" rhyme="aabb">
+      <l>Wir wollen hier nach deinem Willen dulden,</l>
+      <lb/>
+      <l>Was du uns zuerkennſt für unſre Schulden,</l>
+      <lb/>
+      <l>Nur daß uns <hi rendition="#g">der</hi> Kampf, der uns zu dir bringet,</l>
+      <lb/>
+      <l>Selig gelinget.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="21">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Wenn man euren Glanz will ſchauen,</l>
+      <lb/>
+      <l>Wirft man euch ein Körnlein vor,</l>
+      <lb/>
+      <l>Und man lockt euch wie die Pfauen</l>
+      <lb/>
+      <l>Draußen vor des Schloßhofs Thor.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Türkſche Enten, Hähn' und Hennen</l>
+      <lb/>
+      <l>Sind hoffähig nur allein,</l>
+      <lb/>
+      <l>Dürfen nicht nach Futter rennen,</l>
+      <lb/>
+      <l>Dürfen nicht nach Futter ſchrei'n.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Merkt es euch, ihr Königsdichter!</l>
+      <lb/>
+      <l>Wenn ihr ſchlagt das ſchönſte Rad,</l>
+      <lb/>
+      <l>Frißt ſich andres Hofgelichter</l>
+      <lb/>
+      <l>Ganz bequem im Schloßhof ſatt.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="22">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aaa">
+      <l>Wozu ſollen die Beſchwerden?</l>
+      <lb/>
+      <l>Freiheit iſt genug auf Erden,</l>
+      <lb/>
+      <l>Wenig, viel und nichts zu werden.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aaa">
+      <l>Freiheit ward uns in Gewerben,</l>
+      <lb/>
+      <l>Im Verthun und im Verderben,</l>
+      <lb/>
+      <l>Im Verhungern und im Sterben.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aaa">
+      <l>Weiter kannſt du's hier nicht bringen;</l>
+      <lb/>
+      <l>Andre Freiheit zu erringen,</l>
+      <lb/>
+      <l>Wird dir dort nur erſt gelingen.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="23">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabbc">
+      <l>Heute roth, heute roth,</l>
+      <lb/>
+      <l>Heute roth und morgen todt.</l>
+      <lb/>
+      <l>Daß ein Wort dich könnte fällen,</l>
+      <lb/>
+      <l>Schien ſich niemand vorzuſtellen,</l>
+      <lb/>
+      <l>Aber, aber es geſchah.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aabbc">
+      <l>Nur ein Wort, nur ein Wort,</l>
+      <lb/>
+      <l>Die Verfaſſung war gleich fort;</l>
+      <lb/>
+      <l>Eid und Treue und Gewiſſen</l>
+      <lb/>
+      <l>Wurden wie Papier zerriſſen,</l>
+      <lb/>
+      <l>Und was war's denn weiter auch!</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aabbc">
+      <l>Denn die Welt, denn die Welt</l>
+      <lb/>
+      <l>Auf Verändrung noch was hält:</l>
+      <lb/>
+      <l>Alles Alte wird alltäglich</l>
+      <lb/>
+      <l>Und zuletzt ganz unerträglich,</l>
+      <lb/>
+      <l>Darum friſch damit ins Grab!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="24">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abbaa">
+      <l>Ihr ſtützt euch auf Geſchichte,</l>
+      <lb/>
+      <l>Und ſucht nicht was ihr ſuchen ſollt,</l>
+      <lb/>
+      <l>Und findet was ihr finden wollt —</l>
+      <lb/>
+      <l>Das nennet ihr Geſchichte!</l>
+      <lb/>
+      <l>Und das Alte gehet doch zu Nichte.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abbaa">
+      <l>O leſet die Geſchichte!</l>
+      <lb/>
+      <l>Und ſehet wie der ew'ge Geiſt</l>
+      <lb/>
+      <l>Zum Neubau Altes niederreißt —</l>
+      <lb/>
+      <l>O leſt — nie die Geſchichte!</l>
+      <lb/>
+      <l>Und das Alte gehet doch zu Nichte.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="25">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Ich ſtimme für die Monarchie,</l>
+      <lb/>
+      <l>Da giebt's noch Räng' und Stände;</l>
+      <lb/>
+      <l>Mit Republik geht Poeſie</l>
+      <lb/>
+      <l>Und alles Glück zu Ende.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Ich ſtimme für die Monarchie;</l>
+      <lb/>
+      <l>Wenn wir darin nicht wären,</l>
+      <lb/>
+      <l>Wie könnten wir doch ohne ſie</l>
+      <lb/>
+      <l>So viele Leut' ernähren.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Ich ſtimme für die Monarchie,</l>
+      <lb/>
+      <l>Für Würden, Titel, Orden;</l>
+      <lb/>
+      <l>In Republiken ſind noch nie</l>
+      <lb/>
+      <l>Verdienſte was geworden.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Ich ſtimme für die Monarchie,</l>
+      <lb/>
+      <l>Wo die Cenſur noch waltet,</l>
+      <lb/>
+      <l>Wo nicht der Preſſe Despotie</l>
+      <lb/>
+      <l>Nach Herzenslüſten ſchaltet.</l>
+      <lb/>
+     </lg>
+     <pb n="14" facs="#f0034"/>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Ich ſtimme für die Monarchie,</l>
+      <lb/>
+      <l>Wo weiſe wird regieret,</l>
+      <lb/>
+      <l>Weil Grundbeſitz mit Hab' und Vieh</l>
+      <lb/>
+      <l>Nur iſt repräſentieret.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>Ich ſtimme für die Monarchie,</l>
+      <lb/>
+      <l>Die giebt noch gute Rente;</l>
+      <lb/>
+      <l>Es gab die Republik doch nie</l>
+      <lb/>
+      <l>Vier oder fünf Procente.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abab">
+      <l>Drum laß ich mir die Monarchie</l>
+      <lb/>
+      <l>Auch nun und nimmer rauben:</l>
+      <lb/>
+      <l>Wir haben Eine Liturgie,</l>
+      <lb/>
+      <l>Und Einen Gott und Glauben.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="26">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abccb">
+      <l>So ſingen wir, ſo trinken wir</l>
+      <lb/>
+      <l>Uns froh hinein ins neue Jahr.</l>
+      <lb/>
+      <l>Wir laſſen drüben Gram und Leid,</l>
+      <lb/>
+      <l>Und nehmen mit die Fröhlichkeit</l>
+      <lb/>
+      <l>Ins neue Jahr.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abccb">
+      <l>So ſingen wir, ſo trinken wir</l>
+      <lb/>
+      <l>Uns froh hinein ins neue Jahr.</l>
+      <lb/>
+      <l>Die Freundſchaft geht von ſelber mit,</l>
+      <lb/>
+      <l>Begleitet treu uns Schritt vor Schritt</l>
+      <lb/>
+      <l>Ins neue Jahr.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abccb">
+      <l>So ſingen wir, ſo trinken wir</l>
+      <lb/>
+      <l>Uns froh hinein ins neue Jahr.</l>
+      <lb/>
+      <l>Die Hoffnung wartet unſrer dort,</l>
+      <lb/>
+      <l>Sie ſprach: „Komm mit! ich ziehe fort</l>
+      <lb/>
+      <l>Ins neue Jahr.“</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abccb">
+      <l>So ſingen wir, ſo trinken wir</l>
+      <lb/>
+      <l>Uns froh hinein ins neue Jahr.</l>
+      <lb/>
+      <l>Drum, wer's nicht froh beginnen kann,</l>
+      <lb/>
+      <l>Der fang es lieber gar nicht an,</l>
+      <lb/>
+      <l>Das neue Jahr!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="27">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aaa">
+      <l>Nichts will bei uns mehr gehen,</l>
+      <lb/>
+      <l>Weil wir auf's Stehn nur ſehen,</l>
+      <lb/>
+      <l>Drum laſſen wir auch unſre Heere ſtehen.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="aaa">
+      <l>Nur ihnen iſt zu danken,</l>
+      <lb/>
+      <l>Daß wir in unſern Schranken</l>
+      <lb/>
+      <l>Nicht kommen in ein miſſlich Schwanken.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aaa">
+      <l>Doch ſteht vor dieſen Heeren,</l>
+      <lb/>
+      <l>Leibwachen mit Gewehren,</l>
+      <lb/>
+      <l>Ein groß Gedankenheer mit Schwert und Speeren.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="aaa">
+      <l>Wenn beide ſich bekriegen,</l>
+      <lb/>
+      <l>Wer wird von beiden ſiegen?</l>
+      <lb/>
+      <l>Die Gedanken ſtehn, und unſre Heere fliegen.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="28">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Willſt du was werden,</l>
+      <lb/>
+      <l>Mußt du ſchweigen,</l>
+      <lb/>
+      <l>Mußt dich zur Erden</l>
+      <lb/>
+      <l>Tief verneigen.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Daß Du ein Knecht biſt,</l>
+      <lb/>
+      <l>Hat man gerne.</l>
+      <lb/>
+      <l>Allem was recht iſt,</l>
+      <lb/>
+      <l>Halt dich ferne!</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Lerne den Willen</l>
+      <lb/>
+      <l>Unſrer Lenker!</l>
+      <lb/>
+      <l>Und auch im Stillen</l>
+      <lb/>
+      <l>Sei kein Denker!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="29">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Nur im Oſten kann es tagen,</l>
+      <lb/>
+      <l>Und es tagte wunderbar,</l>
+      <lb/>
+      <l>Und im Oſten ward geſchlagen</l>
+      <lb/>
+      <l>Frankreichs ſieggewohnte Schaar.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Und die Moscowiterhorden</l>
+      <lb/>
+      <l>Haben uns das Heil gebracht,</l>
+      <lb/>
+      <l>Sind mit uns verbrüdert worden</l>
+      <lb/>
+      <l>Durch die deutſche Freiheitsſchlacht.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l><hi rendition="#g">Die</hi> Verbrüdrung kann nur fruchten,</l>
+      <lb/>
+      <l>Bringt uns Segen immerdar:</l>
+      <lb/>
+      <l>Dankbar gehn wir drum in Juchten,</l>
+      <lb/>
+      <l>Eſſen dankbar Kaviar.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="30">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Ein Vorwärts war ſein ganzes Streben,</l>
+      <lb/>
+      <l>Ein Vorwärts für ſein Vaterland,</l>
+      <lb/>
+      <l>Drum ward er auch bei ſeinem Leben</l>
+      <lb/>
+      <l>Der Marſchall Vorwärts nur genannt.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Er konnte nie ein Haltauf leiden</l>
+      <lb/>
+      <l>Und was ihn hemmt' in ſeinem Lauf;</l>
+      <lb/>
+      <l>Ein Vorwärts muß das Haltauf meiden,</l>
+      <lb/>
+      <l>Sonſt höret es von ſelber auf.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Und ſo auch dachten ſeine Erben,</l>
+      <lb/>
+      <l>Weil jeder gern den Ahnen gleicht;</l>
+      <lb/>
+      <l>Sie wollten ohne Haltauf ſterben,</l>
+      <lb/>
+      <l>Und haben auch ihr Ziel erreicht.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Ein Blücherſch Gut, bei Oels gelegen,</l>
+      <lb/>
+      <l>Haltauf genannt, iſt ſequeſtriert,</l>
+      <lb/>
+      <l>Und wird nun eben dieſerwegen</l>
+      <lb/>
+      <l>Im nächſten Juni <note place="foot" n="*)">Und zwar nach dem Proclama 22. Juni 1840.<lb/>
+       </note> ſubhaſtiert.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+  </body>
+ </text>
+</TEI>

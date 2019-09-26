@@ -1,0 +1,995 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Der Deutschen Dreyßig-Jähriger Krjeg/ Poetisch erzählet</title>
+                <author>
+                    <persName ref="http://d-nb.info/gnd/118718622">
+                        <surname>Greflinger</surname>
+                        <forename>Georg</forename>
+                        <addName>Celadon &lt;von der Donau&gt;</addName>
+                    </persName>
+                </author>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName ref="http://d-nb.info/gnd/115266127">
+                        <surname>Geyken</surname>
+                        <forename>Alexander</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName ref="http://d-nb.info/gnd/1018099549">
+                        <surname>Haaf</surname>
+                        <forename>Susanne</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName ref="http://d-nb.info/gnd/1019062681">
+                        <surname>Jurish</surname>
+                        <forename>Bryan</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName>
+                        <surname>Boenig</surname>
+                        <forename>Matthias</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName>
+                        <surname>Thomas</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName>
+                        <surname>Wiegand</surname>
+                        <forename>Frank</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <orgName ref="http://www.clarin-d.de">CLARIN-D</orgName>
+                    <resp>
+                        <note type="remarkResponsibility">Langfristige Bereitstellung der
+                            DTA-Ausgabe</note>
+                        <ref target="http://fedora.dwds.de"/>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Vollständige digitalisierte Ausgabe.</edition>
+            </editionStmt>
+            <extent>
+                <measure type="images">159</measure>
+                <measure type="tokens">42926</measure>
+                <measure type="types">7221</measure>
+                <measure type="characters">271733</measure>
+            </extent>
+            <publicationStmt>
+                <publisher xml:id="DTACorpusPublisher">
+                    <email>dta@bbaw.de</email>
+                    <orgName role="project">Deutsches Textarchiv</orgName>
+                    <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of
+                        Sciences and Humanities (BBAW)</orgName>
+                    <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische
+                        Akademie der Wissenschaften (BBAW)</orgName>
+                    <address>
+                        <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                        <country>Germany</country>
+                    </address>
+                </publisher>
+                <pubPlace>Berlin</pubPlace>
+                <date type="publication">2016-10-10T16:33:15Z</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+                        <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0
+                            Unported License.</p>
+                    </licence>
+                </availability>
+                <idno>
+                    <idno type="URLWeb"
+                        >http://www.deutschestextarchiv.de/greflinger_krieg_1657</idno>
+                    <idno type="URLXML"
+                        >http://www.deutschestextarchiv.de/book/download_xml/greflinger_krieg_1657</idno>
+                    <idno type="URLHTML"
+                        >http://www.deutschestextarchiv.de/book/download_html/greflinger_krieg_1657</idno>
+                    <idno type="URLText"
+                        >http://www.deutschestextarchiv.de/book/download_text/greflinger_krieg_1657</idno>
+                    <idno type="DTADirName">greflinger_krieg_1657</idno>
+                    <idno type="DTAID">20209</idno>
+                    <idno type="URN">urn:nbn:de:kobv:b4-200905199036</idno>
+                </idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="M">Celadon von der Donau [i. e. Greflinger, Georg]: Der Deutschen
+                    Dreyßig-Jähriger Krjeg. [s. l.], 1657.</bibl>
+                <biblFull>
+                    <titleStmt>
+                        <title level="m" type="main">Der Deutschen Dreyßig-Jähriger Krjeg/ Poetisch
+                            erzählet</title>
+                        <author>
+                            <persName ref="http://d-nb.info/gnd/118718622">
+                                <surname>Greflinger</surname>
+                                <forename>Georg</forename>
+                                <addName>Celadon &lt;von der Donau&gt;</addName>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition n="1"/>
+                    </editionStmt>
+                    <extent>
+                        <measure type="pages">[75] Bl.</measure>
+                    </extent>
+                    <publicationStmt>
+                        <publisher><name>s. e.</name></publisher>
+                        <pubPlace>s. l.</pubPlace>
+                        <date type="publication">1657</date>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno>
+                            <idno type="shelfmark">SUB Göttingen, 8 P GERM II, 8365</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <typeDesc>
+                            <p>Fraktur</p>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Dieses Werk wurde gemäß den <ref
+                        target="http://www.deutschestextarchiv.de/doku/richtlinien"
+                        >DTA-Transkriptionsrichtlinien</ref> im Double-Keying-Verfahren von
+                    Nicht-Muttersprachlern erfasst und in XML/TEI P5 nach <ref
+                        target="http://www.deutschestextarchiv.de/doku/basisformat"
+                        >DTA-Basisformat</ref> kodiert.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="rendition-aq">font-family:sans-serif</rendition>
+                <rendition scheme="css" xml:id="rendition-b">font-weight:bold</rendition>
+                <rendition scheme="css" xml:id="rendition-blue">color:blue</rendition>
+                <rendition scheme="css" xml:id="rendition-c">display:block;
+                    text-align:center</rendition>
+                <rendition scheme="css" xml:id="rendition-et">display:block; margin-left:2em;
+                    text-indent:0</rendition>
+                <rendition scheme="css" xml:id="rendition-et2">display:block; margin-left:4em;
+                    text-indent:0</rendition>
+                <rendition scheme="css" xml:id="rendition-et3">display:block; margin-left:6em;
+                    text-indent:0</rendition>
+                <rendition scheme="css" xml:id="rendition-f">border:1px dotted silver</rendition>
+                <rendition scheme="css" xml:id="rendition-fr">border:1px dotted silver</rendition>
+                <rendition scheme="css" xml:id="rendition-g">letter-spacing:0.125em</rendition>
+                <rendition scheme="css" xml:id="rendition-i">font-style:italic</rendition>
+                <rendition scheme="css" xml:id="rendition-in">font-size:150%</rendition>
+                <rendition scheme="css" xml:id="rendition-k">font-variant:small-caps</rendition>
+                <rendition scheme="css" xml:id="rendition-larger">font-size:larger</rendition>
+                <rendition scheme="css" xml:id="rendition-red">color:red</rendition>
+                <rendition scheme="css" xml:id="rendition-right">display:block;
+                    text-align:right</rendition>
+                <rendition scheme="css" xml:id="rendition-s"
+                    >text-decoration:line-through</rendition>
+                <rendition scheme="css" xml:id="rendition-smaller">font-size:smaller</rendition>
+                <rendition scheme="css" xml:id="rendition-sub">vertical-align:sub;
+                    font-size:.7em</rendition>
+                <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+                    font-size:.7em</rendition>
+                <rendition scheme="css" xml:id="rendition-u">text-decoration:underline</rendition>
+                <rendition scheme="css" xml:id="rendition-uu">border-bottom:double 3px
+                    #000</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="deu">German</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtamain"
+                    >Belletristik</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtasub"
+                    >Lyrik</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+                    >Belletristik</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+                    >Lyrik</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+                    >core</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+                    >ready</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+                    >china</classCode>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div n="1">
+                <lg type="poem">
+                    <head>Von der Donau.</head>
+                    <lb/>
+                    <milestone unit="section" rendition="#hr"/>
+                    <lb/>
+                    <lg type="stanza" rhyme="aabb">
+                        <l><hi rendition="#in">S</hi>Eht hier in Worten an/ was jhr vor wenig Jah-<lb/>
+                            <hi rendition="#et">ren</hi></l>
+                        <lb/>
+                        <l>Jm Wercke habt gefuͤhlt. Ach GOtt! was Zeiten<lb/>
+                            <hi rendition="#et">waren.</hi></l>
+                        <lb/>
+                        <l>Jſts Luſt<ref target="#*"/>
+                            <choice>
+                                <sic>wannn</sic>
+                                <corr>wann</corr>
+                            </choice> man gedenckt/ was uns fuͤr Kreutz<lb/>
+                            <ref target="#*"/><hi rendition="#et">und Pein</hi></l>
+                        <lb/>
+                        <l>Betroffen hat/ ſo wird diß Buch ſehr luſtig ſeyn.</l>
+                    </lg>
+                </lg>
+            </div>
+
+            <div n="2">
+                <lg type="poem">
+                    <head><hi rendition="#c">An den<lb/> guten und den ſtachlichten<lb/>
+                        Leſer.</hi></head>
+                    <lb/>
+                    <lg type="stanza" rhyme="aabb">
+                        <l><hi rendition="#in">J</hi>Ch gebe dieſe Schrifft zum Liecht’/ um zu verſte-<lb/>
+                            <hi rendition="#et">hen/</hi></l>
+                        <lb/>
+                        <l>Worin zu viel/ und wo zu wenig ſey geſchehen/</l>
+                        <lb/>
+                        <l>Es dient zur Baͤſſerung. Der Welt-erfahrne lehr’/</l>
+                        <lb/>
+                        <l>Jch folge ſeinem Wort’. Ein Narꝛ hat kein Gehoͤr.</l>
+                    </lg>
+                </lg>
+            </div>
+
+            <div n="3">
+                <lg type="poem">
+                    <lg type="stanza" rhyme="aabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzAABBCCDDEEFFGGHHIIJJKKLLMMNNOOPPQQRRSSTTUUVVWWXXYYZZ11223344556677889900,,..--__´´``//**--++ usw.">
+                        <l><hi rendition="#in">E</hi>H ich nun wiederum den Kriegs-gelehrten Schwe-<lb/>
+                            <hi rendition="#et">den</hi></l>
+                        <lb/>
+                        <l>Jn jhrem Zuge folg’/ erheiſcht die Zeit zu reden/</l>
+                        <lb/>
+                        <l>Wie ſich die Weymar-Macht nunmehr durch Franckreichs</l>
+                        <lb/>
+                        <l><hi rendition="#et">Stab</hi></l>
+                        <lb/>
+                        <l>Von Volck und Gold geſchuͤtzt/ am Reyne ſich gehab’.</l>
+                        <lb/>
+                        <l>Es wuſte Franckreichs Heer/ daß unſer großer Kaͤyſer/</l>
+                        <lb/>
+                        <l>Nach dem er durch den Sieg die meiſten Fuͤrſten-Haͤuſer</l>
+                        <lb/>
+                        <l>Jhm wieder pflichtig hatt’/ auf die/ ſo jhre Hand</l>
+                    </lg>
+                    <lb/>
+                    <l>Mit hatten eingemiſcht/ und unſer Deutſches Land</l>
+                    <lb/>
+                    <l>befeindet/ ohne Rach ſehr ſchwerlich wuͤrde bleiben/</l>
+                    <lb/>
+                    <l>und darumb ſandt’ er Hilff dergleichen abzutreiben.</l>
+                    <lb/>
+                    <l>Es war zu ſeinem Schirm und auch zu groͤßrer Macht</l>
+                    <lb/>
+                    <l>Der Jenen/ denen er verbindlich war geacht/</l>
+                    <lb/>
+                    <l>Die durch den großen Schlag bey Noͤrdlingen empfangen/</l>
+                    <lb/>
+                    <l>Jn weit zerſtreuter Art was waren umgegangen.</l>
+                    <lb/>
+                    <l>Die Fuͤhrer dieſer Hilff aus Franckreich waren/ <hi rendition="#aq"
+                        >De</hi></l>
+                    <lb/>
+                    <l><hi rendition="#aq">La Force,</hi> Feld-Marſchalck/ und neben jhm <hi
+                            rendition="#aq">Brezé.</hi></l>
+                    <lb/>
+                    <fw type="catch" place="bottom">Es</fw>
+                    <lb/>
+                    <pb facs="#f0099"/>
+                    <l>Es mochte ſich jhr Volck mit Hertzog Bernhards Hauffen</l>
+                    <lb/>
+                    <l>Auf zwantzig tauſend Mann und etwas mehr belauffen.</l>
+                    <lb/>
+                    <l>Ein Heer von ſolcher Zahl war nun die groͤſte Macht/</l>
+                    <lb/>
+                    <l>und wurde mehr hiedurch als ſonſt durch viel verbracht.</l>
+                    <lb/>
+                    <l>Das Haͤupt von dieſem Heer war Bernhard/ der die Bruͤ-<lb/>
+                        <hi rendition="#et">cken</hi></l>
+                    <lb/>
+                    <l>Bey Mannheim uͤbergieng/ nach Darmſtadt zu zu ruͤcken/</l>
+                    <lb/>
+                    <l>Wo er mit ſeinem Heer Ruh und Erquickung nahm/</l>
+                    <lb/>
+                    <l>Bald aber weiter gieng und recht durch Franckfurt kam/</l>
+                    <lb/>
+                    <l>Auf Manßfelds ſeine Macht in Wetterauſchen Plaͤtzen</l>
+                    <lb/>
+                    <l>Gelagert und verpftegt/ gewaltig anzuſaͤtzen.</l>
+                    <lb/>
+                    <l>So bald als ſich ſein Feind jhm in die Augen gab</l>
+                    <lb/>
+                    <l>Schlug er bey Michelbach zwey Regimenter ab.</l>
+                    <lb/>
+                    <l>Es wurd’ auch ein Qnartier bey Waͤchterbach geſchlagen/</l>
+                    <lb/>
+                    <l>und eine große Zahl von Fuͤhrern/ Volck und Wagen</l>
+                    <lb/>
+                    <l>Gefangen eingebracht. Diß trieb den Mann- ins Feld</l>
+                    <lb/>
+                    <l>Von langer Hungers Noth und ungeheurer Kaͤlt</l>
+                    <lb/>
+                    <l>Ermattet/ uͤbern Meyn bey Aſchenburg/ zu gehen/</l>
+                    <lb/>
+                    <l>und da ſo lang verwahrt/ biß Rettuug kam/ zu ſtehen.</l>
+                    <lb/>
+                    <l>Worauf auch alle Macht/ die noch am Necker war/</l>
+                    <lb/>
+                    <l>Sich nach dem Meyn und Reyhn und Manßfelds ſeiner</l>
+                    <lb/>
+                    <l><hi rendition="#et">Schar</hi></l>
+                    <lb/>
+                    <l>Begab/ des Weymars Zug und neues Gluͤck zu braͤchen.</l>
+                    <lb/>
+                    <l>Es gieng auch zimlich an/ wie aus dem fernern ſpraͤchen</l>
+                    <lb/>
+                    <l>Wol ſol vernommen ſeyn. Ob ſchon noch groͤſre Macht</l>
+                    <lb/>
+                    <l>Durch einen Cardinal aus Franckreich war gebracht/</l>
+                    <lb/>
+                    <l>Des Hertzog Bernhards Heer zu ſtaͤrcken/ und den Gegner</l>
+                    <lb/>
+                    <l>Gewaltig ob zu ſeyn/ war doch des Sieges-Segner</l>
+                    <lb/>
+                    <l>Dem allen abgethan. Sie muſten uͤber Reyhn/</l>
+                    <lb/>
+                    <l>und nahmen ſie daſelbſt das Staͤdtlein Bingen ein/</l>
+                    <lb/>
+                    <l>Meyntz/ Creutznach/ Oppenheim und Franckenthal zu ſchuͤ-<lb/>
+                        <hi rendition="#et">tzen/</hi></l>
+                    <lb/>
+                    <l>So kam hergegen Worms (da unlaͤngſt noch ein ſitzen</l>
+                    <lb/>
+                    <l>Von weiſen leuthen war/ zu rathen/ wie der Krieg</l>
+                    <lb/>
+                    <l>Dem Kaͤyſer anzuthun) in unſers Kaͤyſers Sieg.</l>
+                    <lb/>
+                    <l>Dem Kaͤyſers-lutern folgt’/ ob ſchon nach langem Fechten/</l>
+                    <lb/>
+                    <l><hi rendition="#aq">U</hi>nd muſte Hatzfeldt hier bey ſeinen eignen
+                        Knechten</l>
+                    <lb/>
+                    <fw type="sig" place="bottom">F v</fw>
+                    <fw type="catch" place="bottom">Gewalt</fw>
+                    <lb/>
+                    <pb facs="#f0100"/>
+                    <l>Gewalt thun/ dieſe Stadt gewaltig’ anzugehn/</l>
+                    <lb/>
+                    <l>Man wuͤrgte/ was man hatt’ in Waffen angeſehn.</l>
+                    <lb/>
+                    <l>Hierauf begunte man auch Meyntz zu uͤberkommen/</l>
+                    <lb/>
+                    <l>Valette aber hatt’ es gluͤcklich unternommen.</l>
+                    <lb/>
+                    <l>Er kam mit Macht daͤhin/ des Manßfelds ſeine Macht/</l>
+                    <lb/>
+                    <l>Die dieſe Stadt umgab/ in offentliche Schlacht</l>
+                    <lb/>
+                    <l>Zu zwingen/ aber ſie gieng nach des Gallas Scharen/</l>
+                    <lb/>
+                    <l>Die laͤngſt den Reyn bey Worms in guten Schantzen wa-<lb/>
+                        <hi rendition="#et">ren.</hi></l>
+                    <lb/>
+                    <l><hi rendition="#aq">U</hi>nd nun e<gap reason="illegible" unit="chars"/>ugte
+                        ſich am Meyn ein andrer Krieg.</l>
+                    <lb/>
+                    <l>Es lenckte Franckfurt ſich nach ſeines Kaͤyſers Sieg</l>
+                    <lb/>
+                    <l>und ließ von Schweden ab/ woruͤber ſich die Schweden/</l>
+                    <lb/>
+                    <l>Jn Sachſenhauſen feſt/ mit vielen großen Reden</l>
+                    <lb/>
+                    <l>Beklagten. Es gebrach an Kraut/ an loht und Brod/</l>
+                    <lb/>
+                    <l>und darum ſuchten ſie/ daß Franckfurt/ ſolche Noth</l>
+                    <lb/>
+                    <l>Betrachtend/ helffen moͤcht/ um jhrer loß zu kommen.</l>
+                    <lb/>
+                    <l>Wir haben/ ſagte ſie/ uns gaͤntzlich vorgenommen</l>
+                    <lb/>
+                    <l>Von Sachſenhauſen ab und zur Armee zu gehn/</l>
+                    <lb/>
+                    <l>Weil keine Hilff/ ſo wir beſchoſſen ſeyn/ zu ſehn.</l>
+                    <lb/>
+                    <l>Verhelfft uns dann hiemit/ daß wir auf unſern Wegen</l>
+                    <lb/>
+                    <l>Dem Feinde/ der uns trifft/ uns koͤnnen widerlegen.</l>
+                    <lb/>
+                    <l>Wol/ Franckfurt ſchaffte Raht. Sie aber/ die den Raht</l>
+                    <lb/>
+                    <l>Bekamen/ ſchickten ſich zu einer andern That/</l>
+                    <lb/>
+                    <l>und kehrten das Geſchuͤtz nach Franckfurts feſten Mauern/</l>
+                    <lb/>
+                    <l>Damit ſo kam der Wein von Freindſchafft zu verſauern.</l>
+                    <lb/>
+                    <l>Was kunte Franckfurt mehr als nur dergleichen Werck</l>
+                    <lb/>
+                    <l>Beginnen/ wie es that. Es brauchte ſeiner Staͤrck/</l>
+                    <lb/>
+                    <l>und bot/ was man entbot. Es kam zu offnem ſchuͤſſen/</l>
+                    <lb/>
+                    <l><hi rendition="#aq">U</hi>nd haben beyde Staͤdt’ hiedurch viel leiden
+                        muͤſſen.</l>
+                    <lb/>
+                    <l>Damit erweckte man die Kaͤyſerliche Macht/</l>
+                    <lb/>
+                    <l>und wurd’ ein großes Theil hierum in Stand gebracht.</l>
+                    <lb/>
+                    <l>Die Schweden wehrten ſich ſo viel ſie immer kanten/</l>
+                    <lb/>
+                    <l>Biß daß die Kaͤyſriſchen zum ſtuͤrmen fertig ſtundten.</l>
+                    <lb/>
+                    <l>Da gaben ſie dem Ort in des Belaͤgrers Hand/</l>
+                    <lb/>
+                    <l>und wolten nach dem Platz Guſtavusburg genannt.</l>
+                    <lb/>
+                    <l>Man ſtundt es jhnen zu. Sie zogen. Schau/ da kamen</l>
+                    <lb/>
+                    <l>lamboyens Voͤlcker/ die ſie alle ruͤckwertz nahmen/</l>
+                    <lb/>
+                    <fw type="catch" place="bottom">Die</fw>
+                    <lb/>
+                    <pb facs="#f0101"/>
+                    <l>Die meiſten nahmen Dienſt. Hiemit vergolte man/</l>
+                    <lb/>
+                    <l>Was von denſelbigen an Franckfurt war gethan.</l>
+                    <lb/>
+                    <l>Als Gallas ſah/ wie ſchoͤn es jhnen wolte gluͤcken/</l>
+                    <lb/>
+                    <l>Mit Einnahm vieler Staͤdt’/ umgab er auch Sarbruͤcken.</l>
+                    <lb/>
+                    <l>Der Ort hielt tapffer aus/ doch endlich ohn’ Entſatz</l>
+                    <lb/>
+                    <l>Ermuͤdet/ ließ er nach und gab dem Gallas Platz.</l>
+                    <lb/>
+                    <l>Diß alles uͤberlegt/ und wol da bey erwogen</l>
+                    <lb/>
+                    <l>(Was große Hungers Noth das Land hatt’ uͤberzogen/</l>
+                    <lb/>
+                    <l>So/ daß man Wurtzeln/ Graß/ und noch viel aͤrgers aß/</l>
+                    <lb/>
+                    <l>Woruͤber mancher Knecht der rechten Pflicht vergaß</l>
+                    <lb/>
+                    <l>und von der Fahnen blieb/ vom Hunger nicht zu ſterben)</l>
+                    <lb/>
+                    <l>Brach Hertzog Bernhard auf und ließ die Burg verderben</l>
+                    <lb/>
+                    <l>Die nach Guſtavus hieß/ verſtaͤrckte Meyntz und gieng</l>
+                    <lb/>
+                    <l>Auf tauſend Kaͤyſriſche/ die er halb ſchlug/ halb fieng.</l>
+                    <lb/>
+                    <l>Auf dieſes ſtaͤllt’ er ſich nach Coblontz zu zugehen/</l>
+                    <lb/>
+                    <l>Da es im Grunde war nach Franckreich angeſehen.</l>
+                    <lb/>
+                    <l>Es brachte dieſe Liſt ſo viel/ daß er den Sprung/</l>
+                    <lb/>
+                    <l>Vor Gallas nahm/ der ſelbſt nach dieſem Wege rung.</l>
+                    <lb/>
+                    <l>Doch es blieb viel im Stich/ und ſonderlich an Stuͤcken/</l>
+                    <lb/>
+                    <l>Die man begrub und viel nach Coblentz muſte ſchicken/</l>
+                    <lb/>
+                    <l>Eh ſie der Feind bekaͤm. Es ſetzte Gallas nach.</l>
+                    <lb/>
+                    <l>Sein Vorſatz aber war zum erſten viel zu ſchwach.</l>
+                    <lb/>
+                    <l>Man wandte ſich und gab demſelben ſo ein Zeich en/</l>
+                    <lb/>
+                    <l>Daß er zu klagen hatt’. Ein ſolches zu vergleichen/</l>
+                    <lb/>
+                    <l>Satzt er noch ſtaͤrcker nach biß einen Tag von Metz/</l>
+                    <lb/>
+                    <l>Da gab es wiederum ein greuliches Gefetz/</l>
+                    <lb/>
+                    <l>und blieben heyderſeits viel tapfere Soldaten.</l>
+                    <lb/>
+                    <l>Hierauf iſt <hi rendition="#aq">Vandrevang’</hi> in ſeine Macht gerathen.</l>
+                    <lb/>
+                    <l>Bey welchem Orte ſich diß Scharmuziern begab.</l>
+                    <lb/>
+                    <l>Er nahm auch <hi rendition="#aq">St. Avau</hi> und dann noch Zweybruͤck
+                        ab.</l>
+                    <lb/>
+                    <l>Vor Homberg aber wolt’ es jhm nicht wol gelingen/</l>
+                    <lb/>
+                    <l><hi rendition="#aq">U</hi>nd wuſt er ſolchen Ort auf dißmal nicht zu
+                        zwingen.</l>
+                    <lb/>
+                    <l>Es ſorgte Bernhard ſehr daß Gallas ſeine Macht</l>
+                    <lb/>
+                    <l>Mit der von Lothringen wurd’ in ein Heer gebracht/</l>
+                    <lb/>
+                    <l>Daher er ſich alſo vertheilte/ dieſen beyden</l>
+                    <lb/>
+                    <l>Den Weg zur Einigung mit Vorthel abzuſchneyden.</l>
+                    <lb/>
+                    <l>Als aber niemand kam/ erwieß er ſich drey Tag</l>
+                    <lb/>
+                    <l>Jm offnen und entbot dem Gallas einen Schlag.</l>
+                    <lb/>
+                    <fw type="catch" place="bottom">Er</fw>
+                    <lb/>
+                    <pb facs="#f0102"/>
+                    <l>Er aber wolte ſich hierzu nicht groß verſtehen.</l>
+                    <lb/>
+                    <l>Es war jhm lieber hin nach Hagenau zu gehen/</l>
+                    <lb/>
+                    <l>Das er belagerte/ jedennoch nicht gewann/</l>
+                    <lb/>
+                    <l>und koſtete der Ort ein etlich hundert Mann/</l>
+                    <lb/>
+                    <l>Durch die aus Hagenau/ bald dort/ bald da erſchlagen.</l>
+                    <lb/>
+                    <l>Es war nun in der Zeit von Winterlichen Tagen/</l>
+                    <lb/>
+                    <l>Weßwegen Gallasſich um einen Ort beward/</l>
+                    <lb/>
+                    <l>Sich und ſein Voick/ das ſehr durch <hi rendition="#aq">U</hi>ngemach
+                        verdarb/</l>
+                    <lb/>
+                    <l>Zu retten welches dann viel Oerter an dem Reyhne/</l>
+                    <lb/>
+                    <l>Auch in der Weiterau und an dem krummen Meyhne/</l>
+                    <lb/>
+                    <l>Bevor des Reiches Kern/ das Wuͤrtenberger land/</l>
+                    <lb/>
+                    <l>Noch eins wie vor betraff. Beſehet nun den Stand</l>
+                    <lb/>
+                    <l>Vom uͤber-alten Meyntz/ mit Schweden angefuͤllet.</l>
+                    <lb/>
+                    <l>Es gieng ein tauſend Mann/ vom Nebel ſtarck verhuͤllet/</l>
+                    <lb/>
+                    <l>Vor die Guſtanus-Burg vom Feinde neu bewaͤllt</l>
+                    <lb/>
+                    <l>und zimlich ſtarck beſetzt. Doch es war ſo beſtaͤllt/</l>
+                    <lb/>
+                    <l>Daß man es eingewann/ eh es der Feind verſpuͤhrte/</l>
+                    <lb/>
+                    <l>Worauf man Stuck und Volck nach Meyntz gefangen</l>
+                    <lb/>
+                    <l><hi rendition="#et">fuͤhrte/</hi></l>
+                    <lb/>
+                    <l>und alle Wercke ſo vergleichte/ daß kein Mann</l>
+                    <lb/>
+                    <l>Von ſolcher Burg nunmehr was großes ſehen kan.</l>
+                    <lb/>
+                    <l>Hergegen ſetzte man das Franckenthal in Schrancken/</l>
+                    <lb/>
+                    <l>und uͤberkam den Platz faſt uͤber die Gedancken.</l>
+                    <lb/>
+                    <l>Graf Manßfeld zog hinein/ der Weinßyeim aber ab/</l>
+                    <lb/>
+                    <l>Es kam in Monats friſt zu einer <hi rendition="#aq">U</hi>bergab.</l>
+                    <lb/>
+                    <l>Dergleichen wolte man mit Hanau auch beginnen/</l>
+                    <lb/>
+                    <l>Diß aber war ein Oet ſehr ſchwerlich zu gewinnen.</l>
+                    <lb/>
+                    <l>Man brauchte große Macht und eine lange Zeit.</l>
+                    <lb/>
+                    <l>Die aber Ramſayh dort durch ſeine Tapferkeit</l>
+                    <lb/>
+                    <l>Seyr nichtig hat gemacht. Den Ort mit Macht zu haben/</l>
+                    <lb/>
+                    <l>So ſay man drey Armeen vor ſolchem ſich vergraben.</l>
+                    <lb/>
+                    <l>Da war Lamboyens Macht/ da war des Manßfelds Heer/</l>
+                    <lb/>
+                    <l>und was <hi rendition="#aq">de Grana</hi> hatt/ es brachte doch nicht
+                        mehr</l>
+                    <lb/>
+                    <l>Als nur des Heſſen Macht und Leßlen Heer zum wachen/</l>
+                    <lb/>
+                    <l>umb der Belagerung ein kurtzes Ziel zu machen.</l>
+                    <lb/>
+                    <l>Sie zogen wieder ab/ geſchlagen muͤd und matt/</l>
+                    <lb/>
+                    <l>und ließen dieſen Ort an dieſen/ der es hatt’.</l>
+                    <lb/>
+                    <fw type="catch" place="bottom">Her-</fw>
+                    <lb/>
+                    <pb facs="#f0103"/>
+                    <l>Hergegen wurde dort Ameneburg von Heſſen</l>
+                    <lb/>
+                    <l>Belagert und es blieb auch Hirſchfeld unvergeſſen/</l>
+                    <lb/>
+                    <l>Man nahm ſie beyde weg. Ein mehrers thaten ſie</l>
+                    <lb/>
+                    <l>Der Goͤßiſchen Armee/ und offt mit ſchlechter Muͤh/</l>
+                    <lb/>
+                    <l>So/ daß ſie endlich ſich geiwungen muſt erheben</l>
+                    <lb/>
+                    <l>und alles Heſſen-Land um das von Francken geben.</l>
+                    <lb/>
+                    <l>Der Hatzfeld folgte nach. <hi rendition="#aq">U</hi>m dieſer Zeiten Lauff</l>
+                    <lb/>
+                    <l>Brach Gallas und ſein Volck vor Hunger wieder auff/</l>
+                    <lb/>
+                    <l>Gieng mit dem Lothringer/ Lamboyen/ Jſolanen/</l>
+                    <lb/>
+                    <l>Mit Piccolomini/ Forgatzen und de Granen/</l>
+                    <lb/>
+                    <l>Ein viertzig tauſend ſtarck/ ſtracks in Burgundien ein.</l>
+                    <lb/>
+                    <l><hi rendition="#aq">U</hi>nd war der erſte Platz/ den er bekam/ Fontein.</l>
+                    <lb/>
+                    <l>Hier folgte Mirebeau/ Dyon war Zweifels ohne</l>
+                    <lb/>
+                    <l>Beaͤngſtet/ noch vielmehr die Stadt <hi rendition="#aq">Jean de
+                        Laone/</hi></l>
+                    <lb/>
+                    <l>Die man ſehr hart beſchloß mit zwantzig tauſend Mann.</l>
+                    <lb/>
+                    <l>Man ſchoß und griff den Ort mit großem Eufer an.</l>
+                    <lb/>
+                    <l>Die Frantzen/ dieſen Ort nicht gern verlaſſend/ ſehen</l>
+                    <lb/>
+                    <l>um Mittel dieſem Heer mit Ernſt zu widerſtehen.</l>
+                    <lb/>
+                    <l>Zu ſchlagen war nicht Raht/ jhr Heer war viel zu klein/</l>
+                    <lb/>
+                    <l>Es muſt’ ein ander Werck hier vorgenommen ſeyn.</l>
+                    <lb/>
+                    <l>Der Ort war feſt genug/ der Mangel war an Leuthen/</l>
+                    <lb/>
+                    <l>und zwar an einem Haͤupt/ das in dergleichen Streiten</l>
+                    <lb/>
+                    <l>Erfahren. Lang bedacht/ ſprach man dem Rantzau zu/</l>
+                    <lb/>
+                    <l><hi rendition="#aq">U</hi>nd hielt der Frantzen Sinn Burgundjens gantze
+                        Ruh</l>
+                    <lb/>
+                    <l>Jn dieſes Mannes Hand ergeben. Er voll Wunden/</l>
+                    <lb/>
+                    <l>Die er vor Dole kriegt’/ und noch faſt unverbunden/</l>
+                    <lb/>
+                    <l>Gieng jhr Begehren ein kam uͤber den Moraſt</l>
+                    <lb/>
+                    <l>Zwerg weaig in die Stadt und milderte die Laſt/</l>
+                    <lb/>
+                    <l>Jn dem er Morgens fruͤh ſich aus den Pforten machte/</l>
+                    <lb/>
+                    <l>und mit geringer Hilff den Feind vom Stande brachte/</l>
+                    <lb/>
+                    <l>Zum ſchnellen fliehen trieb/ acht hundert Mann erſchlug/</l>
+                    <lb/>
+                    <l>Die Stuͤck eroberte/ den Brand ins Pulver trug.</l>
+                    <lb/>
+                    <l>Damit war dieſe Stadt befreyet/ und die Feinde</l>
+                    <lb/>
+                    <l>Zerſtoben. Gallas und der Lothringer/ zween Freinde/</l>
+                    <lb/>
+                    <l>Geriethen in den Zwiſt und meynte jener recht/</l>
+                    <lb/>
+                    <l>Es hielte Gallas ſich in ſeinem Ampte ſchlecht.</l>
+                    <lb/>
+                    <l>Er haͤtte ſo verſtaͤrckt vielmehr verrichten koͤnnen/</l>
+                    <lb/>
+                    <l>Er muͤſte ſeinem Herrn/ dem Kaͤyſer/ wenig goͤnnen</l>
+                    <lb/>
+                    <fw type="catch" place="bottom">Wahr</fw>
+                    <lb/>
+                    <pb facs="#f0104"/>
+                    <l>Wahr iſts/ es war nicht mehr mit dieſer großen Macht</l>
+                    <lb/>
+                    <l>Gethan/ als nur das Land in großen Brand gebracht.</l>
+                    <lb/>
+                    <l>Damit ſo gieng er durch. Von viertzig tauſend Seelen</l>
+                    <lb/>
+                    <l>Vermochte man mit Muͤh die Haͤlffte nicht zu zaͤhlen.</l>
+                    <lb/>
+                    <l>Die großen Waſſerguͤß’ und boͤſe Zeit vom Jahr</l>
+                    <lb/>
+                    <l>Ergriffen jhn ſo ſchnell/ daß es kaum moͤglich war</l>
+                    <lb/>
+                    <l>Von dannen loß zu ſeyn. Die meiſten Karr- und Wagen</l>
+                    <lb/>
+                    <l>Beſteckten in dem Koth. Ein jeder muſte tragen</l>
+                    <lb/>
+                    <l>So viel jhm moͤglich war. So kahl kam man davon.</l>
+                    <lb/>
+                    <l>Auch blieben uͤber diß die Stuͤck in <hi rendition="#aq">Beſanzon.</hi></l>
+                    <lb/>
+                    <l><hi rendition="#aq">U</hi>nd doch galt Gallas viel/ als ein Soldat von
+                        Rathen/</l>
+                    <lb/>
+                    <l>Er blieb auch lebenslang in unſers Kaͤyſers Gnaden.</l>
+                    <lb/>
+                    <l>Noch groͤßer aber war die Gnade/ die Pariß/</l>
+                    <lb/>
+                    <l>Voraus ſein großer Herr/ anjetzt an dier bewieß/</l>
+                    <lb/>
+                    <l>An dier/ du großer Fuͤrſt von Weymar. Deine Thaten</l>
+                    <lb/>
+                    <l>Die waren durch den Neyd ſelbſelbſt dahin gerathen.</l>
+                    <lb/>
+                    <l>Du wareſt wert und lieb. Was nur beehren mag</l>
+                    <lb/>
+                    <l>Das brachte dieſer Hof zu deiner Ehr’ an Tag.</l>
+                    <lb/>
+                    <l>Jch ſchweige die Geſchenck und theuere Jubelen/</l>
+                    <lb/>
+                    <l>Gold/ Volck und was man dier noch weiter zu ließ zaͤhlen/</l>
+                    <lb/>
+                    <l>Als ein verdientes Werck. Auf dieſes machteſtu</l>
+                    <lb/>
+                    <l>Dich wieder in das Feld. Die hoͤfſche Luſt und Ruh</l>
+                    <lb/>
+                    <l>War dir nicht angebohrn. Du hatteſt deine Jugend</l>
+                    <lb/>
+                    <l>und groͤßre Jahre Zeit allein zur Helden-Tugend</l>
+                    <lb/>
+                    <l>Gewoͤhnet/ welche mehr nach blancken Waffen ſchaut/</l>
+                    <lb/>
+                    <l>Als was der zarte Hof fuͤr Dantz-geruͤſte baut.</l>
+                    <lb/>
+                    <l>Es war dein nechſter Weg nach deinen Krieges-Scharen/</l>
+                    <lb/>
+                    <l>Die jetzund in dem Zug nach Elſas-Zabern waren/</l>
+                    <lb/>
+                    <l>Das ſich in Monats Friſt in deine Haͤnde gab.</l>
+                    <lb/>
+                    <l>Hierauf ſo ſchlugeſtu ein Theil von Feinden ab/</l>
+                    <lb/>
+                    <l>Die ſich um Blanckenberg/ Blamont und Ramberts weiler</l>
+                    <lb/>
+                    <l>Jm Lande Lothringen mit Gallas/ jhrem Pfeiler/</l>
+                    <lb/>
+                    <l>Bezeigten. Welches dann die drey beſagten Plaͤtz’</l>
+                    <lb/>
+                    <l>Auch ſelbſt dahin bezwung/ das Weymarſche Geſetz</l>
+                    <lb/>
+                    <l>Zu lernen. Dieſem nach gieng er/ die Winter-Plagen/</l>
+                    <lb/>
+                    <l>Die nun beginneten/ was baͤſſer zu ertragen/</l>
+                    <lb/>
+                    <l>Vom Feld’ und ſatzte ſich in guten Staͤdten ein.</l>
+                    <lb/>
+                    <l>Jm Fruͤhling ruffte man jhn wieder nach der Sain</l>
+                    <lb/>
+                    <fw type="catch" place="bottom">Jns</fw>
+                    <lb/>
+                    <pb facs="#f0105"/>
+                    <l>Jns maͤchtige Paris/ demſelben mitzutheilen</l>
+                    <lb/>
+                    <l>Was man beſchloſſen hatt’. Er/ ſonder viel verweilen/</l>
+                    <lb/>
+                    <l>Kam hin und wieder her. Kaum/ daß jhn ſeine Schar</l>
+                    <lb/>
+                    <l>Empfieng/ erblickte man die Feinds Parthey/ da war</l>
+                    <lb/>
+                    <l>Der Fuͤrſt von Lothringen mit vielen andern Hauffen/</l>
+                    <lb/>
+                    <l>Das Veſontiner Feld mit Menſchen-Blut zu tauffen.</l>
+                    <lb/>
+                    <l>Der Sieg war aber ſo/ daß Carls ſeine Macht</l>
+                    <lb/>
+                    <l>Geſchlagen und er ſelbſt kaum wurd’ hinweg gebracht.</l>
+                    <lb/>
+                    <l>So nah ſtundt jhm ſein Tod. Worauf der Feind- Zer-<lb/>
+                        <hi rendition="#et">ſtreuer</hi></l>
+                    <lb/>
+                    <l>Sich nach dem Reyhne zog/ und bald bey Wittenweyer</l>
+                    <lb/>
+                    <l>und Reinau eine Bruͤck erbauet’/ uͤber Reyhn</l>
+                    <lb/>
+                    <l>Zu gehn/ und muſte ſie auch bald umſchantzet ſeyn.</l>
+                    <lb/>
+                    <l>Diß alles war verbracht den Feinden groß zum Schaden.</l>
+                    <lb/>
+                    <l>Daher ſich Jean de Wert/ ein Außbund der Soldaten/</l>
+                    <lb/>
+                    <l>Sich bald dahin begab und einen Anfall that/</l>
+                    <lb/>
+                    <l>Der aber diſesmal ihm nur geſchadet hat.</l>
+                    <lb/>
+                    <l>Es blieb ein zimlich Volck Diß alles unerwogen/</l>
+                    <lb/>
+                    <l>Kam er zum andernmal mit Macht hinan gezogen/</l>
+                    <lb/>
+                    <l>und ſah zum andernmal/ wie jhn ſein Gluͤck betrog.</l>
+                    <lb/>
+                    <l>Worauf der Weymar-Held vor manche Schloͤſſer zog/</l>
+                    <lb/>
+                    <l>und bald beſiegete zum Vortheil ſeiner Scharen/</l>
+                    <lb/>
+                    <l>Weil ſolche Plaͤtze voll von Lebens Mitteln waren.</l>
+                    <lb/>
+                    <l>Hierzwiſchen machte ſich der wolbenahmte Held/</l>
+                    <lb/>
+                    <l>De Wert/ zum drittenmal ſehr maͤchtig in das Feld/</l>
+                    <lb/>
+                    <l>Die wolverwahrte Bruͤck’ an Reynau zu beſtuͤrmen/</l>
+                    <lb/>
+                    <l>Doch er wurd’ itzt/ wie vor/ durch maͤchtiges beſchirmen</l>
+                    <lb/>
+                    <l>Des Weymariſchen Volcks/ ſeher haͤßlich abgeſetzt/</l>
+                    <lb/>
+                    <l>Jhm ſelber wurd’ hiedurch ein Wangentheil verletzt/</l>
+                    <lb/>
+                    <l><hi rendition="#aq">U</hi>nd hat er dieſesmal vier hundert Mann/ 2.
+                        Stuͤcke</l>
+                    <lb/>
+                    <l>und mehrers eingebuͤßt. Hoͤrt aber was fuͤr Gluͤcke</l>
+                    <lb/>
+                    <l>Sich jhm hierauf erwieß. Der Weymar-Held brach auff</l>
+                    <lb/>
+                    <l>und war der Reuterey faſt-Wind-geſchwinder Lauff</l>
+                    <lb/>
+                    <l>Gerad nach Enſißheim. Diß gluͤcklich eingenommen/</l>
+                    <lb/>
+                    <l>Sah man das gantze Heer hin in das Suntgau kommen/</l>
+                    <lb/>
+                    <l>Da es den Winter durch ſich zu verpflegen blieb.</l>
+                    <lb/>
+                    <l>Einmal nach Muͤh in Ruh/ iſt jedem Menſchen lieb.</l>
+                    <lb/>
+                    <fw type="catch" place="bottom">Diß</fw>
+                    <lb/>
+                    <pb facs="#f0106"/>
+                    <l>Diß nahm de Wert in acht/ und ſah daß man den Frantzen</l>
+                    <lb/>
+                    <l>Die offt-beſtuͤrmte Bruͤck mit allen jhren Schatzen</l>
+                    <lb/>
+                    <l>Vertrauet hatt’. Er kam/ that einen Sturm darauff/</l>
+                    <lb/>
+                    <l>und trieb das Frantzen-Volck ſehr ſchleunig auf den Lauff/</l>
+                    <lb/>
+                    <l>Gewann den Ort/ den er von ſtunden an ließ ſchleiffen/</l>
+                    <lb/>
+                    <l>Aus Sorge daß ſein Feind/ jhn wieder anzugreiffen/</l>
+                    <lb/>
+                    <l>Nicht leichtlich ruhen wuͤrd. Jn dem diß hier verlieff/</l>
+                    <lb/>
+                    <l>That dort der Waͤlſche Mann/ <hi rendition="#aq">Savelli,</hi> einen
+                        Griff</l>
+                    <lb/>
+                    <l>Auf des von Weymars Macht/ in Meynung große Thaten</l>
+                    <lb/>
+                    <l>Zu wuͤrcken/ welches jhm nicht baͤſſer hat gerathen</l>
+                    <lb/>
+                    <l>Als dem von Lothringen/ der hier Geſellſchafft that.</l>
+                    <lb/>
+                    <l>Der Loͤu vernichtete des Fuchſen Liſt und Raht.</l>
+                    <lb/>
+                    <l>Die Sonne kam/ des Froſts ſein Regiment zu ſchwaͤchen/</l>
+                    <lb/>
+                    <l>Diß mahnete den Held von Weymar aufzubraͤchen/</l>
+                    <lb/>
+                    <l>Was wichtigers zu thun. Es war in ſtiller Nacht/</l>
+                    <lb/>
+                    <l>Da er ſich uͤber Reyhn mit aller ſeiner Macht</l>
+                    <lb/>
+                    <l>Nach Seckingen begab. Diß ſchleunig eingenommen/</l>
+                    <lb/>
+                    <l>Jſt er nach Bicken hin/ nicht weit von Baſel kommen.</l>
+                    <lb/>
+                    <l>Hier auf nach Lauffenburg/ Er kam bey beyden ein/</l>
+                    <lb/>
+                    <l>und wolt’ auch uͤber diß im feſten Reinfeld ſeyn.</l>
+                    <lb/>
+                    <l>Er ſatzte ſich hierum/ beſchloß es mit beſchuͤßen.</l>
+                    <lb/>
+                    <l>Als die belaͤgerte ſich nichts bewegen ließen/</l>
+                    <lb/>
+                    <l>Schoß er viel Feuer ein/ und quaͤlte Tag und Nacht.</l>
+                    <lb/>
+                    <l>Diß alles reitzete die Kaͤyſerliche Macht</l>
+                    <lb/>
+                    <l>Dem Ort Entſatz zu thun. Sie kam mit großen Scharen/</l>
+                    <lb/>
+                    <l>Worbey de Wert/ Lamboy und der Savelli waren/</l>
+                    <lb/>
+                    <l>Sverreuter/ Enckefort/ Goliz/ Neuneck/ Fuͤrſtenbergk/</l>
+                    <lb/>
+                    <l>Die legten alle Hand an die Entſatzungs Werck.</l>
+                    <lb/>
+                    <l>Der Weymar dieſe Macht vermaͤrckend/ ließ die Schan-<lb/>
+                        <hi rendition="#et">tzen/</hi></l>
+                    <lb/>
+                    <l>Gieng in das freye Feld und faͤllte ſeine Lantzen</l>
+                    <lb/>
+                    <l>Den Feinden in die Stirn. Es gieng zu einer Schlacht/</l>
+                    <lb/>
+                    <l>Die dauerte ſo lang/ biß daß die tunckle Nacht</l>
+                    <lb/>
+                    <l>Das Metzeln unternam. Noch kunte man nicht ſagen</l>
+                    <lb/>
+                    <l>Wer <hi rendition="#aq">U</hi>berwinder waͤr. Es kam zum neuen tagen/</l>
+                    <lb/>
+                    <l>und auch zur neuen Schlacht. Kein C<hi rendition="#aq">æ</hi>ſar/ kein
+                        Attill/</l>
+                    <lb/>
+                    <l>Pompejus/ Sapio/ Gambriv/ und die ſo viel</l>
+                    <lb/>
+                    <fw type="catch" place="bottom">Von</fw>
+                    <lb/>
+                    <pb facs="#f0107"/>
+                    <l>Von Thaten kuntig ſind/ vermochten ſo zu ſtreiten</l>
+                    <lb/>
+                    <l>Als man auf dieſen Tag von dieſen beyden Seiten</l>
+                    <lb/>
+                    <l>Ein grimmig fechten ſah. Wir ſahen eine Schar</l>
+                    <lb/>
+                    <l>Von Loͤuen/ derer Zorn ein flammend Feuer war.</l>
+                    <lb/>
+                    <l>Der wolte Reinfelds Hilff/ der deſſen Herſcher heißen/</l>
+                    <lb/>
+                    <l>Es ſparte keiner nichts. Nach einem langen ſchmeißen</l>
+                    <lb/>
+                    <l>und wuͤrgen fiel der Sieg <note place="foot" n="(a)">21. <hi rendition="#aq"
+                                >Feb. Anno</hi> 1638.</note> dem großen Weymar zu.</l>
+                    <lb/>
+                    <l>Da lagen tauſend Feind’ in einer langen Ruh/</l>
+                    <lb/>
+                    <l>Vier tauſend muſten ſich gefangen laſſen nehmen/</l>
+                    <lb/>
+                    <l><hi rendition="#aq">U</hi>nd Reinfeld muſte ſich hierauf auch bald
+                        bequemen/</l>
+                    <lb/>
+                    <l>Weil Muth und Macht erlag. Wie/ war auch wol ein</l>
+                    <lb/>
+                    <l><hi rendition="#et">Held</hi></l>
+                    <lb/>
+                    <l>Von dieſem gantzen Heer/ der weiter in das Feld</l>
+                    <lb/>
+                    <l>Zu gehen maͤchtig war? Sie wurden mit einander</l>
+                    <lb/>
+                    <l>(Lamboyen außgeſetzt) dem Saͤchſchen Alexander</l>
+                    <lb/>
+                    <l>Gefangen eingebracht. De Wert und Enckefort</l>
+                    <lb/>
+                    <l>Die muſten nach Paris/ und weiter an ein Ort</l>
+                    <lb/>
+                    <l>Das wol bewahret iſt/ ein Heyl des Horns zu werden/</l>
+                    <lb/>
+                    <l>Savelli aber drung mit Liſt durch die Beſchwerden/</l>
+                    <lb/>
+                    <l>Die die Gefangenſchafft mag geben. Diß gethan/</l>
+                    <lb/>
+                    <l>Fieng man mit Retelen/ mit Neu- und Friedburg an.</l>
+                    <lb/>
+                    <l>Sie aber ſonder Macht/ ſo großer Macht zu ſteuern/</l>
+                    <lb/>
+                    <l>Ergaben ſich. Was Poſt war dieſes bey den Beyern</l>
+                    <lb/>
+                    <l>und noch viel mehr zu Wien? Hieran war nicht genug/</l>
+                    <lb/>
+                    <l>Man that nicht lang hierauf noch einen groͤßern Zug/</l>
+                    <lb/>
+                    <l>Den drey Armeen nicht vermochten abzuwenden.</l>
+                    <lb/>
+                    <l>Halt ein <hi rendition="#aq">Calliope,</hi> wir wollen wieder enden,</l>
+                    <lb/>
+                    <l>Stehſtu im ſchreiben mir hinfuͤro nochmals bey/</l>
+                    <lb/>
+                    <l>So ſage wie es dort mit den Banirſchen ſey.</l>
+                </lg>
+            </div>
+
+        </body>
+    </text>
+</TEI>

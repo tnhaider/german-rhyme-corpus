@@ -1,0 +1,662 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Gedichte</title>
+                <author>
+                    <persName ref="http://d-nb.info/gnd/118551981">
+                        <surname>Hölderlin</surname>
+                        <forename>Friedrich</forename>
+                    </persName>
+                </author>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName ref="http://d-nb.info/gnd/115266127">
+                        <surname>Geyken</surname>
+                        <forename>Alexander</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName ref="http://d-nb.info/gnd/1018099549">
+                        <surname>Haaf</surname>
+                        <forename>Susanne</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName ref="http://d-nb.info/gnd/1019062681">
+                        <surname>Jurish</surname>
+                        <forename>Bryan</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName>
+                        <surname>Boenig</surname>
+                        <forename>Matthias</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName>
+                        <surname>Thomas</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName>
+                        <surname>Wiegand</surname>
+                        <forename>Frank</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <orgName ref="http://www.clarin-d.de">CLARIN-D</orgName>
+                    <resp>
+                        <note type="remarkResponsibility">Langfristige Bereitstellung der
+                            DTA-Ausgabe</note>
+                        <ref target="http://fedora.dwds.de"/>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Vollständige digitalisierte Ausgabe.</edition>
+            </editionStmt>
+            <extent>
+                <measure type="images">240</measure>
+                <measure type="tokens">26921</measure>
+                <measure type="types">6250</measure>
+                <measure type="characters">173071</measure>
+            </extent>
+            <publicationStmt>
+                <publisher xml:id="DTACorpusPublisher">
+                    <email>dta@bbaw.de</email>
+                    <orgName role="project">Deutsches Textarchiv</orgName>
+                    <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of
+                        Sciences and Humanities (BBAW)</orgName>
+                    <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische
+                        Akademie der Wissenschaften (BBAW)</orgName>
+                    <address>
+                        <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                        <country>Germany</country>
+                    </address>
+                </publisher>
+                <pubPlace>Berlin</pubPlace>
+                <date type="publication">2016-02-11T10:06:20Z</date>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+                        <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0
+                            Unported License.</p>
+                    </licence>
+                </availability>
+                <idno>
+                    <idno type="URLWeb"
+                        >http://www.deutschestextarchiv.de/hoelderlin_gedichte_1826</idno>
+                    <idno type="URLXML"
+                        >http://www.deutschestextarchiv.de/book/download_xml/hoelderlin_gedichte_1826</idno>
+                    <idno type="URLHTML"
+                        >http://www.deutschestextarchiv.de/book/download_html/hoelderlin_gedichte_1826</idno>
+                    <idno type="URLText"
+                        >http://www.deutschestextarchiv.de/book/download_text/hoelderlin_gedichte_1826</idno>
+                    <idno type="DTADirName">hoelderlin_gedichte_1826</idno>
+                    <idno type="DTAID">16351</idno>
+                    <idno type="URN">urn:nbn:de:kobv:b4-200905197104</idno>
+                </idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="M">Hölderlin, Friedrich: Gedichte. Stuttgart u. a., 1826.</bibl>
+                <biblFull>
+                    <titleStmt>
+                        <title level="m" type="main">Gedichte</title>
+                        <author>
+                            <persName ref="http://d-nb.info/gnd/118551981">
+                                <surname>Hölderlin</surname>
+                                <forename>Friedrich</forename>
+                            </persName>
+                        </author>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition n="1"/>
+                    </editionStmt>
+                    <extent>
+                        <measure type="pages">226 S.</measure>
+                    </extent>
+                    <publicationStmt>
+                        <publisher><name>Cotta</name></publisher>
+                        <pubPlace>Stuttgart</pubPlace>
+                        <pubPlace>Tübingen</pubPlace>
+                        <date type="publication">1826</date>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>SUB Göttingen</repository>
+                        <idno>
+                            <idno type="shelfmark">Göttingen SUB, 8 P GERM IV, 2591 RARA</idno>
+                            <idno type="URLCatalogue"
+                                >https://opac.sub.uni-goettingen.de/DB=1/CMD?ACT=SRCHM&amp;IKT0=54&amp;TRM0=8%20P%20GERM%20IV%2C%202591%20RARA</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <typeDesc>
+                            <p>Fraktur</p>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Dieses Werk wurde gemäß den <ref
+                        target="http://www.deutschestextarchiv.de/doku/richtlinien"
+                        >DTA-Transkriptionsrichtlinien</ref> im Double-Keying-Verfahren von
+                    Muttersprachlern erfasst und in XML/TEI P5 nach <ref
+                        target="http://www.deutschestextarchiv.de/doku/basisformat"
+                        >DTA-Basisformat</ref> kodiert.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="rendition-aq">font-family:sans-serif</rendition>
+                <rendition scheme="css" xml:id="rendition-b">font-weight:bold</rendition>
+                <rendition scheme="css" xml:id="rendition-blue">color:blue</rendition>
+                <rendition scheme="css" xml:id="rendition-c">display:block;
+                    text-align:center</rendition>
+                <rendition scheme="css" xml:id="rendition-et">display:block; margin-left:2em;
+                    text-indent:0</rendition>
+                <rendition scheme="css" xml:id="rendition-et2">display:block; margin-left:4em;
+                    text-indent:0</rendition>
+                <rendition scheme="css" xml:id="rendition-et3">display:block; margin-left:6em;
+                    text-indent:0</rendition>
+                <rendition scheme="css" xml:id="rendition-f">border:1px dotted silver</rendition>
+                <rendition scheme="css" xml:id="rendition-fr">border:1px dotted silver</rendition>
+                <rendition scheme="css" xml:id="rendition-g">letter-spacing:0.125em</rendition>
+                <rendition scheme="css" xml:id="rendition-i">font-style:italic</rendition>
+                <rendition scheme="css" xml:id="rendition-in">font-size:150%</rendition>
+                <rendition scheme="css" xml:id="rendition-k">font-variant:small-caps</rendition>
+                <rendition scheme="css" xml:id="rendition-larger">font-size:larger</rendition>
+                <rendition scheme="css" xml:id="rendition-red">color:red</rendition>
+                <rendition scheme="css" xml:id="rendition-right">display:block;
+                    text-align:right</rendition>
+                <rendition scheme="css" xml:id="rendition-s"
+                    >text-decoration:line-through</rendition>
+                <rendition scheme="css" xml:id="rendition-smaller">font-size:smaller</rendition>
+                <rendition scheme="css" xml:id="rendition-sub">vertical-align:sub;
+                    font-size:.7em</rendition>
+                <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+                    font-size:.7em</rendition>
+                <rendition scheme="css" xml:id="rendition-u">text-decoration:underline</rendition>
+                <rendition scheme="css" xml:id="rendition-uu">border-bottom:double 3px
+                    #000</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="deu">German</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtamain"
+                    >Belletristik</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtasub"
+                    >Lyrik</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+                    >Belletristik</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+                    >Lyrik</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+                    >core</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+                    >ready</classCode>
+                <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+                    >mts</classCode>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div n="1">
+                <lg type="poem">
+                    <lg n="1" type="stanza" rhyme="aab">
+                        <l>Wie dank' ich dir, du Liebe, daß du mir</l>
+                        <lb/>
+                        <l>Vertrauen abgewonnen, daß ich dir</l>
+                        <lb/>
+                        <l>Mein ſtill Geheimniß ausgeſprochen.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="2" type="stanza" rhyme="abcdefghijk">
+                        <l>Ich bin nun ruhiger ‒ wie nenn' ichs dir?</l>
+                        <lb/>
+                        <l>Und an die ſchoͤnen Tage denk' ich, wenn ich oft</l>
+                        <lb/>
+                        <l>Hinaus ging mit dem Bruder, und wir oben</l>
+                        <lb/>
+                        <l>Auf unſerm Huͤgel beieinander ſaßen,</l>
+                        <lb/>
+                        <l>Und ich den Lieben bei den Haͤnden hielt,</l>
+                        <lb/>
+                        <l>Und mirs gefallen ließ am offnen Feld'</l>
+                        <lb/>
+                        <l>Und an der Straß', und ins Gewoͤlb' hinauf</l>
+                        <lb/>
+                        <l>Des gruͤnen Ahorns ſtaunt', an dem wir lagen.</l>
+                        <lb/>
+                        <l>Ein Sehnen war in mir, doch war ich ſtill.</l>
+                        <lb/>
+                        <l>Es bluͤhten uns der erſten Hoffnung Tage,</l>
+                        <lb/>
+                        <l>Die Tage des Erwachens.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="3" type="stanza" rhyme="abbcdefgh">
+                        <l>Holde Daͤmm'rung!</l>
+                        <lb/>
+                        <l>So ſchoͤn iſts, wenn die guͤtige Natur</l>
+                        <lb/>
+                        <l>Ins Leben lockt ihr Kind. Es ſingen nur</l>
+                        <lb/>
+                        <l>Den Schlummerſang am Abend unſre Muͤtter.</l>
+                        <lb/>
+                        <l>Sie brauchen nie das Morgenlied zu ſingen.</l>
+                        <lb/>
+                        <l>Dieß ſingt die andre Mutter uns, die gute;</l>
+                        <lb/>
+                        <l>Die wunderbare, die uns Lebensluſt</l>
+                        <lb/>
+                        <l>In unſern Buſen athmet, uns mit ſuͤßen</l>
+                        <lb/>
+                        <l>Verheißungen erweckt.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="4" type="stanza" rhyme="abc">
+                        <l>Wie iſt mir, Liebe!</l>
+                        <lb/>
+                        <pb n="101" facs="#f0109"/>
+                        <l>Ich kann an Jugend heute nur, und nur</l>
+                        <lb/>
+                        <l>An Jugend denken.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="5" type="stanza" rhyme="abcdefghijklmnopq">
+                        <l>Sieh! ein heitrer Tag</l>
+                        <lb/>
+                        <l>Iſts eben auch. Seit fruͤhem Morgen ſitz' ich</l>
+                        <lb/>
+                        <l>Am lieben Fenſter, und es wehn die Luͤfte,</l>
+                        <lb/>
+                        <l>Die zaͤrtlichen, herein, mir blickt das Licht</l>
+                        <lb/>
+                        <l>Durch meine Baͤume, die zu nahe mir</l>
+                        <lb/>
+                        <l>Gewachſen ſind, und maͤhlig mit den Bluͤthen</l>
+                        <lb/>
+                        <l>Das ferne Land verhuͤllen, daß ich mich</l>
+                        <lb/>
+                        <l>Beſcheiden muß, und hie und da noch kaum</l>
+                        <lb/>
+                        <l>Hinaus mich find' aus dieſem freundlichen</l>
+                        <lb/>
+                        <l>Gefaͤngniß! und es fliegen uͤber ihnen</l>
+                        <lb/>
+                        <l>Die Schwalben und die Lerchen, und es ſingen</l>
+                        <lb/>
+                        <l>Die Stunde durch genug die Nachtigallen,</l>
+                        <lb/>
+                        <l>Und wie ſie heißen, all die Lieblinge</l>
+                        <lb/>
+                        <l>Der ſchoͤnen Jahrszeit; eigne Namen moͤcht'</l>
+                        <lb/>
+                        <l>Ich ihnen geben, und den Blumen auch,</l>
+                        <lb/>
+                        <l>Den ſtillen, die aus dunklem Beete duften,</l>
+                        <lb/>
+                        <l>Zu mir herauf wie junge Sterne glaͤnzend.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="6" type="stanza" rhyme="ab">
+                        <l>Und wie es lebt und gluͤcklich iſt im Wachsthum,</l>
+                        <lb/>
+                        <l>Und ſeiner Reiſe ſich entgegen freut!</l>
+                    </lg>
+                    <lb/>
+                    <lg n="7" type="stanza" rhyme="abcdef">
+                        <l>Es findet jedes ſeine Stelle doch,</l>
+                        <lb/>
+                        <l>Sein Haus, die Speiſe, die das Herz ihm ſaͤttigt,</l>
+                        <lb/>
+                        <l>Und jedes ſegneſt du mit eignem Segen,</l>
+                        <lb/>
+                        <pb n="102" facs="#f0110"/>
+                        <l>Natur! und giebſt dich ihnen zum Geſchaͤft,</l>
+                        <lb/>
+                        <l>Und traͤgſt und naͤhrſt zu ihrer Bluͤthenfreud'</l>
+                        <lb/>
+                        <l>Und ihrer Frucht ſie fort, du guͤtige!</l>
+                    </lg>
+                    <lb/>
+                    <lg n="8" type="stanza" rhyme="abcdefg">
+                        <l>Und klagteſt du doch oͤfters, trauernd Herz!</l>
+                        <lb/>
+                        <l>Vergaßeſt mir den Glauben, dankteſt nicht,</l>
+                        <lb/>
+                        <l>Und dachteſt nicht, wenn dir dein Thun zu wenig</l>
+                        <lb/>
+                        <l>Bedeuten wollt', es ſey ein frommes Opfer,</l>
+                        <lb/>
+                        <l>Das du, wie andre, vor das Leben bringeſt,</l>
+                        <lb/>
+                        <l>Wohl meinend, wie der Lerche Lied, das ſie</l>
+                        <lb/>
+                        <l>Den Luͤften ſingt, den freudegebenden. —</l>
+                    </lg>
+                    <lb/>
+                    <lg n="9" type="stanza" rhyme="abcdefghi">
+                        <l>Nun geh' ich noch hinaus und hole Blumen,</l>
+                        <lb/>
+                        <l>Dem Vater aus dem Feld', und bind' ihm ſie</l>
+                        <lb/>
+                        <l>In Einen Straus, die drunten in dem Garten,</l>
+                        <lb/>
+                        <l>Und die der Bach erzog; ich wills ſchon richten,</l>
+                        <lb/>
+                        <l>Daß ihm's gefallen ſoll. Und dir? dir bring' ich</l>
+                        <lb/>
+                        <l>Genug des Neuen. Da iſt's immer anders.</l>
+                        <lb/>
+                        <l>Jetzt bluͤhn die Weiden; jetzt vergolden ſich</l>
+                        <lb/>
+                        <l>Die Wieſen; jetzt beginnt der Buche Gruͤn,</l>
+                        <lb/>
+                        <l>Und jetzt der Eiche ‒ nun! leb' wohl indeſſen!</l>
+                    </lg>
+                </lg>
+            </div>
+
+            <div n="2">
+                <lg type="poem">
+                    <lg n="1" type="stanza" rhyme="abcd">
+                        <l>Jetzt komm und huͤlle, zaubriſcher Phantaſus,</l>
+                        <lb/>
+                        <l>Den zarten Sinn der Frauen in Wolken ein,</l>
+                        <lb/>
+                        <l><hi rendition="#et">In goldne Traͤum' und ſchuͤtze ſie, die</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">Bluͤhende Ruhe der Immerguten.</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="2" type="stanza" rhyme="abcd">
+                        <l>Dem Manne laß ſein Sinnen und ſein Geſchaͤft</l>
+                        <lb/>
+                        <l>Und ſeiner Kerze Schein und den kuͤnft'gen Tag</l>
+                        <lb/>
+                        <l><hi rendition="#et">Gefallen, laß des Unmuths ihm, der</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">Haͤßlichen Sorge zu viel nicht werden,</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="3" type="stanza" rhyme="abcd">
+                        <l>Wenn jetzt der immerzuͤrnende Boreas,</l>
+                        <lb/>
+                        <l>Mein Erbfeind, uͤber Nacht mit dem Froſt das Land</l>
+                        <lb/>
+                        <l><hi rendition="#et">Befaͤllt, und ſpaͤt, zur Schlummerſtunde,</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">Spottend der Menſchen, ſein ſchrecklich Lied</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">ſingt,</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="4" type="stanza" rhyme="abcd">
+                        <l>Und unſrer Staͤdte Mauern und unſerm Zaun,</l>
+                        <lb/>
+                        <l>Den fleißig wir geſetzt, und den ſtillen Hain</l>
+                        <lb/>
+                        <l><hi rendition="#et">Zerreißt, und ſelber im Geſang die</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">Seele mir ſtoͤret, der Allverderber.</hi></l>
+                    </lg>
+                    <lb/>
+                    <pb n="51" facs="#f0059"/>
+                    <lg n="5" type="stanza" rhyme="abcd">
+                        <l>Und raſtlos tobend uͤber den ſanften Strom</l>
+                        <lb/>
+                        <l>Sein ſchwarz Gewoͤlk ausſchuͤttet, daß weit umher</l>
+                        <lb/>
+                        <l><hi rendition="#et">Das Thal gaͤhrt und, wie fallend Laub, vom</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">Berſtenden Huͤgel herab der Fels faͤllt.</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="6" type="stanza" rhyme="abcd">
+                        <l>Wohl frommer iſt, denn andre Lebendige,</l>
+                        <lb/>
+                        <l>Der Menſch; doch zuͤrnt es draußen, gehoͤrt er</l>
+                        <lb/>
+                        <l>auch</l>
+                        <lb/>
+                        <l><hi rendition="#et">Sich eigner an und ſinnt und ruht in</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">Sicherer Huͤtte, der Freigeborne.</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="7" type="stanza" rhyme="abcd">
+                        <l>Und immer wohnt der freundlichen Genien</l>
+                        <lb/>
+                        <l>Noch einer gerne ſegnend mit ihm, und wenn</l>
+                        <lb/>
+                        <l><hi rendition="#et">Sie zuͤrnten all', die ungelehr'gen</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">Geniuskraͤfte, doch liebt die Liebe.</hi></l>
+                    </lg>
+                    <lb/>
+                    <l/>
+                </lg>
+            </div>
+
+            <div n="3">
+                <lg type="poem">
+                    <lg n="1" type="stanza" rhyme="abcd">
+                        <l>„Warum biſt du ſo kurz? liebſt du wie vormals</l>
+                        <lb/>
+                        <l>denn</l>
+                        <lb/>
+                        <l>„Nun nicht mehr den Geſang? fand'ſt du als</l>
+                        <lb/>
+                        <l>Juͤngling doch</l>
+                        <lb/>
+                        <l><hi rendition="#et">„In den Tagen der Hoffnung,</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">„Wenn du ſangeſt, das Ende nie?“</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="2" type="stanza" rhyme="abcd">
+                        <l>Wie mein Gluͤck iſt mein Lied. — Willſt du im</l>
+                        <lb/>
+                        <l>Abendroth</l>
+                        <lb/>
+                        <l>Froh dich baden? Hinweg iſt's und die Erd' iſt kalt,</l>
+                        <lb/>
+                        <l><hi rendition="#et">Und der Vogel der Nacht ſchwirrt</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">Unbequem vor das Auge dir.</hi></l>
+                    </lg>
+                    <lb/>
+                    <l/>
+                </lg>
+            </div>
+
+            <div n="4">
+                <lg type="poem">
+                    <lg n="1" type="stanza" rhyme="abcd">
+                        <l>Du ſeyeſt Gottes Stimme, ſo ahndet' ich</l>
+                        <lb/>
+                        <l>In heil'ger Jugend; ja, und ich ſag' es noch. —</l>
+                        <lb/>
+                        <l><hi rendition="#et">Um meine Weisheit unbekuͤmmert</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">Rauſchen die Waſſer doch auch, und dennoch</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="2" type="stanza" rhyme="abcd">
+                        <l>Hoͤr' ich ſie gern, und oͤfters bewegen ſie</l>
+                        <lb/>
+                        <l>Und ſtaͤrken mir das Herz, die Gewaltigen;</l>
+                        <lb/>
+                        <l><hi rendition="#et">Und meine Bahn nicht, aber richtig</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">Wandeln in's Meer ſie die Bahn hinunter.</hi></l>
+                    </lg>
+                    <lb/>
+                    <l/>
+                </lg>
+            </div>
+
+            <div n="5">
+                <lg type="poem">
+                    <lg n="1" type="stanza" rhyme="abab">
+                        <l>Noch kehrt in mich der ſuͤße Fruͤhling wieder,</l>
+                        <lb/>
+                        <l>Noch altert nicht mein kindiſch froͤhlich Herz,</l>
+                        <lb/>
+                        <l>Noch rinnt vom Auge mir der Thau der Liebe nieder,</l>
+                        <lb/>
+                        <l>Noch lebt in mir der Hoffnung Luſt und Schmerz.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="2" type="stanza" rhyme="abab">
+                        <l>Noch troͤſtet mich mit ſuͤßer Augenweide</l>
+                        <lb/>
+                        <l>Der blaue Himmel und die gruͤne Flur,</l>
+                        <lb/>
+                        <l>Noch reicht die Goͤttliche den Taumelkelch der Freude,</l>
+                        <lb/>
+                        <l>Die jugendliche, freundliche Natur.</l>
+                    </lg>
+                    <lb/>
+                    <lg n="3" type="stanza" rhyme="abab">
+                        <l>Getroſt! Es iſt der Schmerzen werth dies Leben,</l>
+                        <lb/>
+                        <l>So lang uns Armen Gottes Sonne ſcheint</l>
+                        <lb/>
+                        <l>Und Bilder beßrer Zeit um unſre Seele ſchweben,</l>
+                        <lb/>
+                        <l>Und ach! mit uns ein treues Auge weint.</l>
+                    </lg>
+                    <lb/>
+                    <l/>
+                </lg>
+            </div>
+
+            <div n="6">
+                <lg type="poem">
+                    <lg n="1" type="stanza" rhyme="abcd">
+                        <l>Euch alten Freunde droben, unſterbliches</l>
+                        <lb/>
+                        <l>Geſtirn! euch frag' ich, Helden! woher es iſt,</l>
+                        <lb/>
+                        <l><hi rendition="#et">Daß ich ſo unterthan ihm bin, und</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">So der Gewaltige ſein mich nennet?</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="2" type="stanza" rhyme="abcd">
+                        <l>Denn wenig kann ich bieten, nur weniges</l>
+                        <lb/>
+                        <l>Kann ich verlieren, aber ein liebes Gluͤck,</l>
+                        <lb/>
+                        <l><hi rendition="#et">Ein einziges, zum Angedenken</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">Reicherer Tage zuruͤck geblieben;</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="3" type="stanza" rhyme="abcd">
+                        <l>Und ſo er mir's geboͤte, dies Eine noch,</l>
+                        <lb/>
+                        <l>Mein Saitenſpiel, ich wagt' es, wohin er wollt',</l>
+                        <lb/>
+                        <l><hi rendition="#et">Und mit Geſange folgt' ich, ſelbſt in's</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">Ende der Tapferen ihm hinunter.</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="4" type="stanza" rhyme="abcd">
+                        <l>„Die Wolke“ — ſaͤng' ich — „traͤnket mit Regen</l>
+                        <lb/>
+                        <l>Dich,</l>
+                        <lb/>
+                        <l>„Du Mutterboden! aber mit Blut der Menſch;</l>
+                        <lb/>
+                        <l><hi rendition="#et">„So ruht, ſo kuͤhlt die Liebe ſich, die</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">„Droben und drunten nicht Gleiches findet.</hi></l>
+                    </lg>
+                    <lb/>
+                    <pb n="35" facs="#f0043"/>
+                    <lg n="5" type="stanza" rhyme="abcd">
+                        <l>„Wo iſt am Tag ihr Zeichen? wo ſpricht das Herz</l>
+                        <lb/>
+                        <l>„Sich aus? o wann im Leben, wann iſt es frei,</l>
+                        <lb/>
+                        <l><hi rendition="#et">„Was unſer Wort nicht nennt, wann wird, was</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">„Trauert, gebannt in die Nacht, ſein Wunſch</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">ihm? —</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="6" type="stanza" rhyme="abcd">
+                        <l>„Jetzt, wann die Opfer fallen, ihr Freunde! jetzt!</l>
+                        <lb/>
+                        <l>„Schon tritt hinzu der feſtliche Zug, ſchon blinkt</l>
+                        <lb/>
+                        <l><hi rendition="#et">„Der Stahl, die Wolke dampft, ſie fallen, und
+                            es</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">„Hallt in der Luft, und die Erde ruͤhmt es!“</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="7" type="stanza" rhyme="abcd">
+                        <l>Wenn ich ſo ſingend fiele, dann raͤchteſt Du</l>
+                        <lb/>
+                        <l>Mich, mein Achill! und ſpraͤcheſt: „er lebte doch</l>
+                        <lb/>
+                        <l><hi rendition="#et">„Treu bis zuletzt!“ das ernſte Wort, das</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">Spraͤche mein Feind und der Todtenrichter!</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="8" type="stanza" rhyme="abcd">
+                        <l>Doch weilen wir in Ruhe, Du Lieber, noch;</l>
+                        <lb/>
+                        <l>Uns birgt der Wald, es haͤlt das Gebirge dort</l>
+                        <lb/>
+                        <l><hi rendition="#et">Das muͤtterliche, noch die beiden</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">Bruͤder in ſicherem Arm gefangen.</hi></l>
+                    </lg>
+                    <lb/>
+                    <lg n="9" type="stanza" rhyme="abcd">
+                        <l>Uns iſt die Weisheit Wiegengeſang; ſie webt</l>
+                        <lb/>
+                        <l>Um's Aug' ihr heilig Dunkel; doch oͤfters koͤmmt</l>
+                        <lb/>
+                        <l><hi rendition="#et">Aus ferne toͤnendem Gewoͤlk die</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">Mahnende Flamme des Zeitengottes.</hi></l>
+                    </lg>
+                    <lb/>
+                    <pb n="36" facs="#f0044"/>
+                    <lg n="10" type="stanza" rhyme="abcd">
+                        <l>Es regt ſein Sturm die Schwingen Dir auf; Dich</l>
+                        <lb/>
+                        <l>ruft,</l>
+                        <lb/>
+                        <l>Dich nimmt der maͤcht'ge Vater hinauf; o nimm</l>
+                        <lb/>
+                        <l><hi rendition="#et">Mich Du, und trage Deine leichte</hi></l>
+                        <lb/>
+                        <l><hi rendition="#et">Beute dem laͤchelnden Gott entgegen!</hi></l>
+                    </lg>
+                    <lb/>
+                    <l/>
+                </lg>
+            </div>
+
+        </body>
+    </text>
+</TEI>

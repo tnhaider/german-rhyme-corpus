@@ -1,0 +1,3335 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Gedichte</title>
+    <title type="volume" n="2">1844</title>
+    <author>
+     <persName ref="http://d-nb.info/gnd/118527533">
+      <surname>Droste-Hülshoff</surname>
+      <forename>Annette von</forename>
+     </persName>
+    </author>
+    <editor corresp="#DTACorpusPublisher">
+     <persName ref="http://d-nb.info/gnd/115266127">
+      <surname>Geyken</surname>
+      <forename>Alexander</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName ref="http://d-nb.info/gnd/1018099549">
+      <surname>Haaf</surname>
+      <forename>Susanne</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName ref="http://d-nb.info/gnd/1019062681">
+      <surname>Jurish</surname>
+      <forename>Bryan</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Schulz</surname>
+      <forename>Matthias</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Steinmann</surname>
+      <forename>Jakob</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Thomas</surname>
+      <forename>Christian</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Wiegand</surname>
+      <forename>Frank</forename>
+     </persName>
+    </editor>
+    <respStmt>
+     <orgName ref="http://www.clarin-d.de">CLARIN-D</orgName>
+     <resp>
+      <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+      <ref target="http://fedora.dwds.de"/>
+     </resp>
+    </respStmt>
+   </titleStmt>
+   <editionStmt>
+    <edition>Vollständige digitalisierte Ausgabe.</edition>
+   </editionStmt>
+   <extent>
+    <measure type="images">593</measure>
+    <measure type="tokens">82235</measure>
+    <measure type="types">15214</measure>
+    <measure type="characters">528230</measure>
+   </extent>
+   <publicationStmt>
+    <publisher xml:id="DTACorpusPublisher">
+     <email>dta@bbaw.de</email>
+     <orgName role="project">Deutsches Textarchiv</orgName>
+     <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and
+      Humanities</orgName>
+     <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+      Wissenschaften (BBAW)</orgName>
+     <address>
+      <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+      <country>Germany</country>
+     </address>
+    </publisher>
+    <pubPlace>Berlin</pubPlace>
+    <date type="publication">2014-08-25T11:44:41Z</date>
+    <availability>
+     <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+      <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported License.</p>
+     </licence>
+    </availability>
+    <idno>
+     <idno type="URLWeb">http://www.deutschestextarchiv.de/droste_gedichte_1844</idno>
+     <idno type="URLXML"
+      >http://www.deutschestextarchiv.de/book/download_xml/droste_gedichte_1844</idno>
+     <idno type="URLHTML"
+      >http://www.deutschestextarchiv.de/book/download_html/droste_gedichte_1844</idno>
+     <idno type="URLText"
+      >http://www.deutschestextarchiv.de/book/download_text/droste_gedichte_1844</idno>
+     <idno type="DTADirName">droste_gedichte_1844</idno>
+     <idno type="DTAID">16606</idno>
+     <idno type="URN">urn:nbn:de:kobv:b4-20090519994</idno>
+    </idno>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="M">Droste-Hülshoff, Annette von: Gedichte. Stuttgart u. a., 1844.</bibl>
+    <biblFull>
+     <titleStmt>
+      <title level="m" type="main">Gedichte</title>
+      <title level="m" type="volume" n="2">1844</title>
+      <author>
+       <persName ref="http://d-nb.info/gnd/118527533">
+        <surname>Droste-Hülshoff</surname>
+        <forename>Annette von</forename>
+       </persName>
+      </author>
+     </titleStmt>
+     <editionStmt>
+      <edition n="1"/>
+     </editionStmt>
+     <extent>
+      <measure type="pages">VIII, 575 S.</measure>
+     </extent>
+     <publicationStmt>
+      <publisher><name>Cotta</name></publisher>
+      <pubPlace>Stuttgart</pubPlace>
+      <pubPlace>Tübingen</pubPlace>
+      <date type="publication">1844</date>
+     </publicationStmt>
+    </biblFull>
+    <msDesc>
+     <msIdentifier>
+      <repository>BBAW</repository>
+      <idno>
+       <idno type="shelfmark">DWB/B4</idno>
+      </idno>
+     </msIdentifier>
+     <physDesc>
+      <typeDesc>
+       <p>Fraktur</p>
+      </typeDesc>
+     </physDesc>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p>Dieses Werk wurde von OCR-Software automatisch erfasst und anschließend gemäß den <ref
+      target="http://www.deutschestextarchiv.de/doku/richtlinien"
+      >DTA-Transkriptionsrichtlinien</ref> von Muttersprachlern nachkontrolliert. Es wurde gemäß dem
+      <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat</ref> in
+     XML/TEI P5 kodiert.</p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="deu">German</language>
+   </langUsage>
+   <textClass>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtamain"
+     >Belletristik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtasub"
+     >Lyrik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+     >Belletristik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+     >Lyrik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+     >core</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+     >ready</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+     >ocr</classCode>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div n="1">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Und als das Morgengrau</l>
+      <lb/>
+      <l>In die Kemnate ſich ſtahl:</l>
+      <lb/>
+      <l>Da hatte die werthe Frau</l>
+      <lb/>
+      <l>Geſeufzt ſchon manches Mal;</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Manch Mal gerungen die Hand,</l>
+      <lb/>
+      <l>Ganz heimlich wie ein Dieb;</l>
+      <lb/>
+      <l>Roth war ihrer Augen Rand,</l>
+      <lb/>
+      <l>Todtblaß ihr Antlitz lieb.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Drei Tage kredenzt' ſie den Wein,</l>
+      <lb/>
+      <l>Und ſaß bei'm Mahle drei Tag',</l>
+      <lb/>
+      <l>Drei Nächte in ſteter Pein</l>
+      <lb/>
+      <l>In der Waldkapelle ſie lag.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Wenn er die Wacht beſorgt,</l>
+      <lb/>
+      <l>Der Thorwart ſieht ſie gehn,</l>
+      <lb/>
+      <l>Im Walde ſteht und horcht</l>
+      <lb/>
+      <l>Der Wilddieb dem Geſtöhn'.</l>
+      <lb/>
+     </lg>
+     <pb n="268" facs="#f0282"/>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Am vierten Abend ſie ſaß</l>
+      <lb/>
+      <l>An ihres Herren Seit',</l>
+      <lb/>
+      <l>Sie dreht' die Spindel, er las,</l>
+      <lb/>
+      <l>Dann ſahn ſie auf, alle beid'.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>„Allgund, bleich iſt dein Mund!“</l>
+      <lb/>
+      <l>„„Herr, 's macht der Lampe Schein.““</l>
+      <lb/>
+      <l>„Deine Augen ſind roth, Allgund!“</l>
+      <lb/>
+      <l>„„'S drang Rauch vom Heerde hinein.““</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abab">
+      <l>„„Auch macht mir's ſchlimmen Muth,</l>
+      <lb/>
+      <l>„„Daß heut vor fünfzehn Jahren</l>
+      <lb/>
+      <l>„„Ich ſah meines Vaters Blut;</l>
+      <lb/>
+      <l>„„Gott mag die Seele wahren!““</l>
+      <lb/>
+     </lg>
+     <lg n="8" type="stanza" rhyme="abab">
+      <l>„„Lang ruht die Mutter im Dom,</l>
+      <lb/>
+      <l>„„Sind Wen'ge mir verwandt,</l>
+      <lb/>
+      <l>„„Ein' Muhm' noch und ein Ohm:</l>
+      <lb/>
+      <l>„„Sonſt iſt mir keins bekannt.““</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="abab">
+      <l>Starr ſah der Graf ſie an:</l>
+      <lb/>
+      <l>„Es ſteht dem Weibe feſt,</l>
+      <lb/>
+      <l>„Daß um den ehlichen Mann</l>
+      <lb/>
+      <l>„Sie Ohm und Vater läßt.“</l>
+      <lb/>
+     </lg>
+     <lg n="10" type="stanza" rhyme="abab">
+      <l>„„Ja, Herr! ſo muß es ſeyn.</l>
+      <lb/>
+      <l>„„Ich gäb' um Euch die zweie,</l>
+      <lb/>
+      <l>„„Und mich noch obendrein,</l>
+      <lb/>
+      <l>„„Wenn's ſeyn müßt', ohne Reue.““</l>
+      <lb/>
+     </lg>
+     <pb n="269" facs="#f0283"/>
+     <lg n="11" type="stanza" rhyme="abab">
+      <l>„„Doch daß nun dieſer Tag</l>
+      <lb/>
+      <l>„„Nicht gleich den andern ſey,</l>
+      <lb/>
+      <l>„„Leſ't, wenn ich bitten mag,</l>
+      <lb/>
+      <l>„„Ein Sprüchlein oder zwei.““</l>
+      <lb/>
+     </lg>
+     <lg n="12" type="stanza" rhyme="abab">
+      <l>Und als die Fraue klar</l>
+      <lb/>
+      <l>Darauf das heil'ge Buch</l>
+      <lb/>
+      <l>Bot ihrem Gatten dar,</l>
+      <lb/>
+      <l>Es auf von ſelber ſchlug.</l>
+      <lb/>
+     </lg>
+     <lg n="13" type="stanza" rhyme="abab">
+      <l>Mit Einem Blicke er maß</l>
+      <lb/>
+      <l>Der nächſten Sprüche einen;</l>
+      <lb/>
+      <l>„Mein iſt die Rach'“, er las;</l>
+      <lb/>
+      <l>Das will ihm ſeltſam ſcheinen.</l>
+      <lb/>
+     </lg>
+     <lg n="14" type="stanza" rhyme="abab">
+      <l>Doch wie ſo feſt der Mann</l>
+      <lb/>
+      <l>Auf Frau und Bibel blickt,</l>
+      <lb/>
+      <l>Die ſaß ſo ſtill und ſpann,</l>
+      <lb/>
+      <l>Dort war kein Blatt geknickt.</l>
+      <lb/>
+     </lg>
+     <lg n="15" type="stanza" rhyme="abab">
+      <l>Um ihren ſchönen Leib</l>
+      <lb/>
+      <l>Den Arm er düſter ſchlang:</l>
+      <lb/>
+      <l>„So nimm die Laute, Weib,</l>
+      <lb/>
+      <l>„Sing' mir einen luſt'gen Sang!“</l>
+      <lb/>
+     </lg>
+     <lg n="16" type="stanza" rhyme="abab">
+      <l>„„O Herr! mag's euch behagen,</l>
+      <lb/>
+      <l>„„Ich ſing' ein Liedlein werth,</l>
+      <lb/>
+      <l>„„Das erſt vor wenig Tagen</l>
+      <lb/>
+      <l>„„Mich ein Minſtrel gelehrt.““</l>
+      <lb/>
+     </lg>
+     <pb n="270" facs="#f0284"/>
+     <lg n="17" type="stanza" rhyme="abab">
+      <l>„„Der kam ſo matt und bleich,</l>
+      <lb/>
+      <l>„„Wollt' nur ein wenig ruh'n,</l>
+      <lb/>
+      <l>„„Und ſprach, im oberen Reich</l>
+      <lb/>
+      <l>„„Sing' man nichts Anderes nun.““</l>
+      <lb/>
+     </lg>
+     <lg n="18" type="stanza" rhyme="abab">
+      <l>Drauf, wie ein Schrei verhallt,</l>
+      <lb/>
+      <l>Es durch die Kammer klingt,</l>
+      <lb/>
+      <l>Als ihre Finger kalt</l>
+      <lb/>
+      <l>Sie an die Saiten bringt.</l>
+      <lb/>
+     </lg>
+     <lg n="19" type="stanza" rhyme="ababcdcd">
+      <l>„Johann! Johann! was dachteſt du</l>
+      <lb/>
+      <l>„An jenem Tag,</l>
+      <lb/>
+      <l>„Als du erſchlugſt deine eigne Ruh'</l>
+      <lb/>
+      <l>„Mit Einem Schlag?</l>
+      <lb/>
+      <l>„Verderbteſt auch mit dir zugleich</l>
+      <lb/>
+      <l>„Deine drei Geſellen;</l>
+      <lb/>
+      <l>„O, ſieh nun ihre Glieder bleich</l>
+      <lb/>
+      <l>„Am Monde ſchwellen!</l>
+      <lb/>
+     </lg>
+     <lg n="20" type="stanza" rhyme="ababcdcd">
+      <l>„Weh dir, was dachteſt du Johann</l>
+      <lb/>
+      <l>„Zu jener Stund'?</l>
+      <lb/>
+      <l>„Nun läuft von dir verlornem Mann</l>
+      <lb/>
+      <l>„Durch's Reich die Kund'!</l>
+      <lb/>
+      <l>„Ob dich verbergen mag der Wald,</l>
+      <lb/>
+      <l>„Dich wird's ereilen;</l>
+      <lb/>
+      <l>„Horch nur, die Vögel ſingen's bald,</l>
+      <lb/>
+      <l>„Die Wölf' es heulen!</l>
+      <lb/>
+     </lg>
+     <lg n="21" type="stanza" rhyme="ababcdcd">
+      <l>„O weh! das haſt du nicht gedacht,</l>
+      <lb/>
+      <l>„Johann! Johann!</l>
+      <lb/>
+      <l>„Als du die Rache wahr gemacht</l>
+      <lb/>
+      <l>„Am alten Mann.</l>
+      <lb/>
+      <pb n="271" facs="#f0285"/>
+      <l>„Und wehe! nimmer wird der Fluch</l>
+      <lb/>
+      <l>„Mit dir begraben,</l>
+      <lb/>
+      <l>„Dir, der den Ohm und Herrn erſchlug,</l>
+      <lb/>
+      <l>„Johann von Schwaben!“</l>
+      <lb/>
+     </lg>
+     <lg n="22" type="stanza" rhyme="abab">
+      <l>Aufrecht die Fraue bleich</l>
+      <lb/>
+      <l>Vor ihrem Gatten ſtand,</l>
+      <lb/>
+      <l>Der nimmt die Laute gleich,</l>
+      <lb/>
+      <l>Er ſchlägt ſie an die Wand.</l>
+      <lb/>
+     </lg>
+     <lg n="23" type="stanza" rhyme="abab">
+      <l>Und als der Schall verklang,</l>
+      <lb/>
+      <l>Da hört man noch zuletzt,</l>
+      <lb/>
+      <l>Wie er die Hall' entlang</l>
+      <lb/>
+      <l>Den zorn'gen Fußtritt ſetzt.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="2">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcdcd">
+      <l>Standeſt du je am Strande,</l>
+      <lb/>
+      <l>Wenn Tag und Nacht ſich gleichen,</l>
+      <lb/>
+      <l>Und ſah'ſt aus Lehm und Sande</l>
+      <lb/>
+      <l>Die Regenrinnen ſchleichen —</l>
+      <lb/>
+      <l>Zahlloſe Schmugglerquellen,</l>
+      <lb/>
+      <l>Und dann, ſo weit das Auge</l>
+      <lb/>
+      <l>Nur reicht, des Meeres Wellen</l>
+      <lb/>
+      <l>Gefärbt mit gelber Lauge? —</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcdcd">
+      <l>Hier iſt die Dün' und drunten</l>
+      <lb/>
+      <l>Das Meer; Kanonen gleichend</l>
+      <lb/>
+      <l>Stehn Schäferkarrn, die Lunten</l>
+      <lb/>
+      <l>Verlöſcht am Boden ſtreichend.</l>
+      <lb/>
+      <l>Gilt's etwa dem Korſaren</l>
+      <lb/>
+      <l>Im flatternden Kaftane,</l>
+      <lb/>
+      <l>Den dort ich kann gewahren</l>
+      <lb/>
+      <l>Im gelben Oceane?</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="ababcdcd">
+      <l>Er ſcheint das Tau zu ſchlagen,</l>
+      <lb/>
+      <l>Sein Schiff verdeckt die Düne,</l>
+      <lb/>
+      <l>Doch ſieht den Maſt man ragen, —</l>
+      <lb/>
+      <l>Ein dürrer Fichtenhüne;</l>
+      <lb/>
+      <l>Von ſeines Toppes Kunkel</l>
+      <lb/>
+      <l>Die Seile ſtramm wie Aeſte,</l>
+      <lb/>
+      <l>Der Maſtkorb, rauh und dunkel,</l>
+      <lb/>
+      <l>Gleicht einem Weihenneſte! —</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="3">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcc">
+      <l>
+       <hi rendition="#g">Ihr</hi> ſteht ſo nüchtern da gleich Kräuterbeeten —</l>
+      <lb/>
+      <l>Und <hi rendition="#g">ihr</hi> gleich Fichten die zerſpellt von Wettern —</l>
+      <lb/>
+      <l>Haucht wie des Hauches Hauch in Syrinxflöten —</l>
+      <lb/>
+      <l>Laßt wie Dragoner die Trompeten ſchmettern;</l>
+      <lb/>
+      <l>
+       <hi rendition="#g">Der</hi> kann ein Schattenbild die Wange röthen —</l>
+      <lb/>
+      <l>
+       <hi rendition="#g">Die</hi> wirft den Handſchuh Zeus und allen Göttern;</l>
+      <lb/>
+      <l>Ward denn der Führer euch nicht angeboren</l>
+      <lb/>
+      <l>In eigner Bruſt, daß ihr den Pfad verloren?</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abababcc">
+      <l>Schaut auf! zur Rechten nicht — durch Thränengründe,</l>
+      <lb/>
+      <l>Mondſcheinalleen und blaſſe Nebeldecken,</l>
+      <lb/>
+      <l>Wo einſam die veraltete Selinde</l>
+      <lb/>
+      <l>Zur Luna mag die Lilienarme ſtrecken;</l>
+      <lb/>
+      <l>Glaubt, zur Genüge hauchten Seufzerwinde,</l>
+      <lb/>
+      <l>Längſt überfloß der Sehnſucht Thränenbecken;</l>
+      <lb/>
+      <l>An eurem Hügel mag die Hirtin klagen,</l>
+      <lb/>
+      <l>Und ſeufzend drauf ein Gänſeblümchen tragen.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abababcc">
+      <l>Doch auch zur Linken nicht — durch Winkelgaſſen,</l>
+      <lb/>
+      <l>Wo tückiſch nur die Diebslaternen blinken,</l>
+      <lb/>
+      <l>Mit wildem Druck euch rohe Hände faſſen,</l>
+      <lb/>
+      <l>Und Smollis Wüſtling euch und Schwelger trinken,</l>
+      <lb/>
+      <l>Der Sinne Bachanale, wo die blaſſen</l>
+      <lb/>
+      <l>Betäubten Opfer in die Roſen ſinken,</l>
+      <lb/>
+      <l>Und endlich, eures Sarges letzte Ehre,</l>
+      <lb/>
+      <l>Man drüber legt die Kränze der Hetäre.</l>
+      <lb/>
+     </lg>
+     <pb n="20" facs="#f0034"/>
+     <lg n="4" type="stanza" rhyme="abababcc">
+      <l>O dunkles Loos! o Preis mit Schmach gewonnen,</l>
+      <lb/>
+      <l>Wenn Ruhmes Staffel wird der Ehre Bahre!</l>
+      <lb/>
+      <l>Grad', grade geht der Pfad, wie Stral der Sonnen!</l>
+      <lb/>
+      <l>Grad', wie die Flamme lodert vom Altare!</l>
+      <lb/>
+      <l>Grad', wie Natur das Berberroß zum Bronnen</l>
+      <lb/>
+      <l>Treibt mitten durch die Wirbel der Sahare!</l>
+      <lb/>
+      <l>Ihr könnt nicht fehlen, er, ſo mild umlichtet,</l>
+      <lb/>
+      <l>Der Führer ward in euch nicht hingerichtet.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abababcc">
+      <l>Treu ſchützte ihn der Länder fromme Sitte,</l>
+      <lb/>
+      <l>Die euch umgeben wie mit Heilgenſcheine,</l>
+      <lb/>
+      <l>Sie hielt euch fern die freche Liebesbitte,</l>
+      <lb/>
+      <l>Und legte Anathem auf das Gemeine.</l>
+      <lb/>
+      <l>Euch nahte die Natur mit reinem Schritte,</l>
+      <lb/>
+      <l>Kein trunkner Schwelger über Stock und Steine,</l>
+      <lb/>
+      <l>Ihr mögt ihr willig jedes Opfer ſpenden,</l>
+      <lb/>
+      <l>Denn Alles nimmt ſie, doch aus reinen Händen.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abababcc">
+      <l>Die Zeit hat jede Schranke aufgeſchloſſen,</l>
+      <lb/>
+      <l>An allen Wegen hauchen Naphtablüthen,</l>
+      <lb/>
+      <l>Ein reizend ſcharfer Duft hat ſich ergoſſen,</l>
+      <lb/>
+      <l>Und Jeder mag die eignen Sinne hüten.</l>
+      <lb/>
+      <l>Das Leben ſtürmt auf abgehetzten Roſſen,</l>
+      <lb/>
+      <l>Die noch zuſammenbrechend haun und wüthen.</l>
+      <lb/>
+      <l>Ich will den Griffel eurer Hand nicht rauben,</l>
+      <lb/>
+      <l>Singt, aber zitternd, wie vor'm Weih' die Tauben.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abababcc">
+      <l>Ja, treibt der Geiſt euch, laßt Standarten ragen!</l>
+      <lb/>
+      <l>Ihr ward die Zeugen wild bewegter Zeiten,</l>
+      <lb/>
+      <l>Was ihr erlebt, das läßt ſich nicht erſchlagen,</l>
+      <lb/>
+      <l>Feldbind' und Helmzier mag ein Weib bereiten;</l>
+      <lb/>
+      <pb n="21" facs="#f0035"/>
+      <l>Doch ſeht euch vor wie hoch die Schwingen tragen,</l>
+      <lb/>
+      <l>Stellt nicht das Ziel in ungemeſſne Weiten,</l>
+      <lb/>
+      <l>Der kecke Falk iſt überall zu finden,</l>
+      <lb/>
+      <l>Doch einſam ſteigt der Aar aus Alpengründen.</l>
+      <lb/>
+     </lg>
+     <lg n="8" type="stanza" rhyme="abababcc">
+      <l>Vor Allem aber pflegt das anvertraute,</l>
+      <lb/>
+      <l>Das heilge Gut, gelegt in eure Hände,</l>
+      <lb/>
+      <l>Weckt der Natur geheimnißreichſte Laute,</l>
+      <lb/>
+      <l>Kniet vor des Blutes gnadenvoller Spende;</l>
+      <lb/>
+      <l>Des Tempels pflegt, den Menſchenhand nicht baute,</l>
+      <lb/>
+      <l>Und ſchmückt mit Sprüchen die entweihten Wände,</l>
+      <lb/>
+      <l>Daß dort, aus dieſer Wirren Staub und Mühen,</l>
+      <lb/>
+      <l>Die Gattin mag, das Kind, die Mutter knieen.</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="abababcc">
+      <l>Ihr hörtet ſie die unterdrückten Klagen</l>
+      <lb/>
+      <l>Der heiligen Natur, geprägt zur Dirne.</l>
+      <lb/>
+      <l>Wer hat ſie nicht gehört in dieſen Tagen,</l>
+      <lb/>
+      <l>Wo nur ein Gott, der Gott im eignen Hirne?</l>
+      <lb/>
+      <l>Friſchauf! — und will den Lorbeer man verſagen,</l>
+      <lb/>
+      <l>O Glückliche mit unbekränzter Stirne!</l>
+      <lb/>
+      <l>O arm Gefühl, das ſich nicht ſelbſt kann lohnen!</l>
+      <lb/>
+      <l>Mehr iſt ein Segen als zehntauſend Kronen!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="4">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababccb">
+      <l>Zu Cöln am Rheine kniet ein Weib</l>
+      <lb/>
+      <l>Am Rabenſteine unter'm Rade,</l>
+      <lb/>
+      <l>Und über'm Rade liegt ein Leib,</l>
+      <lb/>
+      <l>An dem ſich weiden Kräh' und Made;</l>
+      <lb/>
+      <l>Zerbrochen iſt ſein Wappenſchild,</l>
+      <lb/>
+      <l>Mit Trümmern ſeine Burg gefüllt,</l>
+      <lb/>
+      <l>Die Seele ſteht bei Gottes Gnade.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababccb">
+      <l>Den Leib des Fürſten hüllt der Rauch</l>
+      <lb/>
+      <l>Von Ampeln und von Weihrauchſchwehlen —</l>
+      <lb/>
+      <l>Um ſeinen qualmt der Moderhauch</l>
+      <lb/>
+      <l>Und Hagel peitſcht der Rippen Höhlen;</l>
+      <lb/>
+      <l>Im Dome ſteigt ein Trauerchor,</l>
+      <lb/>
+      <l>Und ein Tedeum ſtieg empor</l>
+      <lb/>
+      <l>Bei ſeiner Qual aus tauſend Kehlen.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="ababccb">
+      <l>Und wenn das Rad der Bürger ſieht,</l>
+      <lb/>
+      <l>Dann läßt er raſch ſein Rößlein traben,</l>
+      <lb/>
+      <l>Doch eine bleiche Frau die kniet,</l>
+      <lb/>
+      <l>Und ſcheucht mit ihrem Tuch die Raben:</l>
+      <lb/>
+      <l>Um ſie mied er die Schlinge nicht,</l>
+      <lb/>
+      <l>Er war ihr Held, er war ihr Licht —</l>
+      <lb/>
+      <l>Und ach, der Vater ihrer Knaben!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="5">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcdcd">
+      <l>Ja, einen Feind hat der Corſ', den Hund,</l>
+      <lb/>
+      <l>Luigi, den hagern Podeſta,</l>
+      <lb/>
+      <l>Der den Ohm, ſo ſtark und geſund,</l>
+      <lb/>
+      <l>Ließ henken, den kühnen di Veſta.</l>
+      <lb/>
+      <l>Er und der rothe Franzoſe Jocliffe,</l>
+      <lb/>
+      <l>Die Beiden machten ihn hangen,</l>
+      <lb/>
+      <l>Aber der ging zu dem Schmugglerſchiff,</l>
+      <lb/>
+      <l>Und liegt ſeit Monden gefangen.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcdcd">
+      <l>Steht im Walde Geronimo,</l>
+      <lb/>
+      <l>Und klirrend zieht aus der Scheide</l>
+      <lb/>
+      <l>Er das Meſſer, ſo und ſo</l>
+      <lb/>
+      <l>An der Sohle wetzt er die Schneide;</l>
+      <lb/>
+      <l>Gleitet dann in die Dämmerung,</l>
+      <lb/>
+      <l>Dem Feinde auf Tod und Leben</l>
+      <lb/>
+      <l>Mit des Thieres Verſtümmelung</l>
+      <lb/>
+      <l>Ein corſiſch Cartel zu geben.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="ababcdcd">
+      <l>Schau! wie Zweig an Zweige er ſtreicht,</l>
+      <lb/>
+      <l>— Kaum flüſternd die Blätter ſchwanken, —</l>
+      <lb/>
+      <l>Gleich der gleißenden Boa leicht</l>
+      <lb/>
+      <l>Hinquillt durch Gelaub und Ranken;</l>
+      <lb/>
+      <l>Drüber träufelt das Mondenlicht,</l>
+      <lb/>
+      <l>Wie heimlicher Thräne Klage</l>
+      <lb/>
+      <l>Durch eine dunkele Wimper bricht.</l>
+      <lb/>
+      <l>Nun kniet der Corſe am Haage.</l>
+      <lb/>
+     </lg>
+     <pb n="308" facs="#f0322"/>
+     <lg n="4" type="stanza" rhyme="ababcdcd">
+      <l>Dort der Anger, — und dort am Hang</l>
+      <lb/>
+      <l>Die einſam weidende Stute,</l>
+      <lb/>
+      <l>Langſam ſchnaubt ſie den Rain entlang;</l>
+      <lb/>
+      <l>Aus andaluſiſchem Blute,</l>
+      <lb/>
+      <l>Hoch, ſchneeſchimmernd, zum Grund gebeugt</l>
+      <lb/>
+      <l>Den mähnumflutheten Nacken,</l>
+      <lb/>
+      <l>Nah ſie, näher dem Hagen ſteigt.</l>
+      <lb/>
+      <l>Nun wird der Corſe ſie packen!</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="ababcdcd">
+      <l>Schon erfaßt er der Schneide Griff,</l>
+      <lb/>
+      <l>Er reckt ſich über dem Kraute,</l>
+      <lb/>
+      <l>Da — ein Gekniſter und — ſtill! ein Pfiff,</l>
+      <lb/>
+      <l>Und wieder — ſummende Laute!</l>
+      <lb/>
+      <l>Und es ſchreitet dem Hage zu,</l>
+      <lb/>
+      <l>Grad wo Geronimo knieet,</l>
+      <lb/>
+      <l>Nieder gleitet der Corſ' im Nu,</l>
+      <lb/>
+      <l>Ha, wie er keuchet und glühet!</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="ababcdcd">
+      <l>Dicht an ihm, — der Mantel ſtreift,</l>
+      <lb/>
+      <l>Die Ferſe könnt' er ihm faſſen, —</l>
+      <lb/>
+      <l>Steht der hagre Podeſt' und pfeift;</l>
+      <lb/>
+      <l>„Sorella! ruft er gelaſſen,</l>
+      <lb/>
+      <l>Und „Sorella, mein kluges Thier!“</l>
+      <lb/>
+      <l>Der Lauſcher höret es ſtampfen,</l>
+      <lb/>
+      <l>Ueber ihm, mit hellem Gewieh'r,</l>
+      <lb/>
+      <l>Zwei ſchnaubende Nüſtern dampfen.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="ababcdcd">
+      <l>Freundlich klatſcht Luigi den Bug,</l>
+      <lb/>
+      <l>Liebkoſend ſtreicht er die Mähnen,</l>
+      <lb/>
+      <l>Hat nicht zärtlicher Worte genug,</l>
+      <lb/>
+      <l>Er ſpricht wie zu ſeiner Schönen.</l>
+      <lb/>
+      <pb n="309" facs="#f0323"/>
+      <l>Einen Blitz aus glühendem Aug',</l>
+      <lb/>
+      <l>Und rückwärts taumelt die Stute.</l>
+      <lb/>
+      <l>„Ei, Sorella, was fehlt dir auch?</l>
+      <lb/>
+      <l>Mein Töchterchen, meine Gute.“</l>
+      <lb/>
+     </lg>
+     <lg n="8" type="stanza" rhyme="ababcdcd">
+      <l>Candiszucker langt er hervor;</l>
+      <lb/>
+      <l>Ha, wie ihre Nüſtern blaſen!</l>
+      <lb/>
+      <l>Wie ſie naſchet, geſpitzt das Ohr,</l>
+      <lb/>
+      <l>Und immer glotzet zum Raſen!</l>
+      <lb/>
+      <l>Einen Blick der Podeſta ſcheu</l>
+      <lb/>
+      <l>Schießt über die glitzernde Aue,</l>
+      <lb/>
+      <l>Rückt am Dolche, und dann aufs neu:</l>
+      <lb/>
+      <l>„Mein Schimmelchen, meine Graue!“</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="ababcdcd">
+      <l>Wie er über den Hag ſich biegt,</l>
+      <lb/>
+      <l>Am Nacken des Thieres gleitet,</l>
+      <lb/>
+      <l>Auf Geronimo's Auge liegt</l>
+      <lb/>
+      <l>Des Feindes Mantel gebreitet;</l>
+      <lb/>
+      <l>O, nie hat ſo heiß und ſchwer</l>
+      <lb/>
+      <l>Geronimo, nie gelegen,</l>
+      <lb/>
+      <l>Jede Muskel im Arm fühlt er</l>
+      <lb/>
+      <l>Wie eine Viper ſich regen.</l>
+      <lb/>
+     </lg>
+     <lg n="10" type="stanza" rhyme="ababcdcd">
+      <l>Doch er iſt ein gläubiger Chriſt,</l>
+      <lb/>
+      <l>Geht jede Woche zur Beichte,</l>
+      <lb/>
+      <l>Hat voll Andacht noch heut geküßt</l>
+      <lb/>
+      <l>Chriſtofero's heilige Leuchte.</l>
+      <lb/>
+      <l>Sünde wär's, das Meſſer im Schlund</l>
+      <lb/>
+      <l>Des Ungewarnten zu bergen,</l>
+      <lb/>
+      <l>Sonſt — alleine, allein der Hund!</l>
+      <lb/>
+      <l>Bewaffnet, und ohne Schergen!</l>
+      <lb/>
+     </lg>
+     <pb n="310" facs="#f0324"/>
+     <lg n="11" type="stanza" rhyme="ababcdcd">
+      <l>Eine Minute, die ſchnell vergeht,</l>
+      <lb/>
+      <l>Der Corſe gen Himmel ſchaute,</l>
+      <lb/>
+      <l>Zum Patrone ein Stoßgebet,</l>
+      <lb/>
+      <l>Dann fährt er empor vom Kraute;</l>
+      <lb/>
+      <l>Blank die Waffe, den Bug geſchlitzt,</l>
+      <lb/>
+      <l>Dann wie ein Vogel zum Walde —</l>
+      <lb/>
+      <l>Schreiend vom Hange die Stute blitzt,</l>
+      <lb/>
+      <l>Der Richter ſtarrt an der Halde.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="6">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Ich habe mich geſetzt in Gottes Namen;</l>
+      <lb/>
+      <l>Es hilft doch alles nicht, und mein Gedicht</l>
+      <lb/>
+      <l>Iſt längſt geleſen und im Schloß die Damen,</l>
+      <lb/>
+      <l>Sie ſaßen lange zu Gericht.</l>
+      <lb/>
+     </lg>
+     <pb n="47" facs="#f0061"/>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Statt einen neuen Lorbeerkranz zu drücken</l>
+      <lb/>
+      <l>In meine Phöboslocken, hat man ſacht</l>
+      <lb/>
+      <l>Den alten losgezupft und hinter'm Rücken</l>
+      <lb/>
+      <l>Wohl Eſelsohren mir gemacht.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Verkannte Seele, faſſe dich im Leiden,</l>
+      <lb/>
+      <l>Sey ſtark, ſey nobel, denk, der Ruhm iſt leer,</l>
+      <lb/>
+      <l>Das Leben kurz, es wechſeln Schmerz und Freuden,</l>
+      <lb/>
+      <l>Und was dergleichen Neugedachtes mehr!</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Ich ſchau mich um in meiner kleinen Zelle:</l>
+      <lb/>
+      <l>Für einen Klausner wär's ein hübſcher Ort;</l>
+      <lb/>
+      <l>Die Bank, der Tiſch, das hölzerne Geſtelle,</l>
+      <lb/>
+      <l>Und an der Wand die Taſche dort;</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Ein Netz im Winkelchen, ein Rechen, Spaten —</l>
+      <lb/>
+      <l>Und Betten? nun, das macht ſich einfach hier;</l>
+      <lb/>
+      <l>Der Thimian iſt heuer gut gerathen,</l>
+      <lb/>
+      <l>Und blüht mir grade vor der Thür.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>Die Waldung drüben — und das Quellgewäſſer —</l>
+      <lb/>
+      <l>Hier möcht ich Haidebilder ſchreiben, zum Exempel:</l>
+      <lb/>
+      <l>„Die Vogelhütte“, nein — „der Heerd“, nein beſſer:</l>
+      <lb/>
+      <l>„Der Knieende in Gottes weitem Tempel.“</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abab">
+      <l>'S iſt doch romantiſch, wenn ein zart Gerieſel</l>
+      <lb/>
+      <l>Durch Immortellen und Wachholderſtrauch</l>
+      <lb/>
+      <l>Umzieht und gleitet, wie ein ſchlüpfend Wieſel,</l>
+      <lb/>
+      <l>Und drüber flirrt der Stöberrauch;</l>
+      <lb/>
+     </lg>
+     <pb n="48" facs="#f0062"/>
+     <lg n="8" type="stanza" rhyme="abab">
+      <l>Wenn Schimmer wechſeln, weiß und ſeladonen;</l>
+      <lb/>
+      <l>Die weite Eb'ne ſchaukelt wie ein Schiff,</l>
+      <lb/>
+      <l>Hindurch der Kibitz ſchrillt, wie Halcyonen</l>
+      <lb/>
+      <l>Wehklagend ziehen um das Riff.</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="abab">
+      <l>Am Horizont die koloſſalen Brücken —</l>
+      <lb/>
+      <l>Sind's Wolken oder iſt's ein ferner Wald?</l>
+      <lb/>
+      <l>Ich will den Schemel an die Luke rücken,</l>
+      <lb/>
+      <l>Da liegt mein Hut, mein Hammer, — halt:</l>
+      <lb/>
+     </lg>
+     <lg n="10" type="stanza" rhyme="abab">
+      <l>Ein Teller am Geſtell! — was mag er bieten?</l>
+      <lb/>
+      <l>Fundus! bei Gott, ein Fund das Backwerk drin!</l>
+      <lb/>
+      <l>Für einen armen Hund von Eremiten,</l>
+      <lb/>
+      <l>Wie ich es leider heute bin!</l>
+      <lb/>
+     </lg>
+     <lg n="11" type="stanza" rhyme="abab">
+      <l>Ein ſeid'ner Beutel noch — am Bort zerriſſen;</l>
+      <lb/>
+      <l>Ich greife, greife Rundes mit der Hand;</l>
+      <lb/>
+      <l>Weh! in die dürre Erbs' hab ich gebiſſen —</l>
+      <lb/>
+      <l>Ich dacht', es ſeye Zuckerkand.</l>
+      <lb/>
+     </lg>
+     <lg n="12" type="stanza" rhyme="abab">
+      <l>Und nun die Taſche! he, wir müſſen klopfen —</l>
+      <lb/>
+      <l>Vielleicht liegt ein Gefang'ner hier in Haft;</l>
+      <lb/>
+      <l>Da — eine Flaſche! ſchnell herab den Pfropfen —</l>
+      <lb/>
+      <l>Iſt's Waſſer? Waſſer? — edler Rebenſaft!</l>
+      <lb/>
+     </lg>
+     <lg n="13" type="stanza" rhyme="abab">
+      <l>Und Edlerer, der ihn dem Sack vertraute,</l>
+      <lb/>
+      <l>Splendid barmherziger Wildhüter du,</l>
+      <lb/>
+      <l>Für einen armen Schelm, der Erbſen kaute,</l>
+      <lb/>
+      <l>Den frommen Bruder Tuck im Ivanhoe!</l>
+      <lb/>
+     </lg>
+     <pb n="49" facs="#f0063"/>
+     <lg n="14" type="stanza" rhyme="abab">
+      <l>Mit dem Gekörn will ich den Kibitz letzen,</l>
+      <lb/>
+      <l>Es aus der Lücke ſtreun, wenn er im Flug</l>
+      <lb/>
+      <l>Herſchwirrt, mir auf die Schulter ſich zu ſetzen,</l>
+      <lb/>
+      <l>Wie man es lieſ't in manchem Buch.</l>
+      <lb/>
+     </lg>
+     <lg n="15" type="stanza" rhyme="abab">
+      <l>Mir iſt ganz wohl in meiner armen Zelle;</l>
+      <lb/>
+      <l>Wie mir das Klausnerleben ſo gefällt!</l>
+      <lb/>
+      <l>Ich bleibe hier, ich geh nicht von der Stelle,</l>
+      <lb/>
+      <l>Bevor der letzte Tropfen fällt.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="7">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abcb">
+      <l>Die Rebe blüht, ihr linder Hauch</l>
+      <lb/>
+      <l>Durchzieht das thauige Revier,</l>
+      <lb/>
+      <l>Und nah' und ferne wiegt die Luft</l>
+      <lb/>
+      <l>Vielfarb'ger Blumen bunte Zier.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abcb">
+      <l>Wie's um mich gaukelt, wie es ſummt</l>
+      <lb/>
+      <l>Von Vogel, Bien' und Schmetterling,</l>
+      <lb/>
+      <l>Wie ſeine ſeidnen Wimpel regt</l>
+      <lb/>
+      <l>Der Zweig, ſo jüngſt voll Reifen hing.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aabb">
+      <l>Noch ſucht man gern den Sonnenſchein</l>
+      <lb/>
+      <l>Und nimmt die trocknen Plätzchen ein;</l>
+      <lb/>
+      <l>Denn Nachts ſchleicht an die Gränze doch</l>
+      <lb/>
+      <l>Der landesflücht'ge Winter noch.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="aabbcc">
+      <l>O du mein ernſt gewalt'ger Greis,</l>
+      <lb/>
+      <l>Mein Säntis mit der Locke weiß!</l>
+      <lb/>
+      <l>In Felſenblöcke eingemauert,</l>
+      <lb/>
+      <l>Von Schneegeſtöber überſchauert,</l>
+      <lb/>
+      <l>In Eiſespanzer eingeſchnürt:</l>
+      <lb/>
+      <l>Hu! wie dich ſchaudert, wie dich friert!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="8">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>'S giebt eine Sage, daß wenn plötzlich matt'</l>
+      <lb/>
+      <l>Unheimlich Schaudern Einen übergleite,</l>
+      <lb/>
+      <l>Daß dann ob ſeiner künft'gen Grabesſtatt</l>
+      <lb/>
+      <l>Der Todesengel ſchreite.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Ich hörte ſie, und malte mir ein Bild</l>
+      <lb/>
+      <l>Mit Trauerlocken, mondbeglänzter Stirne,</l>
+      <lb/>
+      <l>So ſchaurig ſchön, wie's wohl zuweilen quillt</l>
+      <lb/>
+      <l>Im ſchwimmenden Gehirne.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>In ſeiner Hand ſah ich den Ebenſtab</l>
+      <lb/>
+      <l>Mit leiſem Strich des Bettes Lage meſſen,</l>
+      <lb/>
+      <l>— So weit das Haupt — ſo weit der Fuß — hinab!</l>
+      <lb/>
+      <l>Verſchüttet und vergeſſen!</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Mich graute, doch ich ſprach dem Grauen Hohn,</l>
+      <lb/>
+      <l>Ich hielt das Bild in Reimes Netz gefangen,</l>
+      <lb/>
+      <l>Und frevelnd wagt' ich aus der Todtenkron'</l>
+      <lb/>
+      <l>Ein Lorbeerblatt zu langen.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>O, manche Stunde denk ich jetzt daran,</l>
+      <lb/>
+      <l>Fühl' ich mein Blut ſo matt und ſtockend ſchleichen,</l>
+      <lb/>
+      <l>Schaut aus dem Spiegel mich ein Antlitz an —</l>
+      <lb/>
+      <l>Ich mag es nicht vergleichen; —</l>
+      <lb/>
+     </lg>
+     <pb n="206" facs="#f0220"/>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>Als ich zuerſt dich auf dem Friedhof fand,</l>
+      <lb/>
+      <l>Tiefſinnig um die Monumente ſtreifend,</l>
+      <lb/>
+      <l>Den ſchwarzen Ebenſtab in deiner Hand</l>
+      <lb/>
+      <l>Entlang die Hügel ſchleifend;</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abab">
+      <l>Als du das Auge hobſt, ſo ſcharf und nah,</l>
+      <lb/>
+      <l>Ein leiſes Schaudern plötzlich mich befangen,</l>
+      <lb/>
+      <l>O wohl, wohl iſt der Todesengel da</l>
+      <lb/>
+      <l>Ueber mein Grab gegangen!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="9">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Läugnen willſt du Zaubertränke,</l>
+      <lb/>
+      <l>Lachſt mir höhniſch in die Zähne,</l>
+      <lb/>
+      <l>Wenn Iſoldens ich gedenke,</l>
+      <lb/>
+      <l>Wenn Gudrunens ich erwähne?</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Und was deine kluge Amme</l>
+      <lb/>
+      <l>In der Dämmrung dir vertraute,</l>
+      <lb/>
+      <l>Von Schneewittchen und der Flamme,</l>
+      <lb/>
+      <l>Die den Hexenſchwaden braute;</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Alles will dir nicht genügen,</l>
+      <lb/>
+      <l>Ueberweiſer Mückenſieber?</l>
+      <lb/>
+      <l>Nun, ſo laß die Feder liegen,</l>
+      <lb/>
+      <l>Schieb dich in den Cirkel, Lieber,</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Wo des zopfigen Chineſen</l>
+      <lb/>
+      <l>Trank im Silberkeſſel ziſchet,</l>
+      <lb/>
+      <l>Sein Aroma auserleſen</l>
+      <lb/>
+      <l>Mit des Patſchul's Düften miſchet;</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Wo ein ſchöner Geiſt, den Bogen</l>
+      <lb/>
+      <l>Feingefältelt in der Taſche,</l>
+      <lb/>
+      <l>Lauſcht wie in den Redewogen</l>
+      <lb/>
+      <l>Er das Steuer ſich erhaſche;</l>
+      <lb/>
+     </lg>
+     <pb n="218" facs="#f0232"/>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>Wo in zarten Händen hörbar</l>
+      <lb/>
+      <l>Blanke Nadelſtäbe knittern,</l>
+      <lb/>
+      <l>Und die Herren ſtramm und ehrbar</l>
+      <lb/>
+      <l>Breiten ihrer Weisheit Flittern.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abab">
+      <l>Alles ſcheint dir noch gewöhnlich,</l>
+      <lb/>
+      <l>Von der Sohle bis zum Scheitel,</l>
+      <lb/>
+      <l>Und du rufſt, dem Weiſen ähnlich:</l>
+      <lb/>
+      <l>„Alles unter'm Mond iſt eitel!“</l>
+      <lb/>
+     </lg>
+     <lg n="8" type="stanza" rhyme="abab">
+      <l>Dir genüber und zur Seite</l>
+      <lb/>
+      <l>Hier Chriſtinos, dort Carliſten,</l>
+      <lb/>
+      <l>Lauter ordinäre Leute,</l>
+      <lb/>
+      <l>Deutſche Michel, gute Chriſten!</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="abab">
+      <l>Aber ſieh die weißen ſchmalen</l>
+      <lb/>
+      <l>Finger ſich zum Griff bereiten,</l>
+      <lb/>
+      <l>Und die dampfumhüllten Schalen</l>
+      <lb/>
+      <l>Zierlich an die Lippen gleiten:</l>
+      <lb/>
+     </lg>
+     <lg n="10" type="stanza" rhyme="abab">
+      <l>Noch Minuten — und die Stube</l>
+      <lb/>
+      <l>Iſt zum Kiosk umgeſtaltet,</l>
+      <lb/>
+      <l>Wo der thränenreiche Bube,</l>
+      <lb/>
+      <l>Der Chineſe zaubernd waltet;</l>
+      <lb/>
+     </lg>
+     <lg n="11" type="stanza" rhyme="abab">
+      <l>Von der roſenfarbnen Rolle</l>
+      <lb/>
+      <l>Lieſt er ſeine Zauberreime,</l>
+      <lb/>
+      <l>Verſe, zart wie Seidenwolle,</l>
+      <lb/>
+      <l>Süß wie Jungfernhonigſeime;</l>
+      <lb/>
+     </lg>
+     <pb n="219" facs="#f0233"/>
+     <lg n="12" type="stanza" rhyme="abab">
+      <l>„Ting, tang, tong“ — das ſteigt und ſinket,</l>
+      <lb/>
+      <l>Welch Geſäuſel, welches Ziſchen!</l>
+      <lb/>
+      <l>Wie ein irres Hündlein hinket</l>
+      <lb/>
+      <l>Noch ein deutſches Wort dazwiſchen.</l>
+      <lb/>
+     </lg>
+     <lg n="13" type="stanza" rhyme="abab">
+      <l>Und die ſüßen Damen lächeln,</l>
+      <lb/>
+      <l>Leiſe ſchaukelnde Pagoden;</l>
+      <lb/>
+      <l>Wie ſie nicken, wie ſie fächeln,</l>
+      <lb/>
+      <l>Wie der Knäuel hüpft am Boden!</l>
+      <lb/>
+     </lg>
+     <lg n="14" type="stanza" rhyme="abab">
+      <l>Aber, weh, nun wird's gefährlich,</l>
+      <lb/>
+      <l>„Tſchi, tſi, tſung.“ — Die Töne ſchneiden,</l>
+      <lb/>
+      <l>Schnell hinweg die Meſſer! ſchwerlich</l>
+      <lb/>
+      <l>Ueberſteht er ſolche Leiden;</l>
+      <lb/>
+     </lg>
+     <lg n="15" type="stanza" rhyme="abab">
+      <l>Denn er ſchaukelt und er dehnet</l>
+      <lb/>
+      <l>Ob der Zauberſchale Rauche;</l>
+      <lb/>
+      <l>Weh, ich fürcht' am Boden ſtöhnet</l>
+      <lb/>
+      <l>Bald er mit geſchlitztem Bauche!</l>
+      <lb/>
+     </lg>
+     <lg n="16" type="stanza" rhyme="abab">
+      <l>Und die eingeſchreckten Frauen</l>
+      <lb/>
+      <l>Sitzen ſtumm und abgetakelt,</l>
+      <lb/>
+      <l>Nur das ſchwanke Haupt vor Grauen</l>
+      <lb/>
+      <l>Noch im Pendelſchwunge wackelt;</l>
+      <lb/>
+     </lg>
+     <lg n="17" type="stanza" rhyme="abab">
+      <l>Tiefe Stille im Gemache —</l>
+      <lb/>
+      <l>Thrän' im Auge — Kummermiene, —</l>
+      <lb/>
+      <l>Und wie Glöckchen an dem Dache</l>
+      <lb/>
+      <l>Spielt die ſiedende Maſchine;</l>
+      <lb/>
+     </lg>
+     <pb n="220" facs="#f0234"/>
+     <lg n="18" type="stanza" rhyme="abab">
+      <l>Alle die geſenkten Köpfe</l>
+      <lb/>
+      <l>Blinzelnd nach des Tiſches Mitten,</l>
+      <lb/>
+      <l>Wo die Brezel ſtehn, wie Zöpfe</l>
+      <lb/>
+      <l>In Verzweiflung abgeſchnitten;</l>
+      <lb/>
+     </lg>
+     <lg n="19" type="stanza" rhyme="abab">
+      <l>Suche ſacht nach deinem Hute,</l>
+      <lb/>
+      <l>Freund, entſchleiche unterm Leſen,</l>
+      <lb/>
+      <l>Sonſt, ich ſchwör's bei meinem Blute,</l>
+      <lb/>
+      <l>Zaubern ſie dich zum Chineſen,</l>
+      <lb/>
+     </lg>
+     <lg n="20" type="stanza" rhyme="abab">
+      <l>Löſt ſich deines Frackes Wedel,</l>
+      <lb/>
+      <l>Unwillkührlich mußt du ziſchen,</l>
+      <lb/>
+      <l>Und von deinem weißen Schädel</l>
+      <lb/>
+      <l>Fühlſt du Haar um Haar entwiſchen,</l>
+      <lb/>
+     </lg>
+     <lg n="21" type="stanza" rhyme="abab">
+      <l>Bis dir blieb nur Eine Locke</l>
+      <lb/>
+      <l>Von des dunklen Wulſtes Drängen,</l>
+      <lb/>
+      <l>Dich damit, lebend'ge Glocke,</l>
+      <lb/>
+      <l>An dem Kiosk aufzuhängen.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="10">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcdcd">
+      <l>Ueber dem Brünnlein nicket der Zweig,</l>
+      <lb/>
+      <l>Waldvögel zwitſchern und flöten,</l>
+      <lb/>
+      <l>Wild Anemon' und Schlehdorn bleich</l>
+      <lb/>
+      <l>Im Abendſtrale ſich röthen,</l>
+      <lb/>
+      <l>Und ein Mädchen mit blondem Haar</l>
+      <lb/>
+      <l>Beugt über der glitzernden Welle,</l>
+      <lb/>
+      <l>Schlankes Mädchen, kaum fünfzehn Jahr,</l>
+      <lb/>
+      <l>Mit dem Auge der ſcheuen Gazelle.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcdcd">
+      <l>Ringelblumen blättert ſie ab:</l>
+      <lb/>
+      <l>„Liebt er, liebt er mich nimmer?“</l>
+      <lb/>
+      <l>Und wenn „liebt“ das Orakel gab,</l>
+      <lb/>
+      <l>Um ihr Antlitz gleitet ein Schimmer:</l>
+      <lb/>
+      <l>„Liebt er nicht“ — o Grimm und Graus!</l>
+      <lb/>
+      <l>Daß der Himmel den Blüten gnade!</l>
+      <lb/>
+      <l>Gras und Blumen, den ganzen Strauß,</l>
+      <lb/>
+      <l>Wirft ſie zürnend in die Cascade.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="ababcdcd">
+      <l>Gleitet dann in die Kräuter lind,</l>
+      <lb/>
+      <l>Ihr Auge wird ernſt und ſinnend;</l>
+      <lb/>
+      <l>Frommer Eltern heftiges Kind,</l>
+      <lb/>
+      <l>Nur Minne nehmend und minnend,</l>
+      <lb/>
+      <l>Kannte ſie nie ein anderes Band</l>
+      <lb/>
+      <l>Als des Blutes, die ſchüchterne Hinde;</l>
+      <lb/>
+      <l>Und nun Einer, der nicht verwandt —</l>
+      <lb/>
+      <l>Iſt das nicht eine ſchwere Sünde?</l>
+      <lb/>
+     </lg>
+     <pb n="129" facs="#f0143"/>
+     <lg n="4" type="stanza" rhyme="ababcdcd">
+      <l>Muthlos ſeufzet ſie niederwärts,</l>
+      <lb/>
+      <l>In argem Schämen und Grämen,</l>
+      <lb/>
+      <l>Will zuletzt ihr verſtocktes Herz</l>
+      <lb/>
+      <l>Recht ernſtlich in Frage nehmen.</l>
+      <lb/>
+      <l>Abentheuer ſinnet ſie aus:</l>
+      <lb/>
+      <l>Wenn das Haus nun ſtände in Flammen,</l>
+      <lb/>
+      <l>Und um Hülfe riefen heraus</l>
+      <lb/>
+      <l>Der Carl und die Mutter zuſammen?</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="ababcdcd">
+      <l>Plötzlich ein Perlenregen dicht</l>
+      <lb/>
+      <l>Stürzt ihr glänzend aus beiden Augen,</l>
+      <lb/>
+      <l>In die Kräuter gedrückt ihr Geſicht,</l>
+      <lb/>
+      <l>Wie das Blut der Erde zu ſaugen,</l>
+      <lb/>
+      <l>Ruft ſie ſchluchzend: „ja, ja, ja!“</l>
+      <lb/>
+      <l>Ihre kleinen Hände ſich ringen,</l>
+      <lb/>
+      <l>„Retten, retten würd' ich Mama,</l>
+      <lb/>
+      <l>Und zum Carl in die Flamme ſpringen!“</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="11">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abbacdcd">
+      <l>An ſeinem Denkmal ſaß ich, das Getreibe</l>
+      <lb/>
+      <l>Des Lebens ſchwoll und wogt' in den Alleen,</l>
+      <lb/>
+      <l>Ich aber mochte nur zum Himmel ſehn,</l>
+      <lb/>
+      <l>Von dem ihr Silber goß die Mondenſcheibe.</l>
+      <lb/>
+      <l>Und alle Schmerzenskeime fühlt' ich ſprießen,</l>
+      <lb/>
+      <l>Im Herzen ſich entfalten, Blatt um Blatt,</l>
+      <lb/>
+      <l>Und allen Segen fühlt' ich niederfließen</l>
+      <lb/>
+      <l>Um eines Chriſten heil'ge Schlummerſtatt.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abbacdcd">
+      <l>Da nahte durch die Gräſer ſich ein Rauſchen,</l>
+      <lb/>
+      <l>Geflüſter hallte an der Marmorwand,</l>
+      <lb/>
+      <l>Der mir ſo theure Name ward genannt,</l>
+      <lb/>
+      <l>Und leiſe Wechſelrede hört' ich tauſchen.</l>
+      <lb/>
+      <l>Es waren tiefe achtungsvolle Worte,</l>
+      <lb/>
+      <l>Und dennoch war es mir, als dürfe hier</l>
+      <lb/>
+      <l>Kein anderer an dem geweihten Orte,</l>
+      <lb/>
+      <l>Kein Weſen ihn betrauern neben mir.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abbacdcd">
+      <l>Wer könnte unter dieſen Gräbern wandeln,</l>
+      <lb/>
+      <l>Der ihn gekannt wie ich, ſo manches Jahr,</l>
+      <lb/>
+      <l>Der ſeine Kindheit ſah, ſo friſch und klar,</l>
+      <lb/>
+      <l>Des Jünglings Glut, des Mannes kräftig Handeln?</l>
+      <lb/>
+      <pb n="157" facs="#f0171"/>
+      <l>Welch fremdes Aug' hat in den ernſten Lettern,</l>
+      <lb/>
+      <l>Dem ſtrengen Wort des Herzens Schlag erkannt?</l>
+      <lb/>
+      <l>Die Blitze ſaht ihr, aber aus den Wettern</l>
+      <lb/>
+      <l>Saht ihr auch ſegnen eines Engels Hand?</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abbacdcd">
+      <l>Sie ſtanden da wie vor Pantheons Hallen,</l>
+      <lb/>
+      <l>Wie unter Bannern, unter Lorbeerlaub;</l>
+      <lb/>
+      <l>Ich ſaß an einem Hügel, wo zu Staub</l>
+      <lb/>
+      <l>Der Menſchenherzen freundlichſtes zerfallen.</l>
+      <lb/>
+      <l>Sie redeten von den zerſprengten Kreiſen,</l>
+      <lb/>
+      <l>Die all er wie ein mächt'ger Reif geeint;</l>
+      <lb/>
+      <l>Ich dachte an die Wittwen und die Waiſen,</l>
+      <lb/>
+      <l>Die ſeinem dunklen Sarge nachgeweint.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abbacdcd">
+      <l>Sie redeten von ſeines Geiſtes Walten,</l>
+      <lb/>
+      <l>Von ſeinem ſtarken ungebeugten Sinn,</l>
+      <lb/>
+      <l>Und wie er nun der Wiſſenſchaft dahin,</l>
+      <lb/>
+      <l>Der Mann an dem ſich mancher Arm gehalten;</l>
+      <lb/>
+      <l>Ich hörte ihres Lobes Wogen ſchießen,</l>
+      <lb/>
+      <l>Es waren Worte wohlgemeint und wahr,</l>
+      <lb/>
+      <l>Doch meine Thränen fühlt' ich heißer fließen,</l>
+      <lb/>
+      <l>Als ob man ihn verkenne ganz und gar.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abbacdcd">
+      <l>Und endlich hört' ich ihre Stimmen ſchwinden,</l>
+      <lb/>
+      <l>Ihr letztes Wort war eine Klage noch:</l>
+      <lb/>
+      <l>Daß nicht ſo leicht ein gleiches Wiſſen doch,</l>
+      <lb/>
+      <l>Daß ſelten nur ein gleicher Geiſt zu finden.</l>
+      <lb/>
+      <l>Ich aber, beugend in des Denkmals Schatten,</l>
+      <lb/>
+      <l>Hab' ſeines Grabes feuchten Halm geküßt:</l>
+      <lb/>
+      <l>„Wo giebt es einen Vater, einen Gatten,</l>
+      <lb/>
+      <l>Und einen Freund wie du geweſen biſt!“</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="12">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Was redet ihr ſo viel von Angſt und Noth,</l>
+      <lb/>
+      <l>In eurem tadelloſen Treiben?</l>
+      <lb/>
+      <l>Ihr frommen Leute, ſchlagt die Sorge todt,</l>
+      <lb/>
+      <l>Sie will ja doch nicht bei euch bleiben!</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Doch wo die Noth, um die das Mitleid weint,</l>
+      <lb/>
+      <l>Nur wie der Tropfen an des Trinkers Hand,</l>
+      <lb/>
+      <l>Indeß die dunkle Fluth, die Keiner meint,</l>
+      <lb/>
+      <l>Verborgen ſteht bis an der Seele Rand —</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Ihr frommen Leute wollt' die Sorge kennen,</l>
+      <lb/>
+      <l>Und habt doch nie die Schuld geſehn!</l>
+      <lb/>
+      <l>Doch ſie, ſie dürfen ſchon das Leben nennen</l>
+      <lb/>
+      <l>Und ſeine grauenvollen Höhn;</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abba">
+      <l>Hinauf ſchallt's wie Geſang und Loben,</l>
+      <lb/>
+      <l>Und um die Blumen ſpielt der Strahl,</l>
+      <lb/>
+      <l>Die Menſchen wohnen ſtill im Thal,</l>
+      <lb/>
+      <l>Die dunklen Geyer horſten droben.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="13">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcdccd">
+      <l>Pocheſt du an — poch' nicht zu laut,</l>
+      <lb/>
+      <l>Eh du geprüft des Nachhalls Dauer.</l>
+      <lb/>
+      <l>Drückſt du die Hand — drück nicht zu traut,</l>
+      <lb/>
+      <l>Eh du gefragt des Herzens Schauer.</l>
+      <lb/>
+      <l>Wirfſt du den Stein — bedenke wohl,</l>
+      <lb/>
+      <l>Wie weit ihn deine Hand wird treiben.</l>
+      <lb/>
+      <l>Oft ſchreckt ein Echo, dumpf und hohl,</l>
+      <lb/>
+      <l>Reicht goldne Hand dir den Obol,</l>
+      <lb/>
+      <l>Oft trifft ein Wurf des Nachbars Scheiben.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcdccd">
+      <l>Höhlen giebt es am Meeresſtrand,</l>
+      <lb/>
+      <l>Gewalt'ge Stalaktitendome,</l>
+      <lb/>
+      <l>Wo bläulich zuckt der Fackeln Brand,</l>
+      <lb/>
+      <l>Und Kähne gleiten wie Phantome.</l>
+      <lb/>
+      <l>Das Ruder ſchläft, der Schiffer legt</l>
+      <lb/>
+      <l>Die Hand dir angſtvoll auf die Lippe,</l>
+      <lb/>
+      <l>Ein Räuſpern nur, ein Fuß geregt,</l>
+      <lb/>
+      <l>Und donnernd überm Haupte ſchlägt</l>
+      <lb/>
+      <l>Zuſammen dir die Rieſenklippe.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="ababcdccd">
+      <l>Und Hände giebts im Orient,</l>
+      <lb/>
+      <l>Wie Schwäne weiß, mit blauen Malen,</l>
+      <lb/>
+      <l>In denen zwiefach Feuer brennt,</l>
+      <lb/>
+      <l>Als gelt' es Liebesglut zu zahlen;</l>
+      <lb/>
+      <l>Ein leichter Thau hat ſie genäßt,</l>
+      <lb/>
+      <pb n="28" facs="#f0042"/>
+      <l>Ein leiſes Zittern ſie umflogen,</l>
+      <lb/>
+      <l>Sie faſſen krampfhaft, drücken feſt —</l>
+      <lb/>
+      <l>Hinweg, hinweg! du haſt die Peſt</l>
+      <lb/>
+      <l>In deine Poren eingeſogen!</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="ababcdccd">
+      <l>Auch hat ein Dämon einſt geſandt</l>
+      <lb/>
+      <l>Den gift'gen Pfeil zum Himmelsbogen;</l>
+      <lb/>
+      <l>Dort rührt ihn eines Gottes Hand,</l>
+      <lb/>
+      <l>Nun ſtarrt er in den Aetherwogen.</l>
+      <lb/>
+      <l>Und läßt der Zauber nach, dann wird</l>
+      <lb/>
+      <l>Er niederprallen mit Geſchmetter,</l>
+      <lb/>
+      <l>Daß das Gebirg' in Scherben klirrt,</l>
+      <lb/>
+      <l>Und durch der Erde Adern irrt</l>
+      <lb/>
+      <l>Fortan das Gift der Höllengötter.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="ababcdccd">
+      <l>Drum poche ſacht, du weißt es nicht</l>
+      <lb/>
+      <l>Was dir mag überm Haupte ſchwanken;</l>
+      <lb/>
+      <l>Drum drücke ſacht, der Augen Licht</l>
+      <lb/>
+      <l>Wohl ſiehſt du, doch nicht der Gedanken,</l>
+      <lb/>
+      <l>Wirf nicht den Stein zu jener Höh'</l>
+      <lb/>
+      <l>Wo dir geſtaltlos Form und Wege,</l>
+      <lb/>
+      <l>Und ſchnellteſt du ihn einmal je,</l>
+      <lb/>
+      <l>So fall auf deine Knie und fleh',</l>
+      <lb/>
+      <l>Daß ihn ein Gott berühren möge.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="14">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababccb">
+      <l>Wo der ſelige Himmel, das wiſſen wir nicht,</l>
+      <lb/>
+      <l>Und nicht, wo der gräuliche Höllenſchlund,</l>
+      <lb/>
+      <l>Ob auch die Wolke zittert im Licht,</l>
+      <lb/>
+      <l>Ob ſiedet und qualmet Vulkanes Mund;</l>
+      <lb/>
+      <l>Doch wo die weſtphäliſchen Edeln müſſen</l>
+      <lb/>
+      <l>Sich ſauber brennen ihr roſtig Gewiſſen,</l>
+      <lb/>
+      <l>Das wiſſen wir alle, das ward uns kund.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababccb">
+      <l>Grau war die Nacht, nicht öde und ſchwer,</l>
+      <lb/>
+      <l>Ein Aſchenſchleier hing in der Luft;</l>
+      <lb/>
+      <l>Der Wanderburſche ſchritt flink einher,</l>
+      <lb/>
+      <l>Mit Wolluſt ſaugend den Heimatduft;</l>
+      <lb/>
+      <l>O bald, bald wird er ſchauen ſein Eigen,</l>
+      <lb/>
+      <l>Schon ſieht am Lutterberge er ſteigen</l>
+      <lb/>
+      <l>Sich leiſe ſchattend die ſchwarze Kluft.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="ababccb">
+      <l>Er richtet ſich, wie Trompetenſtoß</l>
+      <lb/>
+      <l>Ein Hollah ho! ſeiner Bruſt entſteigt —</l>
+      <lb/>
+      <l>Was ihm im Nacken? ein ſchnaubend Roß,</l>
+      <lb/>
+      <l>An ſeiner Schulter es raſſelt, keucht,</l>
+      <lb/>
+      <l>Ein Rappe — grünliche Funken irren</l>
+      <lb/>
+      <l>Ueber die Flanken, die kniſtern und knirren,</l>
+      <lb/>
+      <l>Wie wenn man den murrenden Kater ſtreicht.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="ababccb">
+      <l>„Jeſus Maria!“ — er ſetzt ſeitab,</l>
+      <lb/>
+      <l>Da langt vom Sattel es überzwerg —</l>
+      <lb/>
+      <l>Ein eherner Griff, und in wüſtem Trab</l>
+      <lb/>
+      <l>Wie Wind und Wirbel zum Lutterberg!</l>
+      <lb/>
+      <pb n="281" facs="#f0295"/>
+      <l>An ſeinem Ohre hört er es raunen</l>
+      <lb/>
+      <l>Dumpf und hohl, wie gedämpfte Poſaunen,</l>
+      <lb/>
+      <l>So an ihm raunt der geſpenſtige Scherg':</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="ababccb">
+      <l>„Johannes Deweth! ich kenne dich!</l>
+      <lb/>
+      <l>Johann! du biſt uns verfallen heut!</l>
+      <lb/>
+      <l>Bei deinem Heile, nicht lach' noch ſprich,</l>
+      <lb/>
+      <l>Und rühre nicht an was man dir beut;</l>
+      <lb/>
+      <l>Vom Brode nur magſt du brechen in Frieden,</l>
+      <lb/>
+      <l>Ewiges Heil ward dem Brode beſchieden,</l>
+      <lb/>
+      <l>Als Chriſtus in froner Nacht es geweiht!“ —</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="ababccb">
+      <l>Ob mehr geſprochen, man weiß es nicht,</l>
+      <lb/>
+      <l>Da ſeine Sinne der Burſche verlor,</l>
+      <lb/>
+      <l>Und ſpät erſt hebt er ſein bleiches Geſicht</l>
+      <lb/>
+      <l>Vom Eſtrich einer Halle empor;</l>
+      <lb/>
+      <l>Um ihn Geſumme, Geſchwirr, Gemunkel,</l>
+      <lb/>
+      <l>Von tauſend Flämmchen ein mattes Gefunkel,</l>
+      <lb/>
+      <l>Und drüber ſchwimmend ein Nebelflor.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="ababccb">
+      <l>Er reibt die Augen, er ſchwankt voran,</l>
+      <lb/>
+      <l>An hundert Tiſchen, die Halle entlang,</l>
+      <lb/>
+      <l>All edle Geſchlechter, ſo Mann an Mann;</l>
+      <lb/>
+      <l>Es rühren die Gläſer ſich ſonder Klang,</l>
+      <lb/>
+      <l>Es regen die Meſſer ſich ſonder Klirren,</l>
+      <lb/>
+      <l>Wechſelnde Reden ſummen und ſchwirren,</l>
+      <lb/>
+      <l>Wie Glockengeläut, ein wirrer Geſang.</l>
+      <lb/>
+     </lg>
+     <lg n="8" type="stanza" rhyme="ababccb">
+      <l>Ob jedem Haupte des Wappens Glaſt,</l>
+      <lb/>
+      <l>Das langſam ſchwellende Tropfen ſpeit,</l>
+      <lb/>
+      <l>Und wenn ſie fallen, dann zuckt der Gaſt,</l>
+      <lb/>
+      <l>Und drängt ſich einen Moment zur Seit';</l>
+      <lb/>
+      <pb n="282" facs="#f0296"/>
+      <l>Und lauter, lauter dann wird das Rauſchen,</l>
+      <lb/>
+      <l>Wie Stürme die zornigen Seufzer tauſchen,</l>
+      <lb/>
+      <l>Und wirrer ſummet das Glockengeläut.</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="ababccb">
+      <l>Strack ſteht Johann wie ein Lanzenknecht,</l>
+      <lb/>
+      <l>Nicht möchte der gleißenden Wand er trau'n,</l>
+      <lb/>
+      <l>Noch wäre der glimmernde Sitz ihm recht,</l>
+      <lb/>
+      <l>Wo rutſchen die Knappen mit zuckenden Brau'n.</l>
+      <lb/>
+      <l>Da muß, o Himmel, wer ſollt' es denken!</l>
+      <lb/>
+      <l>Den frommen Herrn, den Friedrich von Brenken,</l>
+      <lb/>
+      <l>Den alten ſtattlichen Ritter er ſchaun.</l>
+      <lb/>
+     </lg>
+     <lg n="10" type="stanza" rhyme="ababccb">
+      <l>„Mein Heiland, mach' ihn der Sünden baar!“</l>
+      <lb/>
+      <l>Der Jüngling ſeufzet in ſchwerem Leid;</l>
+      <lb/>
+      <l>Er hat ihm gedienet ein ganzes Jahr;</l>
+      <lb/>
+      <l>Doch ungern kredenzt er den Becher ihm heut!</l>
+      <lb/>
+      <l>Bei jedem Schlucke ſieht er ihn ſchüttern,</l>
+      <lb/>
+      <l>Ein blaues Wölkchen dem Schlund entzittern,</l>
+      <lb/>
+      <l>Wie wenn auf Kohlen man Weihrauch ſtreut.</l>
+      <lb/>
+     </lg>
+     <lg n="11" type="stanza" rhyme="ababccb">
+      <l>O manche Geſtalt noch dämmert ihm auf,</l>
+      <lb/>
+      <l>Dort ſitzt ſein Pathe, der Metternich,</l>
+      <lb/>
+      <l>Und eben durch den wimmelnden Hauf</l>
+      <lb/>
+      <l>Johann von Spiegel, der Schenke, ſtrich;</l>
+      <lb/>
+      <l>Prälaten auch, je viere und viere,</l>
+      <lb/>
+      <l>Sie blättern und riſpeln im grauen Breviere,</l>
+      <lb/>
+      <l>Und zuckend krümmen die Finger ſich.</l>
+      <lb/>
+     </lg>
+     <lg n="12" type="stanza" rhyme="ababccb">
+      <l>Und unten im Saale, da knöcheln friſch</l>
+      <lb/>
+      <l>Schaumburger Grafen um Leut' und Land,</l>
+      <lb/>
+      <l>Graf Simon ſchüttelt den Becher riſch,</l>
+      <lb/>
+      <l>Und reibt mitunter die kniſternde Hand;</l>
+      <lb/>
+      <pb n="283" facs="#f0297"/>
+      <l>Ein Knappe nahet, er ſurret leiſe —</l>
+      <lb/>
+      <l>Ha, welches Geſummſe im weiten Kreiſe,</l>
+      <lb/>
+      <l>Wie hundert Schwärme an Klippenrand!</l>
+      <lb/>
+     </lg>
+     <lg n="13" type="stanza" rhyme="ababccb">
+      <l>„Geſchwind den Seſſel, den Humpen werth,</l>
+      <lb/>
+      <l>Den ſchleichenden Wolf* geſchwinde herbei!“</l>
+      <lb/>
+      <l>Horch, wie es draußen raſſelt und fährt!</l>
+      <lb/>
+      <l>Baarhaupt ſtehet die Maſſoney,</l>
+      <lb/>
+      <l>Hundert Lanzen drängen nach binnen,</l>
+      <lb/>
+      <l>Hundert Lanzen und mitten darinnen</l>
+      <lb/>
+      <l>Der Aſſeburger, der blutige Weih!</l>
+      <lb/>
+     </lg>
+     <lg n="14" type="stanza" rhyme="ababccb">
+      <l>Und als ihm alles entgegen zieht,</l>
+      <lb/>
+      <l>Da ſpricht Johannes ein Stoßgebet:</l>
+      <lb/>
+      <l>Dann riſch hinein! ſein Ermel ſprüht,</l>
+      <lb/>
+      <l>Ein Funken über die Finger ihm geht.</l>
+      <lb/>
+      <l>Voran — da „ſieben“ ſchwirren die Lüfte</l>
+      <lb/>
+      <l>„Sieben, ſieben, ſieben,“ die Klüfte,</l>
+      <lb/>
+      <l>„In ſieben Wochen, Johann Deweth!“</l>
+      <lb/>
+     </lg>
+     <lg n="15" type="stanza" rhyme="ababccb">
+      <l>Der ſinkt auf ſchwellenden Raſen hin,</l>
+      <lb/>
+      <l>Und ſchüttelt gegen den Mond die Hand,</l>
+      <lb/>
+      <l>Drei Finger die bröckeln und ſtäuben hin,</l>
+      <lb/>
+      <l>Zu Aſch' und Knöchelchen abgebrannt.</l>
+      <lb/>
+      <l>Er rafft ſich auf, er rennt, er ſchießet,</l>
+      <lb/>
+      <l>Und ach, die Vaterklauſe begrüßet</l>
+      <lb/>
+      <l>Ein grauer Mann, von Keinem gekannt‚</l>
+      <lb/>
+     </lg>
+     <lg n="16" type="stanza" rhyme="ababccb">
+      <l>Der nimmer lächelt, nur des Gebets</l>
+      <lb/>
+      <l>Mag pflegen drüben im Kloſterchor,</l>
+      <lb/>
+      <fw type="sig" place="bottom">* Der ſchleichende Wolf iſt das Wappen der Familie
+       Aſſeburg.<lb/>
+      </fw>
+      <pb n="284" facs="#f0298"/>
+      <l>Denn „ſieben, ſieben,“ flüſtert es ſtets,</l>
+      <lb/>
+      <l>Und „ſieben Wochen“ ihm in das Ohr.</l>
+      <lb/>
+      <l>Und als die ſiebente Woche verronnen,</l>
+      <lb/>
+      <l>Da iſt er verſiegt wie ein dürrer Bronnen,</l>
+      <lb/>
+      <l>Gott hebe die arme Seele empor!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="15">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="aabbcc">
+      <l>Wie friedlich in der Erde Schooß die ſtill geringen Leutchen</l>
+      <lb/>
+      <l>ſchlafen!</l>
+      <lb/>
+      <l>Endlich ein Pfühl nach hartem Stroh, nach ſaurer Fahrt</l>
+      <lb/>
+      <l>endlich ein Hafen!</l>
+      <lb/>
+      <l>Dem Flockenwulſte, ſichtbar kaum, entheben ſich die niedern</l>
+      <lb/>
+      <l>Hügel,</l>
+      <lb/>
+      <l>Doch Gottes Engel kennt ſie wohl, und ſchirmend breitet er</l>
+      <lb/>
+      <l>die Flügel</l>
+      <lb/>
+      <l>Den Kreuzlein zu, die Pflock an Pflock</l>
+      <lb/>
+      <l>Sich reihen um den Marmorblock.</l>
+      <lb/>
+     </lg>
+     <pb n="379" facs="#f0393"/>
+     <lg n="2" type="stanza" rhyme="aabbcc">
+      <l>Am Sockel kreucht der Drachenwurm, und ſcheint zum Grund</l>
+      <lb/>
+      <l>hinabzukrallen,</l>
+      <lb/>
+      <l>Zum todten Wuchrer unter'm Stein, von eigner Frevelhand</l>
+      <lb/>
+      <l>gefallen,</l>
+      <lb/>
+      <l>Wohl hat ihm Gold ein ehrlich Grab geworben an der Fried¬</l>
+      <lb/>
+      <l>hofsmauer,</l>
+      <lb/>
+      <l>Doch drüber zuckt ſein Flammenſchwert Sankt Michael in</l>
+      <lb/>
+      <l>Zorn und Trauer,</l>
+      <lb/>
+      <l>So ſilbergrau, ein Nachtgeſicht,</l>
+      <lb/>
+      <l>Steht das verſteinerte Gericht.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aabbcc">
+      <l>Vom öden Hauſe, ſeinem einſt, wo blutge Thränen ſind</l>
+      <lb/>
+      <l>gefloſſen,</l>
+      <lb/>
+      <l>Hat ſich ein ſeltſam dämmernd Licht bis an den Marmel¬</l>
+      <lb/>
+      <l>ſtein ergoſſen,</l>
+      <lb/>
+      <l>Es iſt als ob das Monument bei der Berührung zitternd</l>
+      <lb/>
+      <l>ſchwanke,</l>
+      <lb/>
+      <l>Im Schnee wühlend eine Hand dem Schuldner ſich entgegen</l>
+      <lb/>
+      <l>ranke;</l>
+      <lb/>
+      <l>Er kömmt, er naht, die Pforte dröhnt,</l>
+      <lb/>
+      <l>Er hat ſich an den Stein gelehnt;</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="aabbcc">
+      <l>Bleich wie der Marmor über ihm, und finſter wie das Kreuz</l>
+      <lb/>
+      <l>zur Seiten,</l>
+      <lb/>
+      <l>Von Stirn und Wimper, Zähren gleich, geſchmolznen Reifes</l>
+      <lb/>
+      <l>Tropfen gleiten;</l>
+      <lb/>
+      <l>Was er in dieſer ſchweren Nacht gelitten oder auch geſündet,</l>
+      <lb/>
+      <l>Er hat es Keinem je geklagt und Keinem reuig es verkündet;</l>
+      <lb/>
+      <l>In's Dunkel ſtarrt er, wie man wohl</l>
+      <lb/>
+      <l>So ſtarrt gedankenlos und hohl.</l>
+      <lb/>
+     </lg>
+     <pb n="380" facs="#f0394"/>
+     <lg n="5" type="stanza" rhyme="aabbcc">
+      <l>Ihm iſt, als fühl' er noch die Hand die ſeinen Federzug</l>
+      <lb/>
+      <l>geleitet,</l>
+      <lb/>
+      <l>Als fühle er den Nadelſtich, der ſeines Blutes Quell be¬</l>
+      <lb/>
+      <l>reitet,</l>
+      <lb/>
+      <l>Und leiſe zitternd taſtet er zum Gurte, — hörſt du nicht</l>
+      <lb/>
+      <l>ein Knirren,</l>
+      <lb/>
+      <l>Viel ſchrillender als Uhrgetick, viel zarter als der Spange</l>
+      <lb/>
+      <l>Klirren? —</l>
+      <lb/>
+      <l>O, ſeine Heimath, ſtill umlaubt!</l>
+      <lb/>
+      <l>O, ſeines Vaters graues Haupt!</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="aabbcc">
+      <l>Bewußtlos an des Engels Knie drückt er die Stirn, klemmt</l>
+      <lb/>
+      <l>er die Hände,</l>
+      <lb/>
+      <l>Der todten Gäule Klingeln hört er ſchleichen durch die</l>
+      <lb/>
+      <l>Fichtenwände;</l>
+      <lb/>
+      <l>Genüber ihm am Horizonte ſchleifen ſchwarze Wolkenſpalten,</l>
+      <lb/>
+      <l>Wie läſſig eine träge Hand zum Sarge ſchleift des Bahr¬</l>
+      <lb/>
+      <l>tuchs Falten;</l>
+      <lb/>
+      <l>Er ſtreicht das Auge, reckt ſich auf,</l>
+      <lb/>
+      <l>Und ſchaut zum Aetherdom hinauf.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="aabbcc">
+      <l>Noch hängt die Mondesampel klar am goldgeſtickten Kuppel¬</l>
+      <lb/>
+      <l>ringe,</l>
+      <lb/>
+      <l>Noch leuchtet von Sankt Thomas Thurm das Kreuz wie</l>
+      <lb/>
+      <l>eine Doppelklinge,</l>
+      <lb/>
+      <l>Noch iſt die Stunde nicht, wo ſich der Hahn auf ſeiner Stange</l>
+      <lb/>
+      <l>ſchüttelt,</l>
+      <lb/>
+      <l>O eilig, eilig, eh die Uhr das letzte Sandkorn hat gerüttelt!</l>
+      <lb/>
+      <l>Er wendet ſich, da — horch, ein Klang,</l>
+      <lb/>
+      <l>Und wieder einer, ſchwer und bang!</l>
+      <lb/>
+     </lg>
+     <pb n="381" facs="#f0395"/>
+     <lg n="8" type="stanza" rhyme="aabbcc">
+      <l>Und mit dem zwölften Schlage hat der Wolkenmantel ſich</l>
+      <lb/>
+      <l>gebreitet,</l>
+      <lb/>
+      <l>Der immer höher, rieſig hoch, ſich um die Himmelskuppel</l>
+      <lb/>
+      <l>weitet,</l>
+      <lb/>
+      <l>Und, horch! — ein langgedehnter Schrei, des Hahnes mitter¬</l>
+      <lb/>
+      <l>nächt'ge Klage;</l>
+      <lb/>
+      <l>Im ſelbigen Moment erbebt und liſcht der Schein am Sar¬</l>
+      <lb/>
+      <l>kophage,</l>
+      <lb/>
+      <l>Und Engel, Drache, Flammenſchwert,</l>
+      <lb/>
+      <l>Sind in die wüſte Nacht gekehrt.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="16">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcdcd">
+      <l>Du haſt es nie geahndet, nie gewußt,</l>
+      <lb/>
+      <l>Wie groß mein Lieben iſt zu dir geweſen,</l>
+      <lb/>
+      <l>Nie hat dein klares Aug' in meiner Bruſt</l>
+      <lb/>
+      <l>Die ſcheu verhüllte Runenſchrift geleſen,</l>
+      <lb/>
+      <l>Wenn du mir freundlich reichteſt deine Hand,</l>
+      <lb/>
+      <l>Und wir zuſammen durch die Grüne wallten,</l>
+      <lb/>
+      <l>Nicht wußteſt du, daß wie ein Götterpfand</l>
+      <lb/>
+      <l>Ich, wie ein köſtlich Kleinod ſie gehalten.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcdcd">
+      <l>Du ſahſt mich nicht als ich, ein heftig Kind,</l>
+      <lb/>
+      <l>Vom erſten Kuß der jungen Muſe trunken,</l>
+      <lb/>
+      <l>Im Garten kniete, wo die Quelle rinnt,</l>
+      <lb/>
+      <l>Und weinend in die Gräſer bin geſunken;</l>
+      <lb/>
+      <l>Als zitternd ich gedreht der Thüre Schloß,</l>
+      <lb/>
+      <l>Da ich zum erſten Mal dich ſollte ſchauen,</l>
+      <lb/>
+      <l>Weſtphalens Dichterin, und wie da floß</l>
+      <lb/>
+      <l>Durch mein bewegtes Herz ein ſelig Grauen.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="ababcdcd">
+      <l>Sehr jung war ich und ſehr an Liebe reich,</l>
+      <lb/>
+      <l>Begeiſterung der Hauch von dem ich lebte;</l>
+      <lb/>
+      <l>Ach! Manches iſt zerſtäubt, der Aſche gleich,</l>
+      <lb/>
+      <l>Was einſt als Flamme durch die Adern bebte!</l>
+      <lb/>
+      <l>Mein Blick war klar und mein Erkennen ſtark,</l>
+      <lb/>
+      <l>Von ſeinem Throne mußte Manches ſteigen,</l>
+      <lb/>
+      <l>Und was ich einſt genannt des Lebens Mark,</l>
+      <lb/>
+      <l>Das fühlt' ich jetzt mit friſchem Stolz mein eigen.</l>
+      <lb/>
+     </lg>
+     <pb n="121" facs="#f0135"/>
+     <lg n="4" type="stanza" rhyme="ababcdcd">
+      <l>So ſcheut' ich es, als fromme Schülerin,</l>
+      <lb/>
+      <l>Dir wieder in das dunkle Aug' zu ſehen,</l>
+      <lb/>
+      <l>Ich wollte nicht vor meiner Meiſterin</l>
+      <lb/>
+      <l>Hochmüthig, mit bedecktem Haupte, ſtehen.</l>
+      <lb/>
+      <l>Auch war ich krank, mein Sinnen ſehr verwirrt,</l>
+      <lb/>
+      <l>Und keinen Namen mocht' ich ſehnend nennen;</l>
+      <lb/>
+      <l>Doch hat dies deine Liebe nicht geirrt,</l>
+      <lb/>
+      <l>Du drangſt zu mir nach langer Jahre Trennen.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="ababcdcd">
+      <l>Und als du vor mich trateſt, feſt und klar,</l>
+      <lb/>
+      <l>Und blickteſt tief mir in der Seele Gründe,</l>
+      <lb/>
+      <l>Da ward ich meiner Schwäche wohl gewahr,</l>
+      <lb/>
+      <l>Was ich gedacht, das ſchien mir ſchwere Sünde.</l>
+      <lb/>
+      <l>Dein Bild, du Starke in der Läutrung Brand,</l>
+      <lb/>
+      <l>Stieg wie ein Phönix aus der Aſche wieder,</l>
+      <lb/>
+      <l>Und tief im Herzen hab' ich es erkannt,</l>
+      <lb/>
+      <l>Wie zehnfach größer du als deine Lieder.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="ababcdcd">
+      <l>Du ſahſt, Beſcheid'ne, nicht, daß damals hier</l>
+      <lb/>
+      <l>Aus deinem Blick Geneſung ich getrunken,</l>
+      <lb/>
+      <l>Daß deines Mundes Laute damals mir</l>
+      <lb/>
+      <l>Wie Naphtha in die Seele ſind geſunken.</l>
+      <lb/>
+      <l>Ein jedes Wort, durchſichtig wie Kryſtall</l>
+      <lb/>
+      <l>Und kräftig gleich dem edelſten der Weine,</l>
+      <lb/>
+      <l>Schien mir zu rufen: „Auf! der Launen Ball,</l>
+      <lb/>
+      <l>Steh auf! erhebe dich, du Schwach' und Kleine!“</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="ababcdcd">
+      <l>Nun biſt du hin! von Gottes reinſtem Bild</l>
+      <lb/>
+      <l>Iſt nur ein grüner Hügel uns geblieben,</l>
+      <lb/>
+      <l>Den heut' umziehn die Winterſtürme wild</l>
+      <lb/>
+      <l>Und die Gedanken derer, die dich lieben.</l>
+      <lb/>
+      <pb n="122" facs="#f0136"/>
+      <l>Auch hör' ich, daß man einen Kranz gelegt</l>
+      <lb/>
+      <l>Von Lorbeer in des Grabes dunkle Mooſe,</l>
+      <lb/>
+      <l>Doch ich, Cathinka, widme dir bewegt</l>
+      <lb/>
+      <l>Den Epheu und die dornenvollſte Roſe.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="17">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abccbb">
+      <l>Röthliche Flöckchen ziehen</l>
+      <lb/>
+      <l>Ueber die Berge fort,</l>
+      <lb/>
+      <l>Und wie Purpurgewänder,</l>
+      <lb/>
+      <l>Und wie farbige Bänder</l>
+      <lb/>
+      <pb n="86" facs="#f0100"/>
+      <l>Flattert es hier und dort</l>
+      <lb/>
+      <l>In der ſteigenden Dämmrung Hort.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abccb">
+      <l>Gleich einem Königsgarten,</l>
+      <lb/>
+      <l>Den verlaſſen die Fürſtin hoch —</l>
+      <lb/>
+      <l>Nur in der Kühle ergehen</l>
+      <lb/>
+      <l>Und um die Beete ſich drehen</l>
+      <lb/>
+      <l>Flüſternd ein Paar Hoffräulein noch.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="ababcdcd">
+      <l>Da des Himmels Vorhang ſinkt,</l>
+      <lb/>
+      <l>Oeffnet ſich der Erde Bruſt,</l>
+      <lb/>
+      <l>Leiſe, leiſe Kräutlein trinkt,</l>
+      <lb/>
+      <l>Und entſchlummert unbewußt;</l>
+      <lb/>
+      <l>Und ſein furchtſam Wächterlein,</l>
+      <lb/>
+      <l>Würmchen mit dem grünen Schein,</l>
+      <lb/>
+      <l>Zündet an dem Glühholz ſein</l>
+      <lb/>
+      <l>Leuchtchen klein.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abcbdedefgfg">
+      <l>Der Gärtner, über die Blumen gebeugt,</l>
+      <lb/>
+      <l>Spürt an der Sohle den Thau,</l>
+      <lb/>
+      <l>Gleich vom nächſten Halme er ſtreicht</l>
+      <lb/>
+      <l>Lächelnd die Tropfen lau;</l>
+      <lb/>
+      <l>Geht noch einmal entlang den Wall,</l>
+      <lb/>
+      <l>Prüft jede Knoſpe genau und gut:</l>
+      <lb/>
+      <l>„Schlaft denn“, ſpricht er, „ihr Kindlein all,</l>
+      <lb/>
+      <l>Schlafet! ich laß euch der Mutter Hut;</l>
+      <lb/>
+      <l>Liebe Erde! mir ſind die Wimpern ſchwer,</l>
+      <lb/>
+      <l>Hab' die letzte Nacht durchwacht,</l>
+      <lb/>
+      <l>Breit <hi rendition="#g">wohl</hi> deinen Thaumantel um ſie her,</l>
+      <lb/>
+      <l>Nimm <hi rendition="#g">wohl</hi> mir die Kleinen in Acht.“</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="18">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l>Nie fand, ſo oft auch ſcherzend ward gefragt,</l>
+      <lb/>
+      <l>Ich einen Mann, vom Grafen bis zum Schneider,</l>
+      <lb/>
+      <l>Der ſo beſcheiden oder ſo betagt,</l>
+      <lb/>
+      <l>So hülflos, keinen ſo Geſcheiten leider,</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Der nicht gemeint, des Herrſcherthumes Bürde</l>
+      <lb/>
+      <l>Sey ſeinen Schultern grad das rechte Maaß.</l>
+      <lb/>
+      <l>War Einer zweifelnd je an ſeiner Würde,</l>
+      <lb/>
+      <l>So ſchätzt er ſeine Kräfte deſto baß,</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Der hoffte auf der Rede Zauberbann;</l>
+      <lb/>
+      <l>Schlau aus dem Winkel wollte Jener zielen,</l>
+      <lb/>
+      <l>Kurz, daß er wiſſe wie und auch den Mann,</l>
+      <lb/>
+      <l>Ließ Jeder deutlich durch die Blume ſpielen.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Ihr Thoren! glaubt ihr denn daß Gott im Zorne</l>
+      <lb/>
+      <l>Die Großen ſchuf, ungleich der Menſchenſchaar,</l>
+      <lb/>
+      <l>
+       <hi rendition="#aq">Pecus inane</hi>, das ſein Haupt zum Borne</l>
+      <lb/>
+      <l>Hinſtreckt wie weiland Nebukadnezar?</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Daß, weil zuweilen unter Zotten ſchlägt</l>
+      <lb/>
+      <l>Ein Herz wo große Elemente ſchlafen,</l>
+      <lb/>
+      <l>Deßhalb wer eine feine Wolle trägt</l>
+      <lb/>
+      <l>Unfehlbar zählt zu den Merinoſchafen?</l>
+      <lb/>
+     </lg>
+     <pb n="23" facs="#f0037"/>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>Daß langes Schauen zweifellos erblinde,</l>
+      <lb/>
+      <l>Und wer den Fäden raſtlos nachgeſpürt,</l>
+      <lb/>
+      <l>Daß dieſer, gleich dem überreizten Kinde,</l>
+      <lb/>
+      <l>So dümmer wird je länger er ſtudirt?</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abab">
+      <l>Wer zweifelt, daß ein Herz wie's Throne ſchmückt</l>
+      <lb/>
+      <l>Gar oft am Acker fröhnt und Forſtgehege,</l>
+      <lb/>
+      <l>Daß manche Scheitel ſich zur Furche bückt,</l>
+      <lb/>
+      <l>Hochwerth daß eine Krone drauf man lege?</l>
+      <lb/>
+     </lg>
+     <lg n="8" type="stanza" rhyme="abab">
+      <l>Doch ihr des Lebens abgehetzte Alten,</l>
+      <lb/>
+      <l>Ihr innerliche Greiſe, ſeyd es nicht.</l>
+      <lb/>
+      <l>Bewahr' der Himmel uns vor eurem Walten,</l>
+      <lb/>
+      <l>Vor dem im Sumpfe angebrannten Licht!</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="abab">
+      <l>Ihr würdet mahnen an des Fröhners Sohn,</l>
+      <lb/>
+      <l>Der, woll' ihm Gott ein Königreich verſchreiben,</l>
+      <lb/>
+      <l>Für's Leben wüſte keinen beſſern Lohn,</l>
+      <lb/>
+      <l>Als ſeine Schweine dann zu Roß zu treiben.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="19">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcdcd">
+      <l>Vor Zeiten, ich war ſchon groß genug,</l>
+      <lb/>
+      <l>Hatt' die Kinderſchuhe vertreten,</l>
+      <lb/>
+      <l>Nicht alt war ich, doch eben im Zug'</l>
+      <lb/>
+      <l>Zu Sankt Andreas zu beten,</l>
+      <lb/>
+      <l>Da bin ich gewandelt, Tag für Tag,</l>
+      <lb/>
+      <l>Das Feld entlang mit der Kathi;</l>
+      <lb/>
+      <l>Ob etwas Liebes im Wege lag?</l>
+      <lb/>
+      <l>
+       <hi rendition="#aq">Tempi passati — passati!</hi></l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcdcd">
+      <l>Und in dem Haideland ſtand ein Baum,</l>
+      <lb/>
+      <l>Eine ſchlanke ſchmächtige Erle,</l>
+      <lb/>
+      <l>Da ſaßen wir oft in wachendem Traum,</l>
+      <lb/>
+      <l>
+       <choice>
+        <sic>Uud</sic>
+        <corr>Und</corr>
+       </choice> horchten dem Schlage der Merle;</l>
+      <lb/>
+      <l>Die hatte ihr ſtruppiges Neſt gebaut,</l>
+      <lb/>
+      <l>Grad in der ſchwankenden Krone,</l>
+      <lb/>
+      <l>Und hat ſo keck hernieder geſchaut</l>
+      <lb/>
+      <l>Wie ein Gräflein vom winzigen Throne.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="ababcdcd">
+      <l>Wir kosten ſo viel und gingen ſo lang',</l>
+      <lb/>
+      <l>Daß drüber der Sommer verfloſſen;</l>
+      <lb/>
+      <l>Dann hieß es: „Scheiden, o weh wie bang!“</l>
+      <lb/>
+      <l>Viel Thränen wurden vergoſſen;</l>
+      <lb/>
+      <l>Die Hände hielten wir ſtumm gepreßt,</l>
+      <lb/>
+      <l>Da zog ich aus flatternder Binde</l>
+      <lb/>
+      <l>Eine blanke Nadel, und drückte feſt</l>
+      <lb/>
+      <l>Sie, feſt in die ſaftige Rinde;</l>
+      <lb/>
+     </lg>
+     <pb n="222" facs="#f0236"/>
+     <lg n="4" type="stanza" rhyme="ababcdcd">
+      <l>Und drunter merkte ich Tag und Stund',</l>
+      <lb/>
+      <l>Dann ſind wir fürder gezogen,</l>
+      <lb/>
+      <l>So kläglich ſchluchzend aus Herzensgrund,</l>
+      <lb/>
+      <l>Daß ſchreiend die Merle entflogen;</l>
+      <lb/>
+      <l>O junge Seelen ſind Königen gleich,</l>
+      <lb/>
+      <l>Sie können ein Peru vergeuden,</l>
+      <lb/>
+      <l>Im braunen Haid, unter'm grünen Zweig,</l>
+      <lb/>
+      <l>Ein Peru an Lieben und Leiden.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="ababcdcd">
+      <l>Die Jahre verglitten mit ſchleichendem Gang,</l>
+      <lb/>
+      <l>Verrannen gleich duftiger Wolke,</l>
+      <lb/>
+      <l>Und wieder zog ich das Feld entlang</l>
+      <lb/>
+      <l>Mit jungem luſtigen Volke;</l>
+      <lb/>
+      <l>Die ſchleuderten Stäbe, und ſchrieen „Halloh!“</l>
+      <lb/>
+      <l>Die ſprudelten Witze wie Schloſſen,</l>
+      <lb/>
+      <l>Mir ward's im Herzen gar keck und froh,</l>
+      <lb/>
+      <l>Muthwillig wie unter Genoſſen.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="ababcdcd">
+      <l>Da plötzlich rauſcht' es im dichten Gezweig,</l>
+      <lb/>
+      <l>„Eine Merle“, rief's, „eine Merle!“</l>
+      <lb/>
+      <l>Ich fuhr empor — ward ich etwa bleich?</l>
+      <lb/>
+      <l>Ich ſtand an der alternden Erle;</l>
+      <lb/>
+      <l>Und rückwärts zog mir's den Schleier vom Haar,</l>
+      <lb/>
+      <l>Ach Gott, ich erglühte wie Flamme,</l>
+      <lb/>
+      <l>Als ich ſah, daß die alte Nadel es war,</l>
+      <lb/>
+      <l>Meine roſtige Nadel im Stamme!</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="ababcdcd">
+      <l>Drauf hab' ich genommen ganz ſtill in Schau</l>
+      <lb/>
+      <l>Die Inſchrift, zu eigenem Frommen,</l>
+      <lb/>
+      <l>Und fühlte dann plötzlich, es ſteige der Thau,</l>
+      <lb/>
+      <l>Und werde mir ſchwerlich bekommen.</l>
+      <lb/>
+      <pb n="223" facs="#f0237"/>
+      <l>Ich will nicht klagen, mir blieb ein Hort,</l>
+      <lb/>
+      <l>Den roſten nicht Wetter und Wogen,</l>
+      <lb/>
+      <l>Allein für immer, für immer iſt fort</l>
+      <lb/>
+      <l>Der Schleier vom Auge gezogen!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="20">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abcb">
+      <l>Aus Schneegeſtäub' und Nebelqualm</l>
+      <lb/>
+      <l>Bricht endlich doch ein klarer Tag;</l>
+      <lb/>
+      <l>Da fliegen alle Fenſter auf,</l>
+      <lb/>
+      <l>Ein Jeder ſpäht, was er vermag.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abcb">
+      <l>Ob jene Blöcke Häuſer ſind?</l>
+      <lb/>
+      <l>Ein Weiher jener ebne Raum?</l>
+      <lb/>
+      <l>Fürwahr, in dieſer Uniform</l>
+      <lb/>
+      <l>Den Glockenthurm erkennt man kaum;</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aabb">
+      <l>Und alles Leben liegt zerdrückt,</l>
+      <lb/>
+      <l>Wie unterm Leichentuch erſtickt.</l>
+      <lb/>
+      <l>Doch ſchau! an Horizontes Rand</l>
+      <lb/>
+      <l>Begegnet mir lebend'ges Land.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="aabbcc">
+      <l>Du ſtarrer Wächter, laſſ' ihn los</l>
+      <lb/>
+      <l>Den Föhn aus deiner Kerker Schooß!</l>
+      <lb/>
+      <l>Wo ſchwärzlich jene Riffe ſpalten,</l>
+      <lb/>
+      <l>Da muß er Quarantaine halten,</l>
+      <lb/>
+      <l>Der Fremdling aus der Lombardei;</l>
+      <lb/>
+      <l>O Säntis, gib den Thauwind frei!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="21">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcdcd">
+      <l>Du ſagſt mir nichts, doch zweifl’ ich nicht,</l>
+      <lb/>
+      <l>Du ſchüttelſt dein Haupt, Marie,</l>
+      <lb/>
+      <l>Ein Greis — zwei Kinder — im Dämmerlicht —</l>
+      <lb/>
+      <l>Da waltet die Phantaſie!</l>
+      <lb/>
+      <l>Was wollte ich nicht um dein Lächeln geben,</l>
+      <lb/>
+      <l>Um deine Zweifel, du gute Frau,</l>
+      <lb/>
+      <l>Doch wieder ſag’ ichs: bei meinem Leben!</l>
+      <lb/>
+      <l>Marie, wir ſahen und hörten genau!</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcdcd">
+      <l>Am Morgen kehrte der Vater heim,</l>
+      <lb/>
+      <l>Verſtimmt und müde gehetzt,</l>
+      <lb/>
+      <l>Und war er nimmer ein Honigſeim,</l>
+      <lb/>
+      <l>So war er ein Wermuth jetzt.</l>
+      <lb/>
+      <l>Auch waren es wohl bedenkliche Worte,</l>
+      <lb/>
+      <l>Die er geſprochen zum alten Mann,</l>
+      <lb/>
+      <l>Denn laut ſie haderten an der Pforte,</l>
+      <lb/>
+      <l>Und ſchieden in tiefer Empörung dann.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="ababcdcd">
+      <l>Nun ward durchſtöbert das ganze Haus,</l>
+      <lb/>
+      <l>Ein Jeder gefragt, gequält,</l>
+      <lb/>
+      <pb n="347" facs="#f0361"/>
+      <l>Die Beutel gewogen, geſchüttet aus,</l>
+      <lb/>
+      <l>Die Silberbeſtecke gezählt,</l>
+      <lb/>
+      <l>Ob Alles richtig, verſperrt die Zimmer,</l>
+      <lb/>
+      <l>Nichts konnte dem Manne genügen doch;</l>
+      <lb/>
+      <l>Bis Abends zählte und wog er immer,</l>
+      <lb/>
+      <l>Und meinte, der Schade finde ſich noch.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="ababcdcd">
+      <l>Als nun die Dämmerung brach herein,</l>
+      <lb/>
+      <l>Ohne Mutter und Sakriſtan,</l>
+      <lb/>
+      <l>Wir kauerten auf dem ſtaubigen Stein,</l>
+      <lb/>
+      <l>Und gähnten die Flamme an.</l>
+      <lb/>
+      <l>Verſtimmt der Vater, am langen Tiſche,</l>
+      <lb/>
+      <l>Wühlt' in Papieren, ſchob und rückt,</l>
+      <lb/>
+      <l>Wir duckten an unſerm Kamin, wie Fiſche,</l>
+      <lb/>
+      <l>Wenn drauf das Auge des Reihers drückt.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="ababcdcd">
+      <l>Da horch! — die Thüre dröhnte am Gang,</l>
+      <lb/>
+      <l>Ein ſchlürfender Schritt darauf</l>
+      <lb/>
+      <l>Sich ſchleppte die knarrende Diel' entlang.</l>
+      <lb/>
+      <l>Der Vater horchte — ſtand auf —</l>
+      <lb/>
+      <l>Und wieder hörten wir rücken die Stühle,</l>
+      <lb/>
+      <l>Am Schranke klirren den Schlüſſelbund,</l>
+      <lb/>
+      <l>Und wieder das ſchwere Krachen der Diele,</l>
+      <lb/>
+      <l>Als es vom Stuhle trat an den Grund.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="ababcdcd">
+      <l>Er ſtand, den Leib vorüber gebeugt,</l>
+      <lb/>
+      <l>Wie Jäger auf Wildes Spur,</l>
+      <lb/>
+      <l>Nicht Furcht noch Rührung ſein Auge zeigt',</l>
+      <lb/>
+      <l>Man ſah, er lauerte nur.</l>
+      <lb/>
+      <pb n="348" facs="#f0362"/>
+      <l>Und wieder ſah ich die mich geboren,</l>
+      <lb/>
+      <l>Verbannt, verſtoßen vom heiligen Grund,</l>
+      <lb/>
+      <l>O, nimmer hab' ich das Bild verloren,</l>
+      <lb/>
+      <l>Es folgt mir noch in der Todesſtund!</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="ababcdcd">
+      <l>Und Er? — hat keine Wimper geregt,</l>
+      <lb/>
+      <l>Und keine Muskel gezuckt,</l>
+      <lb/>
+      <l>Der Stuhl, auf den ſeine Hand gelegt,</l>
+      <lb/>
+      <l>Nur einmal leiſe geruckt.</l>
+      <lb/>
+      <l>Ihr folgend mit den ſtechenden Blicken</l>
+      <lb/>
+      <l>Wandt' er ſich langſam wie ſie ſchritt,</l>
+      <lb/>
+      <l>Doch als er ſie an's Cloſet ſah drücken,</l>
+      <lb/>
+      <l>Da zuckte er auf, als wolle er mit.</l>
+      <lb/>
+     </lg>
+     <lg n="8" type="stanza" rhyme="ababcdcd">
+      <l>Und „Arnold!“ rief's aus dem Geldverließ,</l>
+      <lb/>
+      <l>— Er beugte vornüber, weit —</l>
+      <lb/>
+      <l>Und wieder „Arnold!“ ſo klagend ſüß,</l>
+      <lb/>
+      <l>— Er legte die Feder bei Seit' —</l>
+      <lb/>
+      <l>Zum dritten Mal, wie die blutige Trauer,</l>
+      <lb/>
+      <l>„Arnold!“ — den Meerſchaumkopf im Nu</l>
+      <lb/>
+      <l>Erfaßt er, ſchleudert' ihn gegen die Mauer,</l>
+      <lb/>
+      <l>Schritt in's Cloſet und riegelte zu.</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="ababcdcd">
+      <l>Wir aber ſtürzten in wilder Haſt</l>
+      <lb/>
+      <l>Hinaus an das Abendroth,</l>
+      <lb/>
+      <l>Wir hatten uns bei den Händen gefaßt,</l>
+      <lb/>
+      <l>Und weinten uns ſchier zu todt.</l>
+      <lb/>
+      <l>Die ganze Nacht hat die Lampe geglommen,</l>
+      <lb/>
+      <l>Geknattert im Saal des Kamines Roſt,</l>
+      <lb/>
+      <l>Und als der dritte Abend gekommen,</l>
+      <lb/>
+      <l>Da ſetzte der Vater ſich auf die Poſt.</l>
+      <lb/>
+     </lg>
+     <pb n="349" facs="#f0363"/>
+     <lg n="10" type="stanza" rhyme="ababcdcd">
+      <l>Ich habe ihm nicht Lebewohl geſagt,</l>
+      <lb/>
+      <l>Und nicht ſeine Hand geküßt,</l>
+      <lb/>
+      <l>Doch heißt es, daß er in dieſer Nacht</l>
+      <lb/>
+      <l>Am Bettchen geſtanden iſt.</l>
+      <lb/>
+      <l>Und bei des nächſten Morgens Erglühen,</l>
+      <lb/>
+      <l>Das Erſte was meine Augen ſahn,</l>
+      <lb/>
+      <l>Das war an unſerem Lager knieen</l>
+      <lb/>
+      <l>Den tief erſchütterten Sakriſtan.</l>
+      <lb/>
+     </lg>
+     <lg n="11" type="stanza" rhyme="ababcdcd">
+      <l>Dem ward in der Früh' ein Brief gebracht,</l>
+      <lb/>
+      <l>Und dann ein Schlüſſelchen noch;</l>
+      <lb/>
+      <l>„Ich will nicht leſen,“ hat er gedacht</l>
+      <lb/>
+      <l>Und zögerte, las dann doch</l>
+      <lb/>
+      <l>Den Brief, in letzter Stunde geſchrieben</l>
+      <lb/>
+      <l>Von meines unglücklichen Vaters Hand,</l>
+      <lb/>
+      <l>Der feſt im Herzen mir iſt geblieben,</l>
+      <lb/>
+      <l>Obwohl mein Bruder ihn einſt verbrannt.</l>
+      <lb/>
+     </lg>
+     <lg n="12" type="stanza" rhyme="ababcdcd">
+      <l>„Was mich betroffen, das ſag' ich nicht,</l>
+      <lb/>
+      <l>Eh dorre die Zunge aus!</l>
+      <lb/>
+      <l>Doch iſt es ein bitter, ein ſchwer Gericht,</l>
+      <lb/>
+      <l>Und treibt mich von Hof und Haus.</l>
+      <lb/>
+      <l>In dem Cloſete da ſind gelegen</l>
+      <lb/>
+      <l>Papiere, Wechſel, Briefe dabei.</l>
+      <lb/>
+      <l>Dir will ich auf deine Seele legen</l>
+      <lb/>
+      <l>Meine zwei Buben, denn du biſt treu.</l>
+      <lb/>
+     </lg>
+     <lg n="13" type="stanza" rhyme="ababcdcd">
+      <l>Sorg' nicht um mich, was ich bedarf</l>
+      <lb/>
+      <l>Deß hab ich genügend noch,</l>
+      <lb/>
+      <l>Und forſch auch nimmer, — ich warne ſcharf —</l>
+      <lb/>
+      <l>Nach mir, es tröge dich doch.</l>
+      <lb/>
+      <pb n="350" facs="#f0364"/>
+      <l>Sey ruhig, Mann, ich will nicht tödten,</l>
+      <lb/>
+      <l>Den Leib, der Vieles noch muß beſtehn,</l>
+      <lb/>
+      <l>Doch laß meine armen Kinderchen beten,</l>
+      <lb/>
+      <l>Denn ſehr bedarf ich der Unſchuld Flehn.</l>
+      <lb/>
+     </lg>
+     <lg n="14" type="stanza" rhyme="ababcdcd">
+      <l>Und im Cloſete gefunden ward</l>
+      <lb/>
+      <l>Ein richtiges Teſtament,</l>
+      <lb/>
+      <l>Und alle Papiere nach Kaufmannsart</l>
+      <lb/>
+      <l>Geordnet und wohl benennt.</l>
+      <lb/>
+      <l>Und wir? — in der Fremde ließ man uns pflegen,</l>
+      <lb/>
+      <l>Da waren wir eben wie Buben ſind,</l>
+      <lb/>
+      <l>Doch mit den Jahren da muß ſich's regen,</l>
+      <lb/>
+      <l>Bin ich doch jetzt ſein einziges Kind!</l>
+      <lb/>
+     </lg>
+     <lg n="15" type="stanza" rhyme="ababcdcd">
+      <l>Du weißt es, wie ich auch noch ſo früh,</l>
+      <lb/>
+      <l>So hart den Bruder verlor,</l>
+      <lb/>
+      <l>Und hätte ich dich nicht, meine Marie,</l>
+      <lb/>
+      <l>Dann wär ich ein armer Thor! —</l>
+      <lb/>
+      <l>Ach Gott, was hab' ich nicht All geſchrieben,</l>
+      <lb/>
+      <l>Aufrufe, Briefe, in meiner Noth!</l>
+      <lb/>
+      <l>Umſonſt doch Alles, umſonſt geblieben.</l>
+      <lb/>
+      <l>Ob er mag leben? — vermuthlich todt!“</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="22">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcddc">
+      <l>Von Allem was zu Leid und Frommen</l>
+      <lb/>
+      <l>Bisher das Leben mir gebracht,</l>
+      <lb/>
+      <l>Iſt Manches unverhofft gekommen,</l>
+      <lb/>
+      <l>Und Manches hatt’ ich überdacht;</l>
+      <lb/>
+      <l>Doch ſeltſam! wo ich ſchlau und fein</l>
+      <lb/>
+      <l>Mich abgeſorgt zu grauen Haaren,</l>
+      <lb/>
+      <l>Da bin ich meiſtens abgefahren,</l>
+      <lb/>
+      <l>Und Unverhofftes ſchlug mir ein.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcddc">
+      <l>Ein Jeder kömmt doch gern zu Brode,</l>
+      <lb/>
+      <l>Doch blieben mir die Gönner kalt,</l>
+      <lb/>
+      <l>That ich gleich klein wie eine Lode</l>
+      <lb/>
+      <l>Gen einen macht’gen Eichenwald;</l>
+      <lb/>
+      <l>Und nur der ärmliche Student,</l>
+      <lb/>
+      <l>Bei dem ich manche Nacht verwachte,</l>
+      <lb/>
+      <l>Als Mangel ihn auf’s Lager brachte,</l>
+      <lb/>
+      <l>Der dachte mein als Präſident.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="ababcddc">
+      <l>Den Frauen will man auch gefallen,</l>
+      <lb/>
+      <l>— Zumal ſieht man nicht übel aus, —</l>
+      <lb/>
+      <l>In die Salons ſah man mich wallen,</l>
+      <lb/>
+      <l>Verſchmitzt hinein, verdutzt heraus;</l>
+      <lb/>
+      <l>Und nur die täglich recht und ſchlicht</l>
+      <lb/>
+      <l>Mich wandeln ſah im eignen Hauſe,</l>
+      <lb/>
+      <l>Die trug in meine kleine Klauſe</l>
+      <lb/>
+      <l>Des Lebens ſüßeſtes Gedicht.</l>
+      <lb/>
+     </lg>
+     <pb n="260" facs="#f0274"/>
+     <lg n="4" type="stanza" rhyme="ababcddc">
+      <l>Auch Ruhm iſt gar ein ſcharfer Köder,</l>
+      <lb/>
+      <l>Ich habe manchen Tag verſchwitzt,</l>
+      <lb/>
+      <l>Verſchnitzelt hab' ich manche Feder,</l>
+      <lb/>
+      <l>Und bin doch ſchmählich abgeblitzt;</l>
+      <lb/>
+      <l>Und nur als ich, entmuthigt ganz,</l>
+      <lb/>
+      <l>Gedanken flattern ließ wie Flocken,</l>
+      <lb/>
+      <l>Da plötzlich fiel auf meine Locken</l>
+      <lb/>
+      <l>Ein junger friſcher Lorbeerkranz.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="ababcddc">
+      <l>So hab' aus Allem ich gezogen</l>
+      <lb/>
+      <l>Das treue Facit mir zuletzt,</l>
+      <lb/>
+      <l>Daß dem das Glück zumeiſt gewogen,</l>
+      <lb/>
+      <l>Der es am mindeſten gehetzt;</l>
+      <lb/>
+      <l>Und daß, wo Wirken ein Geſchick</l>
+      <lb/>
+      <l>Nach eigner Willkür kann bereiten,</l>
+      <lb/>
+      <l>Nur Offenheit zu allen Zeiten</l>
+      <lb/>
+      <l>Die allerbeſte Politik.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="23">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcdcd">
+      <l>Sie waren Beide froh und gut,</l>
+      <lb/>
+      <l>Und mochten ungern ſcheiden;</l>
+      <lb/>
+      <l>Die Jahre fliehn, es liſcht der Muth,</l>
+      <lb/>
+      <l>Der Tag bringt Freud' und Leiden,</l>
+      <lb/>
+      <l>Geſchäft will Zeit und Zeit iſt ſchnell,</l>
+      <lb/>
+      <l>So unterblieb das Schreiben,</l>
+      <lb/>
+      <l>Doch öfters ſprach Emanuel:</l>
+      <lb/>
+      <l>„Was mag der Franzel treiben!“</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcdcd">
+      <l>Da trat einſt Wintermorgens früh</l>
+      <lb/>
+      <l>Ein Mann in ſeine Stube,</l>
+      <lb/>
+      <l>Seltſam verſchabt wie ein Genie,</l>
+      <lb/>
+      <l>Und hager wie Coeur Bube,</l>
+      <lb/>
+      <l>Sah ihn ſo glau und pfiffig an,</l>
+      <lb/>
+      <l>Und blinzelt vor Behagen:</l>
+      <lb/>
+      <l>„Emanuel, du Hampelmann!</l>
+      <lb/>
+      <l>Willſt du mir denn nichts ſagen?“</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="ababcdcd">
+      <l>„Er iſt es!“ rief der Doktor aus,</l>
+      <lb/>
+      <l>Und reicht ihm beide Hände.</l>
+      <lb/>
+      <l>„Willkomm, Willkomm! wie ſiehſt du aus?</l>
+      <lb/>
+      <l>Ei, munter und behende.“</l>
+      <lb/>
+      <l>„Ha“ rief der Andre, „Sapperment,</l>
+      <lb/>
+      <l>Man ſieht, du darfſt nicht ſorgen!</l>
+      <lb/>
+      <l>Wie roth du biſt, wie corpulent!</l>
+      <lb/>
+      <l>Du haſt dich wohl geborgen.“</l>
+      <lb/>
+     </lg>
+     <pb n="229" facs="#f0243"/>
+     <lg n="4" type="stanza" rhyme="ababcdcd">
+      <l>Drauf ſaß man zu Kamin und Wein,</l>
+      <lb/>
+      <l>Ließ von der Glut ſich röſten,</l>
+      <lb/>
+      <l>Und ätzte ſich mit Schmeichelein,</l>
+      <lb/>
+      <l>Den Alternden zu tröſten.</l>
+      <lb/>
+      <l>Ein Jeder warf den Hamen hin</l>
+      <lb/>
+      <l>Als wohlgeübter Fiſcher,</l>
+      <lb/>
+      <l>Und Jeder dachte ſtill: „ich bin</l>
+      <lb/>
+      <l>Gewiß um zehn Jahr friſcher.“</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="ababcdcd">
+      <l>Man ſchüttelte die Hände derb,</l>
+      <lb/>
+      <l>Dann gieng es an ein Fragen.</l>
+      <lb/>
+      <l>Reich war des Medikus Erwerb,</l>
+      <lb/>
+      <l>Und dennoch mocht' er klagen.</l>
+      <lb/>
+      <l>Er ſah den Franz bedenklich an,</l>
+      <lb/>
+      <l>Und dacht', er ſteck' in Schulden,</l>
+      <lb/>
+      <l>Doch dieſer prahlt': er ſey ein Mann</l>
+      <lb/>
+      <l>Von „<hi rendition="#g">täglich ſeinem Gulden</hi>.“</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="ababcded">
+      <l>
+       <hi rendition="#g">Zwei</hi> Jahre hat er nur geſpart,</l>
+      <lb/>
+      <l>Und dann, ein kecker Kämpfer,</l>
+      <lb/>
+      <l>Geraſſelt mit der Eiſenfahrt,</l>
+      <lb/>
+      <l>Geſtrudelt mit dem Dämpfer!</l>
+      <lb/>
+      <l>O wie er die „Stadt Leyden“ pries,</l>
+      <lb/>
+      <l>Und der Kajüte Gleißen!</l>
+      <lb/>
+      <l>Nach ſeiner Meinung dürfte ſie</l>
+      <lb/>
+      <l>„Viktoria“ nur heißen.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="ababcdcd">
+      <l>Das hat den Medikus gerührt,</l>
+      <lb/>
+      <l>Ihm den beſcheidnen Schlucker</l>
+      <lb/>
+      <l>Lebendig vor das Aug' geführt,</l>
+      <lb/>
+      <l>Der Klöße aß wie Zucker.</l>
+      <lb/>
+      <pb n="230" facs="#f0244"/>
+      <l>Und gar als jener ſprach: „denkſt du</l>
+      <lb/>
+      <l>Noch an die halbe Flaſche?“</l>
+      <lb/>
+      <l>Der Doktor kniff die Augen zu,</l>
+      <lb/>
+      <l>Und klimpert' in der Taſche.</l>
+      <lb/>
+     </lg>
+     <lg n="8" type="stanza" rhyme="ababcdcd">
+      <l>Dann gieng es weiter: „denkſt du dort?</l>
+      <lb/>
+      <l>Und denkſt du dies? und Jenes?“</l>
+      <lb/>
+      <l>Die Bilder wogten luſtig fort,</l>
+      <lb/>
+      <l>Viel Herzliches und Schönes.</l>
+      <lb/>
+      <l>Wie Abendroth zog in's Gemach</l>
+      <lb/>
+      <l>Ein friſcher Jugendodem,</l>
+      <lb/>
+      <l>Und überhauchte nach und nach</l>
+      <lb/>
+      <l>Der Pillenſchachteln Brodem.</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="ababcdcd">
+      <l>Am nächſten Morgen hat man kaum</l>
+      <lb/>
+      <l>Den Doktor mögen kennen,</l>
+      <lb/>
+      <l>Man ſah ihn lächeln wie im Traum</l>
+      <lb/>
+      <l>Und ſeine Wangen brennen;</l>
+      <lb/>
+      <l>Im heiligen Studiercloſet</l>
+      <lb/>
+      <l>Hört' man die Gläſer klingen,</l>
+      <lb/>
+      <l>Und ein miſtöniges Duett</l>
+      <lb/>
+      <l>Aus Uhukehlen dringen.</l>
+      <lb/>
+     </lg>
+     <lg n="10" type="stanza" rhyme="ababcdcd">
+      <l>Nicht litt am Blute mehr der Mann,</l>
+      <lb/>
+      <l>Am Podagra und Grieße;</l>
+      <lb/>
+      <l>Sah er den dürren Franzel an,</l>
+      <lb/>
+      <l>So ſchien er ſich ein Rieſe;</l>
+      <lb/>
+      <l>Hat er den Franzel angeſehn</l>
+      <lb/>
+      <l>Mit ſeinem Gulden täglich,</l>
+      <lb/>
+      <l>So mußt er ſelber ſich geſtehn,</l>
+      <lb/>
+      <l>Es geh' ihm ganz erträglich.</l>
+      <lb/>
+     </lg>
+     <pb n="231" facs="#f0245"/>
+     <lg n="11" type="stanza" rhyme="ababcdcd">
+      <l>Doch als der dritte Tag entſchwand,</l>
+      <lb/>
+      <l>Da ſah man auch die Beiden</l>
+      <lb/>
+      <l>Betrübten Auges ſtehn am Strand,</l>
+      <lb/>
+      <l>Und wieder hieß es — Scheiden. —</l>
+      <lb/>
+      <l>„Leb' wohl, Emanuel, leb' wohl!“ —</l>
+      <lb/>
+      <l>— „Leb' wohl, du alte Seele!“</l>
+      <lb/>
+      <l>Und die „Stadt Leyden“ rauſchte hohl</l>
+      <lb/>
+      <l>Durch Dunſt und Wogenſchwehle.</l>
+      <lb/>
+     </lg>
+     <lg n="12" type="stanza" rhyme="ababcdcd">
+      <l>Drei Monde hat das Jahr gebracht,</l>
+      <lb/>
+      <l>Seit Franzel iſt geſchieden,</l>
+      <lb/>
+      <l>Mit ihm des Hypochonders Macht;</l>
+      <lb/>
+      <l>Der Dokter lebt in Frieden.</l>
+      <lb/>
+      <l>Und will der Dämon hier und dort</l>
+      <lb/>
+      <l>Sich ſchleichend offenbaren,</l>
+      <lb/>
+      <l>So geht er an des Rheines Bord</l>
+      <lb/>
+      <l>Und ſieht „Stadt Leyden“ fahren.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+  </body>
+ </text>
+</TEI>

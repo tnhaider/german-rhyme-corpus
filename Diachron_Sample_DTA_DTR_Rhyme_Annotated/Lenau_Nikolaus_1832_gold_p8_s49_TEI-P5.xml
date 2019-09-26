@@ -1,0 +1,792 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Gedichte</title>
+    <author>
+     <persName ref="http://d-nb.info/gnd/118571508">
+      <surname>Lenau</surname>
+      <forename>Nikolaus</forename>
+     </persName>
+    </author>
+    <editor corresp="#DTACorpusPublisher">
+     <persName ref="http://d-nb.info/gnd/115266127">
+      <surname>Geyken</surname>
+      <forename>Alexander</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName ref="http://d-nb.info/gnd/1018099549">
+      <surname>Haaf</surname>
+      <forename>Susanne</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName ref="http://d-nb.info/gnd/1019062681">
+      <surname>Jurish</surname>
+      <forename>Bryan</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Schulz</surname>
+      <forename>Matthias</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Steinmann</surname>
+      <forename>Jakob</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Thomas</surname>
+      <forename>Christian</forename>
+     </persName>
+    </editor>
+    <editor corresp="#DTACorpusPublisher">
+     <persName>
+      <surname>Wiegand</surname>
+      <forename>Frank</forename>
+     </persName>
+    </editor>
+    <respStmt>
+     <orgName ref="http://www.clarin-d.de">CLARIN-D</orgName>
+     <resp>
+      <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+      <ref target="http://fedora.dwds.de"/>
+     </resp>
+    </respStmt>
+   </titleStmt>
+   <editionStmt>
+    <edition>Vollständige digitalisierte Ausgabe.</edition>
+   </editionStmt>
+   <extent>
+    <measure type="images">289</measure>
+    <measure type="tokens">22587</measure>
+    <measure type="types">6362</measure>
+    <measure type="characters">152159</measure>
+   </extent>
+   <publicationStmt>
+    <publisher xml:id="DTACorpusPublisher">
+     <email>dta@bbaw.de</email>
+     <orgName role="project">Deutsches Textarchiv</orgName>
+     <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and
+      Humanities</orgName>
+     <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+      Wissenschaften (BBAW)</orgName>
+     <address>
+      <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+      <country>Germany</country>
+     </address>
+    </publisher>
+    <pubPlace>Berlin</pubPlace>
+    <date type="publication">2014-08-25T11:47:49Z</date>
+    <availability>
+     <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+      <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported License.</p>
+     </licence>
+    </availability>
+    <idno>
+     <idno type="URLWeb">http://www.deutschestextarchiv.de/lenau_gedichte_1832</idno>
+     <idno type="URLXML"
+      >http://www.deutschestextarchiv.de/book/download_xml/lenau_gedichte_1832</idno>
+     <idno type="URLHTML"
+      >http://www.deutschestextarchiv.de/book/download_html/lenau_gedichte_1832</idno>
+     <idno type="URLText"
+      >http://www.deutschestextarchiv.de/book/download_text/lenau_gedichte_1832</idno>
+     <idno type="DTADirName">lenau_gedichte_1832</idno>
+     <idno type="DTAID">16353</idno>
+     <idno type="URN">urn:nbn:de:kobv:b4-200905193572</idno>
+    </idno>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="M">Lenau, Nikolaus: Gedichte. Stuttgart, 1832.</bibl>
+    <biblFull>
+     <titleStmt>
+      <title level="m" type="main">Gedichte</title>
+      <author>
+       <persName ref="http://d-nb.info/gnd/118571508">
+        <surname>Lenau</surname>
+        <forename>Nikolaus</forename>
+       </persName>
+      </author>
+     </titleStmt>
+     <editionStmt>
+      <edition n="1"/>
+     </editionStmt>
+     <extent>
+      <measure type="pages">VIII, 272 S.</measure>
+     </extent>
+     <publicationStmt>
+      <publisher><name>Cotta</name></publisher>
+      <pubPlace>Stuttgart</pubPlace>
+      <pubPlace>Tübingen</pubPlace>
+      <date type="publication">1832</date>
+     </publicationStmt>
+    </biblFull>
+    <msDesc>
+     <msIdentifier>
+      <repository>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</repository>
+      <idno>
+       <idno type="shelfmark">SBB-PK, Yn 6566&lt;a&gt; R</idno>
+       <idno type="URLCatalogue"
+        >http://stabikat.de/DB=1/SET=12/TTL=1/CMD?ACT=SRCHA&amp;IKT=1016&amp;SRT=YOP&amp;TRM=766901831</idno>
+      </idno>
+     </msIdentifier>
+     <physDesc>
+      <typeDesc>
+       <p>Fraktur</p>
+      </typeDesc>
+     </physDesc>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p>Dieses Werk wurde von OCR-Software automatisch erfasst und anschließend gemäß den <ref
+      target="http://www.deutschestextarchiv.de/doku/richtlinien"
+      >DTA-Transkriptionsrichtlinien</ref> von Muttersprachlern nachkontrolliert. Es wurde gemäß dem
+      <ref target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat</ref> in
+     XML/TEI P5 kodiert.</p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="deu">German</language>
+   </langUsage>
+   <textClass>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtamain"
+     >Belletristik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtasub"
+     >Lyrik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+     >Belletristik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+     >Lyrik</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+     >core</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+     >ready</classCode>
+    <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+     >ocr</classCode>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div n="1">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l><hi rendition="#in">D</hi>a kommt der Lenz, der ſchoͤne Junge,</l>
+      <lb/>
+      <l>Den Alles lieben muß,</l>
+      <lb/>
+      <l>Herein mit einem Freudenſprunge,</l>
+      <lb/>
+      <l>Und laͤchelt ſeinen Gruß;</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Und ſchickt ſich gleich mit frohem Necken</l>
+      <lb/>
+      <l>Zu all' den Streichen an,</l>
+      <lb/>
+      <l>Die er auch ſonſt dem alten Recken,</l>
+      <lb/>
+      <l>Dem Winter, angethan.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Er gibt ſie frei die Baͤchlein alle,</l>
+      <lb/>
+      <l>Wie auch der Alte ſchilt,</l>
+      <lb/>
+      <l>Die der in ſeiner Eiſesfalle</l>
+      <lb/>
+      <l>So ſtreng gefangen hielt.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Schon zieh'n die Wellen flink von dannen</l>
+      <lb/>
+      <l>Mit Taͤnzen und Geſchwaͤtz,</l>
+      <lb/>
+      <l>Und ſpoͤtteln uͤber des Tyrannen</l>
+      <lb/>
+      <l>Zerronnenes Geſetz.</l>
+      <lb/>
+     </lg>
+     <pb n="122" facs="#f0136"/>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Den Juͤngling freut es, wie die raſchen</l>
+      <lb/>
+      <l>Hinlaͤrmen durchs Gefild,</l>
+      <lb/>
+      <l>Und ſich aus leichten Fingern haſchen</l>
+      <lb/>
+      <l>Sein aufgebluͤhtes Bild.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>Froh laͤchelt ſeine Mutter Erde</l>
+      <lb/>
+      <l>Nach ihrem langen Harm;</l>
+      <lb/>
+      <l>Sie ſchlingt mit jubelnder Geberde</l>
+      <lb/>
+      <l>Das Soͤhnlein in den Arm.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abab">
+      <l>In ihren Buſen greift der Loſe</l>
+      <lb/>
+      <l>Und zieht ihr ſchmeichelnd keck</l>
+      <lb/>
+      <l>Das ſanfte Veilchen und die Roſe</l>
+      <lb/>
+      <l>Hervor aus dem Verſteck.</l>
+      <lb/>
+     </lg>
+     <lg n="8" type="stanza" rhyme="abab">
+      <l>Und ſein geſchmeidiges Geſinde</l>
+      <lb/>
+      <l>Schickt er zu Berg und Thal:</l>
+      <lb/>
+      <l>„Sagt, daß ich da bin, meine Winde,</l>
+      <lb/>
+      <l>Den Freunden allzumal!“</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="abab">
+      <l>Er zieht das Herz an Liebesketten</l>
+      <lb/>
+      <l>Raſch uͤber manche Kluft,</l>
+      <lb/>
+      <l>Und ſchleudert ſeine Singraketen,</l>
+      <lb/>
+      <l>Die Lerchen, in die Luft.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="2">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abcd">
+      <l><hi rendition="#in">W</hi>iege ſie ſanft, o Schlaf, die holde Kleine!</l>
+      <lb/>
+      <l>Durch die zarte Verhuͤllung deines Schleiers</l>
+      <lb/>
+      <l>Laͤchelt ſie; ſo laͤchelt die Roſe ſtill durch</l>
+      <lb/>
+      <l>Abendgeduͤfte.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abcd">
+      <l>Wiege ſie ſanft, und lege deinem Bruder</l>
+      <lb/>
+      <l>Sie, dem ernſteren, leiſe in die Arme,</l>
+      <lb/>
+      <l>Ihm, durch deſſen dichteren Schleier uns kein</l>
+      <lb/>
+      <l>Laͤcheln mehr ſchimmert!</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abcd">
+      <l>Denn mit gezuͤcktem Dolche harrt der Kummer</l>
+      <lb/>
+      <l>An der ſeligen Kindheit Pforte meines</l>
+      <lb/>
+      <l>Lieblings, wo der Friede ſie ſcheidend kuͤßt, und</l>
+      <lb/>
+      <l>Schwindet auf immer.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="3">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abba">
+      <l><hi rendition="#in">S</hi>chon hat der Lenz verbluͤht und ausgeſungen,</l>
+      <lb/>
+      <l>Die holden Traͤume, ſeligen Gefuͤhle</l>
+      <lb/>
+      <l>Erſtarben in der bangen Sommerſchwuͤle,</l>
+      <lb/>
+      <l>Mit der das Thatenleben angedrungen.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abba">
+      <l>„Das Roß geſpornt! die Wehre friſch geſchwungen!“</l>
+      <lb/>
+      <l>So heißt es nun im heißen Kampfgewuͤhle,</l>
+      <lb/>
+      <l>Bis mir der Sabbath faͤchelt ſeine Kuͤhle,</l>
+      <lb/>
+      <l>Wann muͤden mich des Todes Arm umſchlungen. —</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="aba">
+      <l>Mir war's verſagt, in jenen Bluͤthentagen,</l>
+      <lb/>
+      <l>O Maͤdchen meiner Sehnſucht, dich zu finden‚</l>
+      <lb/>
+      <l>Es ſuchten dich vergebens meine Klagen! —</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="aba">
+      <l>Noch taucht mir hier und dort aus Kampfeswogen</l>
+      <lb/>
+      <l>Dein Bild herauf, doch muß es wieder ſchwinden‚</l>
+      <lb/>
+      <l>Bald hat die Brandung es hinabgezogen.</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="4">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abcdef">
+      <l><hi rendition="#in">R</hi>uͤſtig wandelſt du fort die Alpenpfade der Edlen,</l>
+      <lb/>
+      <l>Wo die reinere Luft Buſen und Stirne bekuͤhlt,</l>
+      <lb/>
+      <l>Pfluͤckeſt vom Felſengeklipp', vom ſchmalen Rande des</l>
+      <lb/>
+      <l>Abgrunds</l>
+      <lb/>
+      <l>Duftende Blumen und ſchlingſt ſie zum harmoniſchen</l>
+      <lb/>
+      <l>Kranz,</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abcdedefghijk">
+      <l>Ihn zu tragen, ein Opfer, zum Hochaltare der Menſchheit,</l>
+      <lb/>
+      <l>Ach, um welchen es ſtets ſtiller und einſamer wird;</l>
+      <lb/>
+      <l>Traurig fluͤſtern auf ihm die Kraͤnze der wenigen Edlen,</l>
+      <lb/>
+      <l>Todtenkraͤnze nunmehr ſchoͤner, verblichener Zeit.</l>
+      <lb/>
+      <l>Aber du wandle hinan getroſt, und waͤre dein Leben</l>
+      <lb/>
+      <l>Auch nur Feier des Tod's ſchoͤner, verblichener Zeit.</l>
+      <lb/>
+      <l>Kommt auf deinen Pfaden dir einſt der Donner entgegen,</l>
+      <lb/>
+      <l>Draͤuend im naͤchtlichen Flug, fahren Orkane dich an:</l>
+      <lb/>
+      <l>Freund, dann flattre dies Blatt vor deinen Blicken im</l>
+      <lb/>
+      <l>Sturme,</l>
+      <lb/>
+      <l>Und es rauſche dir zu: „denke des liebenden Freunds!“</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="5">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcc">
+      <l><hi rendition="#in">D</hi>er alte Muͤller Jakob ſizt</l>
+      <lb/>
+      <l>Allein beim Glaſe Wein;</l>
+      <lb/>
+      <l>Schwarzmitternacht, nur manchmal blizt</l>
+      <lb/>
+      <l>Ein Wetterſtrahl herein;</l>
+      <lb/>
+      <l>Das Muͤhlrad ſauſt, es brauſt der Wind;</l>
+      <lb/>
+      <l>Doch ſchlafen ruhig Weib und Kind.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcc">
+      <l>Der Alte thut manch raſchen Zug,</l>
+      <lb/>
+      <l>Er denkt an Zeit und Tod.</l>
+      <lb/>
+      <l>Wie draußen jagt des Sturmes Flug,</l>
+      <lb/>
+      <l>So jagen Luſt und Noth,</l>
+      <lb/>
+      <l>Die laͤngſt begrabnen, neuerwacht,</l>
+      <lb/>
+      <l>Ihm durch die Bruſt in dieſer Nacht.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="ababcc">
+      <l>Die Thuͤr geht auf, er faͤhrt empor:</l>
+      <lb/>
+      <l>Wer kommt zu ſolcher Stund?</l>
+      <lb/>
+      <l>Ein Weidmann mit dem Feuerrohr,</l>
+      <lb/>
+      <l>Mit ſeinem Stoͤberhund,</l>
+      <lb/>
+      <l>Hahnfeder, Gemsbart auf dem Hut,</l>
+      <lb/>
+      <l>Das gruͤne Wamms befleckt mit Blut.</l>
+      <lb/>
+     </lg>
+     <pb n="186" facs="#f0200"/>
+     <lg n="4" type="stanza" rhyme="ababcc">
+      <l>Der Muͤller ſtarrt, zuruͤckgebeugt,</l>
+      <lb/>
+      <l>Dem Jaͤger in's Geſicht,</l>
+      <lb/>
+      <l>Sein Haar entſezt zu Berge fleugt,</l>
+      <lb/>
+      <l>Sein Blut zum Herzen kriecht:</l>
+      <lb/>
+      <l>Der Raubſchuͤtz iſt's, der wilde Kurd,</l>
+      <lb/>
+      <l>Der juͤngſt im Wald erſchoſſen wurd.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="ababcc">
+      <l>Der finſtre Jaͤger an die Wand,</l>
+      <lb/>
+      <l>Auf Jakobs Buͤchſe winkt;</l>
+      <lb/>
+      <l>Der preßt ſein Glas in zager Hand,</l>
+      <lb/>
+      <l>Daß es in Scherben ſpringt;</l>
+      <lb/>
+      <l>Gehorchend nimmt er ſein Gewehr,</l>
+      <lb/>
+      <l>Und ſchleicht dem Grauſen hinterher.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="ababcc">
+      <l>Sie ſtreifen in den Wald hinaus,</l>
+      <lb/>
+      <l>Nach ſuͤßem Wildesraub;</l>
+      <lb/>
+      <l>Stets lauter wird der Winde Braus,</l>
+      <lb/>
+      <l>Der Pfade duͤrres Laub.</l>
+      <lb/>
+      <l>Der Jaͤger ruft voll heißer Gier:</l>
+      <lb/>
+      <l>„Komm, Bruder, jagen, jagen wir!“</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="ababcc">
+      <l>Sie zieh'n fort, fort im finſtern Wald</l>
+      <lb/>
+      <l>Durch Strupp und Strom gar friſch,</l>
+      <lb/>
+      <l>Das Wild ſchrickt auf, die Buͤchſe knallt,</l>
+      <lb/>
+      <l>Der Stoͤbrer im Gebuͤſch</l>
+      <lb/>
+      <pb n="187" facs="#f0201"/>
+      <l>Rauſcht mit arbeitendem Geruch,</l>
+      <lb/>
+      <l>Der Jaͤger ruft: ſuch, Hundel, ſuch!</l>
+      <lb/>
+     </lg>
+     <lg n="8" type="stanza" rhyme="ababcc">
+      <l>Doch an des Walds geheimſtem Ort‚</l>
+      <lb/>
+      <l>Auf ſeinem liebſten Stand‚</l>
+      <lb/>
+      <l>Wo juͤngſt die Kugel ihn durchbohrt‚</l>
+      <lb/>
+      <l>Aus meuchleriſcher Hand,</l>
+      <lb/>
+      <l>Da bleibt er ſtehn, und donnert: „ſchau!</l>
+      <lb/>
+      <l>Hier ſchoß er mich wie eine Sau!“</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="ababcc">
+      <l>Es aͤchzt der Wald im Sturm, verzagt‚</l>
+      <lb/>
+      <l>Vom Monde jezt erhellt;</l>
+      <lb/>
+      <l>Der kuͤhn gewordne Muͤller fragt:</l>
+      <lb/>
+      <l>Was iſt's in jener Welt?</l>
+      <lb/>
+      <l>Da murmelt truͤben Angeſichts</l>
+      <lb/>
+      <l>Der Jaͤgersmann: „es iſt halt nichts!“</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="6">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="ababcc">
+      <l><hi rendition="#in">Z</hi>ieh nicht ſo ſchnell voruͤber</l>
+      <lb/>
+      <l>An dieſer ſtillen Heide;</l>
+      <lb/>
+      <l>Zieh nicht ſo ſcheu voruͤber</l>
+      <lb/>
+      <l>An meinem tiefen Leide;</l>
+      <lb/>
+      <l>Du Wolke in der Hoͤh',</l>
+      <lb/>
+      <l>Steh ſtill bei meinem Weh!</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="ababcc">
+      <l>Und nimm auf deine Reiſe</l>
+      <lb/>
+      <l>Mit fort zu ihr die Kunde:</l>
+      <lb/>
+      <l>Mein Herz, die arme Waiſe,</l>
+      <lb/>
+      <l>Verblutet an der Wunde,</l>
+      <lb/>
+      <l>Die mir durch ihren Trug</l>
+      <lb/>
+      <l>Die Ungetreue ſchlug.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="ababcc">
+      <l>Und kommſt auf deinen Wegen</l>
+      <lb/>
+      <l>Du an vor ihrem Hauſe,</l>
+      <lb/>
+      <l>So ſtuͤrze dich als Regen</l>
+      <lb/>
+      <l>Herunter mit Gebrauſe,</l>
+      <lb/>
+      <l>Daß ſie bei dunkler Nacht</l>
+      <lb/>
+      <l>Aus ihrem Traum erwacht.</l>
+      <lb/>
+     </lg>
+     <pb n="198" facs="#f0212"/>
+     <lg n="4" type="stanza" rhyme="ababcc">
+      <l>Schlag' an die Fenſterſcheibe,</l>
+      <lb/>
+      <l>Und ſchlag' an ihre Thuͤre,</l>
+      <lb/>
+      <l>Und ſey dem falſchen Weibe</l>
+      <lb/>
+      <l>Ein Mahner an die Schwuͤre,</l>
+      <lb/>
+      <l>Die ſie mir weinend ſprach,</l>
+      <lb/>
+      <l>Und die ſie laͤchelnd brach.</l>
+      <lb/>
+     </lg>
+     <lg n="5" type="stanza" rhyme="ababcc">
+      <l>Und will ſie das nicht hoͤren</l>
+      <lb/>
+      <l>So magſt von deinem Sitze</l>
+      <lb/>
+      <l>Du, Donner, dich empoͤren,</l>
+      <lb/>
+      <l>Dann ruͤttelt all' ihr Blitze,</l>
+      <lb/>
+      <l>Wenn ihr voruͤberzieht,</l>
+      <lb/>
+      <l>An ihrem Augenlied!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="7">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l><hi rendition="#in">V</hi>ier Maͤnner dort, in ſchwarzem Kleid,</l>
+      <lb/>
+      <l>Die tragen auf der Bahre,</l>
+      <lb/>
+      <l>Laſttraͤger, ohne Luſt und Leid,</l>
+      <lb/>
+      <l>Des Todes kalte Waare.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Sie eilen mit dem todten Leib</l>
+      <lb/>
+      <l>Hinaus zum Ort der Ruhe.</l>
+      <lb/>
+      <l>Schlaf wohl, du armes Bettelweib,</l>
+      <lb/>
+      <l>In deiner morſchen Truhe.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Dir folgt kein Menſch zum Glockenklang</l>
+      <lb/>
+      <l>Mit weinenden Geberden;</l>
+      <lb/>
+      <l>Die Noth nur blieb dir treu, ſo lang</l>
+      <lb/>
+      <l>Von dir noch was auf Erden.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Dir gab der Menſchen ſchnoͤder Geiz</l>
+      <lb/>
+      <l>Ein Leichentuch, zerfetzet,</l>
+      <lb/>
+      <l>Hat ein verſtuͤmmelt Chriſtuskreuz</l>
+      <lb/>
+      <l>Dir auf den Sarg geſetzet;</l>
+      <lb/>
+     </lg>
+     <pb n="35" facs="#f0049"/>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Doch kraͤnkt dich nicht der bittre Spott</l>
+      <lb/>
+      <l>In deinem tiefen Frieden,</l>
+      <lb/>
+      <l>Daß man ſelbſt einen ſchlechtern Gott</l>
+      <lb/>
+      <l>Dir auf den Weg beſchieden.</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>Einſt bluͤhteſt du im Jugendglanz,</l>
+      <lb/>
+      <l>Vom ganzen Dorf geprieſen</l>
+      <lb/>
+      <l>Die ſchoͤnſte Maid am Erntetanz</l>
+      <lb/>
+      <l>Dort unten auf der Wieſen.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abab">
+      <l>Folgt keiner dir der Burſche nach,</l>
+      <lb/>
+      <l>Die dort mit dir geſprungen?</l>
+      <lb/>
+      <l>Wohl laͤngſt die muntre Fidel brach,</l>
+      <lb/>
+      <l>Die dort ſo hell geklungen!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+   <div n="8">
+    <lg type="poem">
+     <lg n="1" type="stanza" rhyme="abab">
+      <l><hi rendition="#in">G</hi>uitarre, wie du haͤngſt ſo traurig!</l>
+      <lb/>
+      <l>Die Saiten toͤnen nimmermehr,</l>
+      <lb/>
+      <l>Die laͤngſt zerriſſnen wanken ſchaurig</l>
+      <lb/>
+      <l>Im Abendwinde hin und her.</l>
+      <lb/>
+     </lg>
+     <lg n="2" type="stanza" rhyme="abab">
+      <l>Auch deine Saiten ſind zerriſſen,</l>
+      <lb/>
+      <l>Es ſchweigt dein ſuͤßer Liederklang,</l>
+      <lb/>
+      <l>Seit in des Buſens Finſterniſſen</l>
+      <lb/>
+      <l>Mir jede frohe Saite ſprang.</l>
+      <lb/>
+     </lg>
+     <lg n="3" type="stanza" rhyme="abab">
+      <l>Mir ſank der Freund voll Jugendbluͤthe</l>
+      <lb/>
+      <l>Hinunter in die Todesfluth;</l>
+      <lb/>
+      <l>Die meiner Lieb' entgegengluͤhte,</l>
+      <lb/>
+      <l>Nun bei den kalten Todten ruht.</l>
+      <lb/>
+     </lg>
+     <lg n="4" type="stanza" rhyme="abab">
+      <l>Doch will ich euch nun friſch beſaiten,</l>
+      <lb/>
+      <l>Dich, meine Leier, dich, mein Herz!</l>
+      <lb/>
+      <l>Ruͤckbannen die entflohnen Zeiten,</l>
+      <lb/>
+      <l>Die alte Luſt, den alten Schmerz!</l>
+      <lb/>
+     </lg>
+     <pb n="97" facs="#f0111"/>
+     <lg n="5" type="stanza" rhyme="abab">
+      <l>Hinaus in's Dunkel jener Eichen!</l>
+      <lb/>
+      <l>Dort findet ſich der alte Lauf;</l>
+      <lb/>
+      <l>Dort ſtoͤren wir die Liederleichen</l>
+      <lb/>
+      <l>Aus ihren ſtillen Graͤbern auf!</l>
+      <lb/>
+     </lg>
+     <lg n="6" type="stanza" rhyme="abab">
+      <l>Wenn erſt die Lieder nur erwachen,</l>
+      <lb/>
+      <l>Dann ruft, dann zieht ihr lauter Chor</l>
+      <lb/>
+      <l>Die Lieben all' in meinen Nachen</l>
+      <lb/>
+      <l>Aus dunkler Todesfluth empor.</l>
+      <lb/>
+     </lg>
+     <lg n="7" type="stanza" rhyme="abab">
+      <l>Es klingt! — doch flieh'n im ſcheuen Fluge</l>
+      <lb/>
+      <l>Die Toͤne auf von meiner Hand;</l>
+      <lb/>
+      <l>So eilt, verſpaͤtet, nach dem Zuge</l>
+      <lb/>
+      <l>Das Voͤglein uͤber's Heideland.</l>
+      <lb/>
+     </lg>
+     <lg n="8" type="stanza" rhyme="abab">
+      <l>Nun bin ich meines Herzens Meiſter!</l>
+      <lb/>
+      <l>Nun rauſcht wie einſt der Sturmakkord,</l>
+      <lb/>
+      <l>Nun ſpringen die verſunknen Geiſter</l>
+      <lb/>
+      <l>Herauf, herauf an meinen Bord!</l>
+      <lb/>
+     </lg>
+     <lg n="9" type="stanza" rhyme="abab">
+      <l>O du mein Freund, ſo treu und bieder!</l>
+      <lb/>
+      <l>Wohl mir, du biſt mir wieder nah!</l>
+      <lb/>
+      <l>Dein ſuͤßes Wort auch hoͤr' ich wieder!</l>
+      <lb/>
+      <l>Mein holdes Maͤdchen, biſt du da? —</l>
+      <lb/>
+     </lg>
+     <fw type="sig" place="bottom">Lenau's Gedichte. 7<lb/>
+     </fw>
+     <pb n="98" facs="#f0112"/>
+     <lg n="10" type="stanza" rhyme="abab">
+      <l>Doch nein! mich hoͤhnten finſtre Maͤchte!</l>
+      <lb/>
+      <l>Wo iſt der Freund? das blonde Kind?</l>
+      <lb/>
+      <l>Der Nebel reicht mir keine Rechte;</l>
+      <lb/>
+      <l>Durch blonde Diſteln ſaust der Wind!</l>
+      <lb/>
+     </lg>
+    </lg>
+   </div>
+
+  </body>
+ </text>
+</TEI>

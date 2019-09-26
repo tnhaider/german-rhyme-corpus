@@ -1,0 +1,487 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+         <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+                  <fileDesc>
+                           <titleStmt>
+                                    <title type="main">Idyllen aus Messina</title>
+                                    <author>
+                                             <persName ref="http://d-nb.info/gnd/118587943">
+                                                  <surname>Nietzsche</surname>
+                                                  <forename>Friedrich</forename> 
+                                             </persName>
+                                    </author>
+                                    <editor corresp="#DTACorpusPublisher">
+                                             <persName ref="http://d-nb.info/gnd/115266127">
+                                                  <surname>Geyken</surname>
+                                                  <forename>Alexander</forename>
+                                             </persName>
+                                    </editor>
+                                    <editor corresp="#DTACorpusPublisher">
+                                             <persName ref="http://d-nb.info/gnd/1018099549">
+                                                  <surname>Haaf</surname>
+                                                  <forename>Susanne</forename>
+                                             </persName>
+                                    </editor>
+                                    <editor corresp="#DTACorpusPublisher">
+                                             <persName ref="http://d-nb.info/gnd/1019062681">
+                                                  <surname>Jurish</surname>
+                                                  <forename>Bryan</forename>
+                                             </persName>
+                                    </editor>
+                                    <editor corresp="#DTACorpusPublisher">
+                                             <persName>
+                                                  <surname>Schulz</surname>
+                                                  <forename>Matthias</forename>
+                                             </persName>
+                                    </editor>
+                                    <editor corresp="#DTACorpusPublisher">
+                                             <persName>
+                                                  <surname>Steinmann</surname>
+                                                  <forename>Jakob</forename>
+                                             </persName>
+                                    </editor>
+                                    <editor corresp="#DTACorpusPublisher">
+                                             <persName>
+                                                  <surname>Thomas</surname>
+                                                  <forename>Christian</forename>
+                                             </persName>
+                                    </editor>
+                                    <editor corresp="#DTACorpusPublisher">
+                                             <persName>
+                                                  <surname>Wiegand</surname>
+                                                  <forename>Frank</forename>
+                                             </persName>
+                                    </editor>
+                                    <respStmt>
+                                             <orgName>Wikisource</orgName>
+                                             <resp>
+                                                  <note type="remarkResponsibility">Bereitstellung
+                                                  der Texttranskription und Auszeichnung in
+                                                  Wikisource-Syntax.</note>
+                                                  <note type="remarkRevisionDTA">Bitte beachten Sie,
+                                                  dass die aktuelle Transkription (und
+                                                  Textauszeichnung) mittlerweile nicht mehr dem
+                                                  Stand zum Zeitpunkt der Übernahme aus Wikisource
+                                                  entsprechen muss.</note>
+                                                  <ref
+                                                  target="http://de.wikisource.org/wiki/Idyllen_aus_Messina"/>
+                                                  <date type="importDTA">2012-12-03T16:54:31Z</date>
+                                             </resp>
+                                    </respStmt>
+                                    <respStmt>
+                                             <orgName>Wikimedia Commons</orgName>
+                                             <resp>
+                                                  <note type="remarkResponsibility">Bereitstellung
+                                                  der Bilddigitalisate</note>
+                                                  <ref
+                                                  target="http://commons.wikimedia.org/wiki/File:Idyllen_aus_Messina-Nietzsche-1882.djvu"/>
+                                                  <date type="importDTA">2012-12-03T16:54:31Z</date>
+                                             </resp>
+                                    </respStmt>
+                                    <respStmt>
+                                             <persName>
+                                                  <forename>Frederike</forename>
+                                                  <surname>Neuber</surname>
+                                             </persName>
+                                             <resp>
+                                                  <note type="remarkResponsibility">Konvertierung
+                                                  von Wikisource-Markup nach XML/TEI gemäß
+                                                  DTA-Basisformat.</note>
+                                                  <date type="importDTA">2012-12-03T16:54:31Z</date>
+                                             </resp>
+                                    </respStmt>
+                                    <respStmt>
+                                             <orgName ref="http://www.clarin-d.de"
+                                                  >CLARIN-D</orgName>
+                                             <resp>
+                                                  <note type="remarkResponsibility">Langfristige
+                                                  Bereitstellung der DTA-Ausgabe</note>
+                                                  <ref target="http://fedora.dwds.de"/>
+                                             </resp>
+                                    </respStmt>
+                           </titleStmt>
+                           <editionStmt>
+                                    <edition>Vollständige digitalisierte Ausgabe.</edition>
+                           </editionStmt>
+                           <extent>
+                                    <measure type="images">7</measure>
+                                    <measure type="tokens">1074</measure>
+                                    <measure type="types">586</measure>
+                                    <measure type="characters">6707</measure>
+                           </extent>
+                           <publicationStmt>
+                                    <publisher xml:id="DTACorpusPublisher">
+                                             <email>dta@bbaw.de</email>
+                                             <orgName role="project">Deutsches Textarchiv</orgName>
+                                             <orgName role="hostingInstitution" xml:lang="en"
+                                                  >Berlin-Brandenburg Academy of Sciences and
+                                                  Humanities</orgName>
+                                             <orgName role="hostingInstitution" xml:lang="de"
+                                                  >Berlin-Brandenburgische Akademie der
+                                                  Wissenschaften (BBAW)</orgName>
+                                             <address>
+                                                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                                                  <country>Germany</country>
+                                             </address>
+                                    </publisher>
+                                    <pubPlace>Berlin</pubPlace>
+                                    <date type="publication">2014-08-25T11:49:10Z</date>
+                                    <availability>
+                                             <licence
+                                                  target="http://creativecommons.org/publicdomain/zero/1.0/">
+                                                  <p>Dieses Werk ist gemeinfrei.</p>
+                                             </licence>
+                                    </availability>
+                                    <idno>
+                                             <idno type="URLWeb"
+                                                  >http://www.deutschestextarchiv.de/nietzsche_messina_1882</idno>
+                                             <idno type="URLXML"
+                                                  >http://www.deutschestextarchiv.de/book/download_xml/nietzsche_messina_1882</idno>
+                                             <idno type="URLHTML"
+                                                  >http://www.deutschestextarchiv.de/book/download_html/nietzsche_messina_1882</idno>
+                                             <idno type="URLText"
+                                                  >http://www.deutschestextarchiv.de/book/download_text/nietzsche_messina_1882</idno>
+                                             <idno type="DTADirName">nietzsche_messina_1882</idno>
+                                             <idno type="DTAID">30172</idno>
+                                             <idno type="URN">urn:nbn:de:kobv:b4-30172-6</idno>
+                                    </idno>
+                           </publicationStmt>
+                           <sourceDesc>
+                                    <bibl type="JA">Nietzsche, Friedrich: Idyllen aus Messina. In:
+                                             Internationale Monatsschrift, Bd. 1,5. Chemnitz, 1882,
+                                             S. 269-275.</bibl>
+                                    <biblFull>
+                                             <titleStmt>
+                                                  <title level="a" type="main">Idyllen aus
+                                                  Messina</title>
+                                                  <author>
+                                                  <persName ref="http://d-nb.info/gnd/118587943">
+                                                  <surname>Nietzsche</surname>
+                                                  <forename>Friedrich</forename>
+                                                  </persName>
+                                                  </author>
+                                             </titleStmt>
+                                             <editionStmt>
+                                                  <edition n="1"/>
+                                             </editionStmt>
+                                             <publicationStmt>
+                                                  <publisher><name>Ernst
+                                                  Schmeitzner</name></publisher>
+                                                  <pubPlace>Chemnitz</pubPlace>
+                                                  <date type="publication">1882</date>
+                                             </publicationStmt>
+                                             <seriesStmt>
+                                                  <title level="j" type="main">Internationale
+                                                  Monatsschrift. Zeitschrift für allgemeine und
+                                                  nationale Kultur und deren Litteratur</title>
+                                                  <biblScope unit="volume">Band I</biblScope>
+                                                  <biblScope unit="issue">5. Heft (Mai)</biblScope>
+                                                  <biblScope unit="pages">S. 269-275</biblScope>
+                                             </seriesStmt>
+                                    </biblFull>
+                                    <msDesc>
+                                             <msIdentifier> </msIdentifier>
+                                             <physDesc>
+                                                  <typeDesc>
+                                                  <p>Antiqua</p>
+                                                  </typeDesc>
+                                             </physDesc>
+                                    </msDesc>
+                           </sourceDesc>
+                  </fileDesc>
+                  <encodingDesc>
+                           <editorialDecl>
+                                    <p/>
+                                    <p> &lt;p&gt;Anmerkungen zur Transkription:&lt;/p&gt; &lt;ul&gt;
+                                             &lt;li&gt;Als Grundlage dienen die &lt;a
+                                             href="http://de.wikisource.org/wiki/Wikisource:Editionsrichtlinien"
+                                             title="Wikisource:Editionsrichtlinien"&gt;Wikisource:Editionsrichtlinien&lt;/a&gt;&lt;/li&gt;
+                                             &lt;/ul&gt; </p>
+                           </editorialDecl>
+                  </encodingDesc>
+                  <profileDesc>
+                           <langUsage>
+                                    <language ident="deu">German</language>
+                           </langUsage>
+                           <textClass>
+                                    <classCode
+                                             scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+                                             >Belletristik</classCode>
+                                    <classCode
+                                             scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+                                             >Lyrik</classCode>
+                                    <classCode
+                                             scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+                                             >ready</classCode>
+                                    <classCode
+                                             scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+                                             >wikisource</classCode>
+                           </textClass>
+                  </profileDesc>
+         </teiHeader>
+         <text>
+                  <body>
+                           <div n="1">
+                                    <lg type="poem">
+                                             <head><hi rendition="#g">Prinz Vogelfrei.</hi><lb/>
+                                             </head>
+                                             <lg n="1" type="stanza" rhyme="abaab">
+                                                  <l>So häng ich denn auf krummem Aste<lb/>
+                                                  </l>
+                                                  <l> Hoch über Meer und Hügelchen:<lb/>
+                                                  </l>
+                                                  <l> Ein Vogel lud mich her zu Gaste —<lb/>
+                                                  </l>
+                                                  <l> Ich flog ihm nach und rast’ und raste<lb/>
+                                                  </l>
+                                                  <l> Und schlage mit den Flügelchen.<lb/>
+                                                  </l>
+                                             </lg>
+                                             <lg n="2" type="stanza" rhyme="abaab">
+                                                  <l>Das weisse Meer ist eingeschlafen,<lb/>
+                                                  </l>
+                                                  <l> Es schläft mir jedes Weh und Ach.<lb/>
+                                                  </l>
+                                                  <l> Vergessen hab’ ich Ziel und Hafen,<lb/>
+                                                  </l>
+                                                  <l> Vergessen Furcht und Lob und Strafen:<lb/>
+                                                  </l>
+                                                  <l> Jetzt flieg ich jedem Vogel nach.<lb/>
+                                                  </l>
+                                             </lg>
+                                             <lg n="3" type="stanza" rhyme="abaab">
+                                                  <l>Nur Schritt für Schritt — das ist kein
+                                                  Leben!<lb/>
+                                                  </l>
+                                                  <l> Stäts Bein vor Bein macht müd und schwer!<lb/>
+                                                  </l>
+                                                  <l> Ich lass mich von den Winden heben,<lb/>
+                                                  </l>
+                                                  <l> Ich liebe es, mit Flügeln schweben<lb/>
+                                                  </l>
+                                                  <l> Und hinter jedem Vogel her.<lb/>
+                                                  </l>
+                                             </lg>
+                                             <lg n="3" type="stanza" rhyme="abaab">
+                                                  <l>Vernunft? — das ist ein bös Geschäfte:<lb/>
+                                                  </l>
+                                                  <l> Vernunft und Zunge stolpern viel!<lb/>
+                                                  </l>
+                                                  <l> Das Fliegen gab mir neue Kräfte<lb/>
+                                                  </l>
+                                                  <l> Und lehrt’ mich schönere Geschäfte,<lb/>
+                                                  </l>
+                                                  <l> Gesang und Scherz und Liederspiel.<lb/>
+                                                  </l>
+                                             </lg>
+                                             <pb facs="#f0002" n="270"/>
+                                             <lg n="4" type="stanza" rhyme="abaab">
+                                                  <l>Einsam zu denken — das ist weise,<lb/>
+                                                  </l>
+                                                  <l> Einsam zu singen — das ist dumm!<lb/>
+                                                  </l>
+                                                  <l> So horcht mir denn auf meine Weise<lb/>
+                                                  </l>
+                                                  <l> Und setzt euch still um mich im Kreise,<lb/>
+                                                  </l>
+                                                  <l> Ihr schönen Vögelchen, herum!<lb/>
+                                                  </l>
+                                             </lg>
+                                    </lg>
+                           </div>
+
+                           <div n="2">
+                                    <lg type="poem">
+                                             <head>Das nächtliche Geheimniss<lb/>
+                                             </head>
+                                             <lg n="1" type="stanza" rhyme="ababab">
+                                                  <l> Gestern Nachts, als Alles schlief,<lb/>
+                                                  </l>
+                                                  <l> Kaum der Wind mit ungewissen<lb/>
+                                                  </l>
+                                                  <l> Seufzern durch die Gassen lief,<lb/>
+                                                  </l>
+                                                  <l> Gab mir Ruhe nicht das Kissen,<lb/>
+                                                  </l>
+                                                  <l> Noch der Mohn, noch, was sonst tief<lb/>
+                                                  </l>
+                                                  <l> Schlafen macht — ein gut Gewissen.<lb/>
+                                                  </l>
+                                             </lg>
+                                             <lg n="2" type="stanza" rhyme="ababab">
+                                                  <l> Endlich schlug ich mir den Schlaf<lb/>
+                                                  </l>
+                                                  <l> Aus dem Sinn und lief zum Strande.<lb/>
+                                                  </l>
+                                                  <l> Mondhell war’s und mild — ich traf<lb/>
+                                                  </l>
+                                                  <l> Mann und Kahn auf warmem Sande,<lb/>
+                                                  </l>
+                                                  <l> Schläfrig beide, Hirt und Schaf: —<lb/>
+                                                  </l>
+                                                  <l> Schläfrig stiess der Kahn vom Lande.<lb/>
+                                                  </l>
+                                             </lg>
+                                             <lg n="3" type="stanza" rhyme="abbaba">
+                                                  <l> Eine Stunde, leicht auch zwei,<lb/>
+                                                  </l>
+                                                  <l> Oder war’s ein Jahr? — da sanken<lb/>
+                                                  </l>
+                                                  <l> Plötzlich mir Sinn und Gedanken<lb/>
+                                                  </l>
+                                                  <l> In ein ew’ges Einerlei,<lb/>
+                                                  </l>
+                                                  <l> Und ein Abgrund ohne Schranken<lb/>
+                                                  </l>
+                                                  <l> That sich auf: — da war’s vorbei! —<lb/>
+                                                  </l>
+                                             </lg>
+                                             <lg n="4" type="stanza" rhyme="ababab">
+                                                  <l> Morgen kam: auf schwarzen Tiefen<lb/>
+                                                  </l>
+                                                  <l> Steht ein Kahn und ruht und ruht —<lb/>
+                                                  </l>
+                                                  <pb facs="#f0006" n="274"/>
+                                                  <l>Was geschah? so riefs, so riefen<lb/>
+                                                  </l>
+                                                  <l> Hundert bald — was gab es? Blut? —<lb/>
+                                                  </l>
+                                                  <l> Nichts geschah! Wir schliefen, schliefen<lb/>
+                                                  </l>
+                                                  <l> Alle — ach, so gut! so gut!<lb/>
+                                                  </l>
+                                             </lg>
+                                    </lg>
+                           </div>
+
+                           <div n="3">
+                                    <lg type="poem">
+                                             <head><hi rendition="#g">Vogel-Urtheil.</hi></head>
+                                             <lg n="1" type="stanza" rhyme="ababcdcd">
+                                                  <l> Als ich jüngst, mich zu erquicken,<lb/>
+                                                  </l>
+                                                  <l> Unter dunklen Bäumen sass,<lb/>
+                                                  </l>
+                                                  <l> Hört’ ich ticken, leise ticken,<lb/>
+                                                  </l>
+                                                  <l> Zierlich, wie nach Takt und Maass.<lb/>
+                                                  </l>
+                                                  <l> Böse wurd’ ich, zog Gesichter,<lb/>
+                                                  </l>
+                                                  <l> Endlich aber gab ich nach,<lb/>
+                                                  </l>
+                                                  <l> Bis ich gar, gleich einem Dichter,<lb/>
+                                                  </l>
+                                                  <l> Selber mit im Tiktak sprach.<lb/>
+                                                  </l>
+                                             </lg>
+                                         <lg n="2" type="stanza" rhyme="ababcdcd">
+                                                  <l> Wie mir so im Versemachen<lb/>
+                                                  </l>
+                                                  <l> Silb’ um Silb’ ihr Hopsa sprang,<lb/>
+                                                  </l>
+                                                  <l> Musst ich plötzlich lachen, lachen<lb/>
+                                                  </l>
+                                                  <l> Eine Viertelstunde lang,<lb/>
+                                                  </l>
+                                                  <l> Du ein Dichter? Du sein Dichter?<lb/>
+                                                  </l>
+                                                  <l> Stehts mit deinem Kopf so schlecht? —<lb/>
+                                                  </l>
+                                                  <l> «Ja, mein Herr! Sie sind ein Dichter!»<lb/>
+                                                  </l>
+                                                  <l> — Also sprach der Vogel Specht.<lb/>
+                                                  </l>
+                                             </lg>
+                                    </lg>
+                           </div>
+
+                           <div n="4">
+                                    <lg type="poem">
+                                             <head>Lied des Ziegenhirten.<lb/> (An meinen Nachbar
+                                                  Theokrit von Syrakusa.)<lb/>
+                                             </head>
+                                             <lg n="1" type="stanza" rhyme="abab">
+                                                  <l> Da lieg ich, krank im Gedärm —<lb/>
+                                                  </l>
+                                                  <l> Mich fressen die Wanzen.<lb/>
+                                                  </l>
+                                                  <l> Und drüben noch Licht und Lärm:<lb/>
+                                                  </l>
+                                                  <l> Ich hör’s, sie tanzen.<lb/>
+                                                  </l>
+                                                  <l>
+                                                  <lb/>
+                                                  </l>
+                                             </lg>
+                                             <lg n="2" type="stanza" rhyme="abab">
+                                                  <l>Sie wollte um diese Stund’<lb/>
+                                                  </l>
+                                                  <l> Zu mir sich schleichen:<lb/>
+                                                  </l>
+                                                  <l> Ich warte wie ein Hund —<lb/>
+                                                  </l>
+                                                  <l> Es kommt kein Zeichen!<lb/>
+                                                  </l>
+                                                  <l>
+                                                  <lb/>
+                                                  </l>
+                                             </lg>
+                                             <lg n="3" type="stanza" rhyme="abab">
+                                                  <l>Das Kreuz, als sie’s versprach!<lb/>
+                                                  </l>
+                                                  <l> Wie konnte sie lügen?<lb/>
+                                                  </l>
+                                                  <l> Oder läuft sie Jedem nach,<lb/>
+                                                  </l>
+                                                  <l> Wie meine Ziegen?<lb/>
+                                                  </l>
+                                             </lg>
+                                             <lg n="4" type="stanza" rhyme="abab">
+                                                  <l>Woher ihr seidner Rock? —<lb/>
+                                                  </l>
+                                                  <l> Ah, meine Stolze?<lb/>
+                                                  </l>
+                                                  <l> Es wohnt noch mancher Bock<lb/>
+                                                  </l>
+                                                  <l> An diesem Holze?<lb/>
+                                                  </l>
+                                             </lg>
+                                             <pb facs="#f0004" n="272"/>
+                                             <lg n="5" type="stanza" rhyme="abab">
+                                                  <l>Wie kraus und giftig macht<lb/>
+                                                  </l>
+                                                  <l> Verliebtes Warten!<lb/>
+                                                  </l>
+                                                  <l> So wächst bei schwüler Nacht<lb/>
+                                                  </l>
+                                                  <l> Giftpilz im Garten.<lb/>
+                                                  </l>
+                                             </lg>
+                                             <lg n="6" type="stanza" rhyme="abab">
+                                                  <l> Die Liebe zehrt an mir<lb/>
+                                                  </l>
+                                                  <l> Gleich sieben Uebeln —<lb/>
+                                                  </l>
+                                                  <l> Nichts mag ich essen schier,<lb/>
+                                                  </l>
+                                                  <l> Lebt wohl, ihr Zwiebeln!<lb/>
+                                                  </l>
+                                             </lg>
+                                             <lg n="7" type="stanza" rhyme="abab">
+                                                  <l> Der Mond ging schon in’s Meer,<lb/>
+                                                  </l>
+                                                  <l> Müd sind alle Sterne,<lb/>
+                                                  </l>
+                                                  <l> Grau kommt der Tag daher —<lb/>
+                                                  </l>
+                                                  <l> Ich stürbe gerne.<lb/>
+                                                  </l>
+                                             </lg>
+                                    </lg>
+                           </div>
+
+                  </body>
+         </text>
+</TEI>

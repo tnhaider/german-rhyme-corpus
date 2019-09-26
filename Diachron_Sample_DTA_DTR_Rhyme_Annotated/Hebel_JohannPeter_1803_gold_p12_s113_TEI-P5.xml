@@ -1,0 +1,1800 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Allemannische Gedichte</title>
+        <title type="sub">Für Freunde ländlicher Natur und Sitten</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/118547453">
+            <surname>Hebel</surname>
+            <forename>Johann Peter</forename>
+          </persName>
+        </author>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/115266127">
+            <surname>Geyken</surname>
+            <forename>Alexander</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1018099549">
+            <surname>Haaf</surname>
+            <forename>Susanne</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1019062681">
+            <surname>Jurish</surname>
+            <forename>Bryan</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Boenig</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Thomas</surname>
+            <forename>Christian</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Wiegand</surname>
+            <forename>Frank</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <orgName ref="http://www.clarin-d.de">CLARIN-D</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="http://fedora.dwds.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Vollständige digitalisierte Ausgabe.</edition>
+      </editionStmt>
+      <extent>
+        <measure type="images">257</measure>
+        <measure type="tokens">24278</measure>
+        <measure type="types">6412</measure>
+        <measure type="characters">151072</measure>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2016-10-10T16:33:46Z</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+            <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported
+              License.</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="URLWeb">http://www.deutschestextarchiv.de/hebel_gedichte_1803</idno>
+          <idno type="URLXML"
+            >http://www.deutschestextarchiv.de/book/download_xml/hebel_gedichte_1803</idno>
+          <idno type="URLHTML"
+            >http://www.deutschestextarchiv.de/book/download_html/hebel_gedichte_1803</idno>
+          <idno type="URLText"
+            >http://www.deutschestextarchiv.de/book/download_text/hebel_gedichte_1803</idno>
+          <idno type="DTADirName">hebel_gedichte_1803</idno>
+          <idno type="DTAID">16169</idno>
+          <idno type="URN">urn:nbn:de:kobv:b4-200905192133</idno>
+        </idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="M">[Hebel, Johann Peter]: Allemannische Gedichte. Karlsruhe, 1803.</bibl>
+        <biblFull>
+          <titleStmt>
+            <title level="m" type="main">Allemannische Gedichte</title>
+            <title level="m" type="sub">Für Freunde ländlicher Natur und Sitten</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/118547453">
+                <surname>Hebel</surname>
+                <forename>Johann Peter</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <extent>
+            <measure type="pages">VIII, 232 S., [4] Bl.</measure>
+          </extent>
+          <publicationStmt>
+            <publisher><name>Macklot</name></publisher>
+            <pubPlace>Karlsruhe</pubPlace>
+            <date type="publication">1803</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <repository>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</repository>
+            <idno>
+              <idno type="shelfmark">SBB-PK, 19 ZZ 4420</idno>
+              <idno type="URLCatalogue"
+                >http://stabikat.de/DB=1/SET=12/TTL=1/CMD?ACT=SRCHA&amp;IKT=1016&amp;SRT=YOP&amp;TRM=658234161</idno>
+            </idno>
+          </msIdentifier>
+          <physDesc>
+            <typeDesc>
+              <p>Fraktur</p>
+            </typeDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Dieses Werk wurde gemäß den <ref
+            target="http://www.deutschestextarchiv.de/doku/richtlinien"
+            >DTA-Transkriptionsrichtlinien</ref> im Double-Keying-Verfahren von
+          Nicht-Muttersprachlern erfasst und in XML/TEI P5 nach <ref
+            target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat</ref>
+          kodiert.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="rendition-aq">font-family:sans-serif</rendition>
+        <rendition scheme="css" xml:id="rendition-b">font-weight:bold</rendition>
+        <rendition scheme="css" xml:id="rendition-blue">color:blue</rendition>
+        <rendition scheme="css" xml:id="rendition-c">display:block; text-align:center</rendition>
+        <rendition scheme="css" xml:id="rendition-et">display:block; margin-left:2em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-et2">display:block; margin-left:4em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-et3">display:block; margin-left:6em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-f">border:1px dotted silver</rendition>
+        <rendition scheme="css" xml:id="rendition-fr">border:1px dotted silver</rendition>
+        <rendition scheme="css" xml:id="rendition-g">letter-spacing:0.125em</rendition>
+        <rendition scheme="css" xml:id="rendition-i">font-style:italic</rendition>
+        <rendition scheme="css" xml:id="rendition-in">font-size:150%</rendition>
+        <rendition scheme="css" xml:id="rendition-k">font-variant:small-caps</rendition>
+        <rendition scheme="css" xml:id="rendition-larger">font-size:larger</rendition>
+        <rendition scheme="css" xml:id="rendition-red">color:red</rendition>
+        <rendition scheme="css" xml:id="rendition-right">display:block; text-align:right</rendition>
+        <rendition scheme="css" xml:id="rendition-s">text-decoration:line-through</rendition>
+        <rendition scheme="css" xml:id="rendition-smaller">font-size:smaller</rendition>
+        <rendition scheme="css" xml:id="rendition-sub">vertical-align:sub;
+          font-size:.7em</rendition>
+        <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+          font-size:.7em</rendition>
+        <rendition scheme="css" xml:id="rendition-u">text-decoration:underline</rendition>
+        <rendition scheme="css" xml:id="rendition-uu">border-bottom:double 3px #000</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">German</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtamain"
+          >Belletristik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtasub"
+          >Lyrik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+          >Belletristik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub"
+          >Lyrik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >core</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >ready</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >china</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="abcb">
+            <l><hi rendition="#in">W</hi>eiſch, wo der Weg zum Mehlfaß iſch,</l>
+            <lb/>
+            <l>zum volle Faß? Im Morgeroth</l>
+            <lb/>
+            <l>mit Pflug und Charſt dur’s Weizefeld,</l>
+            <lb/>
+            <l>bis Stern und Stern am Himmel ſtoht.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abcb">
+            <l>Me hackt, ſo lang der Tag eim hilft,</l>
+            <lb/>
+            <l>me luegt nit um, und blibt nit ſtoh;</l>
+            <lb/>
+            <l>z’ lezt goht der Weg dur ’s Schuͤre-Tenn</l>
+            <lb/>
+            <l>in d’ Chuchchi, und do hemmers io!</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="abcb">
+            <l>Weiſch wo der Weg zum Gulden iſch?</l>
+            <lb/>
+            <l>Er goht de rothe Chruͤtzere no,</l>
+            <lb/>
+            <l>und wer nit uffe Chruͤtzer luegt,</l>
+            <lb/>
+            <l>der wird zum Gulde ſchwerli cho.</l>
+          </lg>
+          <lb/>
+          <pb n="200" facs="#f0222"/>
+          <lg n="4" type="stanza" rhyme="abcb">
+            <l>Wo iſch der Weg zur Sunntig-Freud?</l>
+            <lb/>
+            <l>Gang ohni Gfohr im Werchtig no</l>
+            <lb/>
+            <l>dur d’ Werkſtatt <choice>
+                <sic>nnd</sic>
+                <corr>und</corr>
+              </choice> dur ’s Ackerfeld!</l>
+            <lb/>
+            <l>der Sunntig wird ſcho ſelber cho.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="abcb">
+            <l>Am Samſtig iſch er nit gar wit.</l>
+            <lb/>
+            <l>Was deckt er echt im Choͤrbli zu?</l>
+            <lb/>
+            <l>Denkwol e Pfuͤndli Fleiſch ins Gmuͤes,</l>
+            <lb/>
+            <l>’s cha ſy, ne Schoͤpli Wi derzu.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="abcb">
+            <l>Weiſch, wo der Weg in d’ Armeth goht?</l>
+            <lb/>
+            <l>Lueg numme, wo Tafere ſin!</l>
+            <lb/>
+            <l>Gang nit verbey, ’s iſch gute Wi,</l>
+            <lb/>
+            <l>’s ſin nagelneui Charte d’inn!</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="abcb">
+            <l>Im letſte Wirthshus hangt e Sack,</l>
+            <lb/>
+            <l>und wenn de furt gohſch, henk en a!</l>
+            <lb/>
+            <l>„Du alte Lump, wie ſtoht der nit</l>
+            <lb/>
+            <l>„der Bettelſack ſo zierlig a!“</l>
+          </lg>
+          <lb/>
+          <pb n="201" facs="#f0223"/>
+          <lg n="8" type="stanza" rhyme="abcb">
+            <l>Es iſch e hoͤlzene Becher drinn,</l>
+            <lb/>
+            <l>gib achtig druf, verliehr en nit!</l>
+            <lb/>
+            <l>Und wenn de an e Waͤſſerli chunnſch</l>
+            <lb/>
+            <l>und trinke magſch, ſe ſchoͤpf dermit!</l>
+          </lg>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="abcb">
+            <l>Wo iſch der Weg zu Fried und Ehr,</l>
+            <lb/>
+            <l>der Weg zum guten Alter echt?</l>
+            <lb/>
+            <l>Grad fuͤrſi gohts in Maͤßigkeit</l>
+            <lb/>
+            <l>mit ſtillem Sinn in Pflicht und Recht.</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="abcb">
+            <l>Und wenn de amme Chruͤtzweg ſtohſch,</l>
+            <lb/>
+            <l>und nuͤmme weiſch, wo ’s ane goht,</l>
+            <lb/>
+            <l>halt ſtill, und frog di Gwiſſe z’erſt,</l>
+            <lb/>
+            <l>’s cha duͤtſch, Gottlob, und folg ſi’m Roth!</l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="abcb">
+            <l>Wo mag der Weg zum Chilchhof ſy?</l>
+            <lb/>
+            <l>Was frogſch no lang? Gang, wo de witt!</l>
+            <lb/>
+            <l>Zum ſtille Grab im chuͤele Grund</l>
+            <lb/>
+            <l>fuͤhrt iede Weg, und ’s fehlt ſi nit.</l>
+          </lg>
+          <lb/>
+          <pb n="202" facs="#f0224"/>
+          <lg n="12" type="stanza" rhyme="abcb">
+            <l>Doch wandle du in Gottis Furcht,</l>
+            <lb/>
+            <l>i roth der, was i rothe cha!</l>
+            <lb/>
+            <l>Sel Plaͤtzli het e gheimi Thuͤr,</l>
+            <lb/>
+            <l>und ’s ſin no Sachen ehne dra.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="2">
+        <lg type="poem">
+          <lg n="1">
+            <l>Nei Aetti, iſchs der Ernſt, es cha nit ſy?</l>
+            <lb/>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="3">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="ababcc">
+            <l><hi rendition="#in">E</hi> Buͤebli lauft, es goht in Wald</l>
+            <lb/>
+            <l>am Sunntig Nomittag;</l>
+            <lb/>
+            <l>es chunnt in d’ Huͤrſt und findet bald</l>
+            <lb/>
+            <l>Erberi Schlag an Schlag;</l>
+            <lb/>
+            <l>es guͤnnt und ißt ſi halber z’ tod,</l>
+            <lb/>
+            <l>und denkt: „Das iſch mi Obebrod.“</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababcc">
+            <l>Und wie nes ißt, ſe ruuſchts im Laub;</l>
+            <lb/>
+            <l>es chunnt e ſchoͤne Chnab.</l>
+            <lb/>
+            <l>Er het e Rock, wie Silberſtaub,</l>
+            <lb/>
+            <l>und treit e goldige Stab;</l>
+            <lb/>
+            <l>er glaͤnzt wie d’ Sunn am Schwitzer-Schnee;</l>
+            <lb/>
+            <l>ſi lebelang hets nuͤt ſo gſeh.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Druf</fw>
+          <lb/>
+          <pb n="193" facs="#f0215"/>
+          <lg n="3" type="stanza" rhyme="ababcc">
+            <l>Druf redt der Chnab mi Buͤebli a:</l>
+            <lb/>
+            <l>„Was ißiſch, i halts mit?“ —</l>
+            <lb/>
+            <l>„He, nuͤt,“ ſeit ’s Buͤebli, luegt en a,</l>
+            <lb/>
+            <l>und luͤpft ſi Chaͤppli nit.</l>
+            <lb/>
+            <l>Druf ſeit der Chnab: „He, ißiſch nuͤt,</l>
+            <lb/>
+            <l>„Du grobe Burſt, ſe battet ’s nuͤt!“</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababcc">
+            <l>Verſchwunden iſch mi Chnab, unds ſtoͤhn</l>
+            <lb/>
+            <l>die noͤchſte Huͤrſt im Duft;</l>
+            <lb/>
+            <l>drus fliegt en Engeli wunderſchoͤn</l>
+            <lb/>
+            <l>uf in die blaue Luft,</l>
+            <lb/>
+            <l>und ’s Buͤebli ſtoht, und luegt em no,</l>
+            <lb/>
+            <l>und chrazt im Hoor, und lauft dervo.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababcc">
+            <l>Und ſieder iſch kei Sege meh</l>
+            <lb/>
+            <l>im Beeri-Eſſe gſi.</l>
+            <lb/>
+            <l>J ha mi lebtig nuͤt ſo gſeh,</l>
+            <lb/>
+            <l>ſie bſchießen ebe nie.</l>
+            <lb/>
+            <l>Iß hampflevoll, ſo viel de witt,</l>
+            <lb/>
+            <l>ſie ſtille der di Hunger nit!</l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">13</fw>
+          <lb/>
+          <pb n="194" facs="#f0216"/>
+          <lg n="6" type="stanza" rhyme="ababcc">
+            <l>Was gibi der fuͤr Lehre dri?</l>
+            <lb/>
+            <l>Was ſeiſch derzu? Me mueß</l>
+            <lb/>
+            <l>vor fremde Luͤte fruͤndli ſi</l>
+            <lb/>
+            <l>mit Wort und Red und Grueß,</l>
+            <lb/>
+            <l>und ’s Chaͤppli luͤpfe z’ rechter Zit</l>
+            <lb/>
+            <l>ſuſt het me Schimpf und chunnt nit wit.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="4">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="aabb">
+            <l><hi rendition="#in">U</hi>nd woni uffem Schnid-Stuhl ſitz</l>
+            <lb/>
+            <l>fuͤr Baſſeltang, und Liechtſpoͤh ſchnitz,</l>
+            <lb/>
+            <l>ſe chunnt e Hexli wohlgimuth,</l>
+            <lb/>
+            <l>und frogt no frey: „Haut’s Meſſer gut?“</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabb">
+            <l>Und ſeit mer frey no Gute Tag!</l>
+            <lb/>
+            <l>und woni lueg, und woni ſag:</l>
+            <lb/>
+            <l>„’s choͤnnt beſſer go, und Große Dank!“</l>
+            <lb/>
+            <l>ſe wird mer ’s Herz uf ei mol chrank.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="aabb">
+            <l>Und uf, und furt enanderno,</l>
+            <lb/>
+            <l>und woni lueg, iſchs nuͤmme do,</l>
+            <lb/>
+            <l>und woni ruͤef: „Du Hexli he!“</l>
+            <lb/>
+            <l>ſe gits mer ſcho kei Antwort meh.</l>
+          </lg>
+          <lb/>
+          <pb n="70" facs="#f0088"/>
+          <lg n="4" type="stanza" rhyme="aabb">
+            <l>Und ſieder ſchmekt mer ’s Eſſe nit;</l>
+            <lb/>
+            <l>ſtell umme, was de heſch und witt,</l>
+            <lb/>
+            <l>und wenn en anders ſchlofe cha,</l>
+            <lb/>
+            <l>ſe hoͤri alli Stunde ſchla.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="aabb">
+            <l>Und was i ſchaff das g’rothet nit,</l>
+            <lb/>
+            <l>und alli Schritt und alli Tritt,</l>
+            <lb/>
+            <l>ſe chunnt mer ebe das Hexli fuͤr,</l>
+            <lb/>
+            <l>und was i ſchwetz, iſch hinterfuͤr.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="aabb">
+            <l>’s iſch wohr, es het e Gſichtli gha,</l>
+            <lb/>
+            <l>’s verluegti ſi en Engel dra;</l>
+            <lb/>
+            <l>und ’s ſeit mit ſo ’me freie Muth,</l>
+            <lb/>
+            <l>ſo lieb und ſuͤß: „Haut ’s Meſſer gut?“</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="aabb">
+            <l>Und leider hani’s ghoͤrt und gſeh,</l>
+            <lb/>
+            <l>und ſellemols und nuͤmme meh;</l>
+            <lb/>
+            <l>doͤrt iſchs an Hag und Hurſt verbey,</l>
+            <lb/>
+            <l>und witers uͤber Stock und Stei.</l>
+          </lg>
+          <lb/>
+          <pb n="71" facs="#f0089"/>
+          <lg n="8" type="stanza" rhyme="aabb">
+            <l>Wer ſpoͤchtet mer mi Hexli us,</l>
+            <lb/>
+            <l>wer zeigtmer ſiner Mutter Hus?</l>
+            <lb/>
+            <l>J lauf no, was i laufe cha,</l>
+            <lb/>
+            <l>wer weiß, ſe triffi’s doch no a!</l>
+          </lg>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="aabb">
+            <l>J lauf no alli Doͤrfer us,</l>
+            <lb/>
+            <l>i ſuch und frog vo Hus zu Hus,</l>
+            <lb/>
+            <l>und wuͤrd mer nit mi Hexli chund,</l>
+            <lb/>
+            <l>ſe wuͤrdi ebe nuͤmme gſund.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="5">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="aabbcc">
+            <l><hi rendition="#in">W</hi>oher ſo fruͤeih, wo ane ſcho,</l>
+            <lb/>
+            <l>Her Morge-Stern enanderno</l>
+            <lb/>
+            <l>in diner glitzrige Himmels-Tracht,</l>
+            <lb/>
+            <l>in diner guldige Locke Pracht,</l>
+            <lb/>
+            <l>mit dinen Auge chlor und blau</l>
+            <lb/>
+            <l>und ſufer g’waͤſchen im Morge-Thau?</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabbcc">
+            <l>Heſch gmeint, de ſeigſch elleinig do?</l>
+            <lb/>
+            <l>Nei weger nei, mer meihe ſcho!</l>
+            <lb/>
+            <l>Mer meihe ſcho ne halbi Stund;</l>
+            <lb/>
+            <l>fruͤeih uſſto iſch de Gliedere gſund,</l>
+            <lb/>
+            <l>es macht e friſche frohe Muth,</l>
+            <lb/>
+            <l>und d’Suppe ſchmekt eim no ſo gut.</l>
+          </lg>
+          <lb/>
+          <pb n="46" facs="#f0064"/>
+          <lg n="3" type="stanza" rhyme="aabbcc">
+            <l>’s git Luͤt, ſie doſe frili no,</l>
+            <lb/>
+            <l>ſie choͤnne ſchier nit uſe cho.</l>
+            <lb/>
+            <l>Der Maͤhder und der Morge-Stern</l>
+            <lb/>
+            <l>ſtoͤhn zitli uf, und wache gern,</l>
+            <lb/>
+            <l>und was me fruͤeih um Vieri thut,</l>
+            <lb/>
+            <l>das chunnt eim z’Nacht um Nuͤni gut.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="aabbcc">
+            <l>Und d’Voͤgeli ſin au ſcho do,</l>
+            <lb/>
+            <l>ſie ſtimmen ihri Pfifli ſcho,</l>
+            <lb/>
+            <l>und uffem Baum und hinterm Hag</l>
+            <lb/>
+            <l>ſeit eis im andere Gute Tag!</l>
+            <lb/>
+            <l>Und ’s Turtel-Tuͤbli ruukt und lacht,</l>
+            <lb/>
+            <l>und ’s Betzit-Gloͤckli iſch au verwacht.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="aabbcc">
+            <l>„Se helfis Gott, und gebis Gott</l>
+            <lb/>
+            <l>„e gute Tag, und bhuͤtis Gott!</l>
+            <lb/>
+            <l>„Mer beten um e chriſtlig Herz,</l>
+            <lb/>
+            <l>„es chunnt eim wohl in Freud und Schmerz;</l>
+            <lb/>
+            <l>„wer chriſtli lebt, het frohe Muth:</l>
+            <lb/>
+            <l>„der lieb Gott ſtoht fuͤr alles gut.“</l>
+          </lg>
+          <lb/>
+          <pb n="47" facs="#f0065"/>
+          <lg n="6" type="stanza" rhyme="aabbcc">
+            <l>Weiſch Jobbeli, was der Morge-Stern</l>
+            <lb/>
+            <l>am Himmel ſucht? Me ſeits nit gern!</l>
+            <lb/>
+            <l>Er wandlet imme Sternli no,</l>
+            <lb/>
+            <l>er cha ſchier gar nit vonnem lo;</l>
+            <lb/>
+            <l>doch meint ſi Mutter, ’s muͤeß nit ſy,</l>
+            <lb/>
+            <l>und thut en wie ne Huͤenli i.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="aabbcc">
+            <l>Drum ſtoht er uf vor Tag, und goht</l>
+            <lb/>
+            <l>ſi’m Sternli no im Morgeroth;</l>
+            <lb/>
+            <l>er ſucht und ’s wird em windeweh,</l>
+            <lb/>
+            <l>er moͤcht em gern e Schmuͤtzli ge,</l>
+            <lb/>
+            <l>er moͤcht em ſagen: J bi der hold!</l>
+            <lb/>
+            <l>es waͤr em uͤber Geld und Gold.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="aabbcc">
+            <l>Doch wenn er ſchier gar bynem waͤr,</l>
+            <lb/>
+            <l>verwacht ſi Mutter handumcher,</l>
+            <lb/>
+            <l>und wenn ſie ruͤeft enanderno,</l>
+            <lb/>
+            <l>ſen iſch mi Buͤrſtli niene do.</l>
+            <lb/>
+            <l>Druf flicht ſie ihre Chranz ins Hoor,</l>
+            <lb/>
+            <l>und lueget hinter de Berge vor.</l>
+          </lg>
+          <lb/>
+          <pb n="48" facs="#f0066"/>
+          <lg n="9" type="stanza" rhyme="aabbcc">
+            <l>Und wenn der Stern ſi Mutter ſieht,</l>
+            <lb/>
+            <l>ſe wird er todesbleich und flieht,</l>
+            <lb/>
+            <l>er ruͤeft ſi’m Sternli: Bhuͤtdi Gott!</l>
+            <lb/>
+            <l>es iſch, aß wenn er ſterbe wott.</l>
+            <lb/>
+            <l>Jez Morge-Stern heſch hohi Zit</l>
+            <lb/>
+            <l>di Muͤtterli iſch nuͤmme wit.</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="aabbcc">
+            <l>Doͤrt chunnt ſie ſcho, i ha’s io gſeit,</l>
+            <lb/>
+            <l>in ihrer ſtille Herlichkeit!</l>
+            <lb/>
+            <l>Sie zuͤndet ihri Strahlen a,</l>
+            <lb/>
+            <l>der Chilch-Thurn waͤrmt ſi au ſcho dra,</l>
+            <lb/>
+            <l>und wo ſie fallen in Berg und Thal,</l>
+            <lb/>
+            <l>ſe ruͤehrt ſi ’s Leben uͤberal.</l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="aabbcc">
+            <l>Der Storch probirt ſi Schnabel ſcho,</l>
+            <lb/>
+            <l>„de chaſchs perfekt, wie geſter no!“</l>
+            <lb/>
+            <l>und d’Chemi rauchen au alsgmach;</l>
+            <lb/>
+            <l>hoͤrſch ’s Muͤhli-Rad am Erle-Bach,</l>
+            <lb/>
+            <l>und wie im dunkle Buche-Wald</l>
+            <lb/>
+            <l>mit ſchwere Streiche d’Holz-Ax fallt?</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Was</fw>
+          <lb/>
+          <pb n="49" facs="#f0067"/>
+          <lg n="12" type="stanza" rhyme="aabbcc">
+            <l>Was wandlet doͤrt im Morge-Stral</l>
+            <lb/>
+            <l>Mit Tuch und Chorb dur’s Matte-Thal?</l>
+            <lb/>
+            <l>’s ſin d’Meidli iung, und flink und froh,</l>
+            <lb/>
+            <l>ſie bringe weger d’<choice>
+                <sic>Snppe</sic>
+                <corr>Suppe</corr>
+              </choice> ſcho,</l>
+            <lb/>
+            <l>und ’s Anne Meili vornen a,</l>
+            <lb/>
+            <l>es lacht mi ſcho vo witem a.</l>
+          </lg>
+          <lb/>
+          <lg n="13" type="stanza" rhyme="aabbcc">
+            <l>Wenn ich der Sunn ihr Buͤebli waͤr,</l>
+            <lb/>
+            <l>und ’s Anne Meili chaͤm ungfaͤhr</l>
+            <lb/>
+            <l>im Morgeroth, ihm giengi no,</l>
+            <lb/>
+            <l>i muͤeßt vom Himmel abe cho,</l>
+            <lb/>
+            <l>und wenn au d’Muetter balge wott,</l>
+            <lb/>
+            <l>ich choͤnnts nit lo, verzeihmers Gott!</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="6">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabbccddee">
+            <l>Her Jeſis, der Friedli, mi Friedli iſch do!</l>
+            <lb/>
+            <l>Gottwilche, Gottwilche, wohl chenni di no!</l>
+            <lb/>
+            <l>Wohl het mi bigleitet di liebligi Gſtalt,</l>
+            <lb/>
+            <l>uf duftige Matten im ſchattige Wald.</l>
+            <lb/>
+            <l>Wohl het di bigleitet mi b’chuͤmmeret Herz</l>
+            <lb/>
+            <l>dur Schwerdter und Chugle mit Hofnig</l>
+            <lb/>
+            <l>und Schmerz,</l>
+            <lb/>
+            <l>und briegget und bettet. Gott het mer will-</l>
+            <lb/>
+            <l>fahrt,</l>
+            <lb/>
+            <l>und het mer mi Friedli und het mer en gſpart.</l>
+            <lb/>
+            <l>Wie chlopfts mer im Bueſe, wie bini ſo froh!</l>
+            <lb/>
+            <l>O Muetter, chumm weidli, mi Fridli iſch do!</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="7">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="aabccb">
+            <l><hi rendition="#in">J</hi> chumm do us ’s Rothshere Hus,</l>
+            <lb/>
+            <l>’s iſch wohr, ’s ſieht proper us;</l>
+            <lb/>
+            <l>doch iſchs mer, ſie heigen o Muͤeih und Roth</l>
+            <lb/>
+            <l>und allerlei ſchweri Gidanke,</l>
+            <lb/>
+            <l>
+              <hi rendition="#g">„Chromet ſuͤſſen Anke!“</hi>
+            </l>
+            <lb/>
+            <l>wies eben uͤberal goht.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabccb">
+            <l>Jo weger, me meint in der Stadt</l>
+            <lb/>
+            <l>ſeig alles ſufer und glatt;</l>
+            <lb/>
+            <l>die Here ſehn eim ſo luſtig us,</l>
+            <lb/>
+            <l>und ’s Chruͤtz iſch ebe durane,</l>
+            <lb/>
+            <l>
+              <hi rendition="#g">„Chromet iungi Hahne!“</hi>
+            </l>
+            <lb/>
+            <l>mengmol im proͤperſte Hus.</l>
+          </lg>
+          <lb/>
+          <pb n="77" facs="#f0095"/>
+          <lg n="3" type="stanza" rhyme="aabccb">
+            <l>Und wemme gchaͤmpft muß ha,</l>
+            <lb/>
+            <l>gohts, meini, ehnder no a</l>
+            <lb/>
+            <l>im Freie duſſe, wo d’ Sunn o lacht;</l>
+            <lb/>
+            <l>do innen iſchs zum Bitruͤebe;</l>
+            <lb/>
+            <l>
+              <hi rendition="#g">„Chromet geli Ruͤebe!“</hi>
+            </l>
+            <lb/>
+            <l>Sie hen ſchier alliwil Nacht.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="aabccb">
+            <l>Fruͤeih, wenn der Tag verwacht,</l>
+            <lb/>
+            <l>was iſchs nit fuͤr e Pracht!</l>
+            <lb/>
+            <l>Der lieb Gott, meintme, well ſelber cho,</l>
+            <lb/>
+            <l>er ſeig ſcho an der Chriſchone, <note place="foot" n="*)">Alte Kirche auf einem
+                Bergruͤcken.</note></l>
+            <lb/>
+            <l>
+              <hi rendition="#g">„Chromet gruͤni Bohne!“</hi>
+            </l>
+            <lb/>
+            <l>und choͤmm iez enanderno.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="aabccb">
+            <l>Und d’ Voͤgeli meines o,</l>
+            <lb/>
+            <l>ſie werde ſo buſper und froh,</l>
+            <lb/>
+            <l>und ſinge: „Herr Gott dich loben wir“</l>
+            <lb/>
+            <l>und ’s glitzeret ebe z’ſend ane;</l>
+            <lb/>
+            <l>
+              <hi rendition="#g">„Chromet iungi Hahne!“</hi>
+            </l>
+            <lb/>
+            <l>’s iſch wohr, me verlueget ſi ſchier.</l>
+          </lg>
+          <lb/>
+          <pb n="78" facs="#f0096"/>
+          <lg n="6" type="stanza" rhyme="aabccb">
+            <l>Und faßt e friſche Muth,</l>
+            <lb/>
+            <l>und denkt: Gott meints io gut,</l>
+            <lb/>
+            <l>ſuſt haͤtt der Himmel kei Morgeroth;</l>
+            <lb/>
+            <l>er willis nummen o uͤebe;</l>
+            <lb/>
+            <l>
+              <hi rendition="#g">„Chromet geli Ruͤebe!“</hi>
+            </l>
+            <lb/>
+            <l>mer bruche ke Zuckerbrod.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="aabccb">
+            <l>Und innewendig am Thor</l>
+            <lb/>
+            <l>ſe hen ſie d’Umhaͤng no vor,</l>
+            <lb/>
+            <l>’s iſch ebe no alles ſtill und tod.</l>
+            <lb/>
+            <l>Und ziehn ſie der Umhang fuͤrſi,</l>
+            <lb/>
+            <l>
+              <hi rendition="#g">„Chromet ſchwarzi Chirſi!“</hi>
+            </l>
+            <lb/>
+            <l>ſe ſehn ſie kei Morgeroth.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="aabccb">
+            <l>Drum merke ſies ſelber ſchier,</l>
+            <lb/>
+            <l>und choͤmme zum Plaͤſir</l>
+            <lb/>
+            <l>ufs Land, und hole ne friſche Muth</l>
+            <lb/>
+            <l>im Adler und bym Schwane;</l>
+            <lb/>
+            <l>
+              <hi rendition="#g">„Chromet iungi Hahne!“</hi>
+            </l>
+            <lb/>
+            <l>uͤs ſtuͤnd io d’ Stadt wol gut!</l>
+          </lg>
+          <lb/>
+          <pb n="79" facs="#f0097"/>
+          <lg n="9" type="stanza" rhyme="aabccb">
+            <l>Und doch meint ſo ne Her,</l>
+            <lb/>
+            <l>er ſeig weiß Wunder mehr,</l>
+            <lb/>
+            <l>aß uͤſers gattigs und bſchaut ein nit.</l>
+            <lb/>
+            <l>es dunkt mi aber, er ir ſi;</l>
+            <lb/>
+            <l>
+              <hi rendition="#g">„Chro met ſuͤſſi Chirſi!“</hi>
+            </l>
+            <lb/>
+            <l>mer tnuſchte wegerli nit.</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="aabccb">
+            <l>Rich ſin ſie, ’s iſch kei Frog,</l>
+            <lb/>
+            <l>’s Geld het nit Platz im Trog;</l>
+            <lb/>
+            <l>thut uͤſer eim e Buͤeßli weh,</l>
+            <lb/>
+            <l>Verbauſe ſie Dublone,</l>
+            <lb/>
+            <l>
+              <hi rendition="#g">„Chromet gruͤni Bohne!“</hi>
+            </l>
+            <lb/>
+            <l>und hen no alliwil meh.</l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="aabccb">
+            <l>Was choſt en Immis nit?</l>
+            <lb/>
+            <l>’s heißt numme: Mul, was witt?</l>
+            <lb/>
+            <l>Paſtetli, Struͤbli, Fleiſch und Fiſch,</l>
+            <lb/>
+            <l>und Toͤrtli und Makrone;</l>
+            <lb/>
+            <l>
+              <hi rendition="#g">„Chromet gruͤni Bohne!“</hi>
+            </l>
+            <lb/>
+            <l>der Platz fehlt uffem Tiſch.</l>
+          </lg>
+          <lb/>
+          <pb n="80" facs="#f0098"/>
+          <lg n="12" type="stanza" rhyme="aabccb">
+            <l>Und erſt der Staat am Lib!</l>
+            <lb/>
+            <l>me cha’s nit ſeh vor Chib.</l>
+            <lb/>
+            <l>Jo wedelet numme, d’Stroß iſch breit,</l>
+            <lb/>
+            <l>mit eue Junten! J thaͤtich —</l>
+            <lb/>
+            <l>
+              <hi rendition="#g">„Chromet zarti Retich!“</hi>
+            </l>
+            <lb/>
+            <l>i haͤtt ſchier gar naͤumis gſeit.</l>
+          </lg>
+          <lb/>
+          <lg n="13" type="stanza" rhyme="aabccb">
+            <l>Doch iſch eim ’s Herz bitruͤbt,</l>
+            <lb/>
+            <l>ſe gib em, was em bliebt,</l>
+            <lb/>
+            <l>es ſchmekt em nit und freut en nit;</l>
+            <lb/>
+            <l>es goht eim wie de Chranke;</l>
+            <lb/>
+            <l>
+              <hi rendition="#g">„Chromet ſuͤſſen Anke!“</hi>
+            </l>
+            <lb/>
+            <l>Was thut me denn dermit?</l>
+          </lg>
+          <lb/>
+          <lg n="14" type="stanza" rhyme="aabccb">
+            <l>Und het me Chruͤtz und Harm,</l>
+            <lb/>
+            <l>ſen iſch me ringer arm;</l>
+            <lb/>
+            <l>me het nit viel, und brucht nit viel,</l>
+            <lb/>
+            <l>und iſch doch ſicher vor Diebe;</l>
+            <lb/>
+            <l>
+              <hi rendition="#g">„Chromet geli Ruͤebe!“</hi>
+            </l>
+            <lb/>
+            <l>z’lezt chuunt men o zum Ziel.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Jo</fw>
+          <lb/>
+          <pb n="81" facs="#f0099"/>
+          <lg n="15" type="stanza" rhyme="aabccb">
+            <l>Jo gell, wenns Stuͤndli ſchlacht?</l>
+            <lb/>
+            <l>He io, ’s bringt iedi Nacht</l>
+            <lb/>
+            <l>e Morgen, und me freut ſi druf.</l>
+            <lb/>
+            <l>Gott het im Himmel Chrone;</l>
+            <lb/>
+            <l>
+              <hi rendition="#g">„Chromet gruͤni Bohne!“</hi>
+            </l>
+            <lb/>
+            <l>Mer wen do das Gaͤßli uf.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="8">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="aabbcc">
+            <l><hi rendition="#in">I</hi>m Aetti ſezt der Oehldampf zu.</l>
+            <lb/>
+            <l>Mer choͤnnte ’s Aempeli uſe thue,</l>
+            <lb/>
+            <l>und d’Laͤden uf. Der Morge-Schi’</l>
+            <lb/>
+            <l>blickt ſcho zum runde Naſtloch i. —</l>
+            <lb/>
+            <l>O lueget doch, wie chalt und roth</l>
+            <lb/>
+            <l>der Jenner uf de Berge ſtoht.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabbcc">
+            <l>Er ſeit: <hi rendition="#g">„J</hi> bi ne <hi rendition="#g">b’liebte</hi> Ma,</l>
+            <lb/>
+            <l>„der Stern am Himmel lacht mi a!</l>
+            <lb/>
+            <l>„Er glitzeret vor Luſt und Freud,</l>
+            <lb/>
+            <l>„und mueß er furt, ſen iſchs em Leid;</l>
+            <lb/>
+            <l>„er luegt mi a, und cha ’s nit lo,</l>
+            <lb/>
+            <l>„und wuͤrd byzite wieder cho.</l>
+          </lg>
+          <lb/>
+          <pb n="188" facs="#f0210"/>
+          <lg n="3" type="stanza" rhyme="aabbcc">
+            <l>„Und unter mer in Berg und Thal,</l>
+            <lb/>
+            <l>„wie flimmerets nit uͤberal!</l>
+            <lb/>
+            <l>„An allen Ende Schnee und Schnee;</l>
+            <lb/>
+            <l>„’s iſch alles mir zu Ehre gſcheh,</l>
+            <lb/>
+            <l>„und woni gang im wite Feld,</l>
+            <lb/>
+            <l>„ſin Stroße bahnt, und Brucke gſtellt.“</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="aabbcc">
+            <l>Er ſeit: <hi rendition="#g">„J</hi> bi ne <hi rendition="#g">friſche</hi> Ma,</l>
+            <lb/>
+            <l>„i ha ne luftig Tſchoͤpli a,</l>
+            <lb/>
+            <l>„und rothi Backe bis ans Ohr,</l>
+            <lb/>
+            <l>„e heiter Aug und Duft im Hoor,</l>
+            <lb/>
+            <l>„ke Wintergfriſt, ke Gliederweh,</l>
+            <lb/>
+            <l>„und woni gang, ſe chracht der Schnee.“</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="aabbcc">
+            <l>Er ſeit: <hi rendition="#g">„J</hi> bi ne <hi rendition="#g">gſchickte</hi> Ma,</l>
+            <lb/>
+            <l>„lueg, wieni uͤberzuckere cha!</l>
+            <lb/>
+            <l>„J chuuch, und an de Huͤrſte hangts,</l>
+            <lb/>
+            <l>„und an de zarte Birche ſchwankts.</l>
+            <lb/>
+            <l>„Der Zuckerbeck mit gſchickter Hand,</l>
+            <lb/>
+            <l>„mit Geld und Gut waͤr’s nit im Stand.</l>
+          </lg>
+          <lb/>
+          <pb n="189" facs="#f0211"/>
+          <lg n="6" type="stanza" rhyme="aabbcc">
+            <l>„Jez lueg au dini Schiben a,</l>
+            <lb/>
+            <l>„und wieni Helgli chritzle cha!</l>
+            <lb/>
+            <l>„Do heſch e Bluͤemli, wenns der gfallt,</l>
+            <lb/>
+            <l>„do heſch e ganze Tannewald!</l>
+            <lb/>
+            <l>„Der Fruͤehlig choͤnnts nit halber ſo,</l>
+            <lb/>
+            <l>„s iſch mit der Farb nit alles tho.“</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="aabbcc">
+            <l>Er ſeit: „J bi ne ſt <hi rendition="#g">arche</hi> Ma,</l>
+            <lb/>
+            <l>„und zwing mi naͤumer, wenn er cha!</l>
+            <lb/>
+            <l>„Der Forſter gſtablet uf der Jacht,</l>
+            <lb/>
+            <l>„der Bruñtrog ſpringt, der Eichbaum chracht.</l>
+            <lb/>
+            <l>„D’ Frau Sunne mittem Gſichtli rund,</l>
+            <lb/>
+            <l>„het ’s Herz nit, aß ſie fuͤre chunnt.“ —</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="aabbcc">
+            <l>’s iſch wohr, me weiß nit, was ſie tribt,</l>
+            <lb/>
+            <l>und wo ſie alli Morge blibt.</l>
+            <lb/>
+            <l>Wie laͤnger Nacht, wie ſpoͤter Tag,</l>
+            <lb/>
+            <l>wie beſſer, aß ſie ſchlofe mag,</l>
+            <lb/>
+            <l>und blieb es bis um Zehni Nacht,</l>
+            <lb/>
+            <l>ſe chaͤm ſie erſt, wenns Oelfi ſchlacht.</l>
+          </lg>
+          <lb/>
+          <pb n="190" facs="#f0212"/>
+          <lg n="9" type="stanza" rhyme="aabbcc">
+            <l>Nei het ſie’s ghoͤrt? Doͤrt chunnt ſie io!</l>
+            <lb/>
+            <l>Me meint, ’s brenn alles liechterloh! —</l>
+            <lb/>
+            <l>Sie ſtoht im chalte Morgeluft,</l>
+            <lb/>
+            <l>ſie ſchwimmt im rothe Nebelduft.</l>
+            <lb/>
+            <l>Zeig, chuuch e wenig d’ Schiben a,</l>
+            <lb/>
+            <l>’s iſch, aß me beſſer luege cha!</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="aabbcc">
+            <l>Der Nebel woget uf und ab,</l>
+            <lb/>
+            <l>und d’ Sunne chaͤmpft, ſie loßt nit ab. —</l>
+            <lb/>
+            <l>Jez het ſie ’s gunne. Wit und breit</l>
+            <lb/>
+            <l>ſtrahlt ihri Pracht und Herlichkeit.</l>
+            <lb/>
+            <l>O lueg, wie’s uͤber d’ Daͤcher wahlt,</l>
+            <lb/>
+            <l>am Chilche-Fenſter, lueg, wies ſtrahlt.</l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="aabbcc">
+            <l>Der Jenner ſezt ſi Arm in d’ Huft,</l>
+            <lb/>
+            <l>er rukt am Hut, und ſchnellt in d’ Luft.</l>
+            <lb/>
+            <l>Der Jenner ſeit: „J foͤrch di nit!</l>
+            <lb/>
+            <l>„Chumm, wenn de mit mer baſchge witt!</l>
+            <lb/>
+            <l>„Was gilts, de wuͤrſch byzite goh,</l>
+            <lb/>
+            <l>„und ruͤehmſch dim Buͤeble nit dervo!“</l>
+          </lg>
+          <lb/>
+          <pb n="191" facs="#f0213"/>
+          <lg n="12" type="stanza" rhyme="aabbcc">
+            <l>Je ’s waͤr wol huͤbſch und liebli ſo,</l>
+            <lb/>
+            <l>im warme Stuͤbli gfallts eim ſcho.</l>
+            <lb/>
+            <l>Doch meugi Frau, das Gott erbarm,</l>
+            <lb/>
+            <l>ſie nimmt ihr nackig Chind in d’Arm,</l>
+            <lb/>
+            <l>ſie het em nuͤt um d’ Gliedli z’ thue,</l>
+            <lb/>
+            <l>und wicklet’s mittem Fuͤrtuech zu.</l>
+          </lg>
+          <lb/>
+          <lg n="13" type="stanza" rhyme="aabbcc">
+            <l>Sie het kei Holz, und het kei Brod,</l>
+            <lb/>
+            <l>ſie ſizt und chlagts im liebe Gott.</l>
+            <lb/>
+            <l>Gfriert Stei und Bei, wohl thaut der Schmerz</l>
+            <lb/>
+            <l>no Thraͤnen uf im Muetterherz.</l>
+            <lb/>
+            <l>Der Jenner iſch e <hi rendition="#g">ruuche</hi> Ma,</l>
+            <lb/>
+            <l>er nimmt ſi nuͤt um d’ Armeth a.</l>
+          </lg>
+          <lb/>
+          <lg n="14" type="stanza" rhyme="aabbcc">
+            <l>Gang bring der arme Fiſcher-Lis’</l>
+            <lb/>
+            <l>e Saͤckli Mehl, e Hemdli wiß,</l>
+            <lb/>
+            <l>nimm au ne Wellen oder zwo,</l>
+            <lb/>
+            <l>und ſag, ſie ſoll au zuenis cho,</l>
+            <lb/>
+            <l>und Weihe hole, wenni bach,</l>
+            <lb/>
+            <l>und decket iez der Tiſch alsgmach.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="9">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="abcccb">
+            <l><hi rendition="#in">E</hi>s gfallt mer nummen eini,</l>
+            <lb/>
+            <l>und ſelli gfallt mer gwis!</l>
+            <lb/>
+            <l>O wenni doch das Meidli haͤtt,</l>
+            <lb/>
+            <l>es iſch ſo flink und dundersnett,</l>
+            <lb/>
+            <l>ſo dundersnett,</l>
+            <lb/>
+            <l>i waͤr im Paradies!</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="abcccb">
+            <l>’s iſch wohr, das Meidli gfallt mer,</l>
+            <lb/>
+            <l>und ’s Meidli haͤtti gern!</l>
+            <lb/>
+            <l>’s het alliwil e frohe Mueth,</l>
+            <lb/>
+            <l>e Gſichtli hets, wie Milch und Bluet,</l>
+            <lb/>
+            <l>wie Milch und Bluet,</l>
+            <lb/>
+            <l>und Auge wie ne Stern.</l>
+          </lg>
+          <lb/>
+          <pb facs="#f0149"/>
+          <figure/>
+          <pb facs="#f0150"/>
+          <pb n="131" facs="#f0151"/>
+          <lg n="3" type="stanza" rhyme="abcccb">
+            <l>Und wenni ’s ſieh vo witem,</l>
+            <lb/>
+            <l>ſe ſchießt mer ’s Bluet ins Gſicht;</l>
+            <lb/>
+            <l>es wird mer uͤbers Herz ſo chnapp,</l>
+            <lb/>
+            <l>und ’s Waſſer lauft mer d’ Backen ab,</l>
+            <lb/>
+            <l>wohl d’ Backen ab;</l>
+            <lb/>
+            <l>i weiß nit, wie mer gſchicht.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="abcccb">
+            <l>Am Ziſtig fruͤeih bym Brunne,</l>
+            <lb/>
+            <l>ſe redt ’s mi frey no a:</l>
+            <lb/>
+            <l>„Chumm, luͤpf mer Hans! Was fehlt der echt?</l>
+            <lb/>
+            <l>„Es iſch der naͤume gar nit recht,</l>
+            <lb/>
+            <l>nei gar nit recht!“</l>
+            <lb/>
+            <l>J denk mi Lebtig dra.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="abcccb">
+            <l>J ha ’s em ſolle ſage,</l>
+            <lb/>
+            <l>und haͤtti ’s numme gſeit!</l>
+            <lb/>
+            <l>Und wenni numme richer waͤr,</l>
+            <lb/>
+            <l>und waͤr mer nit mi Herz ſo ſchwer,</l>
+            <lb/>
+            <l>mi Herz ſo ſchwer,</l>
+            <lb/>
+            <l>’s gaͤb wieder Glegeheit.</l>
+          </lg>
+          <lb/>
+          <fw type="sig" place="bottom">9 *</fw>
+          <lb/>
+          <pb n="132" facs="#f0152"/>
+          <lg n="6" type="stanza" rhyme="abcccb">
+            <l>Und uf und furt, iez gangi,</l>
+            <lb/>
+            <l>’s wuͤrd iaͤten im Salat,</l>
+            <lb/>
+            <l>und ſag em’s, wenni naͤume cha,</l>
+            <lb/>
+            <l>und luegt es mi nit fruͤndli a,</l>
+            <lb/>
+            <l>nit fruͤndli a,</l>
+            <lb/>
+            <l>ſe bini morn Saldat.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="abcccb">
+            <l>En arme Kerli bini,</l>
+            <lb/>
+            <l>arm bini ſel iſch wohr!</l>
+            <lb/>
+            <l>Doch hani no nuͤt Unrechts tho,</l>
+            <lb/>
+            <l>und ſufer gwachſe waͤri io,</l>
+            <lb/>
+            <l>das waͤri io,</l>
+            <lb/>
+            <l>mit ſellem haͤtts kei Gfohr.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="abcccb">
+            <l>Was wiſplet in de Huͤrſte,</l>
+            <lb/>
+            <l>was ruͤehrt ſi echterſt doͤrt?</l>
+            <lb/>
+            <l>Es viſperlet, es ruuſcht im Laub.</l>
+            <lb/>
+            <l>O bhuͤetis Gott der Her, i glaub,</l>
+            <lb/>
+            <l>i glaub, i glaub,</l>
+            <lb/>
+            <l>es het mi naͤumer ghoͤrt.</l>
+          </lg>
+          <lb/>
+          <pb n="133" facs="#f0153"/>
+          <lg n="9" type="stanza" rhyme="abcccb">
+            <l>„Do bini io, do heſch mi,</l>
+            <lb/>
+            <l>„und wenn de mi denn witt!</l>
+            <lb/>
+            <l>„J ha ’s ſcho ſieder’m Spoͤhtlig gmerkt;</l>
+            <lb/>
+            <l>„am Ziſtig heſch mi voͤllig bſtaͤrkt,</l>
+            <lb/>
+            <l>io, voͤllig bſtaͤrkt.</l>
+            <lb/>
+            <l>„Und worum ſeiſch ’s denn nit?</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="abcccb">
+            <l>„Und biſch nit rich an Guͤlte,</l>
+            <lb/>
+            <l>„und biſch nit rich an Gold,</l>
+            <lb/>
+            <l>„en ehrli Gmuͤeth iſch uͤber Geld,</l>
+            <lb/>
+            <l>„und ſchaffe chaſch in Hus und Feld,</l>
+            <lb/>
+            <l>in Hus und Feld,</l>
+            <lb/>
+            <l>„und lueg, i bi der hold!“</l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="abcccb">
+            <l>O Vreneli, was ſeiſch mer,</l>
+            <lb/>
+            <l>o Vreneli iſchs ſo?</l>
+            <lb/>
+            <l>De heſch mi uſem Fegfuͤuͤr gholt,</l>
+            <lb/>
+            <l>und laͤnger haͤtti ’s nuͤmme tolt,</l>
+            <lb/>
+            <l>nei, nuͤmme tolt.</l>
+            <lb/>
+            <l>Jo, freili willi, io!</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="10">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="aabb">
+            <l><hi rendition="#in">M</hi>i Hamberch haͤtti g’lert, ſo ſo, la la;</l>
+            <lb/>
+            <l>doch ſtoht mer ’s Trinke gar viel beſſer a,</l>
+            <lb/>
+            <l>as ’s Schaffe, ſel bikenni frey und frank;</l>
+            <lb/>
+            <l>der Rucke bricht mer ſchier am Hobelbank.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabb">
+            <l>Drum het mer d’ Mutter mengmol profezeit:</l>
+            <lb/>
+            <l>„Du chunnſch ke Meiſter uͤber wit und breit!“</l>
+            <lb/>
+            <l>J ha’s z’lezt ſelber glaubt, und denkt: Iſch’s ſo,</l>
+            <lb/>
+            <l>wie wirds mer echterſt in der Fremdi go?</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="aabb">
+            <l>Wie iſchs mer gange? Numme z’gut! J ha</l>
+            <lb/>
+            <l>in wenig Wuche <hi rendition="#g">ſiebe</hi> Meiſter gha.</l>
+            <lb/>
+            <l>O Muͤetterli, wie falſch heſch profezeit?</l>
+            <lb/>
+            <l>J choͤmm <hi rendition="#g">kei</hi> Meiſter uͤber, heſch mer gſeit.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="11">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="ab">
+            <l>O Aetti, ſag mer nuͤt me! Zwor wie gohts</l>
+            <lb/>
+            <l>de Luͤte denn, wenn alles brennt und</l>
+            <lb/>
+            <l>brennt?</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="12">
+        <lg type="poem">
+          <lg n="1" type="stanza" rhyme="aabb">
+            <l><hi rendition="#in">J</hi>ez brennt er in der ſchoͤnſten Art,</l>
+            <lb/>
+            <l>und ’s Waſſer ruuſcht, der Blosbalg gahrt,</l>
+            <lb/>
+            <l>und bis aß d’Nacht vom Himmel fallt,</l>
+            <lb/>
+            <l>ſe wuͤrd die erſti Maßle chalt.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabb">
+            <l>Und ’s Waſſer ruuſcht, der Blosbalg gahrt;</l>
+            <lb/>
+            <l>i ha druf hi ne Gulde g’ſpart.</l>
+            <lb/>
+            <l>Gang Chuͤngi, lengis alte Wi,</l>
+            <lb/>
+            <l>mer wen e wengli luſtig ſy!</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="aabb">
+            <l>Ne Freudeſtund iſch nit verwehrt;</l>
+            <lb/>
+            <l>me gnießt mit Dank, was Gott biſchert,</l>
+            <lb/>
+            <l>me trinkt e friſche frohe Mueth,</l>
+            <lb/>
+            <l>und druf ſchmekt wieder ’s Schaffe gut.</l>
+          </lg>
+          <lb/>
+          <pb n="37" facs="#f0053"/>
+          <lg n="4" type="stanza" rhyme="aabb">
+            <l>E Frendeſtund, e guti Stund!</l>
+            <lb/>
+            <l>’s erhaltet Lib und Chraͤfte gſund;</l>
+            <lb/>
+            <l>doch muß es in der Ordnig goh,</l>
+            <lb/>
+            <l>ſuſt het me Schand und Leid dervo.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="aabb">
+            <l>E frohe Ma, ne brave Ma!</l>
+            <lb/>
+            <l>Jez ſchenket i, und ſtoßet a:</l>
+            <lb/>
+            <l>„Es leb der Marggrov und ſi Huus!“</l>
+            <lb/>
+            <l>Ziehnt d’Chappen ab, und trinket us!</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="aabb">
+            <l>Ne beſſere Her treit d’Erde nit,</l>
+            <lb/>
+            <l>’s iſch Sege, was er thut und git,</l>
+            <lb/>
+            <l>i cha’s nit ſage, wieni ſott:</l>
+            <lb/>
+            <l>Vergelts em Gott! Vergelts em Gott!</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="aabb">
+            <l>Und ’s Bergwerch ſoll im Sege ſtoh!</l>
+            <lb/>
+            <l>’s het menge Burger ’s Brod dervo.</l>
+            <lb/>
+            <l>Der Her Inſpekter lengt in Trog,</l>
+            <lb/>
+            <l>und zahlt mit Freud, es iſch kei Frog.</l>
+          </lg>
+          <lb/>
+          <pb n="38" facs="#f0054"/>
+          <lg n="8" type="stanza" rhyme="aabb">
+            <l>Drum ſchenket i, und ſtoßet a!</l>
+            <lb/>
+            <l>Der Her Inſpekter iſch e Ma,</l>
+            <lb/>
+            <l>mit uͤſers Gattigs Luͤte gmei,</l>
+            <lb/>
+            <l>und fruͤndli gege groß und chlei.</l>
+          </lg>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="aabb">
+            <l>Er ſchafft e gute Wi ufs Werk,</l>
+            <lb/>
+            <l>er holt en uͤber Thal und Berg,</l>
+            <lb/>
+            <l>er ſtellt en luter uffe Tiſch,</l>
+            <lb/>
+            <l>und mißt wie’s recht und billig iſch.</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="aabb">
+            <l>Sell iſch verbey, der Ma am Fuͤuͤr</l>
+            <lb/>
+            <l>muß z’trinke ha, waͤrs no ſo thuͤr;</l>
+            <lb/>
+            <l>es rieſlet menge Tropfe Schweiß,</l>
+            <lb/>
+            <l>und wills nit go, men aͤchzet eis.</l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="aabb">
+            <l>Me ſtreift der Schweiß am Ermel ab,</l>
+            <lb/>
+            <l>me ſchnufet, d’ Baͤlg verſtuune drab,</l>
+            <lb/>
+            <l>und mengi liebi Mitternacht</l>
+            <lb/>
+            <l>wuͤrd ſo am heiße Herd verwacht.</l>
+          </lg>
+          <lb/>
+          <pb n="39" facs="#f0055"/>
+          <lg n="12" type="stanza" rhyme="aabb">
+            <l>Der Schmelzer iſch e plogte Ma,</l>
+            <lb/>
+            <l>drum bringet em’s, und ſtoßet a:</l>
+            <lb/>
+            <l>Gſegott! Vergiß di Schweiß und Ach,</l>
+            <lb/>
+            <l>’s het ieden anderen au ſi Sach!</l>
+          </lg>
+          <lb/>
+          <lg n="13" type="stanza" rhyme="aabb">
+            <l>Am Zahltag theiltiſch doch mit kei’m,</l>
+            <lb/>
+            <l>und bringſch der Lohn im Nastuch heim,</l>
+            <lb/>
+            <l>ſe luegt di d’Marei fruͤndli a,</l>
+            <lb/>
+            <l>und ſeit: „J ha ne brave Ma!“</l>
+          </lg>
+          <lb/>
+          <lg n="14" type="stanza" rhyme="aabb">
+            <l>Druf ſchlacht ſie Eiern-Anken i,</l>
+            <lb/>
+            <l><choice>
+                <sic>nnd</sic>
+                <corr>und</corr>
+              </choice>ſtraͤut e wenig Imber dri;</l>
+            <lb/>
+            <l>ſie bringt Salat und Gruͤebe dra,</l>
+            <lb/>
+            <l>und ſeit: „Jez iß du liebe Ma!“</l>
+          </lg>
+          <lb/>
+          <lg n="15" type="stanza" rhyme="aabb">
+            <l>Und wenn e Ma ſi Arbet thut,</l>
+            <lb/>
+            <l>ſe ſchmekt em au ſi Eſſe gut;</l>
+            <lb/>
+            <l>er tuuſchti nit in Leid und Lieb</l>
+            <lb/>
+            <l>mit mengem riche Galge-Dieb.</l>
+          </lg>
+          <lb/>
+          <pb n="40" facs="#f0056"/>
+          <lg n="16" type="stanza" rhyme="aabb">
+            <l>Mer ſitze do, und ’s ſchmektis wohl.</l>
+            <lb/>
+            <l>Gang Chuͤngeli lengis no nemol,</l>
+            <lb/>
+            <l>wil doch der Ofe wieder goht,</l>
+            <lb/>
+            <l>und ’s Erz im volle Chuͤbel ſtoht!</l>
+          </lg>
+          <lb/>
+          <lg n="17" type="stanza" rhyme="aabb">
+            <l>Se brenn er denn zu guter Stund,</l>
+            <lb/>
+            <l>und Gott erhaltich alli gſund,</l>
+            <lb/>
+            <l>und Gott biwahrich uf der Schicht,</l>
+            <lb/>
+            <l>aß niemes Leid und Ungluͤck gſchicht.</l>
+          </lg>
+          <lb/>
+          <lg n="18" type="stanza" rhyme="aabb">
+            <l>Und chunnt in ſtrenger Winters-Zit,</l>
+            <lb/>
+            <l>wenn Schnee uf Berg und Firſte lit,</l>
+            <lb/>
+            <l>en arme Bub, en arme Ma,</l>
+            <lb/>
+            <l>und ſtoht ans Fuͤuͤr, und waͤrmt ſi dra,</l>
+          </lg>
+          <lb/>
+          <lg n="19" type="stanza" rhyme="aabb">
+            <l>und bringt e par Grumbireli,</l>
+            <lb/>
+            <l>und leits ans Fuͤuͤr, und brotet ſie,</l>
+            <lb/>
+            <l>und ſchloft by’m Setzer uffem Erz —</l>
+            <lb/>
+            <l>ſchlof wohl, und troͤſt der Gott di Herz!</l>
+          </lg>
+          <lb/>
+          <pb n="41" facs="#f0057"/>
+          <lg n="20" type="stanza" rhyme="aabb">
+            <l>Doͤrt ſtoht ſo ein! Chumm arme Ma,</l>
+            <lb/>
+            <l>und thue eis Bſcheid, mer ſtoßen a!</l>
+            <lb/>
+            <l>Gſegott, und troͤſtder Gott di Herz,</l>
+            <lb/>
+            <l>me ſchloft nit lieblig uffem Erz!</l>
+          </lg>
+          <lb/>
+          <lg n="21" type="stanza" rhyme="aabb">
+            <l>Und chunnt zur Zit e Biderma</l>
+            <lb/>
+            <l>ans Fuͤuͤr, und zuͤndet ’s Pfifli a,</l>
+            <lb/>
+            <l>und ſezt ſi naͤumen ane mit,</l>
+            <lb/>
+            <l>ſe ſchmeks em wohl, und — brenn di nit!</l>
+          </lg>
+          <lb/>
+          <lg n="22" type="stanza" rhyme="aabb">
+            <l>Doch fangt e Buͤebli z’ <choice>
+                <sic>raucheu</sic>
+                <corr>rauchen</corr>
+              </choice> a,</l>
+            <lb/>
+            <l>und meint, es choͤnns, as wie ne Ma,</l>
+            <lb/>
+            <l>ſe macht der Schmelzer churze Bricht,</l>
+            <lb/>
+            <l>und zieht em ’s Pfifli uſem Gſicht.</l>
+          </lg>
+          <lb/>
+          <lg n="23" type="stanza" rhyme="aabb">
+            <l>Er keits ins Fuͤuͤr, und balgt derzu:</l>
+            <lb/>
+            <l>„Du dunderſchießige Lappi du,</l>
+            <lb/>
+            <l>„ſug amme Zipfeli Leberwurſt,</l>
+            <lb/>
+            <l>„’s iſch beſſer fuͤr ſo chleini Burſt!“</l>
+          </lg>
+          <lb/>
+          <pb n="42" facs="#f0058"/>
+          <lg n="24" type="stanza" rhyme="aabb">
+            <l>’s iſch wohr, ’s git mengi Churzwiil mehr</l>
+            <lb/>
+            <l>am Suntig no der Chinderlehr,</l>
+            <lb/>
+            <l>und ſtroͤmt der fuͤuͤrig Iſe-Bach</l>
+            <lb/>
+            <l>im Sand, es iſch e ſchoͤni Sach.</l>
+          </lg>
+          <lb/>
+          <lg n="25" type="stanza" rhyme="aabb">
+            <l>Frog menge Ma: „Sag, Nochber he!</l>
+            <lb/>
+            <l>„heſch au ſcho ’s Iſe werde ſeh</l>
+            <lb/>
+            <l>„im fuͤuͤrige Strom de Forme no?“</l>
+            <lb/>
+            <l>Was gilts, er cha nit ſage: Jo!</l>
+          </lg>
+          <lb/>
+          <lg n="26" type="stanza" rhyme="aabb">
+            <l>Mir wuͤſſe, wie me ’s Iſe macht,</l>
+            <lb/>
+            <l>und wie’s im Sand zu Maſſle bacht,</l>
+            <lb/>
+            <l>und wiemes druf in d’Schmidte bringt,</l>
+            <lb/>
+            <l>und d’Luppen unterm Hammer zwingt.</l>
+          </lg>
+          <lb/>
+          <lg n="27" type="stanza" rhyme="aabb">
+            <l>Jez ſchenket i, und ſtoßet a:</l>
+            <lb/>
+            <l>der Hammer-Meiſter iſch au ne Ma!</l>
+            <lb/>
+            <l>Waͤr Hammer-Schmid und Zeiner nit,</l>
+            <lb/>
+            <l>do laͤg e Sach, was thaͤt me mit?</l>
+          </lg>
+          <lb/>
+          <pb n="43" facs="#f0059"/>
+          <lg n="28" type="stanza" rhyme="aabb">
+            <l>Wie giengs im brave Hamberchs-Ma?</l>
+            <lb/>
+            <l>’s muß iede Stahl und Iſe ha;</l>
+            <lb/>
+            <l>und het der Schnider kei Nodle meh,</l>
+            <lb/>
+            <l>ſen iſchs au um ſi Nahrig gſcheh.</l>
+          </lg>
+          <lb/>
+          <lg n="29" type="stanza" rhyme="aabb">
+            <l>Und wenn im fruͤeihe Morgeroth</l>
+            <lb/>
+            <l>der Buur in Feld und Fuhre ſtoht,</l>
+            <lb/>
+            <l>ſe muß er Charſt und Haue ha,</l>
+            <lb/>
+            <l>ſuſt iſch er e verlohrene Ma.</l>
+          </lg>
+          <lb/>
+          <lg n="30" type="stanza" rhyme="aabb">
+            <l>Zum Broche brucht er d’Waͤgeſe,</l>
+            <lb/>
+            <l>zum Meihe brucht er d’Saͤgeſe,</l>
+            <lb/>
+            <l>und d’Sichle, wenn der Weize bleicht,</l>
+            <lb/>
+            <l>und ’s Meſſer, wenn der Truͤbel weicht.</l>
+          </lg>
+          <lb/>
+          <lg n="31" type="stanza" rhyme="aabb">
+            <l>Se ſchmelzet denn, und ſchmiedet ihr,</l>
+            <lb/>
+            <l>und dankich Gott der Her derfuͤr!</l>
+            <lb/>
+            <l>Und mach en andere Sichle drus,</l>
+            <lb/>
+            <l>und was me bruucht in Feld und Hus!</l>
+          </lg>
+          <lb/>
+          <pb n="44" facs="#f0060"/>
+          <lg n="32" type="stanza" rhyme="aabb">
+            <l>Und numme keini Sebel meh!</l>
+            <lb/>
+            <l>’s het gnug miſrabli Chruͤppel ge;</l>
+            <lb/>
+            <l>’s hinkt mengen ohni Fuß und Hand,</l>
+            <lb/>
+            <l>und menge ſchloft im tiefe Sand.</l>
+          </lg>
+          <lb/>
+          <lg n="33" type="stanza" rhyme="aabb">
+            <l>Kei Hurlibaus, ke Fuͤſi meh!</l>
+            <lb/>
+            <l>Mer hen ’s Lamento oͤbbe gſeh,</l>
+            <lb/>
+            <l>und ghoͤrt wie’s in de Berge chracht,</l>
+            <lb/>
+            <l>und Aengſte gha die ganzi Nacht,</l>
+          </lg>
+          <lb/>
+          <lg n="34" type="stanza" rhyme="aabb">
+            <l>und glitte, was me lide cha;</l>
+            <lb/>
+            <l>drum ſchenket i, und ſtoßet a:</l>
+            <lb/>
+            <l>Uf Voͤlker Fried’ und Einigkeit</l>
+            <lb/>
+            <l>vo nun a bis in Ewigkeit!</l>
+          </lg>
+          <lb/>
+          <lg n="35" type="stanza" rhyme="aabb">
+            <l>Jez zahlemer! Jez goͤihmer hei,</l>
+            <lb/>
+            <l>und ſchaffe huͤt no allerley,</l>
+            <lb/>
+            <l>und dengle no bis tief in d’Nacht,</l>
+            <lb/>
+            <l>und meihe, wenn der Tag verwacht.</l>
+          </lg>
+        </lg>
+      </div>
+
+    </body>
+  </text>
+</TEI>

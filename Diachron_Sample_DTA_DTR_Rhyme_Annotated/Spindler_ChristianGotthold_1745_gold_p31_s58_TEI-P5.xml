@@ -1,0 +1,1480 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-model href="Schema/basisformat_lyrik.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Unschuldige Jugend-Früchte</title>
+        <title type="sub">Oder Sammlung poetischer Sendschreiben, bestehend I. in Schertzhafften und
+          Verliebten, II. in Glückwünschenden, III. in Tröstenden, IV. in Vermischten. Nebst einem
+          Theatralischen Anhang, worinnen abgehandelt das Wunderbare der Liebe die unglückliche
+          Aufrichtigkeit, bestraffte Boßheit, und glückliche Verstellung</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/100410618">
+            <surname>Spindler</surname>
+            <forename>Christian Gotthold</forename>
+          </persName>
+        </author>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/115266127">
+            <surname>Geyken</surname>
+            <forename>Alexander</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1018099549">
+            <surname>Haaf</surname>
+            <forename>Susanne</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName ref="http://d-nb.info/gnd/1019062681">
+            <surname>Jurish</surname>
+            <forename>Bryan</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Boenig</surname>
+            <forename>Matthias</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Thomas</surname>
+            <forename>Christian</forename>
+          </persName>
+        </editor>
+        <editor corresp="#DTACorpusPublisher">
+          <persName>
+            <surname>Wiegand</surname>
+            <forename>Frank</forename>
+          </persName>
+        </editor>
+        <respStmt>
+          <orgName ref="http://www.clarin-d.de">CLARIN-D</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="http://fedora.dwds.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Vollständige digitalisierte Ausgabe.</edition>
+      </editionStmt>
+      <extent>
+        <measure type="images">285</measure>
+        <measure type="tokens">38815</measure>
+        <measure type="types">8227</measure>
+        <measure type="characters">253195</measure>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences
+            and Humanities (BBAW)</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+            Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2016-10-10T16:37:59Z</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-nc/3.0/de/">
+            <p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported
+              License.</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="URLWeb">http://www.deutschestextarchiv.de/spindler_jugendfruechte_1745</idno>
+          <idno type="URLXML"
+            >http://www.deutschestextarchiv.de/book/download_xml/spindler_jugendfruechte_1745</idno>
+          <idno type="URLHTML"
+            >http://www.deutschestextarchiv.de/book/download_html/spindler_jugendfruechte_1745</idno>
+          <idno type="URLText"
+            >http://www.deutschestextarchiv.de/book/download_text/spindler_jugendfruechte_1745</idno>
+          <idno type="DTADirName">spindler_jugendfruechte_1745</idno>
+          <idno type="DTAID">20581</idno>
+          <idno type="URN">urn:nbn:de:kobv:b4-20581-9</idno>
+        </idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="M">Spindler, Christian Gotthold: Unschuldige Jugend-Früchte. Leipzig,
+          1745.</bibl>
+        <biblFull>
+          <titleStmt>
+            <title level="m" type="main">Unschuldige Jugend-Früchte</title>
+            <title level="m" type="sub">Oder Sammlung poetischer Sendschreiben, bestehend I. in
+              Schertzhafften und Verliebten, II. in Glückwünschenden, III. in Tröstenden, IV. in
+              Vermischten. Nebst einem Theatralischen Anhang, worinnen abgehandelt das Wunderbare
+              der Liebe die unglückliche Aufrichtigkeit, bestraffte Boßheit, und glückliche
+              Verstellung</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/100410618">
+                <surname>Spindler</surname>
+                <forename>Christian Gotthold</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <extent>
+            <measure type="pages">[7] Bl., 248 S.</measure>
+          </extent>
+          <publicationStmt>
+            <publisher><name>Geßner</name></publisher>
+            <pubPlace>Leipzig</pubPlace>
+            <date type="publication">1745</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <repository>SUB Göttingen</repository>
+            <idno>
+              <idno type="shelfmark">SUB Göttingen, 8 P GERM III, 4571</idno>
+            </idno>
+          </msIdentifier>
+          <physDesc>
+            <typeDesc>
+              <p>Fraktur</p>
+            </typeDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Dieses Werk wurde gemäß den <ref
+            target="http://www.deutschestextarchiv.de/doku/richtlinien"
+            >DTA-Transkriptionsrichtlinien</ref> im Double-Keying-Verfahren von
+          Nicht-Muttersprachlern erfasst und in XML/TEI P5 nach <ref
+            target="http://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat</ref>
+          kodiert.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="rendition-aq">font-family:sans-serif</rendition>
+        <rendition scheme="css" xml:id="rendition-b">font-weight:bold</rendition>
+        <rendition scheme="css" xml:id="rendition-blue">color:blue</rendition>
+        <rendition scheme="css" xml:id="rendition-c">display:block; text-align:center</rendition>
+        <rendition scheme="css" xml:id="rendition-et">display:block; margin-left:2em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-et2">display:block; margin-left:4em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-et3">display:block; margin-left:6em;
+          text-indent:0</rendition>
+        <rendition scheme="css" xml:id="rendition-f">border:1px dotted silver</rendition>
+        <rendition scheme="css" xml:id="rendition-fr">border:1px dotted silver</rendition>
+        <rendition scheme="css" xml:id="rendition-g">letter-spacing:0.125em</rendition>
+        <rendition scheme="css" xml:id="rendition-i">font-style:italic</rendition>
+        <rendition scheme="css" xml:id="rendition-in">font-size:150%</rendition>
+        <rendition scheme="css" xml:id="rendition-k">font-variant:small-caps</rendition>
+        <rendition scheme="css" xml:id="rendition-larger">font-size:larger</rendition>
+        <rendition scheme="css" xml:id="rendition-red">color:red</rendition>
+        <rendition scheme="css" xml:id="rendition-right">display:block; text-align:right</rendition>
+        <rendition scheme="css" xml:id="rendition-s">text-decoration:line-through</rendition>
+        <rendition scheme="css" xml:id="rendition-smaller">font-size:smaller</rendition>
+        <rendition scheme="css" xml:id="rendition-sub">vertical-align:sub;
+          font-size:.7em</rendition>
+        <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+          font-size:.7em</rendition>
+        <rendition scheme="css" xml:id="rendition-u">text-decoration:underline</rendition>
+        <rendition scheme="css" xml:id="rendition-uu">border-bottom:double 3px #000</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">German</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtamain"
+          >Belletristik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Lyrik,
+          Drama</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main"
+          >Belletristik</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Lyrik,
+          Drama</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >core</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >ready</classCode>
+        <classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus"
+          >china</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="1">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabba">
+            <head><hi rendition="#aq">XXVII.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">L</hi>ieß mit freundlichem Geſicht,</l>
+            <lb/>
+            <l>Wenn die Hand das Blat erbricht,</l>
+            <lb/>
+            <l>Was mein Hertze ſehnlich flehet;</l>
+            <lb/>
+            <l>Ließ nur, was darinnen ſtehet:</l>
+            <lb/>
+            <l>Liebſter Freund, vergiß mein nicht!</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="2">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <head><hi rendition="#aq">XXII.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">G</hi>eht, ihr Zeilen, gruͤßt die Schoͤne,</l>
+            <lb/>
+            <l>Zeigt die ſchwach, doch frommen Thoͤne</l>
+            <lb/>
+            <l>Meiner reinſten Zaͤrtlichkeit,</l>
+            <lb/>
+            <l>Bringet Antwort mit der Zeit.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="3">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <head><hi rendition="#aq">XLVI.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">D</hi>em allerſchoͤnſten Kinde</l>
+            <lb/>
+            <l>Schickt man ein Angebinde,</l>
+            <lb/>
+            <l>Jn einem ſchlechten Reim,</l>
+            <lb/>
+            <l>Der klebt wie Vogel-Leim.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="4">
+        <lg type="poem" rhyme="ababcdcdefefghgh">
+          <l><hi rendition="#in">H</hi>ier hieß die Goͤttin ſelbſt mit Fragen ſtille ſtehen,</l>
+          <lb/>
+          <l>Stund auf von ihrem Thron und ſprach: Es</l>
+          <lb/>
+          <l><hi rendition="#et">iſt genung,</hi></l>
+          <lb/>
+          <l>Man muß nicht gar zu weit in kuͤnfftge Dinge gehen,</l>
+          <lb/>
+          <l>Und was vorbey, iſt gut. Der <hi rendition="#aq">Candidat</hi> iſt jung,</l>
+          <lb/>
+          <l>Jch bin feſt uͤberzeugt, es wird ihn nicht gereuen,</l>
+          <lb/>
+          <l>Daß er die Kunſt gelernt, wie man recht zaͤrtlich liebt.</l>
+          <lb/>
+          <l>Sein gantz entzuͤckter Geiſt wird ſich ſtets mehr er-</l>
+          <lb/>
+          <l><hi rendition="#et">freuen,</hi></l>
+          <lb/>
+          <l>Je mehr er kuͤnfftighin ſich in derſelben uͤbt.</l>
+          <lb/>
+          <l>So gehe denn, mein Sohn, ſprach ſie zum <hi rendition="#aq">Candi-</hi></l>
+          <lb/>
+          <l><hi rendition="#et"><hi rendition="#aq">da</hi>ten,</hi></l>
+          <lb/>
+          <l>Erhalte dieſen Trieb, er iſt vortreflich ſchoͤn.</l>
+          <lb/>
+          <l>Und weil die Liebes-Zucht bey dir ſo wohl gerathen,</l>
+          <lb/>
+          <l>So laß das Feuer nie in deiner Bruſt vergehn.</l>
+          <lb/>
+          <l>Gluͤck, Segen, Beyſtand haſt du ſtets von mir zu</l>
+          <lb/>
+          <l><hi rendition="#et">hoffen,</hi></l>
+          <lb/>
+          <l>Jch bleibe dir mit Huld und Gnaden zugethan,</l>
+          <lb/>
+          <l>Es ſteht dir nun mein Reich mit ſeinen Schaͤtzen</l>
+          <lb/>
+          <l><hi rendition="#et">offen,</hi></l>
+          <lb/>
+          <l>Bleib nur in Geiſt und Krafft auf der betretnen</l>
+          <lb/>
+          <l><hi rendition="#et">Bahn.</hi></l>
+          <lb/>
+          <lg type="stanza" rhyme="abab">
+            <l>Daß dieſes <hi rendition="#aq">Vidimus</hi> dem <hi rendition="#aq">Protocollo</hi>
+              gleichet/</l>
+            <lb/>
+            <l>So in der Cantzeley der <hi rendition="#aq">Veneris</hi> gefuͤhrt,</l>
+            <lb/>
+            <l>Und von demſelbigen in keinem <hi rendition="#aq">Punct</hi> abweichet/</l>
+            <lb/>
+            <l>Wird nach <hi rendition="#aq">Collation in fidem atteſti</hi>rt.</l>
+          </lg>
+          <lb/>
+          <closer><salute><hi rendition="#aq"><hi rendition="#et"><hi rendition="#b">LS</hi>
+                  <hi rendition="#i"><hi rendition="#g">GREGORIVS,</hi></hi><lb/> S. A. A.
+                Aj.</hi></hi></salute></closer>
+        </lg>
+      </div>
+
+      <div n="5">
+        <lg type="poem">
+          <head><hi rendition="#b">27) Als er ſeinem guten Freund die kalte<lb/> Fieber-Noth
+              klaget.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="aabbccdd">
+            <l><hi rendition="#in">S</hi>trenger Himmel! hat dein Weſen</l>
+            <lb/>
+            <l>Mir nichts anders auserleſen</l>
+            <lb/>
+            <l>Als die kalte Fieber-Laſt?</l>
+            <lb/>
+            <l>Die den ſchwachen Leib umfaßt.</l>
+            <lb/>
+            <l>Es verſchaͤumen alle Saͤffte,</l>
+            <lb/>
+            <l>Aller Muth, und alle Kraͤffte,</l>
+            <lb/>
+            <l>Und mein ſonſt ſo muntrer Sinn</l>
+            <lb/>
+            <l>Jſt bey dieſem Zuſtand hin.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Froſt</fw>
+          <lb/>
+          <pb n="159" facs="#f0183"/>
+          <fw type="header" place="top"><hi rendition="#b">Vermiſchte Send-Schreiben.</hi></fw>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="aabbccdd">
+            <l>Froſt und Hitze ſind die Plagen,</l>
+            <lb/>
+            <l>Die den armen Coͤrper nagen,</l>
+            <lb/>
+            <l>Dieſe wechſeln immer ab;</l>
+            <lb/>
+            <l>Als die Stuffe zu dem Grab.</l>
+            <lb/>
+            <l>Strenges Schickſal, dein Begehren</l>
+            <lb/>
+            <l>Fordert ja ein bang Verzehren,</l>
+            <lb/>
+            <l>Da mich dieſes Fieber quaͤlt/</l>
+            <lb/>
+            <l>Das den Coͤrper faſt entſeelt.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="aabbccdd">
+            <l>Packe dich einmahl, o Fieber!</l>
+            <lb/>
+            <l><hi rendition="#fr">Bruder!</hi> waͤr es nur voruͤber,</l>
+            <lb/>
+            <l>Mir iſt wuͤrcklich angſt und bang,</l>
+            <lb/>
+            <l>Denn es dauret allzulang.</l>
+            <lb/>
+            <l>Hilff mir doch in naͤchſten Tagen</l>
+            <lb/>
+            <l>Meines Fiebers Laſt ertragen,</l>
+            <lb/>
+            <l>Sprich doch balde bey mir ein,</l>
+            <lb/>
+            <l>Vielleicht wird es beſſer ſeyn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="6">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababc">
+            <head><hi rendition="#aq">L.</hi></head>
+            <lb/>
+            <l><hi rendition="#aq"><hi rendition="#in">C</hi>ito! quam citiſſime!</hi></l>
+            <lb/>
+            <l>Schreibt mein matter Kiel zu Ehren;</l>
+            <lb/>
+            <l>Freund! was nun darinnen ſteh,</l>
+            <lb/>
+            <l>Wird dich ſchon der Jnhalt lehren.</l>
+            <lb/>
+            <l>Nimm, was ich dir uͤberſende,</l>
+            <lb/>
+            <l>Uberließ mit Fleiß das</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="7">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababcc">
+            <head><hi rendition="#aq">XXIX.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">L</hi>aß dich mein Siegel nicht erſchrecken,</l>
+            <lb/>
+            <l>Das dir die ſchwartze Farbe zeigt.</l>
+            <lb/>
+            <l>Der Jnhalt wird dir mehr entdecken,</l>
+            <lb/>
+            <l>Mein altes Weib iſt nun erbleicht.</l>
+            <lb/>
+            <l>Vielleicht wird auch mein banges Trauren</l>
+            <lb/>
+            <l>Nicht vier und zwantzig Stunden dauren.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="8">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <head>§. 4.</head>
+            <lb/>
+            <l>Und weñ er ihr ſein Hertz zur Heyrath angetragen,</l>
+            <lb/>
+            <l>Und ſie nicht Ja, nicht Nein, zur Antwort ſolte ſagen,</l>
+            <lb/>
+            <l>Jn Summa, wenn ihr das nur nicht zuwider iſt,</l>
+            <lb/>
+            <l>So braucht er weiter nicht als nur die Hand gekuͤßt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="9">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <head><hi rendition="#aq">VIII.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">Z</hi>wey Kinder redlicher Propheten</l>
+            <lb/>
+            <l>Die flehen heut in ihren Noͤthen,</l>
+            <lb/>
+            <l>Und bitten, Wertheſter Patron,</l>
+            <lb/>
+            <l>Hilff ihnen, weil du kanſt, davon.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="10">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababccdd">
+            <head><hi rendition="#b">Einer frommen Ehe-Frau.</hi><lb/>
+              <hi rendition="#fr">J. D. Hanckin.</hi>
+              <hi rendition="#g">1744.</hi></head>
+            <lb/>
+            <l><hi rendition="#fr"><hi rendition="#in">S</hi>ey getreu bis an das Ende,</hi></l>
+            <lb/>
+            <l>Ja das hab ich auch gethan.</l>
+            <lb/>
+            <l>Vater, nimm in deine Haͤnde</l>
+            <lb/>
+            <l>Meine Seele gnaͤdigſt an.</l>
+            <lb/>
+            <l>Da ich hier mit Macht geſtritten,</l>
+            <lb/>
+            <l>Da ich vieles Creutz erlitten,</l>
+            <lb/>
+            <l>Geh ich in das Zion ein,</l>
+            <lb/>
+            <l>Wo viel tauſend Fromme ſeyn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="11">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abbaccdd">
+            <head><hi rendition="#b">Auf 6 liebe Kinder.</hi><lb/>
+              <hi rendition="#fr">H. Michlenderleins.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">H</hi>ier decket dieſes Kirchhofs Sand</l>
+            <lb/>
+            <l>Sechs Kinder redlich frommer Eltern,</l>
+            <lb/>
+            <fw type="sig" place="bottom">F 4</fw>
+            <fw type="catch" place="bottom">Die</fw>
+            <lb/>
+            <pb n="88" facs="#f0108"/>
+            <fw type="header" place="top"><hi rendition="#b">Grab. Schrifften.</hi></fw>
+            <lb/>
+            <l>Die Angſt- und Wehmuths-Thraͤnen keltern,</l>
+            <lb/>
+            <l>Sie ſind im frohen Vaterland;</l>
+            <lb/>
+            <l>Dort in den ſchoͤnſten Himmels-Auen</l>
+            <lb/>
+            <l>Solt ihr ſie einſten wieder ſchauen,</l>
+            <lb/>
+            <l>Sie ruffen aus der Himmels-Pracht:</l>
+            <lb/>
+            <l><hi rendition="#fr">Betruͤbte Eltern,</hi> gute Nacht!</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="12">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aaabbb">
+            <head><hi rendition="#aq">XXV.</hi></head>
+            <lb/>
+            <l><hi rendition="#aq"><hi rendition="#in">M</hi>on frere,</hi> nach deinem hohen
+              Willen,</l>
+            <lb/>
+            <l>So ſchick ich dir vor uns im ſtillen</l>
+            <lb/>
+            <l>Ein Paͤckgen rechte derbe Pillen;</l>
+            <lb/>
+            <l>Sie zielen auf den neuen Bund.</l>
+            <lb/>
+            <l>Wie wanckelnd iſt nicht Zeit und Stund!</l>
+            <lb/>
+            <l>Verbrauche ſolche fein geſund.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="13">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abacdd">
+            <head><hi rendition="#aq">XXXVII.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">G</hi>eh hin, getreues Blat, geh, kuͤß die zarten Haͤnde</l>
+            <lb/>
+            <l>Der ſchoͤnſten Dorilis; da ich dich ſchleunigſt</l>
+            <lb/>
+            <l><hi rendition="#et">ſende,</hi></l>
+            <lb/>
+            <fw type="sig" place="bottom">Q 3</fw>
+            <fw type="catch" place="bottom">Geh,</fw>
+            <lb/>
+            <pb n="246" facs="#f0278"/>
+            <fw type="header" place="top"><hi rendition="#b">Poetiſche Aufſchrifften.</hi></fw>
+            <lb/>
+            <l>Geh, bring den treuſten Kuß, geh, halte dich nicht</l>
+            <lb/>
+            <l><hi rendition="#et">auf,</hi></l>
+            <lb/>
+            <l><hi rendition="#aq">Cupido</hi> ſey dein Schutz, der fluͤgle deinen Lauf.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="14">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abba">
+            <head><hi rendition="#aq">III.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">A</hi>ls <hi rendition="#aq">N.</hi> ſeine <hi rendition="#aq"
+                >N.</hi> nimmt,</l>
+            <lb/>
+            <l>Hat bey ihrer Hochzeit-Feyer</l>
+            <lb/>
+            <l>Seine abgenutzte Leyer</l>
+            <lb/>
+            <l>Ein Befreundter angeſtimmt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="15">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abcadd">
+            <head>§. 6.</head>
+            <lb/>
+            <l>Die <hi rendition="#aq">Extra.</hi> Wege gehn, und gleich den Wetter-</l>
+            <lb/>
+            <l><hi rendition="#et">Haͤhnen,</hi></l>
+            <lb/>
+            <fw type="catch" place="bottom">Nach-</fw>
+            <lb/>
+            <pb n="143" facs="#f0165"/>
+            <fw type="header" place="top"><hi rendition="#b">Vermiſchte Send-Schreiben.</hi></fw>
+            <lb/>
+            <l>Nachdem die Winde ſind, ſich rechts und linckes</l>
+            <lb/>
+            <l><hi rendition="#et">drehen,</hi></l>
+            <lb/>
+            <l>Die haben ſich allein auf Truͤgerey befleiſt;</l>
+            <lb/>
+            <l>Die werden ewiglich von Hauß und Hertz verweiſt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="16">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababccdd">
+            <head><hi rendition="#b">Auf drey eintzige Kinder ihrer Eltern/</hi><lb/> ſo zugleich
+              begraben worden.</head>
+            <lb/>
+            <l><hi rendition="#in">S</hi>o geh, du Kleeblatt frommer Soͤhne,</l>
+            <lb/>
+            <l>Jns ewig frohe Canaan,</l>
+            <lb/>
+            <fw type="sig" place="bottom">F 3</fw>
+            <fw type="catch" place="bottom">Wir</fw>
+            <lb/>
+            <pb n="86" facs="#f0106"/>
+            <fw type="header" place="top"><hi rendition="#b">Grab-Srifften.</hi></fw>
+            <lb/>
+            <l>Wir ſingen Jammer-volle Thoͤne,</l>
+            <lb/>
+            <l>Da GOtt den harten Riß gethan.</l>
+            <lb/>
+            <l>Jhr eintzig Hoffnungs-vollen Zweige,</l>
+            <lb/>
+            <l>Wir muͤſſen zwar bey eurer Leiche</l>
+            <lb/>
+            <l>Viel traurige Cypreſſen ſtreun;</l>
+            <lb/>
+            <l>Doch GOtt wird unſer Troͤſter ſeyn.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="17">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <head><hi rendition="#aq">XXX.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">E</hi>in Brief, gefuͤllt mit heiſſen Thraͤnen,</l>
+            <lb/>
+            <l>Zeigt dir ein jammernd aͤchtzend Sehnen</l>
+            <lb/>
+            <l>Das tauſend Seuffzer in ſich faßt,</l>
+            <lb/>
+            <l>Mein Kind, Charlotte, iſt erblaſt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="18">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abab">
+            <head><hi rendition="#aq">XLVIII.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">E</hi>rbrich, o Kind! den Brief, ſo meine Feder</l>
+            <lb/>
+            <l><hi rendition="#et">ſchreibet,</hi></l>
+            <lb/>
+            <l>Die da vor dieſesmahl, ſtatt Dinte, Thraͤnen</l>
+            <lb/>
+            <l><hi rendition="#et">fuͤhrt,</hi></l>
+            <lb/>
+            <l>Weil mich des Schickſals Macht aus dieſen Fluh-</l>
+            <lb/>
+            <l><hi rendition="#et">ren treibet,</hi></l>
+            <lb/>
+            <l>So weiß ich allzuwohl, wie viel mein Hertz verliert.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="19">
+        <lg type="poem">
+          <head><hi rendition="#b">Die durch den Tod betruͤbte Liebe.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababccdd">
+            <l><hi rendition="#in">D</hi>ie Elendsvolle Sterblichkeit</l>
+            <lb/>
+            <l>Hat mir mein beſtes hingenommen,</l>
+            <lb/>
+            <l>Und durch den Hinfall dieſer Zeit</l>
+            <lb/>
+            <l>Bin ich um meinen Schatz gekommen!</l>
+            <lb/>
+            <l><hi rendition="#fr">O! Freund!</hi> hilff mir mein Liebſtes klagen,</l>
+            <lb/>
+            <l>Bemercke nur mein banges Zagen,</l>
+            <lb/>
+            <fw type="sig" place="bottom">A 3</fw>
+            <fw type="catch" place="bottom">Der</fw>
+            <lb/>
+            <pb n="6" facs="#f0026"/>
+            <fw type="header" place="top"><hi rendition="#b">Schertzhaffte und verliebte
+                Briefe.</hi></fw>
+            <lb/>
+            <l>Der herbe Schmerz iſt gar zu arg,</l>
+            <lb/>
+            <l>Es droht Charlotten nun ein Sarg.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababccdd">
+            <l>Sie ſtarb; Charlotte iſt nun todt!</l>
+            <lb/>
+            <l>Die Anmuths voll und holden Wangen,</l>
+            <lb/>
+            <l>Jhr angenehmes Purpur-Roth,</l>
+            <lb/>
+            <l>Jſt mir durch dieſen Fall entgangen!</l>
+            <lb/>
+            <l>Ach herbe Trennung ſuͤſſer Liebe!</l>
+            <lb/>
+            <l>Ach kurtze Dauer edler Triebe,</l>
+            <lb/>
+            <l>Ach, meinen frommen Gegenſtand</l>
+            <lb/>
+            <l>Deckt Erde, Moder, Aſch und Sand.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababccdd">
+            <l>Komm Freund! geh mit zu ihrem Grabe,</l>
+            <lb/>
+            <l>Komm, hilff mir doch Cypreſſen ſtreun;</l>
+            <lb/>
+            <l>Die ich bißher geliebet habe,</l>
+            <lb/>
+            <l>Soll nun ein Raub der Wuͤrmer ſeyn.</l>
+            <lb/>
+            <l>Da ich die redlichen Gebeine</l>
+            <lb/>
+            <l>Jn ihrer Grufft mit ach! beweine,</l>
+            <lb/>
+            <l>O! treuſter Freund! ſo dichte mit,</l>
+            <lb/>
+            <l>Ein fromm und banges Trauerlied.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababccdd">
+            <l>Sie ſtirbt im Morgen ihrer Jahre</l>
+            <lb/>
+            <l>Da liegt nun meine Luſt und Treu!</l>
+            <lb/>
+            <l>So iſt denn von der Todten-Bahre</l>
+            <lb/>
+            <l>Die aͤchte Tugend ſelbſt nicht frey?</l>
+            <lb/>
+            <l>Auch dieſe kan es nicht verwehren?</l>
+            <lb/>
+            <l>Muß denn den Leib die Grufft zerſtoͤhren?</l>
+            <lb/>
+            <l>Wie? wird denn, was ſo tugendhafft,</l>
+            <lb/>
+            <l>Auch von dem Tode hingerafft?</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababccdd">
+            <l>Der herbe Riß, ſo mich geruͤhret,</l>
+            <lb/>
+            <l>Entgeiſtert meinen ſchwachen Geiſt.</l>
+            <lb/>
+            <l>Wer ſchon ſein ander Hertz verliehret,</l>
+            <lb/>
+            <l>Wenn es der Tod von hinnen reißt,</l>
+            <lb/>
+            <fw type="catch" place="bottom">Dem</fw>
+            <lb/>
+            <pb n="7" facs="#f0027"/>
+            <fw type="header" place="top"><hi rendition="#b">Schertzhaffte und verliebte
+                Briefe.</hi></fw>
+            <lb/>
+            <l>Dem muß auf dieſem Rund der Erden</l>
+            <lb/>
+            <l>Die gantze Welt zu enge werden.</l>
+            <lb/>
+            <l>Du kennſt ſchon, Freund! dergleichen Quaal,</l>
+            <lb/>
+            <l>Man ſtuͤrbe lieber tauſendmahl.</l>
+          </lg>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="ababccdd">
+            <l>So biſt du mir nunmehr entriſſen,</l>
+            <lb/>
+            <l>Charlotte! meine groͤſte Luſt!</l>
+            <lb/>
+            <l>So ſoll ich dich auf ewig miſſen?</l>
+            <lb/>
+            <l>Hier zittert Hertze Geiſt und Bruſt.</l>
+            <lb/>
+            <l>Du muſt mir auch im Grabe goͤnnen,</l>
+            <lb/>
+            <l>Daß ich mich darff den deinen nennen.</l>
+            <lb/>
+            <l>So hefftig bebt kein ſchuͤchtern Wild,</l>
+            <lb/>
+            <l>Als wie mein Hertz mit Angſt erfuͤllt.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="ababccdd">
+            <l>Schlaff ſanfft in deiner Ruhekammer!</l>
+            <lb/>
+            <l>Der Schmuck von deinem Leichenſtein</l>
+            <lb/>
+            <l>Soll bey mir thraͤnend mit viel Jammer</l>
+            <lb/>
+            <l>Jm Hertzen aufgerichtet ſeyn.</l>
+            <lb/>
+            <l>Mein Hertz ſey deine Leichen-Hoͤle,</l>
+            <lb/>
+            <l>Du andre Helffte meiner Seele!</l>
+            <lb/>
+            <l>Da mich dein Tod ſo ſehr betruͤbt,</l>
+            <lb/>
+            <l>So werd ich auch nicht mehr verliebt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="20">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aa">
+            <head><hi rendition="#b">Auf ein Kind.</hi><lb/>
+              <hi rendition="#fr">C. G. Scharſchmidt.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">G</hi>eh, lieber Sohn, in Salems Freude ein,</l>
+            <lb/>
+            <l>Der Eltern Hertz dient dir zu einem Leichen-</l>
+            <lb/>
+            <l><hi rendition="#et">Stein.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="21">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababcdcd">
+            <head><hi rendition="#b">Auf einen Todtengraͤber.</hi><lb/>
+              <hi rendition="#fr">J. G. Schraͤpel.</hi> 1744.</head>
+            <lb/>
+            <l><hi rendition="#in">J</hi>ch habe manchen eingeſcharret,</l>
+            <lb/>
+            <l>Und ihm ſein Ruhe-Bett gemacht;</l>
+            <lb/>
+            <l>Nun bin ich endlich ſelbſt erſtarret,</l>
+            <lb/>
+            <l>Und in das duͤſtre Grab gebracht.</l>
+            <lb/>
+            <l>Du, Leſer! ſolſt die Nachricht haben,</l>
+            <lb/>
+            <l>Gantz Buchholtz iſt es faſt bekannt:</l>
+            <lb/>
+            <l>Zwey Tauſend habe ich begraben,</l>
+            <lb/>
+            <l>Und mich begraͤbt des Sohnes Hand.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="22">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="ababccdd">
+            <head><hi rendition="#b">Auf ſeine Mutter.</hi><lb/>
+              <hi rendition="#fr">A. R. Spindlerin.</hi>
+              <hi rendition="#g">1742.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">D</hi>u ſtirbſt, <hi rendition="#fr">o frommes
+              Mutter-Hertz!</hi></l>
+            <lb/>
+            <l>Auch dir ſoll mein bethraͤntes Dichten,</l>
+            <lb/>
+            <l>O! herbe Angſt! o Ach! o Schmertz!</l>
+            <lb/>
+            <l>Die letzte Kindes-Pflicht entrichten.</l>
+            <lb/>
+            <l>Hab Danck vor alle Treu und Huld,</l>
+            <lb/>
+            <l>Ein Thraͤnen-Kuß bezahlt die Schuld.</l>
+            <lb/>
+            <l>Du Herrſcher uͤber Tod und Leben,</l>
+            <lb/>
+            <l>Wirſt mir ſie einſten wieder geben.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="23">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabbccdd">
+            <head><hi rendition="#b">Auf eine erbare Wittwe.</hi><lb/>
+              <hi rendition="#fr">J. M. Kuntzin.</hi> 1741.</head>
+            <lb/>
+            <l><hi rendition="#in">S</hi>o giebſt du mir die Ehren-Crone,</l>
+            <lb/>
+            <l>Mein Joel, dort vor deinem Throne.</l>
+            <lb/>
+            <l>O! wie iſt es ſo angenehm</l>
+            <lb/>
+            <l>Jm himmliſchen Jeruſalem!</l>
+            <lb/>
+            <fw type="sig" place="bottom">F 5</fw>
+            <fw type="catch" place="bottom"><hi rendition="#fr">Ge-</hi></fw>
+            <lb/>
+            <pb n="90" facs="#f0110"/>
+            <fw type="header" place="top"><hi rendition="#b">Grab-Schrifften.</hi></fw>
+            <lb/>
+            <l><hi rendition="#fr">Geliebte Kinder,</hi> laßt das Trauren,</l>
+            <lb/>
+            <l>Stillt euer zaͤrtliches Bedauren,</l>
+            <lb/>
+            <l>Goͤnnt mir den ſanfften Ruhe-Ort,</l>
+            <lb/>
+            <l>Bedenckt mein letztes Segens-Wort.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="24">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <head>§. 5.</head>
+            <lb/>
+            <l>Bringt ſie die Brief herfuͤr, die der und der ge-</l>
+            <lb/>
+            <l><hi rendition="#et">ſchrieben,</hi></l>
+            <lb/>
+            <l>So heiſt es zwar gar viel, doch werden nach Beliebẽ</l>
+            <lb/>
+            <l>Die Lenden ſanfft geklopfft,</l>
+            <lb/>
+            <l>Und wer veraͤndern will, die Backen zart gezopfft.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="25">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <head>§. 3.</head>
+            <lb/>
+            <l>Zeigt ſie von ihrer Gunſt ie manchmahl kurtze</l>
+            <lb/>
+            <l><hi rendition="#et">Proben,</hi></l>
+            <lb/>
+            <l>Und ſolte ſie an ihm bald diß bald jenes loben:</l>
+            <lb/>
+            <l>Er waͤre an Perſon und Reden ſehr geſchickt,</l>
+            <lb/>
+            <l>So werden ihr dafuͤr die Haͤnde ſanfft gedruͤckt.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="26">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <head><hi rendition="#aq">XVIII.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">D</hi>a du dein neues Hauß bezogen,</l>
+            <lb/>
+            <l>So wuͤnſcht dir ein geſchriebner Bogen</l>
+            <lb/>
+            <l>Der treuen Vorſicht Gnaden-Blick,</l>
+            <lb/>
+            <l>Und durch dieſelbe Heil und Gluͤck.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="27">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="aabb">
+            <head><hi rendition="#aq">V.</hi></head>
+            <lb/>
+            <l><hi rendition="#in">D</hi>ein Nahmens-Feſt, o ſuͤſſe Luſt!</l>
+            <lb/>
+            <l>Entzuͤndet meine treue Bruſt,</l>
+            <lb/>
+            <l>Die fromm und reine Wuͤnſche heget,</l>
+            <lb/>
+            <l>Und dir diß Blat zu Fuͤſſen leget.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="28">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="abab">
+            <head>§. 2.</head>
+            <lb/>
+            <l>Wenn der, dem es erlaubt, ein Maͤulgen anzu-</l>
+            <lb/>
+            <l><hi rendition="#et">bringen,</hi></l>
+            <lb/>
+            <l>Von ſeinen lieben Schatz ein mehrers wolt erzwingẽ;</l>
+            <lb/>
+            <l>So geht er ja zu weit drum ſchließ er ſich nicht aus,</l>
+            <lb/>
+            <l>Und bringe durch Muſic ein Staͤndgen vor das</l>
+            <lb/>
+            <l><hi rendition="#et">Hauß.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="29">
+        <lg type="poem">
+
+          <lg type="stanza" rhyme="a">
+            <head><hi rendition="#b">16) Ein ander Briefgen,</hi><lb/>
+              <hi rendition="#fr">da er ihn heimlich durch hier geſetzte</hi>
+              <hi rendition="#aq">Vocales</hi>
+              <hi rendition="#fr">wegen<lb/> Schulden warnet, damit es nicht jeder leſen<lb/>
+                ſollte.</hi></head>
+            <lb/>
+            <l><hi rendition="#b">Siehe beygehendes Kupffer.</hi></l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="30">
+        <lg type="poem">
+          <head><hi rendition="#b">Die Liebe zu Allerley,<lb/> oder ein Quodlibet.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababcdcd">
+            <l><hi rendition="#in">H</hi>err Schwager, du verlangſt von mir</l>
+            <lb/>
+            <l>Voritzt ein Allerley zu leſen:</l>
+            <lb/>
+            <l>Fuͤnff Jahre biſt du ſchon nicht hier</l>
+            <lb/>
+            <l>Jn unſerm alten Ort geweſen.</l>
+            <lb/>
+            <l>Wohlan, ich folge meiner Pflicht,</l>
+            <lb/>
+            <l>Und thu dirs zu Gefallen,</l>
+            <lb/>
+            <l>Jch weiß ſchon, du verſchmaͤheſt nicht</l>
+            <lb/>
+            <l>Mein Allerley von allen.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababcdcd">
+            <l>Herr Bruder, ach bedencke doch</l>
+            <lb/>
+            <l>Die alte Marcipille,</l>
+            <lb/>
+            <l>Das alte Fell lebt immer noch,</l>
+            <lb/>
+            <fw type="catch" place="bottom">Und</fw>
+            <lb/>
+            <pb n="16" facs="#f0036"/>
+            <fw type="header" place="top"><hi rendition="#b">Schertzhaffte und verliebte
+                Briefe.</hi></fw>
+            <lb/>
+            <l>Und kuppelt in der Stille.</l>
+            <lb/>
+            <l>Jſt das nicht eine groſſe Noth,</l>
+            <lb/>
+            <l>Geh doch, du alter Schaͤcker,</l>
+            <lb/>
+            <l>Es heiſt: iß fein viel Zucker-Brod,</l>
+            <lb/>
+            <l>Und lauf zum Apothecker.</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcdcd">
+            <l>Da ſchickt mich meine Schweſter her</l>
+            <lb/>
+            <l>Mit einem guten Tage,</l>
+            <lb/>
+            <l>Das arme Kind hinckt itzo ſehr,</l>
+            <lb/>
+            <l>Das iſt ja eine Plage.</l>
+            <lb/>
+            <l>Herr <hi rendition="#aq">Doctor,</hi> helfft ihr von dem Schmertz,</l>
+            <lb/>
+            <l>Seyd aber auch nicht theuer,</l>
+            <lb/>
+            <l>Es brennt dem armen Ding das Hertz</l>
+            <lb/>
+            <l>Als wie pur lauter Feuer.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababcdcd">
+            <l>Ey, liebe Jungfer, o! mit Gunſt,</l>
+            <lb/>
+            <l>Jhr ſolt es ſchon erfahren,</l>
+            <lb/>
+            <l>Jch will mit meiner groſſen Kunſt</l>
+            <lb/>
+            <l>Nicht das geringſte ſpahren.</l>
+            <lb/>
+            <l>Hier habt ihr eine Portion</l>
+            <lb/>
+            <l>Von neun und achtzig Pillen,</l>
+            <lb/>
+            <l>Da, Jungfer, die <hi rendition="#aq">curi</hi>ren ſchon,</l>
+            <lb/>
+            <l>Das wird den Schmertzen ſtillen.</l>
+          </lg>
+          <lb/>
+          <lg n="5" type="stanza" rhyme="ababcdcd">
+            <l>Bey uns ſieht es gar windig aus,</l>
+            <lb/>
+            <l>Man geht nicht mehr zum Biere.</l>
+            <lb/>
+            <l>Sonſt kam man von dem guten Schmaus</l>
+            <lb/>
+            <l>Nicht eher als um Viere.</l>
+            <lb/>
+            <l>Doch, wenn es uns am Beſten fehlt,</l>
+            <lb/>
+            <l>So mangeln auch die Huͤner.</l>
+            <lb/>
+            <l>Wie ſteht es um das liebe Geld?</l>
+            <lb/>
+            <l>Mein Herr, ich bin ſein Diener.</l>
+          </lg>
+          <lb/>
+          <fw type="catch" place="bottom">Ach</fw>
+          <lb/>
+          <pb n="17" facs="#f0037"/>
+          <fw type="header" place="top"><hi rendition="#b">Schertzhaffte und verliebte
+            Briefe.</hi></fw>
+          <lb/>
+          <lg n="6" type="stanza" rhyme="ababcdcd">
+            <l>Ach lieber Herr! ach lieber Herr!</l>
+            <lb/>
+            <l>Wo bleibt doch unſer Bote?</l>
+            <lb/>
+            <l>O! wenn er ſchon gekommen waͤr,</l>
+            <lb/>
+            <l>Sonſt graͤm ich mich zu Tode.</l>
+            <lb/>
+            <l>Es heiſſet: mach nunmehr <hi rendition="#aq">Credit.</hi></l>
+            <lb/>
+            <l>Da hilfft kein langes Kratzen,</l>
+            <lb/>
+            <l>Der Bote bringet alles mit,</l>
+            <lb/>
+            <l>Zumahl ein Saͤckgen Batzen.</l>
+          </lg>
+          <lb/>
+          <lg n="7" type="stanza" rhyme="ababcdcd">
+            <l>Die Katze laͤßt das Naſchen nicht,</l>
+            <lb/>
+            <l>Gleichwie der Hund das Bellen.</l>
+            <lb/>
+            <l><hi rendition="#aq">Monſieur,</hi> hier iſt ein Jnſelt-Licht.</l>
+            <lb/>
+            <l>Wer wird ſich ſo verſtellen?</l>
+            <lb/>
+            <l>Die <hi rendition="#aq">Hadrienne</hi> ſtehet flinck,</l>
+            <lb/>
+            <l>Zumahl bey Menuween.</l>
+            <lb/>
+            <l>Geh nur, du garſtig boͤſes Ding,</l>
+            <lb/>
+            <l>Jch kan dich nicht erſehen.</l>
+          </lg>
+          <lb/>
+          <lg n="8" type="stanza" rhyme="ababcdcd">
+            <l>Der Dachs im Loche beiſt den Hund,</l>
+            <lb/>
+            <l>Jch hab es nechſt geleſen.</l>
+            <lb/>
+            <l>Ey kleiner, halte dich recht rund,</l>
+            <lb/>
+            <l>Und mach kein groſſes Weſen.</l>
+            <lb/>
+            <l>Das Ding geht ſo ohnmoͤglich an,</l>
+            <lb/>
+            <l>Wer kan denn alles riechen?</l>
+            <lb/>
+            <l>Nechſt hat mir auch des Nachbars Hahn</l>
+            <lb/>
+            <l>Mein Huͤner-Haus beſtiegen.</l>
+          </lg>
+          <lb/>
+          <lg n="9" type="stanza" rhyme="ababcdcd">
+            <l>Ein alter Mann, ein junges Weib</l>
+            <lb/>
+            <l>Sind laͤcherliche Dinge.</l>
+            <lb/>
+            <l>Fluchs, Junge, ſiehe her und ſchreib,</l>
+            <lb/>
+            <l>Daß ichs zu Stande bringe.</l>
+            <lb/>
+            <l>Ey ſage doch, was heiſt denn das?</l>
+            <lb/>
+            <l>Wo muß Herr Einfalt ſtecken?</l>
+            <lb/>
+            <fw type="sig" place="bottom">B</fw>
+            <fw type="catch" place="bottom">Dort</fw>
+            <lb/>
+            <pb n="18" facs="#f0038"/>
+            <fw type="header" place="top"><hi rendition="#b">Schertzhaffte und verliebte
+                Briefe.</hi></fw>
+            <lb/>
+            <l>Dort ſteht er bey dem Syrup-Faß,</l>
+            <lb/>
+            <l>Und wird den Deckel lecken.</l>
+          </lg>
+          <lb/>
+          <lg n="10" type="stanza" rhyme="ababcdcd">
+            <l><hi rendition="#aq">En quaeſo, ergo itaque,</hi></l>
+            <lb/>
+            <l>So ſange der Schulmeiſter.</l>
+            <lb/>
+            <l><hi rendition="#aq">Quid agunt noſtrae Foeminae?</hi></l>
+            <lb/>
+            <l>Sie pruͤfen eure Geiſter.</l>
+            <lb/>
+            <l>Ach heuer iſts gantz wohl beſtellt,</l>
+            <lb/>
+            <l>Der Haber giebt viel Koͤrner.</l>
+            <lb/>
+            <l>Was machen Weiber in der Welt?</l>
+            <lb/>
+            <l><hi rendition="#aq">Reſponſio:</hi> Viel Hoͤrner.</l>
+          </lg>
+          <lb/>
+          <lg n="11" type="stanza" rhyme="ababcdcd">
+            <l>Nechſt ſagte Frau Pomponia:</l>
+            <lb/>
+            <l>Schatz! ich werd balde ſterben,</l>
+            <lb/>
+            <l>Jch mercke nun, mein End iſt da,</l>
+            <lb/>
+            <l>Nun ſolſt du alles erben.</l>
+            <lb/>
+            <l>Schatz! ſprach er, ſterbe lieber jung,</l>
+            <lb/>
+            <l>Jch will dich gluͤcklich preiſen,</l>
+            <lb/>
+            <l>Denn, weiſt du deine Beſſerung,</l>
+            <lb/>
+            <l>So magſt du morgen reiſen.</l>
+          </lg>
+          <lb/>
+          <lg n="12" type="stanza" rhyme="ababcdcd">
+            <l>Jch wolte gerne bald fuͤrwahr</l>
+            <lb/>
+            <l>Mein Schaͤtzgen auch beſuchen;</l>
+            <lb/>
+            <l>Allein die Gelder ſind zu rar,</l>
+            <lb/>
+            <l>Wie wird die Mutter fluchen!</l>
+            <lb/>
+            <l>Ach wohl, du gut und armes Kind,</l>
+            <lb/>
+            <l>Jch bin dir zwar gewogen,</l>
+            <lb/>
+            <l>Allein wenn ſich das Ende findt,</l>
+            <lb/>
+            <l>So biſt du doch betrogen.</l>
+          </lg>
+          <lb/>
+          <lg n="13" type="stanza" rhyme="ababcdcd">
+            <l>Wenn <hi rendition="#aq">Archimedes</hi> Zircel macht,</l>
+            <lb/>
+            <l>So wird er gar erſchlagen.</l>
+            <lb/>
+            <l>Und unſre vorge junge Magd</l>
+            <lb/>
+            <l>Wird den <hi rendition="#aq">Criſpin</hi> verklagen.</l>
+            <lb/>
+            <fw type="catch" place="bottom">Wer</fw>
+            <lb/>
+            <pb n="19" facs="#f0039"/>
+            <fw type="header" place="top"><hi rendition="#b">Schertzhaffte und verliebte
+                Briefe.</hi></fw>
+            <lb/>
+            <l>Wer wird wohl kuͤnfftig den <hi rendition="#aq">Caffée</hi></l>
+            <lb/>
+            <l>Vor einen Achter kauffen,</l>
+            <lb/>
+            <l>Das thut dem Beutel gar zu weh,</l>
+            <lb/>
+            <l>So muß man Raſter ſauffen.</l>
+          </lg>
+          <lb/>
+          <lg n="14" type="stanza" rhyme="ababcdcd">
+            <l>Zu Neudorff iſt ein junges Bild,</l>
+            <lb/>
+            <l>Jhr koͤnnt ſie faſt errathen,</l>
+            <lb/>
+            <l>Dieſelbe iſt ſehr frech und wild,</l>
+            <lb/>
+            <l>Und haͤlt es mit Soldaten.</l>
+            <lb/>
+            <l>Mein Kind! ich hab es ſelbſt geſehn,</l>
+            <lb/>
+            <l>Nunmehro vor acht Wochen,</l>
+            <lb/>
+            <l>Die liebe Mutter wird ſie ſchoͤn</l>
+            <lb/>
+            <l>Und nach der Kunſt auspochen.</l>
+          </lg>
+          <lb/>
+          <lg n="15" type="stanza" rhyme="ababcdcd">
+            <l>Was will der arme <hi rendition="#aq">Courtiſan,</hi></l>
+            <lb/>
+            <l>Jſt das <hi rendition="#aq">Raiſon de Guerre,</hi></l>
+            <lb/>
+            <l>Da ich nun auch <hi rendition="#aq">parli</hi>ren kan,</l>
+            <lb/>
+            <l>Was will der arme Herre?</l>
+            <lb/>
+            <l>Jch bin vor ihn zu <hi rendition="#aq">pretieux,</hi></l>
+            <lb/>
+            <l>Das walte doch der Himmel.</l>
+            <lb/>
+            <l>Der Hammer giebet harte Stoͤß.</l>
+            <lb/>
+            <l>Geh nur, du Bauer-Limmel.</l>
+          </lg>
+          <lb/>
+          <lg n="16" type="stanza" rhyme="ababcdcd">
+            <l>Wenn du zu Frauenzimmer gehſt,</l>
+            <lb/>
+            <l>Sey doch nicht ſo verzumpen;</l>
+            <lb/>
+            <l>Denn wenn du gar zu hoͤckrigt ſtehſt,</l>
+            <lb/>
+            <l>So kriegſt du einen Stumpen.</l>
+            <lb/>
+            <l>Wohlan, ſo mache dich beliebt,</l>
+            <lb/>
+            <l>Und thue gleich ein Taͤntzgen.</l>
+            <lb/>
+            <l>Sieh nur, wie ſteht hier ſo betruͤbt</l>
+            <lb/>
+            <l>Die <hi rendition="#aq">Mademois.</hi> Emerenzgen.</l>
+          </lg>
+          <lb/>
+          <lg n="17" type="stanza" rhyme="ababcdcd">
+            <l>Wie es nun alſo bey uns geht,</l>
+            <lb/>
+            <l>Das ſiehſt du nun itzunder.</l>
+            <lb/>
+            <fw type="sig" place="bottom">B 2</fw>
+            <fw type="catch" place="bottom">Herr</fw>
+            <lb/>
+            <pb n="20" facs="#f0040"/>
+            <fw type="header" place="top"><hi rendition="#b">Schertzhaffte und verliebte
+                Briefe.</hi></fw>
+            <lb/>
+            <l>Herr Schwager, dieſes Quodlibet</l>
+            <lb/>
+            <l>Zeigt dir den gantzen Plunder.</l>
+            <lb/>
+            <l>Und ſcheint dir es nicht wahr zu ſeyn,</l>
+            <lb/>
+            <l>So komm auf unſre Hoͤhen,</l>
+            <lb/>
+            <l>Mein Allerley trifft richtig ein,</l>
+            <lb/>
+            <l>Du wirſt es deutlich ſehen.</l>
+          </lg>
+        </lg>
+      </div>
+
+      <div n="31">
+        <lg type="poem">
+          <head><hi rendition="#b">An einen/ der ſein eigen Kind unverſe-<lb/> hens erſchoſſen
+              hat.</hi></head>
+          <lb/>
+          <lg n="1" type="stanza" rhyme="ababcdcd">
+            <l><hi rendition="#in">G</hi>ehet nur, bethraͤnte Zeilen,</l>
+            <lb/>
+            <l>Bringt das bange Mitleid an;</l>
+            <lb/>
+            <l>Man wird euch Gehoͤr ertheilen,</l>
+            <lb/>
+            <l>Gehet zu dem frommen Mann,</l>
+            <lb/>
+            <l>Zu den Jacob jener Stadt,</l>
+            <lb/>
+            <l>Der ſein Kind erſchoſſen hat,</l>
+            <lb/>
+            <l>Der durch unvermuthet Schuͤſſen</l>
+            <lb/>
+            <l>Seinen Sohn ertoͤdten muͤſſen.</l>
+          </lg>
+          <lb/>
+          <lg n="2" type="stanza" rhyme="ababcdcd">
+            <l>Armes Schaaf von ſeinem Hauffen,</l>
+            <lb/>
+            <l>Nun erſtarrter Benjamin!</l>
+            <lb/>
+            <l>Muſt du denn entgegen lauffen?</l>
+            <lb/>
+            <l>Reißt dich eine Kugel hin!</l>
+            <lb/>
+            <l>Wird der hoͤchſt verhaßte Ort</l>
+            <lb/>
+            <l>Unſchulds- voll zum Vater-Mord?</l>
+            <lb/>
+            <fw type="catch" place="bottom">Muſt</fw>
+            <lb/>
+            <pb n="97" facs="#f0117"/>
+            <fw type="header" place="top"><hi rendition="#b">an Verungluͤckte.</hi></fw>
+            <lb/>
+            <l>Muſt du in belaubten Buchen</l>
+            <lb/>
+            <l>Deinen Tod ſo ploͤtzlich ſuchen?</l>
+          </lg>
+          <lb/>
+          <lg n="3" type="stanza" rhyme="ababcdcd">
+            <l>Ja, ach leider! iſts geſchehen,</l>
+            <lb/>
+            <l>Frommer Vater! faſſe dich;</l>
+            <lb/>
+            <l>Laß der bangen Seuffzer Flehen,</l>
+            <lb/>
+            <l>Kraͤncket es gleich inniglich,</l>
+            <lb/>
+            <l>Muß die Unſchuld doch allein</l>
+            <lb/>
+            <l>Dir zur beſten Troͤſtung ſeyn.</l>
+            <lb/>
+            <l>Diß dient auch zum Troſt der Deinen,</l>
+            <lb/>
+            <l>Darum hemmt das bange Weinen.</l>
+          </lg>
+          <lb/>
+          <lg n="4" type="stanza" rhyme="ababcdcd">
+            <l>Unvermuthet bange Faͤlle</l>
+            <lb/>
+            <l>Kommen von weit hoͤhrer Macht,</l>
+            <lb/>
+            <l>Scheint uns heut der Himmel helle,</l>
+            <lb/>
+            <l>Morgen kommt die Ungluͤcks-Nacht.</l>
+            <lb/>
+            <l>Niemand weiß des Zufalls Spuhr,</l>
+            <lb/>
+            <l>Doch die Vorſicht kennt ſie nur,</l>
+            <lb/>
+            <l>Und ihr gnaͤdigſtes Erweiſen,</l>
+            <lb/>
+            <l>Muß man letzt an Ende preiſen.</l>
+          </lg>
+        </lg>
+      </div>
+
+    </body>
+  </text>
+</TEI>
